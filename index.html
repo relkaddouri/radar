@@ -239,6 +239,9 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-off
 [dir="rtl"] .reader p.body{line-height:1.9}
 .reader ul.pts{margin:0;padding-inline-start:20px;display:grid;gap:10px}
 .reader ul.pts li{font-size:17px;line-height:1.55}
+.reader .resume{background:var(--raised);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:grid;gap:8px}
+.reader .resume h2{margin:0}
+.reader .resume p.body{margin:0}
 .keybox{border-radius:12px;padding:14px 16px;background:color-mix(in srgb,var(--c,var(--accent)) 12%,var(--surface));border-inline-start:4px solid var(--c,var(--accent))}
 .keybox b{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--c,var(--accent));margin-bottom:4px}
 [dir="rtl"] .keybox b{text-transform:none;letter-spacing:0;font-size:13px}
@@ -286,7 +289,7 @@ const T = {
   fr:{
     app:"Radar", tabs:{home:"Accueil",agenda:"Agenda",news:"Actus",reads:"À lire",settings:"Réglages"},
     titles:{home:"Aujourd'hui",agenda:"Agenda",news:"Actus",reads:"À lire",settings:"Réglages"},
-    aiBadge:"Analyse Radar · écrite par Claude", cardBadge:"Fiche Radar · résumé écrit par Claude", analyses:"Analyses Radar", analysisOfDay:"Analyse du jour", essential:"L\u2019essentiel en 1 minute", takeawayH:"À retenir", whyH:"Pourquoi c\u2019est important pour toi", readFull:"Lire l\u2019article complet", back:"Retour", sourcesH:"Sources utilisées", aiNote:"Ce texte a été écrit par Claude à partir des sources ci-dessous. Vérifie les détails importants avant de les partager.", cardNote:(src)=>`Résumé écrit par Claude avec ses propres mots. L\u2019article original appartient à ${src}.`, readAnalysis:"Analyse Radar", readCard:"Lire la fiche", readAn:"Lire l\u2019analyse", newTag:"Nouveau", sinceTitle:"Nouveau pour toi depuis ta dernière visite", sinceNews:"actus", sinceReads:"lectures", sinceRes:"résultats", upToDate:"Tu es à jour : rien de nouveau depuis ta dernière visite.", markAllSeen:"Tout marquer comme vu", nNew:n=>`${n} nouveau${n>1?"x":""}`, toWatch:"À voir", vid:{highlights:"Résumé vidéo",trailer:"Bande-annonce",promo:"Vidéo"}, updRunning:(h)=>`Mise à jour en cours… (commencée à ${h}). Les nouveautés arrivent toutes seules.`, updDone:"Mise à jour reçue ✓", briefTitle:"Le brief du jour", results:"Résultats récents", done:["Fini",""], result:"Résultat", recap:"Lire l'analyse", addCal:"Ajouter au calendrier", calTitle:"Calendrier de l'iPhone", calSub:"Abonne ton iPhone aux incontournables : ils apparaissent dans ton calendrier avec une alerte 30 min avant, et la liste se met à jour toute seule.", calBtn:"S'abonner aux incontournables", calAll:"Tout l'agenda", readTonight:"À lire ce soir", seeReads:"Toutes les lectures", whyRead:"Pourquoi le lire : ", min:"min", markRead:"Marquer comme lu", isRead:"Lu ✓", open:"Lire", unread:"Non lus", paywall:"accès payant", langs:{fr:"FR",en:"EN",ar:"AR"}, readsEmpty:"Tu as tout lu dans cette catégorie. De nouvelles lectures arrivent chaque matin.", readsIntro:"Analyses et articles de fond choisis pour toi, mis à jour chaque matin.",
+    aiBadge:"Analyse Radar · écrite par Claude", cardBadge:"Fiche Radar · résumé écrit par Claude", analyses:"Analyses Radar", analysisOfDay:"Analyse du jour", essential:"L\u2019essentiel en 1 minute", resumeH:"Le résumé", keyPoints:"Les points clés", takeawayH:"À retenir", whyH:"Pourquoi c\u2019est important pour toi", readFull:"Lire l\u2019article complet", back:"Retour", sourcesH:"Sources utilisées", aiNote:"Ce texte a été écrit par Claude à partir des sources ci-dessous. Vérifie les détails importants avant de les partager.", cardNote:(src)=>`Résumé écrit par Claude avec ses propres mots. L\u2019article original appartient à ${src}.`, readAnalysis:"Analyse Radar", readCard:"Lire la fiche", readAn:"Lire l\u2019analyse", newTag:"Nouveau", sinceTitle:"Nouveau pour toi depuis ta dernière visite", sinceNews:"actus", sinceReads:"lectures", sinceRes:"résultats", upToDate:"Tu es à jour : rien de nouveau depuis ta dernière visite.", markAllSeen:"Tout marquer comme vu", nNew:n=>`${n} nouveau${n>1?"x":""}`, toWatch:"À voir", vid:{highlights:"Résumé vidéo",trailer:"Bande-annonce",promo:"Vidéo"}, updRunning:(h)=>`Mise à jour en cours… (commencée à ${h}). Les nouveautés arrivent toutes seules.`, updDone:"Mise à jour reçue ✓", briefTitle:"Le brief du jour", results:"Résultats récents", done:["Fini",""], result:"Résultat", recap:"Lire l'analyse", addCal:"Ajouter au calendrier", calTitle:"Calendrier de l'iPhone", calSub:"Abonne ton iPhone aux incontournables : ils apparaissent dans ton calendrier avec une alerte 30 min avant, et la liste se met à jour toute seule.", calBtn:"S'abonner aux incontournables", calAll:"Tout l'agenda", readTonight:"À lire ce soir", seeReads:"Toutes les lectures", whyRead:"Pourquoi le lire : ", min:"min", markRead:"Marquer comme lu", isRead:"Lu ✓", open:"Lire", unread:"Non lus", paywall:"accès payant", langs:{fr:"FR",en:"EN",ar:"AR"}, readsEmpty:"Tu as tout lu dans cette catégorie. De nouvelles lectures arrivent chaque matin.", readsIntro:"Analyses et articles de fond choisis pour toi, mis à jour chaque matin.",
     all:"Tous", allNews:"Tout", fav:"★ Favoris", updated:"Mis à jour le ", loading:"Chargement…",
     next:"Prochain incontournable", days:"jours", day1:"jour", hours:"h", mins:"min", before:"avant", todayShort:"auj.", startsAt:"Début", started:"C'est en cours",
     week:"Grands rendez-vous", seeAgenda:"Tout l'agenda", headlines:"À la une", seeNews:"Toutes les actus", seeAll:n=>`Voir tout (${n})`,
@@ -311,7 +314,7 @@ const T = {
   ar:{
     app:"رادار", tabs:{home:"الرئيسية",agenda:"المواعيد",news:"الأخبار",reads:"للقراءة",settings:"الإعدادات"},
     titles:{home:"اليوم",agenda:"المواعيد",news:"الأخبار",reads:"للقراءة",settings:"الإعدادات"},
-    aiBadge:"تحليل رادار · كتبه Claude", cardBadge:"بطاقة رادار · ملخص كتبه Claude", analyses:"تحليلات رادار", analysisOfDay:"تحليل اليوم", essential:"الأهم في دقيقة", takeawayH:"الخلاصة", whyH:"لماذا يهمك", readFull:"اقرأ المقال كاملا", back:"رجوع", sourcesH:"المصادر المعتمدة", aiNote:"كتب Claude هذا النص اعتمادًا على المصادر أدناه. تحقق من التفاصيل المهمة قبل مشاركتها.", cardNote:(src)=>`ملخص كتبه Claude بأسلوبه. المقال الأصلي ملك لـ ${src}.`, readAnalysis:"تحليل رادار", readCard:"اقرأ البطاقة", readAn:"اقرأ التحليل", newTag:"جديد", sinceTitle:"جديد لك منذ زيارتك الأخيرة", sinceNews:"أخبار", sinceReads:"قراءات", sinceRes:"نتائج", upToDate:"لا جديد منذ زيارتك الأخيرة.", markAllSeen:"تعليم الكل كمُشاهَد", nNew:n=>`${n} جديد`, toWatch:"للمشاهدة", vid:{highlights:"ملخص بالفيديو",trailer:"إعلان الفيلم",promo:"فيديو"}, updRunning:(h)=>`جارٍ التحديث… (بدأ على ${h}). ستصل المستجدات تلقائيًا.`, updDone:"تم استلام التحديث ✓", briefTitle:"موجز اليوم", results:"نتائج حديثة", done:["انتهى",""], result:"النتيجة", recap:"اقرأ التحليل", addCal:"أضف إلى التقويم", calTitle:"تقويم الآيفون", calSub:"اشترك في المواعيد التي لا تُفوَّت: تظهر في تقويمك مع تنبيه قبل 30 دقيقة، وتتحدّث القائمة تلقائيًا.", calBtn:"اشترك في المواعيد الكبرى", calAll:"كل المواعيد", readTonight:"للقراءة هذا المساء", seeReads:"كل القراءات", whyRead:"لماذا تقرأه: ", min:"د", markRead:"تمت القراءة؟", isRead:"قُرئ ✓", open:"اقرأ", unread:"غير مقروء", paywall:"محتوى مدفوع", langs:{fr:"FR",en:"EN",ar:"AR"}, readsEmpty:"قرأت كل شيء في هذه الفئة. تصل قراءات جديدة كل صباح.", readsIntro:"تحليلات ومقالات معمّقة مختارة لك، تُحدَّث كل صباح.",
+    aiBadge:"تحليل رادار · كتبه Claude", cardBadge:"بطاقة رادار · ملخص كتبه Claude", analyses:"تحليلات رادار", analysisOfDay:"تحليل اليوم", essential:"الأهم في دقيقة", resumeH:"الملخص", keyPoints:"النقاط الأساسية", takeawayH:"الخلاصة", whyH:"لماذا يهمك", readFull:"اقرأ المقال كاملا", back:"رجوع", sourcesH:"المصادر المعتمدة", aiNote:"كتب Claude هذا النص اعتمادًا على المصادر أدناه. تحقق من التفاصيل المهمة قبل مشاركتها.", cardNote:(src)=>`ملخص كتبه Claude بأسلوبه. المقال الأصلي ملك لـ ${src}.`, readAnalysis:"تحليل رادار", readCard:"اقرأ البطاقة", readAn:"اقرأ التحليل", newTag:"جديد", sinceTitle:"جديد لك منذ زيارتك الأخيرة", sinceNews:"أخبار", sinceReads:"قراءات", sinceRes:"نتائج", upToDate:"لا جديد منذ زيارتك الأخيرة.", markAllSeen:"تعليم الكل كمُشاهَد", nNew:n=>`${n} جديد`, toWatch:"للمشاهدة", vid:{highlights:"ملخص بالفيديو",trailer:"إعلان الفيلم",promo:"فيديو"}, updRunning:(h)=>`جارٍ التحديث… (بدأ على ${h}). ستصل المستجدات تلقائيًا.`, updDone:"تم استلام التحديث ✓", briefTitle:"موجز اليوم", results:"نتائج حديثة", done:["انتهى",""], result:"النتيجة", recap:"اقرأ التحليل", addCal:"أضف إلى التقويم", calTitle:"تقويم الآيفون", calSub:"اشترك في المواعيد التي لا تُفوَّت: تظهر في تقويمك مع تنبيه قبل 30 دقيقة، وتتحدّث القائمة تلقائيًا.", calBtn:"اشترك في المواعيد الكبرى", calAll:"كل المواعيد", readTonight:"للقراءة هذا المساء", seeReads:"كل القراءات", whyRead:"لماذا تقرأه: ", min:"د", markRead:"تمت القراءة؟", isRead:"قُرئ ✓", open:"اقرأ", unread:"غير مقروء", paywall:"محتوى مدفوع", langs:{fr:"FR",en:"EN",ar:"AR"}, readsEmpty:"قرأت كل شيء في هذه الفئة. تصل قراءات جديدة كل صباح.", readsIntro:"تحليلات ومقالات معمّقة مختارة لك، تُحدَّث كل صباح.",
     all:"الكل", allNews:"الكل", fav:"★ المفضلة", updated:"آخر تحديث: ", loading:"جارٍ التحميل…",
     next:"الموعد الكبير القادم", days:"أيام", day1:"يوم", hours:"س", mins:"د", before:"متبقية", todayShort:"اليوم", startsAt:"يبدأ", started:"جارٍ الآن",
     week:"المواعيد الكبرى القادمة", seeAgenda:"كل المواعيد", headlines:"أبرز الأخبار", seeNews:"كل الأخبار", seeAll:n=>`عرض الكل (${n})`,
@@ -420,7 +423,18 @@ function ensureBaseline(){
   (state.news||[]).forEach(n=>seen.add(n.url)); (state.reads||[]).forEach(x=>seen.add(x.url)); recentResults().forEach(e=>seen.add(resKey(e))); (state.analyses||[]).forEach(a=>seen.add(anKey(a)));
   seenBaseline=true; store.set("radar-seen",[...seen]);
 }
-const newTag = (k) => seen.has(k) ? "" : `<span class="new" data-seen="${esc(k)}">${esc(L().newTag)}</span>`;
+const flash = new Set(); // éléments nouveaux pendant cette visite de l'onglet
+const isNew = (k) => !seen.has(k) || flash.has(k);
+function markTabSeen(tab){
+  if (!seenBaseline || !state.events || !state.news || !state.reads) return;
+  let keys=[];
+  if (tab==="news") keys=unseenNews().map(n=>n.url);
+  else if (tab==="reads") keys=[...unseenReads().map(x=>x.url), ...unseenAnalyses().map(anKey)];
+  else if (tab==="agenda") keys=unseenResults().map(resKey);
+  if (!keys.length) return;
+  keys.forEach(k=>{ flash.add(k); seen.add(k); }); saveSeen();
+}
+const newTag = (k) => !isNew(k) ? "" : `<span class="new" data-seen="${esc(k)}">${esc(L().newTag)}</span>`;
 function videoBlock(v,compact){
   if (!v || !v.url) return "";
   const t=L(), lab=t.vid[v.kind]||t.vid.promo;
@@ -486,6 +500,7 @@ function renderNav(){
 }
 function go(tab, opts={}){
   if (state.detail){ state.detail=null; try{ if(history.state&&history.state.radarDetail) history.replaceState(null,""); }catch(e){} }
+  if (tab!==state.tab) flash.clear();
   state.tab=tab; store.set("radar-tab",tab);
   if (opts.cat) state.catFilter=opts.cat;
   render(true);
@@ -560,7 +575,7 @@ function readsList(){
 function anCard(a){
   const t=L(), col = a.cat==="sport"&&SPORT_C[a.sport]?SPORT_C[a.sport]:(CAT_C[a.cat]||"--accent");
   return `<button class="an" data-open="an" data-k="${esc(a.id)}" style="--c:var(${col})">
-    <span><span class="ai">${ICONS.spark}${esc(t.aiBadge)}</span> ${seen.has(anKey(a))?"":`<span class="new" data-seen="${esc(anKey(a))}">${esc(t.newTag)}</span>`}</span>
+    <span><span class="ai">${ICONS.spark}${esc(t.aiBadge)}</span> ${!isNew(anKey(a))?"":`<span class="new" data-seen="${esc(anKey(a))}">${esc(t.newTag)}</span>`}</span>
     <h3>${esc(tx(a,"title"))}</h3><p>${esc(tx(a,"dek"))}</p>
     <span class="pills"><span class="pill">${esc(String(a.minutes||"?"))} ${esc(t.min)}</span></span>
   </button>`;
@@ -605,12 +620,14 @@ function viewDetail(){
     <h1>${esc(tx(x,"title"))}</h1>
     <p class="dek">${esc(tx(x,"summary"))}</p>
     <div class="pills">${x.minutes?`<span class="pill">${esc(String(x.minutes))} ${esc(t.min)}</span>`:""}${x.lang?`<span class="pill">${esc(t.langs[x.lang]||x.lang)}</span>`:""}${x.paywall?`<span class="pill">${esc(t.paywall)}</span>`:""}</div>
-    ${Array.isArray(pts)&&pts.length?`<div><span class="ai">${ICONS.spark}${esc(t.cardBadge)}</span><h2>${esc(t.essential)}</h2><ul class="pts">${pts.map(p=>`<li>${esc(p)}</li>`).join("")}</ul></div>`:""}
+    ${(tx(x,"resume")||(Array.isArray(pts)&&pts.length))?`<div><span class="ai">${ICONS.spark}${esc(t.cardBadge)}</span></div>`:""}
+    ${tx(x,"resume")?`<div class="resume"><h2>${esc(t.resumeH)}</h2>${String(tx(x,"resume")).split(/\n+/).filter(Boolean).map(p=>`<p class="body">${esc(p)}</p>`).join("")}</div>`:""}
+    ${Array.isArray(pts)&&pts.length?`<div><h2>${esc(tx(x,"resume")?t.keyPoints:t.essential)}</h2><ul class="pts">${pts.map(p=>`<li>${esc(p)}</li>`).join("")}</ul></div>`:""}
     ${tx(x,"why")?`<div><h2>${esc(t.whyH)}</h2><p class="body">${esc(tx(x,"why"))}</p></div>`:""}
     ${tx(x,"takeaway")?`<div class="keybox"><b>${esc(t.takeawayH)}</b><p>${esc(tx(x,"takeaway"))}</p></div>`:""}
     ${videoBlock(x.video)}
     <div class="actions"><a class="btn primary" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(t.readFull)} ↗</a>${state.reads.includes(x)?`<button class="btn" data-read="${esc(x.url)}" aria-pressed="${done}">${esc(done?t.isRead:t.markRead)}</button>`:""}</div>
-    ${Array.isArray(pts)&&pts.length?`<p class="fine">${esc(t.cardNote(x.source||""))}</p>`:""}
+    ${(tx(x,"resume")||(Array.isArray(pts)&&pts.length))?`<p class="fine">${esc(t.cardNote(x.source||""))}</p>`:""}
   </article>`;
 }
 function viewReads(){
@@ -710,11 +727,11 @@ function viewNews(){
   }
   const cats=Object.keys(CAT_C).filter(catOn);
   const blocks = cats.map(c=>{ const items=newsFor(c); if(!items.length) return "";
-    const fresh=items.filter(n=>!seen.has(n.url)), old=items.filter(n=>seen.has(n.url));
+    const fresh=items.filter(n=>isNew(n.url)), old=items.filter(n=>!isNew(n.url));
     const shown=[...fresh, ...old].slice(0, Math.max(3, fresh.length));
     return `<section class="topic" style="--c:var(${CAT_C[c]})">
       <div class="topic-h"><div class="meta">${ico(c)}${esc(t.cats[c])}${fresh.length?` <span class="new">${esc(t.nNew(fresh.length))}</span>`:""}</div>${items.length>shown.length?`<button class="link" data-cat="${c}">${esc(t.seeAll(items.length))}</button>`:""}</div>
-      ${shown.map(n=>`<a href="${esc(n.url)}" target="_blank" rel="noopener"><b>${seen.has(n.url)?"":`<span class="new" data-seen="${esc(n.url)}">${esc(t.newTag)}</span> `}${esc(tx(n,"title"))}${n.video?` <span style="color:var(--accent)">▶</span>`:""}</b><small>${esc(n.source||"")} · ${esc(shortDate(n.date))}</small></a>`).join("")}
+      ${shown.map(n=>`<a href="${esc(n.url)}" target="_blank" rel="noopener"><b>${!isNew(n.url)?"":`<span class="new" data-seen="${esc(n.url)}">${esc(t.newTag)}</span> `}${esc(tx(n,"title"))}${n.video?` <span style="color:var(--accent)">▶</span>`:""}</b><small>${esc(n.source||"")} · ${esc(shortDate(n.date))}</small></a>`).join("")}
     </section>`; }).join("");
   return blocks ? `${bar}<div style="margin-top:8px">${blocks}</div>` : `<div class="empty">${esc(t.noNews)}</div>`;
 }
@@ -748,7 +765,7 @@ function observeSeen(){
 function bind(){
   const m=$("#main");
   m.querySelectorAll("[data-open]").forEach(b=>b.onclick=(e)=>{ e.preventDefault(); openDetail(b.dataset.open,b.dataset.k); });
-  m.querySelectorAll("[data-seenall]").forEach(b=>b.onclick=()=>{ (b.dataset.seenall==="news"?unseenNews():unseenReads()).forEach(x=>seen.add(x.url)); store.set("radar-seen",[...seen].slice(-2000)); render(); });
+  m.querySelectorAll("[data-seenall]").forEach(b=>b.onclick=()=>{ (b.dataset.seenall==="news"?unseenNews():unseenReads()).forEach(x=>seen.add(x.url)); if(b.dataset.seenall==="reads") unseenAnalyses().forEach(a=>seen.add(anKey(a))); store.set("radar-seen",[...seen].slice(-2000)); render(); });
   m.querySelectorAll("[data-star]").forEach(b=>b.onclick=()=>{ const id=b.dataset.star; stars.has(id)?stars.delete(id):stars.add(id); store.set("radar-stars",[...stars]); render(); });
   m.querySelectorAll("[data-read]").forEach(b=>b.onclick=()=>{ const u=b.dataset.read; readDone.has(u)?readDone.delete(u):readDone.add(u); store.set("radar-read",[...readDone].slice(-300)); render(); });
   m.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>{ if(b.dataset.go==="news") state.catFilter="all"; go(b.dataset.go); });
@@ -774,6 +791,7 @@ setInterval(tick, 30000);
 
 function render(scrollTop){
   ensureBaseline();
+  if (!state.detail) markTabSeen(state.tab);
   const app=$("#app"); app.dir = state.lang==="ar"?"rtl":"ltr"; app.lang=state.lang;
   document.documentElement.lang = state.lang;
   renderTop(); renderNav();
