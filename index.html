@@ -80,7 +80,7 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-off
 .link{border:0;background:transparent;color:var(--accent);font-weight:600;font-size:13px;cursor:pointer;padding:4px 0}
 
 /* Hero */
-.hero{position:relative;overflow:hidden;border-radius:16px;padding:18px;color:var(--hero-ink);background:linear-gradient(135deg,var(--c) 0%,color-mix(in srgb,var(--c) 55%,#0A1016) 100%);margin-top:6px}
+.hero{position:relative;overflow:hidden;border-radius:16px;padding:18px;color:var(--hero-ink);background:linear-gradient(135deg,var(--c) 0%,color-mix(in srgb,var(--c) 55%,#0A1016) 100%);margin-top:12px}
 .hero .lbl{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;opacity:.85}
 [dir="rtl"] .hero .lbl{letter-spacing:0;text-transform:none;font-size:13px}
 .hero h3{margin:6px 0 2px;font-size:24px;line-height:1.2;font-weight:700;text-wrap:balance}
@@ -164,6 +164,18 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-off
 .seg button[lang="ar"]{font-family:var(--arabic)}
 .note{font-size:13px;color:var(--muted);margin:8px 2px 0}
 
+/* Brief, results, calendar */
+.brief{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-top:6px}
+.brief h2{margin:0 0 6px;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+[dir="rtl"] .brief h2{letter-spacing:0;text-transform:none;font-size:14px}
+.brief ul{margin:0;padding-inline-start:18px;display:grid;gap:6px}
+.brief li{font-size:15px;line-height:1.45}
+.res{margin-top:6px;display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:700;background:var(--soft);border-radius:8px;padding:4px 10px}
+.recap{display:inline-block;margin-top:6px;margin-inline-start:8px;font-size:13px;font-weight:600;color:var(--accent);text-decoration:none}
+.ev.past{background:var(--raised)}
+.cal{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:8px;color:var(--muted);border:1px solid var(--line);background:transparent;text-decoration:none}
+.cal svg{width:16px;height:16px}
+.sub-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0}
 /* Reads */
 .reads{display:grid;gap:12px;margin-top:8px}
 .read{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;gap:8px}
@@ -201,7 +213,7 @@ const T = {
   fr:{
     app:"Radar", tabs:{home:"Accueil",agenda:"Agenda",news:"Actus",reads:"À lire",settings:"Réglages"},
     titles:{home:"Aujourd'hui",agenda:"Agenda",news:"Actus",reads:"À lire",settings:"Réglages"},
-    readTonight:"À lire ce soir", seeReads:"Toutes les lectures", whyRead:"Pourquoi le lire : ", min:"min", markRead:"Marquer comme lu", isRead:"Lu ✓", open:"Lire", unread:"Non lus", paywall:"accès payant", langs:{fr:"FR",en:"EN",ar:"AR"}, readsEmpty:"Tu as tout lu dans cette catégorie. De nouvelles lectures arrivent chaque matin.", readsIntro:"Analyses et articles de fond choisis pour toi, mis à jour chaque matin.",
+    briefTitle:"Le brief du jour", results:"Résultats récents", done:["Fini",""], result:"Résultat", recap:"Lire l'analyse", addCal:"Ajouter au calendrier", calTitle:"Calendrier de l'iPhone", calSub:"Abonne ton iPhone aux incontournables : ils apparaissent dans ton calendrier avec une alerte 30 min avant, et la liste se met à jour toute seule.", calBtn:"S'abonner aux incontournables", calAll:"Tout l'agenda", readTonight:"À lire ce soir", seeReads:"Toutes les lectures", whyRead:"Pourquoi le lire : ", min:"min", markRead:"Marquer comme lu", isRead:"Lu ✓", open:"Lire", unread:"Non lus", paywall:"accès payant", langs:{fr:"FR",en:"EN",ar:"AR"}, readsEmpty:"Tu as tout lu dans cette catégorie. De nouvelles lectures arrivent chaque matin.", readsIntro:"Analyses et articles de fond choisis pour toi, mis à jour chaque matin.",
     all:"Tous", allNews:"Tout", fav:"★ Favoris", updated:"Mis à jour le ", loading:"Chargement…",
     next:"Prochain incontournable", days:"jours", hours:"h", mins:"min", startsAt:"Début", started:"C'est en cours",
     week:"Prochains grands rendez-vous", seeAgenda:"Tout l'agenda", headlines:"À la une", seeNews:"Toutes les actus", seeAll:n=>`Voir tout (${n})`,
@@ -226,7 +238,7 @@ const T = {
   ar:{
     app:"رادار", tabs:{home:"الرئيسية",agenda:"المواعيد",news:"الأخبار",reads:"للقراءة",settings:"الإعدادات"},
     titles:{home:"اليوم",agenda:"المواعيد",news:"الأخبار",reads:"للقراءة",settings:"الإعدادات"},
-    readTonight:"للقراءة هذا المساء", seeReads:"كل القراءات", whyRead:"لماذا تقرأه: ", min:"د", markRead:"تمت القراءة؟", isRead:"قُرئ ✓", open:"اقرأ", unread:"غير مقروء", paywall:"محتوى مدفوع", langs:{fr:"FR",en:"EN",ar:"AR"}, readsEmpty:"قرأت كل شيء في هذه الفئة. تصل قراءات جديدة كل صباح.", readsIntro:"تحليلات ومقالات معمّقة مختارة لك، تُحدَّث كل صباح.",
+    briefTitle:"موجز اليوم", results:"نتائج حديثة", done:["انتهى",""], result:"النتيجة", recap:"اقرأ التحليل", addCal:"أضف إلى التقويم", calTitle:"تقويم الآيفون", calSub:"اشترك في المواعيد التي لا تُفوَّت: تظهر في تقويمك مع تنبيه قبل 30 دقيقة، وتتحدّث القائمة تلقائيًا.", calBtn:"اشترك في المواعيد الكبرى", calAll:"كل المواعيد", readTonight:"للقراءة هذا المساء", seeReads:"كل القراءات", whyRead:"لماذا تقرأه: ", min:"د", markRead:"تمت القراءة؟", isRead:"قُرئ ✓", open:"اقرأ", unread:"غير مقروء", paywall:"محتوى مدفوع", langs:{fr:"FR",en:"EN",ar:"AR"}, readsEmpty:"قرأت كل شيء في هذه الفئة. تصل قراءات جديدة كل صباح.", readsIntro:"تحليلات ومقالات معمّقة مختارة لك، تُحدَّث كل صباح.",
     all:"الكل", allNews:"الكل", fav:"★ المفضلة", updated:"آخر تحديث: ", loading:"جارٍ التحميل…",
     next:"الموعد القادم الذي لا يُفوَّت", days:"يوم", hours:"ساعة", mins:"دقيقة", startsAt:"يبدأ", started:"جارٍ الآن",
     week:"المواعيد الكبرى القادمة", seeAgenda:"كل المواعيد", headlines:"أبرز الأخبار", seeNews:"كل الأخبار", seeAll:n=>`عرض الكل (${n})`,
@@ -256,6 +268,7 @@ const ICONS = {
   agenda:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/><circle cx="8.5" cy="14.5" r="1.2" fill="currentColor"/></svg>',
   news:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M7.5 9h6M7.5 12.5h6M7.5 16h4"/></svg>',
   reads:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5.5C5.5 4.5 8.5 4.5 12 6.5v13c-3.5-2-6.5-2-9-1z"/><path d="M21 5.5c-2.5-1-5.5-1-9 1v13c3.5-2 6.5-2 9-1z"/></svg>',
+  cal:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M12 13v5M9.5 15.5h5"/></svg>',
   settings:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>'
 };
 
@@ -290,6 +303,21 @@ const rel = d => { const n=Math.round((sod(d)-sod(new Date()))/864e5); if(n<=0) 
 const sportOn = s => !state.hiddenSports.has(s);
 const catOn = c => !state.hiddenCats.has(c);
 
+function recentResults(){
+  const now=new Date();
+  return (state.events||[]).filter(e=>e.result && sportOn(e.sport) && pEnd(e)<now && now-pEnd(e)<3*864e5).sort((a,b)=>pStart(b)-pStart(a));
+}
+function gcalLink(ev){
+  const pad=n=>String(n).padStart(2,"0");
+  const z=d=>`${d.getUTCFullYear()}${pad(d.getUTCMonth()+1)}${pad(d.getUTCDate())}T${pad(d.getUTCHours())}${pad(d.getUTCMinutes())}00Z`;
+  const day=d=>`${d.getFullYear()}${pad(d.getMonth()+1)}${pad(d.getDate())}`;
+  let dates;
+  if (isDateOnly(ev)){ const s=pStart(ev), e=new Date(pEnd(ev)); e.setDate(e.getDate()+1); dates=`${day(s)}/${day(sod(e))}`; }
+  else { const s=pStart(ev); dates=`${z(s)}/${z(new Date(s.getTime()+2*3600e3))}`; }
+  const q=new URLSearchParams({action:"TEMPLATE",text:ev.title,dates,location:ev.place||"",details:`${ev.comp||""}${ev.why?" — "+ev.why:""}`});
+  return "https://calendar.google.com/calendar/render?"+q.toString();
+}
+const calHref = ev => window.RADAR_PWA ? `ics/${encodeURIComponent(ev.id)}.ics` : gcalLink(ev);
 function upcoming(){
   const now=new Date();
   return (state.events||[]).filter(e=>pEnd(e)>=now && sportOn(e.sport)).sort((a,b)=>pStart(a)-pStart(b)||(b.level-a.level));
@@ -334,22 +362,27 @@ function go(tab, opts={}){
 function eventRow(ev){
   const t=L(), c=SPORT_C[ev.sport]||"--muted", s=pStart(ev), now=new Date(), lv=Number(ev.level)||1;
   let time;
-  if (s<=now) time=`<div class="time word">${t.inProgress[0]}<small>${t.inProgress[1]}</small></div>`;
+  const past = pEnd(ev)<now;
+  if (past) time=`<div class="time word">${t.done[0]}<small>${fmt(s,{day:"numeric",month:"short"})}</small></div>`;
+  else if (s<=now) time=`<div class="time word">${t.inProgress[0]}<small>${t.inProgress[1]}</small></div>`;
   else if (ev.end){ const e2=pEnd(ev); time=`<div class="time range">${fmt(s,{day:"numeric"})}–${fmt(e2,{day:"numeric"})}<small>${fmt(e2,{month:"short"})}</small></div>`; }
   else if (isDateOnly(ev)){ time=`<div class="time word">${t.dateOnly[0]}<small>${t.dateOnly[1]}</small></div>`; }
   else time=`<div class="time">${fmt(s,{hour:"2-digit",minute:"2-digit",hour12:false})}<small>${fmt(s,{weekday:"short"})}</small></div>`;
   const endTxt = ev.end ? ` · ${t.until} ${fmt(pEnd(ev),{day:"numeric",month:"short"})}` : "";
   const why=tx(ev,"why"), fav=stars.has(ev.id);
-  return `<article class="ev ${lv===3?"top3":""}" style="--c:var(${c})">
+  const res = past && ev.result ? `<div><span class="res">${esc(tx(ev,"result"))}</span>${ev.recap?`<a class="recap" href="${esc(ev.recap)}" target="_blank" rel="noopener">${esc(t.recap)}</a>`:""}</div>` : "";
+  return `<article class="ev ${lv===3&&!past?"top3":""} ${past?"past":""}" style="--c:var(${c})">
     ${time}
     <div class="min">
       <div class="meta"><span class="dot"></span>${esc(t.sports[ev.sport]||ev.sport)} <span class="comp">· ${esc(tx(ev,"comp"))}</span></div>
       <h3>${esc(tx(ev,"title"))}</h3>
-      <p>${esc(tx(ev,"place"))}${esc(endTxt)}${why?` — ${esc(why)}`:""}</p>
+      <p>${esc(tx(ev,"place"))}${esc(endTxt)}${why&&!past?` — ${esc(why)}`:""}</p>
+      ${res}
     </div>
     <div class="side">
       <button class="star" data-star="${esc(ev.id)}" aria-pressed="${fav}" aria-label="${fav?t.rmFav:t.addFav}">★</button>
       <div class="lvl" title="${t.levels[lv]}" aria-label="${t.levels[lv]}"><i class="on"></i><i class="${lv>=2?"on":""}"></i><i class="${lv>=3?"on":""}"></i></div>
+      ${!past?`<a class="cal" href="${esc(calHref(ev))}" ${window.RADAR_PWA?"":'target="_blank" rel="noopener"'} aria-label="${esc(t.addCal)}" title="${esc(t.addCal)}">${ICONS.cal}</a>`:""}
     </div>
   </article>`;
 }
@@ -400,6 +433,8 @@ function viewHome(){
   const t=L(); const evs=upcoming(); const now=new Date();
   const next = evs.find(e=>e.level>=3 && pStart(e)>now) || evs.find(e=>pStart(e)>now);
   let html="";
+  const brief = state.meta && (state.lang==="ar" ? state.meta.brief_ar : state.meta.brief);
+  if (Array.isArray(brief) && brief.length) html += `<section class="brief"><h2>${esc(t.briefTitle)}</h2><ul>${brief.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></section>`;
   if (next){
     const c=SPORT_C[next.sport]||"--accent";
     html += `<section class="hero" style="--c:var(${c})" aria-live="polite">
@@ -411,9 +446,11 @@ function viewHome(){
     </section>`;
   }
   const week = evs.filter(e=>e!==next && e.level>=3).slice(0,5);
+  const resNow = recentResults().slice(0,3);
   html += `<section class="sec"><div class="sec-h"><h2>${esc(t.week)}</h2><button class="link" data-go="agenda">${esc(t.seeAgenda)}</button></div>`;
   html += week.length ? `<div class="list">${week.map(eventRow).join("")}</div>` : `<div class="empty">${esc(t.weekEmpty)}</div>`;
   html += `</section>`;
+  if (resNow.length) html += `<section class="sec"><div class="sec-h"><h2>${esc(t.results)}</h2></div><div class="list">${resNow.map(eventRow).join("")}</div></section>`;
   const tonight = readsList().filter(x=>!readDone.has(x.url)).slice(0,2);
   if (tonight.length){
     html += `<section class="sec"><div class="sec-h"><h2>${esc(t.readTonight)}</h2><button class="link" data-go="reads">${esc(t.seeReads)}</button></div><div class="reads" style="margin-top:0">${tonight.map(readCard).join("")}</div></section>`;
@@ -432,11 +469,14 @@ function viewAgenda(){
   let evs = upcoming();
   if (state.sportFilter==="fav") evs=evs.filter(e=>stars.has(e.id));
   else if (state.sportFilter!=="all") evs=evs.filter(e=>e.sport===state.sportFilter);
-  if (!evs.length) return `<div class="empty">${esc(state.sportFilter==="fav"?t.favEmpty:t.noEvents)}</div>`;
+  let past = recentResults();
+  if (state.sportFilter==="fav") past=past.filter(e=>stars.has(e.id)); else if (state.sportFilter!=="all") past=past.filter(e=>e.sport===state.sportFilter);
+  if (!evs.length && !past.length) return `<div class="empty">${esc(state.sportFilter==="fav"?t.favEmpty:t.noEvents)}</div>`;
   const live = evs.filter(e=>pStart(e)<=now);
   const groups=new Map();
   evs.filter(e=>pStart(e)>now).forEach(e=>{const k=dayKey(pStart(e)); if(!groups.has(k)) groups.set(k,[]); groups.get(k).push(e);});
   let html="";
+  if (past.length) html += `<section class="day"><div class="dayhead"><b>${esc(t.results)}</b></div><div class="list">${past.map(eventRow).join("")}</div></section>`;
   if (live.length) html += `<section class="day"><div class="dayhead"><b>${esc(t.now)}</b><small class="soon">${esc(t.live)}</small></div><div class="list">${live.map(eventRow).join("")}</div></section>`;
   for (const [,list] of groups){ const d=pStart(list[0]), r=rel(d);
     html += `<section class="day"><div class="dayhead"><b>${esc(fmt(d,{weekday:"long",day:"numeric",month:"long"}))}</b><small class="${r.soon?"soon":""}">${esc(r.t)}</small></div><div class="list">${list.map(eventRow).join("")}</div></section>`; }
@@ -461,7 +501,9 @@ function viewSettings(){
   const t=L();
   const sp = Object.keys(SPORT_C).map(k=>`<div class="row"><label for="sp-${k}"><span class="dot" style="--c:var(${SPORT_C[k]})"></span>${esc(t.sports[k])}</label><input type="checkbox" class="toggle" id="sp-${k}" data-sp="${k}" ${sportOn(k)?"checked":""}></div>`).join("");
   const ct = Object.keys(CAT_C).map(k=>`<div class="row"><label for="ct-${k}"><span class="dot" style="--c:var(${CAT_C[k]})"></span>${esc(t.cats[k])}</label><input type="checkbox" class="toggle" id="ct-${k}" data-ct="${k}" ${catOn(k)?"checked":""}></div>`).join("");
-  return `<section class="sec"><div class="sec-h"><h2>${esc(t.lang)}</h2></div>
+  const base = `${location.host}${location.pathname.replace(/[^/]*$/,"")}`;
+  const calSec = window.RADAR_PWA ? `<section class="sec"><div class="sec-h"><h2>${esc(t.calTitle)}</h2></div><div class="panel"><p class="note" style="margin:12px 0 4px">${esc(t.calSub)}</p><div class="sub-row"><a class="btn primary" href="webcal://${base}ics/incontournables.ics">${esc(t.calBtn)}</a><a class="link" href="webcal://${base}ics/tout.ics">${esc(t.calAll)}</a></div></div></section>` : "";
+  return calSec + `<section class="sec"><div class="sec-h"><h2>${esc(t.lang)}</h2></div>
       <div class="seg" role="group"><button lang="fr" data-lang="fr" aria-pressed="${state.lang==="fr"}">Français</button><button lang="ar" data-lang="ar" aria-pressed="${state.lang==="ar"}">العربية</button></div></section>
     <section class="sec"><div class="sec-h"><h2>${esc(t.mySports)}</h2></div><div class="panel">${sp}</div></section>
     <section class="sec"><div class="sec-h"><h2>${esc(t.myTopics)}</h2></div><div class="panel">${ct}</div><p class="note">${esc(t.settingsNote)}</p></section>`;
