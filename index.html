@@ -215,6 +215,12 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-off
 .vcard b{display:block;font-size:14px;line-height:1.35;margin-top:8px}
 .vcard small{display:block;font-size:12px;color:var(--muted);margin-top:2px}
 .card a{color:inherit;text-decoration:none}
+/* Live update status */
+.status{display:flex;align-items:center;gap:8px;margin-top:8px;font-size:13px;font-weight:600;border-radius:10px;padding:8px 12px;background:color-mix(in srgb,var(--accent) 12%,var(--surface));color:var(--ink);border:1px solid color-mix(in srgb,var(--accent) 35%,var(--line))}
+.status.ok{background:color-mix(in srgb,var(--foot) 14%,var(--surface));border-color:color-mix(in srgb,var(--foot) 40%,var(--line))}
+.spin{width:14px;height:14px;border-radius:50%;border:2px solid color-mix(in srgb,var(--accent) 30%,transparent);border-top-color:var(--accent);animation:spin 1s linear infinite;flex:none}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.spin{animation:none}}
 /* Reads */
 .reads{display:grid;gap:12px;margin-top:8px}
 .read{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;gap:8px}
@@ -252,7 +258,7 @@ const T = {
   fr:{
     app:"Radar", tabs:{home:"Accueil",agenda:"Agenda",news:"Actus",reads:"À lire",settings:"Réglages"},
     titles:{home:"Aujourd'hui",agenda:"Agenda",news:"Actus",reads:"À lire",settings:"Réglages"},
-    newTag:"Nouveau", sinceTitle:"Nouveau pour toi depuis ta dernière visite", sinceNews:"actus", sinceReads:"lectures", sinceRes:"résultats", upToDate:"Tu es à jour : rien de nouveau depuis ta dernière visite.", markAllSeen:"Tout marquer comme vu", nNew:n=>`${n} nouveau${n>1?"x":""}`, toWatch:"À voir", vid:{highlights:"Résumé vidéo",trailer:"Bande-annonce",promo:"Vidéo"}, briefTitle:"Le brief du jour", results:"Résultats récents", done:["Fini",""], result:"Résultat", recap:"Lire l'analyse", addCal:"Ajouter au calendrier", calTitle:"Calendrier de l'iPhone", calSub:"Abonne ton iPhone aux incontournables : ils apparaissent dans ton calendrier avec une alerte 30 min avant, et la liste se met à jour toute seule.", calBtn:"S'abonner aux incontournables", calAll:"Tout l'agenda", readTonight:"À lire ce soir", seeReads:"Toutes les lectures", whyRead:"Pourquoi le lire : ", min:"min", markRead:"Marquer comme lu", isRead:"Lu ✓", open:"Lire", unread:"Non lus", paywall:"accès payant", langs:{fr:"FR",en:"EN",ar:"AR"}, readsEmpty:"Tu as tout lu dans cette catégorie. De nouvelles lectures arrivent chaque matin.", readsIntro:"Analyses et articles de fond choisis pour toi, mis à jour chaque matin.",
+    newTag:"Nouveau", sinceTitle:"Nouveau pour toi depuis ta dernière visite", sinceNews:"actus", sinceReads:"lectures", sinceRes:"résultats", upToDate:"Tu es à jour : rien de nouveau depuis ta dernière visite.", markAllSeen:"Tout marquer comme vu", nNew:n=>`${n} nouveau${n>1?"x":""}`, toWatch:"À voir", vid:{highlights:"Résumé vidéo",trailer:"Bande-annonce",promo:"Vidéo"}, updRunning:(h)=>`Mise à jour en cours… (commencée à ${h}). Les nouveautés arrivent toutes seules.`, updDone:"Mise à jour reçue ✓", briefTitle:"Le brief du jour", results:"Résultats récents", done:["Fini",""], result:"Résultat", recap:"Lire l'analyse", addCal:"Ajouter au calendrier", calTitle:"Calendrier de l'iPhone", calSub:"Abonne ton iPhone aux incontournables : ils apparaissent dans ton calendrier avec une alerte 30 min avant, et la liste se met à jour toute seule.", calBtn:"S'abonner aux incontournables", calAll:"Tout l'agenda", readTonight:"À lire ce soir", seeReads:"Toutes les lectures", whyRead:"Pourquoi le lire : ", min:"min", markRead:"Marquer comme lu", isRead:"Lu ✓", open:"Lire", unread:"Non lus", paywall:"accès payant", langs:{fr:"FR",en:"EN",ar:"AR"}, readsEmpty:"Tu as tout lu dans cette catégorie. De nouvelles lectures arrivent chaque matin.", readsIntro:"Analyses et articles de fond choisis pour toi, mis à jour chaque matin.",
     all:"Tous", allNews:"Tout", fav:"★ Favoris", updated:"Mis à jour le ", loading:"Chargement…",
     next:"Prochain incontournable", days:"jours", day1:"jour", hours:"h", mins:"min", before:"avant", todayShort:"auj.", startsAt:"Début", started:"C'est en cours",
     week:"Grands rendez-vous", seeAgenda:"Tout l'agenda", headlines:"À la une", seeNews:"Toutes les actus", seeAll:n=>`Voir tout (${n})`,
@@ -277,7 +283,7 @@ const T = {
   ar:{
     app:"رادار", tabs:{home:"الرئيسية",agenda:"المواعيد",news:"الأخبار",reads:"للقراءة",settings:"الإعدادات"},
     titles:{home:"اليوم",agenda:"المواعيد",news:"الأخبار",reads:"للقراءة",settings:"الإعدادات"},
-    newTag:"جديد", sinceTitle:"جديد لك منذ زيارتك الأخيرة", sinceNews:"أخبار", sinceReads:"قراءات", sinceRes:"نتائج", upToDate:"لا جديد منذ زيارتك الأخيرة.", markAllSeen:"تعليم الكل كمُشاهَد", nNew:n=>`${n} جديد`, toWatch:"للمشاهدة", vid:{highlights:"ملخص بالفيديو",trailer:"إعلان الفيلم",promo:"فيديو"}, briefTitle:"موجز اليوم", results:"نتائج حديثة", done:["انتهى",""], result:"النتيجة", recap:"اقرأ التحليل", addCal:"أضف إلى التقويم", calTitle:"تقويم الآيفون", calSub:"اشترك في المواعيد التي لا تُفوَّت: تظهر في تقويمك مع تنبيه قبل 30 دقيقة، وتتحدّث القائمة تلقائيًا.", calBtn:"اشترك في المواعيد الكبرى", calAll:"كل المواعيد", readTonight:"للقراءة هذا المساء", seeReads:"كل القراءات", whyRead:"لماذا تقرأه: ", min:"د", markRead:"تمت القراءة؟", isRead:"قُرئ ✓", open:"اقرأ", unread:"غير مقروء", paywall:"محتوى مدفوع", langs:{fr:"FR",en:"EN",ar:"AR"}, readsEmpty:"قرأت كل شيء في هذه الفئة. تصل قراءات جديدة كل صباح.", readsIntro:"تحليلات ومقالات معمّقة مختارة لك، تُحدَّث كل صباح.",
+    newTag:"جديد", sinceTitle:"جديد لك منذ زيارتك الأخيرة", sinceNews:"أخبار", sinceReads:"قراءات", sinceRes:"نتائج", upToDate:"لا جديد منذ زيارتك الأخيرة.", markAllSeen:"تعليم الكل كمُشاهَد", nNew:n=>`${n} جديد`, toWatch:"للمشاهدة", vid:{highlights:"ملخص بالفيديو",trailer:"إعلان الفيلم",promo:"فيديو"}, updRunning:(h)=>`جارٍ التحديث… (بدأ على ${h}). ستصل المستجدات تلقائيًا.`, updDone:"تم استلام التحديث ✓", briefTitle:"موجز اليوم", results:"نتائج حديثة", done:["انتهى",""], result:"النتيجة", recap:"اقرأ التحليل", addCal:"أضف إلى التقويم", calTitle:"تقويم الآيفون", calSub:"اشترك في المواعيد التي لا تُفوَّت: تظهر في تقويمك مع تنبيه قبل 30 دقيقة، وتتحدّث القائمة تلقائيًا.", calBtn:"اشترك في المواعيد الكبرى", calAll:"كل المواعيد", readTonight:"للقراءة هذا المساء", seeReads:"كل القراءات", whyRead:"لماذا تقرأه: ", min:"د", markRead:"تمت القراءة؟", isRead:"قُرئ ✓", open:"اقرأ", unread:"غير مقروء", paywall:"محتوى مدفوع", langs:{fr:"FR",en:"EN",ar:"AR"}, readsEmpty:"قرأت كل شيء في هذه الفئة. تصل قراءات جديدة كل صباح.", readsIntro:"تحليلات ومقالات معمّقة مختارة لك، تُحدَّث كل صباح.",
     all:"الكل", allNews:"الكل", fav:"★ المفضلة", updated:"آخر تحديث: ", loading:"جارٍ التحميل…",
     next:"الموعد الكبير القادم", days:"أيام", day1:"يوم", hours:"س", mins:"د", before:"متبقية", todayShort:"اليوم", startsAt:"يبدأ", started:"جارٍ الآن",
     week:"المواعيد الكبرى القادمة", seeAgenda:"كل المواعيد", headlines:"أبرز الأخبار", seeNews:"كل الأخبار", seeAll:n=>`عرض الكل (${n})`,
@@ -346,6 +352,7 @@ let state = {
 if (!["home","agenda","news","reads","settings"].includes(state.tab)) state.tab="home";
 if (!["fr","ar"].includes(state.lang)) state.lang="fr";
 const stars = new Set(store.get("radar-stars",[]));
+const live = {running:null, done:0};
 const readDone = new Set(store.get("radar-read",[]));
 const seenRaw = store.get("radar-seen", null);
 const seen = new Set(seenRaw||[]);
@@ -424,7 +431,10 @@ function renderTop(){
     const opts=[["all",t.allNews,null],["unread",t.unread,null],...Object.keys(CAT_C).filter(k=>catOn(k)&&have.has(k)).map(k=>[k,t.cats[k],CAT_C[k]])];
     chips = `<div class="chips" role="toolbar">${opts.map(([k,l,c])=>`<button class="chip" data-rf="${k}" aria-pressed="${state.readFilter===k}">${c?`<span class="ti" style="--c:var(${c})">${TI[k]||""}</span>`:""}${esc(l)}</button>`).join("")}</div>`;
   }
-  $("#top").innerHTML = `<div class="top-row"><div class="min"><h1>${esc(title)}</h1><div class="sub">${esc(upd || (state.err?"":t.loading))}</div></div></div>${chips}`;
+  let statusHtml="";
+  if (live.done && Date.now()-live.done<8000) statusHtml=`<div class="status ok" role="status">${esc(t.updDone)}</div>`;
+  else if (live.running) statusHtml=`<div class="status" role="status"><span class="spin" aria-hidden="true"></span>${esc(t.updRunning(fmt(new Date(live.running),{hour:"2-digit",minute:"2-digit",hour12:false})))}</div>`;
+  $("#top").innerHTML = `<div class="top-row"><div class="min"><h1>${esc(title)}</h1><div class="sub">${esc(upd || (state.err?"":t.loading))}</div></div></div>${statusHtml}${chips}`;
   $("#top").querySelectorAll("[data-sf]").forEach(b=>b.onclick=()=>{state.sportFilter=b.dataset.sf;render(true);});
   $("#top").querySelectorAll("[data-cf]").forEach(b=>b.onclick=()=>{state.catFilter=b.dataset.cf;render(true);});
   $("#top").querySelectorAll("[data-rf]").forEach(b=>b.onclick=()=>{state.readFilter=b.dataset.rf;render(true);});
@@ -676,12 +686,30 @@ function render(scrollTop){
 render();
 
 /* ---------- data: Claude database when opened in Claude, data.json when installed as an app ---------- */
+async function pollStatus(){
+  try{
+    const r = await fetch("status.json?ts="+Date.now(),{cache:"no-store"});
+    if (!r.ok) return;
+    const st = await r.json();
+    const started = st && st.state==="running" && st.startedAt ? new Date(st.startedAt).getTime() : 0;
+    const dataAt = state.meta && state.meta.updatedAt ? new Date(state.meta.updatedAt).getTime() : 0;
+    const fresh = started && Date.now()-started < 45*60e3;
+    const was = live.running;
+    live.running = (fresh && dataAt < started) ? started : null;
+    if (live.running){ await loadJson(true); }
+    if (was && !live.running){ live.done = Date.now(); setTimeout(()=>renderTop(),8500); }
+    renderTop();
+  }catch(e){}
+}
 function apply(d){ state.events=Array.isArray(d.events)?d.events:[]; state.news=Array.isArray(d.news)?d.news:[]; state.reads=Array.isArray(d.reads)?d.reads:[]; state.meta=d.meta||null; render(); }
-async function loadJson(){
+async function loadJson(quiet){
   try{
     const r = await fetch("data.json",{cache:"no-cache"});
     if(!r.ok) throw 0;
-    apply(await r.json());
+    const d = await r.json();
+    const prev = state.meta && state.meta.updatedAt;
+    if (quiet && prev && d.meta && d.meta.updatedAt===prev) return;
+    apply(d);
     state.offline = r.headers.get("x-radar-offline")==="1"; render();
   }catch(e){ state.err = "fail"; render(); }
 }
@@ -695,8 +723,9 @@ async function loadJson(){
     db.doc("feed/reads").onSnapshot(s=>{ const d=s.exists?s.data():null; state.reads=d&&Array.isArray(d.items)?d.items:[]; render(); }, fail);
     db.doc("feed/meta").onSnapshot(s=>{ state.meta=s.exists?s.data():null; render(); }, ()=>{});
   } else {
-    loadJson();
-    document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="visible") loadJson(); });
+    loadJson().then(pollStatus);
+    setInterval(()=>{ if(document.visibilityState==="visible") pollStatus(); }, 60000);
+    document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="visible") loadJson().then(pollStatus); });
   }
 })();
 </script>
