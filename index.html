@@ -77,20 +77,20 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-off
 .sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:10px}
 .sec-h h2{margin:0;font-family:var(--display);font-weight:700;font-size:20px;text-transform:uppercase;letter-spacing:.03em}
 [dir="rtl"] .sec-h h2{font-family:var(--arabic);font-size:18px;text-transform:none;letter-spacing:0}
-.link{border:0;background:transparent;color:var(--accent);font-weight:600;font-size:13px;cursor:pointer;padding:4px 0}
+.link{border:0;background:transparent;color:var(--accent);font-weight:600;font-size:13px;cursor:pointer;padding:4px 0;white-space:nowrap;flex:none}
 
-/* Hero */
-.hero{position:relative;overflow:hidden;border-radius:16px;padding:18px;color:var(--hero-ink);background:linear-gradient(135deg,var(--c) 0%,color-mix(in srgb,var(--c) 55%,#0A1016) 100%);margin-top:12px}
-.hero .lbl{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;opacity:.85}
-[dir="rtl"] .hero .lbl{letter-spacing:0;text-transform:none;font-size:13px}
-.hero h3{margin:6px 0 2px;font-size:24px;line-height:1.2;font-weight:700;text-wrap:balance}
-.hero p{margin:0;font-size:14px;opacity:.9}
-.count{display:flex;gap:14px;margin-top:14px}
-.count div{display:flex;flex-direction:column}
-.count b{font-family:var(--display);font-size:40px;line-height:1;font-weight:700;font-variant-numeric:tabular-nums}
-.count span{font-size:11px;font-weight:600;opacity:.8;text-transform:uppercase;letter-spacing:.06em}
-[dir="rtl"] .count span{text-transform:none;letter-spacing:0}
-.hero .when{margin-top:10px;font-size:13px;font-weight:600;opacity:.9}
+/* Next event ticket */
+.next{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;margin-top:12px;position:relative;overflow:hidden}
+.next::before{content:"";position:absolute;inset-block:0;inset-inline-start:0;width:4px;background:var(--c)}
+.next-count{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:78px;padding:10px 8px;border-radius:10px;background:color-mix(in srgb,var(--c) 14%,var(--surface));text-align:center}
+.next-count b{font-family:var(--display);font-size:38px;line-height:1;font-weight:700;color:var(--c);font-variant-numeric:tabular-nums}
+.next-count span{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-top:4px}
+[dir="rtl"] .next-count span{text-transform:none;letter-spacing:0;font-size:12px}
+.next .lbl{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--c)}
+[dir="rtl"] .next .lbl{letter-spacing:0;text-transform:none;font-size:12px}
+.next h3{margin:3px 0 2px;font-size:19px;line-height:1.25;font-weight:700;text-wrap:balance}
+.next p{margin:0;font-size:13px;color:var(--muted)}
+.next .when{color:var(--ink);font-weight:600;margin-top:2px}
 
 /* Event rows */
 .day{margin-top:20px}
@@ -165,11 +165,18 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-off
 .note{font-size:13px;color:var(--muted);margin:8px 2px 0}
 
 /* Brief, results, calendar */
-.brief{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-top:6px}
-.brief h2{margin:0 0 6px;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
-[dir="rtl"] .brief h2{letter-spacing:0;text-transform:none;font-size:14px}
-.brief ul{margin:0;padding-inline-start:18px;display:grid;gap:6px}
-.brief li{font-size:15px;line-height:1.45}
+.brief{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px 4px;margin-top:12px}
+.brief-h{display:flex;align-items:baseline;justify-content:space-between;gap:8px;padding-bottom:4px}
+.brief h2{margin:0;font-family:var(--display);font-size:18px;font-weight:700;letter-spacing:.03em;text-transform:uppercase}
+[dir="rtl"] .brief h2{font-family:var(--arabic);letter-spacing:0;text-transform:none;font-size:16px}
+.brief-h small{font-size:12px;color:var(--muted)}
+.brief ul{list-style:none;margin:0;padding:0}
+.brief li{display:grid;grid-template-columns:68px 1fr;gap:10px;padding:10px 0;border-top:1px solid var(--line)}
+.brief li:first-child{border-top:0}
+.brief .tag{display:flex;align-items:flex-start;gap:6px;font-size:11px;font-weight:700;color:var(--c);text-transform:uppercase;letter-spacing:.05em;padding-top:3px}
+[dir="rtl"] .brief .tag{text-transform:none;letter-spacing:0;font-size:12px;padding-top:2px}
+.brief .tag::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--c);margin-top:3px;flex:none}
+.brief p{margin:0;font-size:15px;line-height:1.45;min-width:0}
 .res{margin-top:6px;display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:700;background:var(--soft);border-radius:8px;padding:4px 10px}
 .recap{display:inline-block;margin-top:6px;margin-inline-start:8px;font-size:13px;font-weight:600;color:var(--accent);text-decoration:none}
 .ev.past{background:var(--raised)}
@@ -215,8 +222,8 @@ const T = {
     titles:{home:"Aujourd'hui",agenda:"Agenda",news:"Actus",reads:"À lire",settings:"Réglages"},
     briefTitle:"Le brief du jour", results:"Résultats récents", done:["Fini",""], result:"Résultat", recap:"Lire l'analyse", addCal:"Ajouter au calendrier", calTitle:"Calendrier de l'iPhone", calSub:"Abonne ton iPhone aux incontournables : ils apparaissent dans ton calendrier avec une alerte 30 min avant, et la liste se met à jour toute seule.", calBtn:"S'abonner aux incontournables", calAll:"Tout l'agenda", readTonight:"À lire ce soir", seeReads:"Toutes les lectures", whyRead:"Pourquoi le lire : ", min:"min", markRead:"Marquer comme lu", isRead:"Lu ✓", open:"Lire", unread:"Non lus", paywall:"accès payant", langs:{fr:"FR",en:"EN",ar:"AR"}, readsEmpty:"Tu as tout lu dans cette catégorie. De nouvelles lectures arrivent chaque matin.", readsIntro:"Analyses et articles de fond choisis pour toi, mis à jour chaque matin.",
     all:"Tous", allNews:"Tout", fav:"★ Favoris", updated:"Mis à jour le ", loading:"Chargement…",
-    next:"Prochain incontournable", days:"jours", hours:"h", mins:"min", startsAt:"Début", started:"C'est en cours",
-    week:"Prochains grands rendez-vous", seeAgenda:"Tout l'agenda", headlines:"À la une", seeNews:"Toutes les actus", seeAll:n=>`Voir tout (${n})`,
+    next:"Prochain incontournable", days:"jours", day1:"jour", hours:"h", mins:"min", before:"avant", todayShort:"auj.", startsAt:"Début", started:"C'est en cours",
+    week:"Grands rendez-vous", seeAgenda:"Tout l'agenda", headlines:"À la une", seeNews:"Toutes les actus", seeAll:n=>`Voir tout (${n})`,
     now:"En ce moment", live:"en cours", today:"Aujourd'hui", tomorrow:"Demain", dminus:n=>`dans ${n} j`,
     inProgress:["En","cours"], tourn:["Tournoi","plusieurs jours"], event:["Événement","plusieurs jours"], dateOnly:["Heure","à venir"],
     until:"jusqu'au", favEmpty:"Aucun favori pour l'instant. Touche l'étoile ★ d'un événement pour le garder ici.",
@@ -240,7 +247,7 @@ const T = {
     titles:{home:"اليوم",agenda:"المواعيد",news:"الأخبار",reads:"للقراءة",settings:"الإعدادات"},
     briefTitle:"موجز اليوم", results:"نتائج حديثة", done:["انتهى",""], result:"النتيجة", recap:"اقرأ التحليل", addCal:"أضف إلى التقويم", calTitle:"تقويم الآيفون", calSub:"اشترك في المواعيد التي لا تُفوَّت: تظهر في تقويمك مع تنبيه قبل 30 دقيقة، وتتحدّث القائمة تلقائيًا.", calBtn:"اشترك في المواعيد الكبرى", calAll:"كل المواعيد", readTonight:"للقراءة هذا المساء", seeReads:"كل القراءات", whyRead:"لماذا تقرأه: ", min:"د", markRead:"تمت القراءة؟", isRead:"قُرئ ✓", open:"اقرأ", unread:"غير مقروء", paywall:"محتوى مدفوع", langs:{fr:"FR",en:"EN",ar:"AR"}, readsEmpty:"قرأت كل شيء في هذه الفئة. تصل قراءات جديدة كل صباح.", readsIntro:"تحليلات ومقالات معمّقة مختارة لك، تُحدَّث كل صباح.",
     all:"الكل", allNews:"الكل", fav:"★ المفضلة", updated:"آخر تحديث: ", loading:"جارٍ التحميل…",
-    next:"الموعد القادم الذي لا يُفوَّت", days:"يوم", hours:"ساعة", mins:"دقيقة", startsAt:"يبدأ", started:"جارٍ الآن",
+    next:"الموعد الكبير القادم", days:"أيام", day1:"يوم", hours:"س", mins:"د", before:"متبقية", todayShort:"اليوم", startsAt:"يبدأ", started:"جارٍ الآن",
     week:"المواعيد الكبرى القادمة", seeAgenda:"كل المواعيد", headlines:"أبرز الأخبار", seeNews:"كل الأخبار", seeAll:n=>`عرض الكل (${n})`,
     now:"الآن", live:"جارٍ", today:"اليوم", tomorrow:"غدًا", dminus:n=> n===2?"بعد يومين":(n<=10?`بعد ${n} أيام`:`بعد ${n} يومًا`),
     inProgress:["جارٍ","الآن"], tourn:["بطولة","عدة أيام"], event:["حدث","عدة أيام"], dateOnly:["الساعة","لاحقًا"],
@@ -434,17 +441,25 @@ function viewHome(){
   const next = evs.find(e=>e.level>=3 && pStart(e)>now) || evs.find(e=>pStart(e)>now);
   let html="";
   const brief = state.meta && (state.lang==="ar" ? state.meta.brief_ar : state.meta.brief);
-  if (Array.isArray(brief) && brief.length) html += `<section class="brief"><h2>${esc(t.briefTitle)}</h2><ul>${brief.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></section>`;
+  const BRIEF_C = {sport:"--foot",maroc:"--maroc",monde:"--geo",tech:"--tech",culture:"--art","رياضة":"--foot","المغرب":"--maroc","العالم":"--geo","تكنولوجيا":"--tech","ثقافة":"--art"};
+  const briefHtml = (Array.isArray(brief) && brief.length) ? `<section class="brief"><div class="brief-h"><h2>${esc(t.briefTitle)}</h2>${state.meta.updatedAt?`<small>${esc(fmt(new Date(state.meta.updatedAt),{hour:"2-digit",minute:"2-digit",hour12:false}))}</small>`:""}</div><ul>${brief.map(x=>{
+      const m=String(x).match(/^\s*([^:：]{2,16})\s*[:：]\s*(.+)$/s);
+      const lab=m?m[1].trim():"", raw=m?m[2]:String(x), txt=raw.charAt(0).toUpperCase()+raw.slice(1), key=lab.toLowerCase();
+      return `<li style="--c:var(${BRIEF_C[key]||BRIEF_C[lab]||"--accent"})"><span class="tag">${esc(lab)}</span><p>${esc(txt)}</p></li>`;
+    }).join("")}</ul></section>` : "";
   if (next){
     const c=SPORT_C[next.sport]||"--accent";
-    html += `<section class="hero" style="--c:var(${c})" aria-live="polite">
-      <div class="lbl">${esc(t.next)} · ${esc(t.sports[next.sport]||"")}</div>
-      <h3>${esc(tx(next,"title"))}</h3>
-      <p>${esc(tx(next,"comp"))} · ${esc(tx(next,"place"))}</p>
-      <div class="count" id="count" data-start="${pStart(next).toISOString()}" data-dateonly="${isDateOnly(next)?1:0}"></div>
-      <div class="when">${esc(isDateOnly(next) ? fmt(pStart(next),{weekday:"long",day:"numeric",month:"long"}) : fmt(pStart(next),{weekday:"long",day:"numeric",month:"long",hour:"2-digit",minute:"2-digit",hour12:false}))}</div>
+    html += `<section class="next" style="--c:var(${c})" aria-live="polite">
+      <div class="next-count" id="count" data-start="${pStart(next).toISOString()}" data-dateonly="${isDateOnly(next)?1:0}"></div>
+      <div class="min">
+        <div class="lbl">${esc(t.next)} · ${esc(t.sports[next.sport]||"")}</div>
+        <h3>${esc(tx(next,"title"))}</h3>
+        <p>${esc(tx(next,"comp"))} · ${esc(tx(next,"place"))}</p>
+        <p class="when">${esc(isDateOnly(next) ? fmt(pStart(next),{weekday:"long",day:"numeric",month:"long"}) : fmt(pStart(next),{weekday:"long",day:"numeric",month:"long",hour:"2-digit",minute:"2-digit",hour12:false}))}</p>
+      </div>
     </section>`;
   }
+  html += briefHtml;
   const week = evs.filter(e=>e!==next && e.level>=3).slice(0,5);
   const resNow = recentResults().slice(0,3);
   html += `<section class="sec"><div class="sec-h"><h2>${esc(t.week)}</h2><button class="link" data-go="agenda">${esc(t.seeAgenda)}</button></div>`;
@@ -523,12 +538,14 @@ function tick(){
   const el=document.getElementById("count"); if(!el) return;
   const t=L(), start=new Date(el.dataset.start), now=new Date();
   let ms=start-now;
-  if (ms<=0){ el.innerHTML=`<div><b>●</b><span>${esc(t.started)}</span></div>`; return; }
+  if (ms<=0){ el.innerHTML=`<b>●</b><span>${esc(t.started)}</span>`; return; }
+  if (el.dataset.dateonly==="1"){
+    const n=Math.round((sod(start)-sod(now))/864e5);
+    el.innerHTML = n<=0 ? `<b>0</b><span>${esc(t.todayShort)}</span>` : `<b>${n}</b><span>${esc(n===1?t.day1:t.days)}</span>`;
+    return;
+  }
   const d=Math.floor(ms/864e5); ms-=d*864e5; const h=Math.floor(ms/36e5); ms-=h*36e5; const mi=Math.floor(ms/6e4);
-  const pad=n=>String(n).padStart(2,"0");
-  el.innerHTML = el.dataset.dateonly==="1"
-    ? `<div><b>${d+(h>0?1:0)}</b><span>${esc(t.days)}</span></div>`
-    : `<div><b>${d}</b><span>${esc(t.days)}</span></div><div><b>${pad(h)}</b><span>${esc(t.hours)}</span></div><div><b>${pad(mi)}</b><span>${esc(t.mins)}</span></div>`;
+  el.innerHTML = d>=1 ? `<b>${d}</b><span>${esc(d===1?t.day1:t.days)} · ${h}${esc(t.hours)}</span>` : `<b>${h}:${String(mi).padStart(2,"0")}</b><span>${esc(t.before)}</span>`;
 }
 setInterval(tick, 30000);
 
