@@ -399,46 +399,79 @@ button.fig:active{transform:scale(.99)}
 @media (min-width:760px){ .ask-fab{inset-inline-end:calc(50% - 340px + 16px)} }
 
 /* chat sheet */
-.sheet-bg{position:fixed;inset:0;z-index:50;background:rgba(12,10,32,.42);animation:fade .18s ease-out}
-.sheet{position:fixed;inset-inline:0;bottom:0;z-index:51;max-width:680px;margin:0 auto;height:min(88dvh,780px);background:var(--bg);border-radius:22px 22px 0 0;display:flex;flex-direction:column;box-shadow:0 -10px 40px rgba(10,8,40,.25);animation:up .22s cubic-bezier(.2,.8,.2,1);padding-bottom:env(safe-area-inset-bottom,0px)}
-.sheet-grip{width:40px;height:5px;border-radius:3px;background:var(--line);margin:8px auto 0;flex:none}
-.sheet-h{display:flex;align-items:flex-start;gap:12px;padding:10px 16px 12px;border-bottom:1px solid var(--line);flex:none}
+.sheet-bg{position:fixed;inset:0;z-index:50;background:rgba(8,6,24,.55);backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px);animation:fade .2s ease-out}
+.sheet{position:fixed;inset-inline:0;bottom:0;z-index:51;max-width:680px;margin:0 auto;height:94dvh;background:var(--bg);border-radius:24px 24px 0 0;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 -12px 48px rgba(10,8,40,.3);animation:up .24s cubic-bezier(.2,.8,.2,1)}
+@media (min-width:760px){ .sheet{height:min(86dvh,820px);bottom:4dvh;border-radius:24px} }
+.sheet-grip{width:38px;height:5px;border-radius:3px;background:var(--line);margin:8px auto 2px;flex:none}
+.sheet-h{display:flex;align-items:center;gap:12px;padding:8px 14px 12px 16px;flex:none}
+.sheet-h .badge-ai{width:40px;height:40px;border-radius:14px;display:grid;place-items:center;flex:none;background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 55%,var(--safran)));color:#fff}
+.sheet-h .badge-ai svg{width:22px;height:22px}
 .sheet-h .min{flex:1}
-.sheet-h h2{margin:0;font-size:18px;font-weight:800;display:flex;align-items:center;gap:7px;color:var(--ink)}
-.sheet-h h2 svg{width:19px;height:19px;color:var(--accent)}
-.sheet-h p{margin:2px 0 0;font-size:13px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.sheet-h h2{margin:0;font-size:18px;line-height:1.25;font-weight:800;color:var(--ink)}
+.sheet-h p{margin:1px 0 0;font-size:13px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
 .sheet-h .tools{display:flex;gap:6px;align-items:center}
-.reset{border:0;background:transparent;color:var(--accent);font-weight:700;font-size:13px;cursor:pointer;padding:6px 4px}
-.msgs{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:12px;overscroll-behavior:contain}
-.hello{display:grid;gap:10px;padding:4px 0 6px}
-.hello p{margin:0;font-size:15px;color:var(--muted);line-height:1.5}
-.sugs{display:flex;flex-wrap:wrap;gap:8px}
-.sug{border:0;background:var(--surface);box-shadow:0 0 0 1px var(--line);color:var(--ink);font-weight:600;font-size:14px;border-radius:14px;padding:9px 13px;cursor:pointer;text-align:start;line-height:1.35}
+.ibtn{border:0;background:var(--surface);box-shadow:0 0 0 1px var(--line);width:36px;height:36px;border-radius:50%;display:grid;place-items:center;cursor:pointer;color:var(--muted);flex:none}
+.ibtn svg{width:17px;height:17px}
+.ctx{display:flex;align-items:center;gap:10px;margin:0 16px 4px;padding:8px 10px;border-radius:14px;background:var(--surface);box-shadow:0 0 0 1px var(--line);flex:none}
+.ctx img{width:40px;height:40px;border-radius:10px;object-fit:cover;flex:none;background:var(--raised)}
+.ctx .min{flex:1}
+.ctx small{display:block;font-size:11px;font-weight:700;color:var(--c,var(--accent));letter-spacing:.02em}
+.ctx b{display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden;font-size:14px;font-weight:650;color:var(--ink)}
+.msgs{flex:1;overflow-y:auto;padding:14px 16px 18px;display:flex;flex-direction:column;gap:18px;overscroll-behavior:contain;scroll-behavior:smooth}
+.hello{display:grid;gap:14px;padding:18px 0 4px;justify-items:center;text-align:center}
+.hello .orb{width:60px;height:60px;border-radius:20px;display:grid;place-items:center;background:var(--soft);color:var(--accent)}
+.hello .orb svg{width:30px;height:30px}
+.hello h3{margin:0;font-size:20px;font-weight:800;color:var(--ink)}
+.hello p{margin:-6px 0 4px;font-size:15px;color:var(--muted);line-height:1.5;max-width:34ch}
+.sugs{display:grid;gap:8px;width:100%}
+.sug{display:flex;align-items:center;gap:12px;width:100%;border:0;background:var(--surface);box-shadow:0 0 0 1px var(--line);color:var(--ink);font:inherit;font-weight:600;font-size:15px;border-radius:16px;padding:13px 14px;cursor:pointer;text-align:start;line-height:1.35}
+.sug .si{width:30px;height:30px;border-radius:10px;display:grid;place-items:center;background:var(--soft);color:var(--accent);flex:none}
+.sug .si svg{width:16px;height:16px}
+.sug .t{flex:1}
+.sug .ar{color:var(--muted);flex:none;width:16px;height:16px}
+[dir="rtl"] .sug .ar{transform:scaleX(-1)}
 .sug:active{background:var(--soft)}
-.sugs.follow .sug{font-size:13px;padding:7px 11px;border-radius:999px;background:var(--soft);box-shadow:none;color:var(--accent)}
-.msg{max-width:88%;font-size:16px;line-height:1.55;border-radius:18px;padding:10px 14px;overflow-wrap:anywhere}
-[dir="rtl"] .msg{line-height:1.8}
-.msg.me{align-self:flex-end;background:var(--accent);color:var(--accent-ink);border-end-end-radius:6px}
-.msg.bot{align-self:flex-start;background:var(--surface);color:var(--ink);box-shadow:0 0 0 1px var(--line);border-end-start-radius:6px}
-.msg.bot p{margin:0}
-.msg.bot p + p,.msg.bot p + ul,.msg.bot ul + p{margin-top:8px}
-.msg.bot ul{margin:0;padding-inline-start:20px;display:grid;gap:4px}
-.msg.bot b{font-weight:750}
-.msg.err.codef{flex-direction:column;align-items:stretch}.coderow{display:flex;gap:8px}.coderow input{flex:1;min-width:0;border:0;border-radius:12px;padding:9px 12px;font:inherit;font-size:16px;background:var(--surface);color:var(--ink);box-shadow:0 0 0 1px var(--line)}
-.msg.err{align-self:stretch;max-width:none;background:color-mix(in srgb,var(--f1) 10%,var(--surface));color:var(--ink);font-size:14px;display:flex;gap:10px;align-items:center;justify-content:space-between}
-.dots{display:inline-flex;gap:5px;align-items:center;color:var(--muted);font-size:14px}
-.dots i{width:6px;height:6px;border-radius:50%;background:var(--accent);opacity:.3;animation:blink 1.2s infinite}
+.msg.me{align-self:flex-end;max-width:84%;background:var(--accent);color:var(--accent-ink);font-size:16px;line-height:1.5;border-radius:20px;border-end-end-radius:6px;padding:10px 15px;overflow-wrap:anywhere}
+[dir="rtl"] .msg.me{line-height:1.75}
+.turn{display:grid;gap:6px;align-self:stretch}
+.who{display:flex;align-items:center;gap:7px;font-size:13px;font-weight:700;color:var(--muted)}
+.who i{width:22px;height:22px;border-radius:8px;display:grid;place-items:center;background:var(--soft);color:var(--accent)}
+.who i svg{width:13px;height:13px}
+.bot-body{font-size:16.5px;line-height:1.6;color:var(--ink);overflow-wrap:anywhere}
+[dir="rtl"] .bot-body{font-size:17px;line-height:1.85}
+.bot-body p{margin:0}
+.bot-body p + p,.bot-body p + ul,.bot-body ul + p,.bot-body ul + ul{margin-top:10px}
+.bot-body ul{margin:0;padding-inline-start:20px;display:grid;gap:6px}
+.bot-body b{font-weight:750}
+.caret{display:inline-block;width:8px;height:1.05em;margin-inline-start:2px;vertical-align:-2px;border-radius:2px;background:var(--accent);animation:blink 1s steps(2) infinite}
+.turn-acts{display:flex;gap:6px}
+.chip-act{border:0;background:transparent;color:var(--muted);font:inherit;font-size:13px;font-weight:600;padding:4px 8px;margin-inline-start:-8px;border-radius:8px;cursor:pointer;display:inline-flex;align-items:center;gap:5px}
+.chip-act svg{width:14px;height:14px}
+.chip-act:active{background:var(--raised)}
+.dots{display:inline-flex;gap:5px;align-items:center;color:var(--muted);font-size:14px;padding:6px 0}
+.dots i{width:7px;height:7px;border-radius:50%;background:var(--accent);opacity:.3;animation:blink 1.2s infinite}
 .dots i:nth-child(2){animation-delay:.2s}.dots i:nth-child(3){animation-delay:.4s}
+.dots span{margin-inline-start:4px}
 @keyframes blink{0%,100%{opacity:.25}40%{opacity:1}}
-.composer{flex:none;display:flex;gap:8px;align-items:flex-end;padding:10px 12px 12px;border-top:1px solid var(--line);background:var(--surface)}
-.composer textarea{flex:1;resize:none;border:0;outline:0;background:var(--raised);color:var(--ink);font:inherit;font-size:16px;line-height:1.4;border-radius:20px;padding:10px 14px;max-height:120px;min-height:42px}
-.composer textarea:focus-visible{box-shadow:0 0 0 2px var(--accent)}
-.send{border:0;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:var(--accent-ink);cursor:pointer;flex:none}
-.send svg{width:20px;height:20px}
+.msg.err{align-self:stretch;display:flex;gap:12px;align-items:center;justify-content:space-between;border-radius:16px;padding:12px 14px;background:color-mix(in srgb,var(--f1) 12%,var(--surface));color:var(--ink);font-size:14px;line-height:1.45}
+.msg.err.codef{flex-direction:column;align-items:stretch}
+.coderow{display:flex;gap:8px}
+.coderow input{flex:1;min-width:0;border:0;border-radius:12px;padding:10px 12px;font:inherit;font-size:16px;background:var(--surface);color:var(--ink);box-shadow:0 0 0 1px var(--line)}
+.follow{flex:none;display:flex;gap:8px;overflow-x:auto;padding:10px 16px 2px;scrollbar-width:none;background:var(--bg)}
+.follow::-webkit-scrollbar{display:none}
+.follow button{flex:none;border:0;background:var(--soft);color:var(--accent);font:inherit;font-weight:700;font-size:13px;border-radius:999px;padding:8px 13px;cursor:pointer;white-space:nowrap}
+.composer{flex:none;display:flex;gap:8px;align-items:flex-end;padding:10px 12px 8px;background:var(--bg)}
+.composer .field{flex:1;display:flex;align-items:flex-end;background:var(--surface);border-radius:24px;box-shadow:0 0 0 1px var(--line);padding:4px 4px 4px 14px;gap:6px}
+[dir="rtl"] .composer .field{padding:4px 14px 4px 4px}
+.composer .field:focus-within{box-shadow:0 0 0 2px var(--accent)}
+.composer textarea{flex:1;resize:none;border:0;outline:0;background:transparent;color:var(--ink);font:inherit;font-size:16px;line-height:1.4;padding:9px 0;max-height:120px;min-height:40px}
+.send{border:0;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:var(--accent-ink);cursor:pointer;flex:none;transition:opacity .15s,transform .15s}
+.send svg{width:19px;height:19px}
 [dir="rtl"] .send svg{transform:scaleX(-1)}
-.send:disabled{opacity:.35;cursor:default}
+.send:disabled{opacity:.3;cursor:default}
+.send:not(:disabled):active{transform:scale(.94)}
 .send.stop{background:var(--ink);color:var(--bg)}
-.sheet-note{flex:none;margin:0;padding:0 16px 8px;font-size:11px;color:var(--muted);background:var(--surface);text-align:center}
+.sheet-note{flex:none;margin:0;padding:2px 16px calc(8px + env(safe-area-inset-bottom,0px));font-size:11px;color:var(--muted);background:var(--bg);text-align:center}
 @keyframes up{from{transform:translateY(24px);opacity:0}to{transform:none;opacity:1}}
 @keyframes fade{from{opacity:0}to{opacity:1}}
 @media (prefers-reduced-motion:reduce){ .tip,.sheet,.sheet-bg{animation:none} .dots i{animation:none;opacity:.7} .term > summary .chev{transition:none} }
@@ -1115,7 +1148,7 @@ function podDetail(key){
 const LX = {
   fr:{h:"Pour bien comprendre", ctx:"Avant de lire", figs:"Les chiffres expliqués", terms:"Les mots à connaître", ask:"Demander à Claude", askShort:"Une question ?",
     askTerm:w=>`Explique-moi « ${w} » simplement, avec un exemple concret.`, askFig:n=>`« ${n} » : c'est beaucoup ou peu ? Aide-moi à comparer.`, figQ:"C'est beaucoup ?",
-    sheetSub:"Pose ta question sur cet article", hello:"Je peux t'expliquer un mot, un chiffre ou le contexte de cet article, simplement.", ph:"Écris ta question…", send:"Envoyer", stop:"Arrêter", close:"Fermer", thinking:"Claude réfléchit",
+    sheetSub:"Réponses simples, d'après cet article", helloH:"Une question sur cet article ?", copy:"Copier", copied:"Copié", hello:"Je peux t'expliquer un mot, un chiffre ou le contexte, simplement.", ph:"Écris ta question…", send:"Envoyer", stop:"Arrêter", close:"Fermer", thinking:"Je réfléchis…",
     note:"Claude répond à partir de l'article. Il peut se tromper : vérifie les points importants.", reset:"Effacer",
     sug:{simple:"Explique-moi cet article simplement", why:"Pourquoi c'est important ?", maroc:"Qu'est-ce que ça change pour le Maroc ?", win:"Qui gagne, qui perd ?", next:"Et maintenant, que peut-il se passer ?"},
     follow:["Donne-moi un exemple concret","Encore plus simple","Et pour le Maroc ?"],
@@ -1123,7 +1156,7 @@ const LX = {
     retry:"Réessayer", more:"Demander plus à Claude", tapHint:"Les mots soulignés s'expliquent d'un toucher.", langName:"français simple (niveau B1), avec le tutoiement"},
   ar:{h:"لفهم الخبر جيدًا", ctx:"قبل القراءة", figs:"الأرقام بشرح بسيط", terms:"كلمات يجب معرفتها", ask:"اسأل Claude", askShort:"سؤال؟",
     askTerm:w=>`اشرح لي «${w}» ببساطة مع مثال ملموس.`, askFig:n=>`«${n}»: هل هذا كثير أم قليل؟ ساعدني على المقارنة.`, figQ:"هل هذا كثير؟",
-    sheetSub:"اطرح سؤالك حول هذا المقال", hello:"يمكنني أن أشرح لك كلمة أو رقمًا أو سياق هذا المقال، بكل بساطة.", ph:"اكتب سؤالك…", send:"إرسال", stop:"إيقاف", close:"إغلاق", thinking:"Claude يفكر",
+    sheetSub:"أجوبة بسيطة انطلاقًا من هذا المقال", helloH:"سؤال حول هذا المقال؟", copy:"نسخ", copied:"تم النسخ", hello:"يمكنني أن أشرح لك كلمة أو رقمًا أو السياق، بكل بساطة.", ph:"اكتب سؤالك…", send:"إرسال", stop:"إيقاف", close:"إغلاق", thinking:"أفكّر…",
     note:"يجيب Claude انطلاقًا من المقال وقد يخطئ: تحقّق من النقاط المهمة.", reset:"مسح",
     sug:{simple:"اشرح لي هذا المقال ببساطة", why:"لماذا هذا مهم؟", maroc:"ماذا يغيّر هذا بالنسبة للمغرب؟", win:"من الرابح ومن الخاسر؟", next:"وماذا يمكن أن يحدث الآن؟"},
     follow:["أعطني مثالًا ملموسًا","بشكل أبسط","وبالنسبة للمغرب؟"],
@@ -1166,9 +1199,9 @@ function pwaSample(input, o){
       const r = await fetch("api/ask",{cache:"no-store"});
       const j = r.ok ? await r.json() : null;
       if (j && j.ok){ ai.sample = pwaSample;
-        if (j.provider==="deepseek"){
-          Object.assign(LX.fr,{ask:"Demander à l'IA", thinking:"L'IA réfléchit", more:"Demander plus à l'IA", note:"Réponses de l'IA DeepSeek, à partir de l'article. Elle peut se tromper : vérifie les points importants."});
-          Object.assign(LX.ar,{ask:"اسأل الذكاء الاصطناعي", thinking:"الذكاء الاصطناعي يفكر", more:"اسأل الذكاء الاصطناعي أكثر", note:"أجوبة الذكاء الاصطناعي DeepSeek انطلاقًا من المقال، وقد يخطئ: تحقّق من النقاط المهمة."});
+        if (j.provider==="deepseek"){ ai.provider="DeepSeek";
+          Object.assign(LX.fr,{ask:"Demander à l'IA", more:"Demander plus à l'IA", note:"Réponses de l'IA DeepSeek, à partir de l'article. Elle peut se tromper : vérifie les points importants."});
+          Object.assign(LX.ar,{ask:"اسأل الذكاء الاصطناعي", more:"اسأل الذكاء الاصطناعي أكثر", note:"أجوبة الذكاء الاصطناعي DeepSeek انطلاقًا من المقال، وقد يخطئ: تحقّق من النقاط المهمة."});
         }
       }
     } else if (window.claude && window.claude.use){ ai.sample = await window.claude.use("sample"); }
@@ -1321,35 +1354,59 @@ function closeChat(){
   const fab=document.getElementById("askfab"); if(fab) fab.focus({preventScroll:true});
 }
 function chatKeys(e){ if(e.key==="Escape"){ if(ai.ctl) ai.ctl.abort(); closeChat(); } }
+function aiName(){ return ai.provider || "Claude"; }
+const LXI2 = {
+  reset:S('<path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4v4h4"/>'),
+  copy:S('<rect x="8" y="8" width="12" height="12" rx="2.5"/><path d="M16 8V6.5A2.5 2.5 0 0 0 13.5 4h-7A2.5 2.5 0 0 0 4 6.5v7A2.5 2.5 0 0 0 6.5 16H8"/>'),
+  check:S('<path d="M5 12.5l4.5 4.5L19 7.5"/>'),
+  arrow:S('<path d="M9 6l6 6-6 6"/>'),
+  bulb:S('<path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.4 1 1.1 1 1.8V16h5v-.3c0-.7.4-1.4 1-1.8A6 6 0 0 0 12 3z"/>'),
+  chart:S('<path d="M4 20h16"/><path d="M6 16l4-5 3 3 5-6"/>'),
+  pin:S('<path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/>'),
+  scale:S('<path d="M12 4v16M6 20h12M5 8h14"/><path d="M5 8l-2.5 6a3 3 0 0 0 5 0zM19 8l-2.5 6a3 3 0 0 0 5 0z"/>'),
+  next:S('<path d="M5 12h14M13 6l6 6-6 6"/>')
+};
+const SUG_ICONS=[LXI2.bulb,LXI2.chart,LXI2.pin,LXI2.scale,LXI2.next];
 function drawChat(full){
   const sh=document.getElementById("sheet"); if(!sh||!ai.open) return;
   const doc=currentDoc(); if(!doc||doc.key!==ai.open){ closeChat(); return; }
-  const X=LXL(), c=chatOf(doc.key);
-  sh.dir = state.lang==="ar"?"rtl":"ltr"; sh.lang=state.lang;
-  const title = tx(doc.x,"title");
-  const msgs = c.turns.map(t=>t.role==="user"?`<div class="msg me">${esc(t.content)}</div>`:`<div class="msg bot">${mdLite(t.content)}</div>`).join("");
-  const liveHtml = c.busy ? `<div class="msg bot" id="livemsg">${c.live?mdLite(c.live):`<span class="dots" role="status"><i></i><i></i><i></i> ${esc(X.thinking)}</span>`}</div>` : "";
-  const errHtml = c.err==="bad_code" ? `<form class="msg err codef" role="alert" id="codef"><span>${esc(X.err.bad_code)}</span><span class="coderow"><input id="radarcode" type="password" autocomplete="current-password" placeholder="${esc(X.codePh)}" aria-label="${esc(X.codePh)}"><button class="btn primary" type="submit">${esc(X.codeOk)}</button></span></form>`
+  const X=LXL(), c=chatOf(doc.key), AR=state.lang==="ar";
+  sh.dir = AR?"rtl":"ltr"; sh.lang=state.lang;
+  const who = `<div class="who"><i>${LXI.chat}</i>${esc(aiName())}</div>`;
+  const msgs = c.turns.map((t,i)=>t.role==="user"
+    ? `<div dir="auto" class="msg me">${esc(t.content)}</div>`
+    : `<div class="turn">${who}<div dir="auto" class="bot-body">${mdLite(t.content)}</div><div class="turn-acts"><button class="chip-act" data-copy="${i}">${LXI2.copy}<span>${esc(X.copy)}</span></button></div></div>`).join("");
+  const liveHtml = c.busy ? `<div class="turn" id="liveturn">${who}<div dir="auto" class="bot-body" id="livemsg">${c.live?mdLite(c.live)+'<span class="caret"></span>':`<span class="dots" role="status"><i></i><i></i><i></i><span>${esc(X.thinking)}</span></span>`}</div></div>` : "";
+  const errHtml = c.err==="bad_code" ? `<form class="msg err codef" role="alert" id="codef"><span>${esc(X.err.bad_code)}</span><span class="coderow"><input id="radarcode" type="password" autocomplete="current-password" placeholder="${esc(X.codePh||"Code")}" aria-label="${esc(X.codePh||"Code")}"><button class="btn primary" type="submit">${esc(X.codeOk||"OK")}</button></span></form>`
     : c.err ? `<div class="msg err" role="alert"><span>${esc(X.err[c.err]||X.err.default)}</span>${c.err!=="not_granted"?`<button class="btn" data-retry="1">${esc(X.retry)}</button>`:""}</div>` : "";
-  const intro = !c.turns.length && !c.busy ? `<div class="hello"><p>${esc(X.hello)}</p><div class="sugs">${suggestionsFor(doc).map(s=>`<button class="sug" data-sug="${esc(s)}">${esc(s)}</button>`).join("")}</div></div>` : "";
-  const follow = c.turns.length && !c.busy && !c.err ? `<div class="sugs follow">${X.follow.map(s=>`<button class="sug" data-sug="${esc(s)}">${esc(s)}</button>`).join("")}</div>` : "";
+  const intro = !c.turns.length && !c.busy ? `<div class="hello"><div class="orb">${LXI.chat}</div><h3>${esc(X.helloH)}</h3><p>${esc(X.hello)}</p><div class="sugs">${suggestionsFor(doc).map((s,i)=>`<button class="sug" data-sug="${esc(s)}"><span class="si">${SUG_ICONS[i%SUG_ICONS.length]}</span><span class="t">${esc(s)}</span><span class="ar">${LXI2.arrow}</span></button>`).join("")}</div></div>` : "";
   if (full){
+    const x=doc.x, col = x.cat==="sport"&&SPORT_C[x.sport]?SPORT_C[x.sport]:(CAT_C[x.cat]||"--accent");
+    const lab = doc.kind==="an" ? L().readAnalysis : (newsLabel(x).label);
     sh.setAttribute("aria-label",X.ask);
     sh.innerHTML = `<div class="sheet-grip" aria-hidden="true"></div>
-      <div class="sheet-h"><div class="min"><h2>${LXI.chat}${esc(X.ask)}</h2><p>${esc(title)}</p></div><div class="tools">${c.turns.length?`<button class="reset" id="chatreset">${esc(X.reset)}</button>`:""}<button class="x" id="chatclose" aria-label="${esc(X.close)}">${LXI.x}</button></div></div>
+      <div class="sheet-h"><span class="badge-ai">${LXI.chat}</span><div class="min"><h2>${esc(X.ask)}</h2><p>${esc(X.sheetSub)}</p></div><div class="tools"><button class="ibtn" id="chatreset" aria-label="${esc(X.reset)}" ${c.turns.length?"":"hidden"}>${LXI2.reset}</button><button class="ibtn" id="chatclose" aria-label="${esc(X.close)}">${LXI.x}</button></div></div>
+      <div class="ctx" style="--c:var(${col})">${imgOk(x.image)?`<img src="${esc(x.image)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:""}<div class="min"><small>${esc(lab)}</small><b>${esc(tx(x,"title"))}</b></div></div>
       <div class="msgs" id="msgs" aria-live="polite"></div>
-      <form class="composer" id="chatform"><textarea id="chatin" rows="1" placeholder="${esc(X.ph)}" aria-label="${esc(X.ph)}"></textarea><button class="send" id="chatsend" type="submit" aria-label="${esc(X.send)}">${LXI.send}</button></form>
+      <div class="follow" id="follow" hidden></div>
+      <form class="composer" id="chatform"><div class="field"><textarea id="chatin" rows="1" placeholder="${esc(X.ph)}" aria-label="${esc(X.ph)}"></textarea><button class="send" id="chatsend" type="submit" aria-label="${esc(X.send)}">${LXI.send}</button></div></form>
       <p class="sheet-note">${esc(X.note)}</p>`;
     sh.querySelector("#chatclose").onclick=closeChat;
-    const rs=sh.querySelector("#chatreset"); if(rs) rs.onclick=()=>{ if(ai.ctl) ai.ctl.abort(); ai.chats.delete(doc.key); drawChat(true); };
+    sh.querySelector("#chatreset").onclick=()=>{ if(ai.ctl) ai.ctl.abort(); ai.chats.delete(doc.key); drawChat(true); };
     const ta=sh.querySelector("#chatin");
     ta.oninput=()=>{ ta.style.height="auto"; ta.style.height=Math.min(120,ta.scrollHeight)+"px"; updSend(); };
-    ta.onkeydown=e=>{ if(e.key==="Enter" && !e.shiftKey && !e.isComposing){ e.preventDefault(); sh.querySelector("#chatform").requestSubmit(); } };
-    sh.querySelector("#chatform").onsubmit=e=>{ e.preventDefault(); const cc=chatOf(doc.key); if(cc.busy){ if(ai.ctl) ai.ctl.abort(); return; } const v=ta.value.trim(); if(!v) return; ta.value=""; ta.style.height="auto"; ask(v); };
+    ta.onkeydown=e=>{ if(e.key==="Enter" && !e.shiftKey && !e.isComposing && matchMedia("(pointer:fine)").matches){ e.preventDefault(); sh.querySelector("#chatform").requestSubmit(); } };
+    sh.querySelector("#chatform").onsubmit=e=>{ e.preventDefault(); const cc=chatOf(doc.key); if(cc.busy){ if(ai.ctl) ai.ctl.abort(); return; } const v=ta.value.trim(); if(!v) return; ta.value=""; ta.style.height="auto"; ta.blur(); ask(v); };
   }
+  const rs=sh.querySelector("#chatreset"); if(rs) rs.hidden=!c.turns.length;
   const box=sh.querySelector("#msgs");
-  box.innerHTML = intro + msgs + liveHtml + errHtml + follow;
-  box.querySelectorAll("[data-sug]").forEach(b=>b.onclick=()=>ask(b.dataset.sug));
+  box.innerHTML = intro + msgs + liveHtml + errHtml;
+  const fl=sh.querySelector("#follow");
+  const showFollow = c.turns.length && !c.busy && !c.err;
+  fl.hidden=!showFollow;
+  fl.innerHTML = showFollow ? X.follow.map(s=>`<button data-sug="${esc(s)}">${esc(s)}</button>`).join("") : "";
+  sh.querySelectorAll("[data-sug]").forEach(b=>b.onclick=()=>ask(b.dataset.sug));
+  box.querySelectorAll("[data-copy]").forEach(b=>b.onclick=async()=>{ const t=c.turns[Number(b.dataset.copy)]; if(!t) return; try{ await navigator.clipboard.writeText(t.content.replace(/\*\*/g,"")); b.innerHTML=`${LXI2.check}<span>${esc(X.copied)}</span>`; setTimeout(()=>{ b.innerHTML=`${LXI2.copy}<span>${esc(X.copy)}</span>`; },1600); }catch(e){} });
   const rt=box.querySelector("[data-retry]"); if(rt) rt.onclick=()=>{ const last=c.turns[c.turns.length-1]; if(last&&last.role==="user"){ c.turns.pop(); ask(last.content); } };
   const cf=box.querySelector("#codef"); if(cf){ const ci=cf.querySelector("input"); setTimeout(()=>ci.focus(),50); cf.onsubmit=e=>{ e.preventDefault(); const v=ci.value.trim(); if(!v) return; store.set("radar-code",v); const last=c.turns[c.turns.length-1]; if(last&&last.role==="user"){ c.turns.pop(); ask(last.content); } }; }
   box.scrollTop=box.scrollHeight;
@@ -1371,7 +1428,8 @@ async function ask(q){
   const ctl=new AbortController(); ai.ctl=ctl;
   let raf=0;
   try{
-    const {text} = await ai.sample(input,{ cache:false, modelTier:"quick", signal:ctl.signal, onText:({text})=>{ c.live=text; if(!raf) raf=requestAnimationFrame(()=>{ raf=0; const el=document.getElementById("livemsg"); if(el&&ai.open===doc.key){ el.innerHTML=mdLite(c.live); const box=document.getElementById("msgs"); if(box) box.scrollTop=box.scrollHeight; } }); } });
+    const {text} = await ai.sample(input,{ cache:false, modelTier:"quick", signal:ctl.signal, onText:({text})=>{ c.live=text; if(!raf) raf=requestAnimationFrame(()=>{ raf=0; const el=document.getElementById("livemsg"); if(el&&ai.open===doc.key){ el.innerHTML=mdLite(c.live)+'<span class="caret"></span>'; const box=document.getElementById("msgs"); if(box) box.scrollTop=box.scrollHeight; } }); } });
+    if(!String(text||"").trim()) throw {code:"default"};
     c.turns.push({role:"assistant",content:text});
   }catch(e){
     const code=e&&e.code;
