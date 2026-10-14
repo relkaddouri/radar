@@ -45,12 +45,12 @@ module.exports = async function handler(req, res) {
       ? await fetch("https://api.deepseek.com/chat/completions", {
           method: "POST",
           headers: { "content-type": "application/json", "authorization": "Bearer " + process.env.DEEPSEEK_API_KEY },
-          body: JSON.stringify({ model: DS_MODEL, max_tokens: 900, stream: true, messages })
+          body: JSON.stringify({ model: DS_MODEL, max_tokens: 1500, stream: true, thinking: { type: "disabled" }, messages })
         })
       : await fetch("https://api.anthropic.com/v1/messages", {
           method: "POST",
           headers: { "content-type": "application/json", "x-api-key": process.env.ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01" },
-          body: JSON.stringify({ model: MODEL, max_tokens: 900, stream: true, messages })
+          body: JSON.stringify({ model: MODEL, max_tokens: 1500, stream: true, messages })
         });
   } catch (e) { return res.status(502).end("upstream"); }
   if (up.status === 429) return res.status(429).end("rate limited");
@@ -60,7 +60,7 @@ module.exports = async function handler(req, res) {
   res.status(200);
   const reader = up.body.getReader();
   const dec = new TextDecoder();
-  let buf = "";
+  let buf = "", wrote = false;
   try {
     for (;;) {
       const { done, value } = await reader.read();
@@ -72,11 +72,14 @@ module.exports = async function handler(req, res) {
         if (!line.startsWith("data:")) continue;
         const data = line.slice(5).trim(); if (data === "[DONE]") continue;
         let ev; try { ev = JSON.parse(data); } catch (e) { continue; }
-        if (ev.type === "content_block_delta" && ev.delta && ev.delta.type === "text_delta") res.write(ev.delta.text);
-        else if (ev.choices && ev.choices[0] && ev.choices[0].delta && typeof ev.choices[0].delta.content === "string") res.write(ev.choices[0].delta.content);
-        else if (ev.type === "error") res.write("\u0000ERR");
+        let t = "";
+        if (ev.type === "content_block_delta" && ev.delta && ev.delta.type === "text_delta") t = ev.delta.text;
+        else if (ev.choices && ev.choices[0] && ev.choices[0].delta && typeof ev.choices[0].delta.content === "string") t = ev.choices[0].delta.content;
+        else if (ev.type === "error" || ev.error) { res.write("\u0000ERR"); continue; }
+        if (t) { res.write(t); wrote = true; }
       }
     }
   } catch (e) { res.write("\u0000ERR"); }
+  if (!wrote) res.write("\u0000ERR");
   res.end();
 };
