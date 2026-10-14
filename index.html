@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#EEF1F4" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0D1319" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#F4F4F8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E0D18" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -18,307 +18,319 @@
 <title>Radar Sport &amp; Actus</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600&display=swap">
 <style>
-/* Layout: phone-first app shell — compact sticky top bar, scrolling content, fixed bottom tab bar (Accueil · Agenda · Actus · Réglages). Home = next must-watch event with countdown + this week + one headline per topic. Arabic flips everything right-to-left. */
+/* Radar v13 — "édition du jour".
+   One bold element: the radar on the home screen (night-blue panel, majorelle rings, saffron blip = next must-watch).
+   Everything else quiet: grouped lists with hairlines, sentence case, Schibsted Grotesk for UI, Newsreader for reading.
+   Claude-written content is always marked with the spark on a majorelle tint. The home screen ends: "Fin de l'édition". */
 :root{
-  --bg:#EEF1F4; --surface:#FFFFFF; --raised:#F6F8FA; --ink:#121C26; --muted:#5A6774; --line:#D6DDE4;
-  --accent:#0B6E99; --soft:#E1E9EF; --star:#D99A00; --hero-ink:#FFFFFF;
+  --bg:#F4F4F8; --surface:#FFFFFF; --raised:#F0EFF6; --ink:#17162A; --muted:#62617A; --line:#E2E1EB;
+  --accent:#4B3FD8; --accent-ink:#FFFFFF; --soft:#ECEAFC;
+  --nuit:#17144A; --nuit2:#262070; --nuit-ink:#F4F2FF; --nuit-muted:#ABA5E6;
+  --safran:#F2A92E; --safran-ink:#2A1A00; --star:#E09A10;
   --foot:#1E8549; --tennis:#6F7E00; --f1:#D2232A; --boxe:#9A4F1C; --mma:#6A3E9E; --basket:#D9600F; --culture:#A97A1E;
   --maroc:#C1272D; --tech:#0B6E99; --geo:#7D4A2E; --ux:#4F55D6; --art:#A97A1E; --cinema:#9C3555; --enfant:#C2407A; --monte:#2E7D6B;
-  --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
-  --body:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --sans:"Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
   --arabic:"IBM Plex Sans Arabic","Noto Sans Arabic","Segoe UI",Tahoma,sans-serif;
-  --nav-h:64px;
+  --arabic-serif:"Noto Naskh Arabic","IBM Plex Sans Arabic",serif;
+  --nav-h:62px;
 }
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
-  --bg:#0D1319; --surface:#161F28; --raised:#1B2631; --ink:#E8EDF2; --muted:#94A2AF; --line:#26323E;
-  --accent:#4DB3E0; --soft:#1C2833; --star:#F2C14E; --hero-ink:#FFFFFF;
+  --bg:#0E0D18; --surface:#18172A; --raised:#211F36; --ink:#EEEDF7; --muted:#A4A3BC; --line:#2C2B44;
+  --accent:#9389FF; --accent-ink:#120F33; --soft:#24214B;
+  --nuit:#141043; --nuit2:#221C66;
+  --star:#F2C14E;
   --foot:#4CC27E; --tennis:#C3D23A; --f1:#FF5A5F; --boxe:#D99060; --mma:#AE86E6; --basket:#FF8B3D; --culture:#E3B456;
   --maroc:#FF6B6F; --tech:#4DB3E0; --geo:#D9905F; --ux:#8E93FF; --art:#E3B456; --cinema:#E77C9C; --enfant:#EE7EAE; --monte:#5CC2A8;
   color-scheme:dark }}
 :root[data-theme="dark"]{
-  --bg:#0D1319; --surface:#161F28; --raised:#1B2631; --ink:#E8EDF2; --muted:#94A2AF; --line:#26323E;
-  --accent:#4DB3E0; --soft:#1C2833; --star:#F2C14E; --hero-ink:#FFFFFF;
+  --bg:#0E0D18; --surface:#18172A; --raised:#211F36; --ink:#EEEDF7; --muted:#A4A3BC; --line:#2C2B44;
+  --accent:#9389FF; --accent-ink:#120F33; --soft:#24214B;
+  --nuit:#141043; --nuit2:#221C66;
+  --star:#F2C14E;
   --foot:#4CC27E; --tennis:#C3D23A; --f1:#FF5A5F; --boxe:#D99060; --mma:#AE86E6; --basket:#FF8B3D; --culture:#E3B456;
   --maroc:#FF6B6F; --tech:#4DB3E0; --geo:#D9905F; --ux:#8E93FF; --art:#E3B456; --cinema:#E77C9C; --enfant:#EE7EAE; --monte:#5CC2A8;
   color-scheme:dark }
 
 *{box-sizing:border-box}
-html,body{background:var(--bg)}
-body{color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5;-webkit-tap-highlight-color:transparent}
+html,body{background:var(--bg);margin:0}
+body{color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5;-webkit-tap-highlight-color:transparent;-webkit-font-smoothing:antialiased}
 #app[dir="rtl"]{font-family:var(--arabic);font-size:16px;line-height:1.7}
-.statusbar{position:fixed;top:0;left:0;right:0;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:30}
-.wrap{max-width:720px;margin:0 auto;padding:0 16px calc(var(--nav-h) + 32px)}
 button{font:inherit;color:inherit}
-button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-
-/* Top bar */
-.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);padding-block:12px 8px}
-.top-row{display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
-.top h1{margin:0;font-family:var(--display);font-weight:700;font-size:32px;line-height:1;text-transform:uppercase;letter-spacing:.01em}
-[dir="rtl"] .top h1{font-family:var(--arabic);font-size:24px;line-height:1.3;text-transform:none}
-.top .sub{font-size:12px;color:var(--muted);margin-top:4px}
-.chips{display:flex;gap:6px;overflow-x:auto;padding-block:10px 4px;margin-inline:-16px;padding-inline:16px;scrollbar-width:none}
-.chips::-webkit-scrollbar{display:none}
-.chip{flex:none;font-weight:600;font-size:13px;line-height:1.2;border:1px solid var(--line);background:var(--surface);padding:8px 12px;border-radius:999px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
-.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-.dot{width:8px;height:8px;border-radius:50%;background:var(--c,var(--muted));flex:none}
-.ti{display:inline-flex;width:16px;height:16px;flex:none;color:var(--c,var(--muted))}
-.ti svg{width:100%;height:100%}
-.chip .ti{width:17px;height:17px}
-.chip[aria-pressed="true"] .ti{color:inherit}
-.row label .ti{width:20px;height:20px}
-.topic-h .ti{width:18px;height:18px}
-
-
-/* v12 photos + écrans */
-.digest a:not(.has-img){grid-template-columns:1fr}
-.digest a > span:first-child{display:grid;gap:4px;align-content:start}
-.ph{display:block;width:100%;object-fit:cover;background:var(--raised)}
-.card.has-img{display:grid;grid-template-columns:1fr 92px;gap:12px;align-items:start}
-.card .thumb{width:92px;height:92px;border-radius:10px;object-fit:cover;background:var(--raised)}
-.topic a.has-img{display:grid;grid-template-columns:1fr 64px;gap:12px;align-items:center}
-.topic a .thumb{width:64px;height:64px;border-radius:8px;object-fit:cover;background:var(--raised)}
-.digest a .thumb{width:56px;height:56px;border-radius:8px;object-fit:cover;background:var(--raised)}
-.digest a.has-img{grid-template-columns:1fr 56px}
-.read .cover,.an .cover{aspect-ratio:16/9;border-radius:10px;margin-bottom:2px}
-.an .cover{margin:-4px 0 2px}
-.reader figure{margin:0}
-.reader .hero{aspect-ratio:16/9;border-radius:14px}
-.reader figcaption{font-size:12px;color:var(--muted);margin-top:6px}
-.top-row .gear{border:1px solid var(--line);background:var(--surface);width:40px;height:40px;border-radius:12px;display:grid;place-items:center;cursor:pointer;color:var(--muted);flex:none}
-.top-row .gear svg{width:22px;height:22px}
-.top-row .gear[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
-.scr-rail{display:flex;gap:12px;overflow-x:auto;margin-inline:-16px;padding:2px 16px 6px;scroll-snap-type:x mandatory;scroll-padding-inline:16px;scrollbar-width:none}
-.scr-rail::-webkit-scrollbar{display:none}
-.scr-rail .scr{flex:0 0 78%;max-width:320px;scroll-snap-align:start}
-.scr-list{display:grid;gap:12px}
-.scr{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:grid;align-content:start}
-.scr .art{position:relative;display:block}
-.scr .art .ph{aspect-ratio:16/9}
-.scr .plat{position:absolute;inset-inline-start:10px;top:10px;font-size:11px;font-weight:800;letter-spacing:.02em;padding:4px 8px;border-radius:6px;color:#fff;background:var(--pc,#333)}
-.scr .play{position:absolute;inset-inline-end:10px;bottom:10px;display:inline-flex;align-items:center;gap:6px;background:rgba(0,0,0,.72);color:#fff;font-size:12px;font-weight:700;padding:6px 10px;border-radius:999px;text-decoration:none}
-.scr .play svg{width:14px;height:14px}
-.scr .bd{padding:12px 14px 14px;display:grid;gap:6px}
-.scr .k{font-size:12px;color:var(--muted);font-weight:600;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
-.scr h3{margin:0;font-size:17px;line-height:1.3;font-weight:800;text-wrap:balance}
-.scr p{margin:0;font-size:14px;line-height:1.5}
-.scr .cr{font-size:13px;color:var(--muted)}
-.scr .fy{font-size:14px;background:color-mix(in srgb,var(--cinema) 10%,var(--surface));border-inline-start:3px solid var(--cinema);padding:8px 10px;border-radius:8px}
-.scr .fy b{color:var(--cinema)}
-.scr .ft{display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:space-between;margin-top:2px}
-.scr .tagpick{background:var(--cinema);color:#fff;border-radius:6px;padding:2px 6px;font-size:11px;font-weight:800}
-.scr .tagfam{background:var(--monte);color:#fff;border-radius:6px;padding:2px 6px;font-size:11px;font-weight:800}
-.bo{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
-.bo + .bo{margin-top:10px}
-.bo h3{margin:0 0 6px;font-size:14px;font-weight:800}
-.bo ol{margin:0;padding:0;list-style:none;display:grid;gap:6px}
-.bo li{display:grid;grid-template-columns:22px 1fr auto;gap:8px;align-items:baseline;font-size:14px}
-.bo li .r{font-weight:800;color:var(--cinema)}
-.bo li small{color:var(--muted);font-size:12px}
-.bo .src{font-size:12px;color:var(--muted);margin-top:8px}
-.bo .src a{color:inherit}
-
-/* Bottom tab bar */
-.nav{position:fixed;left:0;right:0;bottom:0;z-index:25;background:color-mix(in srgb,var(--surface) 92%,transparent);backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
-.nav-in{max-width:720px;margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr);height:var(--nav-h)}
-.nav button{border:0;background:transparent;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:11px;font-weight:600;color:var(--muted);cursor:pointer}
-.nav button svg{width:24px;height:24px}
-.nav button[aria-current="page"]{color:var(--accent)}
-
-/* Section titles */
-.sec{margin-top:22px}
-.sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:10px}
-.sec-h h2{margin:0;font-family:var(--display);font-weight:700;font-size:20px;text-transform:uppercase;letter-spacing:.03em}
-[dir="rtl"] .sec-h h2{font-family:var(--arabic);font-size:18px;text-transform:none;letter-spacing:0}
-.link{border:0;background:transparent;color:var(--accent);font-weight:600;font-size:13px;cursor:pointer;padding:4px 0;white-space:nowrap;flex:none}
-
-/* Next event ticket */
-.next{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;margin-top:12px;position:relative;overflow:hidden}
-.next::before{content:"";position:absolute;inset-block:0;inset-inline-start:0;width:4px;background:var(--c)}
-.next-count{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:78px;padding:10px 8px;border-radius:10px;background:color-mix(in srgb,var(--c) 14%,var(--surface));text-align:center}
-.next-count b{font-family:var(--display);font-size:38px;line-height:1;font-weight:700;color:var(--c);font-variant-numeric:tabular-nums}
-.next-count span{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-top:4px}
-[dir="rtl"] .next-count span{text-transform:none;letter-spacing:0;font-size:12px}
-.next .lbl{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--c)}
-[dir="rtl"] .next .lbl{letter-spacing:0;text-transform:none;font-size:12px}
-.next h3{margin:3px 0 2px;font-size:19px;line-height:1.25;font-weight:700;text-wrap:balance}
-.next p{margin:0;font-size:13px;color:var(--muted)}
-.next .when{color:var(--ink);font-weight:600;margin-top:2px}
-
-/* Event rows */
-.day{margin-top:20px}
-.dayhead{display:flex;align-items:baseline;gap:10px;margin-bottom:8px}
-.dayhead b{font-family:var(--display);font-size:19px;font-weight:700;text-transform:uppercase;letter-spacing:.02em}
-[dir="rtl"] .dayhead b{font-family:var(--arabic);font-size:17px;text-transform:none;letter-spacing:0}
-.dayhead small{font-size:13px;font-weight:600;color:var(--muted)}
-.dayhead small.soon{color:var(--accent)}
-.list{display:grid;gap:8px}
-.ev{display:grid;grid-template-columns:60px 1fr auto;gap:12px;align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px}
-.ev.top3{border-inline-start:4px solid var(--c)}
-.time{font-family:var(--display);font-weight:700;font-size:21px;line-height:1.1;font-variant-numeric:tabular-nums}
-.time.word{font-size:15px;line-height:1.2}
-.time.range{font-size:18px;white-space:nowrap}
-[dir="rtl"] .time.word{font-family:var(--arabic);font-size:13px;line-height:1.5}
-.time small{display:block;font-size:11px;font-weight:600;color:var(--muted);letter-spacing:.04em;text-transform:uppercase;margin-top:2px}
-[dir="rtl"] .time small{font-family:var(--arabic);letter-spacing:0;text-transform:none}
-.meta{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:12px;font-weight:700;color:var(--c);text-transform:uppercase;letter-spacing:.05em}
-[dir="rtl"] .meta{text-transform:none;letter-spacing:0;font-size:13px}
-.meta .comp{color:var(--muted);font-weight:600}
-.ev h3{margin:2px 0;font-size:16px;line-height:1.3;font-weight:700;text-wrap:balance}
-.ev p{margin:0;font-size:13px;color:var(--muted)}
+a{color:inherit}
+button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+.statusbar{position:fixed;top:0;left:0;right:0;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:30}
+.wrap{max-width:680px;margin:0 auto;padding:0 16px calc(var(--nav-h) + 40px + env(safe-area-inset-bottom,0px))}
 .min{min-width:0}
-.side{display:flex;flex-direction:column;align-items:center;gap:8px}
-.lvl{display:flex;gap:2px;align-items:flex-end;height:14px}
-.lvl i{width:4px;background:var(--line);border-radius:1px}
-.lvl i:nth-child(1){height:6px}.lvl i:nth-child(2){height:10px}.lvl i:nth-child(3){height:14px}
-.lvl i.on{background:var(--c)}
-.star{border:0;background:transparent;color:var(--line);font-size:22px;line-height:1;cursor:pointer;padding:6px;margin:-6px}
-.star[aria-pressed="true"]{color:var(--star)}
-.legend{font-size:12px;color:var(--muted);margin-top:16px;display:flex;gap:14px;flex-wrap:wrap}
 
-/* News */
-.news{display:grid;gap:10px}
-.card{display:block;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;color:var(--ink);text-decoration:none}
-.card:active{background:var(--raised)}
-.card .meta{margin-bottom:4px}
-.card h3{margin:0 0 4px;font-size:16px;line-height:1.35;font-weight:700;text-wrap:balance}
-[dir="rtl"] .card h3,[dir="rtl"] .ev h3{line-height:1.55}
-.card p{margin:0;font-size:14px;color:var(--muted)}
-.topic{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
-.topic + .topic{margin-top:12px}
-.topic-h{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:12px 14px 4px}
-.topic-h .meta{font-size:13px}
-.topic a{display:block;padding:10px 14px;border-top:1px solid var(--line);color:var(--ink);text-decoration:none}
-.topic-h + a{border-top:0}
-.topic a:active{background:var(--raised)}
-.topic a b{display:block;font-size:15px;line-height:1.35;font-weight:700}
-.topic a small{display:block;font-size:12px;color:var(--muted);margin-top:2px}
-
-/* Home digest */
-.digest{display:grid;gap:8px}
-.digest a{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;color:var(--ink);text-decoration:none}
-.digest a:active{background:var(--raised)}
-.digest .tag{display:flex;align-items:center;gap:5px;font-size:11px;font-weight:700;color:var(--c);text-transform:uppercase;letter-spacing:.05em;padding-top:2px;min-width:74px}
-[dir="rtl"] .digest .tag{text-transform:none;letter-spacing:0;font-size:12px}
-.digest b{font-size:15px;line-height:1.35;font-weight:700}
-
-/* Settings */
-.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:4px 14px}
-.row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0;border-top:1px solid var(--line)}
-.row:first-child{border-top:0}
-.row label{display:flex;align-items:center;gap:10px;font-weight:600;cursor:pointer;flex:1}
-.toggle{appearance:none;-webkit-appearance:none;width:46px;height:28px;border-radius:999px;background:var(--line);position:relative;cursor:pointer;flex:none;transition:background .15s}
-.toggle::after{content:"";position:absolute;top:3px;inset-inline-start:3px;width:22px;height:22px;border-radius:50%;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.2);transition:inset-inline-start .15s}
-.toggle:checked{background:var(--accent)}
-.toggle:checked::after{inset-inline-start:21px}
-.seg{display:grid;grid-template-columns:1fr 1fr;gap:4px;background:var(--soft);padding:4px;border-radius:10px}
-.seg button{border:0;border-radius:7px;padding:10px;background:transparent;font-weight:600;color:var(--muted);cursor:pointer}
-.seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.12)}
-.seg button[lang="ar"]{font-family:var(--arabic)}
-.note{font-size:13px;color:var(--muted);margin:8px 2px 0}
-
-/* Brief, results, calendar */
-.brief{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px 4px;margin-top:12px}
-.brief-h{display:flex;align-items:baseline;justify-content:space-between;gap:8px;padding-bottom:4px}
-.brief h2{margin:0;font-family:var(--display);font-size:18px;font-weight:700;letter-spacing:.03em;text-transform:uppercase}
-[dir="rtl"] .brief h2{font-family:var(--arabic);letter-spacing:0;text-transform:none;font-size:16px}
-.brief-h small{font-size:12px;color:var(--muted)}
-.brief ul{list-style:none;margin:0;padding:0}
-.brief li{display:grid;grid-template-columns:68px 1fr;gap:10px;padding:10px 0;border-top:1px solid var(--line)}
-.brief li:first-child{border-top:0}
-.brief .tag{display:flex;align-items:flex-start;gap:6px;font-size:11px;font-weight:700;color:var(--c);text-transform:uppercase;letter-spacing:.05em;padding-top:3px}
-[dir="rtl"] .brief .tag{text-transform:none;letter-spacing:0;font-size:12px;padding-top:2px}
-.brief .tag .ti{width:15px;height:15px;margin-top:-1px}
-.brief p{margin:0;font-size:15px;line-height:1.45;min-width:0}
-.res{margin-top:6px;display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:700;background:var(--soft);border-radius:8px;padding:4px 10px}
-.recap{display:inline-block;margin-top:6px;margin-inline-start:8px;font-size:13px;font-weight:600;color:var(--accent);text-decoration:none}
-.ev.past{background:var(--raised)}
-.cal{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:8px;color:var(--muted);border:1px solid var(--line);background:transparent;text-decoration:none}
-.cal svg{width:16px;height:16px}
-.sub-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0}
-/* New markers, badges, videos */
-.new{display:inline-block;vertical-align:middle;font-size:10px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--surface);background:var(--accent);border-radius:5px;padding:2px 6px;line-height:1.4;transition:opacity .6s}
-[dir="rtl"] .new{letter-spacing:0;font-size:11px}
-.new.gone{opacity:.35}
-.ic{position:relative;display:inline-flex}
-.badge{position:absolute;top:-5px;inset-inline-end:-11px;min-width:18px;height:18px;border-radius:9px;background:var(--maroc);color:#fff;font-size:11px;font-weight:700;padding:0 5px;display:flex;align-items:center;justify-content:center;font-variant-numeric:tabular-nums}
-.since{margin-top:12px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
-.since h2{margin:0 0 8px;font-size:13px;font-weight:700;color:var(--muted)}
-.since-row{display:flex;gap:8px;flex-wrap:wrap}
-.since-row button{border:1px solid var(--line);background:var(--raised);border-radius:10px;padding:8px 12px;font-size:14px;font-weight:600;cursor:pointer;display:inline-flex;align-items:baseline;gap:6px}
-.since-row b{font-family:var(--display);font-size:22px;line-height:1;color:var(--accent)}
-.since p{margin:0;font-size:14px;color:var(--muted)}
-.topic-h .new{margin-inline-start:6px}
-.toolbar{display:flex;justify-content:flex-end;margin-top:8px}
-.vid{display:block;position:relative;margin-top:10px;border-radius:10px;overflow:hidden;aspect-ratio:16/9;max-width:100%;background:var(--soft)}
-.vid img{width:100%;height:100%;object-fit:cover;display:block}
-.vid-l{position:absolute;inset-inline-start:8px;bottom:8px;display:inline-flex;align-items:center;gap:6px;background:rgba(0,0,0,.72);color:#fff;font-size:12px;font-weight:700;border-radius:999px;padding:5px 10px}
-.vid-l svg,.vid-link svg{width:14px;height:14px}
-.vid-link{display:inline-flex;gap:6px;align-items:center;margin-top:8px;font-weight:600;font-size:13px;color:var(--accent);text-decoration:none}
-.videos{display:flex;gap:10px;overflow-x:auto;margin-inline:-16px;padding-inline:16px;scroll-snap-type:x mandatory;scrollbar-width:none}
-.videos::-webkit-scrollbar{display:none}
-.vcard{flex:0 0 80%;scroll-snap-align:start;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px;min-width:0}
-.vcard .vid{margin-top:0}
-.vcard b{display:block;font-size:14px;line-height:1.35;margin-top:8px}
-.vcard small{display:block;font-size:12px;color:var(--muted);margin-top:2px}
-.card a{color:inherit;text-decoration:none}
-/* Live update status */
-.status{display:flex;align-items:center;gap:8px;margin-top:8px;font-size:13px;font-weight:600;border-radius:10px;padding:8px 12px;background:color-mix(in srgb,var(--accent) 12%,var(--surface));color:var(--ink);border:1px solid color-mix(in srgb,var(--accent) 35%,var(--line))}
-.status.ok{background:color-mix(in srgb,var(--foot) 14%,var(--surface));border-color:color-mix(in srgb,var(--foot) 40%,var(--line))}
+/* ---------- top bar ---------- */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);padding:14px 0 6px;margin-inline:-16px;padding-inline:16px}
+.top-row{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.top h1{margin:0;font-weight:800;font-size:27px;line-height:1.1;letter-spacing:-.02em}
+[dir="rtl"] .top h1{font-size:24px;letter-spacing:0;line-height:1.4}
+.top .sub{font-size:13px;color:var(--muted);margin-top:3px}
+.gear{border:0;background:var(--surface);width:40px;height:40px;border-radius:50%;display:grid;place-items:center;cursor:pointer;color:var(--muted);flex:none;box-shadow:0 0 0 1px var(--line)}
+.gear svg{width:21px;height:21px}
+.gear[aria-pressed="true"]{background:var(--ink);color:var(--bg);box-shadow:none}
+.chips{display:flex;gap:6px;overflow-x:auto;padding:10px 16px 4px;margin-inline:-16px;scrollbar-width:none;scroll-padding-inline:16px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;font-weight:600;font-size:14px;line-height:1.2;border:0;background:var(--surface);box-shadow:0 0 0 1px var(--line);padding:8px 13px;border-radius:999px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);box-shadow:none}
+.chip .ti{width:16px;height:16px}
+.chip[aria-pressed="true"] .ti{color:inherit}
+.backbar{display:flex;align-items:center}
+.back{border:0;background:transparent;color:var(--accent);font-weight:700;font-size:16px;cursor:pointer;padding:6px 0;display:inline-flex;align-items:center;gap:6px}
+.status{display:flex;align-items:center;gap:8px;margin-top:8px;font-size:13px;font-weight:600;border-radius:12px;padding:8px 12px;background:var(--soft);color:var(--ink)}
+.status.ok{background:color-mix(in srgb,var(--foot) 16%,var(--surface))}
 .spin{width:14px;height:14px;border-radius:50%;border:2px solid color-mix(in srgb,var(--accent) 30%,transparent);border-top-color:var(--accent);animation:spin 1s linear infinite;flex:none}
 @keyframes spin{to{transform:rotate(360deg)}}
-@media (prefers-reduced-motion:reduce){.spin{animation:none}}
-/* Reader & AI analyses */
-.ai{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:var(--accent);background:color-mix(in srgb,var(--accent) 12%,var(--surface));border:1px solid color-mix(in srgb,var(--accent) 30%,var(--line));border-radius:999px;padding:4px 10px}
-.ai svg{width:14px;height:14px}
-.an{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;gap:8px;text-align:start;width:100%;cursor:pointer;color:var(--ink);font:inherit}
-.an h3{margin:0;font-size:18px;line-height:1.3;font-weight:700;text-wrap:balance}
-.an p{margin:0;font-size:14px;color:var(--muted)}
-.an-list{display:grid;gap:10px}
-.backbar{display:flex;align-items:center;gap:8px}
-.back{border:0;background:transparent;color:var(--accent);font-weight:700;font-size:16px;cursor:pointer;padding:6px 0;display:inline-flex;align-items:center;gap:6px}
-.reader{max-width:680px;margin:6px auto 0;display:grid;gap:16px}
-.reader h1{margin:0;font-size:26px;line-height:1.25;font-weight:800;text-wrap:balance}
-[dir="rtl"] .reader h1{line-height:1.5;font-size:24px}
-.reader .dek{margin:0;font-size:17px;line-height:1.5;color:var(--muted)}
-.reader h2{margin:8px 0 0;font-size:18px;font-weight:800}
-.reader p.body{margin:0;font-size:17px;line-height:1.65}
-[dir="rtl"] .reader p.body{line-height:1.9}
-.reader ul.pts{margin:0;padding-inline-start:20px;display:grid;gap:10px}
-.reader ul.pts li{font-size:17px;line-height:1.55}
-.reader .resume{background:var(--raised);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:grid;gap:8px}
-.reader .resume h2{margin:0}
-.reader .resume p.body{margin:0}
-.keybox{border-radius:12px;padding:14px 16px;background:color-mix(in srgb,var(--c,var(--accent)) 12%,var(--surface));border-inline-start:4px solid var(--c,var(--accent))}
-.keybox b{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--c,var(--accent));margin-bottom:4px}
-[dir="rtl"] .keybox b{text-transform:none;letter-spacing:0;font-size:13px}
-.keybox p{margin:0;font-size:17px;line-height:1.5;font-weight:600}
+
+/* ---------- icons, labels ---------- */
+.ti{display:inline-flex;width:16px;height:16px;flex:none;color:var(--c,var(--muted))}
+.ti svg{width:100%;height:100%}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--c,var(--muted));flex:none;display:inline-block}
+.kick{display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:var(--muted);min-width:0}
+.kick .lab{color:var(--c,var(--ink));font-weight:700}
+.kick .ti{width:15px;height:15px}
+.kick .cmp{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cd small{margin-inline-start:3px}
+.new{display:inline-flex;align-items:center;font-size:11px;font-weight:700;color:var(--safran-ink);background:var(--safran);border-radius:999px;padding:1px 7px;line-height:1.5;transition:opacity .6s;flex:none}
+.new.gone{opacity:.4}
+.clamp2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.clamp3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+
+/* ---------- sections ---------- */
+.sec{margin-top:28px}
+.sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:0 2px 10px}
+.sec-h h2{margin:0;font-size:20px;font-weight:800;letter-spacing:-.01em}
+[dir="rtl"] .sec-h h2{font-size:19px;letter-spacing:0}
+.sec-h small{font-size:13px;color:var(--muted);font-weight:600}
+.link{border:0;background:transparent;color:var(--accent);font-weight:600;font-size:14px;cursor:pointer;padding:4px 0;white-space:nowrap;flex:none;text-decoration:none}
+.note{font-size:13px;color:var(--muted);margin:10px 4px 0;line-height:1.5}
+.empty{margin-top:16px;padding:22px;border-radius:16px;background:var(--surface);color:var(--muted);text-align:center}
+
+/* grouped list (one surface, hairlines between rows) */
+.group{background:var(--surface);border-radius:18px;overflow:hidden}
+.group > * + *{border-top:1px solid var(--line)}
+.rowlink{display:flex;gap:12px;align-items:center;padding:12px 14px;text-decoration:none;color:var(--ink);background:transparent;border:0;width:100%;text-align:start;cursor:pointer}
+.rowlink:active{background:var(--raised)}
+.rowlink h3{margin:2px 0 0;font-size:16px;line-height:1.35;font-weight:700}
+[dir="rtl"] .rowlink h3{line-height:1.6}
+.rowlink .src{font-size:13px;color:var(--muted);margin-top:2px}
+.th{display:block;flex:none;border-radius:12px;overflow:hidden;background:var(--raised)}
+.th img{display:block;width:100%;height:100%;object-fit:cover}
+.th.sq{width:68px;height:68px}
+.th.wide{width:112px;height:63px;border-radius:10px}
+
+/* ---------- radar hero ---------- */
+.radar{position:relative;margin-top:10px;border-radius:24px;padding:18px 18px 8px;color:var(--nuit-ink);background:radial-gradient(120% 90% at 0% 0%,var(--nuit2) 0%,var(--nuit) 60%);overflow:hidden}
+.radar-top{display:grid;grid-template-columns:132px 1fr;gap:16px;align-items:center}
+[dir="rtl"] .radar-top{grid-template-columns:132px 1fr}
+.radar svg.scope{width:132px;height:132px;display:block;overflow:visible}
+.scope .ring{fill:none;stroke:var(--nuit-muted);stroke-opacity:.38;stroke-width:1}
+.scope .axis{stroke:var(--nuit-muted);stroke-opacity:.18;stroke-width:1}
+.scope .rl{fill:var(--nuit-muted);fill-opacity:.85;font:600 8px var(--sans)}
+.scope .sweep{transform-origin:66px 66px;animation:sweep 7s linear infinite}
+.scope .blip{stroke:var(--nuit);stroke-width:1.5}
+.scope .pulse{fill:none;stroke:var(--safran);stroke-width:1.5;transform-origin:center;transform-box:fill-box;animation:pulse 2.4s ease-out infinite}
+@keyframes sweep{to{transform:rotate(360deg)}}
+@keyframes pulse{0%{transform:scale(1);opacity:.9}100%{transform:scale(2.6);opacity:0}}
+.cd-lab{font-size:13px;color:var(--nuit-muted);font-weight:600}
+.cd{font-size:40px;line-height:1.05;font-weight:800;letter-spacing:-.03em;font-variant-numeric:tabular-nums;color:var(--safran);margin-top:2px;white-space:nowrap}
+.cd small{font-size:20px;font-weight:700;letter-spacing:-.01em;margin-inline:2px 6px}
+[dir="rtl"] .cd{letter-spacing:0;font-size:34px}
+.radar .kick{color:var(--nuit-muted);margin-top:4px}
+.radar .kick .lab{color:var(--nuit-ink)}
+.radar .kick .ti{color:var(--nuit-ink)}
+.radar h2{margin:14px 0 2px;font-size:24px;line-height:1.15;font-weight:800;letter-spacing:-.02em;text-wrap:balance}
+[dir="rtl"] .radar h2{letter-spacing:0;line-height:1.45}
+.radar .when{margin:0;font-size:14px;color:var(--nuit-muted)}
+.radar-act{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.btn-n{display:inline-flex;align-items:center;gap:6px;border:0;border-radius:999px;padding:9px 14px;font-size:14px;font-weight:700;text-decoration:none;cursor:pointer;background:rgba(255,255,255,.12);color:var(--nuit-ink)}
+.btn-n.solid{background:var(--safran);color:var(--safran-ink)}
+.btn-n svg{width:16px;height:16px}
+.radar-list{list-style:none;margin:14px 0 0;padding:0}
+.radar-list li + li{border-top:1px solid rgba(255,255,255,.1)}
+.radar-list button{display:grid;grid-template-columns:auto 10px 1fr;gap:10px;align-items:center;width:100%;border:0;background:transparent;color:var(--nuit-ink);text-align:start;padding:10px 0;cursor:pointer;font-size:15px}
+.radar-list .t{font-weight:700;font-size:14px;color:var(--nuit-muted);white-space:nowrap;min-width:84px}
+.radar-list .nm{font-weight:650;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* ---------- edition strip & end ---------- */
+.edition{margin-top:12px;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin-inline:-16px;padding-inline:16px}
+.edition::-webkit-scrollbar{display:none}
+.edition button{flex:none;display:inline-flex;align-items:baseline;gap:6px;border:0;background:var(--surface);border-radius:14px;padding:10px 14px;cursor:pointer;font-size:14px;font-weight:600;color:var(--ink)}
+.edition b{font-size:20px;font-weight:800;color:var(--accent);font-variant-numeric:tabular-nums}
+.edition .done{display:flex;align-items:center;gap:8px;font-size:14px;font-weight:600;color:var(--muted);padding:10px 2px}
+.fin{margin:40px 0 8px;text-align:center;color:var(--muted)}
+.fin svg{width:44px;height:44px;color:var(--accent)}
+.fin b{display:block;font-size:17px;color:var(--ink);margin-top:6px}
+.fin span{font-size:14px}
+
+/* ---------- brief ---------- */
+.brief{background:var(--surface);border-radius:18px;padding:4px 16px}
+.brief li{list-style:none;padding:12px 0}
+.brief ul{margin:0;padding:0}
+.brief li + li{border-top:1px solid var(--line)}
+.brief .lab{display:flex;align-items:center;gap:6px;font-size:13px;font-weight:700;color:var(--c)}
+.brief .lab .ti{width:15px;height:15px}
+.brief p{margin:3px 0 0;font-family:var(--serif);font-size:18px;line-height:1.4;font-weight:450}
+[dir="rtl"] .brief p{font-family:var(--arabic-serif);font-size:18px;line-height:1.75}
+
+/* ---------- lead story ---------- */
+.lead{display:block;text-decoration:none;color:var(--ink);background:var(--surface);border-radius:20px;overflow:hidden;border:0;padding:0;width:100%;text-align:start;cursor:pointer}
+.lead .ph{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:var(--raised)}
+.lead .bd{padding:12px 16px 16px}
+.lead h3{margin:6px 0 4px;font-size:21px;line-height:1.2;font-weight:800;letter-spacing:-.015em;text-wrap:balance}
+[dir="rtl"] .lead h3{letter-spacing:0;line-height:1.5}
+.lead p{margin:0;font-size:15px;color:var(--muted)}
+.lead + .group{margin-top:10px}
+
+/* ---------- results ---------- */
+.score{display:inline-block;font-weight:800;font-size:15px;color:var(--c,var(--ink));line-height:1.35;margin-top:2px}
+
+/* ---------- agenda ---------- */
+.day{margin-top:24px}
+.dayhead{display:flex;align-items:baseline;gap:8px;margin:0 4px 8px}
+.dayhead b{font-size:17px;font-weight:800;letter-spacing:-.01em}
+.dayhead b::first-letter{text-transform:uppercase}
+.dayhead small{font-size:13px;font-weight:600;color:var(--muted)}
+.dayhead small.soon{color:var(--accent)}
+details.ev{position:relative}
+details.ev > summary{list-style:none;display:grid;grid-template-columns:54px 1fr auto;gap:12px;align-items:center;padding:12px 14px;cursor:pointer}
+details.ev > summary::-webkit-details-marker{display:none}
+details.ev.top3::before{content:"";position:absolute;inset-block:10px;inset-inline-start:0;width:3px;border-radius:0 3px 3px 0;background:var(--c)}
+[dir="rtl"] details.ev.top3::before{border-radius:3px 0 0 3px}
+details.ev[open] > summary{background:var(--raised)}
+.time{font-weight:800;font-size:17px;line-height:1.15;white-space:nowrap}
+.time small{display:block;font-size:12px;font-weight:600;color:var(--muted);margin-top:1px}
+.time.word{font-size:14px}
+.ev h3{margin:1px 0 0;font-size:16px;line-height:1.3;font-weight:700;text-wrap:balance}
+[dir="rtl"] .ev h3{line-height:1.6}
+.ev .kick{font-size:13px}
+.ev .tags{display:flex;gap:6px;align-items:center;margin-top:4px;flex-wrap:wrap}
+.lvl3{font-size:12px;font-weight:700;color:var(--c)}
+.side{display:flex;align-items:center;gap:2px}
+.star{border:0;background:transparent;color:var(--line);font-size:22px;line-height:1;cursor:pointer;padding:8px;margin:-8px}
+.star[aria-pressed="true"]{color:var(--star)}
+.ev-more{padding:2px 14px 14px calc(54px + 26px);display:grid;gap:10px;background:var(--raised)}
+[dir="rtl"] .ev-more{padding:2px calc(54px + 26px) 14px 14px}
+.ev-more p{margin:0;font-size:14px;color:var(--muted)}
+.ev-more .acts{display:flex;gap:8px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:6px;border:0;background:var(--surface);box-shadow:0 0 0 1px var(--line);border-radius:999px;padding:8px 13px;font-size:14px;font-weight:600;cursor:pointer;text-decoration:none;color:var(--ink)}
+.btn svg{width:16px;height:16px}
+.btn.primary{background:var(--accent);color:var(--accent-ink);box-shadow:none}
+.btn[aria-pressed="true"]{background:var(--raised);color:var(--muted);box-shadow:none}
+
+/* ---------- Claude-written ---------- */
+.ai{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;color:var(--accent)}
+.ai svg{width:15px;height:15px}
+.an{display:grid;gap:8px;width:100%;text-align:start;cursor:pointer;color:var(--ink);font:inherit;border:0;border-radius:20px;padding:0;overflow:hidden;background:var(--soft)}
+.an .ph{display:block;width:100%;aspect-ratio:2/1;object-fit:cover}
+.an .bd{padding:14px 16px 16px;display:grid;gap:6px}
+.an h3{margin:0;font-size:20px;line-height:1.2;font-weight:800;letter-spacing:-.015em;text-wrap:balance}
+[dir="rtl"] .an h3{letter-spacing:0;line-height:1.5}
+.an p{margin:0;font-size:15px;color:var(--muted)}
+.an-list{display:grid;gap:12px}
+.an.small{grid-template-columns:1fr}
+.anlink{display:inline-flex;align-items:center;gap:6px}
+
+/* ---------- reads ---------- */
+.rd .rowlink{align-items:flex-start}
+.rowlink > .min{flex:1}
+.rd .rowlink.done{opacity:.55}
+.rd .meta2{display:flex;gap:6px;align-items:center;font-size:13px;color:var(--muted);margin-top:4px;flex-wrap:wrap}
+.rd .fiche{color:var(--accent);font-weight:600}
+
+/* ---------- screens ---------- */
+.rail{display:flex;gap:12px;overflow-x:auto;margin-inline:-16px;padding:0 16px 4px;scroll-snap-type:x mandatory;scroll-padding-inline:16px;scrollbar-width:none}
+.rail::-webkit-scrollbar{display:none}
+.poster{flex:0 0 232px;scroll-snap-align:start;text-align:start;border:0;background:transparent;padding:0;cursor:pointer;color:var(--ink)}
+.poster .art{position:relative;border-radius:16px;overflow:hidden;aspect-ratio:16/10;background:var(--raised)}
+.poster .art img{width:100%;height:100%;object-fit:cover;display:block}
+.plat{position:absolute;inset-inline-start:8px;top:8px;font-size:11px;font-weight:800;padding:3px 7px;border-radius:6px;color:#fff;background:var(--pc,#333)}
+.poster h3{margin:8px 2px 0;font-size:16px;line-height:1.3;font-weight:750}
+.poster small{display:block;margin:1px 2px 0;font-size:13px;color:var(--muted)}
+.scr-row .rowlink{align-items:center}
+.scr-row .k{font-size:13px;color:var(--muted);margin-top:2px}
+.pickmark{font-size:12px;font-weight:700;color:var(--cinema)}
+.bo li{display:grid;grid-template-columns:22px 1fr auto;gap:10px;align-items:baseline;padding:10px 14px;font-size:15px;list-style:none}
+.bo ol{margin:0;padding:0}
+.bo .r{font-weight:800;color:var(--accent)}
+.bo small{color:var(--muted);font-size:13px}
+.bo h3{margin:0;padding:12px 14px 4px;font-size:14px;font-weight:700;color:var(--muted)}
+.bo .src{padding:8px 14px 12px;font-size:12px;color:var(--muted)}
+.bo + .bo{margin-top:10px}
+
+/* ---------- reader ---------- */
+.reader{max-width:640px;margin:6px auto 0;display:grid;gap:16px}
+.reader h1{margin:0;font-size:28px;line-height:1.15;font-weight:800;letter-spacing:-.02em;text-wrap:balance}
+[dir="rtl"] .reader h1{line-height:1.5;font-size:25px;letter-spacing:0}
+.reader .dek{margin:0;font-family:var(--serif);font-size:19px;line-height:1.45;color:var(--muted)}
+[dir="rtl"] .reader .dek{font-family:var(--arabic-serif);font-size:18px;line-height:1.8}
+.reader h2{margin:10px 0 0;font-size:19px;font-weight:800;letter-spacing:-.01em}
+.reader p.body{margin:0;font-family:var(--serif);font-size:19px;line-height:1.6}
+[dir="rtl"] .reader p.body{font-family:var(--arabic-serif);font-size:19px;line-height:1.95}
+.reader figure{margin:0 -16px}
+.reader .hero{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:var(--raised)}
+.reader figcaption{font-size:12px;color:var(--muted);margin:6px 16px 0}
+.reader .resume{display:grid;gap:12px}
+.reader ul.pts{margin:0;padding-inline-start:20px;display:grid;gap:8px}
+.reader ul.pts li{font-size:16px;line-height:1.5}
+.reader .chips-in{display:flex;gap:6px;flex-wrap:wrap}
+.pill{font-size:13px;font-weight:600;color:var(--muted);background:var(--surface);border-radius:999px;padding:3px 10px}
+.keybox{border-radius:16px;padding:14px 16px;background:color-mix(in srgb,var(--c,var(--accent)) 12%,var(--surface))}
+.keybox b{display:block;font-size:13px;font-weight:700;color:var(--c,var(--accent));margin-bottom:4px}
+.keybox p{margin:0;font-size:17px;line-height:1.45;font-weight:650}
+.fy{border-radius:16px;padding:14px 16px;background:var(--soft)}
+.fy b{display:flex;align-items:center;gap:6px;color:var(--accent);font-size:13px;margin-bottom:4px}
+.fy b svg{width:15px;height:15px}
+.fy p{margin:0;font-size:16px;line-height:1.5}
 .srcs{margin:0;padding-inline-start:18px;display:grid;gap:6px;font-size:14px}
 .srcs a{color:var(--accent)}
 .fine{font-size:13px;color:var(--muted);margin:0}
 .actions{display:flex;gap:8px;flex-wrap:wrap}
-.anlink{display:inline-flex;align-items:center;gap:5px;margin-top:8px;margin-inline-end:10px;font-weight:700;font-size:13px;color:var(--accent);background:transparent;border:0;padding:0;cursor:pointer}
-.anlink svg{width:14px;height:14px}
-/* Reads */
-.reads{display:grid;gap:12px;margin-top:8px}
-.read{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;gap:8px}
-.read.done{opacity:.6}
-.read a{color:var(--ink);text-decoration:none}
-.read h3{margin:0;font-size:17px;line-height:1.35;font-weight:700;text-wrap:balance}
-[dir="rtl"] .read h3{line-height:1.55}
-.read p{margin:0;font-size:14px;color:var(--muted)}
-.why{font-size:14px;line-height:1.5;padding:10px 12px;border-radius:8px;background:color-mix(in srgb,var(--c) 10%,var(--surface));border-inline-start:3px solid var(--c)}
-.why b{font-weight:700}
-.read-f{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
-.pills{display:flex;gap:6px;flex-wrap:wrap}
-.pill{font-size:12px;font-weight:600;color:var(--muted);background:var(--soft);border-radius:6px;padding:3px 8px}
-.btn{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 12px;font-size:13px;font-weight:600;cursor:pointer}
-.btn[aria-pressed="true"]{background:var(--soft);color:var(--muted)}
-.btn.primary{background:var(--ink);color:var(--bg);border-color:var(--ink);text-decoration:none;display:inline-block}
-.empty{margin-top:20px;padding:20px;border:1px dashed var(--line);border-radius:12px;color:var(--muted);text-align:center}
-@media (prefers-reduced-motion:reduce){.toggle,.toggle::after{transition:none}}
+.vidbox{position:relative;display:block;border-radius:16px;overflow:hidden;aspect-ratio:16/9;background:var(--raised)}
+.vidbox img{width:100%;height:100%;object-fit:cover;display:block}
+.vidbox span{position:absolute;inset-inline-start:12px;bottom:12px;display:inline-flex;align-items:center;gap:6px;background:rgba(10,8,30,.78);color:#fff;font-size:14px;font-weight:700;border-radius:999px;padding:7px 13px}
+.vidbox svg{width:15px;height:15px}
+.vid-link{display:inline-flex;gap:6px;align-items:center;font-weight:600;font-size:14px;color:var(--accent);text-decoration:none}
+.vid-link svg{width:15px;height:15px}
+
+/* ---------- settings ---------- */
+.panel{background:var(--surface);border-radius:18px;padding:2px 16px}
+.row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0;border-top:1px solid var(--line)}
+.row:first-child{border-top:0}
+.row label{display:flex;align-items:center;gap:10px;font-weight:600;cursor:pointer;flex:1}
+.row label .ti{width:20px;height:20px}
+.toggle{appearance:none;-webkit-appearance:none;width:48px;height:29px;border-radius:999px;background:var(--line);position:relative;cursor:pointer;flex:none;transition:background .15s}
+.toggle::after{content:"";position:absolute;top:3px;inset-inline-start:3px;width:23px;height:23px;border-radius:50%;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.2);transition:inset-inline-start .15s}
+.toggle:checked{background:var(--accent)}
+.toggle:checked::after{inset-inline-start:22px}
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:4px;background:var(--surface);padding:4px;border-radius:14px}
+.seg button{border:0;border-radius:10px;padding:10px;background:transparent;font-weight:600;color:var(--muted);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.seg button[lang="ar"]{font-family:var(--arabic)}
+.sub-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0;flex-wrap:wrap}
+.toolbar{display:flex;justify-content:flex-end;margin-top:6px}
+
+/* ---------- bottom nav ---------- */
+.nav{position:fixed;left:0;right:0;bottom:0;z-index:25;background:color-mix(in srgb,var(--surface) 88%,transparent);backdrop-filter:saturate(1.4) blur(18px);-webkit-backdrop-filter:saturate(1.4) blur(18px);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
+.nav-in{max-width:680px;margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr);height:var(--nav-h)}
+.nav button{border:0;background:transparent;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font-size:11px;font-weight:600;color:var(--muted);cursor:pointer}
+.nav .ic{position:relative;display:inline-flex;padding:3px 14px;border-radius:999px}
+.nav button svg{width:23px;height:23px}
+.nav button[aria-current="page"]{color:var(--ink)}
+.nav button[aria-current="page"] .ic{background:var(--soft);color:var(--accent)}
+.badge{position:absolute;top:-4px;inset-inline-end:2px;min-width:18px;height:18px;border-radius:9px;background:var(--safran);color:var(--safran-ink);font-size:11px;font-weight:800;padding:0 5px;display:flex;align-items:center;justify-content:center;font-variant-numeric:tabular-nums}
+
+@media (prefers-reduced-motion:reduce){
+  .spin,.scope .sweep,.scope .pulse{animation:none}
+  .scope .pulse{opacity:0}
+  .toggle,.toggle::after,.new{transition:none}
+}
+
 </style>
 </head>
 <body>
@@ -338,7 +350,9 @@ const T = {
   fr:{
     app:"Radar", tabs:{home:"Accueil",agenda:"Agenda",news:"Actus",screens:"Écrans",reads:"À lire",settings:"Réglages"},
     titles:{home:"Aujourd'hui",agenda:"Agenda",news:"Actus",screens:"Films & séries",reads:"À lire",settings:"Réglages"},
-    scr:{picks:"Choisis pour toi", newOut:"Sortis récemment", soon:"Bientôt", bo:"Box-office", boUS:"États-Unis · week-end", boFR:"France · semaine (entrées)", weeks:n=>`${n} sem.`, forYou:"L\u2019avis de Claude : ", film:"Film", serie:"Série", out:"Sorti le ", outOn:"Sortie le ", pick:"Choix Radar", fam:"En famille", list:"Ma liste", add:"+ Ma liste", inList:"Dans ma liste ✓", trailer:"Bande-annonce", more:"En savoir plus", all:"Tout", empty:"Rien ici pour le moment.", listEmpty:"Ta liste est vide. Touche « + Ma liste » sur un film ou une série.", note:"Sélection et avis « Pour toi » écrits par Claude, mis à jour 3 fois par jour. Les dates peuvent varier selon le pays.", src:"Source : ", home:"À l'écran", seeAll:"Tous les films et séries"}, photo:"Photo : ",
+    scr:{picks:"Choisis pour toi", newOut:"Sortis récemment", soon:"Bientôt", bo:"Box-office", boUS:"États-Unis · week-end", boFR:"France · semaine (entrées)", weeks:n=>`${n} sem.`, forYou:"L\u2019avis de Claude : ", forYouH:"L\u2019avis de Claude", criticsH:"Les critiques", film:"Film", serie:"Série", out:"Sorti le ", outOn:"Sortie le ", pick:"Choix Radar", fam:"En famille", list:"Ma liste", add:"+ Ma liste", inList:"Dans ma liste ✓", trailer:"Bande-annonce", more:"En savoir plus", all:"Tout", empty:"Rien ici pour le moment.", listEmpty:"Ta liste est vide. Touche « + Ma liste » sur un film ou une série.", note:"Sélection et avis « Pour toi » écrits par Claude, mis à jour 3 fois par jour. Les dates peuvent varier selon le pays.", src:"Source : ", home:"À l'écran", seeAll:"Tous les films et séries"}, photo:"Photo : ",
+    ed:{title:"Ton édition", nothing:"Tu as tout vu.", next:h=>`Prochaine édition à ${h}`, end:"Fin de l\u2019édition", endSub:h=>`Tu es à jour. Prochaine édition à ${h}.`, results:"résultats", news:"actus", reads:"lectures", films:"films et séries", edAt:h=>`Édition de ${h}`, fiche:"Fiche Radar", fichesH:"Fiches de lecture", byClaude:"écrites par Claude", readOn:s=>`Lire sur ${s}`, week:"Cette semaine"},
+    cd:{d:"j",h:"h",m:"min",today:"Aujourd\u2019hui"}, ring:["24 h","3 j","7 j"], agendaNote:"Touche un événement pour voir le lieu, l\u2019enjeu et l\u2019ajouter à ton calendrier. L\u2019étoile le garde dans tes favoris.",
     aiBadge:"Analyse Radar · écrite par Claude", cardBadge:"Fiche Radar · résumé écrit par Claude", analyses:"Analyses Radar", analysisOfDay:"Analyse du jour", essential:"L\u2019essentiel en 1 minute", resumeH:"Le résumé", keyPoints:"Les points clés", takeawayH:"À retenir", whyH:"Pourquoi c\u2019est important pour toi", readFull:"Lire l\u2019article complet", back:"Retour", sourcesH:"Sources utilisées", aiNote:"Ce texte a été écrit par Claude à partir des sources ci-dessous. Vérifie les détails importants avant de les partager.", cardNote:(src)=>`Résumé écrit par Claude avec ses propres mots. L\u2019article original appartient à ${src}.`, readAnalysis:"Analyse Radar", readCard:"Lire la fiche", readAn:"Lire l\u2019analyse", newTag:"Nouveau", sinceTitle:"Nouveau pour toi depuis ta dernière visite", sinceNews:"actus", sinceReads:"lectures", sinceRes:"résultats", upToDate:"Tu es à jour : rien de nouveau depuis ta dernière visite.", markAllSeen:"Tout marquer comme vu", nNew:n=>`${n} nouveau${n>1?"x":""}`, toWatch:"À voir", vid:{highlights:"Résumé vidéo",trailer:"Bande-annonce",promo:"Vidéo"}, updRunning:(h)=>`Mise à jour en cours… (commencée à ${h}). Les nouveautés arrivent toutes seules.`, updDone:"Mise à jour reçue ✓", briefTitle:"Le brief du jour", results:"Résultats récents", done:["Fini",""], result:"Résultat", recap:"Lire l'analyse", addCal:"Ajouter au calendrier", calTitle:"Calendrier de l'iPhone", calSub:"Abonne ton iPhone aux incontournables : ils apparaissent dans ton calendrier avec une alerte 30 min avant, et la liste se met à jour toute seule.", calBtn:"S'abonner aux incontournables", calAll:"Tout l'agenda", readTonight:"À lire ce soir", seeReads:"Toutes les lectures", whyRead:"Pourquoi le lire : ", min:"min", markRead:"Marquer comme lu", isRead:"Lu ✓", open:"Lire", unread:"Non lus", paywall:"accès payant", langs:{fr:"FR",en:"EN",ar:"AR"}, readsEmpty:"Tu as tout lu dans cette catégorie. De nouvelles lectures arrivent chaque matin.", readsIntro:"Analyses et articles de fond choisis pour toi, mis à jour chaque matin.",
     all:"Tous", allNews:"Tout", fav:"★ Favoris", updated:"Mis à jour le ", loading:"Chargement…",
     next:"Prochain incontournable", days:"jours", day1:"jour", hours:"h", mins:"min", before:"avant", todayShort:"auj.", startsAt:"Début", started:"C'est en cours",
@@ -364,7 +378,9 @@ const T = {
   ar:{
     app:"رادار", tabs:{home:"الرئيسية",agenda:"المواعيد",news:"الأخبار",screens:"الشاشات",reads:"للقراءة",settings:"الإعدادات"},
     titles:{home:"اليوم",agenda:"المواعيد",news:"الأخبار",screens:"أفلام ومسلسلات",reads:"للقراءة",settings:"الإعدادات"},
-    scr:{picks:"اخترناها لك", newOut:"صدرت حديثًا", soon:"قريبًا", bo:"شباك التذاكر", boUS:"الولايات المتحدة · نهاية الأسبوع", boFR:"فرنسا · الأسبوع (عدد التذاكر)", weeks:n=>`${n} أسبوع`, forYou:"رأي Claude: ", film:"فيلم", serie:"مسلسل", out:"صدر في ", outOn:"يصدر في ", pick:"اختيار رادار", fam:"للعائلة", list:"قائمتي", add:"+ قائمتي", inList:"في قائمتي ✓", trailer:"الإعلان", more:"المزيد", all:"الكل", empty:"لا شيء هنا حاليًا.", listEmpty:"قائمتك فارغة. اضغط «+ قائمتي» على فيلم أو مسلسل.", note:"الاختيار وآراء «لك» كتبها Claude، وتُحدَّث 3 مرات يوميًا. قد تختلف التواريخ حسب البلد.", src:"المصدر: ", home:"على الشاشة", seeAll:"كل الأفلام والمسلسلات"}, photo:"صورة: ",
+    scr:{picks:"اخترناها لك", newOut:"صدرت حديثًا", soon:"قريبًا", bo:"شباك التذاكر", boUS:"الولايات المتحدة · نهاية الأسبوع", boFR:"فرنسا · الأسبوع (عدد التذاكر)", weeks:n=>`${n} أسبوع`, forYou:"رأي Claude: ", forYouH:"رأي Claude", criticsH:"النقاد", film:"فيلم", serie:"مسلسل", out:"صدر في ", outOn:"يصدر في ", pick:"اختيار رادار", fam:"للعائلة", list:"قائمتي", add:"+ قائمتي", inList:"في قائمتي ✓", trailer:"الإعلان", more:"المزيد", all:"الكل", empty:"لا شيء هنا حاليًا.", listEmpty:"قائمتك فارغة. اضغط «+ قائمتي» على فيلم أو مسلسل.", note:"الاختيار وآراء «لك» كتبها Claude، وتُحدَّث 3 مرات يوميًا. قد تختلف التواريخ حسب البلد.", src:"المصدر: ", home:"على الشاشة", seeAll:"كل الأفلام والمسلسلات"}, photo:"صورة: ",
+    ed:{title:"نسختك اليوم", nothing:"اطّلعت على كل شيء.", next:h=>`النسخة القادمة على ${h}`, end:"نهاية النسخة", endSub:h=>`أنت على اطلاع. النسخة القادمة على ${h}.`, results:"نتائج", news:"أخبار", reads:"قراءات", films:"أفلام ومسلسلات", edAt:h=>`نسخة ${h}`, fiche:"بطاقة رادار", fichesH:"بطاقات القراءة", byClaude:"كتبها Claude", readOn:s=>`اقرأ على ${s}`, week:"هذا الأسبوع"},
+    cd:{d:"ي",h:"س",m:"د",today:"اليوم"}, ring:["24س","3ي","7ي"], agendaNote:"اضغط على موعد لرؤية المكان والرهان وإضافته إلى تقويمك. النجمة تحفظه في مفضلتك.",
     aiBadge:"تحليل رادار · كتبه Claude", cardBadge:"بطاقة رادار · ملخص كتبه Claude", analyses:"تحليلات رادار", analysisOfDay:"تحليل اليوم", essential:"الأهم في دقيقة", resumeH:"الملخص", keyPoints:"النقاط الأساسية", takeawayH:"الخلاصة", whyH:"لماذا يهمك", readFull:"اقرأ المقال كاملا", back:"رجوع", sourcesH:"المصادر المعتمدة", aiNote:"كتب Claude هذا النص اعتمادًا على المصادر أدناه. تحقق من التفاصيل المهمة قبل مشاركتها.", cardNote:(src)=>`ملخص كتبه Claude بأسلوبه. المقال الأصلي ملك لـ ${src}.`, readAnalysis:"تحليل رادار", readCard:"اقرأ البطاقة", readAn:"اقرأ التحليل", newTag:"جديد", sinceTitle:"جديد لك منذ زيارتك الأخيرة", sinceNews:"أخبار", sinceReads:"قراءات", sinceRes:"نتائج", upToDate:"لا جديد منذ زيارتك الأخيرة.", markAllSeen:"تعليم الكل كمُشاهَد", nNew:n=>`${n} جديد`, toWatch:"للمشاهدة", vid:{highlights:"ملخص بالفيديو",trailer:"إعلان الفيلم",promo:"فيديو"}, updRunning:(h)=>`جارٍ التحديث… (بدأ على ${h}). ستصل المستجدات تلقائيًا.`, updDone:"تم استلام التحديث ✓", briefTitle:"موجز اليوم", results:"نتائج حديثة", done:["انتهى",""], result:"النتيجة", recap:"اقرأ التحليل", addCal:"أضف إلى التقويم", calTitle:"تقويم الآيفون", calSub:"اشترك في المواعيد التي لا تُفوَّت: تظهر في تقويمك مع تنبيه قبل 30 دقيقة، وتتحدّث القائمة تلقائيًا.", calBtn:"اشترك في المواعيد الكبرى", calAll:"كل المواعيد", readTonight:"للقراءة هذا المساء", seeReads:"كل القراءات", whyRead:"لماذا تقرأه: ", min:"د", markRead:"تمت القراءة؟", isRead:"قُرئ ✓", open:"اقرأ", unread:"غير مقروء", paywall:"محتوى مدفوع", langs:{fr:"FR",en:"EN",ar:"AR"}, readsEmpty:"قرأت كل شيء في هذه الفئة. تصل قراءات جديدة كل صباح.", readsIntro:"تحليلات ومقالات معمّقة مختارة لك، تُحدَّث كل صباح.",
     all:"الكل", allNews:"الكل", fav:"★ المفضلة", updated:"آخر تحديث: ", loading:"جارٍ التحميل…",
     next:"الموعد الكبير القادم", days:"أيام", day1:"يوم", hours:"س", mins:"د", before:"متبقية", todayShort:"اليوم", startsAt:"يبدأ", started:"جارٍ الآن",
@@ -518,7 +534,7 @@ function scrCard(x){
 function boBlock(b,title){
   if (!b || !Array.isArray(b.items) || !b.items.length) return "";
   const t=L();
-  return `<div class="bo"><h3>${esc(title)} · ${esc(tx(b,"period"))}</h3><ol>${b.items.map(i=>`<li><span class="r">${esc(String(i.rank))}</span><span>${esc(tx(i,"title"))}${i.weeks?` <small>· ${esc(t.scr.weeks(i.weeks))}</small>`:""}</span><small>${esc(i.gross||"")}</small></li>`).join("")}</ol>${b.url?`<div class="src">${esc(t.scr.src)}<a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.source||"")}</a></div>`:""}</div>`;
+  return `<div class="group bo"><h3>${esc(title)}, ${esc(tx(b,"period"))}</h3><ol>${b.items.map(i=>`<li><span class="r">${esc(String(i.rank))}</span><span>${esc(tx(i,"title"))}${i.weeks?` <small>${esc(t.scr.weeks(i.weeks))}</small>`:""}</span><small>${esc(i.gross||"")}</small></li>`).join("")}</ol>${b.url?`<div class="src">${esc(t.scr.src)}<a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.source||"")}</a></div>`:""}</div>`;
 }
 function viewScreens(){
   const t=L(), T=t.scr; let items=screenItems().slice();
@@ -528,15 +544,15 @@ function viewScreens(){
   let html="";
   if (f==="all"){
     const picks=items.filter(x=>x.pick);
-    if (picks.length) html+=`<section class="sec" style="margin-top:8px"><div class="sec-h"><h2>${esc(T.picks)}</h2></div><div class="scr-rail">${picks.map(scrCard).join("")}</div></section>`;
+    if (picks.length) html+=`<section class="sec" style="margin-top:14px"><div class="sec-h"><h2>${esc(T.picks)}</h2></div><div class="rail">${picks.map(posterCard).join("")}</div></section>`;
     const nw=items.filter(x=>x.status!=="soon"&&!x.pick).sort(byD), sn=items.filter(x=>x.status==="soon"&&!x.pick).sort((a,b)=>String(a.date).localeCompare(String(b.date)));
-    if (nw.length) html+=`<section class="sec"><div class="sec-h"><h2>${esc(T.newOut)}</h2></div><div class="scr-list">${nw.map(scrCard).join("")}</div></section>`;
-    if (sn.length) html+=`<section class="sec"><div class="sec-h"><h2>${esc(T.soon)}</h2></div><div class="scr-list">${sn.map(scrCard).join("")}</div></section>`;
+    if (nw.length) html+=`<section class="sec"><div class="sec-h"><h2>${esc(T.newOut)}</h2><small>${nw.length}</small></div><div class="group scr-row">${nw.map(scrRow).join("")}</div></section>`;
+    if (sn.length) html+=`<section class="sec"><div class="sec-h"><h2>${esc(T.soon)}</h2><small>${sn.length}</small></div><div class="group scr-row">${sn.map(scrRow).join("")}</div></section>`;
     const bo=state.screen&&state.screen.boxoffice;
     if (bo&&(bo.us||bo.fr)) html+=`<section class="sec"><div class="sec-h"><h2>${esc(T.bo)}</h2></div>${boBlock(bo.us,T.boUS)}${boBlock(bo.fr,T.boFR)}</section>`;
   } else {
     items.sort(byD);
-    html = items.length ? `<div class="scr-list" style="margin-top:8px">${items.map(scrCard).join("")}</div>` : `<div class="empty">${esc(f==="list"?T.listEmpty:T.empty)}</div>`;
+    html = items.length ? `<div class="group scr-row" style="margin-top:14px">${items.map(scrRow).join("")}</div>` : `<div class="empty">${esc(f==="list"?T.listEmpty:T.empty)}</div>`;
   }
   return (html||`<div class="empty">${esc(T.empty)}</div>`) + `<p class="note" style="margin-top:16px">${esc(T.note)}</p>`;
 }
@@ -544,7 +560,7 @@ function videoBlock(v,compact){
   if (!v || !v.url) return "";
   const t=L(), lab=t.vid[v.kind]||t.vid.promo;
   const id = v.id || ((String(v.url).match(/[?&]v=([\w-]{11})/)||[])[1]) || ((String(v.url).match(/youtu\.be\/([\w-]{11})/)||[])[1]);
-  if (window.RADAR_PWA && id && !compact) return `<a class="vid" href="${esc(v.url)}" target="_blank" rel="noopener" aria-label="${esc(lab)}"><img src="https://i.ytimg.com/vi/${esc(id)}/mqdefault.jpg" alt="" loading="lazy" onerror="this.remove()"><span class="vid-l">${ICONS.play}${esc(lab)}</span></a>`;
+  if (id && !compact) return `<a class="vidbox" href="${esc(v.url)}" target="_blank" rel="noopener" aria-label="${esc(lab)}"><img src="https://i.ytimg.com/vi/${esc(id)}/hqdefault.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"><span>${ICONS.play}${esc(lab)}</span></a>`;
   return `<a class="vid-link" href="${esc(v.url)}" target="_blank" rel="noopener">${ICONS.play}${esc(lab)}</a>`;
 }
 function gcalLink(ev){
@@ -573,29 +589,21 @@ function renderTop(){
   }
   const t=L();
   let upd = "";
-  if (state.meta && state.meta.updatedAt) upd = t.updated + fmt(new Date(state.meta.updatedAt),{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"});
-  if (state.offline) upd = t.offline;
-  const title = state.tab==="home" ? fmt(new Date(),{weekday:"long",day:"numeric",month:"long"}) : t.titles[state.tab];
-  let chips = "";
-  if (state.tab==="agenda"){
-    const opts=[["all",t.all,null],...Object.keys(SPORT_C).filter(sportOn).map(k=>[k,t.sports[k],SPORT_C[k]]),["fav",t.fav,null]];
-    chips = `<div class="chips" role="toolbar">${opts.map(([k,l,c])=>`<button class="chip" data-sf="${k}" aria-pressed="${state.sportFilter===k}">${c?`<span class="ti" style="--c:var(${c})">${TI[k]||""}</span>`:""}${esc(l)}</button>`).join("")}</div>`;
-  } else if (state.tab==="news"){
-    const opts=[["all",t.allNews,null],...Object.keys(CAT_C).filter(catOn).map(k=>[k,t.cats[k],CAT_C[k]])];
-    chips = `<div class="chips" role="toolbar">${opts.map(([k,l,c])=>`<button class="chip" data-cf="${k}" aria-pressed="${state.catFilter===k}">${c?`<span class="ti" style="--c:var(${c})">${TI[k]||""}</span>`:""}${esc(l)}</button>`).join("")}</div>`;
-  } else if (state.tab==="reads"){
-    const have=new Set((state.reads||[]).map(x=>x.cat));
-    const opts=[["all",t.allNews,null],["unread",t.unread,null],...Object.keys(CAT_C).filter(k=>catOn(k)&&have.has(k)).map(k=>[k,t.cats[k],CAT_C[k]])];
-    chips = `<div class="chips" role="toolbar">${opts.map(([k,l,c])=>`<button class="chip" data-rf="${k}" aria-pressed="${state.readFilter===k}">${c?`<span class="ti" style="--c:var(${c})">${TI[k]||""}</span>`:""}${esc(l)}</button>`).join("")}</div>`;
+  if (state.meta && state.meta.updatedAt){
+    const u=new Date(state.meta.updatedAt);
+    upd = state.tab==="home" ? `${t.ed.edAt(sod(u).getTime()===sod(new Date()).getTime()?hm(u):fmt(u,{day:"numeric",month:"short"})+" "+hm(u))} · ${t.ed.next(hm(nextEdition()))}` : t.updated + fmt(u,{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit",hour12:false});
   }
+  if (state.offline) upd = t.offline;
+  const title = state.tab==="home" ? cap(fmt(new Date(),{weekday:"long",day:"numeric",month:"long"})) : t.titles[state.tab];
+  const chipRow = (opts,attr,cur) => `<div class="chips" role="toolbar">${opts.map(([k,l,c])=>`<button class="chip" ${attr}="${esc(k)}" aria-pressed="${cur===k}">${c?`<span class="ti" style="--c:var(${c})">${TI[k]||""}</span>`:""}${esc(l)}</button>`).join("")}</div>`;
+  let chips = "";
+  if (state.tab==="agenda") chips = chipRow([["all",t.all,null],...Object.keys(SPORT_C).filter(sportOn).map(k=>[k,t.sports[k],SPORT_C[k]]),["fav",t.fav,null]],"data-sf",state.sportFilter);
+  else if (state.tab==="news") chips = chipRow([["all",t.allNews,null],...Object.keys(CAT_C).filter(catOn).map(k=>[k,t.cats[k],CAT_C[k]])],"data-cf",state.catFilter);
+  else if (state.tab==="reads"){ const have=new Set((state.reads||[]).map(x=>x.cat)); chips = chipRow([["all",t.allNews,null],["unread",t.unread,null],...Object.keys(CAT_C).filter(k=>catOn(k)&&have.has(k)).map(k=>[k,t.cats[k],CAT_C[k]])],"data-rf",state.readFilter); }
+  else if (state.tab==="screens"){ const T=t.scr, have=new Set(screenItems().map(x=>x.platform)); chips = chipRow([["all",T.all],["pick",T.pick],["list",T.list],["family",T.fam],...Object.keys(PLAT_C).filter(k=>have.has(k)).map(k=>[k,k])],"data-scf",state.scrFilter); }
   let statusHtml="";
   if (live.done && Date.now()-live.done<8000) statusHtml=`<div class="status ok" role="status">${esc(t.updDone)}</div>`;
-  else if (live.running) statusHtml=`<div class="status" role="status"><span class="spin" aria-hidden="true"></span>${esc(t.updRunning(fmt(new Date(live.running),{hour:"2-digit",minute:"2-digit",hour12:false})))}</div>`;
-  if (state.tab==="screens"){
-    const T=t.scr, have=new Set(screenItems().map(x=>x.platform));
-    const opts=[["all",T.all],["pick",T.pick],["list",T.list],["family",T.fam],...Object.keys(PLAT_C).filter(k=>have.has(k)).map(k=>[k,k])];
-    chips = `<div class="chips" role="toolbar">${opts.map(([k,l])=>`<button class="chip" data-scf="${esc(k)}" aria-pressed="${state.scrFilter===k}">${esc(l)}</button>`).join("")}</div>`;
-  }
+  else if (live.running) statusHtml=`<div class="status" role="status"><span class="spin" aria-hidden="true"></span>${esc(t.updRunning(hm(new Date(live.running))))}</div>`;
   $("#top").innerHTML = `<div class="top-row"><div class="min"><h1>${esc(title)}</h1><div class="sub">${esc(upd || (state.err?"":t.loading))}</div></div><button class="gear" id="gear" aria-label="${esc(t.tabs.settings)}" aria-pressed="${state.tab==="settings"}">${ICONS.settings}</button></div>${statusHtml}${chips}`;
   $("#gear").onclick=()=>go(state.tab==="settings"?"home":"settings");
   $("#top").querySelectorAll("[data-scf]").forEach(b=>b.onclick=()=>{state.scrFilter=b.dataset.scf;render(true);});
@@ -621,31 +629,31 @@ function go(tab, opts={}){
 /* ---------- pieces ---------- */
 function eventRow(ev){
   const t=L(), c=SPORT_C[ev.sport]||"--muted", s=pStart(ev), now=new Date(), lv=Number(ev.level)||1;
-  let time;
   const past = pEnd(ev)<now;
-  if (past) time=`<div class="time word">${t.done[0]}<small>${fmt(s,{day:"numeric",month:"short"})}</small></div>`;
-  else if (s<=now) time=`<div class="time word">${t.inProgress[0]}<small>${t.inProgress[1]}</small></div>`;
-  else if (ev.end){ const e2=pEnd(ev); time=`<div class="time range">${fmt(s,{day:"numeric"})}–${fmt(e2,{day:"numeric"})}<small>${fmt(e2,{month:"short"})}</small></div>`; }
-  else if (isDateOnly(ev)){ time=`<div class="time word">${t.dateOnly[0]}<small>${t.dateOnly[1]}</small></div>`; }
-  else time=`<div class="time">${fmt(s,{hour:"2-digit",minute:"2-digit",hour12:false})}<small>${fmt(s,{weekday:"short"})}</small></div>`;
-  const endTxt = ev.end ? ` · ${t.until} ${fmt(pEnd(ev),{day:"numeric",month:"short"})}` : "";
-  const why=tx(ev,"why"), fav=stars.has(ev.id);
-  const res = past && ev.result ? `<div>${newTag(resKey(ev))} <span class="res">${esc(tx(ev,"result"))}</span>${ev.recap?`<a class="recap" href="${esc(ev.recap)}" target="_blank" rel="noopener">${esc(t.recap)}</a>`:""}</div>` : "";
-  return `<article class="ev ${lv===3&&!past?"top3":""} ${past?"past":""}" style="--c:var(${c})">
-    ${time}
-    <div class="min">
-      <div class="meta">${ico(ev.sport)}${esc(t.sports[ev.sport]||ev.sport)} <span class="comp">· ${esc(tx(ev,"comp"))}</span></div>
-      <h3>${esc(tx(ev,"title"))}</h3>
-      <p>${esc(tx(ev,"place"))}${esc(endTxt)}${why&&!past?` — ${esc(why)}`:""}</p>
-      ${res}
-      ${ev.video ? videoBlock(ev.video,true) : ""}${(()=>{ const a=(state.analyses||[]).find(z=>z.event===ev.id); return a?`<button class="anlink" data-open="an" data-k="${esc(a.id)}">${ICONS.spark}${esc(t.readAnalysis)}</button>`:""; })()}
-    </div>
-    <div class="side">
-      <button class="star" data-star="${esc(ev.id)}" aria-pressed="${fav}" aria-label="${fav?t.rmFav:t.addFav}">★</button>
-      <div class="lvl" title="${t.levels[lv]}" aria-label="${t.levels[lv]}"><i class="on"></i><i class="${lv>=2?"on":""}"></i><i class="${lv>=3?"on":""}"></i></div>
-      ${!past?`<a class="cal" href="${esc(calHref(ev))}" ${window.RADAR_PWA?"":'target="_blank" rel="noopener"'} aria-label="${esc(t.addCal)}" title="${esc(t.addCal)}">${ICONS.cal}</a>`:""}
-    </div>
-  </article>`;
+  let time;
+  if (past) time=`<div class="time word">${esc(t.done[0])}<small>${esc(fmt(s,{day:"numeric",month:"short"}))}</small></div>`;
+  else if (s<=now) time=`<div class="time word" style="color:var(--accent)">${esc(t.inProgress[0])}<small>${esc(t.inProgress[1])}</small></div>`;
+  else if (ev.end){ const e2=pEnd(ev); time=`<div class="time">${fmt(s,{day:"numeric"})}–${fmt(e2,{day:"numeric"})}<small>${esc(fmt(e2,{month:"short"}))}</small></div>`; }
+  else if (isDateOnly(ev)) time=`<div class="time word">${esc(t.dateOnly[0])}<small>${esc(t.dateOnly[1])}</small></div>`;
+  else time=`<div class="time">${hm(s)}<small>${esc(fmt(s,{weekday:"short"}))}</small></div>`;
+  const why=tx(ev,"why"), fav=stars.has(ev.id), an=analysisFor(ev);
+  const place = [tx(ev,"place"), ev.end?`${t.until} ${fmt(pEnd(ev),{day:"numeric",month:"short"})}`:""].filter(Boolean).join(", ");
+  const acts = [
+    !past?`<a class="btn" href="${esc(calHref(ev))}" ${window.RADAR_PWA?"":'target="_blank" rel="noopener"'}>${ICONS.cal}${esc(t.addCal)}</a>`:"",
+    an?`<button class="btn primary" data-open="an" data-k="${esc(an.id)}">${ICONS.spark}${esc(t.readAn)}</button>`:"",
+    ev.recap?`<a class="btn" href="${esc(ev.recap)}" target="_blank" rel="noopener">${esc(t.recap)}</a>`:"",
+    ev.video&&ev.video.url?`<a class="btn" href="${esc(ev.video.url)}" target="_blank" rel="noopener">${ICONS.play}${esc(t.vid[ev.video.kind]||t.vid.promo)}</a>`:""
+  ].join("");
+  return `<details class="ev ${lv===3&&!past?"top3":""}" style="--c:var(${c})">
+    <summary>${time}
+      <div class="min"><div class="kick">${ico(ev.sport)}<span class="lab">${esc(sportLabel(ev))}</span><span class="cmp">${esc(tx(ev,"comp"))}</span></div>
+        <h3>${esc(tx(ev,"title"))}</h3>
+        ${(past&&ev.result)||(lv===3&&!past)||an?`<div class="tags">${past&&ev.result?`<span class="score">${esc(tx(ev,"result"))}</span>${newTag(resKey(ev))}`:""}${lv===3&&!past?`<span class="lvl3">${esc(t.levels[3])}</span>`:""}${an&&!past?`<span class="ai">${ICONS.spark}${esc(t.readAnalysis)}</span>`:""}</div>`:""}
+      </div>
+      <div class="side"><button class="star" data-star="${esc(ev.id)}" aria-pressed="${fav}" aria-label="${esc(fav?t.rmFav:t.addFav)}">★</button></div>
+    </summary>
+    <div class="ev-more">${place||why?`<p>${esc(place)}${place&&why?". ":""}${esc(cap(why))}</p>`:""}${acts?`<div class="acts">${acts}</div>`:""}</div>
+  </details>`;
 }
 function newsLabel(n){
   const t=L(); let label=t.cats[n.cat]||n.cat, col=CAT_C[n.cat]||"--muted";
@@ -687,16 +695,14 @@ function readsList(){
 }
 function anCard(a){
   const t=L(), col = a.cat==="sport"&&SPORT_C[a.sport]?SPORT_C[a.sport]:(CAT_C[a.cat]||"--accent");
-  return `<button class="an" data-open="an" data-k="${esc(a.id)}" style="--c:var(${col})">
-    ${cover(a.image)}
-    <span><span class="ai">${ICONS.spark}${esc(t.aiBadge)}</span> ${!isNew(anKey(a))?"":`<span class="new" data-seen="${esc(anKey(a))}">${esc(t.newTag)}</span>`}</span>
-    <h3>${esc(tx(a,"title"))}</h3><p>${esc(tx(a,"dek"))}</p>
-    <span class="pills"><span class="pill">${esc(String(a.minutes||"?"))} ${esc(t.min)}</span></span>
-  </button>`;
+  return `<button class="an" data-open="an" data-k="${esc(a.id)}" style="--c:var(${col})">${imgTag(a.image)}
+    <div class="bd"><div class="kick"><span class="ai">${ICONS.spark}${esc(t.aiBadge)}</span>${newTag(anKey(a))}</div>
+    <h3>${esc(tx(a,"title"))}</h3><p class="clamp3">${esc(tx(a,"dek"))}</p>
+    <div class="kick"><span>${esc(String(a.minutes||"?"))} ${esc(t.min)}</span></div></div></button>`;
 }
 function openDetail(type,key){
   state.detail={type,key,scroll:window.scrollY};
-  if (type==="an") seen.add("a:"+key); else seen.add(key);
+  seen.add(type==="an"?"a:"+key:type==="scr"?"s:"+key:key);
   saveSeen();
   try{ history.pushState({radarDetail:1},""); }catch(e){}
   render(); window.scrollTo(0,0);
@@ -713,107 +719,211 @@ function viewDetail(){
     const col = a.cat==="sport"&&SPORT_C[a.sport]?SPORT_C[a.sport]:(CAT_C[a.cat]||"--accent");
     const secs=(a.sections||[]).map(sec=>`<h2>${esc(tx(sec,"h"))}</h2>${String(tx(sec,"body")).split(/\n+/).filter(Boolean).map(p=>`<p class="body">${esc(p)}</p>`).join("")}`).join("");
     return `<article class="reader" style="--c:var(${col})">
-      <div><span class="ai">${ICONS.spark}${esc(t.aiBadge)}</span></div>
+      <div class="ai">${ICONS.spark}${esc(t.aiBadge)}</div>
       <h1>${esc(tx(a,"title"))}</h1>
       ${tx(a,"dek")?`<p class="dek">${esc(tx(a,"dek"))}</p>`:""}
-      <div class="pills"><span class="pill">${esc(String(a.minutes||"?"))} ${esc(t.min)}</span><span class="pill">${esc(shortDate(a.date))}</span></div>
-      ${imgOk(a.image)?`<figure>${cover(a.image,"hero")}${a.image_credit?`<figcaption>${esc(t.photo+a.image_credit)}</figcaption>`:""}</figure>`:""}
+      <div class="chips-in"><span class="pill">${esc(String(a.minutes||"?"))} ${esc(t.min)}</span><span class="pill">${esc(shortDate(a.date))}</span></div>
+      ${imgOk(a.image)?`<figure>${imgTag(a.image,"hero")}${a.image_credit?`<figcaption>${esc(t.photo+a.image_credit)}</figcaption>`:""}</figure>`:""}
       ${secs}
       ${tx(a,"takeaway")?`<div class="keybox"><b>${esc(t.takeawayH)}</b><p>${esc(tx(a,"takeaway"))}</p></div>`:""}
       ${(a.sources||[]).length?`<div><h2>${esc(t.sourcesH)}</h2><ul class="srcs">${a.sources.map(s=>`<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name||s.url)}</a></li>`).join("")}</ul></div>`:""}
       <p class="fine">${esc(t.aiNote)}</p>
     </article>`;
   }
-  const x=(state.reads||[]).find(r=>r.url===d.key) || (state.news||[]).find(r=>r.url===d.key);
+  if (d.type==="scr"){
+    const x=screenItems().find(z=>z.id===d.key); if(!x) return `<div class="empty">—</div>`;
+    const T=t.scr, inL=myList.has(x.id), vid=x.video&&x.video.url?x.video:null;
+    const dd = x.date ? fmt(new Date(x.date+"T12:00:00"),{day:"numeric",month:"long"}) : "";
+    const media = vid ? `<figure>${videoBlock(vid)}</figure>` : (imgOk(x.image)?`<figure>${imgTag(x.image,"hero")}</figure>`:"");
+    return `<article class="reader" style="--c:var(--cinema)">
+      ${media}
+      <div class="kick"><span class="plat" style="position:static;--pc:${PLAT_C[x.platform]||"#333"}">${esc(x.platform||"")}</span><span>${esc(x.kind==="serie"?T.serie:T.film)} · ${esc(tx(x,"genre"))}</span>${x.family?`<span class="pickmark" style="color:var(--monte)">${esc(T.fam)}</span>`:""}</div>
+      <h1>${esc(tx(x,"title"))}</h1>
+      <div class="chips-in"><span class="pill">${esc((x.status==="soon"?T.outOn:T.out)+dd)}</span>${x.pick?`<span class="pill" style="color:var(--cinema)">${esc(T.pick)}</span>`:""}</div>
+      ${x.creators?`<p class="fine">${esc(x.creators)}${x.original&&!String(x.title).toLowerCase().includes(String(x.original).toLowerCase())?` (${esc(x.original)})`:""}</p>`:""}
+      <p class="body">${esc(tx(x,"summary"))}</p>
+      ${tx(x,"for_you")?`<div class="fy"><b>${ICONS.spark}${esc(T.forYouH)}</b><p>${esc(tx(x,"for_you"))}</p></div>`:""}
+      ${tx(x,"critics")?`<div class="keybox"><b>${esc(T.criticsH)}</b><p style="font-weight:500">${esc(tx(x,"critics"))}</p></div>`:""}
+      <div class="actions"><button class="btn ${inL?"":"primary"}" data-list="${esc(x.id)}" aria-pressed="${inL}">${esc(inL?T.inList:T.add)}</button>${x.url?`<a class="btn" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(T.more)} ↗</a>`:""}</div>
+      <p class="fine">${esc(T.note)}</p>
+    </article>`;
+  }
+  const isRead = d.type==="read";
+  const x = isRead ? (state.reads||[]).find(r=>r.url===d.key) : (state.news||[]).find(r=>r.url===d.key);
   if (!x) return `<div class="empty">—</div>`;
-  let label=t.cats[x.cat]||x.cat, col=CAT_C[x.cat]||"--muted";
-  if (x.cat==="sport" && t.sports[x.sport]){ label=t.sports[x.sport]; col=SPORT_C[x.sport]; }
+  let label=t.cats[x.cat]||x.cat, col=CAT_C[x.cat]||"--muted", key=x.cat;
+  if (x.cat==="sport" && t.sports[x.sport]){ label=t.sports[x.sport]; col=SPORT_C[x.sport]; key=TI[x.sport]?x.sport:x.cat; }
+  if (x.cat==="maroc" && t.subs[x.sub]) label=`${t.cats.maroc}, ${t.subs[x.sub]}`;
   const pts = state.lang==="ar" ? (x.points_ar||x.points) : x.points;
+  const hasCard = tx(x,"resume") || (Array.isArray(pts)&&pts.length);
   const done=readDone.has(x.url);
   return `<article class="reader" style="--c:var(${col})">
-    <div class="meta">${ico(x.cat==="sport"&&TI[x.sport]?x.sport:x.cat)}${esc(label)} <span class="comp">· ${esc(x.source||"")}</span></div>
+    <div class="kick">${ico(key)}<span class="lab">${esc(label)}</span><span>${esc(x.source||"")}, ${esc(shortDate(x.date))}</span></div>
     <h1>${esc(tx(x,"title"))}</h1>
-    <p class="dek">${esc(tx(x,"summary"))}</p>
-    ${imgOk(x.image)?`<figure>${cover(x.image,"hero")}<figcaption>${esc(t.photo+(x.source||""))}</figcaption></figure>`:""}
-    <div class="pills">${x.minutes?`<span class="pill">${esc(String(x.minutes))} ${esc(t.min)}</span>`:""}${x.lang?`<span class="pill">${esc(t.langs[x.lang]||x.lang)}</span>`:""}${x.paywall?`<span class="pill">${esc(t.paywall)}</span>`:""}</div>
-    ${(tx(x,"resume")||(Array.isArray(pts)&&pts.length))?`<div><span class="ai">${ICONS.spark}${esc(t.cardBadge)}</span></div>`:""}
-    ${tx(x,"resume")?`<div class="resume"><h2>${esc(t.resumeH)}</h2>${String(tx(x,"resume")).split(/\n+/).filter(Boolean).map(p=>`<p class="body">${esc(p)}</p>`).join("")}</div>`:""}
+    ${imgOk(x.image)?`<figure>${imgTag(x.image,"hero")}<figcaption>${esc(t.photo+(x.source||""))}</figcaption></figure>`:""}
+    ${isRead?`<div class="chips-in">${x.minutes?`<span class="pill">${esc(String(x.minutes))} ${esc(t.min)}</span>`:""}${x.lang?`<span class="pill">${esc(t.langs[x.lang]||x.lang)}</span>`:""}${x.paywall?`<span class="pill">${esc(t.paywall)}</span>`:""}</div>`:""}
+    ${hasCard?`<div class="ai">${ICONS.spark}${esc(t.cardBadge)}</div>`:""}
+    ${tx(x,"resume")?`<div class="resume">${String(tx(x,"resume")).split(/\n+/).filter(Boolean).map(p=>`<p class="body">${esc(p)}</p>`).join("")}</div>`:`<p class="body">${esc(tx(x,"summary"))}</p>`}
     ${Array.isArray(pts)&&pts.length?`<div><h2>${esc(tx(x,"resume")?t.keyPoints:t.essential)}</h2><ul class="pts">${pts.map(p=>`<li>${esc(p)}</li>`).join("")}</ul></div>`:""}
-    ${tx(x,"why")?`<div><h2>${esc(t.whyH)}</h2><p class="body">${esc(tx(x,"why"))}</p></div>`:""}
+    ${tx(x,"why")?`<div class="fy"><b>${esc(t.whyH)}</b><p>${esc(tx(x,"why"))}</p></div>`:""}
     ${tx(x,"takeaway")?`<div class="keybox"><b>${esc(t.takeawayH)}</b><p>${esc(tx(x,"takeaway"))}</p></div>`:""}
     ${videoBlock(x.video)}
-    <div class="actions"><a class="btn primary" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(t.readFull)} ↗</a>${state.reads.includes(x)?`<button class="btn" data-read="${esc(x.url)}" aria-pressed="${done}">${esc(done?t.isRead:t.markRead)}</button>`:""}</div>
-    ${(tx(x,"resume")||(Array.isArray(pts)&&pts.length))?`<p class="fine">${esc(t.cardNote(x.source||""))}</p>`:""}
+    <div class="actions"><a class="btn primary" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(t.ed.readOn(x.source||""))} ↗</a>${isRead?`<button class="btn" data-read="${esc(x.url)}" aria-pressed="${done}">${esc(done?t.isRead:t.markRead)}</button>`:""}</div>
+    ${hasCard?`<p class="fine">${esc(t.cardNote(x.source||""))}</p>`:""}
   </article>`;
 }
 function viewReads(){
   const t=L(); let items=readsList();
   if (state.readFilter==="unread") items=items.filter(x=>!readDone.has(x.url));
   else if (state.readFilter!=="all") items=items.filter(x=>x.cat===state.readFilter);
-  if (!items.length) return `<div class="empty">${esc(t.readsEmpty)}</div>`;
-  const un=unseenReads().length;
-  const ans = (state.readFilter==="all"||state.readFilter==="unread") ? analysesList().filter(a=>state.readFilter==="all"||!seen.has(anKey(a))) : analysesList().filter(a=>a.cat===state.readFilter);
-  const anSec = ans.length ? `<section class="sec" style="margin-top:12px"><div class="sec-h"><h2>${esc(t.analyses)}</h2></div><div class="an-list">${ans.map(anCard).join("")}</div></section>` : "";
-  return anSec + `<p class="note" style="margin:${anSec?"18px":"6px"} 2px 0">${esc(t.readsIntro)}</p>${un?`<div class="toolbar"><button class="link" data-seenall="reads">${esc(t.markAllSeen)}</button></div>`:""}<div class="reads">${items.map(readCard).join("")}</div>`;
+  const ans = (state.readFilter==="all"||state.readFilter==="unread") ? analysesList().filter(a=>state.readFilter==="all"||!seen.has(anKey(a))||flash.has(anKey(a))) : analysesList().filter(a=>a.cat===state.readFilter);
+  let html = "";
+  if (ans.length) html += `<section class="sec" style="margin-top:14px"><div class="sec-h"><h2>${esc(t.analyses)}</h2><small>${esc(t.ed.byClaude)}</small></div><div class="an-list">${ans.map(anCard).join("")}</div></section>`;
+  html += items.length ? `<section class="sec" style="margin-top:${ans.length?28:14}px"><div class="sec-h"><h2>${esc(t.ed.fichesH)}</h2><small>${items.length}</small></div><div class="group rd">${items.map(readRow).join("")}</div><p class="note">${esc(t.readsIntro)}</p></section>` : `<div class="empty">${esc(t.readsEmpty)}</div>`;
+  return html;
+}
+
+const thumbBox = (u,cls) => imgOk(u) ? `<span class="th ${cls||"sq"}"><img src="${esc(u)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></span>` : "";
+const imgTag = (u,cls) => imgOk(u) ? `<img class="ph ${cls||""}" src="${esc(u)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">` : "";
+const hm = d => fmt(d,{hour:"2-digit",minute:"2-digit",hour12:false});
+const cap = s => s ? s.charAt(0).toUpperCase()+s.slice(1) : s;
+function nextEdition(){
+  const now=new Date();
+  for (const h of [6,12,18]){ const d=new Date(now); d.setHours(h,47,0,0); if (d>now) return d; }
+  const d=new Date(now); d.setDate(d.getDate()+1); d.setHours(6,47,0,0); return d;
+}
+const RADAR_GLYPH = `<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="24" cy="24" r="20" opacity=".35"/><circle cx="24" cy="24" r="12" opacity=".6"/><path d="M24 24 38 10"/><circle cx="33" cy="17" r="3" fill="currentColor" stroke="none"/></svg>`;
+function sportLabel(ev){ const t=L(); return t.sports[ev.sport]||ev.sport||""; }
+function analysisFor(ev){ return (state.analyses||[]).find(z=>z.event===ev.id); }
+
+function radarHero(){
+  const t=L(), now=new Date();
+  const ups = upcoming().filter(e=>pStart(e)>now);
+  const next = ups.find(e=>e.level>=3) || ups[0];
+  if (!next) return "";
+  const week = ups.filter(e=>e.level>=3 && pStart(e)-now < 7*864e5 && e!==next);
+  const R = h => h<=24 ? 6+h/24*14 : h<=72 ? 20+(h-24)/48*20 : 40+Math.min(1,(h-72)/96)*20;
+  const blips = [next,...week].slice(0,10).map((e,i)=>{
+    const h=Math.max(0,(pStart(e)-now)/36e5), r=R(h), a=(-50+i*137.5)*Math.PI/180;
+    return {e, x:(66+r*Math.cos(a)).toFixed(1), y:(66+r*Math.sin(a)).toFixed(1), first:i===0};
+  });
+  const wedge = `M66 66 L66 4 A62 62 0 0 1 ${(66+62*Math.sin(Math.PI/5)).toFixed(1)} ${(66-62*Math.cos(Math.PI/5)).toFixed(1)} Z`;
+  const svg = `<svg class="scope" viewBox="0 0 132 132" aria-hidden="true">
+    <defs><linearGradient id="swg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9389FF" stop-opacity="0"/><stop offset="1" stop-color="#9389FF" stop-opacity=".45"/></linearGradient></defs>
+    <line class="axis" x1="66" y1="2" x2="66" y2="130"/><line class="axis" x1="2" y1="66" x2="130" y2="66"/>
+    <circle class="ring" cx="66" cy="66" r="20"/><circle class="ring" cx="66" cy="66" r="40"/><circle class="ring" cx="66" cy="66" r="62"/>
+    <text class="rl" x="69" y="${66+20-3}">${esc(t.ring[0])}</text><text class="rl" x="69" y="${66+40-3}">${esc(t.ring[1])}</text><text class="rl" x="69" y="${66+62-3}">${esc(t.ring[2])}</text>
+    <g class="sweep"><path d="${wedge}" fill="url(#swg)"/></g>
+    <circle cx="66" cy="66" r="2.2" fill="var(--nuit-ink)"/>
+    ${blips.map(b=>b.first
+      ? `<circle class="pulse" cx="${b.x}" cy="${b.y}" r="5.5"/><circle class="blip" cx="${b.x}" cy="${b.y}" r="5.5" style="fill:var(--safran)"/>`
+      : `<circle class="blip" cx="${b.x}" cy="${b.y}" r="3.6" style="fill:var(${SPORT_C[b.e.sport]||"--nuit-muted"})"/>`).join("")}
+  </svg>`;
+  const s=pStart(next), an=analysisFor(next);
+  const when = isDateOnly(next) ? cap(fmt(s,{weekday:"long",day:"numeric",month:"long"})) : cap(fmt(s,{weekday:"long",day:"numeric",month:"long"}))+", "+hm(s);
+  const acts = [
+    `<a class="btn-n solid" href="${esc(calHref(next))}" ${window.RADAR_PWA?"":'target="_blank" rel="noopener"'}>${ICONS.cal}${esc(t.addCal)}</a>`,
+    an?`<button class="btn-n" data-open="an" data-k="${esc(an.id)}">${ICONS.spark}${esc(t.readAn)}</button>`:"",
+    next.video&&next.video.url?`<a class="btn-n" href="${esc(next.video.url)}" target="_blank" rel="noopener">${ICONS.play}${esc(t.vid[next.video.kind]||t.vid.promo)}</a>`:""
+  ].join("");
+  const list = week.slice(0,4).map(e=>{ const d=pStart(e);
+    const tt = isDateOnly(e) ? cap(fmt(d,{weekday:"short",day:"numeric"})) : cap(fmt(d,{weekday:"short"}))+" "+hm(d);
+    return `<li><button data-go="agenda"><span class="t">${esc(tt)}</span><span class="dot" style="--c:var(${SPORT_C[e.sport]||"--nuit-muted"})"></span><span class="nm">${esc(tx(e,"title"))}</span></button></li>`; }).join("");
+  return `<section class="radar" aria-label="${esc(t.next)}">
+    <div class="radar-top">${svg}
+      <div class="min"><div class="cd-lab">${esc(t.next)}</div>
+        <div class="cd" id="count" data-start="${s.toISOString()}" data-dateonly="${isDateOnly(next)?1:0}"></div>
+        <div class="kick">${ico(next.sport)}<span class="lab">${esc(sportLabel(next))}</span></div>
+      </div></div>
+    <h2>${esc(tx(next,"title"))}</h2>
+    <p class="when">${esc(when)} · ${esc(tx(next,"comp"))}</p>
+    <div class="radar-act">${acts}</div>
+    ${list?`<ul class="radar-list" aria-label="${esc(t.ed.week)}">${list}</ul>`:""}
+  </section>`;
+}
+function editionStrip(){
+  const t=L(), E=t.ed;
+  if (!seenBaseline) return "";
+  const c = {agenda:unseenResults().length, news:unseenNews().length, reads:unseenReads().length+unseenAnalyses().length, screens:unseenScreens().length};
+  const lab = {agenda:E.results, news:E.news, reads:E.reads, screens:E.films};
+  const any = Object.values(c).some(Boolean);
+  if (!any) return `<div class="edition"><div class="done">✓ ${esc(E.nothing)} ${esc(E.next(hm(nextEdition())))}</div></div>`;
+  return `<div class="edition" aria-label="${esc(E.title)}">${["news","reads","agenda","screens"].filter(k=>c[k]).map(k=>`<button data-go="${k}"><b>${c[k]}</b>${esc(lab[k])}</button>`).join("")}</div>`;
+}
+function newsLead(n){
+  const {label,col,key}=newsLabel(n);
+  return `<button class="lead" data-open="news" data-k="${esc(n.url)}" style="--c:var(${col})">${imgTag(n.image)}
+    <div class="bd"><div class="kick">${ico(key)}<span class="lab">${esc(label)}</span><span class="cmp">${esc(n.source||"")}</span>${newTag(n.url)}</div>
+    <h3>${esc(tx(n,"title"))}</h3><p class="clamp2">${esc(tx(n,"summary"))}</p></div></button>`;
+}
+function newsRow(n, showCat){
+  const {label,col,key}=newsLabel(n);
+  return `<button class="rowlink" data-open="news" data-k="${esc(n.url)}" style="--c:var(${col})"><div class="min">
+    ${showCat?`<div class="kick">${ico(key)}<span class="lab">${esc(label)}</span>${newTag(n.url)}</div>`:(isNew(n.url)?`<div class="kick">${newTag(n.url)}</div>`:"")}
+    <h3 class="clamp3">${esc(tx(n,"title"))}</h3><div class="src">${esc(n.source||"")}, ${esc(shortDate(n.date))}${n.video?` · ▶`:""}</div></div>${thumbBox(n.image,"sq")}</button>`;
+}
+function readRow(x){
+  const t=L(); let label=t.cats[x.cat]||x.cat, col=CAT_C[x.cat]||"--muted";
+  if (x.cat==="sport" && t.sports[x.sport]){ label=t.sports[x.sport]; col=SPORT_C[x.sport]; }
+  const done=readDone.has(x.url), fiche = x.resume || (Array.isArray(x.points)&&x.points.length);
+  return `<button class="rowlink ${done?"done":""}" data-open="read" data-k="${esc(x.url)}" style="--c:var(${col})">${thumbBox(x.image,"sq")}<div class="min">
+    <div class="kick">${ico(x.cat==="sport"&&TI[x.sport]?x.sport:x.cat)}<span class="lab">${esc(label)}</span>${done?"":newTag(x.url)}</div>
+    <h3 class="clamp3">${esc(tx(x,"title"))}</h3>
+    <div class="meta2"><span>${esc(x.source||"")}</span><span>${esc(String(x.minutes||"?"))} ${esc(t.min)}</span>${fiche?`<span class="fiche">${esc(t.ed.fiche)}</span>`:""}${done?`<span>${esc(t.isRead)}</span>`:""}</div></div></button>`;
+}
+function resultRow(ev){
+  return `<button class="rowlink" data-go="agenda" style="--c:var(${SPORT_C[ev.sport]||"--muted"})"><div class="min">
+    <div class="kick">${ico(ev.sport)}<span class="lab">${esc(sportLabel(ev))}</span><span class="cmp">${esc(tx(ev,"comp"))}</span>${newTag(resKey(ev))}</div>
+    <h3>${esc(tx(ev,"title"))}</h3><span class="score">${esc(tx(ev,"result"))}</span></div></button>`;
+}
+function posterCard(x){
+  const t=L(), T=t.scr;
+  const d = x.date ? fmt(new Date(x.date+"T12:00:00"),{day:"numeric",month:"short"}) : "";
+  return `<button class="poster" data-open="scr" data-k="${esc(x.id)}"><div class="art">${imgOk(x.image)?`<img src="${esc(x.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}<span class="plat" style="--pc:${PLAT_C[x.platform]||"#333"}">${esc(x.platform||"")}</span></div>
+    <h3 class="clamp2">${esc(tx(x,"title"))}</h3><small>${esc(x.kind==="serie"?T.serie:T.film)}, ${esc((x.status==="soon"?T.outOn:T.out)+d)}</small></button>`;
+}
+function scrRow(x){
+  const t=L(), T=t.scr;
+  const d = x.date ? fmt(new Date(x.date+"T12:00:00"),{day:"numeric",month:"short"}) : "";
+  return `<button class="rowlink" data-open="scr" data-k="${esc(x.id)}">${thumbBox(x.image,"wide")}<div class="min">
+    ${(x.pick||isNew(scrKey(x)))?`<div class="kick">${x.pick?`<span class="pickmark">${esc(T.pick)}</span>`:""}${newTag(scrKey(x))}</div>`:""}
+    <h3 class="clamp2">${esc(tx(x,"title"))}</h3>
+    <div class="k">${esc(x.platform||"")}, ${esc((x.status==="soon"?T.outOn:T.out)+d)}</div>
+    <div class="k">${esc(x.kind==="serie"?T.serie:T.film)} · ${esc(tx(x,"genre"))}</div></div></button>`;
 }
 
 /* ---------- views ---------- */
 function viewHome(){
-  const t=L(); const evs=upcoming(); const now=new Date();
-  const next = evs.find(e=>e.level>=3 && pStart(e)>now) || evs.find(e=>pStart(e)>now);
-  let html="";
+  const t=L();
+  let html = radarHero();
+  html += editionStrip();
   const brief = state.meta && (state.lang==="ar" ? state.meta.brief_ar : state.meta.brief);
   const BRIEF_K = {sport:"sport",maroc:"maroc",monde:"geo",tech:"tech",culture:"culture","رياضة":"sport","المغرب":"maroc","العالم":"geo","تكنولوجيا":"tech","ثقافة":"culture"};
   const BRIEF_C = {sport:"--foot",maroc:"--maroc",monde:"--geo",tech:"--tech",culture:"--art","رياضة":"--foot","المغرب":"--maroc","العالم":"--geo","تكنولوجيا":"--tech","ثقافة":"--art"};
-  const briefHtml = (Array.isArray(brief) && brief.length) ? `<section class="brief"><div class="brief-h"><h2>${esc(t.briefTitle)}</h2>${state.meta.updatedAt?`<small>${esc(fmt(new Date(state.meta.updatedAt),{hour:"2-digit",minute:"2-digit",hour12:false}))}</small>`:""}</div><ul>${brief.map(x=>{
+  if (Array.isArray(brief) && brief.length){
+    html += `<section class="sec"><div class="sec-h"><h2>${esc(t.briefTitle)}</h2></div><div class="brief"><ul>${brief.map(x=>{
       const m=String(x).match(/^\s*([^:：]{2,16})\s*[:：]\s*(.+)$/s);
-      const lab=m?m[1].trim():"", raw=m?m[2]:String(x), txt=raw.charAt(0).toUpperCase()+raw.slice(1), key=lab.toLowerCase();
-      return `<li style="--c:var(${BRIEF_C[key]||BRIEF_C[lab]||"--accent"})"><span class="tag">${ico(BRIEF_K[key]||BRIEF_K[lab])}${esc(lab)}</span><p>${esc(txt)}</p></li>`;
-    }).join("")}</ul></section>` : "";
-  if (next){
-    const c=SPORT_C[next.sport]||"--accent";
-    html += `<section class="next" style="--c:var(${c})" aria-live="polite">
-      <div class="next-count" id="count" data-start="${pStart(next).toISOString()}" data-dateonly="${isDateOnly(next)?1:0}"></div>
-      <div class="min">
-        <div class="lbl" style="display:flex;align-items:center;gap:6px">${ico(next.sport)}<span>${esc(t.next)} · ${esc(t.sports[next.sport]||"")}</span></div>
-        <h3>${esc(tx(next,"title"))}</h3>
-        <p>${esc(tx(next,"comp"))} · ${esc(tx(next,"place"))}</p>
-        <p class="when">${esc(isDateOnly(next) ? fmt(pStart(next),{weekday:"long",day:"numeric",month:"long"}) : fmt(pStart(next),{weekday:"long",day:"numeric",month:"long",hour:"2-digit",minute:"2-digit",hour12:false}))}</p>
-      </div>
-    </section>`;
+      const lab=m?m[1].trim():"", raw=m?m[2]:String(x), key=lab.toLowerCase();
+      return `<li style="--c:var(${BRIEF_C[key]||BRIEF_C[lab]||"--accent"})">${lab?`<span class="lab">${ico(BRIEF_K[key]||BRIEF_K[lab])}${esc(lab)}</span>`:""}<p>${esc(cap(raw))}</p></li>`;
+    }).join("")}</ul></div></section>`;
   }
-  html += briefHtml;
-  if (seenBaseline){
-    const nN=unseenNews().length, nR=unseenReads().length, nX=unseenResults().length;
-    html += `<section class="since">${(nN||nR||nX) ? `<h2>${esc(t.sinceTitle)}</h2><div class="since-row">${nX?`<button data-go="agenda"><b>${nX}</b>${esc(t.sinceRes)}</button>`:""}${nN?`<button data-go="news"><b>${nN}</b>${esc(t.sinceNews)}</button>`:""}${nR?`<button data-go="reads"><b>${nR}</b>${esc(t.sinceReads)}</button>`:""}</div>` : `<p>✓ ${esc(t.upToDate)}</p>`}</section>`;
-  }
-  const anTop = analysesList()[0];
-  if (anTop) html += `<section class="sec"><div class="sec-h"><h2>${esc(t.analysisOfDay)}</h2><button class="link" data-go="reads">${esc(t.analyses)}</button></div>${anCard(anTop)}</section>`;
-  const week = evs.filter(e=>e!==next && e.level>=3).slice(0,5);
-  const resNow = recentResults().slice(0,3);
-  html += `<section class="sec"><div class="sec-h"><h2>${esc(t.week)}</h2><button class="link" data-go="agenda">${esc(t.seeAgenda)}</button></div>`;
-  html += week.length ? `<div class="list">${week.map(eventRow).join("")}</div>` : `<div class="empty">${esc(t.weekEmpty)}</div>`;
-  html += `</section>`;
-  if (resNow.length) html += `<section class="sec"><div class="sec-h"><h2>${esc(t.results)}</h2></div><div class="list">${resNow.map(eventRow).join("")}</div></section>`;
-  const vids = [
-    ...recentResults().filter(e=>e.video).map(e=>({v:e.video,title:tx(e,"title")+(e.result?" · "+tx(e,"result"):""),sub:tx(e,"comp")})),
-    ...(state.news||[]).filter(n=>n.video&&catOn(n.cat)).sort(byDate).map(n=>({v:n.video,title:tx(n,"title"),sub:n.source||""})),
-    ...upcoming().filter(e=>e.video).map(e=>({v:e.video,title:tx(e,"title"),sub:tx(e,"comp")}))
-  ].slice(0,6);
-  if (vids.length) html += `<section class="sec"><div class="sec-h"><h2>${esc(t.toWatch)}</h2></div><div class="videos">${vids.map(x=>`<div class="vcard">${videoBlock(x.v)}<b>${esc(x.title)}</b><small>${esc(x.sub)}</small></div>`).join("")}</div></section>`;
-  const scrPicks = catOn("cinema") ? screenItems().filter(x=>x.pick).slice(0,5) : [];
-  if (scrPicks.length) html += `<section class="sec"><div class="sec-h"><h2>${esc(t.scr.home)}</h2><button class="link" data-go="screens">${esc(t.scr.seeAll)}</button></div><div class="scr-rail">${scrPicks.map(scrCard).join("")}</div></section>`;
-  const tonight = readsList().filter(x=>!readDone.has(x.url)).slice(0,2);
-  if (tonight.length){
-    html += `<section class="sec"><div class="sec-h"><h2>${esc(t.readTonight)}</h2><button class="link" data-go="reads">${esc(t.seeReads)}</button></div><div class="reads" style="margin-top:0">${tonight.map(readCard).join("")}</div></section>`;
-  }
+  const res = recentResults().slice(0,3);
+  if (res.length) html += `<section class="sec"><div class="sec-h"><h2>${esc(t.results)}</h2><button class="link" data-go="agenda">${esc(t.seeAgenda)}</button></div><div class="group">${res.map(resultRow).join("")}</div></section>`;
   const cats = Object.keys(CAT_C).filter(catOn);
   const heads = cats.map(c=>newsFor(c)[0]).filter(Boolean);
   if (heads.length){
-    html += `<section class="sec"><div class="sec-h"><h2>${esc(t.headlines)}</h2><button class="link" data-go="news">${esc(t.seeNews)}</button></div><div class="digest">`;
-    html += heads.map(n=>{ const {col}=newsLabel(n); return `<a class="${imgOk(n.image)?"has-img":""}" href="${esc(n.url)}" target="_blank" rel="noopener" style="--c:var(${CAT_C[n.cat]})"><span><span class="tag">${ico(n.cat)}${esc(t.cats[n.cat])}</span><b>${esc(tx(n,"title"))}</b></span>${thumb(n.image)}</a>`; }).join("");
-    html += `</div></section>`;
+    const leadI = Math.max(0, heads.findIndex(n=>imgOk(n.image)));
+    const lead = heads[leadI], rest = heads.filter((_,i)=>i!==leadI);
+    html += `<section class="sec"><div class="sec-h"><h2>${esc(t.headlines)}</h2><button class="link" data-go="news">${esc(t.seeNews)}</button></div>${newsLead(lead)}${rest.length?`<div class="group">${rest.map(n=>newsRow(n,true)).join("")}</div>`:""}</section>`;
   }
+  const an = analysesList()[0];
+  const tonight = readsList().filter(x=>!readDone.has(x.url)).slice(0,3);
+  if (an || tonight.length){
+    html += `<section class="sec"><div class="sec-h"><h2>${esc(t.readTonight)}</h2><button class="link" data-go="reads">${esc(t.seeReads)}</button></div>${an?anCard(an):""}${tonight.length?`<div class="group rd" style="margin-top:${an?10:0}px">${tonight.map(readRow).join("")}</div>`:""}</section>`;
+  }
+  const picks = catOn("cinema") ? screenItems().filter(x=>x.pick).slice(0,6) : [];
+  if (picks.length) html += `<section class="sec"><div class="sec-h"><h2>${esc(t.scr.home)}</h2><button class="link" data-go="screens">${esc(t.scr.seeAll)}</button></div><div class="rail">${picks.map(posterCard).join("")}</div></section>`;
+  html += `<div class="fin">${RADAR_GLYPH}<b>${esc(t.ed.end)}</b><span>${esc(t.ed.endSub(hm(nextEdition())))}</span></div>`;
   return html;
 }
 function viewAgenda(){
@@ -824,34 +934,35 @@ function viewAgenda(){
   let past = recentResults();
   if (state.sportFilter==="fav") past=past.filter(e=>stars.has(e.id)); else if (state.sportFilter!=="all") past=past.filter(e=>e.sport===state.sportFilter);
   if (!evs.length && !past.length) return `<div class="empty">${esc(state.sportFilter==="fav"?t.favEmpty:t.noEvents)}</div>`;
-  const live = evs.filter(e=>pStart(e)<=now);
+  const liveEv = evs.filter(e=>pStart(e)<=now);
   const groups=new Map();
   evs.filter(e=>pStart(e)>now).forEach(e=>{const k=dayKey(pStart(e)); if(!groups.has(k)) groups.set(k,[]); groups.get(k).push(e);});
   let html="";
-  if (past.length) html += `<section class="day"><div class="dayhead"><b>${esc(t.results)}</b></div><div class="list">${past.map(eventRow).join("")}</div></section>`;
-  if (live.length) html += `<section class="day"><div class="dayhead"><b>${esc(t.now)}</b><small class="soon">${esc(t.live)}</small></div><div class="list">${live.map(eventRow).join("")}</div></section>`;
+  if (past.length) html += `<section class="day"><div class="dayhead"><b>${esc(t.results)}</b></div><div class="group">${past.map(eventRow).join("")}</div></section>`;
+  if (liveEv.length) html += `<section class="day"><div class="dayhead"><b>${esc(t.now)}</b><small class="soon">${esc(t.live)}</small></div><div class="group">${liveEv.map(eventRow).join("")}</div></section>`;
   for (const [,list] of groups){ const d=pStart(list[0]), r=rel(d);
-    html += `<section class="day"><div class="dayhead"><b>${esc(fmt(d,{weekday:"long",day:"numeric",month:"long"}))}</b><small class="${r.soon?"soon":""}">${esc(r.t)}</small></div><div class="list">${list.map(eventRow).join("")}</div></section>`; }
-  html += `<div class="legend">${t.legend.map(x=>`<span>${esc(x)}</span>`).join("")}</div>`;
+    html += `<section class="day"><div class="dayhead"><b>${esc(fmt(d,{weekday:"long",day:"numeric",month:"long"}))}</b><small class="${r.soon?"soon":""}">${esc(r.t)}</small></div><div class="group">${list.map(eventRow).join("")}</div></section>`; }
+  html += `<p class="note">${esc(t.agendaNote)}</p>`;
   return html;
 }
 function viewNews(){
   const t=L();
-  const un=unseenNews().length;
-  const bar = un ? `<div class="toolbar"><button class="link" data-seenall="news">${esc(t.markAllSeen)}</button></div>` : "";
   if (state.catFilter!=="all"){
     const items=newsFor(state.catFilter);
-    return items.length ? `${bar}<div class="news" style="margin-top:8px">${items.map(newsCard).join("")}</div>` : `<div class="empty">${esc(t.noNews)}</div>`;
+    if (!items.length) return `<div class="empty">${esc(t.noNews)}</div>`;
+    const li = Math.max(0, items.findIndex(n=>imgOk(n.image)));
+    const rest = items.filter((_,i)=>i!==li);
+    return `<div style="margin-top:14px">${newsLead(items[li])}${rest.length?`<div class="group">${rest.map(n=>newsRow(n,false)).join("")}</div>`:""}</div>`;
   }
   const cats=Object.keys(CAT_C).filter(catOn);
-  const blocks = cats.map(c=>{ const items=newsFor(c); if(!items.length) return "";
+  const blocks = cats.map((c,ci)=>{ const items=newsFor(c); if(!items.length) return "";
     const fresh=items.filter(n=>isNew(n.url)), old=items.filter(n=>!isNew(n.url));
-    const shown=[...fresh, ...old].slice(0, Math.max(3, fresh.length));
-    return `<section class="topic" style="--c:var(${CAT_C[c]})">
-      <div class="topic-h"><div class="meta">${ico(c)}${esc(t.cats[c])}${fresh.length?` <span class="new">${esc(t.nNew(fresh.length))}</span>`:""}</div>${items.length>shown.length?`<button class="link" data-cat="${c}">${esc(t.seeAll(items.length))}</button>`:""}</div>
-      ${shown.map(n=>`<a class="${imgOk(n.image)?"has-img":""}" href="${esc(n.url)}" target="_blank" rel="noopener"><span><b>${!isNew(n.url)?"":`<span class="new" data-seen="${esc(n.url)}">${esc(t.newTag)}</span> `}${esc(tx(n,"title"))}${n.video?` <span style="color:var(--accent)">▶</span>`:""}</b><small>${esc(n.source||"")} · ${esc(shortDate(n.date))}</small></span>${thumb(n.image)}</a>`).join("")}
-    </section>`; }).join("");
-  return blocks ? `${bar}<div style="margin-top:8px">${blocks}</div>` : `<div class="empty">${esc(t.noNews)}</div>`;
+    const shown=[...fresh, ...old].slice(0, Math.max(4, fresh.length));
+    const li = ci===0 ? Math.max(0, shown.findIndex(n=>imgOk(n.image))) : -1;
+    const rows = shown.filter((_,i)=>i!==li);
+    return `<section class="sec" style="--c:var(${CAT_C[c]})${ci===0?";margin-top:14px":""}"><div class="sec-h"><h2 style="display:flex;align-items:center;gap:8px">${ico(c)}${esc(t.cats[c])}</h2>${items.length>shown.length?`<button class="link" data-cat="${c}">${esc(t.seeAll(items.length))}</button>`:(fresh.length?`<small>${esc(t.nNew(fresh.length))}</small>`:"")}</div>
+      ${li>=0?newsLead(shown[li]):""}${rows.length?`<div class="group">${rows.map(n=>newsRow(n,false)).join("")}</div>`:""}</section>`; }).join("");
+  return blocks || `<div class="empty">${esc(t.noNews)}</div>`;
 }
 function viewSettings(){
   const t=L();
@@ -885,7 +996,7 @@ function bind(){
   m.querySelectorAll("[data-open]").forEach(b=>b.onclick=(e)=>{ e.preventDefault(); openDetail(b.dataset.open,b.dataset.k); });
   m.querySelectorAll("[data-seenall]").forEach(b=>b.onclick=()=>{ (b.dataset.seenall==="news"?unseenNews():unseenReads()).forEach(x=>seen.add(x.url)); if(b.dataset.seenall==="reads") unseenAnalyses().forEach(a=>seen.add(anKey(a))); store.set("radar-seen",[...seen].slice(-2000)); render(); });
   m.querySelectorAll("[data-list]").forEach(b=>b.onclick=()=>{ const id=b.dataset.list; myList.has(id)?myList.delete(id):myList.add(id); store.set("radar-mylist",[...myList]); render(); });
-  m.querySelectorAll("[data-star]").forEach(b=>b.onclick=()=>{ const id=b.dataset.star; stars.has(id)?stars.delete(id):stars.add(id); store.set("radar-stars",[...stars]); render(); });
+  m.querySelectorAll("[data-star]").forEach(b=>b.onclick=(e)=>{ e.preventDefault(); e.stopPropagation(); const id=b.dataset.star; stars.has(id)?stars.delete(id):stars.add(id); store.set("radar-stars",[...stars]); render(); });
   m.querySelectorAll("[data-read]").forEach(b=>b.onclick=()=>{ const u=b.dataset.read; readDone.has(u)?readDone.delete(u):readDone.add(u); store.set("radar-read",[...readDone].slice(-300)); render(); });
   m.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>{ if(b.dataset.go==="news") state.catFilter="all"; go(b.dataset.go); });
   m.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>go("news",{cat:b.dataset.cat}));
@@ -895,16 +1006,16 @@ function bind(){
 }
 function tick(){
   const el=document.getElementById("count"); if(!el) return;
-  const t=L(), start=new Date(el.dataset.start), now=new Date();
+  const t=L(), C=t.cd, start=new Date(el.dataset.start), now=new Date();
   let ms=start-now;
-  if (ms<=0){ el.innerHTML=`<b>●</b><span>${esc(t.started)}</span>`; return; }
+  if (ms<=0){ el.textContent=t.started; return; }
   if (el.dataset.dateonly==="1"){
     const n=Math.round((sod(start)-sod(now))/864e5);
-    el.innerHTML = n<=0 ? `<b>0</b><span>${esc(t.todayShort)}</span>` : `<b>${n}</b><span>${esc(n===1?t.day1:t.days)}</span>`;
+    el.innerHTML = n<=0 ? esc(C.today) : `${n}<small>${esc(C.d)}</small>`;
     return;
   }
   const d=Math.floor(ms/864e5); ms-=d*864e5; const h=Math.floor(ms/36e5); ms-=h*36e5; const mi=Math.floor(ms/6e4);
-  el.innerHTML = d>=1 ? `<b>${d}</b><span>${esc(d===1?t.day1:t.days)} · ${h}${esc(t.hours)}</span>` : `<b>${h}:${String(mi).padStart(2,"0")}</b><span>${esc(t.before)}</span>`;
+  el.innerHTML = d>=1 ? `${d}<small>${esc(C.d)}</small>${h}<small>${esc(C.h)}</small>` : `${h}<small>${esc(C.h)}</small>${String(mi).padStart(2,"0")}<small>${esc(C.m)}</small>`;
 }
 setInterval(tick, 30000);
 
