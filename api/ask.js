@@ -1,9 +1,11 @@
-// Radar — chat « Demander à Claude » pour la version Vercel.
-// Variables d'environnement Vercel :
-//   ANTHROPIC_API_KEY (obligatoire) : clé de l'API Claude (console.anthropic.com)
-//   RADAR_CODE        (conseillé)   : code secret demandé une fois dans l'app, pour que personne d'autre n'utilise ta clé
-//   ANTHROPIC_MODEL   (optionnel)   : modèle à utiliser (par défaut claude-haiku-4-5, rapide et économique)
+// Radar — chat pour la version Vercel (DeepSeek ou Claude).
+// Vercel > Settings > Environment Variables :
+//   DEEPSEEK_API_KEY : clé DeepSeek (platform.deepseek.com)
+//   RADAR_CODE       : code secret demandé une fois dans l'app
+//   DEEPSEEK_MODEL   : optionnel (par défaut deepseek-flash)
 const MODEL = process.env.ANTHROPIC_MODEL || "claude-haiku-4-5";
+const DS_MODEL = process.env.DEEPSEEK_MODEL || "deepseek-flash";
+const PROVIDER = process.env.DEEPSEEK_API_KEY ? "deepseek" : (process.env.ANTHROPIC_API_KEY ? "claude" : "");
 const MAX_CHARS = 60000;
 
 function readBody(req) {
@@ -18,10 +20,10 @@ function readBody(req) {
 
 module.exports = async function handler(req, res) {
   res.setHeader("Cache-Control", "no-store");
-  const hasKey = !!process.env.ANTHROPIC_API_KEY;
+  const hasKey = !!PROVIDER;
   if (req.method === "GET") {
     res.setHeader("Content-Type", "application/json");
-    return res.status(200).end(JSON.stringify({ ok: hasKey, needsCode: !!process.env.RADAR_CODE }));
+    return res.status(200).end(JSON.stringify({ ok: hasKey, provider: PROVIDER, needsCode: !!process.env.RADAR_CODE }));
   }
   if (req.method !== "POST") return res.status(405).end();
   if (!hasKey) return res.status(503).end("missing key");
@@ -39,15 +41,17 @@ module.exports = async function handler(req, res) {
 
   let up;
   try {
-    up = await fetch("https://api.anthropic.com/v1/messages", {
-      method: "POST",
-      headers: {
-        "content-type": "application/json",
-        "x-api-key": process.env.ANTHROPIC_API_KEY,
-        "anthropic-version": "2023-06-01"
-      },
-      body: JSON.stringify({ model: MODEL, max_tokens: 900, stream: true, messages })
-    });
+    up = PROVIDER === "deepseek"
+      ? await fetch("https://api.deepseek.com/chat/completions", {
+          method: "POST",
+          headers: { "content-type": "application/json", "authorization": "Bearer " + process.env.DEEPSEEK_API_KEY },
+          body: JSON.stringify({ model: DS_MODEL, max_tokens: 900, stream: true, messages })
+        })
+      : await fetch("https://api.anthropic.com/v1/messages", {
+          method: "POST",
+          headers: { "content-type": "application/json", "x-api-key": process.env.ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01" },
+          body: JSON.stringify({ model: MODEL, max_tokens: 900, stream: true, messages })
+        });
   } catch (e) { return res.status(502).end("upstream"); }
   if (up.status === 429) return res.status(429).end("rate limited");
   if (!up.ok || !up.body) return res.status(502).end("upstream " + up.status);
@@ -66,8 +70,10 @@ module.exports = async function handler(req, res) {
       while ((i = buf.indexOf("\n")) >= 0) {
         const line = buf.slice(0, i).trim(); buf = buf.slice(i + 1);
         if (!line.startsWith("data:")) continue;
-        let ev; try { ev = JSON.parse(line.slice(5)); } catch (e) { continue; }
+        const data = line.slice(5).trim(); if (data === "[DONE]") continue;
+        let ev; try { ev = JSON.parse(data); } catch (e) { continue; }
         if (ev.type === "content_block_delta" && ev.delta && ev.delta.type === "text_delta") res.write(ev.delta.text);
+        else if (ev.choices && ev.choices[0] && ev.choices[0].delta && typeof ev.choices[0].delta.content === "string") res.write(ev.choices[0].delta.content);
         else if (ev.type === "error") res.write("\u0000ERR");
       }
     }
