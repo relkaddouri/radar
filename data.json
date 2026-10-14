@@ -1019,7 +1019,7 @@
  ],
  "news": [
   {
-   "cat": "tech",
+   "cat": "ia",
    "date": "2026-10-12",
    "source": "TechCrunch",
    "summary": "Le laboratoire IA de Meta présente Muse Wonder et une version plus puissante. Selon Meta, ils égalent les meilleurs modèles du marché et se distinguent par leur mémoire active.",
@@ -1030,7 +1030,7 @@
    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-12-at-1.09.43-PM.jpg?resize=1200,676"
   },
   {
-   "cat": "tech",
+   "cat": "ia",
    "date": "2026-10-13",
    "source": "TechCrunch",
    "summary": "Entre procès, contrôles et manque de revenus, l'entreprise se met sous protection. Elle vend une licence de sa technologie à Disney et pourrait fermer sans repreneur.",
@@ -1052,7 +1052,7 @@
    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Apple-HomeView-lineup-261013_Full-Bleed-Image.jpg.large_2x.jpg?w=1200"
   },
   {
-   "cat": "tech",
+   "cat": "ia",
    "date": "2026-10-13",
    "source": "TechCrunch",
    "summary": "La société d'IA liée à SpaceX lance une formule à cinq niveaux, de gratuit à 200 $ par mois. Plus le niveau est haut, plus l'usage de l'IA est large.",
@@ -1074,7 +1074,7 @@
    "image": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2269268389.jpg?resize=1200,800"
   },
   {
-   "cat": "tech",
+   "cat": "ia",
    "date": "2026-10-09",
    "source": "TechCrunch",
    "summary": "Pendant des tests, des agents IA ont exploité des failles de sites web. L'entreprise suspend leur accès à internet le temps de mieux les surveiller.",
@@ -1085,7 +1085,7 @@
    "image": "https://techcrunch.com/wp-content/uploads/2026/08/Claude-AI-app.jpg?resize=1200,842"
   },
   {
-   "cat": "tech",
+   "cat": "ia",
    "date": "2026-10-08",
    "source": "TechCrunch",
    "summary": "Google AI Edge Foresight transcrit les réunions avec une IA qui tourne sur l'ordinateur, et un assistant répond aux questions sur les notes.",
@@ -1317,7 +1317,7 @@
    "image": "https://sport.le360.ma/resizer/v2/22DDHXUVPBAONILRKEO4OWDAA4.jpg?auth=df55980c37a3ca14f8b192a334aa9a3075a464652955e51b7840cef20e8e2c99&smart=true&width=1200&height=630"
   },
   {
-   "cat": "enfant",
+   "cat": "divers",
    "date": "2026-09-23",
    "source": "SRCD",
    "summary": "Une étude sur 79 enfants montre qu'à partir de 24 mois ils retiennent des mots entendus dans les conversations des adultes.",
@@ -1325,10 +1325,11 @@
    "title": "Vers 2 ans, les enfants apprennent aussi des mots en écoutant les adultes parler entre eux",
    "title_ar": "في سن الثانية تقريباً، يتعلم الأطفال كلمات أيضاً من الاستماع إلى حديث الكبار فيما بينهم",
    "url": "https://www.srcd.org/news/new-study-shows-dynamic-side-language-development-toddlers",
-   "image": "https://www.srcd.org/sites/default/files/images/Press%20Release_181_26.png"
+   "image": "https://www.srcd.org/sites/default/files/images/Press%20Release_181_26.png",
+   "sub": "enfant"
   },
   {
-   "cat": "enfant",
+   "cat": "divers",
    "date": "2026-10-06",
    "source": "Northwestern University",
    "summary": "Chez 49 enfants de 2 à 3 ans et demi, le cerveau réagit plus fort au jeu et à la lecture avec un parent qu'à un film regardé ensemble.",
@@ -1336,10 +1337,11 @@
    "title": "Le cerveau des tout-petits est plus actif en jouant ou en lisant que devant un film",
    "title_ar": "دماغ الطفل الصغير أكثر نشاطاً أثناء اللعب أو القراءة منه أمام فيلم",
    "url": "https://news.northwestern.edu/stories/2026/10/children-brain-engagement?fj=1",
-   "image": "https://news.northwestern.edu/assets/Stories/2026/10/play1940__FocusFillMaxWyIwLjAwIiwiMC4wMCIsMTIwMCw2MzBd.jpg"
+   "image": "https://news.northwestern.edu/assets/Stories/2026/10/play1940__FocusFillMaxWyIwLjAwIiwiMC4wMCIsMTIwMCw2MzBd.jpg",
+   "sub": "enfant"
   },
   {
-   "cat": "enfant",
+   "cat": "divers",
    "date": "2026-10-08",
    "source": "EurekAlert!",
    "summary": "Une étude sur 465 jeunes relie l'attitude des parents à 3 ans à une meilleure réponse du cerveau au plaisir entre 9 et 18 ans.",
@@ -1347,20 +1349,22 @@
    "title": "Un parentage chaleureux vers 3 ans aide l'enfant à mieux ressentir la joie plus tard",
    "title_ar": "التربية الدافئة في سن الثالثة تساعد الطفل لاحقاً على الإحساس بالفرح بشكل أفضل",
    "url": "https://www.eurekalert.org/news-releases/1147080",
-   "image": "https://mediasvc.eurekalert.org/Api/v1/Multimedia/e9e5f940-16c2-462e-b9d3-90a6361f0d40/Rendition/thumbnail/Content/Public"
+   "image": "https://mediasvc.eurekalert.org/Api/v1/Multimedia/e9e5f940-16c2-462e-b9d3-90a6361f0d40/Rendition/thumbnail/Content/Public",
+   "sub": "enfant"
   },
   {
-   "cat": "enfant",
+   "cat": "divers",
    "date": "2026-10-06",
    "source": "EurekAlert!",
    "summary": "Les bébés s'attendent à ce que deux personnes qui partagent de la nourriture s'entraident plus. Un signe précoce de compréhension des liens sociaux.",
    "summary_ar": "يتوقع الرضّع أن يتعاون شخصان يتقاسمان الطعام أكثر من غيرهما. وهي علامة مبكرة على فهم الروابط الاجتماعية.",
    "title": "Dès 4 mois, les bébés devinent qui est proche de qui",
    "title_ar": "منذ الشهر الرابع، يخمّن الرضّع من هو قريب ممن",
-   "url": "https://www.eurekalert.org/news-releases/1146751"
+   "url": "https://www.eurekalert.org/news-releases/1146751",
+   "sub": "enfant"
   },
   {
-   "cat": "enfant",
+   "cat": "divers",
    "date": "2026-09-30",
    "source": "Hoodline (JAMA Pediatrics)",
    "summary": "Une grande synthèse sur 2,8 millions d'enfants associe plus d'écran à moins de langage et plus de difficultés émotionnelles, sans prouver une cause directe.",
@@ -1368,10 +1372,11 @@
    "title": "Trop d'écrans est lié à un langage plus faible chez l'enfant",
    "title_ar": "الإفراط في الشاشات مرتبط بلغة أضعف لدى الطفل",
    "url": "https://hoodline.com/2026/09/massive-study-of-2-8-million-kids-ties-screen-time-to-worse-grades-more-anxiety/",
-   "image": "https://img.hoodline.com/2026/9/massive-study-of-2-8-million-kids-ties-screen-time-to-worse-grades-more-anxiety.webp"
+   "image": "https://img.hoodline.com/2026/9/massive-study-of-2-8-million-kids-ties-screen-time-to-worse-grades-more-anxiety.webp",
+   "sub": "enfant"
   },
   {
-   "cat": "enfant",
+   "cat": "divers",
    "date": "2026-09-29",
    "source": "ScienceDaily",
    "summary": "Une étude suivant 242 enfants sur deux ans observe ce lien quand la mère a un passé de dépression.",
@@ -1379,10 +1384,11 @@
    "title": "Les enfants à risque de dépression regardent plus longtemps les visages tristes",
    "title_ar": "الأطفال المعرّضون لخطر الاكتئاب ينظرون مدة أطول إلى الوجوه الحزينة",
    "url": "https://www.sciencedaily.com/releases/2026/09/260927225022.htm",
-   "image": "https://www.sciencedaily.com/images/1920/happy-vs-sad-faces-girl.webp"
+   "image": "https://www.sciencedaily.com/images/1920/happy-vs-sad-faces-girl.webp",
+   "sub": "enfant"
   },
   {
-   "cat": "montessori",
+   "cat": "divers",
    "date": "2026-09-28",
    "source": "AMS",
    "summary": "Les grandes associations Montessori travaillent ensemble. Une première partie sera gratuite fin 2026 pour écoles et familles.",
@@ -1390,10 +1396,11 @@
    "title": "Les États-Unis préparent un programme Montessori national pour les 0-6 ans",
    "title_ar": "الولايات المتحدة تُعدّ برنامجاً وطنياً لمونتيسوري للأطفال من 0 إلى 6 سنوات",
    "url": "https://amshq.org/blog/news/new-us-national-montessori-curriculum-announced/",
-   "image": "https://amshq.org/wp-content/uploads/2026/09/national-launch-photo.jpg"
+   "image": "https://amshq.org/wp-content/uploads/2026/09/national-launch-photo.jpg",
+   "sub": "montessori"
   },
   {
-   "cat": "montessori",
+   "cat": "divers",
    "date": "2026-09-15",
    "source": "AMS",
    "summary": "Tout le monde peut utiliser ce nom. La qualité dépend de la formation, de l'accréditation et des contrôles.",
@@ -1401,10 +1408,11 @@
    "title": "Que garantit vraiment le nom « Montessori » ?",
    "title_ar": "ماذا يضمن اسم «مونتيسوري» فعلاً؟",
    "url": "https://amshq.org/blog/news/what-stands-behind-the-montessori-name/",
-   "image": "https://amshq.org/wp-content/uploads/2026/09/Montessori-Name_amshq.png"
+   "image": "https://amshq.org/wp-content/uploads/2026/09/Montessori-Name_amshq.png",
+   "sub": "montessori"
   },
   {
-   "cat": "montessori",
+   "cat": "divers",
    "date": "2026-09-24",
    "source": "Montessori.fr",
    "summary": "Les images produites par l'IA contiennent beaucoup d'erreurs. Le matériel conçu par des éducateurs reste plus fiable.",
@@ -1412,10 +1420,11 @@
    "title": "L'IA peut-elle créer du matériel Montessori ? Le test de l'alphabet mobile",
    "title_ar": "هل يستطيع الذكاء الاصطناعي إنتاج أدوات مونتيسوري؟ اختبار الأبجدية المتحركة",
    "url": "https://blog.montessori.fr/ou-en-sont-les-outils-ia-dans-la-pedagogie-montessori/",
-   "image": "https://blog.montessori.fr/wp-content/uploads/2026/09/ChatGPT-Image-25-aout-2026-13_46_31-1024x683.png"
+   "image": "https://blog.montessori.fr/wp-content/uploads/2026/09/ChatGPT-Image-25-aout-2026-13_46_31-1024x683.png",
+   "sub": "montessori"
   },
   {
-   "cat": "montessori",
+   "cat": "divers",
    "date": "2026-09-14",
    "source": "Montessori Public",
    "summary": "Le Minnesota teste une évaluation par observation en classe, avec une grille de 60 points créée pour les classes Montessori.",
@@ -1423,7 +1432,8 @@
    "title": "Évaluer les enfants par l'observation : un outil Montessori mis en avant",
    "title_ar": "تقييم الأطفال بالملاحظة: أداة من مونتيسوري تحظى بالاهتمام",
    "url": "https://www.montessoripublic.org/2026/09/highlighting-the-power-of-observation-based-assessment/",
-   "image": "https://eadn-wc03-7783607.nxedge.io/wp-content/uploads/2026/09/DERS-screenshot.png"
+   "image": "https://eadn-wc03-7783607.nxedge.io/wp-content/uploads/2026/09/DERS-screenshot.png",
+   "sub": "montessori"
   },
   {
    "cat": "maroc",
@@ -1696,72 +1706,6 @@
    "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit,w_1024/wp-cms-2/2026/09/p-91609602-fcif-new-rules-of-great-design.jpg"
   },
   {
-   "cat": "art",
-   "date": "2026-10-12",
-   "source": "The Art Newspaper",
-   "summary": "L'artiste libanais présente Hold, une installation faite d'instruments sur mesure et de tissus qui produisent des basses. Elle est visible jusqu'en avril 2027.",
-   "summary_ar": "يقدّم الفنان اللبناني عمله Hold، وهو تركيب فني من آلات مصممة خصيصاً وأقمشة تُصدر أصواتاً منخفضة. ويستمر العرض حتى أبريل 2027.",
-   "title": "Tarek Atoui transforme le Turbine Hall de la Tate Modern en grand instrument sonore",
-   "title_ar": "طارق عطوي يحوّل قاعة التوربين في تيت مودرن إلى آلة صوتية ضخمة",
-   "url": "https://www.theartnewspaper.com/2026/10/12/turbine-hall-sound-vessel-artist-tarek-atoui-on-his-tate-modern-commission",
-   "image": "https://cdn.sanity.io/images/cxgd3urn/production/a1270017c8bbac83ad01ccaf41d4db8e3bbe8c6b-5985x3838.jpg?rect=0,124,5985,3591&w=1200&h=720&q=85&fit=crop&auto=format"
-  },
-  {
-   "cat": "art",
-   "date": "2026-10-13",
-   "source": "The Art Newspaper",
-   "summary": "Le peintre pakistanais basé à New York montre 19 toiles peintes sur sept ans, des scènes de fête à des images plus solitaires.",
-   "summary_ar": "يعرض الرسام الباكستاني المقيم في نيويورك تسع عشرة لوحة أنجزها خلال سبع سنوات، من مشاهد احتفالية إلى صور أكثر عزلة.",
-   "title": "Salman Toor présente sa première exposition personnelle en Europe, à la Courtauld",
-   "title_ar": "سلمان طور يقدّم أول معرض فردي له في أوروبا بغاليري كورتولد",
-   "url": "https://theartnewspaper.com/2026/10/13/salman-toor-courtauld-gallery-exhibition-runs-the-emotional-gamut-from-convivial-to-fraught",
-   "image": "https://cdn.sanity.io/images/cxgd3urn/production/f567211f40b63f21c783bc065d0c36587de23b9d-3071x2288.jpg?rect=0,223,3071,1843&w=1200&h=720&q=85&fit=crop&auto=format"
-  },
-  {
-   "cat": "art",
-   "date": "2026-10-13",
-   "source": "The Art Newspaper",
-   "summary": "À Frieze Masters, un parcours organisé par Anke Kempkes montre comment des artistes LGBTQ+ ont marqué l'art moderne du début du 20e siècle aux années 1980.",
-   "summary_ar": "في فريز ماسترز، يعرض مسار نظمته أنكه كيمبكس إسهام فنانين من مجتمع الميم في الفن الحديث من بداية القرن العشرين حتى الثمانينيات.",
-   "title": "Frieze London et Frieze Masters ouvrent du 14 au 18 octobre",
-   "title_ar": "معرضا فريز لندن وفريز ماسترز من 14 إلى 18 أكتوبر",
-   "url": "https://theartnewspaper.com/2026/10/13/frieze-masters-presents-modernism-observed-through-a-queer-lens",
-   "image": "https://cdn.sanity.io/images/cxgd3urn/production/e2aefe44416b8b5573c34b16e2c61518ceffbe44-3071x2044.jpg?rect=0,101,3071,1843&w=1200&h=720&q=85&fit=crop&auto=format"
-  },
-  {
-   "cat": "art",
-   "date": "2026-10-05",
-   "source": "Hypebeast",
-   "summary": "L'ensemble est estimé à plus de 100 millions de dollars, dont environ 40 millions pour Le Baiser de Picasso. La vente aura lieu le 17 novembre.",
-   "summary_ar": "تتجاوز القيمة التقديرية للمجموعة مئة مليون دولار، منها نحو أربعين مليوناً للوحة القبلة لبيكاسو. ويقام المزاد يوم 17 نوفمبر.",
-   "title": "Jeff Koons met en vente chez Christie's neuf tableaux de sa collection, dont un Picasso",
-   "title_ar": "جيف كونز يعرض تسع لوحات من مجموعته الخاصة للبيع في كريستيز",
-   "url": "https://hypebeast.com/2026/10/jeff-koons-personal-art-collection-auction-christies-2026-heroes-lovers",
-   "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F10%2F05%2Fjeff-koons-personal-art-collection-auction-christies-2026-heroes-lovers-tw.jpg?w=1080&cbr=1&q=90&fit=max"
-  },
-  {
-   "cat": "art",
-   "date": "2026-10-13",
-   "source": "Déco Actuelle",
-   "summary": "Du 22 au 25 octobre, la troisième édition d'Art Meets You propose expositions, rencontres et visites d'ateliers entre la médina et Guéliz.",
-   "summary_ar": "من 22 إلى 25 أكتوبر، تقدّم الدورة الثالثة من تظاهرة Art Meets You معارض ولقاءات وزيارات لمراسم الفنانين بين المدينة القديمة وحي جيليز.",
-   "title": "AMY 2026 : quatre jours d'art contemporain à Marrakech, avec le MACAAL",
-   "title_ar": "معرض AMY 2026: أربعة أيام من الفن المعاصر في مراكش بمشاركة متحف MACAAL",
-   "url": "https://www.decoactuelle.ma/amy-art-meets-you-marrakech-celebre-lart-contemporain-du-22-au-25-octobre/",
-   "image": "https://www.decoactuelle.ma/wp-content/uploads/2026/10/Capture-decran-2026-10-13-a-16.03.46-906x1024.png"
-  },
-  {
-   "cat": "art",
-   "date": "2026-10-01",
-   "source": "VH Magazine",
-   "summary": "La sélection compte Al 3aila du photographe Ismail Zaidy et Yves Saint Laurent en scène, jusqu'en janvier 2027, ainsi que la Maison de la Photographie et Dar Bellarj.",
-   "summary_ar": "تشمل القائمة معرض العائلة للمصور إسماعيل زيدي ومعرض إيف سان لوران على الخشبة حتى يناير 2027، إضافة إلى دار التصوير ودار بلارج.",
-   "title": "Marrakech : les expositions à voir cet automne, d'Ismail Zaidy au musée Yves Saint Laurent",
-   "title_ar": "مراكش: معارض لا تفوّت هذا الخريف من إسماعيل زيدي إلى متحف إيف سان لوران",
-   "url": "https://www.vh.ma/actualite-news-express-maroc/marrakech-les-expositions-a-voir-cet-automne/",
-   "image": "https://www.vh.ma/wp-content/uploads/2026/10/marrakech.jpg"
-  },
-  {
    "cat": "cinema",
    "date": "2026-10-13",
    "source": "Morocco World News",
@@ -1864,7 +1808,7 @@
    "image": "https://fr.web.img5.acsta.net/img/59/a0/59a02a8a7011da647d9556b2633c1bc1.jpg"
   },
   {
-   "cat": "montessori",
+   "cat": "divers",
    "date": "2026-10-09",
    "source": "AMS",
    "summary": "Le congrès aura lieu du 11 au 14 mars 2027 à Chicago, avec plus de 140 ateliers. Il réunit éducateurs, directeurs d'école et chercheurs du monde entier.",
@@ -1872,10 +1816,11 @@
    "title": "La Société Montessori américaine ouvre les inscriptions de son grand congrès 2027 à Chicago",
    "title_ar": "الجمعية الأمريكية لمونتيسوري تفتح التسجيل لمؤتمرها الكبير 2027 في شيكاغو",
    "url": "https://amshq.org/blog/news/chicago-is-calling-10-reasons-to-attend-the-montessori-event-2027/",
-   "image": "https://amshq.org/wp-content/uploads/2026/10/TME_2026_Munir-scaled.jpg"
+   "image": "https://amshq.org/wp-content/uploads/2026/10/TME_2026_Munir-scaled.jpg",
+   "sub": "montessori"
   },
   {
-   "cat": "montessori",
+   "cat": "divers",
    "date": "2026-10-10",
    "source": "Montessori Foundation",
    "summary": "Les disputes pendant le jeu font partie de l'apprentissage de la coopération. L'adulte prépare le matériel, pose des questions et n'intervient surtout qu'en cas de danger.",
@@ -1883,7 +1828,190 @@
    "title": "Quand les enfants jouent ensemble : les laisser régler leurs désaccords",
    "title_ar": "عندما يلعب الأطفال معا: دعهم يحلّون خلافاتهم بأنفسهم",
    "url": "https://www.montessori.org/when-friends-and-siblings-play-together-helping-children-share-ideas-solve-problems-and-have-fun-without-constant-adult-direction/",
-   "image": "https://www.montessori.org/wp-content/uploads/2026/10/group-play.webp"
+   "image": "https://www.montessori.org/wp-content/uploads/2026/10/group-play.webp",
+   "sub": "montessori"
+  },
+  {
+   "cat": "ia",
+   "title": "Google Play accueille les applis personnelles créées par IA",
+   "title_ar": "غوغل بلاي يستقبل التطبيقات الشخصية المصنوعة بالذكاء الاصطناعي",
+   "summary": "Les utilisateurs Android peuvent désormais créer une appli avec Google AI Studio et la lancer via Google Play, sans la publier pour le grand public. Le service démarre aux États-Unis, et le partage avec des proches puis la publication publique viendront plus tard.",
+   "summary_ar": "صار بإمكان مستخدمي أندرويد إنشاء تطبيق بواسطة Google AI Studio وتشغيله عبر غوغل بلاي دون نشره للعموم. تبدأ الخدمة في الولايات المتحدة، على أن تأتي لاحقا مشاركة التطبيق مع المقربين ثم نشره للجميع.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+   "date": "2026-10-13",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/PersonalApps_desktop_16x9_Static.png?resize=1200,675"
+  },
+  {
+   "cat": "ia",
+   "title": "Satya Nadella veut un « frein d'urgence » pour les modèles d'IA",
+   "title_ar": "ساتيا ناديلا يطالب بـ«مكابح طوارئ» لنماذج الذكاء الاصطناعي",
+   "summary": "Le patron de Microsoft demande de séparer les modèles du logiciel qui les pilote, de garder des traces lisibles de leurs actions et de pouvoir les arrêter en pleine tâche. Pour lui, il faut partir du principe qu'un modèle peut être compromis et le contenir dès le départ.",
+   "summary_ar": "يدعو رئيس مايكروسوفت إلى فصل النماذج عن البرمجيات التي تديرها، والاحتفاظ بسجلات مقروءة لأفعالها، وإمكانية إيقافها في منتصف المهمة. ويرى أنه يجب افتراض أن النموذج قد يكون مخترقا واحتواؤه منذ البداية.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+   "date": "2026-10-10",
+   "image": "https://techcrunch.com/wp-content/uploads/2023/11/satya-nadella-2_web.png?w=1000"
+  },
+  {
+   "cat": "ia",
+   "title": "Amex encadre les achats faits par des agents IA",
+   "title_ar": "أمريكان إكسبريس تضع إطارا لمشتريات وكلاء الذكاء الاصطناعي",
+   "summary": "American Express présente un système qui enregistre les consignes du client (marchand, budget, préférences) et les fait valider avant qu'un agent IA puisse payer. L'agent reçoit un jeton de preuve à la place du numéro de carte, et Amex espère en faire une norme du secteur.",
+   "summary_ar": "تقدم أمريكان إكسبريس نظاما يسجل تعليمات الزبون (التاجر، الميزانية، التفضيلات) ويطلب موافقته قبل أن يدفع وكيل الذكاء الاصطناعي. ويتسلم الوكيل رمز إثبات بدل رقم البطاقة، وتأمل الشركة أن يصبح ذلك معيارا للقطاع.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+   "date": "2026-10-13",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/amex-GettyImages-171311164.jpg?resize=1200,800"
+  },
+  {
+   "cat": "ia",
+   "title": "Banque mondiale : l'Afrique freinée dans la course à l'IA",
+   "title_ar": "البنك الدولي: إفريقيا متأخرة في سباق الذكاء الاصطناعي",
+   "summary": "Selon la Banque mondiale, l'IA pourrait ajouter jusqu'à 1 000 milliards de dollars au PIB africain d'ici 2035, mais le manque d'accès à Internet et de centres de données limite fortement ce gain. Au Maroc aussi, les entreprises citent l'infrastructure, le manque de compétences et le flou réglementaire.",
+   "summary_ar": "يرى البنك الدولي أن الذكاء الاصطناعي قد يضيف ما يصل إلى ألف مليار دولار إلى الناتج الإفريقي بحلول 2035، لكن ضعف الولوج إلى الإنترنت ومراكز البيانات يحد كثيرا من هذا المكسب. وفي المغرب أيضا تشير المقاولات إلى نقص البنية التحتية والكفاءات وغموض القوانين.",
+   "source": "Hespress",
+   "url": "https://fr.hespress.com/491719-ia-la-bm-alerte-sur-les-retards-numeriques-qui-freinent-lafrique.html",
+   "date": "2026-10-10",
+   "image": "https://f2.hespress.com/wp-content/overlay/2023/09/intelligence-arti.jpg?v2"
+  },
+  {
+   "cat": "eco",
+   "title": "FMI : le Moyen-Orient et l'Asie centrale seule région en recul en 2026",
+   "title_ar": "صندوق النقد: الشرق الأوسط وآسيا الوسطى المنطقة الوحيدة التي ينكمش اقتصادها في 2026",
+   "summary": "Le FMI prévoit un recul de 0,3 % de l'économie de la région en 2026, à cause du blocage prolongé du détroit d'Ormuz : -3,3 % pour l'Arabie saoudite, -15,6 % pour le Qatar, -7,6 % pour l'Iran. Au niveau mondial, la croissance est légèrement relevée à 3,1 %, et l'Afrique subsaharienne devrait progresser de 4,5 %.",
+   "summary_ar": "يتوقع صندوق النقد الدولي انكماش اقتصاد المنطقة بنسبة 0.3% في 2026 بسبب الإغلاق المطوّل لمضيق هرمز: ناقص 3.3% للسعودية وناقص 15.6% لقطر وناقص 7.6% لإيران. أما عالمياً فرُفع توقع النمو قليلاً إلى 3.1%، وينتظر أن تنمو أفريقيا جنوب الصحراء بنسبة 4.5%.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/10/13/middle-east-and-central-asias-economy-to-shrink-in-2026-amid-war-imf-says",
+   "date": "2026-10-13",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/AP26282263915577-1791862001_f17e0c-1791868499.jpg?resize=1200%2C630&quality=80"
+  },
+  {
+   "cat": "eco",
+   "title": "Ormuz : l'Iran menace la navette pétrolière organisée par les États-Unis et les Émirats",
+   "title_ar": "هرمز: إيران تهدد منظومة نقل النفط التي تديرها الولايات المتحدة والإمارات",
+   "summary": "Les Gardiens de la révolution disent viser le système qui transfère le pétrole du Golfe de petits bateaux vers de gros pétroliers ; au moins 15 navires auraient été attaqués en octobre, et seulement 31 bateaux par jour traversaient le détroit fin septembre, contre 138 avant la guerre. Le transport représente désormais 25 à 30 % du coût du brut du Golfe, contre 1 à 3 % avant.",
+   "summary_ar": "يقول الحرس الثوري إنه يستهدف المنظومة التي تنقل نفط الخليج من سفن صغيرة إلى ناقلات كبيرة، وقد تعرضت 15 سفينة على الأقل للاستهداف في أكتوبر، فيما لم يتجاوز عدد السفن العابرة للمضيق 31 سفينة يومياً نهاية سبتمبر مقابل 138 قبل الحرب. وأصبح الشحن يمثل 25 إلى 30% من كلفة نفط الخليج بعد أن كان بين 1 و3%.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/10/12/iran-sets-crosshairs-on-us-uae-oil-shuttle-out-of-strait-of-hormuz",
+   "date": "2026-10-12",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6accd4e81711-1791808744.jpg?resize=1920%2C1440"
+  },
+  {
+   "cat": "eco",
+   "title": "Bourse : Séoul chute de 5,5 % sur la peur d'une bulle des puces IA",
+   "title_ar": "البورصة: مؤشر كوسبي الكوري يهبط 5.5% وسط مخاوف من فقاعة رقائق الذكاء الاصطناعي",
+   "summary": "L'indice coréen Kospi a vécu sa pire journée depuis près de deux mois, car les investisseurs craignent que les actions des fabricants de puces soient montées trop haut, et que le chinois CXMT rattrape les leaders de la mémoire. À Wall Street, le S&P 500 est resté près de son record, alors que le baril de Brent restait au-dessus de 105 dollars.",
+   "summary_ar": "شهد مؤشر كوسبي الكوري أسوأ يوم له منذ قرابة شهرين، إذ يخشى المستثمرون أن تكون أسهم شركات الرقائق قد ارتفعت أكثر من اللازم، وأن تلحق شركة CXMT الصينية بكبار صانعي الذاكرة. وفي وول ستريت بقي مؤشر S&P 500 قرب مستواه القياسي، بينما ظل سعر برميل برنت فوق 105 دولارات.",
+   "source": "AP (via KSAT)",
+   "url": "https://www.ksat.com/news/2026/10/13/south-koreas-kospi-index-sinks-more-than-7-on-semiconductor-share-sell-off-over-ai-boom-worries/",
+   "date": "2026-10-13",
+   "image": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/MINL24ILUVA3JOXXBWEPN5BWWA.jpg?api_key=ksat_9a37fc89631abedf"
+  },
+  {
+   "cat": "eco",
+   "title": "Chine : les exportations de voitures bondissent de 64 % en septembre",
+   "title_ar": "الصين: صادرات السيارات تقفز 64% في سبتمبر",
+   "summary": "Les constructeurs chinois ont exporté environ 919 000 voitures en septembre, surtout des modèles électriques et hybrides, pendant que les ventes en Chine reculaient de 27 %. Ils misent sur l'Europe, l'Amérique latine, l'Asie du Sud-Est et l'Afrique, mais l'Union européenne prépare un quota de 350 000 véhicules par an.",
+   "summary_ar": "صدّرت شركات السيارات الصينية نحو 919 ألف سيارة في سبتمبر، أغلبها كهربائية وهجينة، في حين تراجعت مبيعاتها داخل الصين بنسبة 27%. وتراهن هذه الشركات على أوروبا وأمريكا اللاتينية وجنوب شرق آسيا وأفريقيا، لكن الاتحاد الأوروبي يعدّ حصة سنوية قدرها 350 ألف سيارة.",
+   "source": "AP (via ABC News)",
+   "url": "https://abcnews.com/International/wireStory/chinese-carmakers-increasingly-rely-overseas-markets-september-exports-137187155",
+   "date": "2026-10-12",
+   "image": "https://i.abcnewsfe.com/a/0c1309ee-cf16-4176-bbef-f26d4c3ccbe8/wirestory_0d0bf31b40a68fa75ea6ccf8e9f6467e_16x9.jpg?w=1600"
+  },
+  {
+   "cat": "eco",
+   "title": "États-Unis : Trump ouvre une enquête contre une gouverneure de la Fed",
+   "title_ar": "الولايات المتحدة: ترامب يفتح تحقيقاً ضد عضوة في مجلس الاحتياطي الفيدرالي",
+   "summary": "Un comité de trois membres va examiner si Lisa Cook a fait de fausses déclarations sur des prêts immobiliers, ce qui pourrait justifier son renvoi ; une audition est prévue le 5 novembre. Cette affaire relance le débat sur l'indépendance de la banque centrale, qui a remonté son taux à 3,75-4 % le mois dernier face à l'inflation.",
+   "summary_ar": "ستدرس لجنة من ثلاثة أعضاء ما إذا كانت ليزا كوك قد أدلت بتصريحات خاطئة في ملفات قروض عقارية، بما قد يبرر إقالتها، مع جلسة استماع مقررة في 5 نوفمبر. وتعيد القضية طرح مسألة استقلالية البنك المركزي الذي رفع فائدته إلى ما بين 3.75 و4% الشهر الماضي لمواجهة التضخم.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/10/9/trump-launches-probe-into-federal-reserve-governor-lisa-cook",
+   "date": "2026-10-09",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ac90702-1791559426.jpg?resize=1920%2C1440"
+  },
+  {
+   "cat": "eco",
+   "title": "Carburants : Trump annonce un accord pour importer du diesel russe",
+   "title_ar": "الوقود: ترامب يعلن اتفاقاً لاستيراد الديزل الروسي",
+   "summary": "Selon Trump, la Russie va livrer tout de suite plus de 300 000 tonnes de diesel aux États-Unis, puis d'autres volumes dans les mois suivants. Le prix du diesel américain a grimpé d'environ 70 % depuis le début de la guerre avec l'Iran, et le G7 avait déjà décidé de libérer 100 millions de barils de réserves.",
+   "summary_ar": "بحسب ترامب، ستسلّم روسيا فوراً أكثر من 300 ألف طن من الديزل للولايات المتحدة، ثم كميات أخرى في الأشهر التالية. وقد ارتفع سعر الديزل في أمريكا بنحو 70% منذ بداية الحرب مع إيران، وكانت مجموعة السبع قد قررت ضخ 100 مليون برميل من المخزونات.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices",
+   "date": "2026-10-09",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ac93e42-1791573570.jpg?resize=1920%2C1440"
+  },
+  {
+   "cat": "gaming",
+   "title": "GTA 6 sur PC arriverait avant fin mars 2027",
+   "title_ar": "GTA 6 قد تصل إلى الحاسوب قبل نهاية مارس 2027",
+   "summary": "Selon GamesBeat, qui cite quatre sources du secteur, la version PC de GTA 6 sortirait au premier trimestre 2027, soit au plus quatre mois après la sortie sur PS5 et Xbox Series le 19 novembre. Pour GTA V, les joueurs PC avaient attendu plus d'un an et demi.",
+   "summary_ar": "حسب موقع GamesBeat الذي يستند إلى أربعة مصادر من القطاع، ستصدر نسخة الحاسوب من GTA 6 في الربع الأول من 2027، أي بعد أربعة أشهر على الأكثر من صدورها على PS5 وXbox Series في 19 نوفمبر. وكان لاعبو الحاسوب قد انتظروا أكثر من سنة ونصف للحصول على GTA V.",
+   "source": "Video Games Chronicle",
+   "url": "https://www.videogameschronicle.com/news/the-pc-version-of-grand-theft-auto-6-is-reportedly-coming-before-the-end-of-march-2027/",
+   "date": "2026-10-13",
+   "image": "https://www.videogameschronicle.com/files/2026/08/GTA-6.jpeg",
+   "video": {
+    "url": "https://www.youtube.com/watch?v=VQRLujxTm3c",
+    "id": "VQRLujxTm3c",
+    "kind": "trailer",
+    "channel": "Rockstar Games"
+   }
+  },
+  {
+   "cat": "gaming",
+   "title": "Xbox crée « Xbox Labs » face à la vague des mods et portages faits avec l'IA",
+   "title_ar": "Xbox تُطلق «Xbox Labs» أمام موجة التعديلات والنسخ المصنوعة بالذكاء الاصطناعي",
+   "summary": "La patronne d'Xbox, Asha Sharma, a annoncé une petite équipe menée par le directeur technique Scott Van Vliet pour transformer ces nouvelles pratiques (jeux mélangés, jeux portés sur navigateur ou sur Mac) en outils pour joueurs et créateurs. Xbox promet de travailler en public et de partager ses outils avec le reste de l'industrie.",
+   "summary_ar": "أعلنت رئيسة Xbox آشا شارما عن فريق صغير يقوده المدير التقني سكوت فان فليت لتحويل هذه الممارسات الجديدة (دمج ألعاب، ونقلها إلى المتصفح أو إلى أجهزة ماك) إلى أدوات للاعبين والمطورين. وتعد Xbox بالعمل بشكل علني ومشاركة أدواتها مع باقي القطاع.",
+   "source": "Video Games Chronicle",
+   "url": "https://www.videogameschronicle.com/news/asha-sharma-forms-xbox-labs-in-response-to-explosion-of-ai-powered-mods-and-ports/",
+   "date": "2026-10-13",
+   "image": "https://www.videogameschronicle.com/files/2026/10/oqz1h6oImOzGS4X5.mp4_snapshot_00.15.960.jpg"
+  },
+  {
+   "cat": "gaming",
+   "title": "Castlevania: Belmont's Curse reçoit un 10/10 chez GameSpot",
+   "title_ar": "Castlevania: Belmont's Curse تحصل على 10/10 من GameSpot",
+   "summary": "Le nouveau Castlevania signé Evil Empire, attendu le 15 octobre, est jugé comme le meilleur de la série grâce à des combats avec parade, des déplacements fluides au grappin et un système de cartes de tarot qui relie histoire et progression. Seuls bémols : une héroïne moins marquante que les autres personnages et des combats parfois peu lisibles.",
+   "summary_ar": "تُعتبر لعبة Castlevania الجديدة من استوديو Evil Empire، المنتظرة في 15 أكتوبر، الأفضل في السلسلة بفضل قتال يعتمد على الصد وتنقل سلس بالخطاف ونظام بطاقات تاروت يربط القصة بالتقدم. المآخذ القليلة: بطلة أقل حضورا من باقي الشخصيات ومعارك تصبح أحيانا صعبة القراءة.",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/reviews/castlevania-belmonts-curse-is-the-series-at-its-best/",
+   "date": "2026-10-13",
+   "image": "https://www.gamespot.com/wp-content/uploads/2026/10/ss_6b415b89be320eac7232603e4edaab7b714fab30.1920x1080.jpg"
+  },
+  {
+   "cat": "gaming",
+   "title": "Une PS5 « Midnight Black » annoncée, pour le Japon seulement",
+   "title_ar": "إعلان PS5 «Midnight Black» لليابان فقط",
+   "summary": "Sony sortira le 19 novembre une PS5 Digital Edition toute noire au Japon, à 55 000 yens, avec un lecteur de disque assorti vendu à part. La console est bloquée sur les comptes japonais ; ailleurs, on peut obtenir le même look avec une coque noire vendue 54 dollars.",
+   "summary_ar": "ستطرح Sony في 19 نوفمبر نسخة PS5 Digital Edition سوداء بالكامل في اليابان بسعر 55 ألف ين، مع قارئ أقراص بنفس اللون يُباع منفصلا. الجهاز مقفل على الحسابات اليابانية، أما خارج اليابان فيمكن الحصول على المظهر نفسه بغطاء أسود يُباع بـ54 دولارا.",
+   "source": "Video Games Chronicle",
+   "url": "https://www.videogameschronicle.com/news/sony-has-announced-a-midnight-black-ps5-but-its-only-confirmed-for-japan-so-far/",
+   "date": "2026-10-13",
+   "image": "https://www.videogameschronicle.com/files/2026/10/black-ps5.jpg"
+  },
+  {
+   "cat": "gaming",
+   "title": "Nvidia aurait arrêté la production de la RTX 5090",
+   "title_ar": "Nvidia قد تكون أوقفت إنتاج بطاقة RTX 5090",
+   "summary": "D'après des fuites relayées par Tom's Hardware, la puce de la RTX 5090 serait désormais réservée aux cartes RTX Pro, plus chères et destinées aux centres de données pour l'IA. Lancée à 1 999 dollars, la carte se vend déjà entre 4 000 et 5 000 dollars, sur fond de pénurie de composants.",
+   "summary_ar": "حسب تسريبات نقلها موقع Tom's Hardware، أصبحت شريحة RTX 5090 مخصصة الآن لبطاقات RTX Pro الأغلى والموجهة لمراكز بيانات الذكاء الاصطناعي. وكانت البطاقة قد طُرحت بـ1999 دولارا، لكنها تُباع اليوم بين 4000 و5000 دولار في ظل نقص المكونات.",
+   "source": "Video Games Chronicle",
+   "url": "https://www.videogameschronicle.com/news/nvidia-has-reportedly-stopped-producing-rtx-5090-cards-to-focus-on-rtx-pro-gpus-for-ai-data-centers/",
+   "date": "2026-10-12",
+   "image": "https://www.videogameschronicle.com/files/2025/01/geforce_rtx_5090_key_visual.webp"
+  },
+  {
+   "cat": "gaming",
+   "title": "EA Sports FC 27 lance ses « Future Stars » avec Rio Ngumoha en tête",
+   "title_ar": "EA Sports FC 27 تُطلق حدث «نجوم المستقبل» بقيادة ريو نغوموها",
+   "summary": "Le nouvel événement d'Ultimate Team met en avant de jeunes talents comme Rio Ngumoha (Liverpool), Mika Godts (PSG) ou Myles Lewis-Skelly (Arsenal), avec une deuxième équipe prévue le 16 octobre. Jeuxvideo.com rappelle que seuls 20 à 30 % des Future Stars deviennent vraiment des joueurs de classe mondiale.",
+   "summary_ar": "يسلط الحدث الجديد في Ultimate Team الضوء على مواهب شابة مثل ريو نغوموها (ليفربول) وميكا غودتس (باريس سان جيرمان) ومايلز لويس-سكيلي (أرسنال)، مع فريق ثانٍ منتظر في 16 أكتوبر. ويذكّر موقع Jeuxvideo.com بأن 20 إلى 30 في المئة فقط من «نجوم المستقبل» يصبحون فعلا لاعبين من الطراز العالمي.",
+   "source": "Jeuxvideo.com",
+   "url": "https://www.jeuxvideo.com/news/2108732/ea-sports-fc-27-devoile-les-futurs-meilleurs-joueurs-de-la-planete-mais-ont-ils-eu-raison-par-le-passe.htm",
+   "date": "2026-10-12",
+   "image": "https://image.jeuxvideo.com/medias-crop-1200-675/179181/1791814217-5508-card.jpg"
   }
  ],
  "reads": [
@@ -2026,7 +2154,7 @@
    "image": "https://wp.theringer.com/wp-content/uploads/2026/10/cropped-PinaPlayersMostCuriousAbout_Getty-Ringer-scaled-1.jpg"
   },
   {
-   "cat": "montessori",
+   "cat": "divers",
    "date": "2026-10-10",
    "lang": "en",
    "minutes": 5,
@@ -2057,7 +2185,8 @@
    "takeaway_ar": "اللعب الجماعي نحو هدف مشترك يعلّم الطفل التعاون دون ضغط الخسارة.",
    "resume": "La Montessori Foundation présente les jeux coopératifs, où les joueurs ne s'affrontent pas : tout le groupe poursuit le même but, puis réussit ou recommence ensemble. Ces jeux développent l'entraide, la communication et la patience. Ils conviennent bien aux jeunes enfants, pour qui attendre son tour, suivre des règles et perdre peut être difficile : sans l'envie de battre un frère ou un ami, l'enfant se concentre sur sa participation. L'article ne rejette pas la compétition, qui apprend aussi à gagner et à perdre, mais conseille de varier.\nIl donne des idées simples : compter les passes de ballon sans le faire tomber, construire une tour de cubes à plusieurs, faire un grand puzzle ou une chasse aux objets en équipe. Le jeu s'adapte à l'âge : règles simples pour les petits, stratégie pour les grands. L'adulte doit guider par des questions sans tout décider, et après un échec, on parle de ce qui a marché. L'enfant apprend ainsi que la réussite se construit à plusieurs.",
    "resume_ar": "تقدّم مؤسسة مونتيسوري الألعاب التعاونية، التي لا يتنافس فيها اللاعبون، بل تسعى المجموعة كلها إلى هدف واحد، فتنجح معاً أو تعيد المحاولة معاً. تنمّي هذه الألعاب التعاون والتواصل والصبر. وهي مناسبة للأطفال الصغار الذين يصعب عليهم انتظار دورهم واتباع القواعد وتقبّل الخسارة، فحين يغيب هاجس التغلب على الأخ أو الصديق، يركّز الطفل على المشاركة. ولا يرفض المقال المنافسة، لأنها تعلّم أيضاً كيف نربح ونخسر، لكنه ينصح بالتنويع.\nويقترح أفكاراً بسيطة: عدّ تمريرات الكرة دون إسقاطها، وبناء برج من المكعبات جماعياً، وتركيب لغز كبير أو البحث عن أشياء مخبأة كفريق. ويجب ملاءمة اللعبة للسن: قواعد بسيطة وجولات قصيرة للصغار، واستراتيجية حقيقية للأكبر سناً. وعلى الكبار التوجيه بالأسئلة دون فرض كل شيء، وبعد الفشل نتحدث عما نجح. وهكذا يتعلم الطفل أن النجاح يُبنى مع الآخرين.",
-   "image": "https://www.montessori.org/wp-content/uploads/2026/10/cooperative-game.webp"
+   "image": "https://www.montessori.org/wp-content/uploads/2026/10/cooperative-game.webp",
+   "sub": "montessori"
   },
   {
    "cat": "sport",
@@ -2406,7 +2535,7 @@
    "image": "https://legrandcontinent.eu/fr/wp-content/uploads/sites/2/2026/10/Capture-decran-2026-10-01-a-16.31.49.jpg"
   },
   {
-   "cat": "tech",
+   "cat": "ia",
    "date": "2026-09-28",
    "lang": "en",
    "minutes": 10,
@@ -2440,7 +2569,7 @@
    "image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2026/09/apps-agents-aggregation-1.png?fit=600%2C340&ssl=1"
   },
   {
-   "cat": "tech",
+   "cat": "ia",
    "date": "2026-10-02",
    "lang": "en",
    "minutes": 7,
@@ -2576,108 +2705,6 @@
    "image": "https://files.smashing.media/articles/how-name-things-choose-accordion-icons/how-name-things.jpg"
   },
   {
-   "cat": "art",
-   "date": "2026-10-08",
-   "lang": "fr",
-   "minutes": 5,
-   "paywall": false,
-   "source": "Diptyk Magazine",
-   "summary": "Portrait de l'historienne de l'art, professeure aux Beaux-Arts de Casablanca de 1964 à 1972, honorée au 47e Moussem d'Assilah. Son rôle dans le groupe de Casablanca, ses revues et ses ateliers pour enfants.",
-   "summary_ar": "بورتريه لمؤرخة الفن، أستاذة الفنون الجميلة بالدار البيضاء بين 1964 و1972، والمحتفى بها في الدورة 47 لموسم أصيلة. ودورها في مجموعة الدار البيضاء ومجلاتها وورشاتها للأطفال.",
-   "title": "Toni Maraini, pionnière de la modernité artistique marocaine",
-   "title_ar": "طوني مارايني، رائدة الحداثة الفنية المغربية",
-   "url": "https://www.diptykmag.com/toni-maraini-aux-avant-postes-de-la-modernite-marocaine/",
-   "why": "Une figure clé de l'art marocain, qui a aussi pensé l'art avec les enfants.",
-   "why_ar": "شخصية محورية في الفن المغربي، فكّرت أيضاً في الفن مع الأطفال.",
-   "points": [
-    "Née au Japon en 1941, fille de l'anthropologue Fosco Maraini, Toni Maraini a connu enfant un camp d'internement.",
-    "De 1964 à 1972, elle enseigne l'histoire de l'art moderne aux Beaux-Arts de Casablanca, en partant du Maroc ancien.",
-    "Elle écrit dans les revues liées au Groupe de Casablanca, comme Souffles, et fut la compagne du peintre Mohamed Melehi.",
-    "Dès 1978, elle crée à Assilah un atelier d'art gratuit pour les jeunes, puis un atelier d'art-thérapie à Casablanca.",
-    "Elle a été honorée au 47e Moussem d'Assilah, signe d'une reconnaissance tardive de son rôle."
-   ],
-   "points_ar": [
-    "وُلدت طوني مارايني في اليابان سنة 1941، ابنة الأنثروبولوجي فوسكو مارايني، وعاشت طفولتها في معسكر احتجاز.",
-    "درّست تاريخ الفن الحديث في مدرسة الفنون الجميلة بالدار البيضاء بين 1964 و1972، انطلاقًا من المغرب القديم.",
-    "كتبت في المجلات المرتبطة بمجموعة الدار البيضاء مثل أنفاس، وكانت رفيقة الرسام محمد المليحي.",
-    "أسست سنة 1978 في أصيلة ورشة فنية مجانية للشباب، ثم ورشة للعلاج بالفن في الدار البيضاء.",
-    "كُرّمت في الدورة 47 لموسم أصيلة، اعترافًا متأخرًا بدورها."
-   ],
-   "takeaway": "Toni Maraini a été une actrice discrète mais essentielle de la modernité artistique marocaine, par l'enseignement et l'écriture.",
-   "takeaway_ar": "كانت طوني مارايني فاعلة هادئة لكن أساسية في الحداثة الفنية المغربية، عبر التدريس والكتابة.",
-   "resume": "Ce portrait revient sur le parcours de Toni Maraini, historienne de l'art née au Japon en 1941. Fille de l'anthropologue Fosco Maraini, elle a vécu enfant, avec sa famille, dans un camp d'internement japonais entre 1943 et 1945. Elle enseigne de 1964 à 1972 l'histoire de l'art moderne aux Beaux-Arts de Casablanca, au moment où se forme le Groupe de Casablanca. Elle commence ses cours par la préhistoire et le Maroc ancien, pour replacer l'art marocain dans son cadre africain, oriental et méditerranéen, ce qui en fait sans doute la première à donner un tel cours au pays.\nElle écrit dans les revues de l'avant-garde comme Souffles, Maghreb Art et Integral et publie des poèmes illustrés par son compagnon Mohamed Melehi. De 1978 à 1985, elle anime un atelier libre pour les jeunes à Assilah, et plus tard des ateliers d'art-thérapie à l'hôpital Ibn Rochd. Honorée au 47e Moussem d'Assilah, elle apparaît comme une figure clé pour comprendre l'histoire de l'art au Maroc.",
-   "resume_ar": "يستعرض هذا البورتريه مسار توني ماريني، مؤرخة الفن المولودة في اليابان سنة 1941. وهي ابنة عالم الأنثروبولوجيا فوسكو ماريني، وعاشت في طفولتها مع أسرتها داخل معسكر احتجاز ياباني بين 1943 و1945. بعد دراستها في إنجلترا والولايات المتحدة، درّست تاريخ الفن الحديث في مدرسة الفنون الجميلة بالدار البيضاء من 1964 إلى 1972، في الفترة التي تشكلت فيها مجموعة الدار البيضاء. وكانت تبدأ دروسها من عصور ما قبل التاريخ والمغرب القديم، لتضع الفن المغربي في سياقه الإفريقي والشرقي والمتوسطي، مما يجعلها على الأرجح أول من قدّم درسا من هذا النوع في المغرب.\nكتبت في مجلات الطليعة مثل أنفاس ومغرب آرت وإنتغرال، ونشرت قصائد زيّنها رفيقها الفنان محمد المليحي برسومه، ثم كتابات عن الفن. ومن 1978 إلى 1985 أشرفت على ورشة حرة للأطفال والشباب في أصيلة، ثم على ورشات للعلاج بالفن في مستشفى ابن رشد. وقد كُرّمت في الدورة 47 لموسم أصيلة، ويقدمها المقال كشخصية أساسية لفهم تاريخ الفن في المغرب.",
-   "image": "https://www.diptykmag.com/wp-content/uploads/2026/10/3-1.jpg"
-  },
-  {
-   "cat": "art",
-   "date": "2026-10-08",
-   "lang": "fr",
-   "minutes": 7,
-   "paywall": false,
-   "source": "Diptyk Magazine",
-   "summary": "Au MAC de Marseille, Louisa Babari remonte jusqu'à l'Afrique du Nord antique avec collages, objets et pièce sonore. La critique montre une histoire faite de couches superposées.",
-   "summary_ar": "في متحف الفن المعاصر بمرسيليا، تعود لويزا باباري إلى شمال إفريقيا القديم عبر الكولاج والقطع الأثرية وعمل صوتي. ويُبرز النقد تاريخاً من طبقات متراكبة.",
-   "title": "« AFRICA » de Louisa Babari : fabriquer le passé de l'Afrique du Nord",
-   "title_ar": "«AFRICA» للويزا باباري: صناعة ماضي شمال إفريقيا",
-   "url": "https://www.diptykmag.com/africa-fabriquer-le-passe/",
-   "why": "Une vraie critique d'exposition sur l'identité nord-africaine.",
-   "why_ar": "نقد معرض حقيقي حول الهوية في شمال إفريقيا.",
-   "points": [
-    "L'exposition AFRICA de Louisa Babari est visible au MAC de Marseille jusqu'au 3 janvier 2027.",
-    "Elle mêle photomontages, objets archéologiques, diaporama et une pièce sonore de 25 minutes sur l'Afrique du Nord antique.",
-    "Point de départ : l'artiste apprend que son nom de famille remonte à l'Antiquité numide.",
-    "L'idée centrale : le passé n'a jamais été entier ; le mot Afrique lui-même est fait de couches successives, comme un collage.",
-    "Le critique note une tension : l'artiste refuse la nostalgie, mais la mise en scène sombre la fait naître."
-   ],
-   "points_ar": [
-    "معرض AFRICA للفنانة لويزة باباري مفتوح في متحف الفن المعاصر بمرسيليا حتى 3 يناير 2027.",
-    "يجمع بين المونتاج الفوتوغرافي والقطع الأثرية والعرض المصور وقطعة صوتية مدتها 25 دقيقة عن شمال إفريقيا القديم.",
-    "نقطة الانطلاق: اكتشاف الفنانة أن اسم عائلتها يعود إلى العصر النوميدي.",
-    "الفكرة الأساسية: الماضي لم يكن كاملًا أبدًا، وكلمة إفريقيا نفسها مكونة من طبقات متتالية كالكولاج.",
-    "يلاحظ الناقد تناقضًا: الفنانة ترفض الحنين، لكن الإخراج القاتم يولّده."
-   ],
-   "takeaway": "Plutôt que de rêver d'une origine pure, Babari montre l'histoire nord-africaine comme un assemblage visible de fragments.",
-   "takeaway_ar": "بدل الحلم بأصل نقي، تقدم باباري تاريخ شمال إفريقيا كتجميع ظاهر من الشظايا.",
-   "resume": "Au Musée d'art contemporain de Marseille, jusqu'au 3 janvier 2027, l'artiste Louisa Babari présente AFRICA, une exposition sur l'Afrique du Nord antique. Tout part de son nom de famille, dont elle apprend grâce à un archéologue qu'il remonte au royaume numide. Elle remonte ensuite jusqu'à l'Africa romaine et à une déesse dont le nom a fini par désigner tout un continent. Une première salle montre de vrais objets anciens, comme une stèle venue de Skikda ; une salle sombre réunit huit grands photomontages, un diaporama et une pièce sonore de 25 minutes.\nPour la critique, l'intérêt du travail est de refuser l'idée d'une origine pure à retrouver avant la colonisation. Les collages mélangent statues, photos de femmes chaouies et ruines, et laissent voir comment ils sont fabriqués : la continuité de l'histoire est construite par le montage, pas retrouvée. Elle relève pourtant une contradiction, car l'ambiance sombre de l'exposition réveille la nostalgie que l'artiste veut éviter. La question du retour des objets et des récits reste ouverte.",
-   "resume_ar": "في متحف الفن المعاصر بمرسيليا، وإلى غاية 3 يناير 2027، تقدم الفنانة لويزا باباري معرض AFRICA حول شمال إفريقيا القديم. نقطة البداية هي اسم عائلتها، الذي عرفت بفضل أحد علماء الآثار أنه يعود إلى المملكة النوميدية. ثم تعود أبعد إلى إفريقيا الرومانية وإلى إلهة صار اسمها في النهاية يدل على قارة بأكملها. تعرض قاعة أولى قطعا أثرية حقيقية، مثل نصب جاء من سكيكدة، بينما تجمع قاعة مظلمة ثماني صور مركبة كبيرة وعرضا للصور وعملا صوتيا مدته 25 دقيقة.\nترى الناقدة أن قيمة هذا العمل في رفضه فكرة أصل نقي يمكن استعادته من زمن ما قبل الاستعمار. فالصور المركبة تمزج التماثيل وصور نساء شاويات والأطلال، وتكشف طريقة صنعها: استمرارية التاريخ يصنعها التركيب ولا تُستعاد كما هي. لكنها تلاحظ تناقضا، لأن الأجواء المظلمة للمعرض توقظ الحنين الذي تريد الفنانة تجنبه. ويبقى سؤال إرجاع القطع والروايات مطروحا.",
-   "image": "https://www.diptykmag.com/wp-content/uploads/2026/10/2.jpg"
-  },
-  {
-   "cat": "art",
-   "date": "2026-09-24",
-   "lang": "en",
-   "minutes": 13,
-   "paywall": false,
-   "source": "Contemporary And (C&)",
-   "summary": "L'auteur étudie quatre « écoles africaines » à la 61e Biennale de Venise. Leurs modèles d'enseignement reposent sur l'échange plutôt que sur la hiérarchie.",
-   "summary_ar": "يدرس الكاتب أربع «مدارس إفريقية» في الدورة 61 لبينالي البندقية، ونماذجها التعليمية القائمة على التبادل بدل التراتبية.",
-   "title": "Apprendre, c'est ressentir à travers les autres : les écoles africaines à la Biennale de Venise",
-   "title_ar": "أن تتعلّم يعني أن تشعر عبر الآخرين: المدارس الإفريقية في بينالي البندقية",
-   "url": "https://contemporaryand.com/en/c-and-magazine/texts/to-learn-is-to-feel-through-others-on-the-african-schools-at-venice",
-   "why": "Art africain et pédagogie réunis : parle au formateur autant qu'à l'amateur d'art.",
-   "why_ar": "يجمع بين الفن الإفريقي والبيداغوجيا: يخاطب المكوِّن بقدر ما يخاطب محبّ الفن.",
-   "points": [
-    "Quatre écoles d'art africaines, de Lagos, Dakar, Kumasi et Nairobi, participent à la 61e Biennale de Venise.",
-    "Elles font partie de l'exposition In Minor Keys, pensée par la commissaire Koyo Kouoh.",
-    "Leur point commun : apprendre ensemble, d'égal à égal, sans maître qui saurait tout.",
-    "Exemples : une carte sans frontières inspirée des plats ghanéens, une installation circulaire de voix, une frise sur l'école de Makerere.",
-    "L'auteur y voit une dette envers les vivants, les morts et les générations futures, qui dépasse la courte vie d'une biennale."
-   ],
-   "points_ar": [
-    "تشارك أربع مدارس فنية إفريقية من لاغوس وداكار وكوماسي ونيروبي في الدورة 61 لبينالي البندقية.",
-    "تندرج ضمن معرض In Minor Keys الذي صممته القيّمة كويو كواوه.",
-    "القاسم المشترك بينها: التعلم الجماعي على قدم المساواة، دون معلم يملك كل المعرفة.",
-    "من الأمثلة: خريطة بلا حدود مستوحاة من الأطباق الغانية، وتركيب دائري للأصوات، وخط زمني لمدرسة ماكيريري.",
-    "يرى الكاتب فيها دَينًا تجاه الأحياء والأموات والأجيال القادمة، يتجاوز عمر البينالي القصير."
-   ],
-   "takeaway": "Ces écoles africaines montrent qu'on apprend mieux par l'échange et le lien humain que par la hiérarchie.",
-   "takeaway_ar": "تبيّن هذه المدارس الإفريقية أن التعلم بالتبادل والروابط الإنسانية أنجع من التعلم بالتسلسل الهرمي.",
-   "resume": "Ce texte analyse quatre « écoles africaines » invitées à la 61e Biennale de Venise, dans l'exposition In Minor Keys pensée par la commissaire Koyo Kouoh. Elles viennent de Kumasi, Lagos, Dakar et Nairobi. Chacune présente une œuvre : une carte sans frontières dont le relief s'inspire de plats ghanéens comme le fufu, une installation circulaire où toutes les voix sont au même niveau, une bibliothèque et des cartes de plantes, ou une frise sur l'école d'art de Makerere, ouverte en 1921.\nPour l'auteur, ces écoles ont un point commun : on y apprend avec les autres et à travers eux, d'égal à égal, sans maître au-dessus. Elles créent des liens de savoir et presque de famille, qui durent plus longtemps qu'une biennale. Ancrées localement mais ouvertes au monde, elles restent des lieux d'échange même quand le monde de l'art se tait.",
-   "resume_ar": "يحلل هذا النص أربع «مدارس إفريقية» شاركت في الدورة 61 من بينالي البندقية، ضمن معرض In Minor Keys الذي صممته القيّمة كويو كواه. وهي blaxTARLINES في كوماسي بغانا، ومؤسسة G.A.S. التي أنشأها ينكا شونيباري في نيجيريا، وRAW Material Company التي أسستها كواه في داكار سنة 2008، ومركز NCAI في نيروبي. قدمت كل منها عملا: خريطة بلا حدود تستلهم تضاريسها من أطباق غانية مثل الفوفو، وعملا دائريا تتساوى فيه كل الأصوات، ومكتبة وخرائط للنباتات، وشريطا زمنيا عن مدرسة الفن في ماكيريري التي افتُتحت سنة 1921.\nيرى الكاتب أن ما يجمع هذه المدارس هو التعلم مع الآخرين ومن خلالهم، على قدم المساواة، دون معلم يعلو الجميع. فهي تنسج روابط معرفية تشبه روابط العائلة، تدوم أطول من عمر البينالي. ويرى في ذلك دينا تجاه الأحياء والأموات والأجيال القادمة. وهي متجذرة محليا ومنفتحة على العالم، وتظل فضاءات للحوار حتى حين يصمت عالم الفن.",
-   "image": "https://cdn.sanity.io/images/t4cb1ejj/production/2d82482074d3c6800200c89278ef33165772213e-2874x1491.jpg?rect=17,0,2840,1491&w=1200&h=630&q=80&fit=crop&auto=format"
-  },
-  {
    "cat": "cinema",
    "date": "2026-10-02",
    "lang": "en",
@@ -2780,7 +2807,7 @@
    "image": "https://core-cms.bfi.org.uk/sites/default/files/styles/responsive/public/2026-10/josephine-2026-child-in-car.png/1200x630-cropped/josephine-2026-child-in-car.png"
   },
   {
-   "cat": "enfant",
+   "cat": "divers",
    "date": "2024-05-15",
    "lang": "en",
    "minutes": 9,
@@ -2811,10 +2838,11 @@
    "takeaway_ar": "تُبنى اللغة في التفاعل اليومي، فالاستجابة والتقليد وترك المجال للكلام أنفع من التصحيح.",
    "resume": "Une orthophoniste du Child Mind Institute explique que la plupart des enfants apprennent à parler naturellement, mais que la façon dont les adultes répondent peut accélérer ou freiner ce progrès. Avant les mots, le petit communique par les pleurs, le pointage, le sourire et le regard. Les premiers mots arrivent souvent vers 12 ou 13 mois, quand il commence à faire semblant.\nElle conseille de répondre tout de suite à chaque essai de communication, même un geste, et de féliciter de façon précise. On peut aussi créer des occasions de parler : poser un objet désiré un peu hors de portée, donner seulement une partie d'un puzzle, ou s'arrêter au milieu d'une chanson connue. Imiter ses sons, mettre des mots sur ses gestes, décrire son jeu et nommer les objets aident beaucoup. Il vaut mieux éviter de l'interroger sur ce qu'il sait déjà, de le corriger durement, et parler juste un peu au-dessus de son niveau. L'idée centrale : l'enfant apprend mieux quand parler est un plaisir, sans pression.",
    "resume_ar": "توضح أخصائية في تقويم النطق من معهد Child Mind أن أغلب الأطفال يتعلمون الكلام بشكل طبيعي، لكن طريقة تجاوب الكبار معهم قد تسرّع هذا التقدم أو تبطئه. فقبل الكلمات، يتواصل الصغير بالبكاء والإشارة بالأصبع والابتسامة والنظر. وتظهر الكلمات الأولى غالبا في حدود 12 أو 13 شهرا، في الوقت الذي يبدأ فيه الطفل اللعب التخيلي، كأن يستعمل موزة كهاتف.\nتنصح بالرد فورا على كل محاولة تواصل، حتى لو كانت إشارة، وبالمدح بشكل محدد. ويمكن أيضا خلق فرص للكلام: وضع شيء يحبه بعيدا قليلا عن متناوله، أو إعطاؤه جزءا فقط من لعبة التركيب، أو التوقف وسط أغنية يعرفها. كما يساعد كثيرا تقليد أصواته، وتحويل إشاراته إلى كلمات، ووصف لعبه، وتسمية الأشياء من حوله. ومن الأفضل تجنب سؤاله عما يعرفه مسبقا، وتجنب التصحيح القاسي، والتحدث بمستوى أعلى قليلا من مستواه. والفكرة الأساسية: يتعلم الطفل أفضل حين يكون الكلام متعة بلا ضغط.",
-   "image": "https://childmind.org/wp-content/uploads/HelpingToddlersExpandLanguageSkills.jpg"
+   "image": "https://childmind.org/wp-content/uploads/HelpingToddlersExpandLanguageSkills.jpg",
+   "sub": "enfant"
   },
   {
-   "cat": "enfant",
+   "cat": "divers",
    "date": "2022-04-27",
    "lang": "en",
    "minutes": 5,
@@ -2845,10 +2873,11 @@
    "takeaway_ar": "تقبّل جميع مشاعر الطفل وتسميتها، حتى الصعبة منها، يضع أسس توازنه المستقبلي.",
    "resume": "Cet article de Zero to Three rappelle que, selon trente ans de recherche, les bébés et les tout-petits ressentent déjà beaucoup d'émotions bien avant de parler : joie, excitation, peur, colère, tristesse et même chagrin. La capacité à gérer toutes ces émotions est l'un des meilleurs signes d'une réussite future à l'école, au travail et dans les relations.\nLe texte conseille d'accepter toutes les émotions, car aucune n'est bonne ou mauvaise en soi. Avec un bébé, il faut observer ses sons, son visage et ses gestes, et s'adapter, par exemple arrêter un jeu quand il se cambre. Avec un tout-petit, nommer la colère ou la frustration l'aide à la reconnaître et à comprendre qu'elle est normale. Dire « ne sois pas triste » ne fait pas disparaître le sentiment, qui peut ressortir en agressivité ou en anxiété. Mieux vaut écouter calmement et proposer des moyens de l'exprimer, comme taper des pieds ou dessiner. Enfin, inutile de tout réparer : traverser les difficultés rend l'enfant plus fort.",
    "resume_ar": "يذكّر هذا المقال من منظمة Zero to Three بأن ثلاثين سنة من البحث تُظهر أن الرضع والأطفال الصغار يشعرون بعواطف كثيرة قبل أن يتكلموا بوقت طويل: الفرح والحماس والخوف والغضب والحزن وحتى الأسى. وقدرة الطفل على تدبير هذه المشاعر كلها من أقوى المؤشرات على نجاحه لاحقا في الدراسة والعمل والعلاقات.\nينصح النص بتقبل كل المشاعر، لأنه لا توجد مشاعر جيدة وأخرى سيئة في حد ذاتها. ومع الرضيع، يجب ملاحظة أصواته وملامح وجهه وحركاته والتكيف معها، كأن نوقف اللعب حين يقوّس ظهره. ومع الطفل الصغير، تسمية الغضب أو الإحباط تساعده على التعرف عليه وفهم أنه أمر عادي. وقول «لا تحزن» لا يُزيل الشعور، بل قد يظهر لاحقا في شكل عدوانية أو قلق. والأفضل هو الإنصات بهدوء واقتراح طرق للتعبير، مثل الضرب بالقدمين أو الرسم. وأخيرا، لا ينبغي للوالدين أن يحاولا إصلاح كل شيء: فتجاوز الصعوبات يجعل الطفل أقوى.",
-   "image": "https://www.zerotothree.org/wp-content/uploads/2022/04/110-Challenging-Behavior.jpg"
+   "image": "https://www.zerotothree.org/wp-content/uploads/2022/04/110-Challenging-Behavior.jpg",
+   "sub": "enfant"
   },
   {
-   "cat": "montessori",
+   "cat": "divers",
    "date": "2026-10-10",
    "lang": "en",
    "minutes": 12,
@@ -2879,10 +2908,11 @@
    "takeaway_ar": "تهيئة ركن صغير لأنشطة بسيطة وترك الطفل يحاول بنفسه يعزز ثقته بنفسه.",
    "resume": "La Montessori Foundation explique qu'un enfant n'a pas besoin d'être diverti tout le temps. Avec un peu de préparation, même un tout-petit peut s'occuper seul : il suffit de quelques activités adaptées à ses capacités, d'un matériel à sa portée et de temps sans interruption. L'adulte reste proche, mais c'est l'enfant qui mène l'activité.\nLe texte donne des idées par âge. Les tout-petits aiment les gestes répétés : transvaser, empiler des gobelets, essuyer une table ou arroser une plante. Vers 3-4 ans, on propose des tâches avec un début et une fin, comme laver des fruits, assortir des chaussettes ou plier des serviettes. Vers 5-6 ans, viennent les projets en plusieurs étapes, comme suivre une recette illustrée ou entretenir un petit jardin. Ce jeu libre développe concentration, patience, adresse et confiance. Moins de jouets donne souvent plus d'autonomie : une étagère basse avec quatre à six activités, changées de temps en temps, suffit. Il faut aussi attendre un peu avant d'aider. L'autonomie ne remplace jamais l'affection et le temps partagé.",
    "resume_ar": "توضح مؤسسة مونتيسوري أن الطفل لا يحتاج إلى من يسلّيه طوال الوقت. فمع قليل من التحضير، يستطيع حتى الطفل الصغير أن ينشغل وحده: يكفي توفير بعض الأنشطة المناسبة لقدراته، وأدوات في متناول يده، ووقت دون مقاطعة. ويبقى الشخص البالغ قريبا منه، لكن الطفل هو من يقود النشاط.\nيقدم النص أفكارا حسب السن. الأطفال الصغار يحبون الحركات المتكررة: نقل الأشياء من وعاء إلى آخر، وتكديس الأكواب، ومسح الطاولة أو سقي نبتة. وفي سن 3 إلى 4 سنوات، تُقترح مهام لها بداية ونهاية، مثل غسل الفواكه أو ترتيب الجوارب أزواجا أو طي المناديل. وفي سن 5 إلى 6 سنوات، تأتي مشاريع من عدة مراحل، مثل اتباع وصفة مصورة أو العناية بحديقة صغيرة. وهذا اللعب الحر ينمّي التركيز والصبر والمهارة والثقة بالنفس. وقلة الألعاب تعطي غالبا استقلالية أكبر: يكفي رف منخفض فيه أربعة إلى ستة أنشطة تُغيَّر من حين لآخر. ويجب كذلك الانتظار قليلا قبل التدخل للمساعدة. والاستقلالية لا تعوّض أبدا الحنان والوقت المشترك.",
-   "image": "https://www.montessori.org/wp-content/uploads/2026/10/independent-play.webp"
+   "image": "https://www.montessori.org/wp-content/uploads/2026/10/independent-play.webp",
+   "sub": "montessori"
   },
   {
-   "cat": "montessori",
+   "cat": "divers",
    "date": "2026-10-04",
    "lang": "en",
    "minutes": 12,
@@ -2913,7 +2943,210 @@
    "takeaway_ar": "قبل سن السادسة، يبقى اللعب الحقيقي والحوار العائلي أهم من أي جهاز لوحي.",
    "resume": "Selon la Montessori Foundation, la vraie question sur les écrans n'est pas seulement le nombre de minutes, mais ce qu'ils remplacent : jeu dehors, conversation, création. Les pédiatres conseillent d'éviter les écrans avant environ 18 mois, sauf les appels vidéo en famille, puis de choisir des contenus de qualité regardés ensemble, et au plus une heure par jour entre 2 et 5 ans. Le petit enfant apprend surtout en manipulant de vrais objets : construire une tour ou verser de l'eau lui apprend l'équilibre et la cause et l'effet mieux qu'un écran tactile.\nL'article conseille des contenus lents et sans publicité, pas d'écran pendant les repas ni dans la chambre, et un arrêt une heure avant le coucher. Il distingue l'écran familial partagé de l'appareil personnel, à retarder : pas d'appareil à soi avant 5 ans, puis une liberté qui grandit avec l'âge. Des règles familiales valables aussi pour les adultes comptent beaucoup. Rien ne presse : les expériences de l'enfance se rattrapent plus difficilement que la technologie.",
    "resume_ar": "حسب مؤسسة مونتيسوري، السؤال الحقيقي حول الشاشات لا يتعلق فقط بعدد الدقائق، بل بما تأخذ مكانه: اللعب في الخارج والحوار والإبداع. وينصح أطباء الأطفال بتجنب الشاشات قبل حوالي 18 شهرا، باستثناء مكالمات الفيديو مع العائلة، ثم باختيار محتوى جيد يُشاهَد مع الطفل، وبساعة واحدة في اليوم على الأكثر بين سنتين وخمس سنوات. فالطفل الصغير يتعلم أساسا بلمس الأشياء الحقيقية: بناء برج أو صب الماء يعلّمه التوازن وعلاقة السبب بالنتيجة أفضل من شاشة اللمس. وحتى الملل مفيد، لأنه يدفعه إلى الابتكار.\nينصح المقال بمحتوى هادئ وخال من الإعلانات، ومنع الشاشات أثناء الأكل وفي غرفة النوم، وإطفائها قبل النوم بساعة. ويميز بين شاشة عائلية مشتركة وجهاز شخصي ينبغي تأخيره: لا جهاز خاص قبل 5 سنوات، ثم حرية تكبر مع السن. وللقواعد العائلية المكتوبة، التي تسري على الكبار أيضا، ولقدوة الوالدين أهمية كبيرة. ولا داعي للاستعجال: فتجارب الطفولة أصعب استدراكا من التكنولوجيا.",
-   "image": "https://www.montessori.org/wp-content/uploads/2026/10/child-with-blocks.webp"
+   "image": "https://www.montessori.org/wp-content/uploads/2026/10/child-with-blocks.webp",
+   "sub": "montessori"
+  },
+  {
+   "cat": "ia",
+   "title": "Modèles ouverts : les avantages valent-ils les risques ?",
+   "title_ar": "النماذج المفتوحة: هل تفوق فوائدها مخاطرها؟",
+   "summary": "MIT Technology Review fait le point sur le débat entre modèles d'IA téléchargeables et modèles fermés, relancé par une alerte d'Anthropic sur le modèle chinois GLM-5.3. L'article pèse les gains (coût, données protégées, contre-pouvoir) face aux dangers (piratage, sécurité facile à retirer).",
+   "summary_ar": "تستعرض مجلة MIT Technology Review النقاش بين نماذج الذكاء الاصطناعي القابلة للتنزيل والنماذج المغلقة، بعد تحذير أنثروبيك من النموذج الصيني GLM-5.3. ويوازن المقال بين المكاسب (الكلفة، حماية البيانات، موازنة النفوذ) والمخاطر (القرصنة، وسهولة إزالة الحماية).",
+   "why": "Pour conseiller tes clients sur le choix d'un modèle ou ton propre serveur maison, tu as là une vue claire des avantages et limites des modèles ouverts.",
+   "why_ar": "لتنصح عملاءك في اختيار النموذج أو لخادمك المنزلي، تجد هنا صورة واضحة عن مزايا النماذج المفتوحة وحدودها.",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+   "date": "2026-10-13",
+   "minutes": 9,
+   "lang": "en",
+   "paywall": false,
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/260915_openaimodels.jpg?resize=1200,600",
+   "resume": "Le point de départ est un rapport d'Anthropic, fin septembre, selon lequel GLM-5.3, modèle ouvert sorti en août par le chinois Z.ai, présente un fort risque de cyberattaques. L'article rappelle que les modèles fermés (ChatGPT, Claude) ne s'utilisent qu'en ligne, alors que les modèles ouverts se téléchargent, tournent en local, se réentraînent et s'examinent. Ils coûtent souvent moins cher, protègent les données sensibles et limitent la concentration du pouvoir. Les huit meilleurs modèles du classement Artificial Analysis restent fermés, mais les ouverts n'ont que quelques mois de retard.\nCôté risques, les modèles fermés ne sont pas sûrs non plus : des agents d'OpenAI ont piraté Hugging Face en juillet. Mais un modèle ouvert ne peut être ni filtré ni retiré, et ses protections s'enlèvent par réentraînement ; aucune méthode actuelle ne l'empêche vraiment. Les pistes : retirer les données dangereuses de l'entraînement ou publier par étapes. Conclusion : il faudra des politiques fines, et l'effort en vaut la peine si l'ouverture est utile à l'avenir de l'IA.",
+   "resume_ar": "نقطة الانطلاق تقرير لأنثروبيك في أواخر سبتمبر يرى أن GLM-5.3، وهو نموذج مفتوح أطلقته شركة Z.ai الصينية في أغسطس، يحمل خطرا كبيرا في مجال الهجمات الإلكترونية. يذكّر المقال بأن النماذج المغلقة مثل ChatGPT وClaude لا تُستعمل إلا عبر الإنترنت، بينما يمكن تنزيل النماذج المفتوحة وتشغيلها محليا وإعادة تدريبها وفحصها. وهي غالبا أرخص، وتحمي البيانات الحساسة، وتحد من تركز النفوذ. ولا تزال النماذج الثمانية الأولى في تصنيف Artificial Analysis مغلقة، لكن المفتوحة لا تتأخر عنها إلا ببضعة أشهر.\nأما المخاطر، فالنماذج المغلقة ليست آمنة تماما، إذ اخترق وكلاء OpenAI منصة Hugging Face في يوليو. غير أن النموذج المفتوح لا يمكن تصفيته ولا سحبه، ويمكن نزع حمايته بإعادة التدريب، ولا توجد طريقة حالية تمنع ذلك فعلا. ومن الحلول المقترحة حذف البيانات الخطيرة من التدريب أو النشر على مراحل. والخلاصة أن الأمر يتطلب سياسات دقيقة، والجهد يستحق ذلك إن كان الانفتاح مفيدا لمستقبل الذكاء الاصطناعي.",
+   "points": [
+    "Débat relancé par l'alerte d'Anthropic sur GLM-5.3.",
+    "Les modèles ouverts tournent en local et coûtent moins.",
+    "Ils n'ont que quelques mois de retard sur les fermés.",
+    "Leurs protections peuvent être retirées.",
+    "Il faudra des règles nuancées."
+   ],
+   "points_ar": [
+    "تحذير أنثروبيك من GLM-5.3 أعاد النقاش.",
+    "النماذج المفتوحة تعمل محليا وتكلف أقل.",
+    "تتأخر ببضعة أشهر فقط عن المغلقة.",
+    "يمكن نزع الحماية منها.",
+    "المطلوب قواعد دقيقة ومتوازنة."
+   ],
+   "takeaway": "Ouvert ou fermé n'est pas un choix moral simple : c'est un arbitrage entre contrôle des données, coût et risques de mauvais usage.",
+   "takeaway_ar": "الاختيار بين المفتوح والمغلق ليس مسألة أخلاقية بسيطة، بل موازنة بين التحكم في البيانات والكلفة ومخاطر سوء الاستخدام."
+  },
+  {
+   "cat": "eco",
+   "title": "Le FMI met en garde : IA, guerre et dettes menacent la croissance",
+   "title_ar": "صندوق النقد يحذّر: الذكاء الاصطناعي والحرب والديون تهدد النمو",
+   "summary": "Le FMI explique que l'investissement massif dans l'IA soutient l'économie mondiale malgré le choc pétrolier, mais il décrit aussi ce qui pourrait mal tourner. Il chiffre deux scénarios noirs : une guerre plus longue et une chute brutale des investissements dans l'IA.",
+   "summary_ar": "يشرح صندوق النقد أن الاستثمار الضخم في الذكاء الاصطناعي يدعم الاقتصاد العالمي رغم الصدمة النفطية، لكنه يرسم أيضاً ما قد يسوء. ويقدّر أثر سيناريوهين سلبيين: حرب أطول، وتراجع حاد في استثمارات الذكاء الاصطناعي.",
+   "why": "Tu verras comment l'IA, que tu utilises tous les jours dans ton métier, est devenue un moteur et un risque pour toute l'économie mondiale.",
+   "why_ar": "سترى كيف أصبح الذكاء الاصطناعي، الذي تستخدمه يومياً في عملك، محركاً للاقتصاد العالمي ومصدر خطر عليه في الوقت نفسه.",
+   "source": "Reuters (via Investing.com)",
+   "url": "https://investing.com/news/economy-news/imf-flags-risks-to-global-economy-from-ai-market-correction-war-and-debt-4946017",
+   "date": "2026-10-13",
+   "minutes": 5,
+   "lang": "en",
+   "paywall": false,
+   "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9C0SO_L.jpg",
+   "resume": "Le FMI relève la croissance mondiale 2026 à 3,1 % (contre 3,0 % en juillet) et prévoit 3,4 % en 2027. La raison : les énormes dépenses pour l'infrastructure de l'IA compensent la hausse du pétrole liée à la guerre au Moyen-Orient. Le commerce de produits liés à l'IA a progressé de 29 % entre 2023 et 2025, contre 8,3 % pour le commerce mondial ; sans l'IA, ce dernier n'aurait augmenté que de 4,6 %. Le scénario central suppose que le détroit d'Ormuz rouvre en mars.\nLe FMI décrit deux risques. Si la guerre s'aggrave et que le baril reste au-dessus de 130 dollars, la croissance perdrait un demi-point. Si l'IA déçoit en productivité ou en profits, les investissements et les cours en Bourse pourraient chuter, ce qui ferait perdre 1,1 % au PIB mondial d'ici 2028, et 1,8 % aux États-Unis, sans pour autant provoquer une récession mondiale. Le FMI s'inquiète aussi des dettes publiques et des taux élevés.",
+   "resume_ar": "في توقعاته الصادرة من بانكوك، رفع صندوق النقد الدولي توقع النمو العالمي لعام 2026 إلى 3.1% بدلاً من 3.0% في يوليو، ويتوقع 3.4% في 2027. والسبب أن الإنفاق الهائل على بنية الذكاء الاصطناعي يعوّض ارتفاع أسعار النفط الناتج عن الحرب في الشرق الأوسط. فقد نمت تجارة السلع المرتبطة بالذكاء الاصطناعي بنسبة 29% بين 2023 و2025، مقابل 8.3% للتجارة العالمية التي لم تكن لتنمو إلا بنسبة 4.6% من دونها. ويفترض السيناريو الأساسي إعادة فتح مضيق هرمز في مارس.\nويصف الصندوق خطرين. إذا تفاقمت الحرب وبقي سعر البرميل فوق 130 دولاراً، سيفقد النمو نصف نقطة. وإذا خيّب الذكاء الاصطناعي الآمال في الإنتاجية أو الأرباح، فقد تنهار الاستثمارات وأسعار الأسهم، فيخسر الناتج العالمي 1.1% بحلول 2028 والأمريكي 1.8%، من دون أن يؤدي ذلك إلى ركود عالمي. كما يبدي الصندوق قلقه من الديون العامة وارتفاع الفائدة، ويدعو الحكومات إلى عدم الاطمئنان المفرط.",
+   "points": [
+    "Croissance mondiale 2026 relevée à 3,1 %.",
+    "L'IA compense le choc pétrolier.",
+    "Une guerre plus longue coûterait un demi-point de croissance.",
+    "Un krach de l'IA ferait perdre 1,1 % au PIB mondial d'ici 2028.",
+    "Les dettes publiques restent un point faible."
+   ],
+   "points_ar": [
+    "رفع توقع النمو العالمي لعام 2026 إلى 3.1%.",
+    "الذكاء الاصطناعي يعوّض الصدمة النفطية.",
+    "حرب أطول تكلّف نصف نقطة من النمو.",
+    "انهيار الذكاء الاصطناعي يُفقد الناتج العالمي 1.1% بحلول 2028.",
+    "الديون العامة تبقى نقطة ضعف."
+   ],
+   "takeaway": "La croissance mondiale tient surtout grâce à l'IA : c'est une force, mais aussi une fragilité si ce pari déçoit.",
+   "takeaway_ar": "النمو العالمي صامد بفضل الذكاء الاصطناعي أساساً، وهذه قوة لكنها أيضاً هشاشة إذا خاب هذا الرهان."
+  },
+  {
+   "cat": "eco",
+   "title": "Égypte : comment l'économie a mieux résisté que prévu au choc de la guerre",
+   "title_ar": "مصر: كيف صمد الاقتصاد أكثر من المتوقع أمام صدمة الحرب",
+   "summary": "Deux économistes du FMI analysent comment l'Égypte a traversé le choc de la guerre au Moyen-Orient sans crise grave. Ils montrent ce qui a marché et les faiblesses qui restent.",
+   "summary_ar": "يحلل خبيران من صندوق النقد الدولي كيف تجاوزت مصر صدمة الحرب في الشرق الأوسط دون أزمة حادة. ويبيّنان ما نجح وما بقي من نقاط ضعف.",
+   "why": "C'est un cas concret d'un grand pays arabe et africain face au même choc que la région, utile pour comparer avec le Maroc.",
+   "why_ar": "إنها حالة ملموسة لبلد عربي وأفريقي كبير في مواجهة الصدمة نفسها التي تعيشها المنطقة، ومفيدة للمقارنة مع المغرب.",
+   "source": "FMI (IMF)",
+   "url": "https://www.imf.org/en/news/articles/2026/09/21/cf-resilience-under-pressure-egypts-economy-defied-expectations",
+   "date": "2026-09-21",
+   "minutes": 4,
+   "lang": "en",
+   "paywall": false,
+   "image": "",
+   "resume": "Quand la guerre a éclaté, les investisseurs étrangers ont retiré leur argent : leurs placements en dette égyptienne en monnaie locale sont passés de 39,1 à 22,2 milliards de dollars entre février et début avril. L'Égypte a laissé sa monnaie baisser de 14 à 17 %, a ajusté les prix de l'énergie et freiné ses dépenses, tout en aidant les ménages fragiles. Résultat : l'argent est revenu et en août sa prime de risque était au plus bas depuis 2014. La croissance a atteint 5 % sur un trimestre, et les envois d'argent de la diaspora ont battu des records.\nMais les auteurs restent prudents. La dette publique est lourde : les besoins de financement resteront proches de 40 % du PIB, et ne passeront sous 30 % qu'en 2030. L'État emprunte surtout à court terme et pèse trop dans l'économie. Le FMI demande donc d'allonger la durée des emprunts, de vendre plus vite des entreprises publiques et de laisser plus de place au secteur privé.",
+   "resume_ar": "عند اندلاع الحرب سحب المستثمرون الأجانب أموالهم، فتراجعت حيازاتهم من الدين المصري بالعملة المحلية من 39.1 إلى 22.2 مليار دولار بين فبراير وبداية أبريل. وتركت مصر عملتها تنخفض بنسبة 14 إلى 17% بدل الدفاع عنها، وعدّلت أسعار الطاقة وضبطت الإنفاق مع دعم الأسر الهشة. والنتيجة عودة الأموال، وقدرة البلد على الاقتراض من الخارج، ووصول علاوة المخاطر في أغسطس إلى أدنى مستوى منذ 2014. وبلغ النمو 5% في أحد الفصول، وحققت تحويلات المصريين في الخارج أرقاماً قياسية.\nلكن الكاتبين يبقيان حذرين. فالدين العام ثقيل، وستظل احتياجات التمويل قرب 40% من الناتج المحلي ولن تنزل تحت 30% إلا في 2030. كما تقترض الدولة غالباً على المدى القصير، ويبقى حضورها في الاقتصاد كبيراً جداً. لذلك يطالب الصندوق بإطالة آجال الاقتراض، والإسراع في بيع حصص من الشركات العامة، وفسح مجال أكبر للقطاع الخاص.",
+   "points": [
+    "Les capitaux étrangers sont partis puis revenus.",
+    "Une monnaie flexible a amorti le choc.",
+    "Croissance de 5 % et transferts records de la diaspora.",
+    "La dette et le poids de l'État restent les points faibles."
+   ],
+   "points_ar": [
+    "خرجت رؤوس الأموال الأجنبية ثم عادت.",
+    "العملة المرنة امتصت الصدمة.",
+    "نمو بنسبة 5% وتحويلات قياسية من الخارج.",
+    "الدين وثقل الدولة يبقيان نقطتي الضعف."
+   ],
+   "takeaway": "Une réaction rapide et une monnaie flexible aident à passer un choc, mais sans réformes de fond la fragilité demeure.",
+   "takeaway_ar": "الاستجابة السريعة والعملة المرنة تساعدان على تجاوز الصدمة، لكن الهشاشة تبقى من دون إصلاحات عميقة."
+  },
+  {
+   "cat": "eco",
+   "title": "Flambée des prix alimentaires : ce que les États devraient faire",
+   "title_ar": "ارتفاع أسعار الغذاء: ما الذي ينبغي أن تفعله الحكومات",
+   "summary": "Le FMI explique pourquoi il faut d'abord comprendre la cause d'une hausse des prix de la nourriture avant de choisir une aide. Il compare les subventions, les bons d'achat et les aides en nature.",
+   "summary_ar": "يشرح صندوق النقد لماذا يجب فهم سبب ارتفاع أسعار الغذاء أولاً قبل اختيار نوع الدعم. ويقارن بين دعم الأسعار وقسائم الشراء والمساعدات العينية.",
+   "why": "Avec la guerre et les engrais plus chers, le débat sur la compensation et l'aide aux ménages concerne directement le Maroc et la région.",
+   "why_ar": "مع الحرب وغلاء الأسمدة، يهم النقاش حول دعم الأسعار ومساعدة الأسر المغرب والمنطقة بشكل مباشر.",
+   "source": "FMI (IMF Blog)",
+   "url": "https://www.imf.org/en/blogs/articles/2026/09/17/what-governments-should-do-when-food-prices-surge",
+   "date": "2026-09-17",
+   "minutes": 4,
+   "lang": "en",
+   "paywall": false,
+   "image": "",
+   "resume": "Un fort épisode El Niño et la guerre au Moyen-Orient pourraient faire monter le prix de la nourriture. Depuis le début de la guerre, certains engrais ont pris près de 50 %. En 2022, la hausse des prix alimentaires liée à la guerre en Ukraine a fait basculer environ 71 millions de personnes dans la pauvreté en trois mois. Pour les ménages fragiles, la nourriture peut dépasser la moitié des dépenses.\nLes auteurs proposent quatre questions avant d'agir : la nourriture est-elle disponible, est-ce un problème de prix, les marchés fonctionnent-ils, peut-on cibler les bonnes familles ? Les subventions générales sont rapides mais coûteuses et profitent surtout aux ménages aisés, qui consomment plus. Les bons d'achat sont mieux ciblés mais exigent des registres sociaux et le paiement numérique. Les aides en nature sont utiles en cas de pénurie mais peuvent nuire aux agriculteurs locaux. Conclusion : préparer les outils avant la crise, aider de façon ciblée et limitée dans le temps, et prévoir dès le départ comment arrêter l'aide.",
+   "resume_ar": "قد تؤدي ظاهرة إل نينيو قوية والحرب في الشرق الأوسط إلى رفع أسعار الغذاء. فمنذ بداية الحرب ارتفعت أسعار بعض الأسمدة بنحو 50%. والخطر حقيقي: ففي 2022 دفع غلاء الغذاء المرتبط بالحرب في أوكرانيا نحو 71 مليون شخص إلى الفقر خلال ثلاثة أشهر. وقد يتجاوز الغذاء نصف إنفاق الأسر الهشة.\nيقترح الكتّاب أربعة أسئلة قبل التحرك: هل الغذاء متوفر، وهل المشكلة في القدرة على الشراء، وهل تعمل الأسواق، وهل يمكن استهداف الأسر المحتاجة؟ فدعم الأسعار العام سريع لكنه مكلف ويستفيد منه الميسورون أكثر لأنهم يستهلكون أكثر. أما القسائم فهي أدق استهدافاً لكنها تتطلب سجلات اجتماعية ودفعاً رقمياً. والمساعدات العينية مفيدة عند النقص لكنها قد تضر بالفلاحين المحليين. والخلاصة: تجهيز الأدوات قبل الأزمة، ودعم موجّه ومحدود في الزمن، والتخطيط منذ البداية لطريقة إنهائه.",
+   "points": [
+    "Certains engrais ont pris près de 50 % depuis la guerre.",
+    "En 2022, 71 millions de personnes sont tombées dans la pauvreté.",
+    "Les subventions générales profitent surtout aux plus aisés.",
+    "Les bons d'achat demandent un registre social et le paiement numérique.",
+    "Il faut prévoir la sortie de l'aide dès le début."
+   ],
+   "points_ar": [
+    "ارتفعت بعض الأسمدة بنحو 50% منذ الحرب.",
+    "في 2022 سقط 71 مليون شخص في الفقر.",
+    "الدعم العام يستفيد منه الميسورون أكثر.",
+    "القسائم تتطلب سجلاً اجتماعياً ودفعاً رقمياً.",
+    "يجب التخطيط لإنهاء الدعم منذ البداية."
+   ],
+   "takeaway": "Une bonne aide alimentaire commence par un bon diagnostic, et elle est ciblée, temporaire et préparée avant la crise.",
+   "takeaway_ar": "الدعم الغذائي الجيد يبدأ بتشخيص سليم، ويكون موجّهاً ومؤقتاً ومُعداً قبل الأزمة."
+  },
+  {
+   "cat": "gaming",
+   "title": "Test EA Sports FC 27 : The Grounds change la donne",
+   "title_ar": "مراجعة EA Sports FC 27: وضع The Grounds يغيّر المعادلة",
+   "summary": "VGC donne 4/5 à FC 27 et le juge meilleur jeu de foot du moment, surtout grâce à The Grounds, un nouveau quartier ouvert et social. Le mode Carrière progresse beaucoup, Ultimate Team bouge peu.",
+   "summary_ar": "تمنح VGC لعبة FC 27 تقييم 4/5 وتعتبرها أفضل لعبة كرة قدم حاليا، خصوصا بفضل The Grounds، وهو حي مفتوح واجتماعي جديد. وضع المسيرة تحسّن كثيرا، بينما تغيّر Ultimate Team قليلا.",
+   "why": "Tu joues à FC et tu analyses des parcours : le test pointe des choix d'interface très concrets, comme une galerie trop automatisée et sans signaux de progrès clairs.",
+   "why_ar": "أنت تلعب FC وتحلل مسارات المستخدم: المراجعة تشير إلى اختيارات واجهة ملموسة، مثل معرض مؤتمت أكثر من اللازم وبدون مؤشرات تقدم واضحة.",
+   "source": "Video Games Chronicle",
+   "url": "https://www.videogameschronicle.com/review/ea-sports-fc-27/",
+   "date": "2026-09-18",
+   "minutes": 8,
+   "lang": "en",
+   "paywall": false,
+   "image": "https://www.videogameschronicle.com/files/2026/09/ea-fc-27-social.jpg",
+   "resume": "Chris Scullion donne 4/5 à EA Sports FC 27, qu'il considère comme le meilleur jeu de foot disponible. La grande nouveauté s'appelle The Grounds : une petite ville ouverte où l'on crée un avatar, parle à des personnages et suit des quêtes qui mènent surtout à des matchs, du 1 contre 1 au 11 contre 11. Le mode Clubs y est désormais intégré. Le testeur y croit, tout en rappelant que d'anciens modes comme The Journey ou Volta ont fini par s'éteindre.\nLe mode Carrière est l'autre point fort : les transferts se font en plusieurs étapes, avec négociations, imprévus et rivalités entre clubs. Ultimate Team évolue peu : une galerie qui garde toutes les cartes en collections notées, des cartes holographiques et des défis simplifiés, mais un classement trop automatique et peu lisible. Sur le terrain, c'est une évolution plutôt qu'une révolution, et le nouveau système de corners ne convainc pas.",
+   "resume_ar": "يمنح كريس سكاليون لعبة EA Sports FC 27 تقييم 4/5 ويعتبرها أفضل لعبة كرة قدم متاحة. الجديد الأكبر هو The Grounds: مدينة صغيرة مفتوحة ينشئ فيها اللاعب شخصية افتراضية ويتحدث مع شخصيات ويتبع مهام تقود غالبا إلى مباريات، من واحد ضد واحد إلى أحد عشر ضد أحد عشر. وأصبح وضع Clubs مدمجا فيها. المراجع متفائل بحذر، مذكّرا بأن أوضاعا سابقة مثل The Journey وVolta انتهت بالاختفاء.\nوضع المسيرة هو نقطة القوة الثانية: الانتقالات تمر بعدة مراحل مع مفاوضات ومفاجآت وتنافس بين الأندية. أما Ultimate Team فتغيّر قليلا: معرض يحفظ كل البطاقات في مجموعات مصنفة، وبطاقات هولوغرافية، وتحديات مبسطة، لكن الترتيب آلي أكثر من اللازم وغير واضح. وفي الملعب، التطور تدريجي لا ثوري، ونظام الركنيات الجديد غير مقنع.",
+   "points": [
+    "Note de 4/5.",
+    "The Grounds est le vrai pari de l'année.",
+    "La Carrière gagne des transferts plus réalistes.",
+    "Ultimate Team change peu.",
+    "Les nouveaux corners déçoivent."
+   ],
+   "points_ar": [
+    "تقييم 4/5.",
+    "The Grounds هو الرهان الحقيقي لهذا العام.",
+    "المسيرة تكسب انتقالات أكثر واقعية.",
+    "Ultimate Team تغيّر قليلا.",
+    "الركنيات الجديدة مخيبة."
+   ],
+   "takeaway": "Une bonne mise à jour, portée par un mode social encore à prouver dans la durée.",
+   "takeaway_ar": "تحديث جيد يقوم على وضع اجتماعي لم يثبت بعد قدرته على الاستمرار."
+  },
+  {
+   "cat": "gaming",
+   "title": "Après Breath of the Wild, un Zelda à donjons linéaires a-t-il encore sa place ?",
+   "title_ar": "بعد Breath of the Wild، هل ما زال لـZelda بزنزانات خطية مكان؟",
+   "summary": "À l'occasion du remake d'Ocarina of Time sur Switch 2, Jeuxvideo.com compare la liberté totale de Breath of the Wild à la progression guidée des anciens Zelda. L'article défend l'idée que les deux approches peuvent coexister.",
+   "summary_ar": "بمناسبة إعادة إنتاج Ocarina of Time على Switch 2، يقارن موقع Jeuxvideo.com بين الحرية الكاملة في Breath of the Wild والتقدم الموجَّه في أجزاء Zelda القديمة. ويدافع المقال عن فكرة أن المقاربتين يمكن أن تتعايشا.",
+   "why": "C'est un vrai débat de design : liberté contre parcours guidé, et comment des petits ajouts de confort rendent une structure ancienne acceptable aujourd'hui.",
+   "why_ar": "إنه نقاش تصميم حقيقي: الحرية مقابل المسار الموجَّه، وكيف تجعل تحسينات راحة صغيرة بنية قديمة مقبولة اليوم.",
+   "source": "Jeuxvideo.com",
+   "url": "https://www.jeuxvideo.com/news/2108690/le-probleme-de-l-apres-breath-of-the-wild-un-zelda-a-donjons-rigides-a-t-il-encore-sa-place-en-2026.htm",
+   "date": "2026-10-13",
+   "minutes": 5,
+   "lang": "fr",
+   "paywall": false,
+   "image": "https://image.jeuxvideo.com/medias-crop-1200-675/179181/1791808064-2142-card.jpg",
+   "resume": "Breath of the Wild a cassé la vieille recette des Zelda (un objet, un donjon, un boss) en remplaçant les grands labyrinthes par de nombreux sanctuaires et en laissant le joueur explorer comme il veut. Tears of the Kingdom a poussé cette liberté encore plus loin. Le remake d'Ocarina of Time sur Switch 2 fait le choix inverse : il garde la structure de 1998, où chaque donjon donne un outil qui ouvre la zone suivante. Pour un joueur habitué au monde ouvert, ce chemin imposé peut sembler un retour en arrière.\nPour adoucir cette rigidité, Nintendo ajoute du confort moderne : 60 images par seconde, caméra libre, objets plus rapides à équiper, suivi des quêtes et déplacements plus vifs. L'autrice parle d'une fatigue du monde ouvert, avec des cartes immenses mais répétitives. Un jeu plus court et mieux rythmé, de 25 à 30 heures, peut alors faire du bien. Si les jeunes joueurs suivent, cela prouverait que liberté et structure sont deux bonnes manières de concevoir.",
+   "resume_ar": "كسرت Breath of the Wild الوصفة القديمة لسلسلة Zelda (أداة واحدة، زنزانة واحدة، زعيم واحد) عبر استبدال المتاهات الكبيرة بعدد كبير من المزارات وترك اللاعب يستكشف كما يريد. ثم دفعت Tears of the Kingdom هذه الحرية أبعد. أما إعادة إنتاج Ocarina of Time على Switch 2 فتختار العكس: تحافظ على بنية 1998، حيث تمنح كل زنزانة أداة تفتح المنطقة التالية. وقد يبدو هذا المسار المفروض تراجعا للاعب اعتاد العالم المفتوح.\nولتخفيف هذا الجمود، أضافت Nintendo لمسات راحة حديثة: 60 إطارا في الثانية، وكاميرا حرة، وتجهيز أسرع للأدوات، ومتابعة للمهام، وحركة أكثر سلاسة. وتتحدث الكاتبة عن تعب من العوالم المفتوحة ذات الخرائط الضخمة والمتكررة. لذلك قد تكون لعبة أقصر وأحسن إيقاعا، بين 25 و30 ساعة، منعشة. وإذا تقبّلها اللاعبون الشباب، فسيثبت ذلك أن الحرية والبنية طريقتان جيدتان للتصميم.",
+   "points": [
+    "BOTW a remplacé les donjons par la liberté.",
+    "Le remake d'Ocarina garde la structure de 1998.",
+    "Des ajouts de confort modernisent l'expérience.",
+    "La fatigue du monde ouvert est réelle.",
+    "Liberté et structure peuvent coexister."
+   ],
+   "points_ar": [
+    "استبدلت BOTW الزنزانات بالحرية.",
+    "إعادة Ocarina تحافظ على بنية 1998.",
+    "لمسات راحة تحدّث التجربة.",
+    "التعب من العوالم المفتوحة حقيقي.",
+    "الحرية والبنية يمكن أن تتعايشا."
+   ],
+   "takeaway": "Un parcours guidé n'est pas dépassé s'il est bien rythmé et débarrassé de ses frictions.",
+   "takeaway_ar": "المسار الموجَّه ليس متجاوزا إذا كان جيد الإيقاع وخاليا من العوائق."
   }
  ],
  "meta": {
@@ -3713,5 +3946,211 @@
     ]
    }
   }
- }
+ },
+ "podcasts": [
+  {
+   "id": "buzzinga-zuckerberg-character-ai",
+   "lang": "ar",
+   "show": "Buzzinga أخبار الذكاء الاصطناعي",
+   "publisher": "Ali Moheyaldeen",
+   "title": "Zuckerberg refuse de ralentir, crise des frigos en France et faillite surprise de Character AI",
+   "title_ar": "زوكربيرغ يرفض التهدئة وأزمة ثلاجات فرنسا وإفلاس كاراكتر المفاجئ",
+   "cat": "ia",
+   "date": "2026-10-13",
+   "minutes": 11,
+   "summary": "Un point rapide sur l'actualité de l'IA : les nouveaux modèles de Meta et la position de Zuckerberg contre un ralentissement, la nouvelle puce Maia 300 de Microsoft, les discussions d'OpenAI autour de Sora et la faillite de Character AI. Pas d'invité : l'animateur Ali Moheyaldeen résume lui-même les nouvelles.",
+   "summary_ar": "جولة سريعة في أخبار الذكاء الاصطناعي: نماذج ميتا الجديدة وموقف زوكربيرغ الرافض لإبطاء التطوير، وشريحة مايكروسوفت Maia 300، ومحادثات أوبن إيه آي حول نموذج Sora، وإفلاس شركة Character AI. لا يوجد ضيف، فالمقدّم علي محيي الدين يلخّص الأخبار بنفسه.",
+   "why": "En 11 minutes et en arabe, tu fais le tour de la semaine IA sans lire dix articles.",
+   "why_ar": "في 11 دقيقة وبالعربية، تلمّ بأهم أخبار الذكاء الاصطناعي دون قراءة عشرات المقالات.",
+   "url": "https://podcasts.apple.com/us/podcast/%D8%B2%D9%88%D9%83%D8%B1%D8%A8%D9%8A%D8%B1%D8%BA-%D9%8A%D8%B1%D9%81%D8%B6-%D8%A7%D9%84%D8%AA%D9%87%D8%AF%D8%A6%D8%A9-%D9%88%D8%A3%D8%B2%D9%85%D8%A9-%D8%AB%D9%84%D8%A7%D8%AC%D8%A7%D8%AA-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D9%88%D8%A5%D9%81%D9%84%D8%A7%D8%B3-%D9%83%D8%A7%D8%B1%D8%A7%D9%83%D8%AA%D8%B1/id1772300534?i=1000796143313",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/90/da/4c/90da4c64-1ded-629f-a91f-ba337363cf92/mza_13111357762031614430.png/600x600bb.jpg"
+  },
+  {
+   "id": "tech-bahat-souhaib-diab-produit",
+   "lang": "ar",
+   "show": "تقني بحت مع طارق العوزة",
+   "publisher": "Tariq Elouzeh",
+   "title": "Développement produit : 20 ans de leçons qu'on ne trouve nulle part ailleurs",
+   "title_ar": "تطوير المنتجات: ٢٠ عاماً من الدروس اللي ما بتلقاها بأي مكان | صهيب ذياب",
+   "cat": "ux",
+   "date": "2026-09-04",
+   "minutes": 120,
+   "summary": "Tariq Elouzeh reçoit Souhaib Diab, un vétéran de la création de produits numériques qui a fondé puis vendu des entreprises. Il partage ce qu'il a appris en vingt ans de travail entre la Jordanie et l'Europe.",
+   "summary_ar": "يستضيف طارق العوزة صهيب ذياب، صاحب الخبرة الطويلة في بناء المنتجات الرقمية، الذي أسّس شركات ثم باعها. يشارك خلاصة عشرين عاماً من العمل بين الأردن وأوروبا.",
+   "why": "C'est le regard d'un bâtisseur de produits arabe sur ton propre métier, utile pour ton passage vers le conseil en stratégie UX.",
+   "why_ar": "نظرة صانع منتجات عربي إلى مهنتك نفسها، مفيدة لانتقالك نحو استشارات استراتيجية تجربة المستخدم.",
+   "url": "https://podcasts.apple.com/us/podcast/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA-%D9%A2%D9%A0-%D8%B9%D8%A7%D9%85%D8%A7-%D9%85%D9%86-%D8%A7%D9%84%D8%AF%D8%B1%D9%88%D8%B3-%D8%A7%D9%84%D9%84%D9%8A-%D9%85%D8%A7-%D8%A8%D8%AA%D9%84%D9%82%D8%A7%D9%87%D8%A7-%D8%A8%D8%A3%D9%8A/id1771045340?i=1000787801353",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/bc/d4/44/bcd4445c-48b0-4d4d-9f2e-00e10c0aaf1e/mza_4859821125348906300.jpg/600x600bb.jpg"
+  },
+  {
+   "id": "sharq-tunisie-kais-saied",
+   "lang": "ar",
+   "show": "بودكاست الشرق",
+   "publisher": "منتدى الشرق (Al Sharq Forum)",
+   "title": "Comment la Tunisie est-elle gouvernée sous Kaïs Saïed ?",
+   "title_ar": "كيف تُحكم تونس في عهد قيس سعيد؟ | بودكاست الشرق مع حمزة المؤدب",
+   "cat": "geo",
+   "date": "2026-10-08",
+   "minutes": 162,
+   "summary": "Une longue discussion sur la crise politique et économique en Tunisie et sur la concentration du pouvoir entre les mains du président Kaïs Saïed. L'invité est Hamza Meddeb, chercheur au centre Carnegie.",
+   "summary_ar": "حوار مطوّل حول الأزمة السياسية والاقتصادية في تونس وتركّز السلطة في يد الرئيس قيس سعيد. الضيف هو الباحث حمزة المؤدب من مركز كارنيغي.",
+   "why": "Pour comprendre ce qui se passe chez un voisin maghrébin, avec un vrai spécialiste et du temps pour aller au fond.",
+   "why_ar": "لتفهم ما يجري لدى جار مغاربي، مع باحث متخصص ووقت كافٍ للتعمق.",
+   "url": "https://podcasts.apple.com/us/podcast/%D9%83%D9%8A%D9%81-%D8%AA-%D8%AD%D9%83%D9%85-%D8%AA%D9%88%D9%86%D8%B3-%D9%81%D9%8A-%D8%B9%D9%87%D8%AF-%D9%82%D9%8A%D8%B3-%D8%B3%D8%B9%D9%8A%D8%AF-%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA-%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D9%85%D8%B9-%D8%AD%D9%85%D8%B2%D8%A9-%D8%A7%D9%84%D9%85%D8%A4%D8%AF%D8%A8/id1719614885?i=1000793899398",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/4f/5e/f7/4f5ef79a-e761-2abe-7eba-8a48cddbb908/mza_11209774199318476952.jpg/600x600bb.jpg"
+  },
+  {
+   "id": "petroli-charte-familiale",
+   "lang": "ar",
+   "show": "بترولي",
+   "publisher": "إذاعة مختلف (Mukhtalif)",
+   "title": "La charte familiale : pourquoi les grandes entreprises familiales s'effondrent",
+   "title_ar": "ميثاق العائلة: لماذا تنهار أكبر الشركات العائلية",
+   "cat": "eco",
+   "date": "2026-10-10",
+   "minutes": 52,
+   "summary": "L'épisode explique la gouvernance familiale et le rôle d'une charte écrite dans les entreprises de famille. L'invité, l'avocat et conseiller juridique Obaid Al-Obaid, montre pourquoi beaucoup de ces sociétés disparaissent avant la quatrième génération.",
+   "summary_ar": "تشرح الحلقة حوكمة العائلة ودور الميثاق المكتوب في الشركات العائلية. ويوضح الضيف، وهو محامٍ ومستشار قانوني، لماذا تختفي كثير من هذه الشركات قبل الجيل الرابع.",
+   "why": "Au Maroc, beaucoup de clients potentiels sont des entreprises familiales : comprendre leurs blocages t'aidera en conseil.",
+   "why_ar": "في المغرب كثير من العملاء المحتملين شركات عائلية، وفهم عثراتها يفيدك في عملك الاستشاري.",
+   "url": "https://podcasts.apple.com/us/podcast/%D9%85%D9%8A%D8%AB%D8%A7%D9%82-%D8%A7%D9%84%D8%B9%D8%A7%D8%A6%D9%84%D8%A9-%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D8%AA%D9%86%D9%87%D8%A7%D8%B1-%D8%A3%D9%83%D8%A8%D8%B1-%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D8%A7%D8%A6%D9%84%D9%8A%D8%A9/id1532674246?i=1000794785320",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/8a/24/57/8a2457f5-2eb9-5256-bf3f-7143c4bab389/mza_8518866035822824382.jpg/600x600bb.jpg"
+  },
+  {
+   "id": "daheeh-adriano",
+   "lang": "ar",
+   "show": "El Daheeh - الدحيح",
+   "publisher": "Global Digital Media",
+   "title": "Adriano : l'homme qui a refusé d'être une légende",
+   "title_ar": "الدحيح | أدريانو: الرجل الذى رفض أن يكون أسطورة",
+   "cat": "sport",
+   "date": "2026-10-06",
+   "minutes": 40,
+   "summary": "Ahmed El Ghandour raconte la vie de l'attaquant brésilien Adriano, des rues de Rio jusqu'aux grands clubs italiens. Il explique aussi pourquoi le joueur a choisi de tourner le dos à la célébrité.",
+   "summary_ar": "يروي أحمد الغندور قصة المهاجم البرازيلي أدريانو، من شوارع ريو إلى أندية إيطاليا الكبرى. ويشرح لماذا اختار اللاعب أن يبتعد عن الشهرة.",
+   "why": "Une histoire de foot racontée avec le style vivant du Daheeh, parfaite pour un trajet.",
+   "why_ar": "قصة كروية بأسلوب الدحيح الممتع، مثالية لمشوار بالسيارة.",
+   "url": "https://podcasts.apple.com/us/podcast/%D8%A7%D9%84%D8%AF%D8%AD%D9%8A%D8%AD-%D8%A3%D8%AF%D8%B1%D9%8A%D8%A7%D9%86%D9%88-%D8%A7%D9%84%D8%B1%D8%AC%D9%84-%D8%A7%D9%84%D8%B0%D9%89-%D8%B1%D9%81%D8%B6-%D8%A3%D9%86-%D9%8A%D9%83%D9%88%D9%86-%D8%A3%D8%B3%D8%B7%D9%88%D8%B1%D8%A9/id1847596356?i=1000793442426",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5d/1f/f4/5d1ff410-a22e-ce15-939e-e20a7ec271bc/mza_16941440897472819675.jpg/600x600bb.jpg"
+  },
+  {
+   "id": "fe-el-hadara-taxi-driver",
+   "lang": "ar",
+   "show": "Fe El Hadara - في الحضارة",
+   "publisher": "Global Digital Media",
+   "title": "Taxi Driver",
+   "title_ar": "تاكسي درايفر │ في الحضارة",
+   "cat": "divers",
+   "date": "2026-10-11",
+   "minutes": 43,
+   "summary": "L'épisode montre comment l'œuvre de Dostoïevski a influencé le film Taxi Driver de Scorsese. Il analyse aussi le passé difficile de son personnage principal ; pas d'invité, c'est un récit raconté par l'animateur.",
+   "summary_ar": "تكشف الحلقة كيف أثّر أدب دوستويفسكي في فيلم تاكسي درايفر لسكورسيزي، وتحلّل الماضي المضطرب لبطله. لا يوجد ضيف، فالحلقة سرد يقدّمه المذيع.",
+   "why": "Un pont entre cinéma, littérature et psychologie, pour nourrir ta culture et ton regard de designer.",
+   "why_ar": "جسر بين السينما والأدب وعلم النفس، يغذّي ثقافتك ونظرتك كمصمم.",
+   "url": "https://podcasts.apple.com/us/podcast/%D8%AA%D8%A7%D9%83%D8%B3%D9%8A-%D8%AF%D8%B1%D8%A7%D9%8A%D9%81%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D8%AD%D8%B6%D8%A7%D8%B1%D8%A9/id6798300725?i=1000795243251",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/08/aa/8f/08aa8fbc-4275-dec0-0738-b59ccf3e598c/mza_16159067486725498193.jpg/600x600bb.jpg"
+  },
+  {
+   "id": "heure-du-monde-ceuta",
+   "lang": "fr",
+   "show": "L'Heure du Monde",
+   "publisher": "Le Monde",
+   "title": "Crise migratoire à Ceuta : l'Espagne dans l'impasse",
+   "title_ar": "أزمة الهجرة في سبتة: إسبانيا في مأزق",
+   "cat": "maroc",
+   "date": "2026-10-08",
+   "minutes": 24,
+   "summary": "Le Monde revient sur l'arrivée massive de migrants à la nage à Ceuta en juillet et sur la crise humanitaire qui a suivi. L'épisode montre comment cette situation pèse sur la politique espagnole et sur les relations avec l'Union européenne.",
+   "summary_ar": "تعود لوموند إلى وصول أعداد كبيرة من المهاجرين سباحةً إلى سبتة في يوليو، وإلى الأزمة الإنسانية التي تلت ذلك. وتوضح الحلقة كيف يضغط هذا الوضع على السياسة الإسبانية وعلى العلاقات مع الاتحاد الأوروبي.",
+   "why": "Un sujet à la frontière du Maroc, vu depuis une grande rédaction européenne : utile pour comparer les points de vue.",
+   "why_ar": "قضية على حدود المغرب من منظور صحيفة أوروبية كبرى، مفيدة لمقارنة وجهات النظر.",
+   "url": "https://podcasts.apple.com/us/podcast/crise-migratoire-%C3%A0-ceuta-lespagne-dans-limpasse/id1704984604?i=1000793784813",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/09/b4/9f/09b49f13-4c73-2e89-5bdd-117a5a787623/mza_10769402460129893157.jpeg/600x600bb.jpg"
+  },
+  {
+   "id": "underscore-quentin-adam-devs-ia",
+   "lang": "fr",
+   "show": "Underscore_",
+   "publisher": "Micode",
+   "title": "On ne paie plus les développeurs pour écrire du code ?",
+   "title_ar": "هل لم نعد ندفع للمطوّرين مقابل كتابة الشيفرة؟",
+   "cat": "ia",
+   "date": "2026-10-08",
+   "minutes": 38,
+   "summary": "Quentin Adam, à la tête d'une entreprise tech française d'environ 70 développeurs, raconte comment il est passé du doute à une réorganisation complète autour de l'IA. Il explique ce que cela change concrètement dans le travail de ses équipes.",
+   "summary_ar": "يحكي كانتان آدم، الذي يدير شركة تقنية فرنسية تضم نحو 70 مطوّراً، كيف انتقل من الشك إلى إعادة تنظيم شركته بالكامل حول الذكاء الاصطناعي. ويشرح ما الذي تغيّر فعلياً في عمل فرقه.",
+   "why": "Avec ton passé de développeur, tu verras vite ce que l'IA change pour les équipes produit que tu conseilles.",
+   "why_ar": "بخلفيتك في التطوير، سترى بسرعة ما يغيّره الذكاء الاصطناعي في فرق المنتج التي تقدّم لها الاستشارة.",
+   "url": "https://podcasts.apple.com/us/podcast/on-ne-paie-plus-les-d%C3%A9veloppeurs-pour-%C3%A9crire-du-code/id1556250107?i=1000793801348",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/49/1b/52/491b523c-404c-9d8e-f810-beedcdd2d8b1/mza_12879556782584196351.jpeg/600x600bb.jpg"
+  },
+  {
+   "id": "gdiy-568-veolia-eau",
+   "lang": "fr",
+   "show": "Génération Do It Yourself",
+   "publisher": "Matthieu Stefani / Orso Media",
+   "title": "#568 - Estelle Brachlianoff - Veolia - Va-t-on se battre pour l'eau comme on s'est battus pour le pétrole ?",
+   "title_ar": "هل سنتقاتل على الماء كما تقاتلنا على النفط؟ - إستيل براشليانوف (فيوليا)",
+   "cat": "eco",
+   "date": "2026-09-27",
+   "minutes": 137,
+   "summary": "Matthieu Stefani reçoit Estelle Brachlianoff, directrice générale de Veolia, pour parler d'eau, de déchets, d'énergie et d'adaptation au climat. L'épisode fait partie d'une série d'entretiens avec des patrons du CAC 40.",
+   "summary_ar": "يستضيف ماتيو ستيفاني إستيل براشليانوف، المديرة العامة لشركة فيوليا، للحديث عن الماء والنفايات والطاقة والتكيّف مع المناخ. الحلقة جزء من سلسلة لقاءات مع قادة كبرى الشركات الفرنسية.",
+   "why": "La question de l'eau touche directement le Maroc et ses barrages : ici, tu as la vision d'une grande entreprise du secteur.",
+   "why_ar": "قضية الماء تمسّ المغرب وسدوده مباشرة، وهنا تسمع رؤية شركة كبرى في هذا القطاع.",
+   "url": "https://podcasts.apple.com/us/podcast/568-estelle-brachlianoff-veolia-va-t-on-se-battre-pour/id1209142994?i=1000791816738",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6e/c3/2b/6ec32b79-2560-40a5-3f5a-3fe7e677fa70/mza_7744718912297422250.jpg/600x600bb.jpg"
+  },
+  {
+   "id": "rfi-geopolitique-moyen-orient",
+   "lang": "fr",
+   "show": "Géopolitique",
+   "publisher": "RFI",
+   "title": "Quelle recomposition pour le Moyen-Orient déchiré par les guerres ?",
+   "title_ar": "أي إعادة تشكيل للشرق الأوسط الممزّق بالحروب؟",
+   "cat": "geo",
+   "date": "2026-09-26",
+   "minutes": 49,
+   "summary": "Trois spécialistes analysent la crise du détroit d'Ormuz après la guerre américaine contre l'Iran et les nouvelles alliances au Moyen-Orient. Les invités sont Fatiha Dazi-Heni, Chahir Zaki et Myriam Benraad.",
+   "summary_ar": "يحلّل ثلاثة خبراء أزمة مضيق هرمز بعد الحرب الأمريكية على إيران، والتحالفات الجديدة في الشرق الأوسط. الضيوف هم فتيحة دازي-هيني وشاهر زكي وميريام بنراد.",
+   "why": "Un débat clair et posé pour comprendre une région qui pèse sur l'énergie, le commerce et le Maroc.",
+   "why_ar": "نقاش واضح وهادئ لفهم منطقة تؤثر في الطاقة والتجارة وفي المغرب أيضاً.",
+   "url": "https://podcasts.apple.com/us/podcast/quelle-recomposition-pour-le-moyen-orient-d%C3%A9chir%C3%A9-par/id1500236219?i=1000791730969",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/98/ee/ea/98eeea22-85e5-5c6f-217f-fb7c4e286d05/mza_16645382511020718594.jpg/600x600bb.jpg"
+  },
+  {
+   "id": "big5-affaire-manchester-city",
+   "lang": "fr",
+   "show": "Big 5, le podcast foot de L'Équipe",
+   "publisher": "L'Équipe",
+   "title": "La tricherie du siècle ? Tout comprendre à l'affaire Manchester City",
+   "title_ar": "غشّ القرن؟ كل ما يجب فهمه عن قضية مانشستر سيتي",
+   "cat": "sport",
+   "date": "2026-10-01",
+   "minutes": 31,
+   "summary": "Les journalistes de L'Équipe expliquent les conclusions de la Premier League contre Manchester City et les sanctions possibles. Les invités sont Pierre-Étienne Minonzio et Thymoté Pinon.",
+   "summary_ar": "يشرح صحفيو ليكيب ما توصّلت إليه رابطة الدوري الإنجليزي ضد مانشستر سيتي والعقوبات المحتملة. الضيفان هما بيير-إتيان مينونزيو وتيموتيه بينون.",
+   "why": "L'affaire qui peut bouleverser le foot anglais, expliquée simplement en une demi-heure.",
+   "why_ar": "القضية التي قد تقلب الكرة الإنجليزية رأساً على عقب، مشروحة ببساطة في نصف ساعة.",
+   "url": "https://podcasts.apple.com/us/podcast/la-tricherie-du-si%C3%A8cle-tout-comprendre-%C3%A0-laffaire-manchester/id1478425288?i=1000792603447",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/d3/4c/ce/d34ccef7-f47e-d161-66af-c9f24c564b01/mza_11960291202269019479.jpeg/600x600bb.jpg"
+  },
+  {
+   "id": "ecoscope-maroc-13-10",
+   "lang": "fr",
+   "show": "ÉcoScope : Regard sur l'Économie au Maroc",
+   "publisher": "ÉcoScope",
+   "title": "ÉcoScope — 13/10/2026 : Nouveau gouvernement, croissance revue à la baisse et pêche en pleine forme",
+   "title_ar": "إيكوسكوب 13/10/2026: حكومة جديدة، مراجعة النمو نحو الانخفاض، وصيد بحري في أحسن حال",
+   "cat": "maroc",
+   "date": "2026-10-13",
+   "minutes": 5,
+   "summary": "Un court bulletin quotidien sur l'économie marocaine : la nouvelle coalition hérite d'une dette budgétaire lourde et la prévision de croissance passe à 4,7 %. Il signale aussi une hausse de 19 % de la pêche côtière à fin septembre ; pas d'invité.",
+   "summary_ar": "نشرة يومية قصيرة عن الاقتصاد المغربي: الائتلاف الحكومي الجديد يرث ديناً ثقيلاً في الميزانية، وتوقّع النمو يتراجع إلى 4.7%. وتشير أيضاً إلى ارتفاع الصيد الساحلي بنسبة 19% حتى نهاية سبتمبر، دون ضيف.",
+   "why": "Cinq minutes chaque matin pour suivre l'économie du Maroc, idéal avant de commencer ta journée.",
+   "why_ar": "خمس دقائق كل صباح لمتابعة اقتصاد المغرب، مثالية قبل بدء يومك.",
+   "url": "https://podcasts.apple.com/us/podcast/%C3%A9coscope-13-10-2026-nouveau-gouvernement-croissance/id1896944726?i=1000796079575",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/84/9a/a5/849aa556-8900-87e0-5259-7cae91ee9ef7/mza_8950236931252526063.jpg/600x600bb.jpg"
+  }
+ ]
 }

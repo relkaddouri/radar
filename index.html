@@ -30,7 +30,7 @@
   --nuit:#17144A; --nuit2:#262070; --nuit-ink:#F4F2FF; --nuit-muted:#ABA5E6;
   --safran:#F2A92E; --safran-ink:#2A1A00; --star:#E09A10;
   --foot:#1E8549; --tennis:#6F7E00; --f1:#D2232A; --boxe:#9A4F1C; --mma:#6A3E9E; --basket:#D9600F; --culture:#A97A1E;
-  --maroc:#C1272D; --tech:#0B6E99; --geo:#7D4A2E; --ux:#4F55D6; --art:#A97A1E; --cinema:#9C3555; --enfant:#C2407A; --monte:#2E7D6B;
+  --maroc:#C1272D; --tech:#4A6072; --geo:#7D4A2E; --ux:#4F55D6; --art:#A97A1E; --cinema:#9C3555; --enfant:#C2407A; --monte:#2E7D6B; --ia:#6D3FE0; --eco:#A3700F; --gaming:#C7357E; --divers:#2E7D6B;
   --sans:"Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;
   --serif:"Newsreader",Georgia,"Times New Roman",serif;
   --arabic:"IBM Plex Sans Arabic","Noto Sans Arabic","Segoe UI",Tahoma,sans-serif;
@@ -43,7 +43,7 @@
   --nuit:#141043; --nuit2:#221C66;
   --star:#F2C14E;
   --foot:#4CC27E; --tennis:#C3D23A; --f1:#FF5A5F; --boxe:#D99060; --mma:#AE86E6; --basket:#FF8B3D; --culture:#E3B456;
-  --maroc:#FF6B6F; --tech:#4DB3E0; --geo:#D9905F; --ux:#8E93FF; --art:#E3B456; --cinema:#E77C9C; --enfant:#EE7EAE; --monte:#5CC2A8;
+  --maroc:#FF6B6F; --tech:#8FA6BA; --geo:#D9905F; --ux:#8E93FF; --art:#E3B456; --cinema:#E77C9C; --enfant:#EE7EAE; --monte:#5CC2A8; --ia:#B39BFF; --eco:#E3B456; --gaming:#F06AA8; --divers:#5CC2A8;
   color-scheme:dark }}
 :root[data-theme="dark"]{
   --bg:#0E0D18; --surface:#18172A; --raised:#211F36; --ink:#EEEDF7; --muted:#A4A3BC; --line:#2C2B44;
@@ -51,7 +51,7 @@
   --nuit:#141043; --nuit2:#221C66;
   --star:#F2C14E;
   --foot:#4CC27E; --tennis:#C3D23A; --f1:#FF5A5F; --boxe:#D99060; --mma:#AE86E6; --basket:#FF8B3D; --culture:#E3B456;
-  --maroc:#FF6B6F; --tech:#4DB3E0; --geo:#D9905F; --ux:#8E93FF; --art:#E3B456; --cinema:#E77C9C; --enfant:#EE7EAE; --monte:#5CC2A8;
+  --maroc:#FF6B6F; --tech:#8FA6BA; --geo:#D9905F; --ux:#8E93FF; --art:#E3B456; --cinema:#E77C9C; --enfant:#EE7EAE; --monte:#5CC2A8; --ia:#B39BFF; --eco:#E3B456; --gaming:#F06AA8; --divers:#5CC2A8;
   color-scheme:dark }
 
 *{box-sizing:border-box}
@@ -348,8 +348,8 @@ details.ev[open] > summary{background:var(--raised)}
 <script>
 const T = {
   fr:{
-    app:"Radar", tabs:{home:"Accueil",agenda:"Agenda",news:"Actus",screens:"Écrans",reads:"À lire",settings:"Réglages"},
-    titles:{home:"Aujourd'hui",agenda:"Agenda",news:"Actus",screens:"Films & séries",reads:"À lire",settings:"Réglages"},
+    app:"Radar", tabs:{home:"Accueil",agenda:"Agenda",news:"Actus",screens:"Écrans",reads:"Lectures",settings:"Réglages"},
+    titles:{home:"Aujourd'hui",agenda:"Agenda",news:"Actus",screens:"Films & séries",reads:"Lectures et podcasts",settings:"Réglages"},
     scr:{picks:"Choisis pour toi", newOut:"Sortis récemment", soon:"Bientôt", bo:"Box-office", boUS:"États-Unis · week-end", boFR:"France · semaine (entrées)", weeks:n=>`${n} sem.`, forYou:"L\u2019avis de Claude : ", forYouH:"L\u2019avis de Claude", criticsH:"Les critiques", film:"Film", serie:"Série", out:"Sorti le ", outOn:"Sortie le ", pick:"Choix Radar", fam:"En famille", list:"Ma liste", add:"+ Ma liste", inList:"Dans ma liste ✓", trailer:"Bande-annonce", more:"En savoir plus", all:"Tout", empty:"Rien ici pour le moment.", listEmpty:"Ta liste est vide. Touche « + Ma liste » sur un film ou une série.", note:"Sélection et avis « Pour toi » écrits par Claude, mis à jour 3 fois par jour. Les dates peuvent varier selon le pays.", src:"Source : ", home:"À l'écran", seeAll:"Tous les films et séries"}, photo:"Photo : ",
     ed:{title:"Ton édition", nothing:"Tu as tout vu.", next:h=>`Prochaine édition à ${h}`, end:"Fin de l\u2019édition", endSub:h=>`Tu es à jour. Prochaine édition à ${h}.`, results:"résultats", news:"actus", reads:"lectures", films:"films et séries", edAt:h=>`Édition de ${h}`, fiche:"Fiche Radar", fichesH:"Fiches de lecture", byClaude:"écrites par Claude", readOn:s=>`Lire sur ${s}`, week:"Cette semaine"},
     cd:{d:"j",h:"h",m:"min",today:"Aujourd\u2019hui"}, ring:["24 h","3 j","7 j"], agendaNote:"Touche un événement pour voir le lieu, l\u2019enjeu et l\u2019ajouter à ton calendrier. L\u2019étoile le garde dans tes favoris.",
@@ -371,13 +371,14 @@ const T = {
     lang:"Langue", mySports:"Mes sports et sorties", myTopics:"Mes sujets d'actus",
     settingsNote:"Tes choix restent enregistrés sur ce téléphone. L'agenda et les actus sont mis à jour chaque matin.",
     sports:{football:"Football",basket:"Basket",tennis:"Tennis",f1:"F1",boxe:"Boxe",mma:"MMA",culture:"Culture"},
-    cats:{maroc:"Maroc",sport:"Sport",tech:"Tech",geo:"Géopolitique",ux:"UX Design",art:"Art",cinema:"Cinéma",enfant:"Enfant",montessori:"Montessori"},
-    subs:{economie:"Économie",politique:"Politique",societe:"Société"},
+    cats:{maroc:"Maroc",sport:"Sport",ia:"IA",eco:"Économie",tech:"Tech",gaming:"Gaming",geo:"Géopolitique",ux:"UX Design",divers:"Variétés",cinema:"Films & séries",art:"Art",enfant:"Enfant",montessori:"Montessori"},
+    subs:{economie:"Économie",politique:"Politique",societe:"Société",enfant:"Enfant",montessori:"Montessori"},
+    pod:{h:"Podcasts", chip:"Podcasts", ar:"En arabe", fr:"En français", listen:"Écouter l\u2019épisode", home:"À écouter", note:"Épisodes choisis par Claude en arabe et en français, mis à jour chaque jour.", lang:{ar:"Arabe",fr:"Français"}}, cineNews:"Actus ciné et séries",
     locale:"fr-FR"
   },
   ar:{
-    app:"رادار", tabs:{home:"الرئيسية",agenda:"المواعيد",news:"الأخبار",screens:"الشاشات",reads:"للقراءة",settings:"الإعدادات"},
-    titles:{home:"اليوم",agenda:"المواعيد",news:"الأخبار",screens:"أفلام ومسلسلات",reads:"للقراءة",settings:"الإعدادات"},
+    app:"رادار", tabs:{home:"الرئيسية",agenda:"المواعيد",news:"الأخبار",screens:"الشاشات",reads:"قراءات",settings:"الإعدادات"},
+    titles:{home:"اليوم",agenda:"المواعيد",news:"الأخبار",screens:"أفلام ومسلسلات",reads:"قراءات وبودكاست",settings:"الإعدادات"},
     scr:{picks:"اخترناها لك", newOut:"صدرت حديثًا", soon:"قريبًا", bo:"شباك التذاكر", boUS:"الولايات المتحدة · نهاية الأسبوع", boFR:"فرنسا · الأسبوع (عدد التذاكر)", weeks:n=>`${n} أسبوع`, forYou:"رأي Claude: ", forYouH:"رأي Claude", criticsH:"النقاد", film:"فيلم", serie:"مسلسل", out:"صدر في ", outOn:"يصدر في ", pick:"اختيار رادار", fam:"للعائلة", list:"قائمتي", add:"+ قائمتي", inList:"في قائمتي ✓", trailer:"الإعلان", more:"المزيد", all:"الكل", empty:"لا شيء هنا حاليًا.", listEmpty:"قائمتك فارغة. اضغط «+ قائمتي» على فيلم أو مسلسل.", note:"الاختيار وآراء «لك» كتبها Claude، وتُحدَّث 3 مرات يوميًا. قد تختلف التواريخ حسب البلد.", src:"المصدر: ", home:"على الشاشة", seeAll:"كل الأفلام والمسلسلات"}, photo:"صورة: ",
     ed:{title:"نسختك اليوم", nothing:"اطّلعت على كل شيء.", next:h=>`النسخة القادمة على ${h}`, end:"نهاية النسخة", endSub:h=>`أنت على اطلاع. النسخة القادمة على ${h}.`, results:"نتائج", news:"أخبار", reads:"قراءات", films:"أفلام ومسلسلات", edAt:h=>`نسخة ${h}`, fiche:"بطاقة رادار", fichesH:"بطاقات القراءة", byClaude:"كتبها Claude", readOn:s=>`اقرأ على ${s}`, week:"هذا الأسبوع"},
     cd:{d:"ي",h:"س",m:"د",today:"اليوم"}, ring:["24س","3ي","7ي"], agendaNote:"اضغط على موعد لرؤية المكان والرهان وإضافته إلى تقويمك. النجمة تحفظه في مفضلتك.",
@@ -399,13 +400,15 @@ const T = {
     lang:"اللغة", mySports:"رياضاتي وخرجاتي", myTopics:"مواضيع الأخبار",
     settingsNote:"تُحفظ اختياراتك على هذا الهاتف. يتم تحديث المواعيد والأخبار كل صباح.",
     sports:{football:"كرة القدم",basket:"كرة السلة",tennis:"التنس",f1:"الفورمولا 1",boxe:"الملاكمة",mma:"الفنون القتالية",culture:"ثقافة"},
-    cats:{maroc:"المغرب",sport:"رياضة",tech:"تكنولوجيا",geo:"جيوسياسة",ux:"تصميم تجربة المستخدم",art:"فن",cinema:"سينما",enfant:"الطفل",montessori:"مونتيسوري"},
-    subs:{economie:"اقتصاد",politique:"سياسة",societe:"مجتمع"},
+    cats:{maroc:"المغرب",sport:"رياضة",ia:"الذكاء الاصطناعي",eco:"الاقتصاد",tech:"تكنولوجيا",gaming:"ألعاب الفيديو",geo:"جيوسياسة",ux:"تصميم تجربة المستخدم",divers:"منوعات",cinema:"أفلام ومسلسلات",art:"فن",enfant:"الطفل",montessori:"مونتيسوري"},
+    subs:{economie:"اقتصاد",politique:"سياسة",societe:"مجتمع",enfant:"الطفل",montessori:"مونتيسوري"},
+    pod:{h:"بودكاست", chip:"بودكاست", ar:"بالعربية", fr:"بالفرنسية", listen:"استمع إلى الحلقة", home:"للاستماع", note:"حلقات يختارها Claude بالعربية والفرنسية، تُحدَّث يوميًا.", lang:{ar:"عربي",fr:"فرنسي"}}, cineNews:"أخبار السينما والمسلسلات",
     locale:"ar-MA"
   }
 };
 const SPORT_C = {football:"--foot",basket:"--basket",tennis:"--tennis",f1:"--f1",boxe:"--boxe",mma:"--mma",culture:"--culture"};
-const CAT_C = {maroc:"--maroc",sport:"--foot",tech:"--tech",geo:"--geo",ux:"--ux",art:"--art",cinema:"--cinema",enfant:"--enfant",montessori:"--monte"};
+const CAT_C = {maroc:"--maroc",sport:"--foot",ia:"--ia",eco:"--eco",tech:"--tech",gaming:"--gaming",geo:"--geo",ux:"--ux",divers:"--divers",cinema:"--cinema"};
+const FEED_CATS = Object.keys(CAT_C).filter(k=>k!=="cinema");
 const S = (d) => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
 const TI = {
   football: S('<circle cx="12" cy="12" r="9"/><path d="M12 7.6l3.9 2.8-1.5 4.6H9.6l-1.5-4.6z"/><path d="M12 3v4.6M20.6 9.5l-4.7.9M17.6 19.3l-3.2-4.3M6.4 19.3l3.2-4.3M3.4 9.5l4.7.9"/>'),
@@ -423,6 +426,11 @@ const TI = {
   art: S('<path d="M12 3a9 9 0 1 0 0 18c1.2 0 1.8-.8 1.8-1.7 0-1.4-1.3-1.7-1.3-3 0-1 .8-1.8 1.8-1.8H17a4 4 0 0 0 4-4C21 6.6 17 3 12 3z"/><circle cx="7.5" cy="11.5" r="1.1"/><circle cx="10" cy="7.3" r="1.1"/><circle cx="15" cy="7.6" r="1.1"/>'),
   cinema: S('<rect x="3" y="9.5" width="18" height="10.5" rx="1.5"/><path d="M3.4 9.5 4.8 5h14.4l1.4 4.5M8.6 5 7.2 9.5M13.4 5 12 9.5M18.2 5l-1.4 4.5"/>'),
   enfant: S('<circle cx="12" cy="13" r="7.5"/><path d="M9.6 15.3a3.3 3.3 0 0 0 4.8 0"/><path d="M12 5.5c-1.3-.3-1.8-1.6-.8-2.5"/><circle cx="9.4" cy="11.8" r=".9" fill="currentColor" stroke="none"/><circle cx="14.6" cy="11.8" r=".9" fill="currentColor" stroke="none"/>'),
+  ia: S('<rect x="5" y="5" width="14" height="14" rx="3"/><path d="M9 3v2M15 3v2M9 19v2M15 19v2M3 9h2M3 15h2M19 9h2M19 15h2"/><path d="M12 8.5l1 2.5 2.5 1-2.5 1-1 2.5-1-2.5-2.5-1 2.5-1z"/>'),
+  eco: S('<path d="M3 20h18"/><path d="M5 16l4.5-5 3.5 3 6-7"/><path d="M15 7h4v4"/>'),
+  gaming: S('<path d="M7.5 7h9a5 5 0 0 1 4.9 6l-.6 3.1a2.3 2.3 0 0 1-3.9 1.1L15 15H9l-1.9 2.2a2.3 2.3 0 0 1-3.9-1.1L2.6 13A5 5 0 0 1 7.5 7z"/><path d="M7.5 10v3M6 11.5h3"/><circle cx="15.5" cy="10.5" r=".9" fill="currentColor" stroke="none"/><circle cx="17.5" cy="12.5" r=".9" fill="currentColor" stroke="none"/>'),
+  divers: S('<circle cx="7.5" cy="7.5" r="3.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><path d="M7.5 13.5l4 7h-8z"/><path d="M16.5 13.5l1.2 2.4 2.6.4-1.9 1.8.5 2.6-2.4-1.3-2.3 1.3.4-2.6-1.9-1.8 2.6-.4z"/>'),
+  podcast: S('<rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M8.5 21h7"/>'),
   montessori: S('<rect x="3.5" y="13.5" width="7.5" height="7" rx="1"/><rect x="13" y="13.5" width="7.5" height="7" rx="1"/><rect x="8.2" y="4.5" width="7.5" height="7" rx="1"/>')
 };
 const ico = (k) => TI[k] ? `<span class="ti">${TI[k]}</span>` : `<span class="dot"></span>`;
@@ -447,7 +455,7 @@ let state = {
   sportFilter:"all", catFilter:"all", readFilter:"all",
   hiddenSports: new Set(store.get("radar-hidden-sports",[])),
   hiddenCats: new Set(store.get("radar-hidden-cats",[])),
-  events:null, news:null, reads:null, analyses:[], screen:null, scrFilter:"all", detail:null, meta:null, err:null, offline:false
+  events:null, news:null, reads:null, analyses:[], podcasts:[], screen:null, scrFilter:"all", detail:null, meta:null, err:null, offline:false
 };
 if (!["home","agenda","news","screens","reads","settings"].includes(state.tab)) state.tab="home";
 const myList = new Set(store.get("radar-mylist",[]));
@@ -481,15 +489,21 @@ function recentResults(){
   const now=new Date();
   return (state.events||[]).filter(e=>e.result && sportOn(e.sport) && pEnd(e)<now && now-pEnd(e)<3*864e5).sort((a,b)=>pStart(b)-pStart(a));
 }
-function unseenNews(){ return (state.news||[]).filter(n=>catOn(n.cat)&&!seen.has(n.url)); }
-function unseenReads(){ return (state.reads||[]).filter(x=>catOn(x.cat)&&!seen.has(x.url)&&!readDone.has(x.url)); }
+const inFeed = c => c!=="cinema" && FEED_CATS.includes(c) && catOn(c);
+function unseenNews(){ return (state.news||[]).filter(n=>inFeed(n.cat)&&!seen.has(n.url)); }
+function podItems(){ return Array.isArray(state.podcasts)?state.podcasts:[]; }
+const podKey = x => "p:"+x.id;
+function unseenPods(){ return podItems().filter(x=>!seen.has(podKey(x))); }
+function cineNews(){ return catOn("cinema") ? (state.news||[]).filter(n=>n.cat==="cinema").sort((a,b)=>String(b.date).localeCompare(String(a.date))) : []; }
+function cineReads(){ return catOn("cinema") ? (state.reads||[]).filter(r=>r.cat==="cinema") : []; }
+function unseenReads(){ return (state.reads||[]).filter(x=>inFeed(x.cat)&&!seen.has(x.url)&&!readDone.has(x.url)); }
 const anKey = a => "a:"+a.id;
 function analysesList(){ return (state.analyses||[]).filter(a=>catOn(a.cat)).sort((a,b)=>String(b.date).localeCompare(String(a.date))); }
 function unseenAnalyses(){ return analysesList().filter(a=>!seen.has(anKey(a))); }
 function unseenResults(){ return recentResults().filter(e=>!seen.has(resKey(e))); }
 function ensureBaseline(){
   if (seenBaseline || !state.events || !state.news || !state.reads) return;
-  (state.news||[]).forEach(n=>seen.add(n.url)); (state.reads||[]).forEach(x=>seen.add(x.url)); recentResults().forEach(e=>seen.add(resKey(e))); (state.analyses||[]).forEach(a=>seen.add(anKey(a))); screenItems().forEach(x=>seen.add(scrKey(x)));
+  (state.news||[]).forEach(n=>seen.add(n.url)); (state.reads||[]).forEach(x=>seen.add(x.url)); recentResults().forEach(e=>seen.add(resKey(e))); (state.analyses||[]).forEach(a=>seen.add(anKey(a))); screenItems().forEach(x=>seen.add(scrKey(x))); podItems().forEach(x=>seen.add(podKey(x)));
   seenBaseline=true; store.set("radar-seen",[...seen]);
 }
 const flash = new Set(); // éléments nouveaux pendant cette visite de l'onglet
@@ -498,9 +512,9 @@ function markTabSeen(tab){
   if (!seenBaseline || !state.events || !state.news || !state.reads) return;
   let keys=[];
   if (tab==="news") keys=unseenNews().map(n=>n.url);
-  else if (tab==="reads") keys=[...unseenReads().map(x=>x.url), ...unseenAnalyses().map(anKey)];
+  else if (tab==="reads") keys=[...unseenReads().map(x=>x.url), ...unseenAnalyses().map(anKey), ...unseenPods().map(podKey)];
   else if (tab==="agenda") keys=unseenResults().map(resKey);
-  else if (tab==="screens") keys=unseenScreens().map(scrKey);
+  else if (tab==="screens") keys=[...unseenScreens().map(scrKey), ...unseenCine().map(x=>x.url)];
   if (!keys.length) return;
   keys.forEach(k=>{ flash.add(k); seen.add(k); }); saveSeen();
 }
@@ -512,6 +526,7 @@ const PLAT_C = {"Netflix":"#E50914","Prime Video":"#0F79AF","Disney+":"#113CCF",
 const scrKey = x => "s:"+x.id;
 function screenItems(){ return (state.screen && Array.isArray(state.screen.items)) ? state.screen.items : []; }
 function unseenScreens(){ return catOn("cinema") ? screenItems().filter(x=>!seen.has(scrKey(x))) : []; }
+function unseenCine(){ return [...cineNews(),...cineReads()].filter(x=>!seen.has(x.url)); }
 function scrCard(x){
   const t=L(), T=t.scr, vid=x.video&&x.video.url?x.video:null;
   const d = x.date ? fmt(new Date(x.date+"T12:00:00"),{day:"numeric",month:"short"}) : "";
@@ -548,6 +563,8 @@ function viewScreens(){
     const nw=items.filter(x=>x.status!=="soon"&&!x.pick).sort(byD), sn=items.filter(x=>x.status==="soon"&&!x.pick).sort((a,b)=>String(a.date).localeCompare(String(b.date)));
     if (nw.length) html+=`<section class="sec"><div class="sec-h"><h2>${esc(T.newOut)}</h2><small>${nw.length}</small></div><div class="group scr-row">${nw.map(scrRow).join("")}</div></section>`;
     if (sn.length) html+=`<section class="sec"><div class="sec-h"><h2>${esc(T.soon)}</h2><small>${sn.length}</small></div><div class="group scr-row">${sn.map(scrRow).join("")}</div></section>`;
+    const cn=cineNews(), cr=cineReads();
+    if (cn.length||cr.length) html+=`<section class="sec"><div class="sec-h"><h2>${esc(t.cineNews)}</h2></div>${cn.length?`<div class="group">${cn.map(n=>newsRow(n,false)).join("")}</div>`:""}${cr.length?`<div class="group rd" style="margin-top:10px">${cr.map(readRow).join("")}</div>`:""}</section>`;
     const bo=state.screen&&state.screen.boxoffice;
     if (bo&&(bo.us||bo.fr)) html+=`<section class="sec"><div class="sec-h"><h2>${esc(T.bo)}</h2></div>${boBlock(bo.us,T.boUS)}${boBlock(bo.fr,T.boFR)}</section>`;
   } else {
@@ -598,8 +615,8 @@ function renderTop(){
   const chipRow = (opts,attr,cur) => `<div class="chips" role="toolbar">${opts.map(([k,l,c])=>`<button class="chip" ${attr}="${esc(k)}" aria-pressed="${cur===k}">${c?`<span class="ti" style="--c:var(${c})">${TI[k]||""}</span>`:""}${esc(l)}</button>`).join("")}</div>`;
   let chips = "";
   if (state.tab==="agenda") chips = chipRow([["all",t.all,null],...Object.keys(SPORT_C).filter(sportOn).map(k=>[k,t.sports[k],SPORT_C[k]]),["fav",t.fav,null]],"data-sf",state.sportFilter);
-  else if (state.tab==="news") chips = chipRow([["all",t.allNews,null],...Object.keys(CAT_C).filter(catOn).map(k=>[k,t.cats[k],CAT_C[k]])],"data-cf",state.catFilter);
-  else if (state.tab==="reads"){ const have=new Set((state.reads||[]).map(x=>x.cat)); chips = chipRow([["all",t.allNews,null],["unread",t.unread,null],...Object.keys(CAT_C).filter(k=>catOn(k)&&have.has(k)).map(k=>[k,t.cats[k],CAT_C[k]])],"data-rf",state.readFilter); }
+  else if (state.tab==="news") chips = chipRow([["all",t.allNews,null],...FEED_CATS.filter(catOn).map(k=>[k,t.cats[k],CAT_C[k]])],"data-cf",state.catFilter);
+  else if (state.tab==="reads"){ const have=new Set((state.reads||[]).map(x=>x.cat)); chips = chipRow([["all",t.allNews,null],["unread",t.unread,null],...(podItems().length?[["pod",t.pod.chip,null]]:[]),...FEED_CATS.filter(k=>catOn(k)&&have.has(k)).map(k=>[k,t.cats[k],CAT_C[k]])],"data-rf",state.readFilter); }
   else if (state.tab==="screens"){ const T=t.scr, have=new Set(screenItems().map(x=>x.platform)); chips = chipRow([["all",T.all],["pick",T.pick],["list",T.list],["family",T.fam],...Object.keys(PLAT_C).filter(k=>have.has(k)).map(k=>[k,k])],"data-scf",state.scrFilter); }
   let statusHtml="";
   if (live.done && Date.now()-live.done<8000) statusHtml=`<div class="status ok" role="status">${esc(t.updDone)}</div>`;
@@ -614,7 +631,7 @@ function renderTop(){
 function renderNav(){
   const t=L();
   const ready = state.events && state.news && state.reads && seenBaseline;
-  const cnt = ready ? {agenda:unseenResults().length, news:unseenNews().length, reads:unseenReads().length+unseenAnalyses().length, screens:unseenScreens().length} : {};
+  const cnt = ready ? {agenda:unseenResults().length, news:unseenNews().length, reads:unseenReads().length+unseenAnalyses().length+unseenPods().length, screens:unseenScreens().length+unseenCine().length} : {};
   $("#nav").innerHTML = ["home","agenda","news","screens","reads"].map(k=>`<button data-tab="${k}" ${state.tab===k?'aria-current="page"':""}><span class="ic">${ICONS[k]}${cnt[k]?`<span class="badge">${cnt[k]>99?"99+":cnt[k]}</span>`:""}</span><span>${esc(t.tabs[k])}</span></button>`).join("");
   $("#nav").querySelectorAll("button").forEach(b=>b.onclick=()=>go(b.dataset.tab));
 }
@@ -658,7 +675,7 @@ function eventRow(ev){
 function newsLabel(n){
   const t=L(); let label=t.cats[n.cat]||n.cat, col=CAT_C[n.cat]||"--muted";
   if (n.cat==="sport" && t.sports[n.sport]){ label=t.sports[n.sport]; col=SPORT_C[n.sport]; }
-  if (n.cat==="maroc" && t.subs[n.sub]) label=`${t.cats.maroc} · ${t.subs[n.sub]}`;
+  if ((n.cat==="maroc"||n.cat==="divers") && t.subs[n.sub]) label=`${t.cats[n.cat]} · ${t.subs[n.sub]}`;
   const key = (n.cat==="sport" && TI[n.sport]) ? n.sport : n.cat;
   return {label,col,key};
 }
@@ -691,7 +708,7 @@ function readCard(x){
   </article>`;
 }
 function readsList(){
-  return (state.reads||[]).filter(x=>catOn(x.cat)).sort((a,b)=>(readDone.has(a.url)-readDone.has(b.url))||byDate(a,b));
+  return (state.reads||[]).filter(x=>inFeed(x.cat)).sort((a,b)=>(readDone.has(a.url)-readDone.has(b.url))||byDate(a,b));
 }
 function anCard(a){
   const t=L(), col = a.cat==="sport"&&SPORT_C[a.sport]?SPORT_C[a.sport]:(CAT_C[a.cat]||"--accent");
@@ -702,7 +719,7 @@ function anCard(a){
 }
 function openDetail(type,key){
   state.detail={type,key,scroll:window.scrollY};
-  seen.add(type==="an"?"a:"+key:type==="scr"?"s:"+key:key);
+  seen.add(type==="an"?"a:"+key:type==="scr"?"s:"+key:type==="pod"?"p:"+key:key);
   saveSeen();
   try{ history.pushState({radarDetail:1},""); }catch(e){}
   render(); window.scrollTo(0,0);
@@ -730,6 +747,7 @@ function viewDetail(){
       <p class="fine">${esc(t.aiNote)}</p>
     </article>`;
   }
+  if (d.type==="pod") return podDetail(d.key);
   if (d.type==="scr"){
     const x=screenItems().find(z=>z.id===d.key); if(!x) return `<div class="empty">—</div>`;
     const T=t.scr, inL=myList.has(x.id), vid=x.video&&x.video.url?x.video:null;
@@ -773,13 +791,24 @@ function viewDetail(){
   </article>`;
 }
 function viewReads(){
-  const t=L(); let items=readsList();
-  if (state.readFilter==="unread") items=items.filter(x=>!readDone.has(x.url));
-  else if (state.readFilter!=="all") items=items.filter(x=>x.cat===state.readFilter);
-  const ans = (state.readFilter==="all"||state.readFilter==="unread") ? analysesList().filter(a=>state.readFilter==="all"||!seen.has(anKey(a))||flash.has(anKey(a))) : analysesList().filter(a=>a.cat===state.readFilter);
+  const t=L(), P=t.pod, f=state.readFilter;
+  const byD=(a,b)=>String(b.date).localeCompare(String(a.date));
+  const pods = podItems().slice().sort(byD);
+  if (f==="pod"){
+    const ar=pods.filter(x=>x.lang==="ar"), fr=pods.filter(x=>x.lang!=="ar");
+    if (!pods.length) return `<div class="empty">${esc(t.scr.empty)}</div>`;
+    return `${ar.length?`<section class="sec" style="margin-top:14px"><div class="sec-h"><h2>${esc(P.ar)}</h2><small>${ar.length}</small></div><div class="group rd">${ar.map(podRow).join("")}</div></section>`:""}
+      ${fr.length?`<section class="sec"><div class="sec-h"><h2>${esc(P.fr)}</h2><small>${fr.length}</small></div><div class="group rd">${fr.map(podRow).join("")}</div></section>`:""}<p class="note">${esc(P.note)}</p>`;
+  }
+  let items=readsList();
+  if (f==="unread") items=items.filter(x=>!readDone.has(x.url));
+  else if (f!=="all") items=items.filter(x=>x.cat===f);
+  const ans = (f==="all"||f==="unread") ? analysesList().filter(a=>f==="all"||!seen.has(anKey(a))||flash.has(anKey(a))) : analysesList().filter(a=>a.cat===f);
+  const podsShown = f==="all" ? pods.slice(0,4) : (f==="unread" ? [] : pods.filter(x=>x.cat===f));
   let html = "";
   if (ans.length) html += `<section class="sec" style="margin-top:14px"><div class="sec-h"><h2>${esc(t.analyses)}</h2><small>${esc(t.ed.byClaude)}</small></div><div class="an-list">${ans.map(anCard).join("")}</div></section>`;
-  html += items.length ? `<section class="sec" style="margin-top:${ans.length?28:14}px"><div class="sec-h"><h2>${esc(t.ed.fichesH)}</h2><small>${items.length}</small></div><div class="group rd">${items.map(readRow).join("")}</div><p class="note">${esc(t.readsIntro)}</p></section>` : `<div class="empty">${esc(t.readsEmpty)}</div>`;
+  if (podsShown.length) html += `<section class="sec" style="margin-top:${html?28:14}px"><div class="sec-h"><h2>${esc(P.h)}</h2>${f==="all"&&pods.length>podsShown.length?`<button class="link" data-setrf="pod">${esc(t.seeAll(pods.length))}</button>`:""}</div><div class="group rd">${podsShown.map(podRow).join("")}</div></section>`;
+  html += items.length ? `<section class="sec" style="margin-top:${html?28:14}px"><div class="sec-h"><h2>${esc(t.ed.fichesH)}</h2><small>${items.length}</small></div><div class="group rd">${items.map(readRow).join("")}</div><p class="note">${esc(t.readsIntro)}</p></section>` : (html?"":`<div class="empty">${esc(t.readsEmpty)}</div>`);
   return html;
 }
 
@@ -844,7 +873,7 @@ function radarHero(){
 function editionStrip(){
   const t=L(), E=t.ed;
   if (!seenBaseline) return "";
-  const c = {agenda:unseenResults().length, news:unseenNews().length, reads:unseenReads().length+unseenAnalyses().length, screens:unseenScreens().length};
+  const c = {agenda:unseenResults().length, news:unseenNews().length, reads:unseenReads().length+unseenAnalyses().length+unseenPods().length, screens:unseenScreens().length+unseenCine().length};
   const lab = {agenda:E.results, news:E.news, reads:E.reads, screens:E.films};
   const any = Object.values(c).some(Boolean);
   if (!any) return `<div class="edition"><div class="done">✓ ${esc(E.nothing)} ${esc(E.next(hm(nextEdition())))}</div></div>`;
@@ -892,14 +921,36 @@ function scrRow(x){
     <div class="k">${esc(x.kind==="serie"?T.serie:T.film)} · ${esc(tx(x,"genre"))}</div></div></button>`;
 }
 
+function podRow(x){
+  const t=L(), P=t.pod;
+  return `<button class="rowlink" data-open="pod" data-k="${esc(x.id)}">${thumbBox(x.image,"sq")}<div class="min">
+    <div class="kick"><span class="ti" style="--c:var(--accent)">${TI.podcast}</span><span class="lab" style="color:var(--accent)">${esc(P.lang[x.lang]||"")}</span><span class="cmp">${esc(x.show||"")}</span>${newTag(podKey(x))}</div>
+    <h3 class="clamp3">${esc(tx(x,"title"))}</h3>
+    <div class="meta2"><span>${esc(String(x.minutes||"?"))} ${esc(t.min)}</span><span>${esc(shortDate(x.date))}</span></div></div></button>`;
+}
+function podDetail(key){
+  const t=L(), P=t.pod, x=podItems().find(z=>z.id===key); if(!x) return `<div class="empty">—</div>`;
+  const orig = x.lang==="ar" && state.lang!=="ar" && x.title_ar ? `<p class="fine" lang="ar" dir="rtl" style="font-family:var(--arabic);font-size:16px">${esc(x.title_ar)}</p>` : "";
+  return `<article class="reader" style="--c:var(--accent)">
+    ${imgOk(x.image)?`<img src="${esc(x.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" style="width:168px;height:168px;border-radius:22px;object-fit:cover;background:var(--raised)">`:""}
+    <div class="kick"><span class="ti" style="--c:var(--accent)">${TI.podcast}</span><span class="lab" style="color:var(--accent)">${esc(P.lang[x.lang]||"")}</span><span>${esc(x.show||"")}${x.publisher&&x.publisher!==x.show?`, ${esc(x.publisher)}`:""}</span></div>
+    <h1>${esc(tx(x,"title"))}</h1>${orig}
+    <div class="chips-in"><span class="pill">${esc(String(x.minutes||"?"))} ${esc(t.min)}</span><span class="pill">${esc(shortDate(x.date))}</span></div>
+    <p class="body">${esc(tx(x,"summary"))}</p>
+    ${tx(x,"why")?`<div class="fy"><b>${esc(t.whyH)}</b><p>${esc(tx(x,"why"))}</p></div>`:""}
+    <div class="actions"><a class="btn primary" href="${esc(x.url)}" target="_blank" rel="noopener">${ICONS.play}${esc(P.listen)}</a></div>
+    <p class="fine">${esc(P.note)}</p>
+  </article>`;
+}
+
 /* ---------- views ---------- */
 function viewHome(){
   const t=L();
   let html = radarHero();
   html += editionStrip();
   const brief = state.meta && (state.lang==="ar" ? state.meta.brief_ar : state.meta.brief);
-  const BRIEF_K = {sport:"sport",maroc:"maroc",monde:"geo",tech:"tech",culture:"culture","رياضة":"sport","المغرب":"maroc","العالم":"geo","تكنولوجيا":"tech","ثقافة":"culture"};
-  const BRIEF_C = {sport:"--foot",maroc:"--maroc",monde:"--geo",tech:"--tech",culture:"--art","رياضة":"--foot","المغرب":"--maroc","العالم":"--geo","تكنولوجيا":"--tech","ثقافة":"--art"};
+  const BRIEF_K = {sport:"sport",maroc:"maroc",monde:"geo",tech:"tech",culture:"cinema",ia:"ia","économie":"eco",gaming:"gaming","الذكاء الاصطناعي":"ia","الاقتصاد":"eco","رياضة":"sport","المغرب":"maroc","العالم":"geo","تكنولوجيا":"tech","ثقافة":"culture"};
+  const BRIEF_C = {sport:"--foot",maroc:"--maroc",monde:"--geo",tech:"--tech",culture:"--cinema",ia:"--ia","économie":"--eco",gaming:"--gaming","الذكاء الاصطناعي":"--ia","الاقتصاد":"--eco","رياضة":"--foot","المغرب":"--maroc","العالم":"--geo","تكنولوجيا":"--tech","ثقافة":"--art"};
   if (Array.isArray(brief) && brief.length){
     html += `<section class="sec"><div class="sec-h"><h2>${esc(t.briefTitle)}</h2></div><div class="brief"><ul>${brief.map(x=>{
       const m=String(x).match(/^\s*([^:：]{2,16})\s*[:：]\s*(.+)$/s);
@@ -909,7 +960,7 @@ function viewHome(){
   }
   const res = recentResults().slice(0,3);
   if (res.length) html += `<section class="sec"><div class="sec-h"><h2>${esc(t.results)}</h2><button class="link" data-go="agenda">${esc(t.seeAgenda)}</button></div><div class="group">${res.map(resultRow).join("")}</div></section>`;
-  const cats = Object.keys(CAT_C).filter(catOn);
+  const cats = FEED_CATS.filter(catOn);
   const heads = cats.map(c=>newsFor(c)[0]).filter(Boolean);
   if (heads.length){
     const leadI = Math.max(0, heads.findIndex(n=>imgOk(n.image)));
@@ -921,6 +972,10 @@ function viewHome(){
   if (an || tonight.length){
     html += `<section class="sec"><div class="sec-h"><h2>${esc(t.readTonight)}</h2><button class="link" data-go="reads">${esc(t.seeReads)}</button></div>${an?anCard(an):""}${tonight.length?`<div class="group rd" style="margin-top:${an?10:0}px">${tonight.map(readRow).join("")}</div>`:""}</section>`;
   }
+  const pAr = podItems().filter(x=>x.lang==="ar").sort((a,b)=>String(b.date).localeCompare(String(a.date)))[0];
+  const pFr = podItems().filter(x=>x.lang!=="ar").sort((a,b)=>String(b.date).localeCompare(String(a.date)))[0];
+  const pp=[pAr,pFr].filter(Boolean);
+  if (pp.length) html += `<section class="sec"><div class="sec-h"><h2>${esc(t.pod.home)}</h2><button class="link" data-gopod="1">${esc(t.pod.h)}</button></div><div class="group rd">${pp.map(podRow).join("")}</div></section>`;
   const picks = catOn("cinema") ? screenItems().filter(x=>x.pick).slice(0,6) : [];
   if (picks.length) html += `<section class="sec"><div class="sec-h"><h2>${esc(t.scr.home)}</h2><button class="link" data-go="screens">${esc(t.scr.seeAll)}</button></div><div class="rail">${picks.map(posterCard).join("")}</div></section>`;
   html += `<div class="fin">${RADAR_GLYPH}<b>${esc(t.ed.end)}</b><span>${esc(t.ed.endSub(hm(nextEdition())))}</span></div>`;
@@ -954,7 +1009,7 @@ function viewNews(){
     const rest = items.filter((_,i)=>i!==li);
     return `<div style="margin-top:14px">${newsLead(items[li])}${rest.length?`<div class="group">${rest.map(n=>newsRow(n,false)).join("")}</div>`:""}</div>`;
   }
-  const cats=Object.keys(CAT_C).filter(catOn);
+  const cats=FEED_CATS.filter(catOn);
   const blocks = cats.map((c,ci)=>{ const items=newsFor(c); if(!items.length) return "";
     const fresh=items.filter(n=>isNew(n.url)), old=items.filter(n=>!isNew(n.url));
     const shown=[...fresh, ...old].slice(0, Math.max(4, fresh.length));
@@ -999,6 +1054,8 @@ function bind(){
   m.querySelectorAll("[data-star]").forEach(b=>b.onclick=(e)=>{ e.preventDefault(); e.stopPropagation(); const id=b.dataset.star; stars.has(id)?stars.delete(id):stars.add(id); store.set("radar-stars",[...stars]); render(); });
   m.querySelectorAll("[data-read]").forEach(b=>b.onclick=()=>{ const u=b.dataset.read; readDone.has(u)?readDone.delete(u):readDone.add(u); store.set("radar-read",[...readDone].slice(-300)); render(); });
   m.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>{ if(b.dataset.go==="news") state.catFilter="all"; go(b.dataset.go); });
+  m.querySelectorAll("[data-setrf]").forEach(b=>b.onclick=()=>{ state.readFilter=b.dataset.setrf; render(true); });
+  m.querySelectorAll("[data-gopod]").forEach(b=>b.onclick=()=>{ state.readFilter="pod"; go("reads"); });
   m.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>go("news",{cat:b.dataset.cat}));
   m.querySelectorAll("[data-lang]").forEach(b=>b.onclick=()=>{ state.lang=b.dataset.lang; store.set("radar-lang2",state.lang); render(); });
   m.querySelectorAll("[data-sp]").forEach(i=>i.onchange=()=>{ i.checked?state.hiddenSports.delete(i.dataset.sp):state.hiddenSports.add(i.dataset.sp); store.set("radar-hidden-sports",[...state.hiddenSports]); if(!sportOn(state.sportFilter)) state.sportFilter="all"; });
@@ -1050,7 +1107,7 @@ async function pollStatus(){
     renderTop();
   }catch(e){}
 }
-function apply(d){ state.events=Array.isArray(d.events)?d.events:[]; state.news=Array.isArray(d.news)?d.news:[]; state.reads=Array.isArray(d.reads)?d.reads:[]; state.analyses=Array.isArray(d.analyses)?d.analyses:[]; state.screen=d.screen||null; state.meta=d.meta||null; render(); }
+function apply(d){ state.events=Array.isArray(d.events)?d.events:[]; state.news=Array.isArray(d.news)?d.news:[]; state.reads=Array.isArray(d.reads)?d.reads:[]; state.analyses=Array.isArray(d.analyses)?d.analyses:[]; state.screen=d.screen||null; state.podcasts=Array.isArray(d.podcasts)?d.podcasts:[]; state.meta=d.meta||null; render(); }
 async function loadJson(quiet){
   try{
     const r = await fetch("data.json",{cache:"no-cache"});
@@ -1071,6 +1128,7 @@ async function loadJson(quiet){
     db.doc("feed/news").onSnapshot(s=>{ const d=s.exists?s.data():null; state.news=d&&Array.isArray(d.items)?d.items:[]; render(); }, fail);
     db.doc("feed/analyses").onSnapshot(s=>{ const d=s.exists?s.data():null; state.analyses=d&&Array.isArray(d.items)?d.items:[]; render(); }, ()=>{});
     db.doc("feed/reads").onSnapshot(s=>{ const d=s.exists?s.data():null; state.reads=d&&Array.isArray(d.items)?d.items:[]; render(); }, fail);
+    db.doc("feed/podcasts").onSnapshot(s=>{ const d=s.exists?s.data():null; state.podcasts=d&&Array.isArray(d.items)?d.items:[]; render(); }, ()=>{});
     db.doc("feed/screen").onSnapshot(s=>{ state.screen=s.exists?s.data():null; render(); }, ()=>{});
     db.doc("feed/meta").onSnapshot(s=>{ state.meta=s.exists?s.data():null; render(); }, ()=>{});
   } else {
