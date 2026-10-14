@@ -315,6 +315,29 @@ details.ev[open] > summary{background:var(--raised)}
 .sub-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0;flex-wrap:wrap}
 .toolbar{display:flex;justify-content:flex-end;margin-top:6px}
 
+
+/* ---------- pause (light content) ---------- */
+:root{--k-blague:#A86200;--k-khatira:#4B3FD8;--k-histoire:#2E7D6B;--k-proverbe:#B4232A;--k-insolite:#B42E72;--k-bonne:#1E7A44}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){--k-blague:#F2B94E;--k-khatira:#9389FF;--k-histoire:#5CC2A8;--k-proverbe:#FF7A7E;--k-insolite:#F06AA8;--k-bonne:#4CC27E}}
+:root[data-theme="dark"]{--k-blague:#F2B94E;--k-khatira:#9389FF;--k-histoire:#5CC2A8;--k-proverbe:#FF7A7E;--k-insolite:#F06AA8;--k-bonne:#4CC27E}
+.pz{background:color-mix(in srgb,var(--kc) 9%,var(--surface));border-radius:20px;padding:16px 16px 14px;display:grid;gap:8px;align-content:start;text-align:start;color:var(--ink)}
+.pz-k{display:flex;align-items:center;gap:6px;font-size:13px;font-weight:700;color:var(--kc)}
+.pz-k .ti{width:16px;height:16px;color:var(--kc)}
+.pz h3{margin:0;font-size:19px;line-height:1.25;font-weight:800;letter-spacing:-.01em;text-wrap:balance}
+[dir="rtl"] .pz h3{letter-spacing:0;line-height:1.55}
+.pz-orig{margin:0;font-family:var(--arabic-serif);font-size:19px;line-height:1.7}
+.pz-t{margin:0;font-family:var(--serif);font-size:17px;line-height:1.5}
+.pz-t + .pz-t{margin-top:6px}
+[dir="rtl"] .pz-t{font-family:var(--arabic-serif);line-height:1.85}
+.pz-body.cut{display:-webkit-box;-webkit-line-clamp:7;-webkit-box-orient:vertical;overflow:hidden}
+.pz-f{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:13px;color:var(--muted);margin-top:2px}
+.pz-f a{color:var(--muted)}
+.pz-f .link{font-size:14px}
+.pz-rail{display:flex;gap:12px;overflow-x:auto;margin-inline:-16px;padding:0 16px 4px;scroll-snap-type:x mandatory;scroll-padding-inline:16px;scrollbar-width:none;align-items:stretch}
+.pz-rail::-webkit-scrollbar{display:none}
+.pz-rail .pz{flex:0 0 86%;max-width:380px;scroll-snap-align:start}
+.pz-list{display:grid;gap:12px}
+
 /* ---------- bottom nav ---------- */
 .nav{position:fixed;left:0;right:0;bottom:0;z-index:25;background:color-mix(in srgb,var(--surface) 88%,transparent);backdrop-filter:saturate(1.4) blur(18px);-webkit-backdrop-filter:saturate(1.4) blur(18px);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
 .nav-in{max-width:680px;margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr);height:var(--nav-h)}
@@ -374,6 +397,7 @@ const T = {
     cats:{maroc:"Maroc",sport:"Sport",ia:"IA",eco:"Économie",tech:"Tech",gaming:"Gaming",geo:"Géopolitique",ux:"UX Design",divers:"Variétés",cinema:"Films & séries",art:"Art",enfant:"Enfant",montessori:"Montessori"},
     subs:{economie:"Économie",politique:"Politique",societe:"Société",enfant:"Enfant",montessori:"Montessori"},
     pod:{h:"Podcasts", chip:"Podcasts", ar:"En arabe", fr:"En français", listen:"Écouter l\u2019épisode", home:"À écouter", note:"Épisodes choisis par Claude en arabe et en français, mis à jour chaque jour.", lang:{ar:"Arabe",fr:"Français"}}, cineNews:"Actus ciné et séries",
+    pz:{h:"Une pause", chip:"Pause", note:"Blagues, contes, réflexions et petites histoires pour souffler entre deux infos. Les textes sont écrits ou racontés par Claude ; les histoires vraies ont leur source.", kinds:{blague:"Pour sourire",khatira:"Réflexion",histoire:"Petite histoire",proverbe:"Proverbe marocain",insolite:"Insolite",bonne:"Bonne nouvelle"}, origin:{claude:"Écrit par Claude",conte:"Conte populaire raconté par Claude",proverbe:"Sagesse populaire"}, more:"Lire la suite", src:"Source : "},
     locale:"fr-FR"
   },
   ar:{
@@ -403,6 +427,7 @@ const T = {
     cats:{maroc:"المغرب",sport:"رياضة",ia:"الذكاء الاصطناعي",eco:"الاقتصاد",tech:"تكنولوجيا",gaming:"ألعاب الفيديو",geo:"جيوسياسة",ux:"تصميم تجربة المستخدم",divers:"منوعات",cinema:"أفلام ومسلسلات",art:"فن",enfant:"الطفل",montessori:"مونتيسوري"},
     subs:{economie:"اقتصاد",politique:"سياسة",societe:"مجتمع",enfant:"الطفل",montessori:"مونتيسوري"},
     pod:{h:"بودكاست", chip:"بودكاست", ar:"بالعربية", fr:"بالفرنسية", listen:"استمع إلى الحلقة", home:"للاستماع", note:"حلقات يختارها Claude بالعربية والفرنسية، تُحدَّث يوميًا.", lang:{ar:"عربي",fr:"فرنسي"}}, cineNews:"أخبار السينما والمسلسلات",
+    pz:{h:"استراحة", chip:"استراحة", note:"نكت وحكايات وخواطر وقصص قصيرة لتلطيف الجو بين خبر وآخر. النصوص كتبها أو رواها Claude، والقصص الحقيقية مرفقة بمصدرها.", kinds:{blague:"نكتة",khatira:"خاطرة",histoire:"حكاية",proverbe:"مثل مغربي",insolite:"غرائب",bonne:"خبر سار"}, origin:{claude:"كتبها Claude",conte:"حكاية شعبية يرويها Claude",proverbe:"حكمة شعبية"}, more:"تابع القراءة", src:"المصدر: "},
     locale:"ar-MA"
   }
 };
@@ -430,6 +455,12 @@ const TI = {
   eco: S('<path d="M3 20h18"/><path d="M5 16l4.5-5 3.5 3 6-7"/><path d="M15 7h4v4"/>'),
   gaming: S('<path d="M7.5 7h9a5 5 0 0 1 4.9 6l-.6 3.1a2.3 2.3 0 0 1-3.9 1.1L15 15H9l-1.9 2.2a2.3 2.3 0 0 1-3.9-1.1L2.6 13A5 5 0 0 1 7.5 7z"/><path d="M7.5 10v3M6 11.5h3"/><circle cx="15.5" cy="10.5" r=".9" fill="currentColor" stroke="none"/><circle cx="17.5" cy="12.5" r=".9" fill="currentColor" stroke="none"/>'),
   divers: S('<circle cx="7.5" cy="7.5" r="3.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><path d="M7.5 13.5l4 7h-8z"/><path d="M16.5 13.5l1.2 2.4 2.6.4-1.9 1.8.5 2.6-2.4-1.3-2.3 1.3.4-2.6-1.9-1.8 2.6-.4z"/>'),
+  blague: S('<circle cx="12" cy="12" r="9"/><path d="M8 14.5c1 1.6 2.4 2.4 4 2.4s3-.8 4-2.4"/><path d="M8.5 9.5h.01M15.5 9.5h.01" stroke-width="2.6"/>'),
+  khatira: S('<path d="M20 4c-6 0-11 4-12.5 10L6 20"/><path d="M8 14c4 0 7-1.5 9-4"/><path d="M20 4c0 5-2 9-6.5 10.5"/>'),
+  histoire: S('<path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H19v14H5.5A1.5 1.5 0 0 0 4 19.5z"/><path d="M4 19.5A1.5 1.5 0 0 0 5.5 21H19v-3"/><path d="M8 8h7M8 11.5h5"/>'),
+  proverbe: S('<path d="M10 7H6.5A1.5 1.5 0 0 0 5 8.5V12h4v5H5"/><path d="M19 7h-3.5A1.5 1.5 0 0 0 14 8.5V12h4v5h-4"/>'),
+  insolite: S('<path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/>'),
+  bonne: S('<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/>'),
   podcast: S('<rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M8.5 21h7"/>'),
   montessori: S('<rect x="3.5" y="13.5" width="7.5" height="7" rx="1"/><rect x="13" y="13.5" width="7.5" height="7" rx="1"/><rect x="8.2" y="4.5" width="7.5" height="7" rx="1"/>')
 };
@@ -455,7 +486,7 @@ let state = {
   sportFilter:"all", catFilter:"all", readFilter:"all",
   hiddenSports: new Set(store.get("radar-hidden-sports",[])),
   hiddenCats: new Set(store.get("radar-hidden-cats",[])),
-  events:null, news:null, reads:null, analyses:[], podcasts:[], screen:null, scrFilter:"all", detail:null, meta:null, err:null, offline:false
+  events:null, news:null, reads:null, analyses:[], podcasts:[], pause:[], screen:null, scrFilter:"all", detail:null, meta:null, err:null, offline:false
 };
 if (!["home","agenda","news","screens","reads","settings"].includes(state.tab)) state.tab="home";
 const myList = new Set(store.get("radar-mylist",[]));
@@ -494,6 +525,9 @@ function unseenNews(){ return (state.news||[]).filter(n=>inFeed(n.cat)&&!seen.ha
 function podItems(){ return Array.isArray(state.podcasts)?state.podcasts:[]; }
 const podKey = x => "p:"+x.id;
 function unseenPods(){ return podItems().filter(x=>!seen.has(podKey(x))); }
+function pzItems(){ return Array.isArray(state.pause)?state.pause:[]; }
+const pzKey = x => "z:"+x.id;
+function unseenPz(){ return pzItems().filter(x=>!seen.has(pzKey(x))); }
 function cineNews(){ return catOn("cinema") ? (state.news||[]).filter(n=>n.cat==="cinema").sort((a,b)=>String(b.date).localeCompare(String(a.date))) : []; }
 function cineReads(){ return catOn("cinema") ? (state.reads||[]).filter(r=>r.cat==="cinema") : []; }
 function unseenReads(){ return (state.reads||[]).filter(x=>inFeed(x.cat)&&!seen.has(x.url)&&!readDone.has(x.url)); }
@@ -503,7 +537,7 @@ function unseenAnalyses(){ return analysesList().filter(a=>!seen.has(anKey(a)));
 function unseenResults(){ return recentResults().filter(e=>!seen.has(resKey(e))); }
 function ensureBaseline(){
   if (seenBaseline || !state.events || !state.news || !state.reads) return;
-  (state.news||[]).forEach(n=>seen.add(n.url)); (state.reads||[]).forEach(x=>seen.add(x.url)); recentResults().forEach(e=>seen.add(resKey(e))); (state.analyses||[]).forEach(a=>seen.add(anKey(a))); screenItems().forEach(x=>seen.add(scrKey(x))); podItems().forEach(x=>seen.add(podKey(x)));
+  (state.news||[]).forEach(n=>seen.add(n.url)); (state.reads||[]).forEach(x=>seen.add(x.url)); recentResults().forEach(e=>seen.add(resKey(e))); (state.analyses||[]).forEach(a=>seen.add(anKey(a))); screenItems().forEach(x=>seen.add(scrKey(x))); podItems().forEach(x=>seen.add(podKey(x))); pzItems().forEach(x=>seen.add(pzKey(x)));
   seenBaseline=true; store.set("radar-seen",[...seen]);
 }
 const flash = new Set(); // éléments nouveaux pendant cette visite de l'onglet
@@ -512,7 +546,7 @@ function markTabSeen(tab){
   if (!seenBaseline || !state.events || !state.news || !state.reads) return;
   let keys=[];
   if (tab==="news") keys=unseenNews().map(n=>n.url);
-  else if (tab==="reads") keys=[...unseenReads().map(x=>x.url), ...unseenAnalyses().map(anKey), ...unseenPods().map(podKey)];
+  else if (tab==="reads") keys=[...unseenReads().map(x=>x.url), ...unseenAnalyses().map(anKey), ...unseenPods().map(podKey), ...unseenPz().map(pzKey)];
   else if (tab==="agenda") keys=unseenResults().map(resKey);
   else if (tab==="screens") keys=[...unseenScreens().map(scrKey), ...unseenCine().map(x=>x.url)];
   if (!keys.length) return;
@@ -616,7 +650,7 @@ function renderTop(){
   let chips = "";
   if (state.tab==="agenda") chips = chipRow([["all",t.all,null],...Object.keys(SPORT_C).filter(sportOn).map(k=>[k,t.sports[k],SPORT_C[k]]),["fav",t.fav,null]],"data-sf",state.sportFilter);
   else if (state.tab==="news") chips = chipRow([["all",t.allNews,null],...FEED_CATS.filter(catOn).map(k=>[k,t.cats[k],CAT_C[k]])],"data-cf",state.catFilter);
-  else if (state.tab==="reads"){ const have=new Set((state.reads||[]).map(x=>x.cat)); chips = chipRow([["all",t.allNews,null],["unread",t.unread,null],...(podItems().length?[["pod",t.pod.chip,null]]:[]),...FEED_CATS.filter(k=>catOn(k)&&have.has(k)).map(k=>[k,t.cats[k],CAT_C[k]])],"data-rf",state.readFilter); }
+  else if (state.tab==="reads"){ const have=new Set((state.reads||[]).map(x=>x.cat)); chips = chipRow([["all",t.allNews,null],["unread",t.unread,null],...(podItems().length?[["pod",t.pod.chip,null]]:[]),...(pzItems().length?[["pz",t.pz.chip,null]]:[]),...FEED_CATS.filter(k=>catOn(k)&&have.has(k)).map(k=>[k,t.cats[k],CAT_C[k]])],"data-rf",state.readFilter); }
   else if (state.tab==="screens"){ const T=t.scr, have=new Set(screenItems().map(x=>x.platform)); chips = chipRow([["all",T.all],["pick",T.pick],["list",T.list],["family",T.fam],...Object.keys(PLAT_C).filter(k=>have.has(k)).map(k=>[k,k])],"data-scf",state.scrFilter); }
   let statusHtml="";
   if (live.done && Date.now()-live.done<8000) statusHtml=`<div class="status ok" role="status">${esc(t.updDone)}</div>`;
@@ -631,7 +665,7 @@ function renderTop(){
 function renderNav(){
   const t=L();
   const ready = state.events && state.news && state.reads && seenBaseline;
-  const cnt = ready ? {agenda:unseenResults().length, news:unseenNews().length, reads:unseenReads().length+unseenAnalyses().length+unseenPods().length, screens:unseenScreens().length+unseenCine().length} : {};
+  const cnt = ready ? {agenda:unseenResults().length, news:unseenNews().length, reads:unseenReads().length+unseenAnalyses().length+unseenPods().length+unseenPz().length, screens:unseenScreens().length+unseenCine().length} : {};
   $("#nav").innerHTML = ["home","agenda","news","screens","reads"].map(k=>`<button data-tab="${k}" ${state.tab===k?'aria-current="page"':""}><span class="ic">${ICONS[k]}${cnt[k]?`<span class="badge">${cnt[k]>99?"99+":cnt[k]}</span>`:""}</span><span>${esc(t.tabs[k])}</span></button>`).join("");
   $("#nav").querySelectorAll("button").forEach(b=>b.onclick=()=>go(b.dataset.tab));
 }
@@ -719,7 +753,7 @@ function anCard(a){
 }
 function openDetail(type,key){
   state.detail={type,key,scroll:window.scrollY};
-  seen.add(type==="an"?"a:"+key:type==="scr"?"s:"+key:type==="pod"?"p:"+key:key);
+  seen.add(type==="an"?"a:"+key:type==="scr"?"s:"+key:type==="pod"?"p:"+key:type==="pz"?"z:"+key:key);
   saveSeen();
   try{ history.pushState({radarDetail:1},""); }catch(e){}
   render(); window.scrollTo(0,0);
@@ -748,6 +782,7 @@ function viewDetail(){
     </article>`;
   }
   if (d.type==="pod") return podDetail(d.key);
+  if (d.type==="pz") return pzDetail(d.key);
   if (d.type==="scr"){
     const x=screenItems().find(z=>z.id===d.key); if(!x) return `<div class="empty">—</div>`;
     const T=t.scr, inL=myList.has(x.id), vid=x.video&&x.video.url?x.video:null;
@@ -794,6 +829,10 @@ function viewReads(){
   const t=L(), P=t.pod, f=state.readFilter;
   const byD=(a,b)=>String(b.date).localeCompare(String(a.date));
   const pods = podItems().slice().sort(byD);
+  if (f==="pz"){
+    const items=pzPick(pzItems().length);
+    return items.length ? `<div class="pz-list" style="margin-top:14px">${items.map(pzCard).join("")}</div><p class="note">${esc(t.pz.note)}</p>` : `<div class="empty">${esc(t.scr.empty)}</div>`;
+  }
   if (f==="pod"){
     const ar=pods.filter(x=>x.lang==="ar"), fr=pods.filter(x=>x.lang!=="ar");
     if (!pods.length) return `<div class="empty">${esc(t.scr.empty)}</div>`;
@@ -807,6 +846,7 @@ function viewReads(){
   const podsShown = f==="all" ? pods.slice(0,4) : (f==="unread" ? [] : pods.filter(x=>x.cat===f));
   let html = "";
   if (ans.length) html += `<section class="sec" style="margin-top:14px"><div class="sec-h"><h2>${esc(t.analyses)}</h2><small>${esc(t.ed.byClaude)}</small></div><div class="an-list">${ans.map(anCard).join("")}</div></section>`;
+  if (f==="all" && pzItems().length) html += `<section class="sec" style="margin-top:${html?28:14}px"><div class="sec-h"><h2>${esc(t.pz.h)}</h2><button class="link" data-setrf="pz">${esc(t.seeAll(pzItems().length))}</button></div><div class="pz-rail">${pzPick(5).map(pzCard).join("")}</div></section>`;
   if (podsShown.length) html += `<section class="sec" style="margin-top:${html?28:14}px"><div class="sec-h"><h2>${esc(P.h)}</h2>${f==="all"&&pods.length>podsShown.length?`<button class="link" data-setrf="pod">${esc(t.seeAll(pods.length))}</button>`:""}</div><div class="group rd">${podsShown.map(podRow).join("")}</div></section>`;
   html += items.length ? `<section class="sec" style="margin-top:${html?28:14}px"><div class="sec-h"><h2>${esc(t.ed.fichesH)}</h2><small>${items.length}</small></div><div class="group rd">${items.map(readRow).join("")}</div><p class="note">${esc(t.readsIntro)}</p></section>` : (html?"":`<div class="empty">${esc(t.readsEmpty)}</div>`);
   return html;
@@ -873,7 +913,7 @@ function radarHero(){
 function editionStrip(){
   const t=L(), E=t.ed;
   if (!seenBaseline) return "";
-  const c = {agenda:unseenResults().length, news:unseenNews().length, reads:unseenReads().length+unseenAnalyses().length+unseenPods().length, screens:unseenScreens().length+unseenCine().length};
+  const c = {agenda:unseenResults().length, news:unseenNews().length, reads:unseenReads().length+unseenAnalyses().length+unseenPods().length+unseenPz().length, screens:unseenScreens().length+unseenCine().length};
   const lab = {agenda:E.results, news:E.news, reads:E.reads, screens:E.films};
   const any = Object.values(c).some(Boolean);
   if (!any) return `<div class="edition"><div class="done">✓ ${esc(E.nothing)} ${esc(E.next(hm(nextEdition())))}</div></div>`;
@@ -928,6 +968,36 @@ function podRow(x){
     <h3 class="clamp3">${esc(tx(x,"title"))}</h3>
     <div class="meta2"><span>${esc(String(x.minutes||"?"))} ${esc(t.min)}</span><span>${esc(shortDate(x.date))}</span></div></div></button>`;
 }
+function pzParas(txt){ return String(txt||"").split(/\n+/).filter(Boolean).map(p=>`<p class="pz-t">${esc(p)}</p>`).join(""); }
+function pzCard(x){
+  const t=L(), Z=t.pz, txt=tx(x,"text"), long=String(txt).length>330;
+  const foot = x.url ? `<span>${esc(Z.src)}<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.source||"")}</a></span>` : `<span>${esc(Z.origin[x.origin]||Z.origin.claude)}</span>`;
+  return `<article class="pz" style="--kc:var(--k-${esc(x.kind)},var(--accent))">
+    <div class="pz-k">${TI[x.kind]?`<span class="ti">${TI[x.kind]}</span>`:""}${esc(Z.kinds[x.kind]||"")}${newTag(pzKey(x))}</div>
+    <h3>${esc(tx(x,"title"))}</h3>
+    ${x.orig&&state.lang!=="ar"?`<p class="pz-orig" lang="ar" dir="rtl">${esc(x.orig)}</p>`:""}
+    <div class="pz-body ${long?"cut":""}">${pzParas(txt)}</div>
+    <div class="pz-f">${foot}${long?`<button class="link" data-open="pz" data-k="${esc(x.id)}">${esc(Z.more)}</button>`:""}</div>
+  </article>`;
+}
+function pzPick(n){
+  const items=pzItems().slice().sort((a,b)=>String(b.date).localeCompare(String(a.date)));
+  const order=["blague","khatira","bonne","histoire","proverbe","insolite"], out=[];
+  for (const k of order){ const it=items.find(x=>x.kind===k&&!out.includes(x)); if(it) out.push(it); }
+  for (const it of items){ if(out.length>=n) break; if(!out.includes(it)) out.push(it); }
+  return out.slice(0,n);
+}
+function pzDetail(key){
+  const t=L(), Z=t.pz, x=pzItems().find(z=>z.id===key); if(!x) return `<div class="empty">—</div>`;
+  return `<article class="reader" style="--c:var(--k-${esc(x.kind)},var(--accent));--kc:var(--k-${esc(x.kind)},var(--accent))">
+    <div class="pz-k">${TI[x.kind]?`<span class="ti">${TI[x.kind]}</span>`:""}${esc(Z.kinds[x.kind]||"")}</div>
+    <h1>${esc(tx(x,"title"))}</h1>
+    ${x.orig&&state.lang!=="ar"?`<p class="pz-orig" lang="ar" dir="rtl">${esc(x.orig)}</p>`:""}
+    ${imgOk(x.image)?`<figure>${imgTag(x.image,"hero")}${x.source?`<figcaption>${esc(t.photo+x.source)}</figcaption>`:""}</figure>`:""}
+    ${String(tx(x,"text")).split(/\n+/).filter(Boolean).map(p=>`<p class="body">${esc(p)}</p>`).join("")}
+    ${x.url?`<div class="actions"><a class="btn" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(Z.src)}${esc(x.source||"")} ↗</a></div>`:`<p class="fine">${esc(Z.origin[x.origin]||Z.origin.claude)}</p>`}
+  </article>`;
+}
 function podDetail(key){
   const t=L(), P=t.pod, x=podItems().find(z=>z.id===key); if(!x) return `<div class="empty">—</div>`;
   const orig = x.lang==="ar" && state.lang!=="ar" && x.title_ar ? `<p class="fine" lang="ar" dir="rtl" style="font-family:var(--arabic);font-size:16px">${esc(x.title_ar)}</p>` : "";
@@ -967,6 +1037,8 @@ function viewHome(){
     const lead = heads[leadI], rest = heads.filter((_,i)=>i!==leadI);
     html += `<section class="sec"><div class="sec-h"><h2>${esc(t.headlines)}</h2><button class="link" data-go="news">${esc(t.seeNews)}</button></div>${newsLead(lead)}${rest.length?`<div class="group">${rest.map(n=>newsRow(n,true)).join("")}</div>`:""}</section>`;
   }
+  const pzs = pzPick(5);
+  if (pzs.length) html += `<section class="sec"><div class="sec-h"><h2>${esc(t.pz.h)}</h2><button class="link" data-gopz="1">${esc(t.seeAll(pzItems().length))}</button></div><div class="pz-rail">${pzs.map(pzCard).join("")}</div></section>`;
   const an = analysesList()[0];
   const tonight = readsList().filter(x=>!readDone.has(x.url)).slice(0,3);
   if (an || tonight.length){
@@ -1055,6 +1127,7 @@ function bind(){
   m.querySelectorAll("[data-read]").forEach(b=>b.onclick=()=>{ const u=b.dataset.read; readDone.has(u)?readDone.delete(u):readDone.add(u); store.set("radar-read",[...readDone].slice(-300)); render(); });
   m.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>{ if(b.dataset.go==="news") state.catFilter="all"; go(b.dataset.go); });
   m.querySelectorAll("[data-setrf]").forEach(b=>b.onclick=()=>{ state.readFilter=b.dataset.setrf; render(true); });
+  m.querySelectorAll("[data-gopz]").forEach(b=>b.onclick=()=>{ state.readFilter="pz"; go("reads"); });
   m.querySelectorAll("[data-gopod]").forEach(b=>b.onclick=()=>{ state.readFilter="pod"; go("reads"); });
   m.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>go("news",{cat:b.dataset.cat}));
   m.querySelectorAll("[data-lang]").forEach(b=>b.onclick=()=>{ state.lang=b.dataset.lang; store.set("radar-lang2",state.lang); render(); });
@@ -1107,7 +1180,7 @@ async function pollStatus(){
     renderTop();
   }catch(e){}
 }
-function apply(d){ state.events=Array.isArray(d.events)?d.events:[]; state.news=Array.isArray(d.news)?d.news:[]; state.reads=Array.isArray(d.reads)?d.reads:[]; state.analyses=Array.isArray(d.analyses)?d.analyses:[]; state.screen=d.screen||null; state.podcasts=Array.isArray(d.podcasts)?d.podcasts:[]; state.meta=d.meta||null; render(); }
+function apply(d){ state.events=Array.isArray(d.events)?d.events:[]; state.news=Array.isArray(d.news)?d.news:[]; state.reads=Array.isArray(d.reads)?d.reads:[]; state.analyses=Array.isArray(d.analyses)?d.analyses:[]; state.screen=d.screen||null; state.podcasts=Array.isArray(d.podcasts)?d.podcasts:[]; state.pause=Array.isArray(d.pause)?d.pause:[]; state.meta=d.meta||null; render(); }
 async function loadJson(quiet){
   try{
     const r = await fetch("data.json",{cache:"no-cache"});
@@ -1128,6 +1201,7 @@ async function loadJson(quiet){
     db.doc("feed/news").onSnapshot(s=>{ const d=s.exists?s.data():null; state.news=d&&Array.isArray(d.items)?d.items:[]; render(); }, fail);
     db.doc("feed/analyses").onSnapshot(s=>{ const d=s.exists?s.data():null; state.analyses=d&&Array.isArray(d.items)?d.items:[]; render(); }, ()=>{});
     db.doc("feed/reads").onSnapshot(s=>{ const d=s.exists?s.data():null; state.reads=d&&Array.isArray(d.items)?d.items:[]; render(); }, fail);
+    db.doc("feed/pause").onSnapshot(s=>{ const d=s.exists?s.data():null; state.pause=d&&Array.isArray(d.items)?d.items:[]; render(); }, ()=>{});
     db.doc("feed/podcasts").onSnapshot(s=>{ const d=s.exists?s.data():null; state.podcasts=d&&Array.isArray(d.items)?d.items:[]; render(); }, ()=>{});
     db.doc("feed/screen").onSnapshot(s=>{ state.screen=s.exists?s.data():null; render(); }, ()=>{});
     db.doc("feed/meta").onSnapshot(s=>{ state.meta=s.exists?s.data():null; render(); }, ()=>{});

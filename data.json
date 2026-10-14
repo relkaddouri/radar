@@ -4152,5 +4152,174 @@
    "url": "https://podcasts.apple.com/us/podcast/%C3%A9coscope-13-10-2026-nouveau-gouvernement-croissance/id1896944726?i=1000796079575",
    "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/84/9a/a5/849aa556-8900-87e0-5259-7cae91ee9ef7/mza_8950236931252526063.jpg/600x600bb.jpg"
   }
+ ],
+ "pause": [
+  {
+   "id": "jha-dix-anes",
+   "kind": "blague",
+   "origin": "conte",
+   "date": "2026-10-14",
+   "title": "Jha et les dix ânes",
+   "title_ar": "جحا والحمير العشرة",
+   "text": "Jha rentre du souk avec dix ânes. Il monte sur l'un d'eux et, en chemin, il les compte : neuf ! Inquiet, il descend et recompte : dix. Il remonte, recompte : neuf. Après trois essais, il prend sa décision et continue à pied, très fier : « Mieux vaut marcher avec dix ânes que voyager à dos d'âne et en perdre un ! »",
+   "text_ar": "عاد جحا من السوق ومعه عشرة حمير، فركب واحدًا منها. وفي الطريق عدّها فوجدها تسعة! نزل قلقًا وعدّها من جديد فإذا هي عشرة. ركب وعدّها مرة أخرى: تسعة! وبعد ثلاث محاولات قرّر أن يكمل الطريق ماشيًا وهو فخور بنفسه: «أن أمشي ومعي عشرة حمير خيرٌ من أن أركب وأخسر حمارًا!»"
+  },
+  {
+   "id": "logo-plus-grand",
+   "kind": "blague",
+   "origin": "claude",
+   "date": "2026-10-14",
+   "title": "Le logo, encore un peu",
+   "title_ar": "الشعار… أكبر قليلًا",
+   "text": "Le client : « Tu peux mettre le logo un peu plus grand ? » Le designer l'agrandit. « Encore un peu. » Il l'agrandit encore. « Parfait ! Et maintenant… on peut avoir plus d'espace blanc autour ? »",
+   "text_ar": "العميل: «هل يمكنك أن تكبّر الشعار قليلًا؟» كبّره المصمم. «أكثر قليلًا.» فكبّره مرة أخرى. «ممتاز! والآن… هل يمكن أن نترك مساحة بيضاء أكبر حوله؟»"
+  },
+  {
+   "id": "supporter-4-ans",
+   "kind": "blague",
+   "origin": "claude",
+   "date": "2026-10-14",
+   "title": "Le futur supporter",
+   "title_ar": "المشجّع الصغير",
+   "text": "Un papa, grand fan de foot, demande à son fils de quatre ans : « Quand tu seras grand, tu supporteras quelle équipe ? » Le petit réfléchit très sérieusement, puis répond : « Celle qui gagne. Comme ça, tu ne cries plus devant la télé. »",
+   "text_ar": "سأل أبٌ عاشقٌ لكرة القدم ابنه ذا الأربع سنوات: «حين تكبر، أيّ فريق ستشجّع؟» فكّر الصغير بجدّية كبيرة ثم قال: «الفريق الذي يفوز… حتى لا تصرخ بعد اليوم أمام التلفاز.»"
+  },
+  {
+   "id": "ia-notifications",
+   "kind": "blague",
+   "origin": "claude",
+   "date": "2026-10-14",
+   "title": "Moins de téléphone",
+   "title_ar": "أقلّ من الهاتف",
+   "text": "J'ai demandé à une IA de m'aider à passer moins de temps sur mon téléphone. Très motivée, elle m'a envoyé quatorze notifications dans la journée pour me le rappeler.",
+   "text_ar": "طلبت من ذكاء اصطناعي أن يساعدني على قضاء وقت أقلّ مع هاتفي. فتحمّس كثيرًا، وأرسل لي أربعة عشر إشعارًا خلال اليوم ليذكّرني بذلك."
+  },
+  {
+   "id": "pouce-et-temps",
+   "kind": "khatira",
+   "origin": "claude",
+   "date": "2026-10-14",
+   "title": "Le pouce et le temps",
+   "title_ar": "الإبهام والوقت",
+   "text": "On dit souvent qu'on n'a pas le temps. Pourtant, chaque jour, notre pouce parcourt des mètres et des mètres d'écran, sans jamais se plaindre de fatigue.\nEt si, juste ce soir, on lui demandait de s'arrêter un peu plus tôt ? Le temps qu'on cherche partout est souvent caché là, entre deux défilements. Il suffit de lever les yeux pour le retrouver.",
+   "text_ar": "نقول كثيرًا إننا لا نجد الوقت. ومع ذلك، يقطع إبهامنا كل يوم أمتارًا وأمتارًا على الشاشة دون أن يشتكي من التعب.\nماذا لو طلبنا منه، هذا المساء فقط، أن يتوقف أبكر قليلًا؟ الوقت الذي نبحث عنه في كل مكان كثيرًا ما يكون مختبئًا هناك، بين تمريرة وأخرى. يكفي أن نرفع أعيننا لنجده."
+  },
+  {
+   "id": "pourquoi",
+   "kind": "khatira",
+   "origin": "claude",
+   "date": "2026-10-14",
+   "title": "La petite question « pourquoi ? »",
+   "title_ar": "سؤال صغير اسمه «لماذا؟»",
+   "text": "Un enfant demande « pourquoi ? » sans jamais se fatiguer. Nous, les adultes, avons arrêté un jour, peut-être par peur de paraître naïfs.\nPourtant, toutes les bonnes idées commencent par cette petite question. Ce soir, quand il te demandera pourquoi la lune nous suit en voiture, réponds… puis demande-lui ce qu'il en pense. Tu risques d'apprendre quelque chose.",
+   "text_ar": "يسأل الطفل «لماذا؟» دون أن يتعب أبدًا. أمّا نحن الكبار فقد توقفنا يومًا ما، ربما خوفًا من أن نبدو سُذّجًا.\nومع ذلك، كل فكرة جميلة تبدأ بهذا السؤال الصغير. هذا المساء، حين يسألك لماذا يلاحقنا القمر ونحن في السيارة، أجبه… ثم اسأله هو عن رأيه. قد تتعلّم شيئًا جديدًا."
+  },
+  {
+   "id": "potier-safi",
+   "kind": "histoire",
+   "origin": "claude",
+   "date": "2026-10-14",
+   "title": "Le bol fêlé du potier de Safi",
+   "title_ar": "الوعاء المشقوق لخزّاف آسفي",
+   "text": "À Safi, un vieux potier gardait sur son étagère un bol tout fêlé. Un jour, son apprenti lui demanda pourquoi il ne le jetait pas.\n« C'est mon tout premier bol, répondit le vieil homme. Chaque fois que je rate une pièce, je le regarde. Il me rappelle d'où je suis parti, et que tout ce qui est beau dans cet atelier est venu après lui. »\nL'apprenti sourit et posa son propre bol raté à côté. Depuis, l'étagère s'est remplie de bols fêlés. Les clients pensent que c'est une collection. Ils n'ont pas tout à fait tort.",
+   "text_ar": "في آسفي، كان خزّافٌ عجوز يحتفظ على رفّه بوعاءٍ مشقوق. وذات يوم سأله تلميذه: لماذا لا ترميه؟\nفأجاب العجوز: «إنه أول وعاء صنعته في حياتي. كلما أفسدتُ قطعة نظرتُ إليه، فيذكّرني من أين بدأت، وأنّ كل ما هو جميل في هذا المحترف جاء بعده.»\nابتسم التلميذ ووضع وعاءه الفاشل بجانبه. ومنذ ذلك اليوم امتلأ الرف بالأواني المشقوقة. يظن الزبائن أنها مجموعة فنية… وهم ليسوا مخطئين تمامًا."
+  },
+  {
+   "id": "clou-de-jha",
+   "kind": "histoire",
+   "origin": "conte",
+   "date": "2026-10-14",
+   "title": "Le clou de Jha",
+   "title_ar": "مسمار جحا",
+   "text": "Jha vend sa maison, mais il pose une seule condition : un clou planté dans le mur du salon restera à lui. L'acheteur trouve ça drôle et accepte.\nLe lendemain, Jha frappe à la porte : il vient « vérifier son clou ». Puis il revient y accrocher sa veste, puis son sac, puis il s'assoit à côté pour se reposer… Au bout de quelques semaines, l'acheteur, épuisé, lui rend la maison.\nDepuis, on dit « le clou de Jha » pour parler d'un petit prétexte qui ouvre une grande porte. Une bonne raison de toujours bien lire les petites lignes d'un contrat !",
+   "text_ar": "باع جحا داره، لكنه اشترط شرطًا واحدًا: أن يبقى له مسمارٌ مدقوق في حائط البيت. ضحك المشتري ووافق.\nفي الغد طرق جحا الباب ليطمئن على «مسماره». ثم عاد ليعلّق عليه معطفه، ثم كيسه، ثم جلس بجانبه ليرتاح… وبعد أسابيع قليلة، تعب المشتري وترك له الدار.\nومنذ ذلك الحين نقول «مسمار جحا» عن ذريعة صغيرة تفتح بابًا كبيرًا. وهو سبب وجيه لنقرأ دائمًا السطور الصغيرة في أي عقد!"
+  },
+  {
+   "id": "fatek-b-lila",
+   "kind": "proverbe",
+   "origin": "proverbe",
+   "date": "2026-10-14",
+   "title": "Une nuit d'avance",
+   "title_ar": "اللي فاتك بليلة",
+   "orig": "اللي فاتك بليلة فاتك بحيلة",
+   "text": "« Elli fatek b'lila, fatek b'hila » : celui qui a vécu une nuit de plus que toi connaît une astuce de plus. Autrement dit, écoute l'expérience des plus âgés, même les jours où tu penses déjà tout savoir.",
+   "text_ar": "«اللي فاتك بليلة فاتك بحيلة»: من سبقك في الحياة بليلة واحدة سبقك بحيلة. أي استمع لتجربة من هم أكبر منك، حتى في الأيام التي تظن فيها أنك تعرف كل شيء."
+  },
+  {
+   "id": "qatra-qatra",
+   "kind": "proverbe",
+   "origin": "proverbe",
+   "date": "2026-10-14",
+   "title": "Goutte à goutte",
+   "title_ar": "قطرة قطرة",
+   "orig": "قطرة قطرة كيحمل الواد",
+   "text": "« Qatra qatra kayhmel l'oued » : goutte après goutte, la rivière finit par déborder. Les petits efforts de chaque jour, même minuscules, finissent par faire une grande différence. Vrai pour l'épargne, le sport… et l'apprentissage.",
+   "text_ar": "«قطرة قطرة كيحمل الواد»: قطرة بعد قطرة يفيض الوادي. الجهود الصغيرة التي نبذلها كل يوم، مهما بدت بسيطة، تصنع في النهاية فرقًا كبيرًا. يصحّ هذا في الادخار والرياضة… وفي التعلّم أيضًا."
+  },
+  {
+   "id": "cinema-mary-retraite",
+   "kind": "bonne",
+   "title": "Une cagnotte géante pour Mary, la doyenne du cinéma",
+   "title_ar": "تبرعات ضخمة لماري، عميدة عمّال السينما",
+   "text": "Dans un cinéma AMC de Maryville, au Tennessee, Brooklyn Green, 21 ans, remarque Mary, une employée âgée qui pousse un chariot de déchets, le dos courbé. Mary travaille dans les salles depuis plus de 45 ans. La jeune femme filme la scène pour TikTok et lance une cagnotte, en espérant payer un mois de loyer. La vidéo fait le tour du web : plus de 100 000 dollars le premier jour, puis environ 146 000 au total. Mary a remercié tous les donateurs lors d'une belle surprise.",
+   "text_ar": "في قاعة سينما AMC بمدينة ماريفيل في ولاية تينيسي الأمريكية، لاحظت الشابة بروكلين غرين، ذات الحادية والعشرين، السيدة ماري وهي تدفع عربة النفايات بظهر منحنٍ. ماري تعمل في قاعات السينما منذ أكثر من 45 سنة. صوّرت بروكلين المشهد ونشرته على تيك توك، وأطلقت حملة تبرع على أمل أن تغطي إيجار شهر واحد. لكن الفيديو انتشر بسرعة، فتجاوزت التبرعات 100 ألف دولار في اليوم الأول، ووصلت إلى نحو 146 ألفاً. وفي لقاء مفاجئ، شكرت ماري كل من ساهم بقلب ممتن.",
+   "source": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/elderly-theater-worker-surprised-with-146000-for-retirement-crowdfunded-by-young-moviegoer/",
+   "date": "2026-10-13",
+   "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Mary-the-theater-worker-credit-GoFundMe.jpg",
+   "origin": "source"
+  },
+  {
+   "id": "darija-tenerife-medecine",
+   "kind": "bonne",
+   "title": "La darija enseignée aux futurs soignants de Tenerife",
+   "title_ar": "الدارجة المغربية في قاعات طلبة الطب بتينيريفي",
+   "text": "Bonne idée aux Canaries : l'université de La Laguna, à Tenerife, propose un séminaire ouvert de darija marocaine, pensé d'abord pour les étudiants en médecine et en soins infirmiers. Le but est simple : mieux parler avec les patients marocains, très nombreux en Espagne. Les cours mêlent langue, culture, histoire et géographie du Maroc. Trois matinées étaient prévues, les 29 septembre, 6 et 13 octobre. Le séminaire est aussi ouvert aux chercheurs et au grand public curieux.",
+   "text_ar": "مبادرة جميلة في جزر الكناري: جامعة لا لاغونا في تينيريفي تقدّم ورشة مفتوحة لتعلّم الدارجة المغربية، موجّهة أساساً لطلبة الطب والتمريض. الفكرة بسيطة: تسهيل التواصل مع المرضى المغاربة، وهم أكبر جالية أجنبية في إسبانيا. تجمع الدروس بين اللغة والثقافة والتاريخ وجغرافيا المغرب، وقد برمجت ثلاث صباحيات في 29 شتنبر و6 و13 أكتوبر. والورشة مفتوحة أيضاً للباحثين ولكل محبّ للاكتشاف.",
+   "source": "Morocco World News",
+   "url": "https://www.moroccoworldnews.com/2026/09/340364/canary-islands-university-offers-moroccan-darija-seminar-to-medical-nursing-students/",
+   "date": "2026-09-30",
+   "image": "https://www.moroccoworldnews.com/wp-content/uploads/2026/09/Canary-Islands-University-Offers-Moroccan-Darija-Seminar-to-Medical-Nursing-Students.webp",
+   "origin": "source"
+  },
+  {
+   "id": "tortues-geantes-aldabra",
+   "kind": "bonne",
+   "title": "Les tortues géantes d'Aldabra n'ont jamais été aussi nombreuses",
+   "title_ar": "سلاحف ألدابرا العملاقة في أعلى عدد لها على الإطلاق",
+   "text": "Belle surprise aux Seychelles : sur l'atoll d'Aldabra, dans l'océan Indien, des chercheurs ont compté environ 180 000 tortues géantes, un record. Au XIXe siècle, il en restait moins de 1 000 ! Protégé depuis 1981, l'atoll est devenu un vrai refuge. L'équipe de la Fondation des îles Seychelles et de l'université d'Exeter a étudié cinq ans de comptages, de 2018 à 2022. Les sécheresses et les rats restent des menaces, mais la population est stable et en bonne santé.",
+   "text_ar": "خبر مفرح من جزر السيشل: في جزيرة ألدابرا المرجانية بالمحيط الهندي، أحصى الباحثون حوالي 180 ألف سلحفاة عملاقة، وهو رقم قياسي. في القرن التاسع عشر لم يبق منها سوى أقل من ألف! ومنذ أن أصبحت الجزيرة محمية سنة 1981، تحوّلت إلى ملاذ حقيقي. درس فريق مؤسسة جزر السيشل وجامعة إكستر خمس سنوات من الإحصاءات بين 2018 و2022. ما زال الجفاف والفئران خطراً، لكن الأعداد مستقرة وبصحة جيدة.",
+   "source": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/giant-tortoise-population-is-thriving-survey-finds-180000-on-one-island-chain/",
+   "date": "2026-10-11",
+   "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Giant-Tortoises-in-the-Seychelles-SWNS.jpeg",
+   "origin": "source"
+  },
+  {
+   "id": "homard-fantome-casper",
+   "kind": "insolite",
+   "title": "Casper, le homard fantôme qui va à la fac",
+   "title_ar": "كاسبر، الكركند الشبح يدخل الجامعة",
+   "text": "Il s'appelle Casper et il est tout blanc. Ce homard « fantôme » est si rare qu'on estime sa chance d'exister à une sur 100 millions. Offert par l'aquarium de l'État du Maine, il a rejoint le centre marin de l'université de New England. Là-bas, des chercheurs étudient pourquoi certains homards naissent orange, bleus ou blancs. Casper va donner un peu de son ADN, sans douleur. Il rejoint Peaches, une homarde orange, elle aussi très rare. Un vrai casting de dessin animé !",
+   "text_ar": "اسمه كاسبر ولونه أبيض بالكامل. هذا الكركند «الشبح» نادر جداً، إذ تقدَّر فرصة ظهوره بواحد من كل 100 مليون. أهداه حوض الأسماك في ولاية مين الأمريكية إلى المركز البحري لجامعة نيو إنغلاند، حيث يدرس العلماء سرّ ولادة كركندات برتقالية أو زرقاء أو بيضاء. سيقدّم كاسبر عينة صغيرة من حمضه النووي دون أي أذى، وسيجاور «بيتشز»، الكركندة البرتقالية النادرة هي الأخرى. كأنه طاقم فيلم رسوم متحركة!",
+   "source": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/100m-ghost-lobster-goes-to-college/",
+   "date": "2026-10-04",
+   "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Casper-the-white-lobster-at-University-of-New-England-Arthur-P-Girard-Marine-Science-Center-released.jpg",
+   "origin": "source"
+  },
+  {
+   "id": "softball-soeurs-retrouvees",
+   "kind": "insolite",
+   "title": "Au softball, elle retrouve sa sœur… dans l'équipe adverse",
+   "title_ar": "في مباراة سوفتبول، وجدت أختها... في الفريق المنافس",
+   "text": "Lors d'un tournoi de softball dans le Montana, une coéquipière fait remarquer à Samantha Rensvold qu'une joueuse d'en face lui ressemble énormément. Samantha, adoptée bébé, reste sans voix. Sa mère adoptive remarque alors que le prénom de la joueuse, Kyann Dean, est celui donné par sa mère biologique à sa fille. Les deux mamans discutent : même mère, même hôpital. Ce sont bien des sœurs ! Détail drôle : au volley, elles jouaient au même poste, avec le même numéro.",
+   "text_ar": "خلال دوري للسوفتبول في ولاية مونتانا، لاحظت زميلة لسامانثا رينسفولد أن إحدى لاعبات الفريق الآخر تشبهها كثيراً. سامانثا، التي تبنّتها أسرة وهي رضيعة، بقيت مذهولة. ثم انتبهت أمها بالتبنّي إلى أن اسم اللاعبة، كيان دين، هو نفسه الاسم الذي اختارته الأم البيولوجية لابنتها. تحدّثت الأمّان: نفس الأم ونفس المستشفى. إنهما أختان فعلاً! والطريف أنهما كانتا تلعبان الكرة الطائرة في المركز نفسه وبالرقم نفسه.",
+   "source": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/montana-high-school-softball-player-discovered-long-lost-sister-on-opposing-team/",
+   "date": "2026-10-12",
+   "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Kyann-Dean-left-and-Samantha-Rensvold-right-credit-Rensvold-family-photo.jpg",
+   "origin": "source"
+  }
  ]
 }
