@@ -424,6 +424,7 @@ button.fig:active{transform:scale(.99)}
 .msg.bot p + p,.msg.bot p + ul,.msg.bot ul + p{margin-top:8px}
 .msg.bot ul{margin:0;padding-inline-start:20px;display:grid;gap:4px}
 .msg.bot b{font-weight:750}
+.msg.err.codef{flex-direction:column;align-items:stretch}.coderow{display:flex;gap:8px}.coderow input{flex:1;min-width:0;border:0;border-radius:12px;padding:9px 12px;font:inherit;font-size:16px;background:var(--surface);color:var(--ink);box-shadow:0 0 0 1px var(--line)}
 .msg.err{align-self:stretch;max-width:none;background:color-mix(in srgb,var(--f1) 10%,var(--surface));color:var(--ink);font-size:14px;display:flex;gap:10px;align-items:center;justify-content:space-between}
 .dots{display:inline-flex;gap:5px;align-items:center;color:var(--muted);font-size:14px}
 .dots i{width:6px;height:6px;border-radius:50%;background:var(--accent);opacity:.3;animation:blink 1.2s infinite}
@@ -1118,7 +1119,7 @@ const LX = {
     note:"Claude répond à partir de l'article. Il peut se tromper : vérifie les points importants.", reset:"Effacer",
     sug:{simple:"Explique-moi cet article simplement", why:"Pourquoi c'est important ?", maroc:"Qu'est-ce que ça change pour le Maroc ?", win:"Qui gagne, qui perd ?", next:"Et maintenant, que peut-il se passer ?"},
     follow:["Donne-moi un exemple concret","Encore plus simple","Et pour le Maroc ?"],
-    err:{not_granted:"Claude n'est pas autorisé sur cette page. Tu peux l'activer dans les permissions de l'artifact.", rate_limited:"Trop de questions d'un coup. Attends un instant puis réessaie.", default:"La réponse n'a pas pu arriver. Réessaie dans un moment."},
+    err:{not_granted:"Claude n'est pas autorisé sur cette page. Tu peux l'activer dans les permissions de l'artifact.", rate_limited:"Trop de questions d'un coup. Attends un instant puis réessaie.", default:"La réponse n'a pas pu arriver. Réessaie dans un moment.", bad_code:"Entre ton code Radar pour utiliser le chat sur ce site."}, codePh:"Code Radar", codeOk:"Valider",
     retry:"Réessayer", more:"Demander plus à Claude", tapHint:"Les mots soulignés s'expliquent d'un toucher.", langName:"français simple (niveau B1), avec le tutoiement"},
   ar:{h:"لفهم الخبر جيدًا", ctx:"قبل القراءة", figs:"الأرقام بشرح بسيط", terms:"كلمات يجب معرفتها", ask:"اسأل Claude", askShort:"سؤال؟",
     askTerm:w=>`اشرح لي «${w}» ببساطة مع مثال ملموس.`, askFig:n=>`«${n}»: هل هذا كثير أم قليل؟ ساعدني على المقارنة.`, figQ:"هل هذا كثير؟",
@@ -1126,7 +1127,7 @@ const LX = {
     note:"يجيب Claude انطلاقًا من المقال وقد يخطئ: تحقّق من النقاط المهمة.", reset:"مسح",
     sug:{simple:"اشرح لي هذا المقال ببساطة", why:"لماذا هذا مهم؟", maroc:"ماذا يغيّر هذا بالنسبة للمغرب؟", win:"من الرابح ومن الخاسر؟", next:"وماذا يمكن أن يحدث الآن؟"},
     follow:["أعطني مثالًا ملموسًا","بشكل أبسط","وبالنسبة للمغرب؟"],
-    err:{not_granted:"Claude غير مفعّل في هذه الصفحة. يمكنك تفعيله من أذونات الصفحة.", rate_limited:"أسئلة كثيرة في وقت واحد. انتظر قليلًا ثم أعد المحاولة.", default:"تعذّر وصول الجواب. أعد المحاولة بعد قليل."},
+    err:{not_granted:"Claude غير مفعّل في هذه الصفحة. يمكنك تفعيله من أذونات الصفحة.", rate_limited:"أسئلة كثيرة في وقت واحد. انتظر قليلًا ثم أعد المحاولة.", default:"تعذّر وصول الجواب. أعد المحاولة بعد قليل.", bad_code:"أدخل رمز رادار لاستعمال المحادثة على هذا الموقع."}, codePh:"رمز رادار", codeOk:"تأكيد",
     retry:"أعد المحاولة", more:"اسأل Claude أكثر", tapHint:"اضغط على الكلمات المسطّرة لرؤية شرحها.", langName:"العربية الفصحى الواضحة والبسيطة، بأسلوب قريب من القارئ المغربي"}
 };
 const LXI = {
@@ -1139,7 +1140,41 @@ const LXI = {
 };
 const LXL = () => LX[state.lang];
 const ai = { sample:null, ready:false, chats:new Map(), open:null, ctl:null, tip:null };
-(async()=>{ try{ if (window.claude && window.claude.use){ ai.sample = await window.claude.use("sample"); } }catch(e){ ai.sample=null; } ai.ready=true; if (state.detail && ai.sample) render(); else syncFab(); })();
+/* sur le site (Vercel) : le chat passe par api/ask, une petite fonction serveur qui appelle Claude */
+function pwaSample(input, o){
+  o=o||{};
+  return (async()=>{
+    let text="";
+    let r;
+    try{
+      r = await fetch("api/ask",{method:"POST",headers:{"content-type":"application/json","x-radar-code":store.get("radar-code","")},body:JSON.stringify({messages:input}),signal:o.signal});
+    }catch(e){ throw {code: e&&e.name==="AbortError"?"cancelled":"default", text:""}; }
+    if (r.status===401) throw {code:"bad_code"};
+    if (r.status===429) throw {code:"rate_limited"};
+    if (!r.ok || !r.body) throw {code:"default"};
+    const rd=r.body.getReader(), dec=new TextDecoder();
+    try{
+      for(;;){ const {done,value}=await rd.read(); if(done) break; text+=dec.decode(value,{stream:true}); if(o.onText) o.onText({text}); }
+    }catch(e){ throw {code: e&&e.name==="AbortError"?"cancelled":"default", text}; }
+    if (text.includes("\u0000ERR")){ text=text.split("\u0000ERR")[0]; throw {code:"default", text}; }
+    return {text, truncated:false};
+  })();
+}
+(async()=>{
+  try{
+    if (window.RADAR_PWA){
+      const r = await fetch("api/ask",{cache:"no-store"});
+      const j = r.ok ? await r.json() : null;
+      if (j && j.ok){ ai.sample = pwaSample;
+        if (j.provider==="deepseek"){
+          Object.assign(LX.fr,{ask:"Demander à l'IA", thinking:"L'IA réfléchit", more:"Demander plus à l'IA", note:"Réponses de l'IA DeepSeek, à partir de l'article. Elle peut se tromper : vérifie les points importants."});
+          Object.assign(LX.ar,{ask:"اسأل الذكاء الاصطناعي", thinking:"الذكاء الاصطناعي يفكر", more:"اسأل الذكاء الاصطناعي أكثر", note:"أجوبة الذكاء الاصطناعي DeepSeek انطلاقًا من المقال، وقد يخطئ: تحقّق من النقاط المهمة."});
+        }
+      }
+    } else if (window.claude && window.claude.use){ ai.sample = await window.claude.use("sample"); }
+  }catch(e){ ai.sample=null; }
+  ai.ready=true; if (state.detail && ai.sample) render(); else syncFab();
+})();
 
 function explainOf(x){ const e=x&&x.explain; return (e && typeof e==="object") ? e : null; }
 function termsOf(x){ const e=explainOf(x); return e && Array.isArray(e.terms) ? e.terms.filter(z=>z&&z.t&&z.d) : []; }
@@ -1294,7 +1329,8 @@ function drawChat(full){
   const title = tx(doc.x,"title");
   const msgs = c.turns.map(t=>t.role==="user"?`<div class="msg me">${esc(t.content)}</div>`:`<div class="msg bot">${mdLite(t.content)}</div>`).join("");
   const liveHtml = c.busy ? `<div class="msg bot" id="livemsg">${c.live?mdLite(c.live):`<span class="dots" role="status"><i></i><i></i><i></i> ${esc(X.thinking)}</span>`}</div>` : "";
-  const errHtml = c.err ? `<div class="msg err" role="alert"><span>${esc(X.err[c.err]||X.err.default)}</span>${c.err!=="not_granted"?`<button class="btn" data-retry="1">${esc(X.retry)}</button>`:""}</div>` : "";
+  const errHtml = c.err==="bad_code" ? `<form class="msg err codef" role="alert" id="codef"><span>${esc(X.err.bad_code)}</span><span class="coderow"><input id="radarcode" type="password" autocomplete="current-password" placeholder="${esc(X.codePh)}" aria-label="${esc(X.codePh)}"><button class="btn primary" type="submit">${esc(X.codeOk)}</button></span></form>`
+    : c.err ? `<div class="msg err" role="alert"><span>${esc(X.err[c.err]||X.err.default)}</span>${c.err!=="not_granted"?`<button class="btn" data-retry="1">${esc(X.retry)}</button>`:""}</div>` : "";
   const intro = !c.turns.length && !c.busy ? `<div class="hello"><p>${esc(X.hello)}</p><div class="sugs">${suggestionsFor(doc).map(s=>`<button class="sug" data-sug="${esc(s)}">${esc(s)}</button>`).join("")}</div></div>` : "";
   const follow = c.turns.length && !c.busy && !c.err ? `<div class="sugs follow">${X.follow.map(s=>`<button class="sug" data-sug="${esc(s)}">${esc(s)}</button>`).join("")}</div>` : "";
   if (full){
@@ -1315,6 +1351,7 @@ function drawChat(full){
   box.innerHTML = intro + msgs + liveHtml + errHtml + follow;
   box.querySelectorAll("[data-sug]").forEach(b=>b.onclick=()=>ask(b.dataset.sug));
   const rt=box.querySelector("[data-retry]"); if(rt) rt.onclick=()=>{ const last=c.turns[c.turns.length-1]; if(last&&last.role==="user"){ c.turns.pop(); ask(last.content); } };
+  const cf=box.querySelector("#codef"); if(cf){ const ci=cf.querySelector("input"); setTimeout(()=>ci.focus(),50); cf.onsubmit=e=>{ e.preventDefault(); const v=ci.value.trim(); if(!v) return; store.set("radar-code",v); const last=c.turns[c.turns.length-1]; if(last&&last.role==="user"){ c.turns.pop(); ask(last.content); } }; }
   box.scrollTop=box.scrollHeight;
   updSend();
 }
@@ -1339,7 +1376,7 @@ async function ask(q){
   }catch(e){
     const code=e&&e.code;
     if (code==="cancelled"){ if(e.text) c.turns.push({role:"assistant",content:e.text}); else c.turns.pop(); }
-    else { if(e&&e.text) c.turns.push({role:"assistant",content:e.text}); c.err = code==="not_granted"?"not_granted":code==="rate_limited"?"rate_limited":"default"; }
+    else { if(e&&e.text) c.turns.push({role:"assistant",content:e.text}); c.err = ["not_granted","rate_limited","bad_code"].includes(code)?code:"default"; }
   }finally{
     c.busy=false; c.live=""; if(ai.ctl===ctl) ai.ctl=null;
     if (ai.open===doc.key) drawChat(false);
