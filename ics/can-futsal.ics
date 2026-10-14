@@ -9,14 +9,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:can-futsal@radar
-DTSTAMP:20261014T125024Z
+DTSTAMP:20261014T130445Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261022
 TRANSP:TRANSPARENT
 SUMMARY:Les Lions de l'Atlas visent un 4e titre de suite (Football)
 LOCATION:Rabat
 DESCRIPTION:CAN futsal (au Maroc) — Maroc 4-0 Algérie en ouverture \; 
- Maroc–Zambie ce mercredi\, Maroc–Libye vendredi
+ Maroc–Zambie ce mercredi à 20h\, Maroc–Libye vendredi 16 à 20h \; 
+ demi-finales le 19\, finale le 21 octobre
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Les Lions de l'Atlas visent un 4e titre de suite (Football)
