@@ -71,6 +71,55 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-off
 .row label .ti{width:20px;height:20px}
 .topic-h .ti{width:18px;height:18px}
 
+
+/* v12 photos + écrans */
+.digest a:not(.has-img){grid-template-columns:1fr}
+.digest a > span:first-child{display:grid;gap:4px;align-content:start}
+.ph{display:block;width:100%;object-fit:cover;background:var(--raised)}
+.card.has-img{display:grid;grid-template-columns:1fr 92px;gap:12px;align-items:start}
+.card .thumb{width:92px;height:92px;border-radius:10px;object-fit:cover;background:var(--raised)}
+.topic a.has-img{display:grid;grid-template-columns:1fr 64px;gap:12px;align-items:center}
+.topic a .thumb{width:64px;height:64px;border-radius:8px;object-fit:cover;background:var(--raised)}
+.digest a .thumb{width:56px;height:56px;border-radius:8px;object-fit:cover;background:var(--raised)}
+.digest a.has-img{grid-template-columns:1fr 56px}
+.read .cover,.an .cover{aspect-ratio:16/9;border-radius:10px;margin-bottom:2px}
+.an .cover{margin:-4px 0 2px}
+.reader figure{margin:0}
+.reader .hero{aspect-ratio:16/9;border-radius:14px}
+.reader figcaption{font-size:12px;color:var(--muted);margin-top:6px}
+.top-row .gear{border:1px solid var(--line);background:var(--surface);width:40px;height:40px;border-radius:12px;display:grid;place-items:center;cursor:pointer;color:var(--muted);flex:none}
+.top-row .gear svg{width:22px;height:22px}
+.top-row .gear[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.scr-rail{display:flex;gap:12px;overflow-x:auto;margin-inline:-16px;padding:2px 16px 6px;scroll-snap-type:x mandatory;scroll-padding-inline:16px;scrollbar-width:none}
+.scr-rail::-webkit-scrollbar{display:none}
+.scr-rail .scr{flex:0 0 78%;max-width:320px;scroll-snap-align:start}
+.scr-list{display:grid;gap:12px}
+.scr{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:grid;align-content:start}
+.scr .art{position:relative;display:block}
+.scr .art .ph{aspect-ratio:16/9}
+.scr .plat{position:absolute;inset-inline-start:10px;top:10px;font-size:11px;font-weight:800;letter-spacing:.02em;padding:4px 8px;border-radius:6px;color:#fff;background:var(--pc,#333)}
+.scr .play{position:absolute;inset-inline-end:10px;bottom:10px;display:inline-flex;align-items:center;gap:6px;background:rgba(0,0,0,.72);color:#fff;font-size:12px;font-weight:700;padding:6px 10px;border-radius:999px;text-decoration:none}
+.scr .play svg{width:14px;height:14px}
+.scr .bd{padding:12px 14px 14px;display:grid;gap:6px}
+.scr .k{font-size:12px;color:var(--muted);font-weight:600;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.scr h3{margin:0;font-size:17px;line-height:1.3;font-weight:800;text-wrap:balance}
+.scr p{margin:0;font-size:14px;line-height:1.5}
+.scr .cr{font-size:13px;color:var(--muted)}
+.scr .fy{font-size:14px;background:color-mix(in srgb,var(--cinema) 10%,var(--surface));border-inline-start:3px solid var(--cinema);padding:8px 10px;border-radius:8px}
+.scr .fy b{color:var(--cinema)}
+.scr .ft{display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:space-between;margin-top:2px}
+.scr .tagpick{background:var(--cinema);color:#fff;border-radius:6px;padding:2px 6px;font-size:11px;font-weight:800}
+.scr .tagfam{background:var(--monte);color:#fff;border-radius:6px;padding:2px 6px;font-size:11px;font-weight:800}
+.bo{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.bo + .bo{margin-top:10px}
+.bo h3{margin:0 0 6px;font-size:14px;font-weight:800}
+.bo ol{margin:0;padding:0;list-style:none;display:grid;gap:6px}
+.bo li{display:grid;grid-template-columns:22px 1fr auto;gap:8px;align-items:baseline;font-size:14px}
+.bo li .r{font-weight:800;color:var(--cinema)}
+.bo li small{color:var(--muted);font-size:12px}
+.bo .src{font-size:12px;color:var(--muted);margin-top:8px}
+.bo .src a{color:inherit}
+
 /* Bottom tab bar */
 .nav{position:fixed;left:0;right:0;bottom:0;z-index:25;background:color-mix(in srgb,var(--surface) 92%,transparent);backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
 .nav-in{max-width:720px;margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr);height:var(--nav-h)}
@@ -287,8 +336,9 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-off
 <script>
 const T = {
   fr:{
-    app:"Radar", tabs:{home:"Accueil",agenda:"Agenda",news:"Actus",reads:"À lire",settings:"Réglages"},
-    titles:{home:"Aujourd'hui",agenda:"Agenda",news:"Actus",reads:"À lire",settings:"Réglages"},
+    app:"Radar", tabs:{home:"Accueil",agenda:"Agenda",news:"Actus",screens:"Écrans",reads:"À lire",settings:"Réglages"},
+    titles:{home:"Aujourd'hui",agenda:"Agenda",news:"Actus",screens:"Films & séries",reads:"À lire",settings:"Réglages"},
+    scr:{picks:"Choisis pour toi", newOut:"Sortis récemment", soon:"Bientôt", bo:"Box-office", boUS:"États-Unis · week-end", boFR:"France · semaine (entrées)", weeks:n=>`${n} sem.`, forYou:"L\u2019avis de Claude : ", film:"Film", serie:"Série", out:"Sorti le ", outOn:"Sortie le ", pick:"Choix Radar", fam:"En famille", list:"Ma liste", add:"+ Ma liste", inList:"Dans ma liste ✓", trailer:"Bande-annonce", more:"En savoir plus", all:"Tout", empty:"Rien ici pour le moment.", listEmpty:"Ta liste est vide. Touche « + Ma liste » sur un film ou une série.", note:"Sélection et avis « Pour toi » écrits par Claude, mis à jour 3 fois par jour. Les dates peuvent varier selon le pays.", src:"Source : ", home:"À l'écran", seeAll:"Tous les films et séries"}, photo:"Photo : ",
     aiBadge:"Analyse Radar · écrite par Claude", cardBadge:"Fiche Radar · résumé écrit par Claude", analyses:"Analyses Radar", analysisOfDay:"Analyse du jour", essential:"L\u2019essentiel en 1 minute", resumeH:"Le résumé", keyPoints:"Les points clés", takeawayH:"À retenir", whyH:"Pourquoi c\u2019est important pour toi", readFull:"Lire l\u2019article complet", back:"Retour", sourcesH:"Sources utilisées", aiNote:"Ce texte a été écrit par Claude à partir des sources ci-dessous. Vérifie les détails importants avant de les partager.", cardNote:(src)=>`Résumé écrit par Claude avec ses propres mots. L\u2019article original appartient à ${src}.`, readAnalysis:"Analyse Radar", readCard:"Lire la fiche", readAn:"Lire l\u2019analyse", newTag:"Nouveau", sinceTitle:"Nouveau pour toi depuis ta dernière visite", sinceNews:"actus", sinceReads:"lectures", sinceRes:"résultats", upToDate:"Tu es à jour : rien de nouveau depuis ta dernière visite.", markAllSeen:"Tout marquer comme vu", nNew:n=>`${n} nouveau${n>1?"x":""}`, toWatch:"À voir", vid:{highlights:"Résumé vidéo",trailer:"Bande-annonce",promo:"Vidéo"}, updRunning:(h)=>`Mise à jour en cours… (commencée à ${h}). Les nouveautés arrivent toutes seules.`, updDone:"Mise à jour reçue ✓", briefTitle:"Le brief du jour", results:"Résultats récents", done:["Fini",""], result:"Résultat", recap:"Lire l'analyse", addCal:"Ajouter au calendrier", calTitle:"Calendrier de l'iPhone", calSub:"Abonne ton iPhone aux incontournables : ils apparaissent dans ton calendrier avec une alerte 30 min avant, et la liste se met à jour toute seule.", calBtn:"S'abonner aux incontournables", calAll:"Tout l'agenda", readTonight:"À lire ce soir", seeReads:"Toutes les lectures", whyRead:"Pourquoi le lire : ", min:"min", markRead:"Marquer comme lu", isRead:"Lu ✓", open:"Lire", unread:"Non lus", paywall:"accès payant", langs:{fr:"FR",en:"EN",ar:"AR"}, readsEmpty:"Tu as tout lu dans cette catégorie. De nouvelles lectures arrivent chaque matin.", readsIntro:"Analyses et articles de fond choisis pour toi, mis à jour chaque matin.",
     all:"Tous", allNews:"Tout", fav:"★ Favoris", updated:"Mis à jour le ", loading:"Chargement…",
     next:"Prochain incontournable", days:"jours", day1:"jour", hours:"h", mins:"min", before:"avant", todayShort:"auj.", startsAt:"Début", started:"C'est en cours",
@@ -312,8 +362,9 @@ const T = {
     locale:"fr-FR"
   },
   ar:{
-    app:"رادار", tabs:{home:"الرئيسية",agenda:"المواعيد",news:"الأخبار",reads:"للقراءة",settings:"الإعدادات"},
-    titles:{home:"اليوم",agenda:"المواعيد",news:"الأخبار",reads:"للقراءة",settings:"الإعدادات"},
+    app:"رادار", tabs:{home:"الرئيسية",agenda:"المواعيد",news:"الأخبار",screens:"الشاشات",reads:"للقراءة",settings:"الإعدادات"},
+    titles:{home:"اليوم",agenda:"المواعيد",news:"الأخبار",screens:"أفلام ومسلسلات",reads:"للقراءة",settings:"الإعدادات"},
+    scr:{picks:"اخترناها لك", newOut:"صدرت حديثًا", soon:"قريبًا", bo:"شباك التذاكر", boUS:"الولايات المتحدة · نهاية الأسبوع", boFR:"فرنسا · الأسبوع (عدد التذاكر)", weeks:n=>`${n} أسبوع`, forYou:"رأي Claude: ", film:"فيلم", serie:"مسلسل", out:"صدر في ", outOn:"يصدر في ", pick:"اختيار رادار", fam:"للعائلة", list:"قائمتي", add:"+ قائمتي", inList:"في قائمتي ✓", trailer:"الإعلان", more:"المزيد", all:"الكل", empty:"لا شيء هنا حاليًا.", listEmpty:"قائمتك فارغة. اضغط «+ قائمتي» على فيلم أو مسلسل.", note:"الاختيار وآراء «لك» كتبها Claude، وتُحدَّث 3 مرات يوميًا. قد تختلف التواريخ حسب البلد.", src:"المصدر: ", home:"على الشاشة", seeAll:"كل الأفلام والمسلسلات"}, photo:"صورة: ",
     aiBadge:"تحليل رادار · كتبه Claude", cardBadge:"بطاقة رادار · ملخص كتبه Claude", analyses:"تحليلات رادار", analysisOfDay:"تحليل اليوم", essential:"الأهم في دقيقة", resumeH:"الملخص", keyPoints:"النقاط الأساسية", takeawayH:"الخلاصة", whyH:"لماذا يهمك", readFull:"اقرأ المقال كاملا", back:"رجوع", sourcesH:"المصادر المعتمدة", aiNote:"كتب Claude هذا النص اعتمادًا على المصادر أدناه. تحقق من التفاصيل المهمة قبل مشاركتها.", cardNote:(src)=>`ملخص كتبه Claude بأسلوبه. المقال الأصلي ملك لـ ${src}.`, readAnalysis:"تحليل رادار", readCard:"اقرأ البطاقة", readAn:"اقرأ التحليل", newTag:"جديد", sinceTitle:"جديد لك منذ زيارتك الأخيرة", sinceNews:"أخبار", sinceReads:"قراءات", sinceRes:"نتائج", upToDate:"لا جديد منذ زيارتك الأخيرة.", markAllSeen:"تعليم الكل كمُشاهَد", nNew:n=>`${n} جديد`, toWatch:"للمشاهدة", vid:{highlights:"ملخص بالفيديو",trailer:"إعلان الفيلم",promo:"فيديو"}, updRunning:(h)=>`جارٍ التحديث… (بدأ على ${h}). ستصل المستجدات تلقائيًا.`, updDone:"تم استلام التحديث ✓", briefTitle:"موجز اليوم", results:"نتائج حديثة", done:["انتهى",""], result:"النتيجة", recap:"اقرأ التحليل", addCal:"أضف إلى التقويم", calTitle:"تقويم الآيفون", calSub:"اشترك في المواعيد التي لا تُفوَّت: تظهر في تقويمك مع تنبيه قبل 30 دقيقة، وتتحدّث القائمة تلقائيًا.", calBtn:"اشترك في المواعيد الكبرى", calAll:"كل المواعيد", readTonight:"للقراءة هذا المساء", seeReads:"كل القراءات", whyRead:"لماذا تقرأه: ", min:"د", markRead:"تمت القراءة؟", isRead:"قُرئ ✓", open:"اقرأ", unread:"غير مقروء", paywall:"محتوى مدفوع", langs:{fr:"FR",en:"EN",ar:"AR"}, readsEmpty:"قرأت كل شيء في هذه الفئة. تصل قراءات جديدة كل صباح.", readsIntro:"تحليلات ومقالات معمّقة مختارة لك، تُحدَّث كل صباح.",
     all:"الكل", allNews:"الكل", fav:"★ المفضلة", updated:"آخر تحديث: ", loading:"جارٍ التحميل…",
     next:"الموعد الكبير القادم", days:"أيام", day1:"يوم", hours:"س", mins:"د", before:"متبقية", todayShort:"اليوم", startsAt:"يبدأ", started:"جارٍ الآن",
@@ -360,6 +411,7 @@ const TI = {
 };
 const ico = (k) => TI[k] ? `<span class="ti">${TI[k]}</span>` : `<span class="dot"></span>`;
 const ICONS = {
+  screens:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M8 3l4 3 4-3"/><path d="M10 10.5v5l4-2.5z"/></svg>',
   home:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M10 21v-6h4v6"/></svg>',
   agenda:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/><circle cx="8.5" cy="14.5" r="1.2" fill="currentColor"/></svg>',
   news:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M7.5 9h6M7.5 12.5h6M7.5 16h4"/></svg>',
@@ -379,9 +431,10 @@ let state = {
   sportFilter:"all", catFilter:"all", readFilter:"all",
   hiddenSports: new Set(store.get("radar-hidden-sports",[])),
   hiddenCats: new Set(store.get("radar-hidden-cats",[])),
-  events:null, news:null, reads:null, analyses:[], detail:null, meta:null, err:null, offline:false
+  events:null, news:null, reads:null, analyses:[], screen:null, scrFilter:"all", detail:null, meta:null, err:null, offline:false
 };
-if (!["home","agenda","news","reads","settings"].includes(state.tab)) state.tab="home";
+if (!["home","agenda","news","screens","reads","settings"].includes(state.tab)) state.tab="home";
+const myList = new Set(store.get("radar-mylist",[]));
 if (!["fr","ar"].includes(state.lang)) state.lang="fr";
 const stars = new Set(store.get("radar-stars",[]));
 const live = {running:null, done:0};
@@ -420,7 +473,7 @@ function unseenAnalyses(){ return analysesList().filter(a=>!seen.has(anKey(a)));
 function unseenResults(){ return recentResults().filter(e=>!seen.has(resKey(e))); }
 function ensureBaseline(){
   if (seenBaseline || !state.events || !state.news || !state.reads) return;
-  (state.news||[]).forEach(n=>seen.add(n.url)); (state.reads||[]).forEach(x=>seen.add(x.url)); recentResults().forEach(e=>seen.add(resKey(e))); (state.analyses||[]).forEach(a=>seen.add(anKey(a)));
+  (state.news||[]).forEach(n=>seen.add(n.url)); (state.reads||[]).forEach(x=>seen.add(x.url)); recentResults().forEach(e=>seen.add(resKey(e))); (state.analyses||[]).forEach(a=>seen.add(anKey(a))); screenItems().forEach(x=>seen.add(scrKey(x)));
   seenBaseline=true; store.set("radar-seen",[...seen]);
 }
 const flash = new Set(); // éléments nouveaux pendant cette visite de l'onglet
@@ -431,10 +484,62 @@ function markTabSeen(tab){
   if (tab==="news") keys=unseenNews().map(n=>n.url);
   else if (tab==="reads") keys=[...unseenReads().map(x=>x.url), ...unseenAnalyses().map(anKey)];
   else if (tab==="agenda") keys=unseenResults().map(resKey);
+  else if (tab==="screens") keys=unseenScreens().map(scrKey);
   if (!keys.length) return;
   keys.forEach(k=>{ flash.add(k); seen.add(k); }); saveSeen();
 }
 const newTag = (k) => !isNew(k) ? "" : `<span class="new" data-seen="${esc(k)}">${esc(L().newTag)}</span>`;
+const imgOk = u => typeof u==="string" && /^https:\/\//.test(u);
+const thumb = (u) => imgOk(u) ? `<img class="thumb" src="${esc(u)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.parentNode.classList.remove('has-img');this.remove()">` : "";
+const cover = (u,cls) => imgOk(u) ? `<img class="ph ${cls||"cover"}" src="${esc(u)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">` : "";
+const PLAT_C = {"Netflix":"#E50914","Prime Video":"#0F79AF","Disney+":"#113CCF","Apple TV+":"#1d1d1f","HBO Max":"#5822B4","Shahid":"#0E9F6E","Cinéma":"#9C3555"};
+const scrKey = x => "s:"+x.id;
+function screenItems(){ return (state.screen && Array.isArray(state.screen.items)) ? state.screen.items : []; }
+function unseenScreens(){ return catOn("cinema") ? screenItems().filter(x=>!seen.has(scrKey(x))) : []; }
+function scrCard(x){
+  const t=L(), T=t.scr, vid=x.video&&x.video.url?x.video:null;
+  const d = x.date ? fmt(new Date(x.date+"T12:00:00"),{day:"numeric",month:"short"}) : "";
+  const inL = myList.has(x.id);
+  return `<article class="scr">
+    <div class="art">${cover(x.image,"cover-s")||`<div class="ph" style="aspect-ratio:16/9"></div>`}
+      <span class="plat" style="--pc:${PLAT_C[x.platform]||"#333"}">${esc(x.platform||"")}</span>
+      ${vid?`<a class="play" href="${esc(vid.url)}" target="_blank" rel="noopener">${ICONS.play}${esc(T.trailer)}</a>`:""}</div>
+    <div class="bd">
+      <div class="k">${x.pick?`<span class="tagpick">${esc(T.pick)}</span>`:""}${x.family?`<span class="tagfam">${esc(T.fam)}</span>`:""}<span>${esc(x.kind==="serie"?T.serie:T.film)} · ${esc(tx(x,"genre"))} · ${esc((x.status==="soon"?T.outOn:T.out)+d)}</span>${newTag(scrKey(x))}</div>
+      <h3>${esc(tx(x,"title"))}</h3>
+      ${x.original&&!String(x.title).toLowerCase().includes(String(x.original).toLowerCase())&&state.lang!=="ar"?`<div class="cr">${esc(x.original)}</div>`:""}
+      ${x.creators?`<div class="cr">${esc(x.creators)}</div>`:""}
+      <p>${esc(tx(x,"summary"))}</p>
+      ${tx(x,"critics")?`<div class="cr">★ ${esc(tx(x,"critics"))}</div>`:""}
+      ${tx(x,"for_you")?`<div class="fy"><b>${esc(T.forYou)}</b>${esc(tx(x,"for_you"))}</div>`:""}
+      <div class="ft"><button class="btn" data-list="${esc(x.id)}" aria-pressed="${inL}">${esc(inL?T.inList:T.add)}</button>${x.url?`<a class="link" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(T.more)} ↗</a>`:""}</div>
+    </div></article>`;
+}
+function boBlock(b,title){
+  if (!b || !Array.isArray(b.items) || !b.items.length) return "";
+  const t=L();
+  return `<div class="bo"><h3>${esc(title)} · ${esc(tx(b,"period"))}</h3><ol>${b.items.map(i=>`<li><span class="r">${esc(String(i.rank))}</span><span>${esc(tx(i,"title"))}${i.weeks?` <small>· ${esc(t.scr.weeks(i.weeks))}</small>`:""}</span><small>${esc(i.gross||"")}</small></li>`).join("")}</ol>${b.url?`<div class="src">${esc(t.scr.src)}<a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.source||"")}</a></div>`:""}</div>`;
+}
+function viewScreens(){
+  const t=L(), T=t.scr; let items=screenItems().slice();
+  const f=state.scrFilter;
+  if (f==="pick") items=items.filter(x=>x.pick); else if (f==="family") items=items.filter(x=>x.family); else if (f==="list") items=items.filter(x=>myList.has(x.id)); else if (f!=="all") items=items.filter(x=>x.platform===f);
+  const byD=(a,b)=>String(b.date).localeCompare(String(a.date));
+  let html="";
+  if (f==="all"){
+    const picks=items.filter(x=>x.pick);
+    if (picks.length) html+=`<section class="sec" style="margin-top:8px"><div class="sec-h"><h2>${esc(T.picks)}</h2></div><div class="scr-rail">${picks.map(scrCard).join("")}</div></section>`;
+    const nw=items.filter(x=>x.status!=="soon"&&!x.pick).sort(byD), sn=items.filter(x=>x.status==="soon"&&!x.pick).sort((a,b)=>String(a.date).localeCompare(String(b.date)));
+    if (nw.length) html+=`<section class="sec"><div class="sec-h"><h2>${esc(T.newOut)}</h2></div><div class="scr-list">${nw.map(scrCard).join("")}</div></section>`;
+    if (sn.length) html+=`<section class="sec"><div class="sec-h"><h2>${esc(T.soon)}</h2></div><div class="scr-list">${sn.map(scrCard).join("")}</div></section>`;
+    const bo=state.screen&&state.screen.boxoffice;
+    if (bo&&(bo.us||bo.fr)) html+=`<section class="sec"><div class="sec-h"><h2>${esc(T.bo)}</h2></div>${boBlock(bo.us,T.boUS)}${boBlock(bo.fr,T.boFR)}</section>`;
+  } else {
+    items.sort(byD);
+    html = items.length ? `<div class="scr-list" style="margin-top:8px">${items.map(scrCard).join("")}</div>` : `<div class="empty">${esc(f==="list"?T.listEmpty:T.empty)}</div>`;
+  }
+  return (html||`<div class="empty">${esc(T.empty)}</div>`) + `<p class="note" style="margin-top:16px">${esc(T.note)}</p>`;
+}
 function videoBlock(v,compact){
   if (!v || !v.url) return "";
   const t=L(), lab=t.vid[v.kind]||t.vid.promo;
@@ -486,7 +591,14 @@ function renderTop(){
   let statusHtml="";
   if (live.done && Date.now()-live.done<8000) statusHtml=`<div class="status ok" role="status">${esc(t.updDone)}</div>`;
   else if (live.running) statusHtml=`<div class="status" role="status"><span class="spin" aria-hidden="true"></span>${esc(t.updRunning(fmt(new Date(live.running),{hour:"2-digit",minute:"2-digit",hour12:false})))}</div>`;
-  $("#top").innerHTML = `<div class="top-row"><div class="min"><h1>${esc(title)}</h1><div class="sub">${esc(upd || (state.err?"":t.loading))}</div></div></div>${statusHtml}${chips}`;
+  if (state.tab==="screens"){
+    const T=t.scr, have=new Set(screenItems().map(x=>x.platform));
+    const opts=[["all",T.all],["pick",T.pick],["list",T.list],["family",T.fam],...Object.keys(PLAT_C).filter(k=>have.has(k)).map(k=>[k,k])];
+    chips = `<div class="chips" role="toolbar">${opts.map(([k,l])=>`<button class="chip" data-scf="${esc(k)}" aria-pressed="${state.scrFilter===k}">${esc(l)}</button>`).join("")}</div>`;
+  }
+  $("#top").innerHTML = `<div class="top-row"><div class="min"><h1>${esc(title)}</h1><div class="sub">${esc(upd || (state.err?"":t.loading))}</div></div><button class="gear" id="gear" aria-label="${esc(t.tabs.settings)}" aria-pressed="${state.tab==="settings"}">${ICONS.settings}</button></div>${statusHtml}${chips}`;
+  $("#gear").onclick=()=>go(state.tab==="settings"?"home":"settings");
+  $("#top").querySelectorAll("[data-scf]").forEach(b=>b.onclick=()=>{state.scrFilter=b.dataset.scf;render(true);});
   $("#top").querySelectorAll("[data-sf]").forEach(b=>b.onclick=()=>{state.sportFilter=b.dataset.sf;render(true);});
   $("#top").querySelectorAll("[data-cf]").forEach(b=>b.onclick=()=>{state.catFilter=b.dataset.cf;render(true);});
   $("#top").querySelectorAll("[data-rf]").forEach(b=>b.onclick=()=>{state.readFilter=b.dataset.rf;render(true);});
@@ -494,8 +606,8 @@ function renderTop(){
 function renderNav(){
   const t=L();
   const ready = state.events && state.news && state.reads && seenBaseline;
-  const cnt = ready ? {agenda:unseenResults().length, news:unseenNews().length, reads:unseenReads().length+unseenAnalyses().length} : {};
-  $("#nav").innerHTML = ["home","agenda","news","reads","settings"].map(k=>`<button data-tab="${k}" ${state.tab===k?'aria-current="page"':""}><span class="ic">${ICONS[k]}${cnt[k]?`<span class="badge">${cnt[k]>99?"99+":cnt[k]}</span>`:""}</span><span>${esc(t.tabs[k])}</span></button>`).join("");
+  const cnt = ready ? {agenda:unseenResults().length, news:unseenNews().length, reads:unseenReads().length+unseenAnalyses().length, screens:unseenScreens().length} : {};
+  $("#nav").innerHTML = ["home","agenda","news","screens","reads"].map(k=>`<button data-tab="${k}" ${state.tab===k?'aria-current="page"':""}><span class="ic">${ICONS[k]}${cnt[k]?`<span class="badge">${cnt[k]>99?"99+":cnt[k]}</span>`:""}</span><span>${esc(t.tabs[k])}</span></button>`).join("");
   $("#nav").querySelectorAll("button").forEach(b=>b.onclick=()=>go(b.dataset.tab));
 }
 function go(tab, opts={}){
@@ -545,10 +657,10 @@ function newsLabel(n){
 const shortDate = s => { try{ return fmt(ymd(s),{day:"numeric",month:"short"}); }catch(e){ return ""; } };
 function newsCard(n){
   const {label,col,key}=newsLabel(n);
-  return `<article class="card" style="--c:var(${col})">
+  return `<article class="card ${imgOk(n.image)?"has-img":""}" style="--c:var(${col})"><div>
     <div class="meta">${ico(key)}${esc(label)} <span class="comp">· ${esc(n.source||"")} · ${esc(shortDate(n.date))}</span> ${newTag(n.url)}</div>
     <a href="${esc(n.url)}" target="_blank" rel="noopener"><h3>${esc(tx(n,"title"))}</h3><p>${esc(tx(n,"summary"))}</p></a>
-    ${videoBlock(n.video)}</article>`;
+    ${videoBlock(n.video)}</div>${thumb(n.image)}</article>`;
 }
 const byDate = (a,b)=>String(b.date).localeCompare(String(a.date));
 function newsFor(cat){ return (state.news||[]).filter(n=>n.cat===cat).sort(byDate); }
@@ -558,6 +670,7 @@ function readCard(x){
   if (x.cat==="sport" && t.sports[x.sport]){ label=t.sports[x.sport]; col=SPORT_C[x.sport]; }
   const done=readDone.has(x.url), why=tx(x,"why");
   return `<article class="read ${done?"done":""}" style="--c:var(${col})">
+    ${imgOk(x.image)?`<a href="#" data-open="read" data-k="${esc(x.url)}" tabindex="-1" aria-hidden="true">${cover(x.image)}</a>`:""}
     <div class="meta">${ico(x.cat==="sport"&&TI[x.sport]?x.sport:x.cat)}${esc(label)} <span class="comp">· ${esc(x.source||"")}</span> ${done?"":newTag(x.url)}</div>
     <a href="#" data-open="read" data-k="${esc(x.url)}"><h3>${esc(tx(x,"title"))}</h3></a>
     <p>${esc(tx(x,"summary"))}</p>
@@ -575,6 +688,7 @@ function readsList(){
 function anCard(a){
   const t=L(), col = a.cat==="sport"&&SPORT_C[a.sport]?SPORT_C[a.sport]:(CAT_C[a.cat]||"--accent");
   return `<button class="an" data-open="an" data-k="${esc(a.id)}" style="--c:var(${col})">
+    ${cover(a.image)}
     <span><span class="ai">${ICONS.spark}${esc(t.aiBadge)}</span> ${!isNew(anKey(a))?"":`<span class="new" data-seen="${esc(anKey(a))}">${esc(t.newTag)}</span>`}</span>
     <h3>${esc(tx(a,"title"))}</h3><p>${esc(tx(a,"dek"))}</p>
     <span class="pills"><span class="pill">${esc(String(a.minutes||"?"))} ${esc(t.min)}</span></span>
@@ -603,6 +717,7 @@ function viewDetail(){
       <h1>${esc(tx(a,"title"))}</h1>
       ${tx(a,"dek")?`<p class="dek">${esc(tx(a,"dek"))}</p>`:""}
       <div class="pills"><span class="pill">${esc(String(a.minutes||"?"))} ${esc(t.min)}</span><span class="pill">${esc(shortDate(a.date))}</span></div>
+      ${imgOk(a.image)?`<figure>${cover(a.image,"hero")}${a.image_credit?`<figcaption>${esc(t.photo+a.image_credit)}</figcaption>`:""}</figure>`:""}
       ${secs}
       ${tx(a,"takeaway")?`<div class="keybox"><b>${esc(t.takeawayH)}</b><p>${esc(tx(a,"takeaway"))}</p></div>`:""}
       ${(a.sources||[]).length?`<div><h2>${esc(t.sourcesH)}</h2><ul class="srcs">${a.sources.map(s=>`<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name||s.url)}</a></li>`).join("")}</ul></div>`:""}
@@ -619,6 +734,7 @@ function viewDetail(){
     <div class="meta">${ico(x.cat==="sport"&&TI[x.sport]?x.sport:x.cat)}${esc(label)} <span class="comp">· ${esc(x.source||"")}</span></div>
     <h1>${esc(tx(x,"title"))}</h1>
     <p class="dek">${esc(tx(x,"summary"))}</p>
+    ${imgOk(x.image)?`<figure>${cover(x.image,"hero")}<figcaption>${esc(t.photo+(x.source||""))}</figcaption></figure>`:""}
     <div class="pills">${x.minutes?`<span class="pill">${esc(String(x.minutes))} ${esc(t.min)}</span>`:""}${x.lang?`<span class="pill">${esc(t.langs[x.lang]||x.lang)}</span>`:""}${x.paywall?`<span class="pill">${esc(t.paywall)}</span>`:""}</div>
     ${(tx(x,"resume")||(Array.isArray(pts)&&pts.length))?`<div><span class="ai">${ICONS.spark}${esc(t.cardBadge)}</span></div>`:""}
     ${tx(x,"resume")?`<div class="resume"><h2>${esc(t.resumeH)}</h2>${String(tx(x,"resume")).split(/\n+/).filter(Boolean).map(p=>`<p class="body">${esc(p)}</p>`).join("")}</div>`:""}
@@ -685,6 +801,8 @@ function viewHome(){
     ...upcoming().filter(e=>e.video).map(e=>({v:e.video,title:tx(e,"title"),sub:tx(e,"comp")}))
   ].slice(0,6);
   if (vids.length) html += `<section class="sec"><div class="sec-h"><h2>${esc(t.toWatch)}</h2></div><div class="videos">${vids.map(x=>`<div class="vcard">${videoBlock(x.v)}<b>${esc(x.title)}</b><small>${esc(x.sub)}</small></div>`).join("")}</div></section>`;
+  const scrPicks = catOn("cinema") ? screenItems().filter(x=>x.pick).slice(0,5) : [];
+  if (scrPicks.length) html += `<section class="sec"><div class="sec-h"><h2>${esc(t.scr.home)}</h2><button class="link" data-go="screens">${esc(t.scr.seeAll)}</button></div><div class="scr-rail">${scrPicks.map(scrCard).join("")}</div></section>`;
   const tonight = readsList().filter(x=>!readDone.has(x.url)).slice(0,2);
   if (tonight.length){
     html += `<section class="sec"><div class="sec-h"><h2>${esc(t.readTonight)}</h2><button class="link" data-go="reads">${esc(t.seeReads)}</button></div><div class="reads" style="margin-top:0">${tonight.map(readCard).join("")}</div></section>`;
@@ -693,7 +811,7 @@ function viewHome(){
   const heads = cats.map(c=>newsFor(c)[0]).filter(Boolean);
   if (heads.length){
     html += `<section class="sec"><div class="sec-h"><h2>${esc(t.headlines)}</h2><button class="link" data-go="news">${esc(t.seeNews)}</button></div><div class="digest">`;
-    html += heads.map(n=>{ const {col}=newsLabel(n); return `<a href="${esc(n.url)}" target="_blank" rel="noopener" style="--c:var(${CAT_C[n.cat]})"><span class="tag">${ico(n.cat)}${esc(t.cats[n.cat])}</span><b>${esc(tx(n,"title"))}</b></a>`; }).join("");
+    html += heads.map(n=>{ const {col}=newsLabel(n); return `<a class="${imgOk(n.image)?"has-img":""}" href="${esc(n.url)}" target="_blank" rel="noopener" style="--c:var(${CAT_C[n.cat]})"><span><span class="tag">${ico(n.cat)}${esc(t.cats[n.cat])}</span><b>${esc(tx(n,"title"))}</b></span>${thumb(n.image)}</a>`; }).join("");
     html += `</div></section>`;
   }
   return html;
@@ -731,7 +849,7 @@ function viewNews(){
     const shown=[...fresh, ...old].slice(0, Math.max(3, fresh.length));
     return `<section class="topic" style="--c:var(${CAT_C[c]})">
       <div class="topic-h"><div class="meta">${ico(c)}${esc(t.cats[c])}${fresh.length?` <span class="new">${esc(t.nNew(fresh.length))}</span>`:""}</div>${items.length>shown.length?`<button class="link" data-cat="${c}">${esc(t.seeAll(items.length))}</button>`:""}</div>
-      ${shown.map(n=>`<a href="${esc(n.url)}" target="_blank" rel="noopener"><b>${!isNew(n.url)?"":`<span class="new" data-seen="${esc(n.url)}">${esc(t.newTag)}</span> `}${esc(tx(n,"title"))}${n.video?` <span style="color:var(--accent)">▶</span>`:""}</b><small>${esc(n.source||"")} · ${esc(shortDate(n.date))}</small></a>`).join("")}
+      ${shown.map(n=>`<a class="${imgOk(n.image)?"has-img":""}" href="${esc(n.url)}" target="_blank" rel="noopener"><span><b>${!isNew(n.url)?"":`<span class="new" data-seen="${esc(n.url)}">${esc(t.newTag)}</span> `}${esc(tx(n,"title"))}${n.video?` <span style="color:var(--accent)">▶</span>`:""}</b><small>${esc(n.source||"")} · ${esc(shortDate(n.date))}</small></span>${thumb(n.image)}</a>`).join("")}
     </section>`; }).join("");
   return blocks ? `${bar}<div style="margin-top:8px">${blocks}</div>` : `<div class="empty">${esc(t.noNews)}</div>`;
 }
@@ -766,6 +884,7 @@ function bind(){
   const m=$("#main");
   m.querySelectorAll("[data-open]").forEach(b=>b.onclick=(e)=>{ e.preventDefault(); openDetail(b.dataset.open,b.dataset.k); });
   m.querySelectorAll("[data-seenall]").forEach(b=>b.onclick=()=>{ (b.dataset.seenall==="news"?unseenNews():unseenReads()).forEach(x=>seen.add(x.url)); if(b.dataset.seenall==="reads") unseenAnalyses().forEach(a=>seen.add(anKey(a))); store.set("radar-seen",[...seen].slice(-2000)); render(); });
+  m.querySelectorAll("[data-list]").forEach(b=>b.onclick=()=>{ const id=b.dataset.list; myList.has(id)?myList.delete(id):myList.add(id); store.set("radar-mylist",[...myList]); render(); });
   m.querySelectorAll("[data-star]").forEach(b=>b.onclick=()=>{ const id=b.dataset.star; stars.has(id)?stars.delete(id):stars.add(id); store.set("radar-stars",[...stars]); render(); });
   m.querySelectorAll("[data-read]").forEach(b=>b.onclick=()=>{ const u=b.dataset.read; readDone.has(u)?readDone.delete(u):readDone.add(u); store.set("radar-read",[...readDone].slice(-300)); render(); });
   m.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>{ if(b.dataset.go==="news") state.catFilter="all"; go(b.dataset.go); });
@@ -798,7 +917,7 @@ function render(scrollTop){
   const m=$("#main");
   if (state.tab!=="settings" && (!state.events || !state.news || !state.reads)) m.innerHTML = `<div class="empty">${esc(state.err?L()[state.err]:L().loading)}</div>`;
   else if (state.detail) m.innerHTML = viewDetail();
-  else m.innerHTML = state.tab==="home"?viewHome():state.tab==="agenda"?viewAgenda():state.tab==="news"?viewNews():state.tab==="reads"?viewReads():viewSettings();
+  else m.innerHTML = state.tab==="home"?viewHome():state.tab==="agenda"?viewAgenda():state.tab==="news"?viewNews():state.tab==="reads"?viewReads():state.tab==="screens"?viewScreens():viewSettings();
   bind(); tick(); observeSeen();
   if (scrollTop) window.scrollTo(0,0);
 }
@@ -820,7 +939,7 @@ async function pollStatus(){
     renderTop();
   }catch(e){}
 }
-function apply(d){ state.events=Array.isArray(d.events)?d.events:[]; state.news=Array.isArray(d.news)?d.news:[]; state.reads=Array.isArray(d.reads)?d.reads:[]; state.analyses=Array.isArray(d.analyses)?d.analyses:[]; state.meta=d.meta||null; render(); }
+function apply(d){ state.events=Array.isArray(d.events)?d.events:[]; state.news=Array.isArray(d.news)?d.news:[]; state.reads=Array.isArray(d.reads)?d.reads:[]; state.analyses=Array.isArray(d.analyses)?d.analyses:[]; state.screen=d.screen||null; state.meta=d.meta||null; render(); }
 async function loadJson(quiet){
   try{
     const r = await fetch("data.json",{cache:"no-cache"});
@@ -841,6 +960,7 @@ async function loadJson(quiet){
     db.doc("feed/news").onSnapshot(s=>{ const d=s.exists?s.data():null; state.news=d&&Array.isArray(d.items)?d.items:[]; render(); }, fail);
     db.doc("feed/analyses").onSnapshot(s=>{ const d=s.exists?s.data():null; state.analyses=d&&Array.isArray(d.items)?d.items:[]; render(); }, ()=>{});
     db.doc("feed/reads").onSnapshot(s=>{ const d=s.exists?s.data():null; state.reads=d&&Array.isArray(d.items)?d.items:[]; render(); }, fail);
+    db.doc("feed/screen").onSnapshot(s=>{ state.screen=s.exists?s.data():null; render(); }, ()=>{});
     db.doc("feed/meta").onSnapshot(s=>{ state.meta=s.exists?s.data():null; render(); }, ()=>{});
   } else {
     loadJson().then(pollStatus);
