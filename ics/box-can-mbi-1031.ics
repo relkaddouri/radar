@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Radar//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Canelo Alvarez – Christian Mbilli
+X-WR-TIMEZONE:Africa/Casablanca
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:box-can-mbi-1031@radar
+DTSTAMP:20261014T191310Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+TRANSP:TRANSPARENT
+SUMMARY:Canelo Alvarez – Christian Mbilli (Boxe)
+LOCATION:Kingdom Arena\, Riyad
+DESCRIPTION:Riyadh Season - WBC super-moyens — Titre WBC des super-moye
+ ns\, carte "Mexico vs le reste du monde" (10 combats\, DAZN PPV). Report
+ ée du 12 sept. Attention : frappes récentes sur Riyad\, l'organisateur
+  maintient l'événement. Heure non annoncée.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Canelo Alvarez – Christian Mbilli (Boxe)
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
