@@ -1616,14 +1616,15 @@ setInterval(tick, 30000);
 /* ---------- partage en image (publication 4:5 et story 9:16) ---------- */
 const SHARE_HEX = {maroc:"#FF6B6F",sport:"#4CC27E",football:"#4CC27E",basket:"#FF8B3D",tennis:"#C3D23A",f1:"#FF5A5F",boxe:"#D99060",mma:"#AE86E6",culture:"#E3B456",ia:"#B39BFF",eco:"#E3B456",tech:"#8FA6BA",gaming:"#F06AA8",geo:"#D9905F",ux:"#8E93FF",divers:"#5CC2A8",cinema:"#E77C9C",blague:"#F2B94E",khatira:"#9389FF",histoire:"#5CC2A8",proverbe:"#FF7A7E",insolite:"#F06AA8",bonne:"#4CC27E",pod:"#9389FF",an:"#9389FF"};
 const SH = {
-  fr:{btn:"Partager", title:"Partager l’essentiel", post:"Publication", story:"Story", postSub:"4:5 · Instagram, Facebook, WhatsApp", storySub:"9:16 · Stories et statut WhatsApp", share:"Partager l’image", save:"Enregistrer", copy:"Copier le texte", copied:"Texte copié ✓", making:"Création de l’image…", by:"par", essential:"L’essentiel", src:"Source : ", note:"Le texte de l’image est un résumé écrit par l’IA à partir de la source. Relis-le avant de publier.", fail:"Impossible de créer l’image. Réessaie.", hint:"Si rien ne s’ouvre, appuie longuement sur l’image pour l’enregistrer.", podcast:"Podcast", analysis:"Analyse Radar", more:"Lire la suite sur"},
-  ar:{btn:"مشاركة", title:"شارك الأهم", post:"منشور", story:"ستوري", postSub:"4:5 · إنستغرام، فيسبوك، واتساب", storySub:"9:16 · الستوري وحالة واتساب", share:"شارك الصورة", save:"احفظ", copy:"انسخ النص", copied:"تم النسخ ✓", making:"جارٍ إنشاء الصورة…", by:"إعداد", essential:"الأهم", src:"المصدر: ", note:"نص الصورة ملخّص كتبه الذكاء الاصطناعي اعتمادًا على المصدر. راجعه قبل النشر.", fail:"تعذّر إنشاء الصورة. حاول مجددًا.", hint:"إذا لم يُفتح شيء، اضغط مطولًا على الصورة لحفظها.", podcast:"بودكاست", analysis:"تحليل رادار", more:"اقرأ المزيد على"}
+  fr:{btn:"Partager", title:"Partager l’essentiel", post:"Publication", story:"Story", postSub:"4:5 · Instagram, Facebook, WhatsApp", storySub:"9:16 · Stories et statut WhatsApp", share:"Partager l’image", save:"Enregistrer", copy:"Copier le texte", copied:"Texte copié ✓", making:"Création de l’image…", by:"par", essential:"L’essentiel", src:"Source : ", note:"Le texte de l’image est un résumé écrit par l’IA à partir de la source. Relis-le avant de publier.", fail:"Impossible de créer l’image. Réessaie.", hint:"Si rien ne s’ouvre, appuie longuement sur l’image pour l’enregistrer.", podcast:"Podcast", analysis:"Analyse Radar", more:"Lire la suite sur", onlyApp:"Ici, tu peux voir l\u2019image. Pour la partager ou l\u2019enregistrer, ouvre Radar sur ton iPhone."},
+  ar:{btn:"مشاركة", title:"شارك الأهم", post:"منشور", story:"ستوري", postSub:"4:5 · إنستغرام، فيسبوك، واتساب", storySub:"9:16 · الستوري وحالة واتساب", share:"شارك الصورة", save:"احفظ", copy:"انسخ النص", copied:"تم النسخ ✓", making:"جارٍ إنشاء الصورة…", by:"إعداد", essential:"الأهم", src:"المصدر: ", note:"نص الصورة ملخّص كتبه الذكاء الاصطناعي اعتمادًا على المصدر. راجعه قبل النشر.", fail:"تعذّر إنشاء الصورة. حاول مجددًا.", hint:"إذا لم يُفتح شيء، اضغط مطولًا على الصورة لحفظها.", podcast:"بودكاست", analysis:"تحليل رادار", more:"اقرأ المزيد على", onlyApp:"هنا يمكنك رؤية الصورة. لمشاركتها أو حفظها، افتح رادار على هاتفك."}
 };
 const SHARE_BY = "Rachid EL KADDOURI";
 function shSentences(s,n){ return String(s||"").replace(/\n+/g," ").split(/(?<=[.!?؟])\s+/).map(z=>z.trim()).filter(Boolean).slice(0,n); }
-function shPick(o){
-  if (!o || !o.share) return null;
-  const ar=state.lang==="ar", s=o.share;
+function shPick(o,key){
+  const s = o && (o.share || (state.shareMap||{})[key]);
+  if (!s) return null;
+  const ar=state.lang==="ar";
   const h = ar ? (s.h_ar||s.h) : s.h, pts = ar ? (s.pts_ar||s.pts) : s.pts;
   return h ? {h, pts:Array.isArray(pts)?pts.filter(Boolean).slice(0,3):[]} : null;
 }
@@ -1633,13 +1634,13 @@ function shareItem(type,key){
     const x=((type==="read"?state.reads:state.news)||[]).find(r=>r.url===key); if(!x) return null;
     let label=t.cats[x.cat]||x.cat, k=x.cat;
     if (x.cat==="sport" && x.sport){ label=t.sports[x.sport]||label; k=x.sport; }
-    const s=shPick(x), p0=state.lang==="ar"?(x.points_ar||x.points):x.points;
+    const s=shPick(x,x.url), p0=state.lang==="ar"?(x.points_ar||x.points):x.points;
     const pts = s&&s.pts.length ? s.pts : (Array.isArray(p0)&&p0.length ? p0.slice(0,3) : shSentences(tx(x,"summary"),3));
     return {kick:label, color:SHARE_HEX[k]||SHARE_HEX[x.cat]||"#F2A92E", title:(s&&s.h)||tx(x,"title"), pts, source:x.source||"", image:x.image, url:x.url, slug:k};
   }
   if (type==="an"){
     const a=(state.analyses||[]).find(z=>z.id===key); if(!a) return null;
-    const s=shPick(a);
+    const s=shPick(a,"a:"+a.id);
     return {kick:S.analysis, color:SHARE_HEX.an, title:(s&&s.h)||tx(a,"title"), pts:s&&s.pts.length?s.pts:[...shSentences(tx(a,"dek"),2), tx(a,"takeaway")].filter(Boolean).slice(0,3), source:(a.sources||[]).map(z=>z.name).slice(0,2).join(", "), image:a.image, url:"", slug:"analyse"};
   }
   if (type==="scr"){
@@ -1828,7 +1829,7 @@ function openShare(type,key){
     <div class="shr-h"><b>${esc(S.title)}</b><button class="x" data-shr="close" aria-label="✕"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
     <div class="seg shr-seg" role="group"><button data-fmt="post" aria-pressed="true">${esc(S.post)}<small>${esc(S.postSub)}</small></button><button data-fmt="story" aria-pressed="false">${esc(S.story)}<small>${esc(S.storySub)}</small></button></div>
     <div class="shr-prev"></div>
-    <div class="shr-acts"><button class="btn primary wide" data-shr="share">${ICONS.share}${esc(S.share)}</button><button class="btn" data-shr="save">${esc(S.save)}</button><button class="btn" data-shr="copy">${esc(S.copy)}</button></div>
+    ${window.RADAR_PWA?`<div class="shr-acts"><button class="btn primary wide" data-shr="share">${ICONS.share}${esc(S.share)}</button><button class="btn" data-shr="save">${esc(S.save)}</button><button class="btn" data-shr="copy">${esc(S.copy)}</button></div>`:`<p class="fine">${esc(S.onlyApp)}</p><div class="shr-acts"><button class="btn wide" data-shr="copy">${esc(S.copy)}</button></div>`}
     <p class="fine">${esc(S.note)}</p>
   </div>`;
   document.body.appendChild(wrap); shUI.el=wrap;
@@ -1836,7 +1837,7 @@ function openShare(type,key){
   wrap.querySelectorAll("[data-fmt]").forEach(b=>b.onclick=()=>{ shUI.fmt=b.dataset.fmt; shRender(); });
   wrap.querySelector('[data-shr="close"]').onclick=shClose;
   const fname = () => `radar-${shUI.it.slug||"info"}-${shUI.fmt}.jpg`;
-  wrap.querySelector('[data-shr="share"]').onclick=async()=>{
+  if (wrap.querySelector('[data-shr="share"]')) wrap.querySelector('[data-shr="share"]').onclick=async()=>{
     if (!shUI.blob) return;
     const file=new File([shUI.blob], fname(), {type:"image/jpeg"});
     try{
@@ -1844,7 +1845,7 @@ function openShare(type,key){
     }catch(e){ if (e && e.name==="AbortError") return; }
     const a=document.createElement("a"); a.href=shUI.url; a.download=fname(); document.body.appendChild(a); a.click(); a.remove();
   };
-  wrap.querySelector('[data-shr="save"]').onclick=()=>{ if(!shUI.url) return; const a=document.createElement("a"); a.href=shUI.url; a.download=fname(); document.body.appendChild(a); a.click(); a.remove(); };
+  if (wrap.querySelector('[data-shr="save"]')) wrap.querySelector('[data-shr="save"]').onclick=()=>{ if(!shUI.url) return; const a=document.createElement("a"); a.href=shUI.url; a.download=fname(); document.body.appendChild(a); a.click(); a.remove(); };
   wrap.querySelector('[data-shr="copy"]').onclick=async(e)=>{ const b=e.currentTarget; try{ await navigator.clipboard.writeText(shCaption(shUI.it)); b.textContent=S.copied; setTimeout(()=>{ b.textContent=S.copy; },1800); }catch(err){} };
   document.addEventListener("keydown", shKeys);
   shRender();
@@ -1881,7 +1882,7 @@ async function pollStatus(){
     renderTop();
   }catch(e){}
 }
-function apply(d){ state.events=Array.isArray(d.events)?d.events:[]; state.news=Array.isArray(d.news)?d.news:[]; state.reads=Array.isArray(d.reads)?d.reads:[]; state.analyses=Array.isArray(d.analyses)?d.analyses:[]; state.screen=d.screen||null; state.podcasts=Array.isArray(d.podcasts)?d.podcasts:[]; state.pause=Array.isArray(d.pause)?d.pause:[]; state.meta=d.meta||null; render(); }
+function apply(d){ state.events=Array.isArray(d.events)?d.events:[]; state.news=Array.isArray(d.news)?d.news:[]; state.reads=Array.isArray(d.reads)?d.reads:[]; state.analyses=Array.isArray(d.analyses)?d.analyses:[]; state.screen=d.screen||null; state.podcasts=Array.isArray(d.podcasts)?d.podcasts:[]; state.pause=Array.isArray(d.pause)?d.pause:[]; state.shareMap=(d.share&&typeof d.share==="object"&&!Array.isArray(d.share))?d.share:{}; state.meta=d.meta||null; render(); }
 async function loadJson(quiet){
   try{
     const r = await fetch("data.json",{cache:"no-cache"});
@@ -1902,6 +1903,7 @@ async function loadJson(quiet){
     db.doc("feed/news").onSnapshot(s=>{ const d=s.exists?s.data():null; state.news=d&&Array.isArray(d.items)?d.items:[]; render(); }, fail);
     db.doc("feed/analyses").onSnapshot(s=>{ const d=s.exists?s.data():null; state.analyses=d&&Array.isArray(d.items)?d.items:[]; render(); }, ()=>{});
     db.doc("feed/reads").onSnapshot(s=>{ const d=s.exists?s.data():null; state.reads=d&&Array.isArray(d.items)?d.items:[]; render(); }, fail);
+    db.doc("feed/share").onSnapshot(s=>{ const d=s.exists?s.data():null; state.shareMap=d&&d.items&&typeof d.items==="object"?d.items:{}; }, ()=>{});
     db.doc("feed/pause").onSnapshot(s=>{ const d=s.exists?s.data():null; state.pause=d&&Array.isArray(d.items)?d.items:[]; render(); }, ()=>{});
     db.doc("feed/podcasts").onSnapshot(s=>{ const d=s.exists?s.data():null; state.podcasts=d&&Array.isArray(d.items)?d.items:[]; render(); }, ()=>{});
     db.doc("feed/screen").onSnapshot(s=>{ state.screen=s.exists?s.data():null; render(); }, ()=>{});
