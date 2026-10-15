@@ -1297,6 +1297,244 @@
  ],
  "news": [
   {
+   "cat": "maroc",
+   "title": "ONU : la Quatrième Commission adopte la résolution sur le Sahara marocain",
+   "title_ar": "الأمم المتحدة: اللجنة الرابعة تعتمد القرار حول الصحراء المغربية",
+   "summary": "La commission de l'ONU a adopté son texte annuel par 152 voix pour, 2 contre et 7 abstentions. Le vote a eu lieu parce que les États-Unis l'ont demandé, ce qui rompt avec l'habitude du consensus.",
+   "summary_ar": "اعتمدت لجنة الأمم المتحدة نصها السنوي بـ152 صوتاً مؤيداً و2 معارضين و7 ممتنعين. جرى التصويت لأن الولايات المتحدة طلبته، وهذا يخالف عادة التوافق.",
+   "source": "Hespress FR",
+   "url": "https://fr.hespress.com/492431-onu-la-quatrieme-commission-adopte-la-resolution-sur-le-sahara-marocain.html",
+   "date": "2026-10-15",
+   "image": "",
+   "explain": {
+    "context": "Chaque automne, l'ONU examine le dossier du Sahara. Le texte rappelle la résolution 2797 du Conseil de sécurité d'octobre 2025.",
+    "context_ar": "تبحث الأمم المتحدة ملف الصحراء كل خريف. ويذكّر النص بقرار مجلس الأمن 2797 الصادر في أكتوبر 2025.",
+    "terms": [
+     {
+      "t": "Quatrième Commission",
+      "t_ar": "اللجنة الرابعة",
+      "d": "Comité de l'Assemblée générale de l'ONU qui traite de la décolonisation.",
+      "d_ar": "لجنة في الجمعية العامة للأمم المتحدة تعنى بإنهاء الاستعمار."
+     }
+    ],
+    "figures": [
+     {
+      "n": "152 voix pour",
+      "n_ar": "152 صوتاً مؤيداً",
+      "d": "Très large majorité : seulement 2 pays ont voté contre.",
+      "d_ar": "أغلبية ساحقة: دولتان فقط صوتتا ضد."
+     }
+    ]
+   },
+   "sub": "politique"
+  },
+  {
+   "cat": "maroc",
+   "title": "Le Maroc attend une cargaison de 40 000 tonnes de gazole russe",
+   "title_ar": "المغرب ينتظر شحنة من 40 ألف طن من الغازوال الروسي",
+   "summary": "Un navire est parti du port russe de Primorsk après son chargement le 13 octobre. L'importateur et la date d'arrivée ne sont pas connus, et rien ne dit que les prix à la pompe vont baisser vite.",
+   "summary_ar": "غادرت سفينة ميناء بريمورسك الروسي بعد تحميلها يوم 13 أكتوبر. المستورد وتاريخ الوصول غير معروفين، ولا شيء يؤكد أن أسعار المحطات ستنخفض قريباً.",
+   "source": "Hespress FR",
+   "url": "https://fr.hespress.com/492371-le-maroc-attend-une-cargaison-de-40-000-tonnes-de-gazole-russe.html",
+   "date": "2026-10-15",
+   "image": "https://f2.hespress.com/wp-content/overlay/2026/10/cargaison.webp?v2",
+   "explain": {
+    "context": "Le Maroc importe presque tout son carburant. Les États-Unis ont allégé en partie leurs limites sur le pétrole russe.",
+    "context_ar": "يستورد المغرب كل وقوده تقريباً. وقد خففت الولايات المتحدة جزئياً قيودها على النفط الروسي.",
+    "terms": [
+     {
+      "t": "gazole",
+      "t_ar": "الغازوال",
+      "d": "Carburant diesel utilisé par les camions, bus et tracteurs.",
+      "d_ar": "وقود الديزل الذي تستعمله الشاحنات والحافلات والجرارات."
+     }
+    ],
+    "figures": [
+     {
+      "n": "16,30 dirhams",
+      "n_ar": "16,30 درهماً",
+      "d": "Prix par litre dans certaines stations début octobre : un niveau élevé pour les ménages.",
+      "d_ar": "سعر اللتر في بعض المحطات مطلع أكتوبر، وهو مرتفع على الأسر."
+     }
+    ]
+   },
+   "sub": "economie"
+  },
+  {
+   "cat": "maroc",
+   "title": "HCP : 92,5 % des ménages ne prévoient pas d'épargner dans les douze prochains mois",
+   "title_ar": "المندوبية: 92.5% من الأسر لا تتوقع الادخار خلال 12 شهراً",
+   "summary": "La confiance des ménages recule à 59,2 points au 3e trimestre, mais reste au-dessus de l'an dernier (53,6). 76,3 % jugent que leur niveau de vie s'est dégradé et 95,9 % voient les prix alimentaires monter.",
+   "summary_ar": "تراجعت ثقة الأسر إلى 59.2 نقطة في الفصل الثالث لكنها تفوق مستواها قبل سنة (53.6). ويرى 76.3% أن مستوى معيشتهم ساء، و95.9% يلاحظون ارتفاع أسعار الغذاء.",
+   "source": "Hespress FR",
+   "url": "https://fr.hespress.com/492361-hcp-925-des-menages-ne-prevoient-pas-depargner-dans-les-douze-prochains-mois.html",
+   "date": "2026-10-15",
+   "image": "https://f2.hespress.com/wp-content/overlay/2022/10/epargne.jpg?v2",
+   "explain": {
+    "context": "Chaque trimestre, le HCP demande aux ménages comment ils voient leur situation et l'avenir.",
+    "context_ar": "كل فصل تسأل المندوبية السامية للتخطيط الأسر عن رأيها في وضعها والمستقبل.",
+    "terms": [
+     {
+      "t": "indice de confiance",
+      "t_ar": "مؤشر الثقة",
+      "d": "Note sur 100 environ qui mesure l'optimisme des ménages ; plus elle est haute, plus ils sont confiants.",
+      "d_ar": "درجة تقيس تفاؤل الأسر؛ كلما ارتفعت زادت الثقة."
+     },
+     {
+      "t": "HCP",
+      "t_ar": "المندوبية السامية للتخطيط",
+      "d": "Haut-Commissariat au Plan : l'institut officiel des statistiques du Maroc.",
+      "d_ar": "المؤسسة الرسمية للإحصاء في المغرب."
+     }
+    ],
+    "figures": [
+     {
+      "n": "59,2 points",
+      "n_ar": "59.2 نقطة",
+      "d": "Recul léger par rapport à 60,1, mais mieux que 53,6 il y a un an.",
+      "d_ar": "تراجع طفيف عن 60.1 لكنه أفضل من 53.6 قبل سنة."
+     }
+    ]
+   },
+   "sub": "economie"
+  },
+  {
+   "cat": "maroc",
+   "title": "DEPF : croissance de 4,9 % en 2025, mais le chômage reste un défi structurel",
+   "title_ar": "مديرية الدراسات: نمو 4.9% في 2025 لكن البطالة تحدٍّ هيكلي",
+   "summary": "Selon la DEPF, l'économie a progressé de 4,9 % en 2025 contre 4,4 % en 2024, avec une inflation de 0,8 % et un déficit de 3,5 % du PIB. Le chômage reste autour de 12 à 13,5 %, contre 9 à 10 % avant 2020.",
+   "summary_ar": "حسب مديرية الدراسات والتوقعات المالية نما الاقتصاد 4.9% في 2025 مقابل 4.4% في 2024، مع تضخم 0.8% وعجز 3.5% من الناتج. وتبقى البطالة بين 12 و13.5% مقابل 9 إلى 10% قبل 2020.",
+   "source": "Hespress FR",
+   "url": "https://fr.hespress.com/492189-rapport-de-la-depf-croissance-de-49-en-2025-mais-le-chomage-reste-un-defi-structurel.html",
+   "date": "2026-10-15",
+   "image": "https://f2.hespress.com/wp-content/overlay/2023/08/CHOMAGE.jpg?v2",
+   "explain": {
+    "context": "La DEPF est le service du ministère des Finances qui analyse l'économie du pays.",
+    "context_ar": "المديرية جهاز بوزارة المالية يحلل الاقتصاد الوطني.",
+    "terms": [
+     {
+      "t": "PIB",
+      "t_ar": "الناتج الداخلي الإجمالي",
+      "d": "Valeur de tout ce que le pays produit en un an.",
+      "d_ar": "قيمة كل ما ينتجه البلد في سنة."
+     },
+     {
+      "t": "chômage structurel",
+      "t_ar": "البطالة الهيكلية",
+      "d": "Chômage qui dure même quand l'économie va bien.",
+      "d_ar": "بطالة تستمر حتى عندما يكون الاقتصاد جيداً."
+     }
+    ],
+    "figures": [
+     {
+      "n": "4,9 %",
+      "n_ar": "4.9%",
+      "d": "Forte croissance par rapport à beaucoup de pays, mais elle ne baisse pas le chômage.",
+      "d_ar": "نمو قوي مقارنة بكثير من الدول لكنه لم يخفض البطالة."
+     }
+    ]
+   },
+   "sub": "economie"
+  },
+  {
+   "cat": "sport",
+   "title": "Ligue des champions : Hakimi vise une nouvelle finale avec le PSG",
+   "title_ar": "دوري الأبطال: حكيمي يستهدف نهائياً جديداً مع سان جرمان",
+   "summary": "Après la victoire 4-2 à Manchester City, Hakimi dit vouloir une autre finale européenne, « étape par étape ». Doué, Dembélé, Vitinha et Akliouche ont marqué ; Haaland a signé un doublé pour City.",
+   "summary_ar": "بعد الفوز 4-2 على مانشستر سيتي قال حكيمي إنه يريد نهائياً أوروبياً آخر «خطوة خطوة». سجل دوي وديمبيلي وفيتينيا وأكليوش، وسجل هالاند هدفين لسيتي.",
+   "source": "Hespress FR",
+   "url": "https://fr.hespress.com/492349-ligue-des-champions-hakimi-vise-une-nouvelle-finale-avec-le-psg.html",
+   "date": "2026-10-15",
+   "image": "https://f2.hespress.com/wp-content/overlay/2026/10/hak-city.jpg?v2",
+   "explain": {
+    "context": "Le PSG est le tenant du titre européen visé par tous. Il reçoit le Barça le 20 octobre.",
+    "context_ar": "يملك باريس أبرز حظوظ أوروبا، ويستقبل برشلونة يوم 20 أكتوبر.",
+    "terms": [],
+    "figures": []
+   },
+   "sport": "football"
+  },
+  {
+   "cat": "sport",
+   "title": "CAN 2027 : trois pays préparent un visa commun pour les supporters",
+   "title_ar": "كأس أمم أفريقيا 2027: ثلاث دول تحضّر تأشيرة موحدة للمشجعين",
+   "summary": "Le Kenya, la Tanzanie et l'Ouganda veulent un visa commun pour la CAN, du 19 juin au 17 juillet 2027. Le stade d'Arusha serait terminé à 95 %.",
+   "summary_ar": "تعمل كينيا وتنزانيا وأوغندا على تأشيرة موحدة لكأس أمم أفريقيا من 19 يونيو إلى 17 يوليو 2027. وملعب أروشا أنجز بنسبة 95%.",
+   "source": "Hespress FR",
+   "url": "https://fr.hespress.com/492254-can-2027-trois-pays-un-projet-de-visa-commun.html",
+   "date": "2026-10-15",
+   "image": "https://f2.hespress.com/wp-content/overlay/2026/04/cankenya.jpg?v2",
+   "explain": {
+    "context": "La CAN 2027 sera organisée à trois en Afrique de l'Est.",
+    "context_ar": "تنظم بطولة 2027 ثلاث دول في شرق أفريقيا.",
+    "terms": [],
+    "figures": []
+   },
+   "sport": "football"
+  },
+  {
+   "cat": "ia",
+   "title": "Un juge ordonne à OpenAI de remettre des dossiers d'embauche à Apple",
+   "title_ar": "قاض يأمر OpenAI بتسليم ملفات توظيف لأبل",
+   "summary": "Dans le procès sur des secrets industriels, Apple obtient vite l'accès à des entretiens d'embauche d'anciens employés. OpenAI a 5 jours pour les documents déjà réunis et 14 jours pour le reste.",
+   "summary_ar": "في قضية الأسرار التجارية حصلت أبل على إذن سريع للاطلاع على مقابلات توظيف موظفين سابقين. أمام OpenAI خمسة أيام للوثائق المجمعة و14 يوماً لما تبقى.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+   "date": "2026-10-15",
+   "image": "",
+   "explain": {
+    "context": "Apple accuse OpenAI d'avoir recruté ses ingénieurs pour son projet d'appareils.",
+    "context_ar": "تتهم أبل OpenAI باستقطاب مهندسيها لمشروع أجهزتها.",
+    "terms": [
+     {
+      "t": "secrets industriels",
+      "t_ar": "الأسرار التجارية",
+      "d": "Informations privées d'une entreprise qui lui donnent un avantage.",
+      "d_ar": "معلومات سرية لشركة تمنحها أفضلية."
+     }
+    ],
+    "figures": [
+     {
+      "n": "5 jours",
+      "n_ar": "5 أيام",
+      "d": "Délai très court pour une procédure judiciaire.",
+      "d_ar": "مهلة قصيرة جداً في القضاء."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "ia",
+   "title": "Ricursive Intelligence veut concevoir des puces avec l'IA",
+   "title_ar": "ريكورسيف تراهن على تصميم الرقائق بالذكاء الاصطناعي",
+   "summary": "Les fondatrices disent que l'IA peut dessiner une puce en environ une semaine, contre six mois à deux ans aujourd'hui. Elles pensent que les besoins en calcul peuvent monter au moins 10 000 fois en cinq ans.",
+   "summary_ar": "تقول المؤسستان إن الذكاء الاصطناعي يصمم رقاقة في نحو أسبوع بدل ستة أشهر إلى سنتين. وتتوقعان أن تزيد الحاجة إلى القدرة الحاسوبية 10 آلاف ضعف على الأقل خلال خمس سنوات.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+   "date": "2026-10-15",
+   "image": "",
+   "explain": {
+    "context": "Les centres de données d'IA manquent de puces, et en fabriquer prend très longtemps.",
+    "context_ar": "تفتقر مراكز بيانات الذكاء الاصطناعي إلى الرقائق، وتصميمها يستغرق وقتاً طويلاً.",
+    "terms": [
+     {
+      "t": "puce",
+      "t_ar": "رقاقة",
+      "d": "Petit composant électronique qui fait le calcul dans un ordinateur ou un téléphone.",
+      "d_ar": "مكوّن إلكتروني صغير يجري الحسابات في الحاسوب والهاتف."
+     }
+    ],
+    "figures": [
+     {
+      "n": "10 000 fois",
+      "n_ar": "10 آلاف ضعف",
+      "d": "Hausse énorme : c'est l'avis des fondatrices, pas un fait.",
+      "d_ar": "زيادة هائلة، وهي رأي المؤسستين لا حقيقة مؤكدة."
+     }
+    ]
+   }
+  },
+  {
    "cat": "tech",
    "date": "2026-10-14",
    "explain": {
@@ -8495,16 +8733,16 @@
  "meta": {
   "brief": [
    "Sport : Zverev bat De Minaur, demi-finale samedi. Maroc–Libye vendredi à 20h.",
-   "Maroc : le HCP prévoit 4,1 % de croissance au 3e trimestre. Futsal : 7-0 face à la Zambie.",
+   "Maroc : l'ONU adopte le texte sur le Sahara, 152 voix pour. Gazole russe attendu.",
    "Monde : Musk renvoie la balle à l'armée américaine pour Starlink. Ebola : 2e cas au Kenya.",
    "Économie : exportations chinoises +36 %, portées par l'IA. Inflation US à 3,7 %."
   ],
   "brief_ar": [
    "رياضة: زفيريف يتغلب على دي مينور ويلعب النصف السبت. المغرب–ليبيا الجمعة 20:00.",
-   "المغرب: المندوبية تتوقع نمواً بـ4.1% في الفصل الثالث. الفوتسال: 7-0 على زامبيا.",
+   "المغرب: الأمم المتحدة تعتمد نص الصحراء بـ152 صوتاً. شحنة غازوال روسي في الطريق.",
    "العالم: ماسك يحيل قيود ستارلينك إلى الجيش الأمريكي. إيبولا: حالة ثانية في كينيا.",
    "الاقتصاد: صادرات الصين +36% بدفع الذكاء الاصطناعي. والتضخم الأمريكي 3.7%."
   ],
-  "updatedAt": "2026-10-15T18:49:04Z"
+  "updatedAt": "2026-10-15T18:56:21Z"
  }
 }
