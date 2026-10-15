@@ -29,8 +29,8 @@
    "start": "2026-10-12",
    "title": "Les Lions de l'Atlas visent un 4e titre de suite",
    "title_ar": "أسود الأطلس يسعون إلى لقب رابع على التوالي",
-   "why": "Maroc 4-0 Algérie en ouverture ; Maroc–Zambie ce mercredi à 20h, Maroc–Libye vendredi 16 à 20h ; demi-finales le 19, finale le 21 octobre",
-   "why_ar": "المغرب فاز على الجزائر 4-0 في الافتتاح؛ المغرب–زامبيا هذا الأربعاء على الساعة 20:00، والمغرب–ليبيا يوم الجمعة 16 على الساعة 20:00؛ نصف النهائي يوم 19 والنهائي يوم 21 أكتوبر"
+   "why": "Maroc 4-0 Algérie puis 7-0 Zambie, déjà en demi-finale ; Maroc–Libye vendredi 16 à 20h ; demi-finales le 19, finale le 21 octobre",
+   "why_ar": "المغرب فاز على الجزائر 4-0 ثم زامبيا 7-0 وبلغ نصف النهائي؛ المغرب–ليبيا الجمعة 16 على الساعة 20:00؛ نصف النهائي يوم 19 والنهائي يوم 21 أكتوبر"
   },
   {
    "allDay": true,
@@ -237,15 +237,15 @@
    "level": 3,
    "place": "Masters de Shanghai, Shanghai",
    "place_ar": "دورة شنغهاي للماسترز، شنغهاي",
+   "recap": "https://www.atptour.com/en/news/zverev-de-minaur-shanghai-2026-qf",
+   "result": "Zverev bat De Minaur 6-4 6-4",
+   "result_ar": "زفيريف يتغلب على دي مينور 6-4 6-4",
    "sport": "tennis",
    "start": "2026-10-15",
    "title": "Zverev (2) – De Minaur (9)",
    "title_ar": "زفيريف (2) – دي مينور (9)",
    "why": "choc de deux top 10 ; Zverev mène 7-0 dans les duels directs ; heure non confirmée (vers 11h au Maroc)",
-   "why_ar": "مواجهة بين لاعبَين من العشرة الأوائل؛ زفيريف يتقدم 7-0 في المواجهات المباشرة؛ التوقيت غير مؤكد (نحو 11 صباحاً بتوقيت المغرب)",
-   "result": "Zverev bat De Minaur 6-4 6-4",
-   "result_ar": "زفيريف يتغلب على دي مينور 6-4 6-4",
-   "recap": "https://www.atptour.com/en/news/zverev-de-minaur-shanghai-2026-qf"
+   "why_ar": "مواجهة بين لاعبَين من العشرة الأوائل؛ زفيريف يتقدم 7-0 في المواجهات المباشرة؛ التوقيت غير مؤكد (نحو 11 صباحاً بتوقيت المغرب)"
   },
   {
    "allDay": true,
@@ -1280,17 +1280,17 @@
    "why_ar": ""
   },
   {
-   "id": "atp-sha-zverev-davidovich",
-   "sport": "tennis",
+   "allDay": true,
    "comp": "Masters de Shanghai · Demi-finale",
    "comp_ar": "ماسترز شنغهاي · نصف النهائي",
-   "title": "Zverev (2) – Davidovich Fokina (25)",
-   "title_ar": "زفيريف (2) – دافيدوفيتش فوكينا (25)",
-   "start": "2026-10-17",
-   "allDay": true,
+   "id": "atp-sha-zverev-davidovich",
+   "level": 3,
    "place": "Masters 1000 de Shanghai",
    "place_ar": "ماسترز 1000 شنغهاي",
-   "level": 3,
+   "sport": "tennis",
+   "start": "2026-10-17",
+   "title": "Zverev (2) – Davidovich Fokina (25)",
+   "title_ar": "زفيريف (2) – دافيدوفيتش فوكينا (25)",
    "why": "place en finale ; heure non publiée",
    "why_ar": "مكان في النهائي ؛ التوقيت غير منشور"
   }
@@ -7715,66 +7715,66 @@
    "url": "https://www.goodnewsnetwork.org/montana-high-school-softball-player-discovered-long-lost-sister-on-opposing-team/"
   },
   {
+   "date": "2026-10-15",
    "id": "reunion-sans-fin",
    "kind": "blague",
    "origin": "claude",
-   "title": "La réunion qui aurait pu être un mail",
-   "title_ar": "الاجتماع الذي كان يكفيه بريد",
+   "source": "",
    "text": "Le chef ouvre la réunion : « Merci d'être venus. J'ai un point rapide. »\nDeux heures plus tard, Samir lève la main : « Pardon, c'était quoi, le point rapide ? »\nLe chef réfléchit : « Je ne sais plus. Mais on a bien avancé. »",
    "text_ar": "افتتح المدير الاجتماع قائلاً: «شكراً لحضوركم، عندي نقطة سريعة».\nبعد ساعتين رفع سمير يده: «عفواً، ما هي النقطة السريعة؟»\nفكّر المدير قليلاً وقال: «نسيتها، لكننا تقدّمنا كثيراً».",
-   "source": "",
-   "url": "",
-   "date": "2026-10-15"
+   "title": "La réunion qui aurait pu être un mail",
+   "title_ar": "الاجتماع الذي كان يكفيه بريد",
+   "url": ""
   },
   {
+   "date": "2026-10-15",
    "id": "sucre-the-menthe",
    "kind": "khatira",
    "origin": "claude",
-   "title": "Le thé qui prend son temps",
-   "title_ar": "الشاي الذي يأخذ وقته",
+   "source": "",
    "text": "Chez nous, le thé ne se boit pas vite. On le verse de haut, on attend la mousse, on goûte, on rajoute un peu de menthe.\nPersonne ne dit : « Je n'ai pas le temps. » Le thé ne se prépare pas pour boire, mais pour rester ensemble.\nPeut-être que les meilleurs moments sont ceux que l'on ne peut pas accélérer. Ce soir, pose le téléphone et sers un verre à quelqu'un. Il n'y a rien à finir.",
    "text_ar": "عندنا لا يُشرب الشاي على عجل. نصبّه من علوّ، وننتظر الرغوة، ونتذوّق، ثم نضيف قليلاً من النعناع.\nلا أحد يقول: «ليس لدي وقت». فالشاي لا يُحضَّر لنشربه فقط، بل لنبقى معاً.\nربما أجمل اللحظات هي التي لا تقبل الاستعجال. الليلة ضع هاتفك جانباً واسكب كأساً لأحدهم. ليس هناك ما ينبغي إنهاؤه.",
-   "source": "",
-   "url": "",
-   "date": "2026-10-15"
+   "title": "Le thé qui prend son temps",
+   "title_ar": "الشاي الذي يأخذ وقته",
+   "url": ""
   },
   {
+   "date": "2026-10-15",
    "id": "deux-graines",
    "kind": "histoire",
    "origin": "claude",
-   "title": "Les deux graines",
-   "title_ar": "الحبّتان",
+   "source": "",
    "text": "Deux graines dormaient côte à côte dans la terre froide.\nLa première dit : « Je vais pousser, monter vers le soleil ! » Elle poussa, et le vent la secoua.\nLa seconde dit : « J'ai peur de la pluie, du vent, des oiseaux. Je reste ici. » Elle attendit longtemps.\nUn matin, un oiseau passa. Il vit la première, devenue un jeune arbre, et s'y posa pour chanter. La seconde, restée sous terre, l'entendit à peine.\nLe soir, elle comprit : elle n'avait pas évité le vent, elle avait seulement évité l'arbre.",
    "text_ar": "كانت حبّتان نائمتين جنباً إلى جنب في التراب البارد.\nقالت الأولى: «سأنبت وأصعد نحو الشمس!» فنبتت، وهزّتها الريح.\nوقالت الثانية: «أخاف من المطر والريح والطيور. سأبقى هنا». وانتظرت طويلاً.\nذات صباح مرّ عصفور، فرأى الأولى وقد صارت شجرة صغيرة، فحطّ عليها وغنّى. أما الثانية فلم تسمعه إلا بالكاد.\nوفي المساء فهمت: لم تتجنّب الريح، بل تجنّبت أن تصير شجرة.",
-   "source": "",
-   "url": "",
-   "date": "2026-10-15"
+   "title": "Les deux graines",
+   "title_ar": "الحبّتان",
+   "url": ""
   },
   {
+   "date": "2026-10-15",
    "id": "li-ma-ydouz-ghir",
    "kind": "proverbe",
-   "origin": "proverbe",
-   "title": "Le chemin se fait en marchant",
-   "title_ar": "الطريق يُصنع بالمشي",
    "orig": "اللي مشا، وصل",
+   "origin": "proverbe",
+   "source": "",
    "text": "« Celui qui a marché est arrivé. » Ce proverbe rappelle qu'un projet, même grand, avance par petits pas. Ceux qui attendent d'être prêts n'arrivent jamais ; ceux qui marchent un peu chaque jour finissent par arriver.",
    "text_ar": "«مَن مشى وصل». يذكّرنا هذا المثل بأن أي مشروع، مهما كبر، يتقدّم بخطوات صغيرة. من ينتظر أن يصير جاهزاً لا يصل أبداً، ومن يمشي قليلاً كل يوم يصل في النهاية.",
-   "source": "",
-   "url": "",
-   "date": "2026-10-15"
+   "title": "Le chemin se fait en marchant",
+   "title_ar": "الطريق يُصنع بالمشي",
+   "url": ""
   },
   {
+   "date": "2026-10-15",
    "id": "kapersburg-temple-mars",
+   "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/credit-Lars-Gorze-MA-Hesse-State-Office-for-Monument-Preservation-e1791968271919.jpg",
    "kind": "insolite",
    "origin": "source",
-   "title": "Un temple de Mars sous la forêt allemande",
-   "title_ar": "معبد للإله مارس تحت غابة ألمانية",
+   "source": "Good News Network",
    "text": "Au nord de Francfort, des archéologues fouillent depuis 2024 le fort romain de Kapersburg, sur l'ancienne frontière de l'Empire. Sous la forêt, ils ont trouvé un petit temple qui serait dédié à Mars, des ateliers, dont une forge, et des morceaux d'une statue de la Victoire.\nLe sol n'a jamais été labouré : les couches sont donc très bien conservées. Le fort a gardé la frontière pendant environ 150 ans.",
    "text_ar": "شمال فرانكفورت، ينقّب علماء الآثار منذ 2024 في حصن كابرسبورغ الروماني الواقع على حدود الإمبراطورية القديمة. وتحت الغابة عثروا على معبد صغير يُعتقد أنه مخصّص للإله مارس، وعلى ورشات منها مِشغل حدادة، وقطع من تمثال للنصر.\nلم تُحرث هذه الأرض قط، لذلك بقيت الطبقات محفوظة جداً. وقد حرس الحصن الحدود نحو 150 عاماً.",
-   "source": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/inches-below-the-forest-floor-archeologists-in-germany-unearthed-a-roman-temple-to-the-war-god/",
-   "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/credit-Lars-Gorze-MA-Hesse-State-Office-for-Monument-Preservation-e1791968271919.jpg",
-   "date": "2026-10-15"
+   "title": "Un temple de Mars sous la forêt allemande",
+   "title_ar": "معبد للإله مارس تحت غابة ألمانية",
+   "url": "https://www.goodnewsnetwork.org/inches-below-the-forest-floor-archeologists-in-germany-unearthed-a-roman-temple-to-the-war-god/"
   }
  ],
  "screen": {
@@ -8505,6 +8505,6 @@
    "العالم: ماسك يحيل قيود ستارلينك إلى الجيش الأمريكي. إيبولا: حالة ثانية في كينيا.",
    "الاقتصاد: صادرات الصين +36% بدفع الذكاء الاصطناعي. والتضخم الأمريكي 3.7%."
   ],
-  "updatedAt": "2026-10-15T12:49:24Z"
+  "updatedAt": "2026-10-15T18:49:04Z"
  }
 }
