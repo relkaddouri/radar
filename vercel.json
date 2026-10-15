@@ -3,6 +3,7 @@
   "headers": [
     { "source": "/sw.js", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
     { "source": "/data.json", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+    { "source": "/share.json", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
     { "source": "/ics/(.*)", "headers": [
       { "key": "Content-Type", "value": "text/calendar; charset=utf-8" },
       { "key": "Cache-Control", "value": "no-cache" } ] },

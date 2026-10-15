@@ -1890,9 +1890,15 @@ async function loadJson(quiet){
     const d = await r.json();
     const prev = state.meta && state.meta.updatedAt;
     if (quiet && prev && d.meta && d.meta.updatedAt===prev) return;
+    const keepShare = state.shareMap;
     apply(d);
+    if (!d.share && keepShare && Object.keys(keepShare).length) state.shareMap = keepShare;
     state.offline = r.headers.get("x-radar-offline")==="1"; render();
   }catch(e){ state.err = "fail"; render(); }
+  loadShare();
+}
+async function loadShare(){
+  try{ const r = await fetch("share.json",{cache:"no-cache"}); if(!r.ok) return; const j = await r.json(); if (j && typeof j==="object") state.shareMap = Object.assign({}, state.shareMap||{}, j.items||j); }catch(e){}
 }
 (async()=>{
   if (!window.RADAR_PWA){
