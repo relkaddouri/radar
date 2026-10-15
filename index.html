@@ -338,6 +338,28 @@ details.ev[open] > summary{background:var(--raised)}
 .pz-rail .pz{flex:0 0 86%;max-width:380px;scroll-snap-align:start}
 .pz-list{display:grid;gap:12px}
 
+
+/* ---------- partage en image ---------- */
+.backbar{justify-content:space-between;gap:10px}
+.shr-open{display:inline-flex;align-items:center;gap:6px;border:0;background:var(--accent);color:var(--accent-ink);border-radius:999px;padding:8px 14px;font-size:14px;font-weight:700;cursor:pointer}
+.shr-open svg{width:17px;height:17px}
+.pz-share{display:inline-flex;align-items:center;gap:5px;border:0;background:transparent;color:var(--kc,var(--accent));font:inherit;font-size:13px;font-weight:700;cursor:pointer;padding:4px 0}
+.pz-share svg{width:15px;height:15px}
+.shr-bg{position:fixed;inset:0;z-index:60;background:rgba(8,6,24,.6);backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px)}
+.shr{position:fixed;inset-inline:0;bottom:0;z-index:61;max-width:560px;margin:0 auto;max-height:94dvh;overflow-y:auto;background:var(--bg);border-radius:24px 24px 0 0;padding:14px 16px calc(16px + env(safe-area-inset-bottom,0px));display:grid;gap:12px;color:var(--ink);font-family:var(--sans)}
+.shr[dir="rtl"]{font-family:var(--arabic)}
+@media (min-width:760px){ .shr{bottom:4dvh;border-radius:24px} }
+.shr-h{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.shr-h b{font-size:18px;font-weight:800}
+.shr-seg button{display:grid;gap:1px;line-height:1.25}
+.shr-seg small{font-size:11px;font-weight:500;opacity:.8}
+.shr-prev{display:grid;place-items:center;background:var(--surface);border-radius:18px;padding:12px;min-height:260px}
+.shr-prev img{display:block;max-width:100%;max-height:50dvh;width:auto;border-radius:10px;box-shadow:0 8px 28px rgba(10,8,40,.28)}
+.shr-wait{display:flex;align-items:center;gap:10px;color:var(--muted);font-size:14px}
+.shr-acts{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.shr-acts .btn{justify-content:center;padding:12px}
+.shr-acts .wide{grid-column:1/-1;font-size:16px}
+
 /* ---------- bottom nav ---------- */
 .nav{position:fixed;left:0;right:0;bottom:0;z-index:25;background:color-mix(in srgb,var(--surface) 88%,transparent);backdrop-filter:saturate(1.4) blur(18px);-webkit-backdrop-filter:saturate(1.4) blur(18px);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
 .nav-in{max-width:680px;margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr);height:var(--nav-h)}
@@ -595,6 +617,7 @@ const TI = {
 };
 const ico = (k) => TI[k] ? `<span class="ti">${TI[k]}</span>` : `<span class="dot"></span>`;
 const ICONS = {
+  share:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3.5M7.5 8 12 3.5 16.5 8"/><path d="M5 12.5V19a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6.5"/></svg>',
   screens:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M8 3l4 3 4-3"/><path d="M10 10.5v5l4-2.5z"/></svg>',
   home:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M10 21v-6h4v6"/></svg>',
   agenda:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/><circle cx="8.5" cy="14.5" r="1.2" fill="currentColor"/></svg>',
@@ -763,7 +786,8 @@ function upcoming(){
 function renderTop(){
   if (state.detail){
     const t=L();
-    $("#top").innerHTML = `<div class="backbar"><button class="back" id="backbtn">${state.lang==="ar"?"→":"←"} ${esc(t.back)}</button></div>`;
+    $("#top").innerHTML = `<div class="backbar"><button class="back" id="backbtn">${state.lang==="ar"?"→":"←"} ${esc(t.back)}</button><button class="shr-open" id="sharebtn">${ICONS.share}${esc(SH[state.lang].btn)}</button></div>`;
+    $("#sharebtn").onclick=()=>openShare(state.detail.type, state.detail.key);
     $("#backbtn").onclick=closeDetail;
     return;
   }
@@ -1107,7 +1131,7 @@ function pzCard(x){
     <h3>${esc(tx(x,"title"))}</h3>
     ${x.orig&&state.lang!=="ar"?`<p class="pz-orig" lang="ar" dir="rtl">${esc(x.orig)}</p>`:""}
     <div class="pz-body ${long?"cut":""}">${pzParas(txt)}</div>
-    <div class="pz-f">${foot}${long?`<button class="link" data-open="pz" data-k="${esc(x.id)}">${esc(Z.more)}</button>`:""}</div>
+    <div class="pz-f">${foot}<span style="display:inline-flex;gap:14px;align-items:center">${long?`<button class="link" data-open="pz" data-k="${esc(x.id)}">${esc(Z.more)}</button>`:""}<button class="pz-share" data-share="pz" data-k="${esc(x.id)}" aria-label="${esc(SH[state.lang].btn)}">${ICONS.share}</button></span></div>
   </article>`;
 }
 function pzPick(n){
@@ -1559,6 +1583,7 @@ function observeSeen(){
 function bind(){
   const m=$("#main");
   m.querySelectorAll("[data-open]").forEach(b=>b.onclick=(e)=>{ e.preventDefault(); openDetail(b.dataset.open,b.dataset.k); });
+  m.querySelectorAll("[data-share]").forEach(b=>b.onclick=(e)=>{ e.preventDefault(); e.stopPropagation(); openShare(b.dataset.share,b.dataset.k); });
   m.querySelectorAll("[data-seenall]").forEach(b=>b.onclick=()=>{ (b.dataset.seenall==="news"?unseenNews():unseenReads()).forEach(x=>seen.add(x.url)); if(b.dataset.seenall==="reads") unseenAnalyses().forEach(a=>seen.add(anKey(a))); store.set("radar-seen",[...seen].slice(-2000)); render(); });
   m.querySelectorAll("[data-list]").forEach(b=>b.onclick=()=>{ const id=b.dataset.list; myList.has(id)?myList.delete(id):myList.add(id); store.set("radar-mylist",[...myList]); render(); });
   m.querySelectorAll("[data-star]").forEach(b=>b.onclick=(e)=>{ e.preventDefault(); e.stopPropagation(); const id=b.dataset.star; stars.has(id)?stars.delete(id):stars.add(id); store.set("radar-stars",[...stars]); render(); });
@@ -1587,6 +1612,243 @@ function tick(){
   el.innerHTML = d>=1 ? `${d}<small>${esc(C.d)}</small>${h}<small>${esc(C.h)}</small>` : `${h}<small>${esc(C.h)}</small>${String(mi).padStart(2,"0")}<small>${esc(C.m)}</small>`;
 }
 setInterval(tick, 30000);
+
+/* ---------- partage en image (publication 4:5 et story 9:16) ---------- */
+const SHARE_HEX = {maroc:"#FF6B6F",sport:"#4CC27E",football:"#4CC27E",basket:"#FF8B3D",tennis:"#C3D23A",f1:"#FF5A5F",boxe:"#D99060",mma:"#AE86E6",culture:"#E3B456",ia:"#B39BFF",eco:"#E3B456",tech:"#8FA6BA",gaming:"#F06AA8",geo:"#D9905F",ux:"#8E93FF",divers:"#5CC2A8",cinema:"#E77C9C",blague:"#F2B94E",khatira:"#9389FF",histoire:"#5CC2A8",proverbe:"#FF7A7E",insolite:"#F06AA8",bonne:"#4CC27E",pod:"#9389FF",an:"#9389FF"};
+const SH = {
+  fr:{btn:"Partager", title:"Partager l’essentiel", post:"Publication", story:"Story", postSub:"4:5 · Instagram, Facebook, WhatsApp", storySub:"9:16 · Stories et statut WhatsApp", share:"Partager l’image", save:"Enregistrer", copy:"Copier le texte", copied:"Texte copié ✓", making:"Création de l’image…", by:"par", essential:"L’essentiel", src:"Source : ", note:"Le texte de l’image est un résumé écrit par l’IA à partir de la source. Relis-le avant de publier.", fail:"Impossible de créer l’image. Réessaie.", hint:"Si rien ne s’ouvre, appuie longuement sur l’image pour l’enregistrer.", podcast:"Podcast", analysis:"Analyse Radar", more:"Lire la suite sur"},
+  ar:{btn:"مشاركة", title:"شارك الأهم", post:"منشور", story:"ستوري", postSub:"4:5 · إنستغرام، فيسبوك، واتساب", storySub:"9:16 · الستوري وحالة واتساب", share:"شارك الصورة", save:"احفظ", copy:"انسخ النص", copied:"تم النسخ ✓", making:"جارٍ إنشاء الصورة…", by:"إعداد", essential:"الأهم", src:"المصدر: ", note:"نص الصورة ملخّص كتبه الذكاء الاصطناعي اعتمادًا على المصدر. راجعه قبل النشر.", fail:"تعذّر إنشاء الصورة. حاول مجددًا.", hint:"إذا لم يُفتح شيء، اضغط مطولًا على الصورة لحفظها.", podcast:"بودكاست", analysis:"تحليل رادار", more:"اقرأ المزيد على"}
+};
+const SHARE_BY = "Rachid EL KADDOURI";
+function shSentences(s,n){ return String(s||"").replace(/\n+/g," ").split(/(?<=[.!?؟])\s+/).map(z=>z.trim()).filter(Boolean).slice(0,n); }
+function shPick(o){
+  if (!o || !o.share) return null;
+  const ar=state.lang==="ar", s=o.share;
+  const h = ar ? (s.h_ar||s.h) : s.h, pts = ar ? (s.pts_ar||s.pts) : s.pts;
+  return h ? {h, pts:Array.isArray(pts)?pts.filter(Boolean).slice(0,3):[]} : null;
+}
+function shareItem(type,key){
+  const t=L(), S=SH[state.lang];
+  if (type==="news"||type==="read"){
+    const x=((type==="read"?state.reads:state.news)||[]).find(r=>r.url===key); if(!x) return null;
+    let label=t.cats[x.cat]||x.cat, k=x.cat;
+    if (x.cat==="sport" && x.sport){ label=t.sports[x.sport]||label; k=x.sport; }
+    const s=shPick(x), p0=state.lang==="ar"?(x.points_ar||x.points):x.points;
+    const pts = s&&s.pts.length ? s.pts : (Array.isArray(p0)&&p0.length ? p0.slice(0,3) : shSentences(tx(x,"summary"),3));
+    return {kick:label, color:SHARE_HEX[k]||SHARE_HEX[x.cat]||"#F2A92E", title:(s&&s.h)||tx(x,"title"), pts, source:x.source||"", image:x.image, url:x.url, slug:k};
+  }
+  if (type==="an"){
+    const a=(state.analyses||[]).find(z=>z.id===key); if(!a) return null;
+    const s=shPick(a);
+    return {kick:S.analysis, color:SHARE_HEX.an, title:(s&&s.h)||tx(a,"title"), pts:s&&s.pts.length?s.pts:[...shSentences(tx(a,"dek"),2), tx(a,"takeaway")].filter(Boolean).slice(0,3), source:(a.sources||[]).map(z=>z.name).slice(0,2).join(", "), image:a.image, url:"", slug:"analyse"};
+  }
+  if (type==="scr"){
+    const x=screenItems().find(z=>z.id===key); if(!x) return null;
+    const T=t.scr;
+    return {kick:`${x.platform||""} · ${x.kind==="serie"?T.serie:T.film}`, color:SHARE_HEX.cinema, title:tx(x,"title"), pts:[...shSentences(tx(x,"summary"),2), tx(x,"critics")].filter(Boolean).slice(0,3), source:x.platform||"", image:x.image, url:x.url||"", slug:"ecrans"};
+  }
+  if (type==="pod"){
+    const x=podItems().find(z=>z.id===key); if(!x) return null;
+    return {kick:`${S.podcast} · ${t.pod.lang[x.lang]||""}`, color:SHARE_HEX.pod, title:tx(x,"title"), pts:[...shSentences(tx(x,"summary"),2), tx(x,"why")].filter(Boolean).slice(0,3), source:x.show||"", image:x.image, url:x.url||"", slug:"podcast"};
+  }
+  if (type==="pz"){
+    const x=pzItems().find(z=>z.id===key); if(!x) return null;
+    const Z=t.pz;
+    return {kick:Z.kinds[x.kind]||"", color:SHARE_HEX[x.kind]||"#F2A92E", title:tx(x,"title"), para:tx(x,"text"), orig:x.orig||"", source:x.source||"", note:x.source?"":(Z.origin[x.origin]||""), image:x.origin==="source"?x.image:"", url:x.url||"", slug:"pause"};
+  }
+  return null;
+}
+function shWrap(ctx,text,maxW){
+  const words=String(text||"").split(/\s+/).filter(Boolean), lines=[]; let cur="";
+  for (const w of words){ const tt=cur?cur+" "+w:w; if (cur && ctx.measureText(tt).width>maxW){ lines.push(cur); cur=w; } else cur=tt; }
+  if (cur) lines.push(cur); return lines;
+}
+function shRR(ctx,x,y,w,h,r){ ctx.beginPath(); ctx.moveTo(x+r,y); ctx.arcTo(x+w,y,x+w,y+h,r); ctx.arcTo(x+w,y+h,x,y+h,r); ctx.arcTo(x,y+h,x,y,r); ctx.arcTo(x,y,x+w,y,r); ctx.closePath(); }
+function shImg(src,viaProxy){
+  return new Promise(res=>{
+    if (!imgOk(src)) return res(null);
+    const im=new Image(); im.crossOrigin="anonymous"; let done=false; const fin=v=>{ if(!done){ done=true; res(v); } };
+    im.onload=()=>fin(im); im.onerror=()=>fin(null); setTimeout(()=>fin(null),9000);
+    im.src = viaProxy ? "api/img?url="+encodeURIComponent(src) : src;
+  });
+}
+async function shFonts(ar){
+  const f = ar ? ['700 64px "IBM Plex Sans Arabic"','600 30px "IBM Plex Sans Arabic"','500 38px "Noto Naskh Arabic"'] : ['800 64px "Schibsted Grotesk"','700 30px "Schibsted Grotesk"','500 38px "Newsreader"','500 26px "Schibsted Grotesk"'];
+  try{ await Promise.race([Promise.all(f.map(z=>document.fonts.load(z))), new Promise(r=>setTimeout(r,3500))]); }catch(e){}
+}
+function shGlyph(x,gx,gy,s){
+  x.save(); x.translate(gx,gy); const k=s/48; x.scale(k,k); x.lineCap="round";
+  x.lineWidth=2.6; x.strokeStyle="rgba(171,165,230,.55)"; x.beginPath(); x.arc(24,24,20,0,Math.PI*2); x.stroke();
+  x.strokeStyle="#9389FF"; x.beginPath(); x.arc(24,24,12,0,Math.PI*2); x.stroke();
+  x.strokeStyle="#F4F2FF"; x.lineWidth=3; x.beginPath(); x.moveTo(24,24); x.lineTo(38,10); x.stroke();
+  x.fillStyle="#F2A92E"; x.beginPath(); x.arc(33,17,4,0,Math.PI*2); x.fill();
+  x.restore();
+}
+async function shDraw(it, fmt, withImg){
+  const ar=state.lang==="ar", S=SH[state.lang], story=fmt==="story";
+  const W=1080, H=story?1920:1350, P=story?84:72, IW=W-2*P;
+  const c=document.createElement("canvas"); c.width=W; c.height=H; const x=c.getContext("2d");
+  await shFonts(ar);
+  const img = withImg ? await shImg(it.image, !!window.RADAR_PWA) : null;
+  const SANS = ar ? '"IBM Plex Sans Arabic", "Noto Sans Arabic", sans-serif' : '"Schibsted Grotesk", system-ui, sans-serif';
+  const SERIF = ar ? '"Noto Naskh Arabic", "IBM Plex Sans Arabic", serif' : '"Newsreader", Georgia, serif';
+  const X = v => ar ? W - v : v;            // miroir pour l'arabe
+  const setAlign = (start=true) => { x.direction = ar?"rtl":"ltr"; x.textAlign = start ? (ar?"right":"left") : (ar?"left":"right"); };
+  // fond nuit + anneaux du radar
+  const g=x.createLinearGradient(0,0,W*0.35,H); g.addColorStop(0,"#2B2484"); g.addColorStop(.42,"#17144A"); g.addColorStop(1,"#0C0A2B");
+  x.fillStyle=g; x.fillRect(0,0,W,H);
+  const top = story ? 230 : 118;
+  const cx = ar ? 40 : W-40, cy = top-40;
+  x.save(); x.strokeStyle="rgba(171,165,230,.15)"; x.lineWidth=2;
+  [150,290,430,570,710].forEach(r=>{ x.beginPath(); x.arc(cx,cy,r,0,Math.PI*2); x.stroke(); });
+  const a0 = ar ? Math.PI*0.08 : Math.PI*0.92;
+  const sw=x.createRadialGradient(cx,cy,0,cx,cy,600); sw.addColorStop(0,"rgba(147,137,255,.26)"); sw.addColorStop(1,"rgba(147,137,255,0)");
+  x.fillStyle=sw; x.beginPath(); x.moveTo(cx,cy); ar ? x.arc(cx,cy,600,a0,a0+0.42) : x.arc(cx,cy,600,a0-0.42,a0); x.closePath(); x.fill();
+  const bx=cx+290*Math.cos(a0), by=cy+290*Math.sin(a0);
+  x.strokeStyle="rgba(242,169,46,.45)"; x.lineWidth=3; x.beginPath(); x.arc(bx,by,24,0,Math.PI*2); x.stroke();
+  x.fillStyle="#F2A92E"; x.beginPath(); x.arc(bx,by,11,0,Math.PI*2); x.fill();
+  x.restore();
+  // en-tête : logo + Radar
+  shGlyph(x, ar ? W-P-58 : P, top-46, 58);
+  setAlign(); x.fillStyle="#F4F2FF"; x.font=`800 46px ${SANS}`; x.fillText("Radar", X(P+74), top);
+  let y = top + 44;
+  // étiquette de rubrique
+  x.font=`700 32px ${SANS}`; const kw = Math.min(IW, x.measureText(it.kick).width+56);
+  shRR(x, ar?W-P-kw:P, y, kw, 60, 30); x.fillStyle=it.color+"30"; x.fill();
+  x.fillStyle=it.color; setAlign(); x.fillText(it.kick, X(P+28), y+42);
+  y += 60 + (story?46:36);
+  // mesure du contenu
+  const footTop = H - (story ? 300 : 150);
+  const pts = it.pts||[], para = it.para||"";
+  const plan = (ph, tf, pf) => {
+    x.font=`${ar?700:800} ${tf}px ${SANS}`; const tl=shWrap(x,it.title,IW); const tlh=tf*(ar?1.42:1.12);
+    let h = (ph? ph+40 : 0) + tl.length*tlh + 26 + 8 + 40;
+    x.font=`500 ${pf}px ${SERIF}`; const plh=pf*(ar?1.72:1.36);
+    let blocks=[];
+    if (para){ const ls=[]; String(para).split(/\n+/).filter(Boolean).forEach((pp,i)=>{ if(i) ls.push(""); ls.push(...shWrap(x,pp,IW)); }); blocks=[ls]; h += 30 + ls.length*plh; }
+    else { x.font=`500 ${pf}px ${SERIF}`; blocks = pts.map(p=>shWrap(x,p,IW-48)); h += 30 + blocks.reduce((s,b)=>s+b.length*plh+20,0); }
+    return {ph,tf,pf,tl,tlh,plh,blocks,h};
+  };
+  const phMax = img ? (story ? 680 : 500) : 0;
+  const tries = [];
+  const PF = para ? (story?[54,50,46,42,38,34,31]:[46,42,39,36,33,30,28]) : (story?[50,46,42,39,36,33,31]:[42,39,36,33,30,28]);
+  const TF = story?[92,84,76,68,60,54,48]:[80,72,66,60,54,48,44];
+  const PH = img?[phMax, Math.round(phMax*0.8), Math.round(phMax*0.64), Math.round(phMax*0.52)]:[0];
+  const minPf = story ? 38 : 34;
+  for (const pf of PF.filter(v=>v>=minPf)) for (const tf of TF) { if (tf < pf*1.35) continue; for (const ph of PH) tries.push([ph,tf,pf]); }
+  for (const pf of PF.filter(v=>v<minPf)) for (const tf of TF) { if (tf < pf*1.35) continue; for (const ph of PH) tries.push([ph,tf,pf]); }
+  if (img) for (const pf of PF) for (const tf of TF) { if (tf < pf*1.35) continue; tries.push([0,tf,pf]); }
+  let L1=null;
+  for (const [ph,tf,pf] of tries){ const p=plan(ph,tf,pf); if (y + p.h <= footTop){ L1=p; break; } }
+  if (L1){ const spare = footTop - (y + L1.h); y += Math.min(spare*0.45, story?260:120); L1.gap = Math.min(spare*0.25, story?90:50); }
+  if (!L1){ L1=plan(0, story?48:44, story?31:28); while (L1.blocks.length>1 && y+L1.h>footTop && !para){ pts.pop(); L1=plan(0, story?48:44, story?31:28); } }
+  // photo
+  if (L1.ph && img){
+    shRR(x,P,y,IW,L1.ph,30); x.save(); x.clip();
+    const r=Math.max(IW/img.width, L1.ph/img.height), dw=img.width*r, dh=img.height*r;
+    x.drawImage(img, P+(IW-dw)/2, y+(L1.ph-dh)/2, dw, dh); x.restore();
+    y += L1.ph + 40;
+  }
+  // titre
+  setAlign(); x.fillStyle="#FFFFFF"; x.font=`${ar?700:800} ${L1.tf}px ${SANS}`;
+  L1.tl.forEach((ln,i)=>{ x.fillText(ln, X(P), y + L1.tf*0.92 + i*L1.tlh); });
+  y += L1.tl.length*L1.tlh + 26 + (L1.gap||0);
+  // trait safran + "L'essentiel"
+  x.fillStyle="#F2A92E"; shRR(x, ar?W-P-72:P, y, 72, 8, 4); x.fill(); y += 8 + 40;
+  if (!para){ x.font=`700 28px ${SANS}`; x.fillStyle="#ABA5E6"; setAlign(); x.fillText(S.essential, X(P), y); y += 30; }
+  else if (it.orig){ /* proverbe : original en darija */ }
+  // points ou texte
+  x.font=`500 ${L1.pf}px ${SERIF}`; x.fillStyle="#ECEAFF"; setAlign();
+  if (para){
+    y += 0;
+    L1.blocks[0].forEach((ln,i)=>{ if(ln) x.fillText(ln, X(P), y + L1.pf + i*L1.plh); });
+    y += L1.blocks[0].length*L1.plh;
+  } else {
+    L1.blocks.forEach(lines=>{
+      const base = y + L1.pf*1.05;
+      x.fillStyle="#F2A92E"; x.beginPath(); x.arc(X(P+10), base - L1.pf*0.32, 8, 0, Math.PI*2); x.fill();
+      x.fillStyle="#ECEAFF";
+      lines.forEach((ln,i)=>x.fillText(ln, X(P+48), base + i*L1.plh));
+      y += lines.length*L1.plh + 20;
+    });
+  }
+  // pied : par Rachid EL KADDOURI · source
+  const fy = H - (story ? 220 : 76);
+  x.fillStyle="rgba(255,255,255,.14)"; x.fillRect(P, fy-58, IW, 2);
+  setAlign(); x.font=`500 28px ${SANS}`; x.fillStyle="#ABA5E6";
+  const pre = S.by+" "; x.fillText(pre, X(P), fy);
+  const pw = x.measureText(pre).width;
+  x.font=`800 30px "Schibsted Grotesk", ${SANS}`; x.fillStyle="#FFFFFF"; x.direction="ltr";
+  x.textAlign = ar ? "right" : "left"; x.fillText(SHARE_BY, ar ? W-P-pw : P+pw, fy);
+  const nameEnd = (ar ? W-P-pw : P+pw) + (ar?-1:1)*x.measureText(SHARE_BY).width;
+  if (it.source || it.note){
+    setAlign(false); x.font=`500 24px ${SANS}`; x.fillStyle="#ABA5E6";
+    const full = it.source ? S.src+it.source : it.note;
+    let src = full; const maxW = Math.abs((ar?P:W-P) - nameEnd) - 30;
+    while (src.length>8 && x.measureText(src).width>maxW) src = src.slice(0,-2);
+    if (src !== full) src = src.trim()+"…";
+    if (maxW>80) x.fillText(src, ar?P:W-P, fy);
+  }
+  return c;
+}
+async function shBlob(it, fmt){
+  let c = await shDraw(it, fmt, true);
+  const toB = cv => new Promise((res,rej)=>{ try{ cv.toBlob(b=>b?res(b):rej(new Error("blob")), "image/jpeg", 0.93); }catch(e){ rej(e); } });
+  try { return await toB(c); }
+  catch(e){ c = await shDraw(it, fmt, false); return await toB(c); }  // image sans CORS : on refait sans photo
+}
+const shUI = {el:null, url:null, blob:null, it:null, fmt:"post"};
+function shClose(){ if(shUI.el){ shUI.el.remove(); shUI.el=null; } if(shUI.url){ URL.revokeObjectURL(shUI.url); shUI.url=null; } document.removeEventListener("keydown", shKeys); }
+function shKeys(e){ if(e.key==="Escape") shClose(); }
+function shCaption(it){
+  const S=SH[state.lang];
+  const lines=[it.title, "", ...(it.para?[it.para]:(it.pts||[]).map(p=>"• "+p))];
+  if (it.url) lines.push("", `${S.more} ${it.source||""} : ${it.url}`.replace(" : ", state.lang==="ar"?": ":" : "));
+  lines.push("", `— ${S.by} ${SHARE_BY}`);
+  return lines.join("\n");
+}
+async function shRender(){
+  const S=SH[state.lang], box=shUI.el.querySelector(".shr-prev");
+  box.innerHTML=`<div class="shr-wait"><span class="spin"></span>${esc(S.making)}</div>`;
+  shUI.el.querySelectorAll("[data-fmt]").forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.fmt===shUI.fmt)));
+  try{
+    const blob = await shBlob(shUI.it, shUI.fmt);
+    if (shUI.url) URL.revokeObjectURL(shUI.url);
+    shUI.blob=blob; shUI.url=URL.createObjectURL(blob);
+    box.innerHTML=`<img src="${shUI.url}" alt="${esc(shUI.it.title)}">`;
+  }catch(e){ box.innerHTML=`<p class="fine">${esc(S.fail)}</p>`; }
+}
+function openShare(type,key){
+  const it=shareItem(type,key); if(!it) return;
+  shClose();
+  const S=SH[state.lang];
+  shUI.it=JSON.parse(JSON.stringify(it));
+  const wrap=document.createElement("div");
+  wrap.innerHTML=`<div class="shr-bg"></div><div class="shr" role="dialog" aria-modal="true" aria-label="${esc(S.title)}" dir="${state.lang==="ar"?"rtl":"ltr"}" lang="${state.lang}">
+    <div class="shr-h"><b>${esc(S.title)}</b><button class="x" data-shr="close" aria-label="✕"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+    <div class="seg shr-seg" role="group"><button data-fmt="post" aria-pressed="true">${esc(S.post)}<small>${esc(S.postSub)}</small></button><button data-fmt="story" aria-pressed="false">${esc(S.story)}<small>${esc(S.storySub)}</small></button></div>
+    <div class="shr-prev"></div>
+    <div class="shr-acts"><button class="btn primary wide" data-shr="share">${ICONS.share}${esc(S.share)}</button><button class="btn" data-shr="save">${esc(S.save)}</button><button class="btn" data-shr="copy">${esc(S.copy)}</button></div>
+    <p class="fine">${esc(S.note)}</p>
+  </div>`;
+  document.body.appendChild(wrap); shUI.el=wrap;
+  wrap.querySelector(".shr-bg").onclick=shClose;
+  wrap.querySelectorAll("[data-fmt]").forEach(b=>b.onclick=()=>{ shUI.fmt=b.dataset.fmt; shRender(); });
+  wrap.querySelector('[data-shr="close"]').onclick=shClose;
+  const fname = () => `radar-${shUI.it.slug||"info"}-${shUI.fmt}.jpg`;
+  wrap.querySelector('[data-shr="share"]').onclick=async()=>{
+    if (!shUI.blob) return;
+    const file=new File([shUI.blob], fname(), {type:"image/jpeg"});
+    try{
+      if (navigator.canShare && navigator.canShare({files:[file]})) { await navigator.share({files:[file]}); return; }
+    }catch(e){ if (e && e.name==="AbortError") return; }
+    const a=document.createElement("a"); a.href=shUI.url; a.download=fname(); document.body.appendChild(a); a.click(); a.remove();
+  };
+  wrap.querySelector('[data-shr="save"]').onclick=()=>{ if(!shUI.url) return; const a=document.createElement("a"); a.href=shUI.url; a.download=fname(); document.body.appendChild(a); a.click(); a.remove(); };
+  wrap.querySelector('[data-shr="copy"]').onclick=async(e)=>{ const b=e.currentTarget; try{ await navigator.clipboard.writeText(shCaption(shUI.it)); b.textContent=S.copied; setTimeout(()=>{ b.textContent=S.copy; },1800); }catch(err){} };
+  document.addEventListener("keydown", shKeys);
+  shRender();
+}
 
 function render(scrollTop){
   ensureBaseline();
