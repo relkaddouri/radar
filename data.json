@@ -1297,121 +1297,772 @@
  ],
  "news": [
   {
-   "cat": "ux",
-   "title": "Figma : des prototypes en code sur le canevas, ouverts à tous en bêta",
-   "title_ar": "فيغما: نماذج أولية بالكود على لوحة التصميم، متاحة للجميع في نسخة تجريبية",
-   "summary": "Figma passe ses calques de code en bêta ouverte : on peut faire tourner une interface interactive directement sur le canevas, à partir d'un design ou d'un projet GitHub. L'outil ajoute aussi Specs, des documents partagés qui gardent les exigences à côté des écrans et peuvent être transmis aux agents IA.",
-   "summary_ar": "نقلت فيغما طبقات الكود إلى نسخة تجريبية مفتوحة، فصار بالإمكان تشغيل واجهة تفاعلية مباشرة على لوحة التصميم انطلاقاً من تصميم أو مشروع على GitHub. كما أضافت أداة Specs، وهي وثائق مشتركة تضع المتطلبات بجانب الشاشات ويمكن تمريرها إلى وكلاء الذكاء الاصطناعي.",
-   "source": "UX News",
-   "url": "https://ux-news.com/figma-code-layers-specs-payload-update/",
+   "cat": "maroc",
+   "sub": "economie",
+   "title": "Safran agrandit son usine de Témara et prévoit 400 embauches",
+   "title_ar": "سافران توسع مصنعها في تمارة وتعتزم توظيف 400 شخص",
+   "summary": "Le site de Safran Electrical & Power à Aïn Atiq gagne 5 700 m² et dépasse 31 400 m². L'usine, qui emploie 1 610 personnes dont 87 % de femmes, fabrique des câblages pour les avions Airbus.",
+   "summary_ar": "يضيف موقع سافران إلكتريكال آند باور في عين عتيق 5700 متر مربع ليتجاوز 31400 متر مربع. ويشغل المصنع 1610 أشخاص، 87 في المائة منهم نساء، وينتج أسلاكاً كهربائية لطائرات إيرباص.",
+   "source": "Le360",
+   "url": "https://fr.le360.ma/economie/aeronautique-safran-agrandit-son-usine-de-temara-pour-accompagner-la-montee-en-puissance-du-secteur_KVTCKH657FDGVNVWXB6R6XNYA4/",
    "date": "2026-10-15",
-   "image": "https://ux-news.com/content/images/size/w1200/2026/10/figma-oct15-cover.png",
+   "image": "https://fr.le360.ma/resizer/v2/MWZQT6DAPFDF3KLFEU2FUFQDH4.jpg?auth=776858f660f2e6dd31cbdc3a7c54d2de5b35a0b0fc93cf0cfa490cb871c991b2&smart=true&width=1200&height=630",
+   "explain": {
+    "context": "C'est la quatrième grande extension de ce site, ouvert en 2006 après le rachat de Gespec. Le ministre de l'Industrie Ryad Mezzour a présidé l'inauguration.",
+    "context_ar": "هذا رابع توسع كبير لهذا الموقع الذي افتتح سنة 2006 بعد شراء شركة جيسبيك. وترأس وزير الصناعة رياض مزور حفل التدشين.",
+    "terms": [
+     {
+      "t": "câblages",
+      "t_ar": "الأسلاك الكهربائية",
+      "d": "Ensembles de fils électriques qui relient les appareils d'un avion entre eux.",
+      "d_ar": "مجموعات من الأسلاك تربط أجهزة الطائرة ببعضها."
+     },
+     {
+      "t": "m²",
+      "t_ar": "متر مربع",
+      "d": "Mètre carré : unité qui mesure une surface au sol.",
+      "d_ar": "وحدة لقياس المساحة."
+     }
+    ],
+    "figures": [
+     {
+      "n": "400",
+      "n_ar": "400",
+      "d": "Nouveaux emplois prévus, en plus des 1 610 salariés actuels.",
+      "d_ar": "منصب شغل جديد مرتقب، إضافة إلى 1610 أجراء حالياً."
+     },
+     {
+      "n": "87 %",
+      "n_ar": "87 في المائة",
+      "d": "Part des femmes parmi les salariés du site.",
+      "d_ar": "نسبة النساء بين العاملين في الموقع."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "maroc",
+   "sub": "economie",
+   "title": "Carburants : le gasoil baisse de 20 centimes, l'essence ne bouge pas",
+   "title_ar": "المحروقات: الغازوال ينخفض بـ20 سنتيماً والبنزين دون تغيير",
+   "summary": "À Casablanca, le litre de gasoil passe d'environ 16,10 DH à près de 15,90 DH. C'est la première baisse après six hausses depuis la mi-juillet, qui avaient ajouté environ 3,54 DH par litre.",
+   "summary_ar": "في الدار البيضاء ينتقل سعر لتر الغازوال من نحو 16,10 درهم إلى قرابة 15,90 درهم. وهذا أول انخفاض بعد ست زيادات منذ منتصف يوليوز أضافت نحو 3,54 دراهم للتر.",
+   "source": "Le360",
+   "url": "https://fr.le360.ma/economie/carburants-le-gasoil-en-baisse-de-20-centimes-des-ce-jeudi-soir_KTHOCXLFOVDNXKDFVG7AHMOLD4/",
+   "date": "2026-10-15",
+   "image": "https://fr.le360.ma/resizer/v2/KBEIXB67Y5HTLK4LM7ZPL5L5DY.jpg?auth=88dc93f6a9398e2e5436838d91a1f790e4f8c24b2d2d2a416b95560596f7109d&smart=true&width=1200&height=630",
+   "explain": {
+    "context": "Le gasoil coûte désormais plus cher que l'essence au Maroc. Les prix à la pompe suivent des achats faits au moins deux semaines plus tôt.",
+    "context_ar": "أصبح الغازوال أغلى من البنزين في المغرب. وتتبع الأسعار في المحطات شحنات اشتريت قبل أسبوعين على الأقل.",
+    "terms": [
+     {
+      "t": "gasoil",
+      "t_ar": "الغازوال",
+      "d": "Carburant diesel utilisé par la plupart des voitures, camions et engins agricoles.",
+      "d_ar": "وقود الديزل الذي تستعمله أغلب السيارات والشاحنات والآلات الفلاحية."
+     },
+     {
+      "t": "DH",
+      "t_ar": "درهم",
+      "d": "Dirham, la monnaie du Maroc.",
+      "d_ar": "العملة الوطنية للمغرب."
+     }
+    ],
+    "figures": [
+     {
+      "n": "3,54 DH",
+      "n_ar": "3,54 دراهم",
+      "d": "Hausse cumulée du litre de gasoil depuis la mi-juillet, avant cette baisse.",
+      "d_ar": "مجموع الزيادات في لتر الغازوال منذ منتصف يوليوز قبل هذا الانخفاض."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "maroc",
+   "sub": "politique",
+   "title": "Chambre des représentants : cent députés absents lors de l'élection du bureau",
+   "title_ar": "مجلس النواب: غياب مائة نائب عن جلسة انتخاب المكتب",
+   "summary": "Ahmed Touizi (PAM) a été élu président avec 220 voix sur 369, contre 59 pour Driss El Azami El Idrissi. Sur 395 députés, 100 n'ont pas assisté à la séance.",
+   "summary_ar": "انتخب أحمد التويزي (الأصالة والمعاصرة) رئيساً بـ220 صوتاً من أصل 369، مقابل 59 لإدريس الأزمي الإدريسي. ومن بين 395 نائباً، غاب 100 عن الجلسة.",
+   "source": "Le360",
+   "url": "https://fr.le360.ma/politique/chambre-des-representants-une-seance-delection-marquee-par-labsence-de-cent-deputes_PPTSDHEVLRAEJJWE27RVDCAG4Y/",
+   "date": "2026-10-15",
+   "image": "https://fr.le360.ma/resizer/v2/PUHJFYZJC5GYRHX5NV5VZ7XAGY.jpg?auth=8cb48aaca51626f8ac386f9ac55f807f126be9bd481fa744d132a1805115f450&smart=true&width=1200&height=630",
+   "explain": {
+    "context": "La séance a aussi désigné huit vice-présidents et les présidents des neuf commissions permanentes, élus sur une liste unique.",
+    "context_ar": "عينت الجلسة أيضاً ثمانية نواب للرئيس ورؤساء اللجان الدائمة التسع، وتم انتخابهم بلائحة موحدة.",
+    "terms": [
+     {
+      "t": "bureau",
+      "t_ar": "المكتب",
+      "d": "Petite équipe d'élus qui dirige les travaux de la Chambre : président, vice-présidents, questeurs, secrétaires.",
+      "d_ar": "فريق صغير من المنتخبين يسير أشغال المجلس: الرئيس ونوابه والمحاسبون والأمناء."
+     }
+    ],
+    "figures": [
+     {
+      "n": "220 voix",
+      "n_ar": "220 صوتاً",
+      "d": "Score d'Ahmed Touizi, sur 369 votants.",
+      "d_ar": "عدد الأصوات التي حصل عليها أحمد التويزي من أصل 369 مصوتاً."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "maroc",
+   "sub": "societe",
+   "title": "Cannabis légal : l'ANRAC retire près de 1 500 autorisations",
+   "title_ar": "القنب الهندي المقنن: الوكالة تسحب نحو 1500 ترخيص",
+   "summary": "Pour la saison 2026, 1 490 autorisations ont été retirées après des contrôles, dont environ 1 300 à des agriculteurs. La variété locale a été récoltée sur 1 100 hectares par quelque 1 800 cultivateurs.",
+   "summary_ar": "خلال موسم 2026 سحبت 1490 رخصة بعد عمليات المراقبة، منها نحو 1300 لمزارعين. وتم حصاد الصنف المحلي على 1100 هكتار من طرف حوالي 1800 مزارع.",
+   "source": "Le360",
+   "url": "https://fr.le360.ma/societe/cannabis-legal-pres-de-1500-autorisations-retirees-par-lanrac-des-recoltes-sur-plus-de-1100-hectares_ZWDUIF6DJBFQXBJY7EJGNDXASU/",
+   "date": "2026-10-15",
+   "image": "https://fr.le360.ma/resizer/v2/OOP6IVHNHFHVXJYDTMWKW3IPTQ.JPG?auth=87449074df3ab93320cab0e43b419e30f4115bebc607fc05378a58ea8ac987c6&smart=true&width=1200&height=630",
+   "explain": {
+    "context": "La plupart des retraits viennent d'erreurs administratives, comme des déclarations de récolte fausses ou des délais non respectés.",
+    "context_ar": "تعود أغلب حالات السحب إلى أخطاء إدارية، مثل تصريحات حصاد غير صحيحة أو عدم احترام الآجال.",
+    "terms": [
+     {
+      "t": "ANRAC",
+      "t_ar": "الوكالة الوطنية لتقنين الأنشطة المتعلقة بالقنب الهندي",
+      "d": "Agence publique qui donne et contrôle les autorisations pour cultiver et vendre le cannabis légal au Maroc.",
+      "d_ar": "وكالة عمومية تمنح وتراقب رخص زراعة وبيع القنب الهندي المقنن في المغرب."
+     }
+    ],
+    "figures": [
+     {
+      "n": "1 100 hectares",
+      "n_ar": "1100 هكتار",
+      "d": "Surface récoltée en variété locale, soit environ 60 % des terres cultivées.",
+      "d_ar": "المساحة المحصودة من الصنف المحلي، أي نحو 60 في المائة من الأراضي المزروعة."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "maroc",
+   "sub": "economie",
+   "title": "Commerce extérieur : l'Europe recule, l'Asie progresse",
+   "title_ar": "التجارة الخارجية: أوروبا تتراجع وآسيا تتقدم",
+   "summary": "Selon l'Office des changes, l'Europe a pesé 59,8 % des échanges du Maroc en 2025, contre 62 % en 2024. La part de l'Asie passe de 20,1 % à 21,9 %, portée par la Chine.",
+   "summary_ar": "حسب مكتب الصرف، شكلت أوروبا 59,8 في المائة من مبادلات المغرب سنة 2025 مقابل 62 في المائة سنة 2024. وارتفعت حصة آسيا من 20,1 إلى 21,9 في المائة بفضل الصين.",
+   "source": "LeSiteinfo",
+   "url": "https://www.lesiteinfo.com/maroc/684735-commerce-exterieur-du-maroc-leurope-perd-du-terrain-face-a-lasie.html",
+   "date": "2026-10-15",
+   "image": "https://www.lesiteinfo.com/wp-content/uploads/2022/09/Commerce-exterieur.jpg",
+   "explain": {
+    "context": "L'Espagne et la France restent les premiers partenaires. Les échanges avec la Chine augmentent pour la 14e année de suite.",
+    "context_ar": "تبقى إسبانيا وفرنسا أول شريكين. وترتفع المبادلات مع الصين للسنة الرابعة عشرة على التوالي.",
+    "terms": [
+     {
+      "t": "Office des changes",
+      "t_ar": "مكتب الصرف",
+      "d": "Organisme public qui suit les échanges d'argent et de marchandises entre le Maroc et l'étranger.",
+      "d_ar": "هيئة عمومية تتابع حركة الأموال والسلع بين المغرب والخارج."
+     },
+     {
+      "t": "échanges",
+      "t_ar": "المبادلات",
+      "d": "Total des achats (importations) et des ventes (exportations) avec les autres pays.",
+      "d_ar": "مجموع المشتريات (الواردات) والمبيعات (الصادرات) مع الدول الأخرى."
+     }
+    ],
+    "figures": [
+     {
+      "n": "59,8 %",
+      "n_ar": "59,8 في المائة",
+      "d": "Part de l'Europe dans le commerce marocain en 2025 : encore plus de la moitié.",
+      "d_ar": "حصة أوروبا في التجارة المغربية سنة 2025، أي أكثر من النصف."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "tennis",
+   "title": "Shanghai : Zverev bat de Minaur et file en demi-finale",
+   "title_ar": "شنغهاي: زفيريف يهزم دي مينور ويتأهل إلى نصف النهائي",
+   "summary": "Alexander Zverev a battu Alex de Minaur 6-4, 6-4 en quart de finale du Masters 1000 de Shanghai, avec 10 aces. Il affrontera Alejandro Davidovich Fokina, qualifié après l'abandon d'Arthur Gea.",
+   "summary_ar": "فاز ألكسندر زفيريف على أليكس دي مينور 6-4 و6-4 في ربع نهائي دورة شنغهاي للماسترز 1000، مع 10 إرسالات ساحقة. وسيواجه أليخاندرو دافيدوفيتش فوكينا الذي تأهل بعد انسحاب أرتور جيا.",
+   "source": "AAP",
+   "url": "https://startsat60.com/media/news/sports/next-world-no-1-serves-up-misery-for-demon-in-shanghai",
+   "date": "2026-10-16",
+   "image": "https://images.startsat60.com/wp-content/uploads/20261016092730/e7001a51-f484-4833-80c0-d40402809e67-720x405.jpg",
+   "explain": {
+    "context": "Zverev doit finir l'année numéro 1 mondial après la blessure au genou de Jannik Sinner. C'est sa 9e victoire contre de Minaur.",
+    "context_ar": "يتجه زفيريف لإنهاء السنة في صدارة الترتيب العالمي بعد إصابة يانيك سينر في الركبة. وهذا فوزه التاسع على دي مينور.",
+    "terms": [
+     {
+      "t": "aces",
+      "t_ar": "الإرسالات الساحقة",
+      "d": "Services si forts ou si bien placés que l'adversaire ne touche pas la balle.",
+      "d_ar": "إرسالات قوية أو دقيقة لا يلمس فيها الخصم الكرة."
+     },
+     {
+      "t": "Masters 1000",
+      "t_ar": "الماسترز 1000",
+      "d": "Catégorie de grands tournois ATP, juste en dessous des Grands Chelems.",
+      "d_ar": "فئة من الدورات الكبرى في رابطة المحترفين، تأتي بعد البطولات الأربع الكبرى."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "basket",
+   "title": "NBA : Jalen Duren marque 24 points en 15 minutes pour son retour",
+   "title_ar": "الدوري الأمريكي: جالين دورين يسجل 24 نقطة في 15 دقيقة",
+   "summary": "Pour son premier match de présaison, Jalen Duren a réussi 8 tirs sur 9 dans la victoire des Pistons 128-106 contre Minnesota. Wembanyama (19 points, 4 contres) a aidé les Spurs à battre les Suns 123-103.",
+   "summary_ar": "في أول مباراة له في فترة الإعداد، نجح جالين دورين في 8 تسديدات من 9 في فوز بيستونز على مينيسوتا 128-106. وساعد ويمبانياما (19 نقطة و4 صدات) سبيرز على هزم صنز 123-103.",
+   "source": "NBA.com",
+   "url": "https://www.nba.com/news/starting-5-october-15-2026",
+   "date": "2026-10-15",
+   "image": "https://cdn.nba.com/manage/2026/10/GettyImages-2299696785.jpg",
+   "explain": {
+    "context": "Sept matchs de préparation ont eu lieu mercredi, avant le début de la saison régulière NBA.",
+    "context_ar": "جرت سبع مباريات إعدادية يوم الأربعاء قبل انطلاق الموسم العادي للدوري الأمريكي.",
+    "terms": [
+     {
+      "t": "présaison",
+      "t_ar": "فترة الإعداد",
+      "d": "Matchs amicaux joués avant le début officiel de la saison.",
+      "d_ar": "مباريات ودية تلعب قبل الانطلاقة الرسمية للموسم."
+     },
+     {
+      "t": "contres",
+      "t_ar": "الصدات",
+      "d": "Gestes où un défenseur bloque le tir de l'adversaire avec la main.",
+      "d_ar": "حركة يوقف فيها المدافع تسديدة الخصم بيده."
+     }
+    ],
+    "figures": [
+     {
+      "n": "8 sur 9",
+      "n_ar": "8 من 9",
+      "d": "Tirs réussis par Duren : presque aucun raté.",
+      "d_ar": "تسديدات ناجحة لدورين، أي تقريباً دون أي خطأ."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "f1",
+   "title": "F1 : Rafael Camara remplacera Esteban Ocon chez Haas en 2027",
+   "title_ar": "الفورمولا 1: رافاييل كامارا يخلف إستيبان أوكون في هاس سنة 2027",
+   "summary": "Haas a signé pour plusieurs années Rafael Camara, 21 ans, pilote formé par Ferrari. Champion de F3 et leader actuel de la F2, il devient le premier débutant confirmé pour 2027.",
+   "summary_ar": "وقع فريق هاس لعدة سنوات مع رافاييل كامارا، 21 عاماً، وهو سائق من أكاديمية فيراري. وهو بطل الفورمولا 3 ومتصدر الفورمولا 2 حالياً، ويصبح أول سائق مبتدئ مؤكد لموسم 2027.",
+   "source": "PlanetF1",
+   "url": "https://www.planetf1.com/news/rafael-camara-haas-f1-2027-announcement",
+   "date": "2026-10-15",
+   "image": "https://images.ps-aws.com/c?url=https%3A%2F%2Fd3cm515ijfiu6w.cloudfront.net%2Fwp-content%2Fuploads%2F2026%2F10%2F15144955%2Frafael-camara-haas-f1-2027-announcement.jpg",
+   "explain": {
+    "context": "Oliver Bearman devrait rester chez Haas : l'équipe aurait alors deux jeunes pilotes de Ferrari. Camara a testé la voiture à Portimão.",
+    "context_ar": "يرجح أن يبقى أوليفر بيرمان في هاس، فيصبح للفريق سائقان شابان من أكاديمية فيراري. وقد جرب كامارا السيارة في بورتيماو.",
+    "terms": [
+     {
+      "t": "F2",
+      "t_ar": "الفورمولا 2",
+      "d": "Championnat juste en dessous de la F1, où les jeunes pilotes se préparent.",
+      "d_ar": "بطولة تأتي مباشرة بعد الفورمولا 1، يستعد فيها السائقون الشباب."
+     }
+    ],
+    "figures": [
+     {
+      "n": "21 ans",
+      "n_ar": "21 عاماً",
+      "d": "Âge de Camara, plus jeune que la plupart des pilotes de la grille.",
+      "d_ar": "سن كامارا، وهو أصغر من أغلب سائقي البطولة."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "boxe",
+   "title": "Boxe : Rico Verhoeven dit oui à un combat contre Deontay Wilder",
+   "title_ar": "الملاكمة: ريكو فيرهوفن يوافق على نزال ضد ديونتاي وايلدر",
+   "summary": "La star du kickboxing a accepté une offre pour affronter Wilder lors de la soirée Fury-Joshua, le 11 décembre à Cardiff. Le combat n'est pas encore confirmé.",
+   "summary_ar": "وافق نجم الكيك بوكسينغ على عرض لمواجهة وايلدر في أمسية فيوري وجوشوا يوم 11 دجنبر في كارديف. ولم يتأكد النزال بعد.",
+   "source": "Boxing News",
+   "url": "https://boxingnewsonline.net/news/wilder-new-opponent-on-fury-vs-joshua/",
+   "date": "2026-10-15",
+   "image": "https://cdn-img.boxingnewsonline.net/uploads/content/1792078212046808160/Deontay-Wilder.jpg",
+   "explain": {
+    "context": "Le combat principal opposera Tyson Fury à Anthony Joshua au Principality Stadium. Un duel Wilder contre Jai Opetaia avait aussi été évoqué.",
+    "context_ar": "سيجمع النزال الرئيسي تايسون فيوري بأنتوني جوشوا في ملعب برينسيباليتي. وكان نزال بين وايلدر وجاي أوبيتايا قد طرح أيضاً.",
+    "terms": [
+     {
+      "t": "kickboxing",
+      "t_ar": "الكيك بوكسينغ",
+      "d": "Sport de combat où l'on frappe avec les poings et les pieds.",
+      "d_ar": "رياضة قتالية يضرب فيها باليدين والقدمين."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "football",
+   "title": "FIFA : 6,35 milliards de dollars pour développer le football d'ici 2030",
+   "title_ar": "الفيفا: 6,35 مليارات دولار لتطوير كرة القدم حتى 2030",
+   "summary": "La FIFA veut plus que doubler son aide pour 2027-2030 : chaque fédération pourrait recevoir jusqu'à 25 millions de dollars sur quatre ans. Infantino s'est aussi excusé pour un projet abandonné.",
+   "summary_ar": "تريد الفيفا مضاعفة دعمها لفترة 2027-2030 بأكثر من الضعف، إذ قد يحصل كل اتحاد على ما يصل إلى 25 مليون دولار خلال أربع سنوات. كما اعتذر إنفانتينو عن مشروع تم التخلي عنه.",
+   "source": "LeSiteinfo",
+   "url": "https://www.lesiteinfo.com/sport/684719-fifa-plus-de-6-milliards-de-dollars-prevus-pour-le-developpement-du-football-mondial.html",
+   "date": "2026-10-15",
+   "image": "https://www.lesiteinfo.com/wp-content/uploads/2019/01/FIFA.jpg",
+   "explain": {
+    "context": "L'argent viendra en partie des réserves de la FIFA et des recettes du Mondial 2026. Les règles seront étudiées en décembre.",
+    "context_ar": "ستأتي الأموال جزئياً من احتياطات الفيفا ومداخيل مونديال 2026. وستدرس القواعد في دجنبر.",
+    "terms": [
+     {
+      "t": "fédération",
+      "t_ar": "الاتحاد",
+      "d": "Organisation qui gère le football d'un pays, comme la FRMF au Maroc.",
+      "d_ar": "هيئة تسير كرة القدم في بلد ما، مثل الجامعة الملكية في المغرب."
+     }
+    ],
+    "figures": [
+     {
+      "n": "25 millions de dollars",
+      "n_ar": "25 مليون دولار",
+      "d": "Aide maximale par fédération sur quatre ans ; en 2016, c'était 1 million.",
+      "d_ar": "أقصى دعم لكل اتحاد خلال أربع سنوات، مقابل مليون دولار سنة 2016."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "ia",
+   "title": "Anthropic ouvre un bureau à Singapour et défend sa surveillance des usages",
+   "title_ar": "أنثروبيك تفتح مكتباً في سنغافورة وتدافع عن مراقبة الاستخدامات",
+   "summary": "Son cofondateur Benjamin Mann a dit que l'entreprise garderait un contrôle sur l'usage de ses modèles les plus puissants, car l'IA peut servir au bien comme au mal. C'est le cinquième bureau d'Anthropic en Asie-Pacifique.",
+   "summary_ar": "قال الشريك المؤسس بنجامين مان إن الشركة ستحتفظ برقابة على استخدام أقوى نماذجها، لأن الذكاء الاصطناعي قد يستعمل في الخير والشر. وهذا خامس مكتب لأنثروبيك في آسيا والمحيط الهادئ.",
+   "source": "Fortune",
+   "url": "https://fortune.com/2026/10/15/anthropic-dual-use-ai-defends-oversight-singapore",
+   "date": "2026-10-15",
+   "image": "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2299585451-e1792054691556.jpg?resize=1200,600",
+   "explain": {
+    "context": "Selon Anthropic, Singapour est 2e sur 121 pays pour l'usage de Claude par habitant. Plus de 1 500 ingénieurs de GovTech utilisent Claude Code.",
+    "context_ar": "حسب أنثروبيك، تحتل سنغافورة المرتبة الثانية من 121 دولة في استخدام Claude مقارنة بعدد السكان. ويستعمل أكثر من 1500 مهندس في GovTech أداة Claude Code.",
+    "terms": [
+     {
+      "t": "modèles",
+      "t_ar": "النماذج",
+      "d": "Programmes d'IA entraînés sur beaucoup de données pour écrire, répondre ou coder.",
+      "d_ar": "برامج ذكاء اصطناعي دربت على بيانات كثيرة لتكتب أو تجيب أو تبرمج."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "ia",
+   "title": "OpenAI donne 5 millions de dollars pour aider les mathématiciens face aux preuves de l'IA",
+   "title_ar": "أوبن إيه آي تمنح 5 ملايين دولار لمساعدة علماء الرياضيات على فحص براهين الذكاء الاصطناعي",
+   "summary": "OpenAI finance une initiative de la Simons Foundation pour vérifier et utiliser des résultats mathématiques trouvés par l'IA. L'entreprise a publié des preuves obtenues par un modèle interne, avec des versions vérifiées en Lean.",
+   "summary_ar": "تمول أوبن إيه آي مبادرة لمؤسسة سيمونز لفحص واستعمال نتائج رياضية توصل إليها الذكاء الاصطناعي. ونشرت الشركة براهين أنتجها نموذج داخلي، مع نسخ تم التحقق منها بلغة Lean.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+   "date": "2026-10-15",
+   "image": "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill",
+   "explain": {
+    "context": "OpenAI a publié ces résultats début octobre. Chaque résultat a demandé en moyenne environ trois heures de réflexion de ChatGPT Pro.",
+    "context_ar": "نشرت أوبن إيه آي هذه النتائج في بداية أكتوبر. واحتاجت كل نتيجة في المتوسط إلى نحو ثلاث ساعات من تفكير ChatGPT Pro.",
+    "terms": [
+     {
+      "t": "Lean",
+      "t_ar": "Lean",
+      "d": "Logiciel qui vérifie automatiquement, étape par étape, qu'une preuve mathématique est juste.",
+      "d_ar": "برنامج يتحقق آلياً، خطوة بخطوة، من صحة البرهان الرياضي."
+     },
+     {
+      "t": "preuves",
+      "t_ar": "البراهين",
+      "d": "Raisonnements qui montrent qu'une affirmation mathématique est vraie.",
+      "d_ar": "استدلالات تثبت أن قضية رياضية صحيحة."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "ia",
+   "title": "États-Unis : l'autorité de la concurrence enquête sur OpenAI et Anthropic",
+   "title_ar": "الولايات المتحدة: هيئة حماية المستهلك تحقق مع أوبن إيه آي وأنثروبيك",
+   "summary": "La FTC a envoyé des demandes officielles de documents aux deux entreprises sur des incidents de sécurité liés à leurs IA. L'enquête suit des informations selon lesquelles des modèles auraient piraté des sites web.",
+   "summary_ar": "وجهت لجنة التجارة الفيدرالية طلبات رسمية للحصول على وثائق من الشركتين بشأن حوادث أمنية مرتبطة بذكائهما الاصطناعي. ويأتي التحقيق بعد تقارير عن قيام نماذج باختراق مواقع إلكترونية.",
+   "source": "Reuters",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N4610UE:0-us-ftc-subpoenas-openai-and-anthropic-over-consumer-harms-axios-reports/",
+   "date": "2026-10-15",
+   "image": "",
+   "explain": {
+    "context": "L'information vient du site Axios, qui cite une source proche du dossier. Elle s'inscrit dans des inquiétudes plus larges sur la sécurité de l'IA.",
+    "context_ar": "المعلومة مصدرها موقع أكسيوس الذي نقل عن مصدر مطلع. وتأتي في سياق مخاوف أوسع بشأن أمان الذكاء الاصطناعي.",
+    "terms": [
+     {
+      "t": "FTC",
+      "t_ar": "لجنة التجارة الفيدرالية",
+      "d": "Agence américaine qui protège les consommateurs et surveille la concurrence entre entreprises.",
+      "d_ar": "وكالة أمريكية تحمي المستهلكين وتراقب المنافسة بين الشركات."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "ia",
+   "title": "Bluesky : l'appli Attie permet de créer sites et jeux avec l'IA",
+   "title_ar": "بلوسكاي: تطبيق أتي يتيح إنشاء مواقع وألعاب بالذكاء الاصطناعي",
+   "summary": "Attie servait à créer des fils d'actualité ; il permet maintenant de faire des sites, quiz, jeux et sondages en décrivant son idée. Chacun peut utiliser son propre modèle d'IA ou un modèle ouvert.",
+   "summary_ar": "كان أتي يستعمل لإنشاء خلاصات أخبار، وأصبح الآن يتيح صنع مواقع واختبارات وألعاب واستطلاعات بمجرد وصف الفكرة. ويمكن لكل مستخدم اعتماد نموذجه الخاص أو نموذج مفتوح.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+   "date": "2026-10-15",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/55591989690_9a07db512f_k.jpg?resize=1200,800",
+   "explain": {
+    "context": "Bluesky compte environ 47 millions d'inscrits, mais l'activité a baissé quand certains sont revenus sur X. Les créations reposent sur le protocole ouvert AT.",
+    "context_ar": "يضم بلوسكاي نحو 47 مليون مسجل، لكن النشاط تراجع بعد عودة بعضهم إلى إكس. وتعتمد الإبداعات على بروتوكول AT المفتوح.",
+    "terms": [
+     {
+      "t": "modèle ouvert",
+      "t_ar": "نموذج مفتوح",
+      "d": "IA dont le contenu est publié et que chacun peut télécharger et utiliser.",
+      "d_ar": "ذكاء اصطناعي ينشر محتواه ويمكن لأي شخص تحميله واستعماله."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "eco",
+   "title": "TSMC : bénéfice record de 23,6 milliards d'euros grâce aux puces pour l'IA",
+   "title_ar": "TSMC: أرباح قياسية بقيمة 23,6 مليار يورو بفضل رقائق الذكاء الاصطناعي",
+   "summary": "Le fabricant taïwanais de puces a vu son bénéfice net bondir de 68,7 % au troisième trimestre. Son chiffre d'affaires a grimpé de 50,9 %, à environ 46,4 milliards d'euros.",
+   "summary_ar": "قفز صافي ربح الشركة التايوانية المصنعة للرقائق بنسبة 68,7 في المائة في الربع الثالث. وارتفع رقم معاملاتها بنسبة 50,9 في المائة إلى نحو 46,4 مليار يورو.",
+   "source": "Euronews",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/taiwan-chip-giant-tsmc-says-064316012.html",
+   "date": "2026-10-15",
+   "image": "https://s.yimg.com/lo/mysterio/api/9c4436a129d42f3eaee01d4d8f7faba489d6b1ca941264a764750cbb547f482c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Feuronews_us_articles_576%2F1a9ff433b747968aa038340372f683b1.jpg",
+   "explain": {
+    "context": "C'est le sixième trimestre de suite avec un bénéfice record. Le résultat dépasse ce qu'attendaient les analystes.",
+    "context_ar": "هذا سادس ربع على التوالي بأرباح قياسية. وجاءت النتيجة أعلى مما توقعه المحللون.",
+    "terms": [
+     {
+      "t": "bénéfice net",
+      "t_ar": "صافي الربح",
+      "d": "Argent qui reste à l'entreprise après avoir payé toutes ses dépenses et ses impôts.",
+      "d_ar": "المال الذي يبقى للشركة بعد دفع جميع مصاريفها وضرائبها."
+     },
+     {
+      "t": "chiffre d'affaires",
+      "t_ar": "رقم المعاملات",
+      "d": "Total de l'argent gagné par les ventes, avant de retirer les dépenses.",
+      "d_ar": "مجموع المال المحصل من المبيعات قبل خصم المصاريف."
+     },
+     {
+      "t": "trimestre",
+      "t_ar": "الربع",
+      "d": "Période de trois mois ; le troisième va de juillet à septembre.",
+      "d_ar": "فترة من ثلاثة أشهر؛ والربع الثالث يمتد من يوليوز إلى شتنبر."
+     }
+    ],
+    "figures": [
+     {
+      "n": "68,7 %",
+      "n_ar": "68,7 في المائة",
+      "d": "Hausse du bénéfice en un an : il a presque été multiplié par 1,7.",
+      "d_ar": "ارتفاع الربح خلال سنة، أي أنه تضاعف تقريباً 1,7 مرة."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "tech",
+   "title": "Apple prépare un lancement le 28 octobre à Los Angeles",
+   "title_ar": "آبل تحضر لحدث إطلاق يوم 28 أكتوبر في لوس أنجلوس",
+   "summary": "Apple invite des journalistes à une journée de présentation de produits. On attend des MacBook Pro tactiles avec écran OLED et un nouvel iPad mini.",
+   "summary_ar": "تدعو آبل صحافيين إلى يوم كامل لتقديم منتجات. ويرتقب الكشف عن حواسيب ماك بوك برو بشاشات لمس OLED وجهاز آيباد ميني جديد.",
+   "source": "MacRumors",
+   "url": "https://www.macrumors.com/2026/10/15/apple-inviting-media-to-october-28-experience/",
+   "date": "2026-10-15",
+   "image": "https://images.macrumors.com/t/4LUTPqDFu7S3jxDQyAsDnceRQoI=/2048x/article-new/2026/10/Black-Apple-Event-Logo.jpeg",
+   "explain": {
+    "context": "L'information vient du journaliste Mark Gurman (Bloomberg). Des versions M6 du MacBook Pro 14 pouces et de l'iMac sont aussi attendues.",
+    "context_ar": "المعلومة مصدرها الصحافي مارك غورمان من بلومبرغ. ويرتقب أيضاً إصدار نسخ M6 من ماك بوك برو 14 بوصة وآيماك.",
+    "terms": [
+     {
+      "t": "OLED",
+      "t_ar": "OLED",
+      "d": "Type d'écran où chaque point produit sa propre lumière : noirs plus profonds, couleurs plus vives.",
+      "d_ar": "نوع من الشاشات يضيء فيه كل بكسل بنفسه، فيعطي سواداً أعمق وألواناً أزهى."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "gaming",
+   "title": "GTA 6 : Rockstar dévoile la bande-annonce de lancement",
+   "title_ar": "GTA 6: روكستار تكشف إعلان الإطلاق",
+   "summary": "La vidéo de 90 secondes présente Jason et Lucia, pris dans un complot criminel à Vice City. Le jeu sort le 19 novembre sur PS5 et Xbox Series X/S.",
+   "summary_ar": "يقدم الفيديو الذي يدوم 90 ثانية جيسون ولوسيا العالقين في مؤامرة إجرامية بمدينة فايس سيتي. وتصدر اللعبة يوم 19 نونبر على PS5 وXbox Series X/S.",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/rockstar-has-revealed-the-official-launch-trailer-for-grand-theft-auto-6/",
+   "date": "2026-10-15",
+   "image": "https://www.videogameschronicle.com/files/2026/10/Screenshot-2026-10-15-140320.jpg",
+   "explain": {
+    "context": "C'est le premier grand jeu solo de Rockstar depuis Red Dead Redemption 2 en 2018. La musique est signée par le duo français Justice.",
+    "context_ar": "هذه أول لعبة فردية كبيرة لروكستار منذ Red Dead Redemption 2 سنة 2018. والموسيقى من توقيع الثنائي الفرنسي جاستيس.",
+    "terms": [
+     {
+      "t": "bande-annonce",
+      "t_ar": "الإعلان الترويجي",
+      "d": "Courte vidéo qui présente un jeu ou un film avant sa sortie.",
+      "d_ar": "فيديو قصير يقدم لعبة أو فيلماً قبل صدوره."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "gaming",
+   "title": "Xbox lance la Nano, une manette plus petite à 49,99 dollars",
+   "title_ar": "إكس بوكس تطلق نانو، يد تحكم أصغر بسعر 49,99 دولاراً",
+   "summary": "La manette Nano mesure environ 13 cm et pèse 100 grammes, avec une batterie rechargeable intégrée. Elle sort le 4 novembre et fonctionne aussi en Bluetooth avec PC, téléphones et télévisions.",
+   "summary_ar": "يبلغ طول يد التحكم نانو نحو 13 سنتيمتراً ووزنها 100 غرام، مع بطارية مدمجة قابلة للشحن. وتصدر يوم 4 نونبر وتعمل أيضاً بالبلوتوث مع الحواسيب والهواتف والتلفزيونات.",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/xbox-reveals-the-nano-controller-a-smaller-and-cheaper-alternative-with-a-rechargeable-battery/",
+   "date": "2026-10-15",
+   "image": "https://www.videogameschronicle.com/files/2026/10/xbox-nano-controller.jpg",
+   "explain": {
+    "context": "La manette Xbox classique est plus grande et fonctionne avec des piles AA ou une batterie vendue à part. La Nano garde tous les boutons.",
+    "context_ar": "يد تحكم إكس بوكس العادية أكبر حجماً وتعمل ببطاريات AA أو ببطارية تباع منفصلة. وتحتفظ نانو بكل الأزرار.",
+    "terms": [
+     {
+      "t": "Bluetooth",
+      "t_ar": "البلوتوث",
+      "d": "Connexion sans fil à courte distance entre deux appareils.",
+      "d_ar": "اتصال لاسلكي قصير المدى بين جهازين."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "geo",
+   "title": "Yémen : les attaques houthies contre l'Arabie saoudite s'intensifient",
+   "title_ar": "اليمن: تصاعد هجمات الحوثيين على السعودية",
+   "summary": "Des frappes houthies sur l'aéroport de Riyad auraient fait 14 morts et plus de 300 blessés, et l'aéroport reste fermé. À Taiz, le PAM dit que les stocks de farine sont presque épuisés.",
+   "summary_ar": "خلفت ضربات حوثية على مطار الرياض حسب التقارير 14 قتيلاً وأكثر من 300 جريح، ولا يزال المطار مغلقاً. وفي تعز يقول برنامج الأغذية العالمي إن مخزون الدقيق يكاد ينفد.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/15/fighting-in-yemen-intensifies-whats-the-latest-on-the-battlefield",
+   "date": "2026-10-15",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/epa_6ad09274b0a8-1792053876.jpg?resize=1649%2C1080&quality=80",
+   "explain": {
+    "context": "La trêve de 2022 entre la coalition menée par Riyad et les Houthis s'est effondrée ces derniers mois. Le tournoi Six Kings Slam a été repoussé à décembre.",
+    "context_ar": "انهارت هدنة 2022 بين التحالف بقيادة الرياض والحوثيين خلال الأشهر الأخيرة. وتم تأجيل دورة Six Kings Slam للتنس إلى دجنبر.",
+    "terms": [
+     {
+      "t": "PAM",
+      "t_ar": "برنامج الأغذية العالمي",
+      "d": "Programme alimentaire mondial : agence de l'ONU qui apporte de la nourriture aux populations en crise.",
+      "d_ar": "وكالة تابعة للأمم المتحدة تقدم الغذاء للسكان في الأزمات."
+     }
+    ],
+    "figures": [
+     {
+      "n": "14 morts",
+      "n_ar": "14 قتيلاً",
+      "d": "Bilan rapporté des frappes sur l'aéroport de Riyad le week-end dernier.",
+      "d_ar": "الحصيلة المعلنة للضربات على مطار الرياض نهاية الأسبوع الماضي."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "geo",
+   "title": "Élections en Israël : l'Afrique, du Maroc à l'Afrique du Sud, suit le scrutin",
+   "title_ar": "انتخابات إسرائيل: إفريقيا من المغرب إلى جنوب إفريقيا تتابع الاقتراع",
+   "summary": "Israël vote le 27 octobre pour élire les 120 députés de la Knesset. Le Maroc et Israël ont annoncé en septembre vouloir passer à des relations au niveau d'ambassades.",
+   "summary_ar": "تصوت إسرائيل يوم 27 أكتوبر لانتخاب 120 نائباً في الكنيست. وأعلن المغرب وإسرائيل في شتنبر رغبتهما في رفع العلاقات إلى مستوى السفارات.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/15/from-morocco-to-south-africa-israel-election-watched-closely-across-africa",
+   "date": "2026-10-15",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20260923__C94B9WE__v1__MidRes__IsraelPoliticsElection-1791516415.jpg?resize=1200%2C630",
+   "explain": {
+    "context": "L'Afrique du Sud poursuit Israël pour génocide devant la Cour internationale de justice. Israël a reconnu le Somaliland en décembre 2025.",
+    "context_ar": "تقاضي جنوب إفريقيا إسرائيل بتهمة الإبادة الجماعية أمام محكمة العدل الدولية. واعترفت إسرائيل بأرض الصومال في دجنبر 2025.",
+    "terms": [
+     {
+      "t": "Knesset",
+      "t_ar": "الكنيست",
+      "d": "Le Parlement d'Israël.",
+      "d_ar": "برلمان إسرائيل."
+     },
+     {
+      "t": "scrutin",
+      "t_ar": "الاقتراع",
+      "d": "Vote organisé pour choisir des élus.",
+      "d_ar": "تصويت ينظم لاختيار المنتخبين."
+     }
+    ],
+    "figures": [
+     {
+      "n": "120",
+      "n_ar": "120",
+      "d": "Sièges à la Knesset ; il en faut 61 pour avoir la majorité.",
+      "d_ar": "عدد مقاعد الكنيست، ويلزم 61 مقعداً للحصول على الأغلبية."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "cinema",
+   "title": "Zendaya tête d'affiche du prochain film de science-fiction d'Alex Garland",
+   "title_ar": "زندايا بطلة فيلم الخيال العلمي المقبل لأليكس غارلاند",
+   "summary": "Le réalisateur britannique Alex Garland prépare un film de science-fiction encore sans titre pour le studio A24, avec Zendaya en rôle principal. Le tournage est prévu en 2027.",
+   "summary_ar": "يحضر المخرج البريطاني أليكس غارلاند فيلم خيال علمي لم يحمل عنواناً بعد لصالح استوديو A24، مع زندايا في الدور الرئيسي. ومن المرتقب أن يبدأ التصوير سنة 2027.",
+   "source": "AlloCiné",
+   "url": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227594.html",
+   "date": "2026-10-15",
+   "image": "https://fr.web.img4.acsta.net/img/6a/2d/6a2dfe65a8d4e4773f4e0b7c997c9fb6.jpg",
+   "explain": {
+    "context": "L'histoire n'a pas encore été dévoilée. L'information vient du site américain TheWrap ; la sortie en salles est visée pour l'année suivant le tournage.",
+    "context_ar": "لم يكشف عن القصة بعد. والمعلومة مصدرها موقع ذا راب الأمريكي، ومن المنتظر عرض الفيلم في القاعات في السنة الموالية للتصوير.",
+    "terms": [
+     {
+      "t": "A24",
+      "t_ar": "A24",
+      "d": "Studio américain indépendant connu pour ses films d'auteur et d'horreur.",
+      "d_ar": "استوديو أمريكي مستقل معروف بأفلام المؤلف وأفلام الرعب."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "ux",
+   "date": "2026-10-15",
    "explain": {
     "context": "Figma veut réunir au même endroit maquettes, prototypes et consignes pour l'IA. La création de code reste gratuite sur les offres payantes jusqu'au 4 novembre 2026, puis elle utilisera des crédits IA.",
     "context_ar": "تسعى فيغما إلى جمع التصاميم والنماذج الأولية وتعليمات الذكاء الاصطناعي في مكان واحد. وإنشاء الكود مجاني في الاشتراكات المدفوعة حتى 4 نوفمبر 2026، ثم سيستهلك أرصدة الذكاء الاصطناعي.",
+    "figures": [],
     "terms": [
      {
-      "t": "bêta ouverte",
-      "t_ar": "نسخة تجريبية مفتوحة",
       "d": "Version d'essai d'un outil que tous les clients concernés peuvent utiliser, même si elle n'est pas encore finie.",
-      "d_ar": "نسخة للتجربة من أداة يمكن لكل العملاء المعنيين استعمالها رغم أنها لم تكتمل بعد."
+      "d_ar": "نسخة للتجربة من أداة يمكن لكل العملاء المعنيين استعمالها رغم أنها لم تكتمل بعد.",
+      "t": "bêta ouverte",
+      "t_ar": "نسخة تجريبية مفتوحة"
      },
      {
-      "t": "agents IA",
-      "t_ar": "وكلاء الذكاء الاصطناعي",
       "d": "Programmes d'IA qui réalisent eux-mêmes une suite d'actions pour accomplir une tâche.",
-      "d_ar": "برامج ذكاء اصطناعي تنفذ بنفسها سلسلة من الخطوات لإنجاز مهمة."
+      "d_ar": "برامج ذكاء اصطناعي تنفذ بنفسها سلسلة من الخطوات لإنجاز مهمة.",
+      "t": "agents IA",
+      "t_ar": "وكلاء الذكاء الاصطناعي"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://ux-news.com/content/images/size/w1200/2026/10/figma-oct15-cover.png",
+   "source": "UX News",
+   "summary": "Figma passe ses calques de code en bêta ouverte : on peut faire tourner une interface interactive directement sur le canevas, à partir d'un design ou d'un projet GitHub. L'outil ajoute aussi Specs, des documents partagés qui gardent les exigences à côté des écrans et peuvent être transmis aux agents IA.",
+   "summary_ar": "نقلت فيغما طبقات الكود إلى نسخة تجريبية مفتوحة، فصار بالإمكان تشغيل واجهة تفاعلية مباشرة على لوحة التصميم انطلاقاً من تصميم أو مشروع على GitHub. كما أضافت أداة Specs، وهي وثائق مشتركة تضع المتطلبات بجانب الشاشات ويمكن تمريرها إلى وكلاء الذكاء الاصطناعي.",
+   "title": "Figma : des prototypes en code sur le canevas, ouverts à tous en bêta",
+   "title_ar": "فيغما: نماذج أولية بالكود على لوحة التصميم، متاحة للجميع في نسخة تجريبية",
+   "url": "https://ux-news.com/figma-code-layers-specs-payload-update/"
   },
   {
    "cat": "ux",
-   "title": "Gemini ajoute un bouton pour passer du chat aux tâches",
-   "title_ar": "جيميني يضيف زراً للتنقل بين المحادثة والمهام",
-   "summary": "Google a placé sous le champ de saisie de Gemini un interrupteur entre « Chat » et « Tâche », réservé aux abonnés AI Pro et Ultra. En mode Tâche, l'assistant peut continuer à travailler quand l'utilisateur n'est plus devant son ordinateur.",
-   "summary_ar": "أضافت غوغل تحت خانة الكتابة في جيميني مفتاحاً للتبديل بين «المحادثة» و«المهمة»، وهو متاح لمشتركي AI Pro وUltra. وفي وضع المهمة يمكن للمساعد مواصلة العمل حتى عندما لا يكون المستخدم أمام حاسوبه.",
-   "source": "UX News",
-   "url": "https://ux-news.com/gemini-chat-task-switcher/",
    "date": "2026-10-14",
-   "image": "https://ux-news.com/content/images/size/w1200/2026/10/gemini-tasks-cover.png",
    "explain": {
     "context": "La nouveauté arrive avec le modèle Gemini 4 Argon, présenté le 13 octobre. Gemini se relie aussi à plus de 40 applications, comme Adobe, Shopify ou OpenTable.",
     "context_ar": "جاءت هذه الميزة مع نموذج Gemini 4 Argon الذي قُدّم في 13 أكتوبر. كما صار جيميني يرتبط بأكثر من 40 تطبيقاً، مثل Adobe وShopify وOpenTable.",
-    "terms": [
-     {
-      "t": "mode Tâche",
-      "t_ar": "وضع المهمة",
-      "d": "Mode où l'on confie un travail complet à l'IA, qui le fait seule par étapes au lieu de simplement répondre.",
-      "d_ar": "وضع تُسند فيه عملاً كاملاً إلى الذكاء الاصطناعي فينجزه وحده خطوة بخطوة بدل الاكتفاء بالرد."
-     }
-    ],
     "figures": [
      {
-      "n": "40+",
-      "n_ar": "أكثر من 40",
       "d": "applications reliées à Gemini (Adobe, Shopify, OpenTable…)",
-      "d_ar": "تطبيقاً مرتبطاً بجيميني (Adobe وShopify وOpenTable…)"
+      "d_ar": "تطبيقاً مرتبطاً بجيميني (Adobe وShopify وOpenTable…)",
+      "n": "40+",
+      "n_ar": "أكثر من 40"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Mode où l'on confie un travail complet à l'IA, qui le fait seule par étapes au lieu de simplement répondre.",
+      "d_ar": "وضع تُسند فيه عملاً كاملاً إلى الذكاء الاصطناعي فينجزه وحده خطوة بخطوة بدل الاكتفاء بالرد.",
+      "t": "mode Tâche",
+      "t_ar": "وضع المهمة"
      }
     ]
-   }
+   },
+   "image": "https://ux-news.com/content/images/size/w1200/2026/10/gemini-tasks-cover.png",
+   "source": "UX News",
+   "summary": "Google a placé sous le champ de saisie de Gemini un interrupteur entre « Chat » et « Tâche », réservé aux abonnés AI Pro et Ultra. En mode Tâche, l'assistant peut continuer à travailler quand l'utilisateur n'est plus devant son ordinateur.",
+   "summary_ar": "أضافت غوغل تحت خانة الكتابة في جيميني مفتاحاً للتبديل بين «المحادثة» و«المهمة»، وهو متاح لمشتركي AI Pro وUltra. وفي وضع المهمة يمكن للمساعد مواصلة العمل حتى عندما لا يكون المستخدم أمام حاسوبه.",
+   "title": "Gemini ajoute un bouton pour passer du chat aux tâches",
+   "title_ar": "جيميني يضيف زراً للتنقل بين المحادثة والمهام",
+   "url": "https://ux-news.com/gemini-chat-task-switcher/"
   },
   {
    "cat": "divers",
-   "sub": "enfant",
-   "title": "Le regard dans les yeux aide les bébés de 9 mois à apprendre des mots",
-   "title_ar": "النظر في العينين يساعد الرضع في شهرهم التاسع على تعلّم الكلمات",
-   "summary": "Une étude publiée dans Nature Communications a testé 47 bébés d'environ 9 mois au Royaume-Uni et à Singapour. Ils n'ont repéré de nouveaux mots que lorsque l'adulte qui parlait les regardait dans les yeux, et leur activité cérébrale, mesurée par EEG, suivait alors davantage celle de l'adulte.",
-   "summary_ar": "اختبرت دراسة نُشرت في مجلة Nature Communications سبعة وأربعين رضيعاً في شهرهم التاسع تقريباً في المملكة المتحدة وسنغافورة. ولم يتعرفوا على كلمات جديدة إلا عندما كان المتكلم ينظر في أعينهم، وكان نشاط أدمغتهم، المقيس بتخطيط الدماغ، يتبع حينها نشاط دماغ الشخص البالغ أكثر.",
-   "source": "PsyPost",
-   "url": "https://www.psypost.org/eye-contact-may-act-as-a-learning-switch-for-babies-brains/",
    "date": "2026-10-08",
-   "image": "https://www.psypost.org/wp-content/uploads/2026/10/woman-talking-to-infant.jpg",
    "explain": {
     "context": "Des chercheurs de l'université Nanyang (Singapour) et de Cambridge ont montré aux bébés une adulte qui parlait en les regardant, en détournant un peu les yeux, ou sans regard. Le lien avec le cerveau reste préliminaire.",
     "context_ar": "عرض باحثون من جامعة نانيانغ في سنغافورة وجامعة كامبريدج على الرضع امرأة تتكلم وهي تنظر إليهم، أو تُبعد نظرها قليلاً، أو دون نظر. وتبقى العلاقة بنشاط الدماغ أولية.",
-    "terms": [
-     {
-      "t": "EEG",
-      "t_ar": "تخطيط الدماغ",
-      "d": "Examen sans douleur qui enregistre l'activité électrique du cerveau grâce à un bonnet posé sur la tête.",
-      "d_ar": "فحص غير مؤلم يسجل النشاط الكهربائي للدماغ بواسطة قبعة توضع على الرأس."
-     }
-    ],
     "figures": [
      {
-      "n": "47",
-      "n_ar": "47",
       "d": "bébés testés : 29 au Royaume-Uni et 18 à Singapour",
-      "d_ar": "رضيعاً خضعوا للاختبار: 29 في المملكة المتحدة و18 في سنغافورة"
+      "d_ar": "رضيعاً خضعوا للاختبار: 29 في المملكة المتحدة و18 في سنغافورة",
+      "n": "47",
+      "n_ar": "47"
      },
      {
-      "n": "9 mois",
-      "n_ar": "9 أشهر",
       "d": "âge moyen des bébés (environ 286 jours)",
-      "d_ar": "متوسط عمر الرضع (نحو 286 يوماً)"
+      "d_ar": "متوسط عمر الرضع (نحو 286 يوماً)",
+      "n": "9 mois",
+      "n_ar": "9 أشهر"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Examen sans douleur qui enregistre l'activité électrique du cerveau grâce à un bonnet posé sur la tête.",
+      "d_ar": "فحص غير مؤلم يسجل النشاط الكهربائي للدماغ بواسطة قبعة توضع على الرأس.",
+      "t": "EEG",
+      "t_ar": "تخطيط الدماغ"
      }
     ]
-   }
+   },
+   "image": "https://www.psypost.org/wp-content/uploads/2026/10/woman-talking-to-infant.jpg",
+   "source": "PsyPost",
+   "sub": "enfant",
+   "summary": "Une étude publiée dans Nature Communications a testé 47 bébés d'environ 9 mois au Royaume-Uni et à Singapour. Ils n'ont repéré de nouveaux mots que lorsque l'adulte qui parlait les regardait dans les yeux, et leur activité cérébrale, mesurée par EEG, suivait alors davantage celle de l'adulte.",
+   "summary_ar": "اختبرت دراسة نُشرت في مجلة Nature Communications سبعة وأربعين رضيعاً في شهرهم التاسع تقريباً في المملكة المتحدة وسنغافورة. ولم يتعرفوا على كلمات جديدة إلا عندما كان المتكلم ينظر في أعينهم، وكان نشاط أدمغتهم، المقيس بتخطيط الدماغ، يتبع حينها نشاط دماغ الشخص البالغ أكثر.",
+   "title": "Le regard dans les yeux aide les bébés de 9 mois à apprendre des mots",
+   "title_ar": "النظر في العينين يساعد الرضع في شهرهم التاسع على تعلّم الكلمات",
+   "url": "https://www.psypost.org/eye-contact-may-act-as-a-learning-switch-for-babies-brains/"
   },
   {
    "cat": "divers",
-   "sub": "montessori",
-   "title": "Fondation Montessori : et si on fêtait les enfants plutôt qu'Halloween ?",
-   "title_ar": "مؤسسة مونتيسوري: ماذا لو احتفلنا بالأطفال بدل الهالوين؟",
-   "summary": "Dans un article de la Montessori Foundation, Tim Seldin propose aux écoles de remplacer ou de compléter Halloween par une « semaine internationale des enfants » fin octobre. Chaque jour aurait un thème : la personnalité de chaque enfant, les enfants du monde, le jeu, l'entraide entre enfants et la paix.",
-   "summary_ar": "في مقال لمؤسسة مونتيسوري، يقترح تيم سيلدن على المدارس تعويض الهالوين أو إكماله بـ«أسبوع دولي للأطفال» في أواخر أكتوبر. ولكل يوم موضوع: شخصية كل طفل، وأطفال العالم، واللعب، وتعاون الأطفال فيما بينهم، والسلام.",
-   "source": "Montessori Foundation",
-   "url": "https://www.montessori.org/beyond-halloween-what-if-we-celebrated-children-instead/",
    "date": "2026-10-16",
-   "image": "https://www.montessori.org/wp-content/uploads/2026/10/kids-in-coustume.webp",
    "explain": {
     "context": "L'auteur juge que les masques effrayants, les images de mort et l'excès de bonbons conviennent mal aux petits, qui distinguent encore mal le jeu et la réalité. Il garde les déguisements et l'imagination.",
     "context_ar": "يرى الكاتب أن الأقنعة المخيفة وصور الموت وكثرة الحلوى لا تناسب الصغار الذين لا يميزون جيداً بعدُ بين اللعب والواقع، لكنه يحافظ على التنكر والخيال.",
-    "terms": [],
-    "figures": []
-   }
+    "figures": [],
+    "terms": []
+   },
+   "image": "https://www.montessori.org/wp-content/uploads/2026/10/kids-in-coustume.webp",
+   "source": "Montessori Foundation",
+   "sub": "montessori",
+   "summary": "Dans un article de la Montessori Foundation, Tim Seldin propose aux écoles de remplacer ou de compléter Halloween par une « semaine internationale des enfants » fin octobre. Chaque jour aurait un thème : la personnalité de chaque enfant, les enfants du monde, le jeu, l'entraide entre enfants et la paix.",
+   "summary_ar": "في مقال لمؤسسة مونتيسوري، يقترح تيم سيلدن على المدارس تعويض الهالوين أو إكماله بـ«أسبوع دولي للأطفال» في أواخر أكتوبر. ولكل يوم موضوع: شخصية كل طفل، وأطفال العالم، واللعب، وتعاون الأطفال فيما بينهم، والسلام.",
+   "title": "Fondation Montessori : et si on fêtait les enfants plutôt qu'Halloween ?",
+   "title_ar": "مؤسسة مونتيسوري: ماذا لو احتفلنا بالأطفال بدل الهالوين؟",
+   "url": "https://www.montessori.org/beyond-halloween-what-if-we-celebrated-children-instead/"
   },
   {
    "cat": "ux",
@@ -4227,371 +4878,6 @@
    "title": "GTA 6 sur PC : une sortie avant fin mars 2027 selon une rumeur",
    "title_ar": "جي تي إيه 6 على الحاسوب: إصدار قبل نهاية مارس 2027 حسب شائعة",
    "url": "https://www.videogameschronicle.com/news/the-pc-version-of-grand-theft-auto-6-is-reportedly-coming-before-the-end-of-march-2027/"
-  },
-  {
-   "cat": "gaming",
-   "date": "2026-10-13",
-   "explain": {
-    "context": "Des joueurs partagent des mélanges de jeux et des portages inattendus, comme un Call of Duty dans un navigateur.",
-    "context_ar": "يتبادل لاعبون تركيبات ألعاب ونسخا غير متوقعة، مثل Call of Duty داخل المتصفح.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Modifications faites par des joueurs pour changer un jeu.",
-      "d_ar": "تعديلات ينجزها اللاعبون لتغيير لعبة ما.",
-      "t": "mods",
-      "t_ar": "التعديلات"
-     },
-     {
-      "d": "Adaptation d'un jeu pour qu'il tourne sur un autre appareil.",
-      "d_ar": "تكييف لعبة لتعمل على جهاز آخر.",
-      "t": "portages",
-      "t_ar": "النقل"
-     }
-    ]
-   },
-   "image": "",
-   "source": "VGC",
-   "summary": "Asha Sharma, patronne de Xbox, lance un petit groupe dirigé par le directeur technique Scott Van Vliet. Il veut étudier comment l'IA mêle jeux, matériel et création.",
-   "summary_ar": "أطلقت آشا شارما، رئيسة إكس بوكس، مجموعة صغيرة يقودها المدير التقني سكوت فان فليت. هدفها دراسة كيف يغير الذكاء الاصطناعي العلاقة بين الألعاب والعتاد والإبداع.",
-   "title": "Xbox crée « Xbox Labs » face aux mods et portages faits par l'IA",
-   "title_ar": "إكس بوكس تنشئ «Xbox Labs» أمام التعديلات والنقل بالذكاء الاصطناعي",
-   "url": "https://www.videogameschronicle.com/news/asha-sharma-forms-xbox-labs-in-response-to-explosion-of-ai-powered-mods-and-ports/"
-  },
-  {
-   "cat": "cinema",
-   "date": "2026-10-13",
-   "explain": {
-    "context": "L'univers d'Avatar continue de grandir après la série originale. Ce serait la quatrième série de la franchise.",
-    "context_ar": "يواصل عالم أفاتار التوسع بعد المسلسل الأصلي. وسيكون المسلسل الرابع في السلسلة.",
-    "figures": [
-     {
-      "d": "Total prévu pour la série après la commande de deux saisons de plus.",
-      "d_ar": "المجموع المتوقع للمسلسل بعد طلب موسمين إضافيين.",
-      "n": "4 saisons",
-      "n_ar": "4 مواسم"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Une histoire qui se passe avant celle d'une œuvre déjà connue.",
-      "d_ar": "قصة تقع أحداثها قبل عمل معروف.",
-      "t": "préquel",
-      "t_ar": "عمل تمهيدي"
-     }
-    ]
-   },
-   "image": "",
-   "source": "AlloCiné",
-   "summary": "Paramount+ commande au moins deux saisons de plus pour la nouvelle série Avatar, annoncée au New York Comic-Con. Les créateurs dévoilent aussi « Kuruk: Waves of Chaos », un préquel.",
-   "summary_ar": "طلبت Paramount+ موسمين إضافيين على الأقل من مسلسل أفاتار الجديد، وأُعلن ذلك في نيويورك كوميك كون. وكشف المبدعان أيضاً عن Kuruk: Waves of Chaos، وهو عمل تمهيدي.",
-   "title": "Avatar : « Les Sept refuges » renouvelée, un préquel sur Kuruk annoncé",
-   "title_ar": "Avatar: Seven Havens تُجدَّد ومسلسل تمهيدي عن كوروك",
-   "url": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000226997.html"
-  },
-  {
-   "cat": "ia",
-   "date": "2026-10-13",
-   "explain": {
-    "context": "Anthropic, qui crée l'IA Claude, étudie les risques de l'IA. Les modèles deviennent plus petits et plus puissants, et peuvent tourner sur des appareils de tous les jours.",
-    "context_ar": "تدرس شركة أنثروبيك، صانعة نموذج Claude، مخاطر الذكاء الاصطناعي. فالنماذج تصبح أصغر وأقوى، ويمكن تشغيلها على أجهزة الاستعمال اليومي.",
-    "figures": [
-     {
-      "d": "L'échéance donnée par les chercheurs : c'est dans quelques mois seulement, ce qui rend l'alerte pressante.",
-      "d_ar": "الموعد الذي حدده الباحثون، وهو بعد بضعة أشهر فقط، ما يجعل التحذير عاجلاً.",
-      "n": "fin 2026",
-      "n_ar": "نهاية 2026"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Quand un programme crée lui-même des copies de lui sur d'autres machines, un peu comme un virus informatique.",
-      "d_ar": "عندما يصنع برنامج نسخاً من نفسه على أجهزة أخرى دون تدخل بشري، مثل فيروس الحاسوب.",
-      "t": "Se copier seul (auto-réplication)",
-      "t_ar": "النسخ الذاتي"
-     },
-     {
-      "d": "Le « cerveau » d'une IA : un gros fichier entraîné sur beaucoup de données pour répondre ou agir.",
-      "d_ar": "«عقل» الذكاء الاصطناعي: ملف كبير مُدرَّب على كمية ضخمة من البيانات ليجيب أو ينفذ مهام.",
-      "t": "Modèle d'IA",
-      "t_ar": "نموذج الذكاء الاصطناعي"
-     },
-     {
-      "d": "Un ordinateur principal qui contrôle un service. Si on l'éteint, tout s'arrête ; sans lui, c'est plus dur à stopper.",
-      "d_ar": "حاسوب رئيسي يتحكم في خدمة ما. إطفاؤه يوقف كل شيء، وبدونه يصبح الإيقاف أصعب.",
-      "t": "Serveur central",
-      "t_ar": "الخادم المركزي"
-     }
-    ]
-   },
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-09T211004Z_976748305_RC29LNA6BXUH_RTRMADP_3_ANTHROPIC-PHILADELPHIA-1791854253_8f87dd-1791854986.jpg?resize=1200%2C630&quality=80",
-   "source": "Al Jazeera",
-   "summary": "Des chercheurs d'Anthropic estiment que de petits modèles d'IA pourraient se copier seuls sur des appareils de la maison d'ici la fin 2026. Un tel programme serait très difficile à arrêter, car il ne dépendrait d'aucun serveur central.",
-   "summary_ar": "يرى باحثون في Anthropic أن نماذج ذكاء اصطناعي صغيرة قد تتمكن من نسخ نفسها على أجهزة منزلية قبل نهاية 2026. وسيكون إيقاف برنامج كهذا صعبا جدا لأنه لا يعتمد على خادم مركزي.",
-   "title": "Anthropic : des IA pourraient bientôt se copier sur les téléviseurs et frigos connectés",
-   "title_ar": "Anthropic: الذكاء الاصطناعي قد ينسخ نفسه قريبا على الأجهزة المنزلية المتصلة",
-   "url": "https://www.aljazeera.com/economy/2026/10/13/ai-could-self-replicate-on-home-devices-within-months-anthropic-says"
-  },
-  {
-   "cat": "tech",
-   "date": "2026-10-13",
-   "explain": {
-    "context": "La Corée du Nord, frappée par des sanctions, envoie des informaticiens se faire embaucher à distance sous de fausses identités. Leur salaire sert à financer le régime.",
-    "context_ar": "تخضع كوريا الشمالية لعقوبات دولية، فترسل مبرمجين يعملون عن بُعد بهويات مزيفة لدى شركات أجنبية، وتذهب رواتبهم لتمويل النظام.",
-    "figures": [
-     {
-      "d": "Au moins 70 sociétés américaines ont embauché ces faux employés sans le savoir, dans la santé, le commerce ou l'industrie.",
-      "d_ar": "ما لا يقل عن 70 شركة أمريكية وظّفت هؤلاء دون أن تعلم، في مجالات الصحة والتجارة والصناعة.",
-      "n": "70 entreprises",
-      "n_ar": "70 شركة"
-     },
-     {
-      "d": "L'argent qu'ils auraient rapporté au régime, soit environ 30 millions de dirhams. C'est le total lié à cette affaire précise.",
-      "d_ar": "المبلغ الذي يُرجَّح أنهم جلبوه للنظام، أي نحو 30 مليون درهم، وهو مرتبط بهذه القضية وحدها.",
-      "n": "3 millions de dollars",
-      "n_ar": "3 ملايين دولار"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Un lieu aux États-Unis où des complices gardent les ordinateurs fournis par les entreprises. Le faux employé s'y connecte de loin et semble être aux USA.",
-      "d_ar": "مكان داخل أمريكا يحتفظ فيه متواطئون بحواسيب الشركات، فيتصل بها الموظف المزيف من الخارج ليبدو كأنه يعمل من أمريكا.",
-      "t": "Ferme d'ordinateurs",
-      "t_ar": "مزرعة حواسيب"
-     },
-     {
-      "d": "Des interdictions imposées à un pays (commerce, banques…) pour faire pression sur lui. Elles privent la Corée du Nord de devises.",
-      "d_ar": "قيود تفرضها دول على بلد ما (تجارة، بنوك…) للضغط عليه، وهي تحرم كوريا الشمالية من العملة الصعبة.",
-      "t": "Sanctions",
-      "t_ar": "العقوبات"
-     }
-    ]
-   },
-   "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2299247760.jpg?resize=1200,787",
-   "source": "TechCrunch",
-   "summary": "Le ministère américain de la Justice a fouillé plus de 40 « fermes d'ordinateurs » au Texas, saisi plus de 180 machines et arrêté au moins deux complices américains. Ces faux employés à distance travaillaient pour des sociétés de santé, de commerce ou d'industrie et auraient rapporté environ 3 millions de dollars au régime.",
-   "summary_ar": "فتشت وزارة العدل الأمريكية أكثر من 40 موقعا يضم حواسيب في تكساس، وحجزت أكثر من 180 جهازا واعتقلت متعاونين أمريكيين اثنين على الأقل. وكان هؤلاء الموظفون المزيفون يعملون عن بعد لشركات في الصحة والتجارة والصناعة، وجلبوا للنظام نحو 3 ملايين دولار.",
-   "title": "Des informaticiens nord-coréens ont infiltré au moins 70 entreprises américaines",
-   "title_ar": "مبرمجون من كوريا الشمالية تسللوا إلى 70 شركة أمريكية على الأقل",
-   "url": "https://techcrunch.com/2026/10/13/justice-department-says-north-koreans-have-infiltrated-dozens-of-u-s-companies/"
-  },
-  {
-   "cat": "tech",
-   "date": "2026-10-13",
-   "explain": {
-    "context": "La fusion nucléaire produit de l'énergie comme le Soleil, sans gaz à effet de serre. Beaucoup de jeunes entreprises la cherchent, mais aucune centrale ne produit encore d'électricité.",
-    "context_ar": "الاندماج النووي يولّد الطاقة كما تفعل الشمس دون غازات دفيئة. تسعى إليه شركات ناشئة كثيرة، لكن لا توجد بعد محطة تنتج منه الكهرباء.",
-    "figures": [
-     {
-      "d": "Environ 62 millions de dirhams. C'est une petite somme pour la fusion : certaines entreprises du secteur ont levé des centaines de millions.",
-      "d_ar": "نحو 62 مليون درهم، وهو مبلغ صغير في مجال الاندماج، إذ جمعت بعض شركات القطاع مئات الملايين.",
-      "n": "6,2 millions de dollars",
-      "n_ar": "6.2 مليون دولار"
-     }
-    ],
-    "terms": [
-     {
-      "d": "On colle de très petits atomes pour en faire un plus gros, ce qui libère beaucoup d'énergie. C'est le contraire des centrales actuelles, qui cassent des atomes.",
-      "d_ar": "دمج ذرات صغيرة جدًا لتكوين ذرة أكبر، مما يحرر طاقة هائلة. وهو عكس المحطات الحالية التي تعتمد على شطر الذرات.",
-      "t": "Fusion nucléaire",
-      "t_ar": "الاندماج النووي"
-     },
-     {
-      "d": "Une forme rare d'hydrogène, utilisée comme combustible pour la fusion. Il en existe très peu dans le monde, donc il est très cher.",
-      "d_ar": "شكل نادر من الهيدروجين يُستعمل وقودًا للاندماج. الكميات المتوفرة منه في العالم قليلة جدًا، لذلك هو باهظ الثمن.",
-      "t": "Tritium",
-      "t_ar": "التريتيوم"
-     },
-     {
-      "d": "Quand une jeune entreprise reçoit de l'argent d'investisseurs, qui deviennent en échange propriétaires d'une partie de la société.",
-      "d_ar": "حين تحصل شركة ناشئة على أموال من مستثمرين يصبحون مقابلها مالكين لجزء منها.",
-      "t": "Lever des fonds",
-      "t_ar": "جمع التمويل"
-     }
-    ]
-   },
-   "image": "https://techcrunch.com/wp-content/uploads/2026/02/nif-laser-preamplifiers.jpeg?resize=1200,800",
-   "source": "TechCrunch",
-   "summary": "Cette jeune entreprise née près du MIT utilise des lasers pour comprimer une petite cible de combustible et vient de lever 6,2 millions de dollars. Elle veut d'abord produire du tritium, rare et utile aux futures centrales, avant de bâtir sa propre centrale d'ici une dizaine d'années.",
-   "summary_ar": "تستعمل هذه الشركة الناشئة القريبة من معهد MIT أشعة الليزر لضغط هدف صغير من الوقود، وقد جمعت 6,2 مليون دولار. وتريد أولا إنتاج التريتيوم النادر الذي تحتاجه محطات المستقبل، قبل بناء محطتها الخاصة خلال نحو عشر سنوات.",
-   "title": "Cambridge Heavy Industries construit une machine à fusion nucléaire de la taille d'un bureau",
-   "title_ar": "Cambridge Heavy Industries تطور جهاز اندماج نووي بحجم طاولة",
-   "url": "https://techcrunch.com/2026/10/13/cambridge-heavy-industries-has-been-quietly-building-a-desktop-fusion-device/"
-  },
-  {
-   "cat": "tech",
-   "date": "2026-10-13",
-   "explain": {
-    "context": "Certaines maladies détruisent les cellules de l'œil qui captent la lumière. Des entreprises testent des puces implantées pour les remplacer en partie et rendre un peu de vue.",
-    "context_ar": "بعض الأمراض تُتلف خلايا العين التي تلتقط الضوء. وتجرّب شركات زرع رقائق إلكترونية تعوّضها جزئيًا لاستعادة جزء من البصر.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Une maladie héréditaire qui abîme le centre de la rétine, souvent dès la jeunesse. On perd la vision au centre, celle qui sert à lire.",
-      "d_ar": "مرض وراثي يصيب وسط الشبكية غالبًا منذ الصغر، فيفقد المريض الرؤية المركزية التي نحتاجها للقراءة.",
-      "t": "Maladie de Stargardt",
-      "t_ar": "مرض ستارغارت"
-     },
-     {
-      "d": "Une minuscule puce placée sous la rétine. Des lunettes avec caméra lui envoient l'image, et elle la transforme en signaux pour le cerveau.",
-      "d_ar": "رقاقة صغيرة جدًا تُزرع تحت الشبكية، تستقبل الصورة من نظارة مزودة بكاميرا وتحوّلها إلى إشارات يفهمها الدماغ.",
-      "t": "Puce PRIMA",
-      "t_ar": "رقاقة PRIMA"
-     }
-    ]
-   },
-   "image": "https://techcrunch.com/wp-content/uploads/2026/10/55588371385_eb2e316d52_o.jpg?resize=1200,800",
-   "source": "TechCrunch",
-   "summary": "Science Corporation a implanté sa puce PRIMA chez une première patiente atteinte de cette maladie qui détruit la vision centrale. Après deux séances, elle est passée de la lecture d'une lettre à celle d'un mot.",
-   "summary_ar": "زرعت شركة ساينس كوربوريشن شريحتها بريما لدى أول مريضة مصابة بهذا المرض الذي يتلف الرؤية المركزية. وبعد حصتين فقط، انتقلت من قراءة حرف إلى قراءة كلمة كاملة.",
-   "title": "Une puce dans l'œil aide une patiente atteinte de Stargardt à relire des mots",
-   "title_ar": "شريحة في العين تساعد مريضة بداء ستارغارت على قراءة الكلمات من جديد",
-   "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/"
-  },
-  {
-   "cat": "tech",
-   "date": "2026-10-13",
-   "explain": {
-    "context": "Sur Facebook, ce qu'on voit est choisi par un programme de Meta selon nos clics et notre temps passé. Beaucoup d'utilisateurs se plaignent de ne pas contrôler ce fil.",
-    "context_ar": "في فيسبوك، يختار برنامج تابع لميتا ما نراه حسب نقراتنا والوقت الذي نقضيه. ويشتكي كثير من المستخدمين من عدم التحكم في ما يُعرض عليهم.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Un programme qui décide automatiquement quelles publications vous montrer, et dans quel ordre, selon vos habitudes.",
-      "d_ar": "برنامج يقرر تلقائيًا أي منشورات تُعرض عليك وبأي ترتيب، بناءً على عاداتك.",
-      "t": "Algorithme",
-      "t_ar": "الخوارزمية"
-     },
-     {
-      "d": "La liste de publications qui défile quand on ouvre l'application.",
-      "d_ar": "قائمة المنشورات التي تمرّ أمامك عند فتح التطبيق.",
-      "t": "Fil d'actualité",
-      "t_ar": "الصفحة الرئيسية (الخلاصة)"
-     }
-    ]
-   },
-   "image": "https://techcrunch.com/wp-content/uploads/2026/10/YourAlgorithm-FB.png?w=1200",
-   "source": "TechCrunch",
-   "summary": "Meta lance sur Facebook « Your Algorithm », déjà présent sur Instagram. On peut décrire avec ses propres mots les contenus souhaités, et le fil change aussitôt.",
-   "summary_ar": "أطلقت ميتا على فيسبوك خاصية «خوارزميتك» المتوفرة سابقا على إنستغرام. ويمكن للمستخدم أن يصف بكلماته المحتوى الذي يريده، فيتغير ما يظهر له فورا.",
-   "title": "Facebook laisse les utilisateurs choisir ce que leur fil affiche",
-   "title_ar": "فيسبوك يتيح للمستخدمين التحكم في ما يظهر في صفحتهم",
-   "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/"
-  },
-  {
-   "cat": "cinema",
-   "date": "2026-10-13",
-   "explain": {
-    "context": "J.K. Rowling est l'autrice de Harry Potter, l'une des séries de livres les plus vendues au monde. Ses opinions sur les personnes transgenres font débat depuis plusieurs années.",
-    "context_ar": "ج. ك. رولينغ مؤلفة سلسلة هاري بوتر، من أكثر الكتب مبيعًا في العالم. وتثير آراؤها حول المتحولين جنسيًا جدلًا منذ سنوات.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "La plateforme en ligne de la BBC pour regarder ses programmes en streaming, au Royaume-Uni.",
-      "d_ar": "منصة بي بي سي على الإنترنت لمشاهدة برامجها بالبث المباشر أو حسب الطلب داخل بريطانيا.",
-      "t": "iPlayer",
-      "t_ar": "آي بلاير"
-     }
-    ]
-   },
-   "image": "https://fr.web.img3.acsta.net/img/21/fa/21fa7b73f3a546eae086093c695bb5fe.jpg",
-   "source": "Allociné",
-   "summary": "Une série documentaire en deux parties sur l'autrice de Harry Potter est prévue en 2027 sur BBC Two, BBC Scotland et iPlayer. Elle racontera ses débuts d'écrivaine à Édimbourg puis ses prises de position publiques, sans participation directe de J.K. Rowling.",
-   "summary_ar": "من المنتظر بث سلسلة وثائقية من جزأين عن مؤلفة \"هاري بوتر\" سنة 2027 على قنوات بي بي سي الثانية وبي بي سي اسكتلندا ومنصة آي بلاير. وستروي بداياتها في الكتابة بإدنبرة ثم مواقفها العامة، دون مشاركة مباشرة منها.",
-   "title": "La BBC prépare une série documentaire sur J.K. Rowling",
-   "title_ar": "بي بي سي تُعدّ سلسلة وثائقية عن ج. ك. رولينغ",
-   "url": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227172.html"
-  },
-  {
-   "cat": "cinema",
-   "date": "2026-10-13",
-   "explain": {
-    "context": "Narnia est une saga de sept romans de C.S. Lewis. « Le Neveu du magicien » raconte la naissance de ce monde. Greta Gerwig est la réalisatrice de « Barbie ».",
-    "context_ar": "نارنيا سلسلة من سبع روايات للكاتب سي. إس. لويس، وتحكي «ابن أخ الساحر» قصة نشأة هذا العالم. وغريتا غيرويغ هي مخرجة فيلم «باربي».",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Le grand lion qui parle, créateur et protecteur du monde de Narnia. C'est le personnage central de la saga.",
-      "d_ar": "الأسد الكبير المتكلم، خالق عالم نارنيا وحاميه، وهو الشخصية المحورية في السلسلة.",
-      "t": "Aslan",
-      "t_ar": "أصلان"
-     }
-    ]
-   },
-   "image": "https://www.thewrap.com/wp-content/uploads/2026/10/Narnia_-The-Magicians-Nephew.jpg",
-   "source": "TheWrap",
-   "summary": "Netflix dévoile la bande-annonce du « Neveu du magicien », avec Daniel Craig, Carey Mulligan et la voix de Meryl Streep pour Aslan. Le film sortira en salles le 12 février 2027, puis sur Netflix en avril.",
-   "summary_ar": "كشفت نتفليكس عن إعلان فيلم «ابن أخ الساحر» من بطولة دانيال كريغ وكاري موليغان، مع صوت ميريل ستريب لأصلان. ويُعرض الفيلم في القاعات يوم 12 فبراير 2027 ثم على نتفليكس في أبريل.",
-   "title": "Narnia de Greta Gerwig : première bande-annonce",
-   "title_ar": "نارنيا لغريتا غيرويغ: أول إعلان رسمي",
-   "url": "https://www.thewrap.com/creative-content/movies/narnia-the-magicians-nephew-trailer-netflix/",
-   "video": {
-    "channel": "Netflix",
-    "id": "gDJ-ini7fF0",
-    "kind": "trailer",
-    "url": "https://www.youtube.com/watch?v=gDJ-ini7fF0"
-   }
-  },
-  {
-   "cat": "cinema",
-   "date": "2026-10-13",
-   "explain": {
-    "context": "Resident Evil est une série de jeux vidéo d'horreur de Capcom, adaptée au cinéma depuis 2002. Zach Cregger est connu pour les films d'horreur « Barbarian » et « Évanouis ».",
-    "context_ar": "ريزدنت إيفل سلسلة ألعاب رعب من كابكوم، تُقتبس في السينما منذ 2002. ويُعرف زاك كريغر بأفلام الرعب «باربيريان» و«ويبنز».",
-    "figures": [
-     {
-      "d": "Environ 3,2 milliards de dirhams de billets vendus. C'est désormais le record de la saga, devant le film de 2016.",
-      "d_ar": "نحو 3.2 مليار درهم من التذاكر المبيعة، وهو الآن رقم قياسي في السلسلة متجاوزًا فيلم 2016.",
-      "n": "320 millions de dollars",
-      "n_ar": "320 مليون دولار"
-     }
-    ],
-    "terms": [
-     {
-      "d": "L'argent total payé par les spectateurs pour voir le film en salle, dans tous les pays.",
-      "d_ar": "مجموع ما دفعه المشاهدون لمشاهدة الفيلم في القاعات بكل البلدان.",
-      "t": "Recettes (box-office)",
-      "t_ar": "الإيرادات (شباك التذاكر)"
-     }
-    ]
-   },
-   "image": "https://www.gamespot.com/wp-content/uploads/2026/10/Resident.png",
-   "source": "GameSpot",
-   "summary": "Le film de Zach Cregger dépasse 320 millions de dollars de recettes dans le monde. Il bat le record de « The Final Chapter » sorti en 2016.",
-   "summary_ar": "تجاوزت إيرادات فيلم زاك كريغر 320 مليون دولار حول العالم. وبذلك يحطم رقم فيلم «الفصل الأخير» الصادر عام 2016.",
-   "title": "Le nouveau Resident Evil devient le plus gros succès de la saga",
-   "title_ar": "فيلم Resident Evil الجديد يصبح الأنجح في تاريخ السلسلة",
-   "url": "https://www.gamespot.com/articles/here-are-the-highest-grossing-resident-evil-movies-ever-and-the-new-one-isnt-no-1/"
-  },
-  {
-   "cat": "cinema",
-   "date": "2026-10-13",
-   "explain": {
-    "context": "Le Festival international du film de Marrakech, créé en 2001, est le plus grand festival de cinéma du Maroc. Sa compétition est réservée aux premiers et deuxièmes films.",
-    "context_ar": "المهرجان الدولي للفيلم بمراكش، الذي أُسس سنة 2001، هو أكبر مهرجان سينمائي في المغرب، ومسابقته مخصصة للأفلام الأولى والثانية لمخرجيها.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Le grand prix du Festival de Marrakech, donné au meilleur film de la compétition.",
-      "d_ar": "الجائزة الكبرى لمهرجان مراكش، تُمنح لأفضل فيلم في المسابقة.",
-      "t": "Étoile d'or",
-      "t_ar": "النجمة الذهبية"
-     },
-     {
-      "d": "Qui a gagné un Oscar. Marion Cotillard l'a reçu en 2008 pour son rôle d'Édith Piaf dans « La Môme ».",
-      "d_ar": "فازت بجائزة الأوسكار، وقد نالتها ماريون كوتيار سنة 2008 عن دور إديث بياف في فيلم «لا موم».",
-      "t": "Oscarisée",
-      "t_ar": "حائزة على الأوسكار"
-     }
-    ]
-   },
-   "image": "https://www.moroccoworldnews.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-13-at-11.25.37-AM-1.jpeg",
-   "source": "Morocco World News",
-   "summary": "L'actrice oscarisée choisira l'Étoile d'or parmi des premiers et deuxièmes films. Le festival aura lieu du 20 au 28 novembre 2026.",
-   "summary_ar": "ستختار الممثلة الحائزة على الأوسكار الفائز بالنجمة الذهبية من بين الأفلام الأولى والثانية لمخرجيها. وتنعقد الدورة من 20 إلى 28 نوفمبر 2026.",
-   "title": "Marion Cotillard présidera le jury du 23e Festival du film de Marrakech",
-   "title_ar": "ماريون كوتيار ترأس لجنة تحكيم الدورة 23 لمهرجان مراكش الدولي للفيلم",
-   "url": "https://www.moroccoworldnews.com/2026/10/341839/marion-cotillard-to-preside-over-jury-at-2026-marrakech-film-festival/"
   },
   {
    "cat": "ux",
@@ -9058,6 +9344,6 @@
    "العالم: ماسك يحيل قيود ستارلينك إلى الجيش الأمريكي. إيبولا: حالة ثانية في كينيا.",
    "الاقتصاد: صادرات الصين +36% بدفع الذكاء الاصطناعي. والتضخم الأمريكي 3.7%."
   ],
-  "updatedAt": "2026-10-16T06:50:00Z"
+  "updatedAt": "2026-10-16T09:02:23Z"
  }
 }
