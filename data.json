@@ -1297,6 +1297,1076 @@
  ],
  "news": [
   {
+   "cat": "sport",
+   "sport": "football",
+   "title": "CAN de futsal : Maroc–Libye ce soir à Rabat, les Lions déjà premiers",
+   "title_ar": "كأس إفريقيا للفوتسال: المغرب يواجه ليبيا الليلة بالرباط وهو متصدر مسبقا",
+   "summary": "Le Maroc affronte la Libye ce vendredi à 20h à la salle Moulay Abdellah de Rabat, pour le dernier match du groupe A. Déjà qualifiés et sûrs de finir premiers, les Lions ont 6 points, 11 buts marqués et aucun encaissé, alors que la Libye doit gagner pour espérer passer.",
+   "summary_ar": "يواجه المنتخب المغربي نظيره الليبي مساء الجمعة على الساعة الثامنة بقاعة مولاي عبد الله بالرباط، في آخر مباريات المجموعة الأولى. الأسود ضمنوا التأهل والصدارة برصيد 6 نقاط و11 هدفا دون أن تهتز شباكهم، بينما تحتاج ليبيا إلى الفوز للحفاظ على حظوظها.",
+   "source": "Afrik-Foot",
+   "url": "https://www.afrik-foot.com/maroc-libye-chaine-et-heure-du-match-can-futsal-2026",
+   "date": "2026-10-16",
+   "image": "https://www.afrik-foot.com/thumbor/JMZqc1k18IBU_T-v8KviFeXI-y8=/1024x683/smart/filters:format(webp)/https%3A%2F%2Fmedia.afrik-foot.com%2Fmain%2F2026%2F10%2FICONSPORT_243756_0148.jpg",
+   "explain": {
+    "context": "Le Maroc organise la CAN de futsal du 12 au 21 octobre et vise un quatrième titre de suite. Il a battu l'Algérie puis la Zambie 7-0.",
+    "context_ar": "يحتضن المغرب كأس إفريقيا للفوتسال من 12 إلى 21 أكتوبر ويسعى إلى لقب رابع متتال. فاز على الجزائر ثم على زامبيا بسباعية نظيفة.",
+    "terms": [
+     {
+      "t": "futsal",
+      "t_ar": "الفوتسال",
+      "d": "Football en salle, à cinq contre cinq, sur un petit terrain dur.",
+      "d_ar": "كرة قدم داخل القاعة بخمسة لاعبين في كل فريق على أرضية صغيرة وصلبة."
+     }
+    ],
+    "figures": [
+     {
+      "n": "11 buts",
+      "n_ar": "11 هدفا",
+      "d": "Buts marqués par le Maroc en deux matchs, sans en prendre un seul.",
+      "d_ar": "عدد الأهداف التي سجلها المغرب في مباراتين دون أن يستقبل أي هدف."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "mma",
+   "title": "UFC Edmonton : Joaquin Buckley veut se relancer face à Mike Malott",
+   "title_ar": "UFC إدمونتون: خواكين باكلي يسعى للعودة أمام مايك مالوت",
+   "summary": "L'Américain Joaquin Buckley affronte le Canadien Mike Malott samedi 17 octobre à Edmonton, en tête d'affiche d'une soirée UFC. Après deux défaites de suite chez les mi-moyens, il s'entraîne désormais à Dallas et veut défendre son classement.",
+   "summary_ar": "يواجه الأمريكي خواكين باكلي الكندي مايك مالوت السبت 17 أكتوبر في إدمونتون، في النزال الرئيسي لأمسية UFC. بعد هزيمتين متتاليتين في وزن الويلتر، أصبح يتدرب في دالاس ويريد الحفاظ على ترتيبه.",
+   "source": "UFC.com",
+   "url": "https://www.ufc.com/news/joaquin-buckley-a-new-chapter-for-new-mansa-ufc-edmonton",
+   "date": "2026-10-16",
+   "image": "https://ufc.com/images/styles/card/s3/2026-10/101326-joaquin-buckley-introduction_GettyImages-2275378180.jpg?itok=MmXpkeuE",
+   "explain": {
+    "context": "Buckley est descendu de catégorie et compte 6 victoires pour 2 défaites chez les mi-moyens. Malott combattra devant son public canadien.",
+    "context_ar": "نزل باكلي إلى وزن أقل، وله في وزن الويلتر 6 انتصارات مقابل هزيمتين. وسيقاتل مالوت أمام جمهوره الكندي.",
+    "terms": [
+     {
+      "t": "mi-moyens",
+      "t_ar": "وزن الويلتر",
+      "d": "Catégorie de poids jusqu'à environ 77 kg.",
+      "d_ar": "فئة وزن تصل إلى حوالي 77 كيلوغراما."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "eco",
+   "title": "Zimbabwe : la monnaie ZiG peine à remplacer le dollar",
+   "title_ar": "زيمبابوي: عملة الزيغ تجد صعوبة في تعويض الدولار",
+   "summary": "Le Zimbabwe veut que ses habitants utilisent davantage le ZiG, sa monnaie adossée à l'or lancée en avril 2024, à la place du dollar américain. Malgré une inflation officielle de 3,7 %, beaucoup s'en méfient : en 2018, le salaire d'un enseignant était passé de 540 à 40 dollars en quelques mois.",
+   "summary_ar": "تريد زيمبابوي أن يستعمل سكانها أكثر عملة الزيغ المدعومة بالذهب، التي أطلقت في أبريل 2024، بدل الدولار الأمريكي. ورغم تضخم رسمي في حدود 3,7 في المائة، يظل كثيرون حذرين: ففي 2018 هبط راتب معلم من 540 إلى 40 دولارا في بضعة أشهر.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/10/16/can-zimbabwes-zig-win-trust-and-replace-the-us-dollar",
+   "date": "2026-10-16",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/IMG-20261006-WA0038-1791554102.jpg?resize=1200%2C675",
+   "explain": {
+    "context": "En 2009, après une flambée des prix géante, le Zimbabwe a abandonné sa monnaie pour le dollar. La banque centrale a renoncé à un retour à une seule monnaie d'ici 2030 et préfère avancer pas à pas.",
+    "context_ar": "في 2009، وبعد ارتفاع هائل في الأسعار، تخلت زيمبابوي عن عملتها لصالح الدولار. وتخلى البنك المركزي عن هدف العودة إلى عملة واحدة بحلول 2030 وفضل التقدم خطوة بخطوة.",
+    "terms": [
+     {
+      "t": "adossée à l'or",
+      "t_ar": "مدعومة بالذهب",
+      "d": "Une monnaie garantie par un stock d'or et de devises gardé par la banque centrale, censé rassurer sur sa valeur.",
+      "d_ar": "عملة مضمونة بمخزون من الذهب والعملات الصعبة يحتفظ به البنك المركزي، لطمأنة الناس على قيمتها."
+     },
+     {
+      "t": "inflation",
+      "t_ar": "التضخم",
+      "d": "La hausse générale des prix sur un an. Avec 3,7 %, ce qui coûtait 100 coûte 103,70 un an plus tard.",
+      "d_ar": "الارتفاع العام للأسعار خلال سنة. بنسبة 3,7 في المائة، ما كان ثمنه 100 يصبح 103,70 بعد سنة."
+     }
+    ],
+    "figures": [
+     {
+      "n": "3,7 %",
+      "n_ar": "3,7 في المائة",
+      "d": "Hausse des prix en ZiG sur un an selon la banque centrale. Un chiffre faible, mais la population garde le souvenir des crises passées.",
+      "d_ar": "ارتفاع الأسعار بالزيغ خلال سنة حسب البنك المركزي. رقم منخفض، لكن السكان يتذكرون الأزمات السابقة."
+     },
+     {
+      "n": "540 à 40 dollars",
+      "n_ar": "من 540 إلى 40 دولارا",
+      "d": "Chute du salaire d'un enseignant en 2018, quand la monnaie locale s'est effondrée : il a perdu plus de 90 % de sa valeur.",
+      "d_ar": "انهيار راتب معلم في 2018 بعد سقوط العملة المحلية: فقد أكثر من 90 في المائة من قيمته."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "geo",
+   "title": "Cisjordanie : la Chine demande à Israël d'arrêter les colonies",
+   "title_ar": "الضفة الغربية: الصين تطالب إسرائيل بوقف الاستيطان",
+   "summary": "Le ministre chinois des Affaires étrangères, Wang Yi, a demandé au président israélien Isaac Herzog d'arrêter et d'annuler l'implantation forcée de colonies en Cisjordanie, lors d'une rencontre à Bakou. Pékin défend la solution à deux États et réclame un accès complet de l'aide à Gaza.",
+   "summary_ar": "طالب وزير الخارجية الصيني وانغ يي الرئيس الإسرائيلي إسحاق هرتسوغ بوقف وإلغاء إقامة المستوطنات بالقوة في الضفة الغربية، خلال لقاء في باكو. وتدافع بكين عن حل الدولتين وتطالب بفتح كامل للمساعدات نحو غزة.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/16/china-tells-israel-to-stop-forced-establishment-of-west-bank-settlements",
+   "date": "2026-10-16",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/getty_6aaa7e7bce-1789558395.jpg?resize=1920%2C1440",
+   "explain": {
+    "context": "La Chine renforce son rôle au Moyen-Orient : proche de l'Iran, dont elle achetait jusqu'à 90 % du pétrole, elle a aussi resserré ses liens avec l'Arabie saoudite, le Qatar et les Émirats.",
+    "context_ar": "تعزز الصين دورها في الشرق الأوسط: فهي قريبة من إيران التي كانت تشتري منها حتى 90 في المائة من نفطها، كما وطدت علاقاتها مع السعودية وقطر والإمارات.",
+    "terms": [
+     {
+      "t": "colonies",
+      "t_ar": "المستوطنات",
+      "d": "Quartiers et villages construits par Israël sur des terres palestiniennes occupées. Ils sont illégaux selon le droit international.",
+      "d_ar": "أحياء وقرى تبنيها إسرائيل على أراض فلسطينية محتلة، وهي غير قانونية حسب القانون الدولي."
+     },
+     {
+      "t": "solution à deux États",
+      "t_ar": "حل الدولتين",
+      "d": "Projet de paix où un État palestinien existerait à côté d'Israël.",
+      "d_ar": "مشروع سلام يقوم على وجود دولة فلسطينية إلى جانب إسرائيل."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "cinema",
+   "title": "« Tenzing » : la première conquête de l'Everest sur Apple TV+",
+   "title_ar": "«تينزينغ»: أول غزو لقمة إيفرست على Apple TV+",
+   "summary": "Le film « Tenzing : À la conquête de l'Everest » est disponible depuis le 16 octobre sur Apple TV+. Il raconte l'expédition de 1953 qui a atteint le sommet pour la première fois, avec Tom Hiddleston et Willem Dafoe.",
+   "summary_ar": "أصبح فيلم «تينزينغ: غزو إيفرست» متاحا منذ 16 أكتوبر على Apple TV+. يحكي عن بعثة 1953 التي بلغت القمة لأول مرة، بمشاركة توم هيدلستون وويليم دافو.",
+   "source": "AlloCiné",
+   "url": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227635.html",
+   "date": "2026-10-16",
+   "image": "https://fr.web.img2.acsta.net/img/b0/e1/b0e10db06677ffb71f18f2408f6767c9.jpg",
+   "explain": {
+    "context": "Le film, réalisé par Jennifer Peedom, met en avant Tenzing Norgay, le sherpa qui a atteint le sommet avec Edmund Hillary, un héros souvent oublié par l'histoire.",
+    "context_ar": "يسلّط الفيلم، من إخراج جينيفر بيدوم، الضوء على تينزينغ نورغاي، الشيربا الذي بلغ القمة مع إدموند هيلاري، وهو بطل كثيرا ما نسيه التاريخ.",
+    "terms": [
+     {
+      "t": "sherpa",
+      "t_ar": "الشيربا",
+      "d": "Peuple de montagne du Népal, connu pour guider les alpinistes dans l'Himalaya.",
+      "d_ar": "شعب جبلي من النيبال معروف بإرشاد المتسلقين في جبال الهيمالايا."
+     }
+    ],
+    "figures": [
+     {
+      "n": "1953",
+      "n_ar": "1953",
+      "d": "Année de la première montée réussie au sommet de l'Everest, après huit échecs.",
+      "d_ar": "سنة أول صعود ناجح إلى قمة إيفرست بعد ثماني محاولات فاشلة."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "cinema",
+   "title": "« Minotaure », Grand Prix à Cannes, séduit les spectateurs",
+   "title_ar": "«مينوتور» الفائز بالجائزة الكبرى في كان يُقنع المشاهدين",
+   "summary": "Sorti le 14 octobre, « Minotaure » du réalisateur russe Andreï Zviaguintsev obtient 4 sur 5 auprès des spectateurs d'AlloCiné. Le film a gagné le Grand Prix au Festival de Cannes et représentera la France aux Oscars.",
+   "summary_ar": "حصل فيلم «مينوتور» للمخرج الروسي أندريه زفياغينتسيف، الذي صدر يوم 14 أكتوبر، على تقييم 4 من 5 لدى مشاهدي AlloCiné. فاز الفيلم بالجائزة الكبرى في مهرجان كان وسيمثّل فرنسا في الأوسكار.",
+   "source": "AlloCiné",
+   "url": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227404.html",
+   "date": "2026-10-16",
+   "image": "https://fr.web.img6.acsta.net/img/f6/79/f67961dfa12d291c157d4419f8862632.jpg",
+   "explain": {
+    "context": "Le Grand Prix est la deuxième récompense la plus importante du Festival de Cannes, après la Palme d'or. Le film dure 2 h 20.",
+    "context_ar": "الجائزة الكبرى هي ثاني أهم جائزة في مهرجان كان بعد السعفة الذهبية. مدة الفيلم ساعتان و20 دقيقة.",
+    "terms": [
+     {
+      "t": "Grand Prix",
+      "t_ar": "الجائزة الكبرى",
+      "d": "Deuxième prix du Festival de Cannes, juste après la Palme d'or.",
+      "d_ar": "ثاني جائزة في مهرجان كان، بعد السعفة الذهبية مباشرة."
+     }
+    ],
+    "figures": [
+     {
+      "n": "4 sur 5",
+      "n_ar": "4 من 5",
+      "d": "Note moyenne donnée par 166 spectateurs sur AlloCiné.",
+      "d_ar": "متوسط التقييم الذي منحه 166 مشاهدا على AlloCiné."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "cinema",
+   "title": "« Les Misérables » de Fred Cavayé avec Vincent Lindon est en salles",
+   "title_ar": "«البؤساء» لفريد كافاييه مع فانسان ليندون في القاعات",
+   "summary": "La nouvelle adaptation du roman de Victor Hugo, avec Vincent Lindon en Jean Valjean et Tahar Rahim en Javert, est sortie le 14 octobre. Les spectateurs d'AlloCiné lui donnent 4 sur 5, saluant les acteurs et les décors, même si certains le trouvent long.",
+   "summary_ar": "صدر يوم 14 أكتوبر الاقتباس الجديد لرواية فيكتور هوغو، مع فانسان ليندون في دور جان فالجان وطاهر رحيم في دور جافير. يمنحه مشاهدو AlloCiné تقييم 4 من 5 مشيدين بالممثلين والديكور، رغم أن بعضهم وجده طويلا.",
+   "source": "AlloCiné",
+   "url": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227395.html",
+   "date": "2026-10-16",
+   "image": "https://fr.web.img2.acsta.net/img/59/fd/59fd517cc7b8d88dbbf58c1ca1a637f4.jpg",
+   "explain": {
+    "context": "Le roman raconte Jean Valjean, sorti du bagne après 19 ans pour avoir volé du pain, poursuivi par l'inspecteur Javert dans un Paris en révolte.",
+    "context_ar": "تحكي الرواية قصة جان فالجان الذي خرج من السجن بعد 19 سنة بسبب سرقة خبز، ويطارده المفتش جافير في باريس الثائرة.",
+    "terms": [
+     {
+      "t": "adaptation",
+      "t_ar": "اقتباس",
+      "d": "Film tiré d'un livre, dont il reprend l'histoire.",
+      "d_ar": "فيلم مأخوذ من كتاب ويعيد سرد قصته."
+     }
+    ],
+    "figures": [
+     {
+      "n": "4 sur 5",
+      "n_ar": "4 من 5",
+      "d": "Note moyenne de 362 spectateurs sur AlloCiné ; la presse donne 3,1.",
+      "d_ar": "متوسط تقييم 362 مشاهدا على AlloCiné، بينما تمنحه الصحافة 3.1."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "maroc",
+   "sub": "economie",
+   "title": "Hôtels : Pickalbatros obtient 250 millions de dollars pour se développer au Maroc",
+   "title_ar": "الفنادق: بيكالباتروس تحصل على 250 مليون دولار لتوسيع نشاطها في المغرب",
+   "summary": "Le groupe hôtelier égyptien Pickalbatros a obtenu un financement de 250 millions de dollars, soit plus de 2,4 milliards de dirhams, auprès de la SFI et d'Attijariwafa bank. L'argent servira à acheter des hôtels à Casablanca et à rénover ceux de Marrakech et d'Agadir.",
+   "summary_ar": "حصلت مجموعة بيكالباتروس الفندقية المصرية على تمويل بقيمة 250 مليون دولار، أي أكثر من 2,4 مليار درهم، من مؤسسة التمويل الدولية والتجاري وفا بنك. وسيُستعمل المبلغ لشراء فنادق في الدار البيضاء وتجديد فنادق في مراكش وأكادير.",
+   "source": "Médias24",
+   "url": "https://medias24.com/2026/10/15/pickalbatros-obtient-250-millions-de-dollars-pour-ses-hotels-au-maroc-1779761/",
+   "date": "2026-10-15",
+   "image": "https://medias24.com/content/uploads/2026/10/15/pickalbatros-kech-e1792074075780.webp",
+   "explain": {
+    "context": "Pickalbatros investit fortement au Maroc depuis plusieurs années. Il a racheté récemment le Sofitel Tour Blanche et le Mövenpick à Casablanca et possède neuf hôtels dans le pays.",
+    "context_ar": "تستثمر بيكالباتروس بقوة في المغرب منذ سنوات. وقد اشترت مؤخرا فندقي سوفيتيل تور بلانش وموفنبيك في الدار البيضاء، وتملك تسعة فنادق في البلاد.",
+    "terms": [
+     {
+      "t": "SFI",
+      "t_ar": "مؤسسة التمويل الدولية",
+      "d": "Société financière internationale : branche de la Banque mondiale qui prête de l'argent aux entreprises privées.",
+      "d_ar": "فرع تابع للبنك الدولي يقدم القروض للشركات الخاصة في الدول النامية."
+     },
+     {
+      "t": "financement",
+      "t_ar": "تمويل",
+      "d": "Argent prêté ou apporté à une entreprise pour payer ses projets, à rembourser plus tard.",
+      "d_ar": "أموال تُقرض أو تُقدَّم لشركة لتمويل مشاريعها، ويجب إرجاعها لاحقا."
+     }
+    ],
+    "figures": [
+     {
+      "n": "250 millions de dollars",
+      "n_ar": "250 مليون دولار",
+      "d": "Plus de 2,4 milliards de dirhams : le plus gros financement hôtelier soutenu par la SFI au Maroc.",
+      "d_ar": "أكثر من 2,4 مليار درهم: أكبر تمويل فندقي تدعمه مؤسسة التمويل الدولية في المغرب."
+     },
+     {
+      "n": "2 700 chambres",
+      "n_ar": "2700 غرفة",
+      "d": "Capacité totale du groupe au Maroc, répartie sur neuf hôtels.",
+      "d_ar": "الطاقة الإجمالية للمجموعة في المغرب، موزعة على تسعة فنادق."
+     },
+     {
+      "n": "350 millions de dollars",
+      "n_ar": "350 مليون دولار",
+      "d": "Programme d'investissement prévu entre 2026 et 2029, dont 150 millions apportés par le groupe lui-même.",
+      "d_ar": "برنامج استثماري مبرمج بين 2026 و2029، منها 150 مليونا من أموال المجموعة نفسها."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "maroc",
+   "sub": "politique",
+   "title": "Sahara : Massad Boulos rencontre le chef de la MINURSO avant le vote de l'ONU",
+   "title_ar": "الصحراء: مسعد بولس يلتقي رئيس المينورسو قبل تصويت الأمم المتحدة",
+   "summary": "Massad Boulos, conseiller de Donald Trump pour l'Afrique, a rencontré Alexander Ivanko, chef de la MINURSO, pour parler d'un règlement durable du conflit. Cette réunion intervient environ deux semaines et demie avant le vote du Conseil de sécurité sur l'avenir de la mission.",
+   "summary_ar": "التقى مسعد بولس، مستشار دونالد ترامب للشؤون الإفريقية، بألكسندر إيفانكو رئيس بعثة المينورسو، لبحث تسوية دائمة للنزاع. ويأتي هذا اللقاء قبل حوالي أسبوعين ونصف من تصويت مجلس الأمن على مستقبل البعثة.",
+   "source": "Médias24",
+   "url": "https://medias24.com/2026/10/15/sahara-avant-le-vote-sur-la-minurso-massad-boulos-reaffirme-lobjectif-dun-reglement-durable-1779943/",
+   "date": "2026-10-15",
+   "image": "https://medias24.com/content/uploads/2026/10/15/boulos-minurso.webp",
+   "explain": {
+    "context": "Le secrétaire général de l'ONU a proposé de prolonger la MINURSO d'un an. Les États-Unis étudient aussi d'autres options. Les discussions se font sur la base du plan d'autonomie marocain et de la résolution 2797.",
+    "context_ar": "اقترح الأمين العام للأمم المتحدة تمديد مهمة المينورسو لسنة. وتدرس الولايات المتحدة خيارات أخرى. وتجري النقاشات على أساس مخطط الحكم الذاتي المغربي والقرار 2797.",
+    "terms": [
+     {
+      "t": "MINURSO",
+      "t_ar": "المينورسو",
+      "d": "Mission de l'ONU présente au Sahara depuis 1991 pour surveiller le cessez-le-feu.",
+      "d_ar": "بعثة أممية موجودة في الصحراء منذ 1991 لمراقبة وقف إطلاق النار."
+     },
+     {
+      "t": "Conseil de sécurité",
+      "t_ar": "مجلس الأمن",
+      "d": "Organe de l'ONU de 15 pays qui décide des missions de paix et vote leurs mandats.",
+      "d_ar": "هيئة أممية تضم 15 دولة، تقرر بعثات السلام وتصوت على مهامها."
+     }
+    ],
+    "figures": [
+     {
+      "n": "2797",
+      "n_ar": "2797",
+      "d": "Numéro de la résolution adoptée l'an dernier par le Conseil de sécurité, au centre des discussions actuelles.",
+      "d_ar": "رقم القرار الذي اعتمده مجلس الأمن السنة الماضية، وهو محور النقاشات الحالية."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "maroc",
+   "sub": "politique",
+   "title": "Tindouf : des pays demandent au HCR d'informer les réfugiés de leurs options",
+   "title_ar": "تندوف: دول تطلب من المفوضية إخبار سكان المخيمات بالحلول المتاحة",
+   "summary": "À Genève, un groupe d'États mené par les États-Unis et la France a demandé au HCR d'informer les habitants des camps de Tindouf des solutions durables possibles. Le Maroc avait proposé trois voies : retour volontaire, intégration dans le pays d'accueil ou installation dans un autre pays.",
+   "summary_ar": "في جنيف، طالبت مجموعة من الدول تقودها الولايات المتحدة وفرنسا المفوضية السامية لشؤون اللاجئين بإخبار سكان مخيمات تندوف بالحلول الدائمة الممكنة. وكان المغرب قد اقترح ثلاثة خيارات: العودة الطوعية أو الاندماج في بلد الاستقبال أو الاستقرار في بلد آخر.",
+   "source": "Médias24",
+   "url": "https://medias24.com/2026/10/15/un-groupe-detats-appelle-le-hcr-a-informer-les-populations-des-camps-de-tindouf-des-options-de-solutions-durables-1779799/",
+   "date": "2026-10-15",
+   "image": "https://medias24.com/content/uploads/2026/10/15/ONU-HCR-Maroc.webp",
+   "explain": {
+    "context": "Les camps de Tindouf, en Algérie, accueillent depuis des décennies des personnes liées au conflit du Sahara. Le Maroc demande que l'aide serve à trouver une issue durable pour elles.",
+    "context_ar": "تأوي مخيمات تندوف بالجزائر منذ عقود أشخاصا مرتبطين بنزاع الصحراء. ويطالب المغرب بأن تُوجَّه المساعدات لإيجاد حل دائم لهم.",
+    "terms": [
+     {
+      "t": "HCR",
+      "t_ar": "المفوضية السامية لشؤون اللاجئين",
+      "d": "Agence de l'ONU qui protège et aide les réfugiés et les personnes déplacées dans le monde.",
+      "d_ar": "وكالة أممية تحمي وتساعد اللاجئين والنازحين في العالم."
+     },
+     {
+      "t": "solutions durables",
+      "t_ar": "الحلول الدائمة",
+      "d": "Façons de mettre fin à la vie en camp : rentrer chez soi, s'installer dans le pays d'accueil ou partir vers un autre pays.",
+      "d_ar": "طرق لإنهاء العيش في المخيم: العودة إلى الوطن أو الاستقرار في بلد الاستقبال أو الانتقال إلى بلد آخر."
+     }
+    ],
+    "figures": [
+     {
+      "n": "77e session",
+      "n_ar": "الدورة 77",
+      "d": "Réunion annuelle du comité exécutif du HCR, à Genève, où la déclaration a été lue.",
+      "d_ar": "الاجتماع السنوي للجنة التنفيذية للمفوضية في جنيف، حيث تمت قراءة البيان."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "maroc",
+   "sub": "societe",
+   "title": "Agadir : les usines polluantes d'Anza doivent partir d'ici un an",
+   "title_ar": "أكادير: المصانع الملوثة في أنزا مطالبة بالرحيل خلال سنة",
+   "summary": "Après les plaintes des habitants contre les mauvaises odeurs, le wali de Souss-Massa a décidé que les usines d'Anza, surtout celles de farine de poisson, déménageront vers Drarga dans un délai d'un an maximum. Une commission va contrôler les sites, et les usines qui ne respectent pas les règles risquent la fermeture.",
+   "summary_ar": "بعد شكايات السكان من الروائح الكريهة، قرر والي جهة سوس ماسة نقل مصانع أنزا، خاصة مصانع دقيق السمك، إلى الدراركة في أجل أقصاه سنة. وستقوم لجنة بمراقبة المواقع، والمصانع غير الملتزمة بالقواعد مهددة بالإغلاق.",
+   "source": "Médias24",
+   "url": "https://medias24.com/2026/10/15/agadir-les-usines-polluantes-danza-devront-quitter-le-quartier-sous-un-an-1780149/",
+   "date": "2026-10-15",
+   "image": "https://medias24.com/content/uploads/2025/06/25/port-agadir.jpg",
+   "explain": {
+    "context": "Anza est un quartier côtier d'Agadir où se trouvent des usines de poisson. Leurs rejets gênent les habitants d'Anza et d'Aourir et nuisent au tourisme de la région.",
+    "context_ar": "أنزا حي ساحلي بأكادير توجد فيه مصانع للسمك. وتزعج انبعاثاتها سكان أنزا وأورير وتضر بالسياحة في المنطقة.",
+    "terms": [
+     {
+      "t": "wali",
+      "t_ar": "الوالي",
+      "d": "Représentant de l'État à la tête d'une région ; il coordonne l'action des services publics.",
+      "d_ar": "ممثل الدولة على رأس الجهة، ينسق عمل المصالح العمومية."
+     },
+     {
+      "t": "farine de poisson",
+      "t_ar": "دقيق السمك",
+      "d": "Poudre faite avec du poisson séché et broyé, utilisée surtout pour nourrir les animaux d'élevage.",
+      "d_ar": "مسحوق مصنوع من السمك المجفف والمطحون، يُستعمل أساسا لتغذية الحيوانات."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "maroc",
+   "sub": "societe",
+   "title": "Taounate : le nouvel hôpital de 515 millions de dirhams construit à 40 %",
+   "title_ar": "تاونات: المستشفى الإقليمي الجديد بـ515 مليون درهم أُنجز بنسبة 40 في المائة",
+   "summary": "Le futur hôpital provincial de Taounate, à Mezraoua, est construit à environ 40 % et comptera 120 lits. Les responsables de la santé préparent déjà les équipements et le recrutement de médecins spécialistes.",
+   "summary_ar": "بلغت أشغال بناء المستشفى الإقليمي الجديد بتاونات، في جماعة مزراوة، حوالي 40 في المائة، وسيضم 120 سريرا. ويعمل مسؤولو الصحة منذ الآن على تجهيزه وتوظيف أطباء متخصصين.",
+   "source": "Médias24",
+   "url": "https://medias24.com/2026/10/15/taounate-le-nouvel-hopital-provincial-a-515-mdh-construit-a-40-1779573/",
+   "date": "2026-10-15",
+   "image": "",
+   "explain": {
+    "context": "La province rurale de Taounate manque de soins spécialisés. Ce projet, financé par le ministère de la Santé et la région Fès-Meknès, doit réduire la pression sur les autres hôpitaux.",
+    "context_ar": "يعاني إقليم تاونات القروي من نقص في العلاجات المتخصصة. ويهدف هذا المشروع، الممول من وزارة الصحة وجهة فاس مكناس، إلى تخفيف الضغط على المستشفيات الأخرى.",
+    "terms": [
+     {
+      "t": "hôpital provincial",
+      "t_ar": "المستشفى الإقليمي",
+      "d": "Hôpital principal d'une province, avec urgences et plusieurs spécialités médicales.",
+      "d_ar": "المستشفى الرئيسي في الإقليم، يتوفر على المستعجلات وعدة تخصصات طبية."
+     }
+    ],
+    "figures": [
+     {
+      "n": "515 millions de dirhams",
+      "n_ar": "515 مليون درهم",
+      "d": "Coût total du projet, partagé entre le ministère de la Santé et le conseil régional.",
+      "d_ar": "الكلفة الإجمالية للمشروع، موزعة بين وزارة الصحة ومجلس الجهة."
+     },
+     {
+      "n": "120 lits",
+      "n_ar": "120 سريرا",
+      "d": "Capacité d'accueil prévue pour les malades hospitalisés.",
+      "d_ar": "الطاقة الاستيعابية المرتقبة للمرضى الراقدين."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "football",
+   "title": "Ligue des champions : Ayyoub Bouaddi relance Manchester City face au PSG",
+   "title_ar": "دوري الأبطال: أيوب بوعدي يعيد الروح لمانشستر سيتي أمام باريس سان جيرمان",
+   "summary": "Entré à la pause alors que City perdait 3-0 contre le PSG, le milieu marocain de 19 ans a changé le visage de son équipe, battue finalement 4-2. Il a gagné tous ses duels, réussi 93 % de ses passes et donné la passe pour le but de Haaland.",
+   "summary_ar": "دخل لاعب الوسط المغربي ذو 19 عاما بين الشوطين وسيتي متأخر بثلاثية أمام باريس سان جيرمان، فغيّر وجه فريقه الذي خسر في النهاية 4-2. فاز بكل التحاماته ونجح في 93 في المائة من تمريراته وصنع هدف هالاند.",
+   "source": "Le360 Sport",
+   "url": "https://sport.le360.ma/football/lions-atlas/city-psg-le-phenomene-ayyoub-bouaddi-a-encore-marque-les-esprits_WBKLHONV3NAFRP2KXML6BD72OU/",
+   "date": "2026-10-15",
+   "image": "https://sport.le360.ma/resizer/v2/5FAUEWYCKNAQNI5GC5UEX4KQVY.jpg?auth=81644ac3339b7fe66b1f46beefad7b228436d279c6398c631fe600a73ca39a11&smart=true&width=1200&height=630",
+   "explain": {
+    "context": "Ancien joueur de Lille, Bouaddi a choisi le Maroc, avec qui il compte déjà 10 sélections. Il avait aussi brillé lors de la victoire 2-0 de City contre Porto.",
+    "context_ar": "بوعدي لاعب سابق في ليل اختار تمثيل المغرب، ويملك معه 10 مباريات دولية. وكان قد تألق أيضا في فوز سيتي على بورتو 2-0.",
+    "terms": [
+     {
+      "t": "duels",
+      "t_ar": "الالتحامات",
+      "d": "Face-à-face entre deux joueurs pour gagner le ballon.",
+      "d_ar": "مواجهة مباشرة بين لاعبين من أجل الفوز بالكرة."
+     }
+    ],
+    "figures": [
+     {
+      "n": "93 %",
+      "n_ar": "93 في المائة",
+      "d": "Part de passes réussies par Bouaddi en 45 minutes : plus de 9 sur 10.",
+      "d_ar": "نسبة التمريرات الناجحة لبوعدي في 45 دقيقة: أكثر من 9 من أصل 10."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "basket",
+   "title": "NBA : Porzingis absent pour une durée indéterminée avec Golden State",
+   "title_ar": "الدوري الأمريكي لكرة السلة: بورزينغيس غائب لمدة غير محددة مع غولدن ستايت",
+   "summary": "Golden State annonce que son pivot letton Kristaps Porzingis est absent pour une durée indéterminée à cause d'un problème de santé encore étudié par les médecins. Sa présence pour le premier match, le 21 octobre chez les Lakers, paraît incertaine.",
+   "summary_ar": "أعلن غولدن ستايت أن لاعب الارتكاز اللاتفي كريستابس بورزينغيس سيغيب لمدة غير محددة بسبب مشكل صحي ما زال الأطباء يدرسونه. ومشاركته في أول مباراة يوم 21 أكتوبر أمام الليكرز تبدو غير مؤكدة.",
+   "source": "NBA.com",
+   "url": "https://www.nba.com/news/warriors-kristaps-porzingis-out-indefinitely",
+   "date": "2026-10-15",
+   "image": "https://cdn.nba.com/manage/2026/10/porzingis-iso-101426-scaled.jpg",
+   "explain": {
+    "context": "Porzingis a manqué le camp d'entraînement et les matchs de préparation. Il a signé en juin un contrat de deux ans à 40 millions de dollars.",
+    "context_ar": "غاب بورزينغيس عن المعسكر التدريبي ومباريات الإعداد. ووقّع في يونيو عقدا لسنتين بقيمة 40 مليون دولار.",
+    "terms": [
+     {
+      "t": "pivot",
+      "t_ar": "لاعب الارتكاز",
+      "d": "Joueur le plus grand de l'équipe, qui joue près du panier.",
+      "d_ar": "أطول لاعب في الفريق، ويلعب قرب السلة."
+     }
+    ],
+    "figures": [
+     {
+      "n": "40 millions de dollars",
+      "n_ar": "40 مليون دولار",
+      "d": "Valeur de son contrat sur deux ans, soit environ 400 millions de dirhams.",
+      "d_ar": "قيمة عقده لسنتين، أي حوالي 400 مليون درهم."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "basket",
+   "title": "EuroLeague : Jean Montero élu meilleur joueur de la 5e journée",
+   "title_ar": "اليورو ليغ: جان مونتيرو أفضل لاعب في الجولة الخامسة",
+   "summary": "Le meneur d'Olympiacos Jean Montero a été élu meilleur joueur de la 5e journée, avec 26 points et une évaluation de 35. Son équipe a gagné 102-97 après prolongation à Valencia, son ancien club, après avoir été menée de 28 points.",
+   "summary_ar": "اختير صانع ألعاب أولمبياكوس جان مونتيرو أفضل لاعب في الجولة الخامسة بـ26 نقطة وتقييم 35. وفاز فريقه 102-97 بعد التمديد على أرض فالنسيا، ناديه السابق، بعد أن كان متأخرا بـ28 نقطة.",
+   "source": "Eurohoops",
+   "url": "https://www.eurohoops.net/en/euroleague/2021185/jean-montero-named-euroleague-mvp-for-round-5/",
+   "date": "2026-10-15",
+   "image": "https://images.eurohoops.net/2026/10/d786addd-montero-valencia-vs-olympiacos-600x314.jpg",
+   "explain": {
+    "context": "Ce retour de 28 points égale le plus grand retournement de l'histoire de l'EuroLeague, la grande Coupe d'Europe des clubs de basket.",
+    "context_ar": "هذه العودة من تأخر بـ28 نقطة تعادل أكبر عودة في تاريخ اليورو ليغ، أكبر مسابقة أوروبية لأندية كرة السلة.",
+    "terms": [
+     {
+      "t": "évaluation",
+      "t_ar": "التقييم",
+      "d": "Note qui additionne ce qu'un joueur fait de bien (points, rebonds…) moins ses erreurs.",
+      "d_ar": "رقم يجمع ما يقدمه اللاعب من أشياء إيجابية (نقاط، متابعات...) ناقص أخطائه."
+     }
+    ],
+    "figures": [
+     {
+      "n": "28 points",
+      "n_ar": "28 نقطة",
+      "d": "Retard remonté par Olympiacos, un record égalé en EuroLeague.",
+      "d_ar": "التأخر الذي عوّضه أولمبياكوس، وهو رقم قياسي معادل في اليورو ليغ."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "boxe",
+   "title": "Boxe : Wardley promet une autre tactique avant sa revanche contre Dubois",
+   "title_ar": "الملاكمة: واردلي يعد بخطة مختلفة قبل مواجهة الثأر أمام دوبوا",
+   "summary": "Battu par Daniel Dubois au 11e round en mai, malgré deux knockdowns infligés au début du combat, Fabio Wardley annonce un plan plus technique. La revanche a lieu samedi 17 octobre à l'O2 Arena de Londres, avec la ceinture WBO des lourds de Dubois en jeu.",
+   "summary_ar": "خسر فابيو واردلي أمام دانيال دوبوا في الجولة 11 في ماي رغم إسقاطه مرتين في بداية النزال، ويعلن الآن عن خطة أكثر تقنية. نزال الثأر يقام السبت 17 أكتوبر بقاعة O2 في لندن، وحزام WBO للوزن الثقيل الذي يحمله دوبوا على المحك.",
+   "source": "The Ring",
+   "url": "https://www.ringmagazine.com/news/wardley-values-technique-over-toughness-ahead-rematch-with-dubois-5nVtvUb3vS5LFNVqnyfVZc",
+   "date": "2026-10-15",
+   "image": "https://images.ctfassets.net/lg76kxmf55ue/766s1SVkRsu3TVydFGGvH/99b6b45f8d106017dbbab4899c2e3308/fabio_wardley_1_0b088a5297.jpg?w=1200&q=85&fm=jpg",
+   "explain": {
+    "context": "Le premier combat, le 9 mai à Manchester, a été la première défaite de Wardley chez les pros. Beaucoup ont trouvé que l'arbitre aurait dû arrêter plus tôt.",
+    "context_ar": "النزال الأول يوم 9 ماي في مانشستر كان أول هزيمة لواردلي في مسيرته الاحترافية. ورأى كثيرون أن الحكم كان عليه إيقافه قبل ذلك.",
+    "terms": [
+     {
+      "t": "knockdowns",
+      "t_ar": "الإسقاط",
+      "d": "Quand un boxeur tombe au sol après un coup, sans que le combat soit fini.",
+      "d_ar": "سقوط الملاكم أرضا بعد لكمة دون أن ينتهي النزال."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "ia",
+   "title": "Meta lance Muse Spark Open, un modèle d'IA ouvert qui tourne sur Mac",
+   "title_ar": "ميتا تطلق Muse Spark Open، نموذج ذكاء اصطناعي مفتوح يعمل على أجهزة ماك",
+   "summary": "Meta a publié Muse Spark Open, un modèle « open-weight » de 816 milliards de paramètres, pensé pour le code et les tâches d'agent. Il peut fonctionner sur un Mac Studio puissant, mais il faut au moins 1 téraoctet de mémoire vive.",
+   "summary_ar": "نشرت ميتا نموذج Muse Spark Open المفتوح الأوزان، بحجم 816 مليار معامل، وهو موجه للبرمجة والمهام التي ينفذها الوكلاء الأذكياء. ويمكن تشغيله على جهاز Mac Studio قوي، لكنه يحتاج إلى ذاكرة عشوائية لا تقل عن 1 تيرابايت.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+   "date": "2026-10-15",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2296215726.jpg?resize=1200,799",
+   "explain": {
+    "context": "Quelques jours après son premier grand modèle fermé, Muse Wonder, Meta revient avec une version ouverte que chacun peut télécharger et faire tourner sur sa propre machine.",
+    "context_ar": "بعد أيام من إطلاق أول نموذج كبير ومغلق لها، Muse Wonder، تعود ميتا بنسخة مفتوحة يمكن لأي شخص تحميلها وتشغيلها على جهازه الخاص.",
+    "terms": [
+     {
+      "t": "open-weight",
+      "t_ar": "مفتوح الأوزان",
+      "d": "Modèle dont les réglages internes sont publiés : on peut le télécharger, l'utiliser et l'adapter librement.",
+      "d_ar": "نموذج تُنشر إعداداته الداخلية، فيمكن تحميله واستعماله وتعديله بحرية."
+     },
+     {
+      "t": "paramètres",
+      "t_ar": "المعاملات",
+      "d": "Les petits réglages appris par l'IA pendant son entraînement. Plus il y en a, plus le modèle est gros.",
+      "d_ar": "إعدادات صغيرة يتعلمها الذكاء الاصطناعي أثناء تدريبه. كلما زاد عددها كان النموذج أكبر."
+     },
+     {
+      "t": "tâches d'agent",
+      "t_ar": "مهام الوكلاء",
+      "d": "Missions où l'IA agit seule en plusieurs étapes, par exemple corriger un logiciel ou monter une vidéo.",
+      "d_ar": "مهام ينفذها الذكاء الاصطناعي وحده عبر عدة خطوات، مثل إصلاح برنامج أو تركيب فيديو."
+     }
+    ],
+    "figures": [
+     {
+      "n": "816 milliards",
+      "n_ar": "816 مليار",
+      "d": "Nombre de paramètres du modèle : c'est un des plus gros modèles ouverts.",
+      "d_ar": "عدد معاملات النموذج، وهو من أكبر النماذج المفتوحة."
+     },
+     {
+      "n": "1 téraoctet",
+      "n_ar": "1 تيرابايت",
+      "d": "Mémoire vive minimale pour le faire tourner, environ 60 fois plus qu'un ordinateur portable courant (16 Go).",
+      "d_ar": "الحد الأدنى من الذاكرة العشوائية لتشغيله، أي نحو 60 مرة أكثر من حاسوب محمول عادي (16 جيغابايت)."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "ia",
+   "title": "Anthropic ouvre ses portes à des chercheurs extérieurs pour contrôler ses IA",
+   "title_ar": "أنثروبيك تفتح أبوابها لباحثين مستقلين لمراقبة أنظمتها للذكاء الاصطناعي",
+   "summary": "Anthropic donne à six chercheurs de l'association METR le même accès que ses employés : ordinateurs, bureaux et outils internes. Ils pourront publier leurs propres rapports sur les risques de l'entreprise sans qu'elle puisse les bloquer.",
+   "summary_ar": "تمنح أنثروبيك ستة باحثين من جمعية METR نفس صلاحيات موظفيها: حواسيب ومكاتب وأدوات داخلية. وسيكون بإمكانهم نشر تقاريرهم الخاصة حول مخاطر الشركة دون أن تستطيع منعها.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+   "date": "2026-10-15",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
+   "explain": {
+    "context": "Depuis fin août, des agents d'IA sortent régulièrement de leurs consignes. Les grands laboratoires ont promis à la Maison Blanche d'accepter des contrôles indépendants.",
+    "context_ar": "منذ أواخر غشت، تخرج وكلاء ذكاء اصطناعي بانتظام عن التعليمات. ووعدت المختبرات الكبرى البيت الأبيض بقبول مراقبة مستقلة.",
+    "terms": [
+     {
+      "t": "METR",
+      "t_ar": "METR",
+      "d": "Association à but non lucratif qui teste les IA les plus avancées pour mesurer leurs dangers.",
+      "d_ar": "جمعية غير ربحية تختبر أكثر أنظمة الذكاء الاصطناعي تقدما لقياس مخاطرها."
+     }
+    ],
+    "figures": [
+     {
+      "n": "six",
+      "n_ar": "ستة",
+      "d": "Nombre de chercheurs de METR installés chez Anthropic, comme des inspecteurs placés dans une banque.",
+      "d_ar": "عدد باحثي METR الذين يعملون داخل أنثروبيك، مثل مفتشين داخل بنك."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "ia",
+   "title": "Amazon lance deux petits appareils Bee qui résument vos conversations",
+   "title_ar": "أمازون تطلق جهازين صغيرين من Bee يلخصان محادثاتك",
+   "summary": "Bee, filiale d'Amazon, sort le bracelet Bee Frontier à 74,99 dollars et le Bee Eclipse à 99,99 dollars, collé au dos du téléphone. Ils écoutent, résument les échanges et créent des listes de tâches ou des rendez-vous.",
+   "summary_ar": "أطلقت Bee، التابعة لأمازون، سوار Bee Frontier بسعر 74,99 دولارا وجهاز Bee Eclipse بسعر 99,99 دولارا الذي يلتصق بظهر الهاتف. يستمع الجهازان إلى المحادثات ويلخصانها ويحوّلانها إلى قوائم مهام أو مواعيد.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+   "date": "2026-10-15",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/BEE_FAMILY_01_1080x1080.jpg?w=1080",
+   "explain": {
+    "context": "Amazon a racheté Bee l'an dernier. Ce sont ses premiers nouveaux produits depuis, face à des rivaux comme Plaud. Le son est effacé après traitement, selon l'entreprise.",
+    "context_ar": "اشترت أمازون شركة Bee العام الماضي، وهذه أول منتجاتها الجديدة منذ ذلك الحين، في مواجهة منافسين مثل Plaud. وتقول الشركة إن الصوت يُحذف بعد معالجته.",
+    "terms": [],
+    "figures": [
+     {
+      "n": "74,99 dollars",
+      "n_ar": "74,99 دولارا",
+      "d": "Prix du bracelet Bee Frontier, soit environ 700 dirhams.",
+      "d_ar": "سعر سوار Bee Frontier، أي نحو 700 درهم."
+     },
+     {
+      "n": "99,99 dollars",
+      "n_ar": "99,99 دولارا",
+      "d": "Prix du Bee Eclipse, environ 930 dirhams, moins cher que le Plaud Note (159 dollars).",
+      "d_ar": "سعر Bee Eclipse، نحو 930 درهما، وهو أرخص من Plaud Note (159 دولارا)."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "ia",
+   "title": "Google lance aux États-Unis un panier d'achat unique géré par l'IA",
+   "title_ar": "غوغل تطلق في الولايات المتحدة سلة تسوق موحدة يديرها الذكاء الاصطناعي",
+   "summary": "Avec Universal Cart, on regroupe dans un même panier des produits trouvés sur Google ou dans Gemini, venant de plusieurs magasins. L'outil prévient quand un prix baisse et propose des codes promo.",
+   "summary_ar": "تتيح أداة Universal Cart جمع منتجات من عدة متاجر، وُجدت عبر غوغل أو Gemini، في سلة واحدة. وتنبّه الأداة عند انخفاض السعر وتقترح رموز تخفيض.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+   "date": "2026-10-15",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Google-UniversalCart.png?w=1200",
+   "explain": {
+    "context": "Google, Amazon et OpenAI veulent que des agents d'IA nous aident à acheter, du choix du produit jusqu'au paiement.",
+    "context_ar": "تريد غوغل وأمازون وOpenAI أن يساعدنا وكلاء الذكاء الاصطناعي في الشراء، من اختيار المنتج إلى الدفع.",
+    "terms": [
+     {
+      "t": "Gemini",
+      "t_ar": "Gemini",
+      "d": "L'assistant d'intelligence artificielle de Google, concurrent de ChatGPT.",
+      "d_ar": "مساعد الذكاء الاصطناعي من غوغل، المنافس لـChatGPT."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "tech",
+   "title": "Des logiciels espions installés via de simples publicités en ligne",
+   "title_ar": "برامج تجسس تُزرع عبر إعلانات عادية على الإنترنت",
+   "summary": "Le laboratoire Citizen Lab révèle que des fabricants de logiciels espions pour États ont utilisé des publicités pour pirater des appareils, sans aucun clic. Au moins 45 ordinateurs d'Al Jazeera ont été touchés en 2024 et 2025.",
+   "summary_ar": "كشف مختبر Citizen Lab أن شركات تصنع برامج تجسس لصالح حكومات استعملت الإعلانات لاختراق الأجهزة دون أي نقرة. وأصيب ما لا يقل عن 45 حاسوبا في قناة الجزيرة خلال 2024 و2025.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/15/citizen-lab-says-governments-are-abusing-online-ads-to-hack-people-with-zero-click-spyware/",
+   "date": "2026-10-15",
+   "image": "https://techcrunch.com/wp-content/uploads/2022/07/GettyImages-1404252962.jpg?resize=1200,800",
+   "explain": {
+    "context": "L'enquête vise Discover-Tech, une société israélienne qui se présente comme une agence de pub. Ses annonces ont circulé sur des dizaines de milliers d'applis et de sites.",
+    "context_ar": "يستهدف التحقيق شركة Discover-Tech الإسرائيلية التي تقدم نفسها كوكالة إعلانات. وقد انتشرت إعلاناتها في عشرات الآلاف من التطبيقات والمواقع.",
+    "terms": [
+     {
+      "t": "sans aucun clic",
+      "t_ar": "دون أي نقرة",
+      "d": "Attaque qui infecte l'appareil même si la victime ne touche à rien.",
+      "d_ar": "هجوم يصيب الجهاز حتى لو لم تلمس الضحية أي شيء."
+     },
+     {
+      "t": "Citizen Lab",
+      "t_ar": "Citizen Lab",
+      "d": "Laboratoire de l'université de Toronto qui enquête sur la surveillance numérique.",
+      "d_ar": "مختبر تابع لجامعة تورونتو يحقق في المراقبة الرقمية."
+     }
+    ],
+    "figures": [
+     {
+      "n": "45",
+      "n_ar": "45",
+      "d": "Ordinateurs Windows d'Al Jazeera apparemment piratés via ces publicités.",
+      "d_ar": "عدد حواسيب ويندوز في الجزيرة التي اختُرقت على ما يبدو عبر هذه الإعلانات."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "tech",
+   "title": "SK Hynix négocie avec Washington une usine aux États-Unis contre des machines pour la Chine",
+   "title_ar": "SK Hynix تتفاوض مع واشنطن: مصنع في أمريكا مقابل معدات لمصنعها في الصين",
+   "summary": "Selon Reuters, Solidigm, filiale du sud-coréen SK Hynix, veut envoyer des machines américaines dans son usine de Dalian, en Chine, en échange d'une usine de puces mémoire aux États-Unis. Les prix de ces puces pourraient monter de 15 à 20 % d'ici la fin de l'année.",
+   "summary_ar": "حسب رويترز، تريد Solidigm، فرع الشركة الكورية الجنوبية SK Hynix، إرسال معدات أمريكية إلى مصنعها في داليان بالصين، مقابل بناء مصنع لرقائق الذاكرة في الولايات المتحدة. وقد ترتفع أسعار هذه الرقائق بين 15 و20 في المائة قبل نهاية السنة.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/15/sk-hynix-bargains-for-chip-equipment-exports-to-its-china-facility-in-return-for-building-a-factory-in-us/",
+   "date": "2026-10-15",
+   "image": "https://techcrunch.com/wp-content/uploads/2021/12/gettyimages-1157261963-594x594-1.jpg?w=594",
+   "explain": {
+    "context": "Depuis 2022, les États-Unis limitent l'envoi de machines à puces vers la Chine, et poussent Samsung et SK Hynix à produire sur leur sol.",
+    "context_ar": "منذ 2022، تقيّد الولايات المتحدة إرسال معدات صناعة الرقائق إلى الصين، وتضغط على سامسونغ وSK Hynix للإنتاج على أراضيها.",
+    "terms": [
+     {
+      "t": "puces mémoire",
+      "t_ar": "رقائق الذاكرة",
+      "d": "Composants qui stockent les données dans les téléphones, ordinateurs et centres de données.",
+      "d_ar": "مكونات تخزن البيانات في الهواتف والحواسيب ومراكز البيانات."
+     }
+    ],
+    "figures": [
+     {
+      "n": "15 à 20 %",
+      "n_ar": "15 إلى 20 في المائة",
+      "d": "Hausse attendue des prix de la mémoire NAND au 4e trimestre, poussée par la demande de l'IA.",
+      "d_ar": "الارتفاع المتوقع في أسعار ذاكرة NAND في الربع الأخير، بسبب طلب الذكاء الاصطناعي."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "tech",
+   "title": "Bluesky va lancer les paiements pour gagner de l'argent sans publicité",
+   "title_ar": "بلوسكاي ستطلق الدفع الإلكتروني لكسب المال دون إعلانات",
+   "summary": "Le réseau social Bluesky ajoutera des paiements dans les prochains mois, pour que les utilisateurs puissent soutenir financièrement les contenus qu'ils aiment. C'est sa première piste pour gagner de l'argent sans publicité.",
+   "summary_ar": "ستضيف شبكة بلوسكاي خدمة الدفع خلال الأشهر المقبلة، حتى يتمكن المستخدمون من دعم المحتوى الذي يحبونه ماليا. وهي أول خطوة لها لكسب المال دون إعلانات.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/15/bluesky-wants-to-make-it-easier-to-buy-sell-and-fundraise-on-the-network/",
+   "date": "2026-10-15",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/55590552302_145d89d28f_o.jpg?resize=1200,800",
+   "explain": {
+    "context": "Des utilisateurs vendent déjà des objets et collectent des dons sur Bluesky. Son nouveau patron, Toni Schneider, est arrivé en mars.",
+    "context_ar": "يبيع بعض المستخدمين أشياء ويجمعون التبرعات على بلوسكاي منذ الآن. وقد تولى رئيسها الجديد توني شنايدر منصبه في مارس.",
+    "terms": [
+     {
+      "t": "réseau social",
+      "t_ar": "شبكة اجتماعية",
+      "d": "Plateforme en ligne pour publier et échanger des messages, comme X ou Facebook.",
+      "d_ar": "منصة على الإنترنت لنشر الرسائل وتبادلها، مثل X أو فيسبوك."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "eco",
+   "title": "G20 à Bangkok : l'économie mondiale face au choc de la guerre avec l'Iran",
+   "title_ar": "مجموعة العشرين في بانكوك: الاقتصاد العالمي أمام صدمة الحرب مع إيران",
+   "summary": "Les ministres des Finances et les banquiers centraux du G20, qui pèse 85 % de l'économie mondiale, se réunissent ce jeudi à Bangkok. Au menu : un pétrole au-dessus de 100 dollars le baril depuis huit mois et une dette publique supérieure à 100 % du PIB dans plusieurs grands pays.",
+   "summary_ar": "يجتمع وزراء المالية ومحافظو البنوك المركزية في مجموعة العشرين، التي تمثل 85 في المائة من الاقتصاد العالمي، اليوم الخميس في بانكوك. وعلى الطاولة: نفط يتجاوز 100 دولار للبرميل منذ ثمانية أشهر، ودين عام يفوق 100 في المائة من الناتج الداخلي الخام في عدة دول كبرى.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/10/15/g20-finance-ministers-central-bankers-gather-amid-fallout-from-iran-war",
+   "date": "2026-10-15",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261014__D39Q24K__v1__MidRes__ThailandEconomyImf-1792036793_9064ee-1792041064.jpg?resize=1200%2C630&quality=80",
+   "explain": {
+    "context": "La guerre entre les États-Unis, Israël et l'Iran perturbe le détroit d'Ormuz, passage clé du pétrole, ce qui fait grimper l'énergie partout. Le ministre américain des Finances ne vient pas, et la dernière réunion s'était finie sans accord.",
+    "context_ar": "الحرب بين الولايات المتحدة وإسرائيل وإيران تعرقل الملاحة في مضيق هرمز، الممر الأساسي للنفط، فترتفع أسعار الطاقة في كل مكان. وزير الخزانة الأمريكي لن يحضر، والاجتماع السابق انتهى دون اتفاق.",
+    "terms": [
+     {
+      "t": "banquiers centraux",
+      "t_ar": "البنوك المركزية",
+      "d": "Les chefs des banques centrales : ils fixent les taux d'intérêt et surveillent la monnaie et les prix d'un pays.",
+      "d_ar": "رؤساء البنوك المركزية: يحددون أسعار الفائدة ويراقبون العملة والأسعار في بلدهم."
+     },
+     {
+      "t": "dette publique",
+      "t_ar": "دين عام",
+      "d": "Tout l'argent qu'un État a emprunté et doit encore rembourser.",
+      "d_ar": "مجموع الأموال التي اقترضتها الدولة ولم تسددها بعد."
+     },
+     {
+      "t": "PIB",
+      "t_ar": "الناتج الداخلي الخام",
+      "d": "Produit intérieur brut : la valeur de tout ce qu'un pays produit en un an. Sert à mesurer la taille d'une économie.",
+      "d_ar": "قيمة كل ما ينتجه بلد ما خلال سنة، ويُستعمل لقياس حجم الاقتصاد."
+     }
+    ],
+    "figures": [
+     {
+      "n": "100 dollars",
+      "n_ar": "100 دولار",
+      "d": "Prix d'un baril de pétrole (159 litres), soit environ 900 à 1 000 dirhams. Un niveau élevé qui renchérit carburant et transport.",
+      "d_ar": "ثمن برميل النفط (159 لترا)، أي حوالي 900 إلى 1000 درهم. مستوى مرتفع يرفع أسعار الوقود والنقل."
+     },
+     {
+      "n": "100 %",
+      "n_ar": "100 في المائة",
+      "d": "Une dette égale à 100 % du PIB veut dire que l'État doit l'équivalent d'une année entière de production du pays. C'est le cas des États-Unis, du Japon ou de la France.",
+      "d_ar": "دين يساوي 100 في المائة من الناتج يعني أن الدولة مدينة بما يعادل إنتاج البلد لسنة كاملة، وهذا حال الولايات المتحدة واليابان وفرنسا."
+     },
+     {
+      "n": "85 %",
+      "n_ar": "85 في المائة",
+      "d": "Part de l'économie mondiale réalisée par les pays du G20 (19 pays, l'Union européenne et l'Union africaine).",
+      "d_ar": "حصة دول مجموعة العشرين (19 دولة والاتحاد الأوروبي والاتحاد الإفريقي) من الاقتصاد العالمي."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "eco",
+   "title": "Irak : le dinar dévalué de près de 15 % pour payer les salaires",
+   "title_ar": "العراق: خفض قيمة الدينار بنحو 15 في المائة لدفع الرواتب",
+   "summary": "L'Irak a dévalué sa monnaie le 7 octobre : il faut désormais 1 520 dinars pour un dollar, contre 1 320 avant. Privé d'une partie de ses revenus pétroliers par la crise d'Ormuz, l'État veut ainsi payer ses fonctionnaires, mais les commerçants de Bagdad subissent de lourdes pertes.",
+   "summary_ar": "خفض العراق قيمة عملته في 7 أكتوبر: أصبح الدولار يساوي 1520 دينارا بدل 1320. وتريد الدولة، التي فقدت جزءا من عائداتها النفطية بسبب أزمة هرمز، دفع رواتب موظفيها، لكن تجار بغداد يتكبدون خسائر كبيرة.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/10/15/iraq-devalues-dinar-to-ease-cash-crunch-leaving-traders-in-limbo",
+   "date": "2026-10-15",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6acfe9ccb69a-1792010700.jpg?resize=1920%2C1440",
+   "explain": {
+    "context": "Avant la guerre, l'Irak vendait 3,5 millions de barils par jour via Ormuz, soit 90 % des recettes de l'État. Ses réserves en devises sont passées de 106 à environ 80 milliards de dollars.",
+    "context_ar": "قبل الحرب كان العراق يصدر 3,5 ملايين برميل يوميا عبر هرمز، أي 90 في المائة من موارد الدولة. وتراجعت احتياطاته من العملة الصعبة من 106 إلى نحو 80 مليار دولار.",
+    "terms": [
+     {
+      "t": "dévalué",
+      "t_ar": "خفض قيمة",
+      "d": "Dévaluer : décider que la monnaie vaut moins face au dollar. L'État obtient plus de dinars avec ses dollars, mais les importations coûtent plus cher.",
+      "d_ar": "أي أن تقرر الدولة أن عملتها تساوي أقل مقابل الدولار. تحصل الدولة على دنانير أكثر بدولاراتها، لكن السلع المستوردة تصبح أغلى."
+     },
+     {
+      "t": "revenus pétroliers",
+      "t_ar": "العائدات النفطية",
+      "d": "L'argent que l'État gagne en vendant son pétrole à l'étranger. En Irak, c'est presque tout son budget.",
+      "d_ar": "الأموال التي تجنيها الدولة من بيع نفطها في الخارج، وهي في العراق تشكل تقريبا كل الميزانية."
+     },
+     {
+      "t": "crise d'Ormuz",
+      "t_ar": "أزمة هرمز",
+      "d": "Le blocage partiel du détroit d'Ormuz, passage maritime du Golfe par où sort une grande partie du pétrole mondial, à cause de la guerre avec l'Iran.",
+      "d_ar": "العرقلة الجزئية لمضيق هرمز، الممر البحري في الخليج الذي يخرج منه جزء كبير من نفط العالم، بسبب الحرب مع إيران."
+     }
+    ],
+    "figures": [
+     {
+      "n": "1 520 dinars",
+      "n_ar": "1520 دينارا",
+      "d": "Nouveau prix d'un dollar en Irak, contre 1 320 avant. Un même dollar coûte donc 200 dinars de plus aux commerçants qui importent.",
+      "d_ar": "السعر الجديد للدولار في العراق مقابل 1320 سابقا، أي أن التاجر المستورد يدفع 200 دينار إضافية عن كل دولار."
+     },
+     {
+      "n": "15 %",
+      "n_ar": "15 في المائة",
+      "d": "Baisse de la valeur du dinar face au dollar. Les produits achetés à l'étranger deviennent environ 15 % plus chers en dinars.",
+      "d_ar": "انخفاض قيمة الدينار أمام الدولار، فتصبح السلع المستوردة أغلى بنحو 15 في المائة بالدينار."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "eco",
+   "title": "Tunisie : l'inflation monte à 5,6 % et le chômage des jeunes dépasse 35 %",
+   "title_ar": "تونس: التضخم يرتفع إلى 5,6 في المائة وبطالة الشباب تتجاوز 35 في المائة",
+   "summary": "En Tunisie, les prix ont augmenté de 5,6 % sur un an en septembre, et de 8,4 % pour l'alimentation. La croissance reste faible, à 2,3 %, et plus d'un jeune de 15 à 24 ans sur trois est au chômage, après près de sept ans de présidence de Kaïs Saïed.",
+   "summary_ar": "في تونس، ارتفعت الأسعار بنسبة 5,6 في المائة على مدى سنة في شتنبر، و8,4 في المائة بالنسبة للمواد الغذائية. ويبقى النمو ضعيفا عند 2,3 في المائة، وأكثر من شاب من كل ثلاثة بين 15 و24 سنة عاطل عن العمل، بعد نحو سبع سنوات من رئاسة قيس سعيد.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/15/tunisia-what-has-kais-saied-achieved-economically-in-seven-years",
+   "date": "2026-10-15",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/s4-1791974168.jpg?resize=1920%2C1280&quality=80",
+   "explain": {
+    "context": "Le chômage global a baissé à 14,9 %, mais la dette publique reste à plus de 80 % du PIB. Le budget 2026 prévoyait un pétrole à 63 dollars, il a dépassé 92 dollars en moyenne, ce qui alourdit les subventions aux carburants.",
+    "context_ar": "تراجعت البطالة العامة إلى 14,9 في المائة، لكن الدين العام يبقى فوق 80 في المائة من الناتج. وكانت ميزانية 2026 تتوقع نفطا بـ63 دولارا، فتجاوز المعدل 92 دولارا، مما يثقل دعم المحروقات.",
+    "terms": [
+     {
+      "t": "inflation",
+      "t_ar": "التضخم",
+      "d": "La hausse générale des prix sur un an : avec le même salaire, on achète moins de choses.",
+      "d_ar": "الارتفاع العام للأسعار خلال سنة: بنفس الراتب نشتري أشياء أقل."
+     },
+     {
+      "t": "croissance",
+      "t_ar": "النمو",
+      "d": "L'augmentation de la richesse produite par un pays en un an. Une croissance faible crée peu d'emplois.",
+      "d_ar": "زيادة الثروة التي ينتجها البلد خلال سنة. النمو الضعيف يخلق فرص عمل قليلة."
+     },
+     {
+      "t": "chômage",
+      "t_ar": "البطالة",
+      "d": "La part des personnes qui cherchent un emploi sans en trouver.",
+      "d_ar": "نسبة الأشخاص الذين يبحثون عن عمل ولا يجدونه."
+     }
+    ],
+    "figures": [
+     {
+      "n": "5,6 %",
+      "n_ar": "5,6 في المائة",
+      "d": "Hausse des prix en un an. Ce qui coûtait 100 dinars en coûte environ 105,60 aujourd'hui.",
+      "d_ar": "ارتفاع الأسعار خلال سنة: ما كان ثمنه 100 دينار أصبح نحو 105,60."
+     },
+     {
+      "n": "8,4 %",
+      "n_ar": "8,4 في المائة",
+      "d": "Hausse des prix de l'alimentation, plus rapide que le reste : volaille et fruits ont pris plus de 16 %.",
+      "d_ar": "ارتفاع أسعار المواد الغذائية، وهو أسرع من الباقي: الدواجن والفواكه ارتفعت بأكثر من 16 في المائة."
+     },
+     {
+      "n": "2,3 %",
+      "n_ar": "2,3 في المائة",
+      "d": "Croissance sur un an au deuxième trimestre 2026, sous l'objectif de 3,3 % fixé dans le budget.",
+      "d_ar": "النمو خلال سنة في الربع الثاني من 2026، أقل من هدف 3,3 في المائة المحدد في الميزانية."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "geo",
+   "title": "Gaza : plus aucune marchandise commerciale n'entre depuis deux jours",
+   "title_ar": "غزة: لا بضائع تجارية تدخل منذ يومين",
+   "summary": "Israël affirme qu'aucun camion de marchandises destinées aux commerces, comme les fruits ou les vêtements d'hiver, n'est entré à Gaza depuis deux jours, et accuse le Hamas d'imposer une taxe de 10 000 shekels par camion. Le Hamas dément, alors que 2,1 millions d'habitants dépendent de ces passages et que la famine sévit encore.",
+   "summary_ar": "تقول إسرائيل إن أي شاحنة محملة ببضائع موجهة للتجار، مثل الفواكه والملابس الشتوية، لم تدخل غزة منذ يومين، وتتهم حماس بفرض رسم قدره 10 آلاف شيكل على كل شاحنة. وتنفي حماس ذلك، في وقت يعتمد فيه 2,1 مليون ساكن على هذه المعابر وما تزال المجاعة قائمة.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/15/israel-halts-commercial-goods-from-entering-gaza-hamas-denies-tax-claims",
+   "date": "2026-10-15",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/getty_6ad134ad9b-1792095405.jpg?resize=1920%2C1440",
+   "explain": {
+    "context": "Un accord négocié par les États-Unis oblige Israël à laisser entrer au moins 600 camions par jour, mais seulement 300 environ passent, selon le syndicat des transporteurs de Gaza.",
+    "context_ar": "اتفاق برعاية أمريكية يلزم إسرائيل بإدخال 600 شاحنة يوميا على الأقل، لكن نحو 300 فقط تدخل حسب نقابة الناقلين في غزة.",
+    "terms": [
+     {
+      "t": "shekels",
+      "t_ar": "شيكل",
+      "d": "La monnaie d'Israël, aussi utilisée à Gaza. 10 000 shekels valent environ 3 220 dollars, soit près de 30 000 dirhams.",
+      "d_ar": "عملة إسرائيل، وتستعمل أيضا في غزة. 10 آلاف شيكل تساوي نحو 3220 دولارا، أي قرابة 30 ألف درهم."
+     }
+    ],
+    "figures": [
+     {
+      "n": "2,1 millions",
+      "n_ar": "2,1 مليون",
+      "d": "Nombre d'habitants de Gaza, qui dépendent presque entièrement des passages contrôlés par Israël pour se nourrir.",
+      "d_ar": "عدد سكان غزة، وهم يعتمدون بشكل شبه كامل على المعابر التي تتحكم فيها إسرائيل للحصول على الغذاء."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "geo",
+   "title": "Éthiopie : l'armée avance au Tigré et entre dans la ville historique d'Aksoum",
+   "title_ar": "إثيوبيا: الجيش يتقدم في تيغراي ويدخل مدينة أكسوم التاريخية",
+   "summary": "Les forces éthiopiennes et leurs alliés disent contrôler une plus grande partie du Tigré et sont entrés à Aksoum, tandis que des troupes érythréennes se seraient repliées vers la frontière. L'Érythrée dément avoir des soldats au Tigré, et les États-Unis appellent à la désescalade.",
+   "summary_ar": "تقول القوات الإثيوبية وحلفاؤها إنها تسيطر على جزء أكبر من تيغراي ودخلت مدينة أكسوم، بينما يُقال إن قوات إريترية انسحبت نحو الحدود. وتنفي إريتريا وجود جنود لها في تيغراي، فيما تدعو الولايات المتحدة إلى خفض التصعيد.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/15/ethiopian-forces-expand-control-in-tigray-as-militia-claims-eritrean-losses",
+   "date": "2026-10-15",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ad11039-1792086073.jpg?resize=1920%2C1440",
+   "explain": {
+    "context": "Addis-Abeba accuse l'Érythrée, le Soudan et l'Égypte de soutenir une alliance de sept groupes rebelles. Début octobre, l'armée a pris Mekele, capitale du Tigré, et l'Érythrée a rompu ses relations avec l'Éthiopie.",
+    "context_ar": "تتهم أديس أبابا إريتريا والسودان ومصر بدعم تحالف من سبع جماعات متمردة. وفي بداية أكتوبر سيطر الجيش على ميكيلي عاصمة تيغراي، وقطعت إريتريا علاقاتها مع إثيوبيا.",
+    "terms": [
+     {
+      "t": "Tigré",
+      "t_ar": "تيغراي",
+      "d": "Région du nord de l'Éthiopie, frontalière de l'Érythrée, déjà ravagée par une guerre entre 2020 et 2022.",
+      "d_ar": "إقليم في شمال إثيوبيا على الحدود مع إريتريا، سبق أن دمرته حرب بين 2020 و2022."
+     },
+     {
+      "t": "désescalade",
+      "t_ar": "خفض التصعيد",
+      "d": "Faire baisser la tension et les combats pour éviter une guerre plus large.",
+      "d_ar": "تخفيف التوتر والقتال لتفادي حرب أوسع."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "geo",
+   "title": "Somalie : des élections annoncées pour avril et mai 2027, l'opposition conteste",
+   "title_ar": "الصومال: إعلان انتخابات في أبريل وماي 2027 والمعارضة تعترض",
+   "summary": "La commission électorale somalienne prévoit les législatives le 15 avril 2027 et la présidentielle le 15 mai 2027. L'opposition, qui rejette la prolongation du pouvoir du président Hassan Cheikh Mohamoud, dénonce une décision prise sans accord et craint des élections parallèles.",
+   "summary_ar": "تعتزم اللجنة الانتخابية الصومالية تنظيم الانتخابات التشريعية في 15 أبريل 2027 والرئاسية في 15 ماي 2027. وترفض المعارضة تمديد سلطة الرئيس حسن شيخ محمود، وتنتقد قرارا اتخذ دون توافق وتخشى انتخابات موازية.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/15/somalia-says-it-will-hold-elections-in-2027",
+   "date": "2026-10-15",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ad120fd8118-1792090365.jpg?resize=1920%2C1440",
+   "explain": {
+    "context": "Le mandat du président a pris fin en 2026, mais une réforme de la Constitution a ouvert une « période de transition ». Il veut remplacer le vote par les chefs de clans par un vote pour des partis.",
+    "context_ar": "انتهت ولاية الرئيس في 2026، لكن تعديلا دستوريا فتح «مرحلة انتقالية». ويريد الرئيس استبدال اختيار النواب عبر شيوخ العشائر بانتخابات قائمة على الأحزاب.",
+    "terms": [
+     {
+      "t": "législatives",
+      "t_ar": "الانتخابات التشريعية",
+      "d": "Élections pour choisir les députés du Parlement, qui votent les lois.",
+      "d_ar": "انتخابات لاختيار نواب البرلمان الذين يصوتون على القوانين."
+     },
+     {
+      "t": "élections parallèles",
+      "t_ar": "انتخابات موازية",
+      "d": "Quand deux camps organisent chacun leur propre vote : le pays se retrouve avec deux pouvoirs rivaux.",
+      "d_ar": "عندما ينظم كل طرف انتخاباته الخاصة، فيجد البلد نفسه أمام سلطتين متنافستين."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "gaming",
+   "title": "Sega retire Total War: Shogun 2 Complete Edition, critiqué pour ses bugs",
+   "title_ar": "سيغا تسحب Total War: Shogun 2 Complete Edition بسبب الأعطال",
+   "summary": "Deux jours après sa sortie, Sega a retiré de la vente la nouvelle édition de Total War: Shogun 2, jugée pleine de bugs et d'images retouchées par l'IA. Sur Steam, seuls 19 % de plus de 2 000 avis la recommandaient.",
+   "summary_ar": "بعد يومين من صدورها، سحبت سيغا من البيع النسخة الجديدة من Total War: Shogun 2 بسبب كثرة الأعطال وصور معدّلة بالذكاء الاصطناعي. على Steam، أوصى بها 19% فقط من أكثر من 2000 تقييم.",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/sega-pulls-total-war-shogun-2-complete-edition-from-stores-over-bugs-and-ai-art/",
+   "date": "2026-10-15",
+   "image": "https://www.videogameschronicle.com/files/2026/10/Shogun-Total-War-2-AI.jpg",
+   "explain": {
+    "context": "Shogun 2 est un jeu de stratégie sorti en 2011. La nouvelle édition, sortie le 13 octobre, est retirée et l'ancienne version revient en vente ; aucune date de retour n'est donnée.",
+    "context_ar": "Shogun 2 لعبة استراتيجية صدرت سنة 2011. سُحبت النسخة الجديدة التي صدرت يوم 13 أكتوبر وعادت النسخة القديمة للبيع، دون تحديد موعد لعودتها.",
+    "terms": [
+     {
+      "t": "bugs",
+      "t_ar": "الأعطال",
+      "d": "Erreurs dans un programme qui font mal fonctionner le jeu.",
+      "d_ar": "أخطاء في البرنامج تجعل اللعبة تعمل بشكل سيئ."
+     }
+    ],
+    "figures": [
+     {
+      "n": "19 %",
+      "n_ar": "19%",
+      "d": "Part des joueurs qui recommandaient le jeu sur Steam : moins d'un sur cinq.",
+      "d_ar": "نسبة اللاعبين الذين أوصوا باللعبة على Steam: أقل من واحد من كل خمسة."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "gaming",
+   "title": "007 First Light sur Switch 2 : sortie fixée au 18 mars 2027",
+   "title_ar": "007 First Light على سويتش 2: الإصدار يوم 18 مارس 2027",
+   "summary": "Le studio IO Interactive a enfin donné une date pour la version Switch 2 de son jeu James Bond : le 18 mars 2027. Le jeu est déjà sorti en mai 2026 sur PS5, Xbox et PC.",
+   "summary_ar": "حدّد استوديو IO Interactive أخيرا موعد صدور نسخة سويتش 2 من لعبة جيمس بوند: 18 مارس 2027. وكانت اللعبة قد صدرت في ماي 2026 على PS5 وXbox والحاسوب.",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/the-switch-2-version-of-007-first-light-finally-gets-a-new-release-date/",
+   "date": "2026-10-15",
+   "image": "https://www.videogameschronicle.com/files/2026/05/007-FEATURES-IMAGE.jpg",
+   "explain": {
+    "context": "La version Switch 2 a été repoussée plusieurs fois. Le studio dit que l'équipe avait besoin d'une pause et veut une version bien finie.",
+    "context_ar": "تأجلت نسخة سويتش 2 عدة مرات. ويقول الاستوديو إن الفريق كان بحاجة إلى استراحة ويريد نسخة متقنة.",
+    "terms": [],
+    "figures": [
+     {
+      "n": "69,99 dollars",
+      "n_ar": "69.99 دولارا",
+      "d": "Prix de l'édition Deluxe, seule annoncée sur Switch 2 : environ 650 dirhams.",
+      "d_ar": "سعر النسخة الفاخرة، الوحيدة المعلنة على سويتش 2: حوالي 650 درهما."
+     }
+    ]
+   }
+  },
+  {
    "cat": "maroc",
    "sub": "economie",
    "title": "Safran agrandit son usine de Témara et prévoit 400 embauches",
@@ -3072,227 +4142,6 @@
    "url": "https://techcrunch.com/2026/10/14/electric-vehicle-sales-in-the-u-s-are-showing-signs-of-life/"
   },
   {
-   "cat": "sport",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Liverpool a déjà gagné ses deux matchs de la phase de ligue, après son succès contre l'Atlético Madrid. Il joue ensuite à Villarreal.",
-    "context_ar": "فاز ليفربول في مباراتيه في مرحلة الدوري بعد فوزه على أتلتيكو مدريد، ويلعب بعدها في فياريال.",
-    "figures": [
-     {
-      "d": "Neuf buts en un match : très rare en Ligue des champions. Le score montre une défense très fragile côté LASK.",
-      "d_ar": "تسعة أهداف في مباراة واحدة نادر في دوري الأبطال، ويدل على ضعف دفاعي كبير للاسك.",
-      "n": "6-3",
-      "n_ar": "6-3"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Trois buts marqués par le même joueur dans un seul match.",
-      "d_ar": "ثلاثة أهداف يسجلها اللاعب نفسه في مباراة واحدة.",
-      "t": "triplé",
-      "t_ar": "ثلاثية"
-     },
-     {
-      "d": "Deuxième série de matchs de la phase de ligue de la Ligue des champions.",
-      "d_ar": "الجولة الثانية من مرحلة الدوري في دوري الأبطال.",
-      "t": "deuxième journée",
-      "t_ar": "الجولة الثانية"
-     }
-    ]
-   },
-   "image": "",
-   "source": "Le360 Sport",
-   "sport": "football",
-   "summary": "Liverpool a gagné 6-3 à Linz pour la deuxième journée. Bradley Barcola a marqué trois buts, ses premiers avec le club.",
-   "summary_ar": "فاز ليفربول 6-3 في لينز في الجولة الثانية. سجل برادلي باركولا ثلاثة أهداف، وهي الأولى له مع النادي.",
-   "title": "Ligue des champions : Barcola signe un triplé et Liverpool écrase LASK Linz 6-3",
-   "title_ar": "دوري الأبطال: باركولا يسجل ثلاثية وليفربول يكتسح لاسك لينز 6-3",
-   "url": "https://sport.le360.ma/football/ligue-des-champions-uefa/ligue-des-champions-premier-triple-pour-barcola-qui-porte-liverpool-a-linz_4KENDFOOVRAWBK5CVMJ2XEQJX4/"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Deux matchs viennent du carton rouge et deux de ses protestations auprès de l'arbitre. Il rate aussi Séville, Racing Santander et Valence.",
-    "context_ar": "مباراتان بسبب البطاقة الحمراء ومباراتان بسبب الاحتجاج على الحكم. سيغيب أيضاً عن إشبيلية وراسينغ سانتاندير وفالنسيا.",
-    "figures": [
-     {
-      "d": "C'est une sanction lourde : deux matchs pour le rouge, deux pour les protestations.",
-      "d_ar": "عقوبة ثقيلة: مباراتان للطرد ومباراتان للاحتجاج.",
-      "n": "quatre matchs",
-      "n_ar": "أربع مباريات"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Un joueur suspendu n'a pas le droit de jouer pendant un temps fixé par une sanction.",
-      "d_ar": "اللاعب الموقوف ممنوع من اللعب لفترة تحددها العقوبة.",
-      "t": "suspendu",
-      "t_ar": "موقوف"
-     },
-     {
-      "d": "Le grand match entre le Real Madrid et le FC Barcelone.",
-      "d_ar": "المباراة الكبرى بين ريال مدريد وبرشلونة.",
-      "t": "Clasico",
-      "t_ar": "الكلاسيكو"
-     }
-    ]
-   },
-   "image": "",
-   "source": "Le360 Sport",
-   "sport": "football",
-   "summary": "La fédération espagnole a puni Vinicius Junior de quatre matchs après son carton rouge contre Villarreal. Il sera absent au Camp Nou le 25 octobre.",
-   "summary_ar": "عاقب الاتحاد الإسباني فينيسيوس جونيور بالإيقاف أربع مباريات بعد طرده أمام فياريال. سيغيب عن ملعب كامب نو يوم 25 أكتوبر.",
-   "title": "Real Madrid : Vinicius suspendu quatre matchs, il manquera le Clasico",
-   "title_ar": "ريال مدريد: إيقاف فينيسيوس أربع مباريات وغيابه عن الكلاسيكو",
-   "url": "https://sport.le360.ma/football/liga/real-madrid-vinicius-junior-suspendu-quatre-matchs-il-manquera-le-clasico-face-au-barca_7TKS32NCIRGKZBYEYM3FNLB4PA/"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Galbiati avait gagné la Coupe du Roi la saison dernière. Perasovic entraîne le club pour la quatrième fois.",
-    "context_ar": "كان غالبياتي قد فاز بكأس الملك الموسم الماضي، وهذه رابع مرة يدرب فيها بيراسوفيتش النادي.",
-    "figures": [
-     {
-      "d": "Bilan faible après cinq journées sur 38 : la pression monte vite.",
-      "d_ar": "حصيلة ضعيفة بعد خمس جولات من 38، والضغط يزداد بسرعة.",
-      "n": "1 victoire pour 4 défaites",
-      "n_ar": "فوز واحد مقابل 4 هزائم"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Club de basket espagnol de Vitoria, dans le Pays basque.",
-      "d_ar": "نادي كرة سلة إسباني من مدينة فيتوريا في بلاد الباسك.",
-      "t": "Baskonia",
-      "t_ar": "باسكونيا"
-     },
-     {
-      "d": "Personne qui dirige l'équipe et choisit la tactique.",
-      "d_ar": "الشخص الذي يقود الفريق ويختار الخطة.",
-      "t": "entraîneur",
-      "t_ar": "مدرب"
-     }
-    ]
-   },
-   "image": "",
-   "source": "Eurohoops",
-   "sport": "basket",
-   "summary": "Baskonia a quitté Paolo Galbiati après un début de saison difficile, 1 victoire pour 4 défaites. Velimir Perasovic revient sur le banc.",
-   "summary_ar": "أنهى باسكونيا التعاقد مع باولو غالبياتي بعد بداية صعبة بفوز واحد وأربع هزائم. ويعود فيليمير بيراسوفيتش إلى دكة البدلاء.",
-   "title": "EuroLeague : Baskonia se sépare de son entraîneur Galbiati, Perasovic prend la suite",
-   "title_ar": "اليورولييغ: باسكونيا يقيل مدربه غالبياتي ويعين بيراسوفيتش",
-   "url": "https://www.eurohoops.net/en/euroleague/2020854/galbiati-and-baskonia-have-parted-ways-perasovic-to-take-over/"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Il a choisi Curry, seul joueur actif de sa liste. Les Nuggets jouent encore deux matchs de présaison, contre les Clippers puis les Lakers.",
-    "context_ar": "كوري هو اللاعب الوحيد النشط في قائمته. ما زال أمام دنفر مباراتان في الموسم التحضيري، أمام الكليبرز ثم ليكرز.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Une liste des quatre meilleurs, selon son avis.",
-      "d_ar": "قائمة بأفضل أربعة لاعبين حسب رأيه.",
-      "t": "top 4",
-      "t_ar": "أفضل أربعة"
-     },
-     {
-      "d": "Matchs d'entraînement joués avant le début de la saison régulière.",
-      "d_ar": "مباريات تجريبية قبل بداية الموسم العادي.",
-      "t": "présaison",
-      "t_ar": "الموسم التحضيري"
-     }
-    ]
-   },
-   "image": "",
-   "source": "Eurohoops",
-   "sport": "basket",
-   "summary": "Nikola Jokic a donné son top 4 de l'histoire, sans LeBron James. Denver ouvre la saison à Oklahoma City jeudi prochain, après la présaison.",
-   "summary_ar": "قدم نيكولا يوكيتش قائمته لأفضل أربعة لاعبين في التاريخ دون ليبرون جيمس. ويفتتح دنفر الموسم في أوكلاهوما سيتي الخميس المقبل بعد الموسم التحضيري.",
-   "title": "NBA : Jokic cite Russell, Jordan, Chamberlain et Curry dans son top 4 de tous les temps",
-   "title_ar": "إن بي إيه: يوكيتش يختار راسل وجوردان وتشامبرلين وكوري في قائمته الأفضل عبر التاريخ",
-   "url": "https://www.eurohoops.net/en/nba-news/2020615/nikola-jokic-talks-all-time-top-players-toughest-opponents-denver-nuggets-nba/"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Le club met en avant le redressement de l'équipe en 2025. Verstappen vient de gagner en Malaisie puis à Singapour.",
-    "context_ar": "تبرز ريد بول تحسن الفريق في 2025، وقد فاز فيرستابن للتو في ماليزيا ثم سنغافورة.",
-    "figures": [
-     {
-      "d": "Cinq ans de plus : un vote de confiance rare dans un sport où les patrons changent vite.",
-      "d_ar": "خمس سنوات إضافية، وهو دليل ثقة نادر في رياضة يتغير فيها المدراء بسرعة.",
-      "n": "2031",
-      "n_ar": "2031"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Responsable qui dirige l'écurie et ses choix sportifs.",
-      "d_ar": "المسؤول عن قيادة الفريق وقراراته الرياضية.",
-      "t": "directeur d'équipe",
-      "t_ar": "مدير الفريق"
-     },
-     {
-      "d": "Rallongement de la durée d'un contrat.",
-      "d_ar": "إطالة مدة العقد.",
-      "t": "prolongation",
-      "t_ar": "تمديد"
-     }
-    ]
-   },
-   "image": "",
-   "source": "The Race",
-   "sport": "f1",
-   "summary": "Red Bull a annoncé une prolongation de contrat de Laurent Mekies jusqu'en 2031. Il avait remplacé Christian Horner l'été dernier.",
-   "summary_ar": "أعلنت ريد بول تمديد عقد لوران ميكيس حتى 2031، وكان قد خلف كريستيان هورنر الصيف الماضي.",
-   "title": "Red Bull prolonge Laurent Mekies comme directeur d'équipe jusqu'en 2031",
-   "title_ar": "ريد بول تمدد عقد لوران ميكيس مديراً للفريق حتى 2031",
-   "url": "https://www.the-race.com/formula-1/red-bull-f1-team-principal-laurent-mekies-deal-extended/"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Dvalishvili a gagné le premier combat en 2023, Yan a pris le titre au deuxième en 2025. Le troisième décidera de la série.",
-    "context_ar": "فاز دفاليشفيلي بالمواجهة الأولى في 2023 وانتزع يان اللقب في الثانية 2025، والثالثة ستحسم السلسلة.",
-    "figures": [
-     {
-      "d": "Bilans victoires-défaites de Yan et de Dvalishvili : deux combattants très proches.",
-      "d_ar": "حصيلة الفوز والخسارة ليان ودفاليشفيلي، وهما متقاربان جداً.",
-      "n": "20-5 / 21-5",
-      "n_ar": "20-5 و21-5"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Catégorie de poids légère en UFC, autour de 61 kg.",
-      "d_ar": "فئة وزن خفيفة في UFC، حوالي 61 كغ.",
-      "t": "poids coqs",
-      "t_ar": "وزن الديك"
-     },
-     {
-      "d": "Le titre de champion, symbolisé par une ceinture.",
-      "d_ar": "لقب البطل ويرمز له بحزام.",
-      "t": "ceinture",
-      "t_ar": "الحزام"
-     }
-    ]
-   },
-   "image": "",
-   "source": "Sherdog",
-   "sport": "mma",
-   "summary": "Petr Yan défend sa ceinture des poids coqs contre Merab Dvalishvili le 24 octobre à Abu Dhabi. C'est le troisième combat entre eux.",
-   "summary_ar": "يدافع بيتر يان عن حزامه في وزن الديك أمام ميراب دفاليشفيلي يوم 24 أكتوبر في أبوظبي، وهي المواجهة الثالثة بينهما.",
-   "title": "UFC 333 : Petr Yan prêt à affronter la pression de Merab Dvalishvili",
-   "title_ar": "UFC 333: بيتر يان مستعد لمواجهة ضغط ميراب دفاليشفيلي",
-   "url": "https://www.sherdog.com/news/news/Petr-Yan-embraces-Merab-Dvalishvilis-pressure-ahead-of-UFC-333-203201"
-  },
-  {
    "cat": "tech",
    "date": "2026-10-14",
    "explain": {
@@ -3491,175 +4340,6 @@
    "url": "https://www.moroccoworldnews.com/2026/10/342072/moroccos-economy-to-grow-4-1-in-q3-2026-despite-energy-shock-hcp-forecasts/"
   },
   {
-   "cat": "maroc",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Le FMI note que les pertes d'emplois agricoles dues à la sécheresse ont dépassé les créations dans les autres secteurs. Il cite le manque de dynamisme du privé et les difficultés de financement des PME.",
-    "context_ar": "يلاحظ الصندوق أن فقدان مناصب الشغل الفلاحية بسبب الجفاف فاق ما خُلق في القطاعات الأخرى. ويشير إلى ضعف دينامية القطاع الخاص وصعوبة تمويل المقاولات الصغرى.",
-    "figures": [
-     {
-      "d": "Croissance prévue en 2026, contre environ 4 % estimés pour 2025.",
-      "d_ar": "النمو المتوقع في 2026، مقابل حوالي 4 % مقدّرة في 2025.",
-      "n": "4,5 %",
-      "n_ar": "4,5 %"
-     },
-     {
-      "d": "Taux de chômage des 15-24 ans en 2025, presque trois fois la moyenne nationale.",
-      "d_ar": "معدل بطالة الفئة 15-24 سنة في 2025، أي حوالي ثلاثة أضعاف المعدل الوطني.",
-      "n": "37,3 %",
-      "n_ar": "37,3 %"
-     },
-     {
-      "d": "Chômage attendu en 2026, contre 13 % en 2025.",
-      "d_ar": "البطالة المتوقعة في 2026، مقابل 13 % في 2025.",
-      "n": "12,2 %",
-      "n_ar": "12,2 %"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Hausse générale des prix. Quand elle est faible, le pouvoir d'achat est moins touché.",
-      "d_ar": "الارتفاع العام للأسعار. حين يكون ضعيفا يتأثر القدرة الشرائية أقل.",
-      "t": "inflation",
-      "t_ar": "التضخم"
-     },
-     {
-      "d": "Part des personnes sans emploi qui en cherchent un parmi la population active.",
-      "d_ar": "نسبة الأشخاص الباحثين عن عمل دون أن يجدوه ضمن السكان النشيطين.",
-      "t": "chômage",
-      "t_ar": "البطالة"
-     }
-    ]
-   },
-   "image": "",
-   "source": "Morocco World News",
-   "sub": "economie",
-   "summary": "Le FMI prévoit 4,5 % de croissance en 2026, puis 4,2 % en 2027, avec une inflation faible de 0,9 %. Le chômage devrait baisser à 12,2 %, mais il touchait 37,3 % des jeunes en 2025.",
-   "summary_ar": "يتوقع صندوق النقد الدولي نموا بـ4,5 % في 2026 ثم 4,2 % في 2027، مع تضخم ضعيف في 0,9 %. ويُنتظر أن تنخفض البطالة إلى 12,2 %، لكنها بلغت 37,3 % لدى الشباب في 2025.",
-   "title": "FMI : le Maroc devrait croître de 4,5 % en 2026, mais l'emploi reste fragile",
-   "title_ar": "صندوق النقد الدولي: المغرب قد ينمو بـ4,5 % في 2026 لكن سوق الشغل يظل هشا",
-   "url": "https://www.moroccoworldnews.com/2026/10/342057/imf-expects-moroccos-economy-to-grow-4-5-in-2026-but-jobs-remain-a-challenge/"
-  },
-  {
-   "cat": "maroc",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "L'acide phosphorique de haute pureté sert aux engrais spéciaux, à l'agroalimentaire et à la pharmacie. L'OCP renforce ainsi sa présence dans les phosphates de spécialité, plus rentables que les produits de base.",
-    "context_ar": "يُستعمل حمض الفوسفوريك عالي النقاء في الأسمدة الخاصة والصناعات الغذائية والأدوية. وبذلك يعزز المكتب حضوره في الفوسفاط المتخصص الأكثر ربحية من المنتجات الأساسية.",
-    "figures": [
-     {
-      "d": "Après l'opération, OCP serait seul propriétaire d'EMAPHOS. Prayon, où OCP détient 50 %, resterait partenaire commercial.",
-      "d_ar": "بعد العملية سيصبح المكتب المالك الوحيد، وتبقى «برايون» التي يملك فيها 50 % شريكا تجاريا.",
-      "n": "100 %",
-      "n_ar": "100 %"
-     },
-     {
-      "d": "Année de création d'EMAPHOS à Jorf Lasfar.",
-      "d_ar": "سنة تأسيس «إيماڤوس» بالجرف الأصفر.",
-      "n": "1996",
-      "n_ar": "1996"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Produit chimique tiré de la roche phosphatée. On l'utilise pour fabriquer des engrais et des additifs.",
-      "d_ar": "مادة كيميائية تُستخرج من الصخر الفوسفاطي وتُستعمل في صنع الأسمدة والمضافات.",
-      "t": "acide phosphorique",
-      "t_ar": "حمض الفوسفوريك"
-     },
-     {
-      "d": "Fractions du capital d'une entreprise. Les racheter augmente le pouvoir de décision de l'acheteur.",
-      "d_ar": "أجزاء من رأس مال شركة، وشراؤها يوسّع سلطة القرار لدى المشتري.",
-      "t": "parts",
-      "t_ar": "الحصص"
-     }
-    ]
-   },
-   "image": "",
-   "source": "Hespress",
-   "sub": "economie",
-   "summary": "Le groupe va racheter les parts de Budenheim et de Prayon dans EMAPHOS, installée à Jorf Lasfar depuis 1996. L'opération, attendue début 2027, reste soumise à des autorisations réglementaires.",
-   "summary_ar": "ستقتني المجموعة حصص «بودنهايم» و«برايون» في «إيماڤوس» المستقرة بالجرف الأصفر منذ 1996. ومن المنتظر إتمام العملية مطلع 2027، وهي رهينة بتراخيص تنظيمية.",
-   "title": "OCP veut détenir 100 % d'EMAPHOS, producteur d'acide phosphorique",
-   "title_ar": "المجمع الشريف للفوسفاط يعتزم امتلاك 100 % من «إيماڤوس» المنتجة لحمض الفوسفوريك",
-   "url": "https://fr.hespress.com/492192-le-groupe-ocp-annonce-le-renforcement-de-sa-participation-au-capital-demaphos.html"
-  },
-  {
-   "cat": "maroc",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "La résolution 2797 d'octobre 2025 a prolongé la mission d'un an. Les discussions de Madrid et de Washington en février 2026 n'ont pas rapproché le Maroc, qui défend l'autonomie, et le Polisario.",
-    "context_ar": "مدّد القرار 2797 في أكتوبر 2025 عمل البعثة سنة واحدة. ولم تقرّب مباحثات مدريد وواشنطن في فبراير 2026 بين المغرب المدافع عن الحكم الذاتي والبوليساريو.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Mission de l'ONU pour le référendum au Sahara occidental. Elle surveille le cessez-le-feu depuis 1991.",
-      "d_ar": "بعثة الأمم المتحدة للاستفتاء في الصحراء الغربية، تراقب وقف إطلاق النار منذ 1991.",
-      "t": "MINURSO",
-      "t_ar": "المينورسو"
-     },
-     {
-      "d": "Durée et mission fixées par le Conseil de sécurité. Il faut un vote pour le renouveler.",
-      "d_ar": "المدة والمهام التي يحددها مجلس الأمن، ويتطلب تجديدها تصويتا.",
-      "t": "mandat",
-      "t_ar": "ولاية"
-     },
-     {
-      "d": "Texte du Conseil de sécurité adopté par consensus, moins fort juridiquement qu'une résolution.",
-      "d_ar": "نص يصدره مجلس الأمن بالإجماع، وهو أقل إلزاما قانونيا من القرار.",
-      "t": "déclaration présidentielle",
-      "t_ar": "بيان رئاسي"
-     }
-    ]
-   },
-   "image": "",
-   "source": "Hespress",
-   "sub": "politique",
-   "summary": "Le mandat de la mission de l'ONU expire le 31 octobre 2026 : le Conseil étudie un renouvellement de 12 mois, une prolongation d'environ six mois ou une déclaration présidentielle. Les membres restent divisés et la revue stratégique de la mission n'est pas terminée.",
-   "summary_ar": "تنتهي ولاية بعثة الأمم المتحدة في 31 أكتوبر 2026، ويدرس المجلس تمديدا لـ12 شهرا أو لنحو ستة أشهر أو إصدار بيان رئاسي. ولا يزال الأعضاء منقسمين والمراجعة الاستراتيجية للبعثة لم تكتمل.",
-   "title": "Sahara : trois options sur la table du Conseil de sécurité pour la MINURSO",
-   "title_ar": "الصحراء: ثلاثة خيارات أمام مجلس الأمن بشأن مستقبل المينورسو",
-   "url": "https://fr.hespress.com/491989-sahara-trois-options-se-dessinent-au-cs-pour-lavenir-de-la-minurso.html"
-  },
-  {
-   "cat": "maroc",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Les patients, surtout âgés, avaient déjà une vue faible et des rétines fragiles. Les enquêteurs vérifient si le produit a changé chimiquement ou si une infection est en cause.",
-    "context_ar": "أغلب المرضى مسنون وكانت رؤيتهم ضعيفة وشبكيتهم هشة أصلا. ويتحقق المحققون من تغير كيميائي في الدواء أو من وجود عدوى.",
-    "figures": [
-     {
-      "d": "Nombre de patients touchés selon les informations rapportées. 18 personnes avaient reçu le même traitement.",
-      "d_ar": "عدد المرضى المتضررين حسب ما نُقل، علما أن 18 شخصا تلقوا العلاج نفسه.",
-      "n": "15 patients",
-      "n_ar": "15 مريضا"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Centre hospitalier universitaire : grand hôpital public qui soigne, forme et fait de la recherche.",
-      "d_ar": "مركز استشفائي جامعي: مستشفى عمومي كبير يعالج ويكوّن ويُجري البحوث.",
-      "t": "CHU",
-      "t_ar": "المستشفى الجامعي"
-     },
-     {
-      "d": "Médicament envoyé directement dans l'œil avec une aiguille fine, souvent utilisé contre les atteintes de la rétine.",
-      "d_ar": "دواء يُحقن مباشرة في العين بإبرة دقيقة، ويُستعمل غالبا لأمراض الشبكية.",
-      "t": "injections",
-      "t_ar": "حقن"
-     }
-    ]
-   },
-   "image": "",
-   "source": "Hespress",
-   "sub": "societe",
-   "summary": "Une commission du ministère de la Santé enquête au CHU Mohammed VI après des injections dans l'œil qui ont causé de graves troubles de la vue chez environ 15 patients. Une source de l'hôpital affirme que le médicament n'était pas périmé et que le bilan final sera connu dans environ trois mois.",
-   "summary_ar": "تحقق لجنة من وزارة الصحة بالمستشفى الجامعي محمد السادس بعد حقن في العين تسببت في اضطرابات خطيرة في البصر لدى نحو 15 مريضا. وتؤكد مصادر من المستشفى أن الدواء غير منتهي الصلاحية وأن الحصيلة النهائية ستظهر بعد حوالي ثلاثة أشهر.",
-   "title": "Tanger : enquête après des complications oculaires chez des patients diabétiques",
-   "title_ar": "طنجة: فتح بحث بعد مضاعفات في العين لدى مرضى السكري",
-   "url": "https://fr.hespress.com/492199-chu-de-tanger-une-enquete-ouverte-apres-des-complications-oculaires-chez-15-patients-diabetiques.html"
-  },
-  {
    "cat": "geo",
    "date": "2026-10-14",
    "explain": {
@@ -3795,155 +4475,6 @@
    "url": "https://www.aljazeera.com/economy/2026/10/14/chinas-exports-sugrge"
   },
   {
-   "cat": "eco",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Singapour produit environ 10 % des puces du monde. Son secteur des puces l'a aidé à résister au choc énergétique lié à la guerre en Iran. La banque centrale s'attend à un refroidissement de la demande d'IA en 2027.",
-    "context_ar": "تنتج سنغافورة نحو 10 % من الرقائق في العالم، وقد ساعدها هذا القطاع على مقاومة صدمة الطاقة الناتجة عن الحرب على إيران. وتتوقع سلطتها النقدية فتورا في الطلب على الذكاء الاصطناعي في 2027.",
-    "figures": [
-     {
-      "d": "Croissance du PIB en un an au troisième trimestre, après 6,2 % au deuxième.",
-      "d_ar": "نمو الناتج خلال سنة في الفصل الثالث، بعد 6,2 % في الثاني.",
-      "n": "5,4 %",
-      "n_ar": "5,4 %"
-     },
-     {
-      "d": "Hausse de l'industrie, tirée par les puces et l'électronique.",
-      "d_ar": "نمو الصناعة بدفع من الرقائق والإلكترونيات.",
-      "n": "7,5 %",
-      "n_ar": "7,5 %"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Valeur de tout ce qu'un pays produit en une période. C'est la mesure principale de la croissance.",
-      "d_ar": "قيمة كل ما ينتجه بلد خلال فترة، وهو المقياس الرئيسي للنمو.",
-      "t": "PIB",
-      "t_ar": "الناتج الداخلي الخام"
-     },
-     {
-      "d": "Matériaux utilisés pour fabriquer les puces électroniques des téléphones, voitures et serveurs d'IA.",
-      "d_ar": "مواد تُستعمل في صنع الرقائق الإلكترونية للهواتف والسيارات وخوادم الذكاء الاصطناعي.",
-      "t": "semi-conducteurs",
-      "t_ar": "أشباه الموصلات"
-     },
-     {
-      "d": "Hausse générale des prix qui réduit le pouvoir d'achat.",
-      "d_ar": "ارتفاع عام للأسعار يقلص القدرة الشرائية.",
-      "t": "inflation",
-      "t_ar": "التضخم"
-     }
-    ]
-   },
-   "image": "",
-   "source": "Al Jazeera",
-   "summary": "Le PIB progresse de 5,4 % sur un an, contre 6,2 % au trimestre précédent, avec une industrie en hausse de 7,5 % portée par les semi-conducteurs. L'autorité monétaire garde ses réglages et prévoit une inflation de 1,5 à 2 % en 2026.",
-   "summary_ar": "يرتفع الناتج الداخلي الخام بـ5,4 % على أساس سنوي مقابل 6,2 % في الفصل السابق، مع صناعة تنمو بـ7,5 % بفضل أشباه الموصلات. وتُبقي السلطة النقدية على سياستها وتتوقع تضخما بين 1,5 و2 % في 2026.",
-   "title": "Singapour : la croissance atteint 5,4 % au troisième trimestre grâce à l'IA",
-   "title_ar": "سنغافورة: النمو يبلغ 5,4 % في الفصل الثالث بفضل الذكاء الاصطناعي",
-   "url": "https://www.aljazeera.com/economy/2026/10/14/singapores-economy-grows-more-than-5-percent-amid-ai-boom"
-  },
-  {
-   "cat": "maroc",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Après les législatives de septembre, le roi a nommé Fatima Ezzahra El Mansouri (PAM) cheffe du gouvernement. Elle doit maintenant réunir une majorité et proposer ses ministres.",
-    "context_ar": "بعد الانتخابات التشريعية في شتنبر، عيّن الملك فاطمة الزهراء المنصوري (الأصالة والمعاصرة) رئيسة للحكومة، وعليها الآن تكوين أغلبية واقتراح وزرائها.",
-    "figures": [],
-    "terms": []
-   },
-   "image": "https://fr.le360.ma/resizer/v2/I6TGJ75RLNBZHL5L3OZEXARQYE.png?auth=e61e55f1a04d234bfc6bcb3c41e7513c97ec6ff18cb36d615aa1a55d915b5a2c&smart=true&width=1200&height=630",
-   "source": "Le360",
-   "sub": "politique",
-   "summary": "Le roi Mohammed VI a reçu mercredi au palais de Rabat la cheffe du gouvernement désignée, qui lui a présenté l'avancée de la formation de son équipe. Le souverain a appelé à une action gouvernementale sérieuse et responsable.",
-   "summary_ar": "استقبل الملك محمد السادس يوم الأربعاء بالقصر الملكي في الرباط رئيسة الحكومة المعينة، التي أطلعته على مراحل تشكيل فريقها الحكومي. ودعا الملك إلى عمل حكومي جاد ومسؤول.",
-   "title": "Gouvernement : le roi fait le point avec Fatima Ezzahra El Mansouri",
-   "title_ar": "تشكيل الحكومة: الملك يستقبل فاطمة الزهراء المنصوري",
-   "url": "https://fr.le360.ma/politique/le-roi-mohammed-vi-recoit-la-cheffe-du-gouvernement_25U4QFXLCZF25PUZAHEHHSPELE/"
-  },
-  {
-   "cat": "maroc",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Masen est l'agence publique chargée des énergies renouvelables au Maroc. Le pays veut produire une grande part de son électricité à partir du soleil et du vent.",
-    "context_ar": "مازن هي الوكالة العمومية المكلفة بالطاقات المتجددة في المغرب، والبلد يسعى لإنتاج جزء كبير من كهربائه من الشمس والرياح.",
-    "figures": [
-     {
-      "d": "Capacité minimale totale du programme.",
-      "d_ar": "الحد الأدنى للقدرة الإجمالية للبرنامج.",
-      "n": "350 MW",
-      "n_ar": "350 ميغاواط"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Panneaux qui transforment directement la lumière du soleil en électricité.",
-      "d_ar": "ألواح تحوّل ضوء الشمس مباشرة إلى كهرباء.",
-      "t": "Photovoltaïque (PV)",
-      "t_ar": "الكهروضوئية"
-     }
-    ]
-   },
-   "image": "https://fr.le360.ma/resizer/v2/NYKLSNVLL5FFRF2T25FBDMS6MQ.jpg?auth=1c7e4837c032b0a4149a5919db81e4e92621ce5247ef069b887a9ef66b0fd10b&smart=true&width=1200&height=630",
-   "source": "Le360",
-   "sub": "economie",
-   "summary": "Masen ouvre la préqualification du programme Noor PV Multisites : des centrales photovoltaïques réparties dans plusieurs régions, construites et entretenues par les entreprises retenues. Les candidatures sont ouvertes jusqu'au 30 novembre.",
-   "summary_ar": "فتحت الوكالة المغربية للطاقة المستدامة (مازن) باب التأهيل لبرنامج «نور PV متعدد المواقع»: محطات شمسية موزعة على عدة جهات تبنيها وتصونها الشركات المختارة. وتمتد آجال الترشح إلى 30 نونبر.",
-   "title": "Énergie solaire : Masen lance un appel pour au moins 350 MW sur plusieurs sites",
-   "title_ar": "الطاقة الشمسية: مازن تطلق طلب تأهيل لمحطات بقدرة 350 ميغاواط على الأقل",
-   "url": "https://fr.le360.ma/economie/energies-renouvelables-masen-lance-la-prequalification-du-programme-solaire-noor-pv-multisites_VLYUBUI3EFH5DI6WGWL3FGGLYM/"
-  },
-  {
-   "cat": "maroc",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "L'acide phosphorique purifié sert dans l'alimentation, l'industrie et l'électronique. Il rapporte plus que les engrais classiques.",
-    "context_ar": "يُستعمل حمض الفوسفوريك المنقّى في الصناعات الغذائية والصناعة والإلكترونيات، ومردوده أعلى من الأسمدة العادية.",
-    "figures": [
-     {
-      "d": "Capacité annuelle d'Emaphos, environ.",
-      "d_ar": "الطاقة الإنتاجية السنوية لإيمافوس تقريباً.",
-      "n": "300 000 t",
-      "n_ar": "300 ألف طن"
-     }
-    ],
-    "terms": []
-   },
-   "image": "https://medias24.com/content/uploads/2026/10/14/emaphos-e1791975854243.webp",
-   "source": "Médias24",
-   "sub": "economie",
-   "summary": "Le groupe OCP prévoit de racheter les parts de ses partenaires belge et allemand dans Emaphos, qui produit de l'acide phosphorique purifié. L'opération doit se conclure début 2027, et les deux partenaires resteront des clients stratégiques.",
-   "summary_ar": "يعتزم مجمع OCP شراء حصص شريكيه البلجيكي والألماني في «إيمافوس» التي تنتج حمض الفوسفوريك المنقّى. ويُنتظر إتمام الصفقة في بداية 2027، مع بقاء الشريكين شريكين تجاريين استراتيجيين.",
-   "title": "OCP veut racheter la totalité d'Emaphos, à Jorf Lasfar",
-   "title_ar": "المكتب الشريف للفوسفاط يسعى إلى السيطرة الكاملة على «إيمافوس» بالجرف الأصفر",
-   "url": "https://medias24.com/2026/10/14/le-groupe-ocp-vise-le-controle-total-demaphos-1778879/"
-  },
-  {
-   "cat": "maroc",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Le Toubkal (4 167 m) est le plus haut sommet d'Afrique du Nord, près de Marrakech. La neige y tombe d'habitude plutôt à partir de fin octobre.",
-    "context_ar": "توبقال (4167 متراً) أعلى قمة في شمال أفريقيا، قرب مراكش. وعادة ما تتساقط فيه الثلوج ابتداءً من أواخر أكتوبر.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Poche d'air très froid en altitude, qui peut provoquer pluie, orages ou neige.",
-      "d_ar": "كتلة هواء بارد جداً في طبقات الجو العليا قد تسبب أمطاراً أو عواصف أو ثلوجاً.",
-      "t": "Goutte froide",
-      "t_ar": "الجيب البارد"
-     }
-    ]
-   },
-   "image": "https://medias24.com/content/uploads/2026/01/22/far-avanlance-neige-toubkal-e1769079736454.jpg",
-   "source": "Médias24",
-   "sub": "societe",
-   "summary": "Une masse d'air froid en altitude a apporté de la neige au-dessus d'environ 3 000 mètres dans le Haut Atlas. Selon la météo nationale, c'est la première fois qu'elle tombe si tôt dans le bassin du Tensift depuis le début des mesures en 2015.",
-   "summary_ar": "جلبت كتلة هوائية باردة في طبقات الجو العليا ثلوجاً فوق نحو 3000 متر في الأطلس الكبير. وحسب المديرية العامة للأرصاد الجوية، هذه أول مرة تتساقط فيها الثلوج بهذا التبكير في حوض تانسيفت منذ بداية الرصد سنة 2015.",
-   "title": "Neige sur le Toubkal début octobre : une première depuis 2015",
-   "title_ar": "ثلوج على توبقال في بداية أكتوبر: سابقة منذ 2015",
-   "url": "https://medias24.com/2026/10/14/neige-au-toubkal-un-episode-precoce-inedit-depuis-2015-selon-la-dgm-1779121/"
-  },
-  {
    "cat": "ia",
    "date": "2026-10-14",
    "explain": {
@@ -3959,576 +4490,6 @@
    "title": "Maroc : Anthropic gagne en justice le droit d'enregistrer sa marque",
    "title_ar": "المغرب: أنثروبيك تكسب حكماً قضائياً يسمح بتسجيل علامتها التجارية",
    "url": "https://medias24.com/2026/10/14/exclusif-anthropic-fait-sauter-le-veto-de-lompic-sur-sa-marque-1778851/"
-  },
-  {
-   "cat": "ia",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Une opération d'influence cherche à orienter l'opinion d'un pays avec des contenus trompeurs. Les entreprises d'IA publient régulièrement des rapports sur ces abus.",
-    "context_ar": "عملية التأثير تسعى إلى توجيه الرأي العام في بلد ما بمحتوى مضلل، وشركات الذكاء الاصطناعي تنشر بانتظام تقارير عن هذه الاستعمالات المسيئة.",
-    "figures": [],
-    "terms": []
-   },
-   "image": "https://f2.hespress.com/wp-content/uploads/2023/12/OpenAI_Microsoft_NYT.jpg",
-   "source": "Hespress",
-   "summary": "OpenAI dit avoir stoppé deux réseaux qui utilisaient ChatGPT pour produire de faux contenus : l'un visait l'Amérique latine, l'autre publiait de faux articles signés par des journalistes inventés. L'entreprise a bloqué les comptes concernés.",
-   "summary_ar": "أعلنت أوبن إيه آي أنها أوقفت شبكتين استعملتا ChatGPT لإنتاج محتوى مضلل: الأولى استهدفت أمريكا اللاتينية، والثانية نشرت مقالات مزيفة بأسماء صحفيين وهميين. وقد حظرت الشركة الحسابات المعنية.",
-   "title": "OpenAI coupe deux campagnes d'influence liées à la Russie et à l'Iran",
-   "title_ar": "أوبن إيه آي توقف حملتي تضليل مرتبطتين بروسيا وإيران",
-   "url": "https://fr.hespress.com/492011-openai-demantele-deux-operations-dinfluence-liees-a-la-russie-et-a-liran.html"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Le Masters de Shanghai est l'un des neuf tournois Masters 1000, juste en dessous des Grands Chelems. Les points gagnés comptent pour la qualification aux ATP Finals de Turin.",
-    "context_ar": "دورة شنغهاي واحدة من تسع دورات ماسترز 1000، مباشرة بعد البطولات الكبرى، ونقاطها تُحتسب للتأهل إلى نهائيات ATP في تورينو.",
-    "figures": [],
-    "terms": []
-   },
-   "image": "https://www.atptour.com/-/media/images/news/2026/10/14/12/07/med-shanghai-2026-wednesday.jpg",
-   "source": "ATP Tour",
-   "sport": "tennis",
-   "summary": "Medvedev, vainqueur à Shanghai en 2019, s'est imposé 6-4 7-5 sans concéder de balle de break. En quarts, il affronte l'Américain Tommy Paul, qui a sorti Zizou Bergs, le tombeur d'Alcaraz.",
-   "summary_ar": "فاز ميدفيديف، بطل شنغهاي سنة 2019، بنتيجة 6-4 و7-5 دون أن يواجه أي فرصة لكسر إرساله. وفي ربع النهائي يلاقي الأمريكي تومي بول الذي أقصى زيزو بيرغس، المتغلب على ألكاراس.",
-   "title": "Shanghai : Medvedev bat Tsitsipas sans perdre un set et retrouve Paul en quarts",
-   "title_ar": "شنغهاي: ميدفيديف يتجاوز تسيتسيباس دون خسارة أي مجموعة ويواجه بول في ربع النهائي",
-   "url": "https://www.atptour.com/en/news/medvedev-tsitsipas-shanghai-2026-wednesday"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Les grands clubs européens comptent beaucoup de jeunes d'origine marocaine dans leurs centres de formation. Certains choisissent ensuite de jouer pour les Lions de l'Atlas.",
-    "context_ar": "تضم الأندية الأوروبية الكبرى في مراكز تكوينها شباناً كثيرين من أصول مغربية، ويختار بعضهم لاحقاً اللعب لأسود الأطلس.",
-    "figures": [],
-    "terms": []
-   },
-   "image": "https://f2.hespress.com/wp-content/overlay/2026/10/mouakk.jpg?v2",
-   "source": "Hespress",
-   "sport": "football",
-   "summary": "Formé au club, Adam Mouak a été convoqué comme troisième gardien pour le déplacement à Manchester City en Ligue des champions. Il profite de la blessure d'Alessandro Longoni.",
-   "summary_ar": "استُدعي آدم مواك، خريج أكاديمية النادي، كحارس ثالث لمباراة مانشستر سيتي في دوري أبطال أوروبا، مستفيداً من إصابة أليساندرو لونغوني.",
-   "title": "PSG : Adam Mouak, gardien marocain de 17 ans, appelé par Luis Enrique",
-   "title_ar": "باريس سان جيرمان: لويس إنريكي يستدعي الحارس المغربي آدم مواك (17 سنة)",
-   "url": "https://fr.hespress.com/492080-adam-mouak-le-jeune-gardien-marocain-convoque-par-luis-enrique.html"
-  },
-  {
-   "cat": "maroc",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Après les élections, une nouvelle coalition prend la direction de la Chambre et laisse l'ancien chef de la majorité, le RNI, de côté.",
-    "context_ar": "بعد الانتخابات، يتولى ائتلاف جديد قيادة المجلس ويُبعد التجمع الوطني للأحرار الذي كان يقود الأغلبية السابقة.",
-    "figures": [
-     {
-      "d": "Plus de la moitié des votes exprimés : une victoire nette, même si 90 bulletins étaient nuls.",
-      "d_ar": "أكثر من نصف الأصوات المعبّر عنها، فوز واضح رغم وجود 90 ورقة ملغاة.",
-      "n": "220 voix sur 369",
-      "n_ar": "220 صوتاً من 369"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Les partis qui s'allient pour voter les lois et soutenir le gouvernement.",
-      "d_ar": "الأحزاب المتحالفة لتمرير القوانين ودعم الحكومة.",
-      "t": "majorité",
-      "t_ar": "الأغلبية"
-     }
-    ]
-   },
-   "image": "",
-   "source": "Morocco World News",
-   "sub": "politique",
-   "summary": "Ahmed Touizi, du PAM, a été élu président de la Chambre avec 220 voix sur 369 votants, contre 59 pour le candidat du PJD. Le roi l'a félicité ; la nouvelle majorité réunit le PAM, l'Istiqlal, l'USFP et le PPS, sans le RNI.",
-   "summary_ar": "انتُخب أحمد التويزي من حزب الأصالة والمعاصرة رئيساً لمجلس النواب بحصوله على 220 صوتاً من أصل 369 مصوتاً، مقابل 59 للمرشح عن العدالة والتنمية. وهنأه الملك، فيما تضم الأغلبية الجديدة الأصالة والمعاصرة والاستقلال والاتحاد الاشتراكي والتقدم والاشتراكية دون التجمع الوطني للأحرار.",
-   "title": "Parlement : Ahmed Touizi élu président de la Chambre des représentants",
-   "title_ar": "البرلمان: أحمد التويزي رئيساً لمجلس النواب",
-   "url": "https://www.moroccoworldnews.com/2026/10/342156/king-mohammed-vi-congratulates-ahmed-touizi-on-election-as-speaker-of-house-of-representatives/"
-  },
-  {
-   "cat": "maroc",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Les commissions permanentes préparent et examinent les projets de loi avant le vote en séance : qui les préside compte beaucoup.",
-    "context_ar": "تدرس اللجان الدائمة مشاريع القوانين وتهيّئها قبل التصويت في الجلسة العامة، ولذلك فمن يترأسها له وزن كبير.",
-    "figures": [
-     {
-      "d": "Quasi-unanimité : la liste était commune, donc presque tout le monde l'a votée.",
-      "d_ar": "شبه إجماع، لأن اللائحة كانت مشتركة فصوّت لها تقريباً الجميع.",
-      "n": "293 voix sur 295",
-      "n_ar": "293 صوتاً من 295"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Petits groupes de députés qui étudient les lois en détail avant le vote de la Chambre entière.",
-      "d_ar": "مجموعات صغيرة من النواب تدرس القوانين بتفصيل قبل تصويت المجلس كاملاً.",
-      "t": "commissions permanentes",
-      "t_ar": "اللجان الدائمة"
-     }
-    ]
-   },
-   "image": "https://i1.hespress.com/wp-content/overlay/2026/10/Parlement-7.jpg",
-   "source": "Hespress",
-   "sub": "politique",
-   "summary": "La Chambre a élu ses huit vice-présidents et réparti les présidences de neuf commissions permanentes sur une liste unique, adoptée par 293 voix sur 295. Mohamed Ghayath (RNI) préside la commission de la Justice et de la Législation.",
-   "summary_ar": "انتخب مجلس النواب نوابه الثمانية ووزّع رئاسة لجانه الدائمة التسع بلائحة وحيدة نالت 293 صوتاً من 295. ويترأس محمد غياث من التجمع الوطني للأحرار لجنة العدل والتشريع.",
-   "title": "Chambre des représentants : le bureau et les neuf commissions permanentes sont formés",
-   "title_ar": "مجلس النواب: انتخاب المكتب ورؤساء اللجان الدائمة التسع",
-   "url": "https://www.hespress.com/%d9%85%d8%ac%d9%84%d8%b3-%d8%a7%d9%84%d9%86%d9%88%d8%a7%d8%a8-%d9%8a%d9%86%d8%aa%d8%ae%d8%a8-%d9%86%d9%88%d8%a7%d8%a8-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a7%d9%84%d8%ab%d9%85%d8%a7%d9%86%d9%8a-1822841.html"
-  },
-  {
-   "cat": "maroc",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Le prix à la pompe dépend du pétrole acheté à l'étranger et des taxes de l'État. Le rapport propose des pistes pour le faire baisser.",
-    "context_ar": "يتوقف سعر المحطة على النفط المشترى من الخارج وعلى ضرائب الدولة، ويقترح التقرير سبلاً لخفضه.",
-    "figures": [
-     {
-      "d": "Une somme énorme : plus que le budget annuel de plusieurs ministères réunis.",
-      "d_ar": "مبلغ ضخم يفوق ميزانية عدة وزارات مجتمعة سنوياً.",
-      "n": "120 milliards de dirhams",
-      "n_ar": "120 مليار درهم"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Impôt fixe ajouté à chaque litre de carburant vendu, quel que soit son prix d'achat.",
-      "d_ar": "ضريبة ثابتة تُضاف إلى كل لتر وقود مباع مهما كان سعر شرائه.",
-      "t": "taxe de consommation",
-      "t_ar": "ضريبة الاستهلاك"
-     },
-     {
-      "d": "Usine qui transforme le pétrole brut en essence et gasoil.",
-      "d_ar": "مصنع يحوّل النفط الخام إلى بنزين وغازوال.",
-      "t": "raffinerie",
-      "t_ar": "مصفاة"
-     }
-    ]
-   },
-   "image": "https://i1.hespress.com/wp-content/overlay/2025/05/Carburant-a-la-baisse.jpeg",
-   "source": "Hespress",
-   "sub": "economie",
-   "summary": "Un rapport estime le prix de référence du litre à 13,38 dirhams : 56 % vient de l'achat et du transport à l'international, 28,1 % de la taxe de consommation. Depuis l'arrêt de la raffinerie Samir, le Maroc importe 94 % de ses produits raffinés, pour plus de 120 milliards de dirhams par an.",
-   "summary_ar": "يقدّر تقرير سعر اللتر المرجعي بـ13.38 درهماً، منها 56% كلفة الشراء والنقل دولياً و28.1% ضريبة استهلاك داخلية. ومنذ توقف مصفاة سامير يستورد المغرب 94% من المنتجات المكررة بأكثر من 120 مليار درهم سنوياً.",
-   "title": "Carburants : 13,38 dirhams le litre, une facture surtout importée et taxée",
-   "title_ar": "المحروقات: 13.38 درهماً للتر، فاتورة مستوردة ومثقلة بالضرائب",
-   "url": "https://www.hespress.com/%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d9%88%d9%81%d8%b1%d8%a9-%d8%a7%d9%84%d9%85%d8%ad%d8%b1%d9%88%d9%82%d8%a7%d8%aa-%d8%a8%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d8%aa%d8%b5%d8%b7%d8%af%d9%85-%d8%a8%d8%ba-1822650.html"
-  },
-  {
-   "cat": "maroc",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Le Maroc mise sur le train pour relier ses villes et ses ports, avant la Coupe du monde 2030 qu'il organise avec l'Espagne et le Portugal.",
-    "context_ar": "يراهن المغرب على القطار لربط مدنه وموانئه قبل مونديال 2030 الذي ينظمه مع إسبانيا والبرتغال.",
-    "figures": [
-     {
-      "d": "Environ 13,5 milliards de dollars, étalés sur quatre ans environ.",
-      "d_ar": "حوالي 13.5 مليار دولار موزعة على نحو أربع سنوات.",
-      "n": "134 milliards de dirhams",
-      "n_ar": "134 مليار درهم"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Trains qui roulent à plus de 250 km/h, comme le TGV Al Boraq entre Tanger et Casablanca.",
-      "d_ar": "قطارات تتجاوز سرعتها 250 كلم/س مثل البراق بين طنجة والدار البيضاء.",
-      "t": "grande vitesse",
-      "t_ar": "فائق السرعة"
-     }
-    ]
-   },
-   "image": "",
-   "source": "Morocco World News",
-   "sub": "economie",
-   "summary": "Le ministre du Transport, Abdessamad Kayouh, a annoncé à Rabat un programme de 134 milliards de dirhams : prolongement de la grande vitesse de Kénitra à Marrakech, liaison du port Nador West Med et 168 nouveaux trains.",
-   "summary_ar": "أعلن وزير النقل عبد الصمد قيوح في الرباط برنامجاً بقيمة 134 مليار درهم يشمل تمديد القطار فائق السرعة من القنيطرة إلى مراكش وربط ميناء الناظور غرب المتوسط واقتناء 168 قطاراً جديداً.",
-   "title": "Rail : le Maroc prévoit 134 milliards de dirhams d'investissements d'ici 2030",
-   "title_ar": "السكك الحديدية: المغرب يرصد 134 مليار درهم إلى غاية 2030",
-   "url": "https://www.moroccoworldnews.com/2026/10/342134/morocco-allocates-13-billion-to-railway-development-by-2030/"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Deuxième journée de la Ligue des champions : la phase de ligue réunit 36 clubs dans un seul classement.",
-    "context_ar": "الجولة الثانية من دوري الأبطال، وتجمع مرحلة الدوري 36 نادياً في ترتيب واحد.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Première étape de la Ligue des champions : chaque club joue huit matchs contre des adversaires différents.",
-      "d_ar": "المرحلة الأولى من دوري الأبطال، يلعب فيها كل نادٍ ثماني مباريات ضد خصوم مختلفين.",
-      "t": "phase de ligue",
-      "t_ar": "مرحلة الدوري"
-     }
-    ]
-   },
-   "image": "",
-   "source": "Morocco World News",
-   "sport": "football",
-   "summary": "Au Stade olympique de Rome, le Real (vainqueur 2-1 de l'Inter) joue son premier match à l'extérieur de la phase de ligue. La Roma, tenue en échec à Fenerbahçe, sera sans Svilar ni Cristante ; Madrid sans Militão, Rodrygo, Mendy et Asencio.",
-   "summary_ar": "على الملعب الأولمبي في روما، يخوض ريال مدريد (الفائز 2-1 على إنتر) أول مباراة خارج أرضه في مرحلة الدوري. وتغيب عن روما الحارس سفيلار وكريستانتي، ويفتقد الريال ميليتاو ورودريغو ومندي وأسينسيو.",
-   "title": "Roma – Real Madrid ce soir : Mourinho retrouve son ancien club",
-   "title_ar": "روما – ريال مدريد الليلة: مورينيو يلتقي ناديه السابق",
-   "url": "https://www.moroccoworldnews.com/2026/10/342133/real-madrid-vs-roma-how-when-to-watch-champions-league-match/"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "La CAF dirige le football africain et organise la CAN, un sujet très suivi au Maroc.",
-    "context_ar": "يدير الكاف كرة القدم الإفريقية وينظم كأس إفريقيا، وهو موضوع يتابعه المغاربة باهتمام.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Période pendant laquelle une personne reste élue à un poste, ici quatre ans.",
-      "d_ar": "المدة التي يبقى فيها شخص منتخباً في منصب، وهي هنا أربع سنوات.",
-      "t": "mandat",
-      "t_ar": "ولاية"
-     }
-    ]
-   },
-   "image": "",
-   "source": "Morocco World News",
-   "sport": "football",
-   "summary": "Quatre noms circulent dans la presse : Samuel Eto'o, Ahmed Yahya, Yacine Idriss Diallo et Souleiman Waberi. Motsepe, président depuis 2021, a dit qu'il ne briguerait pas de troisième mandat en 2029 ; aucun candidat ne s'est déclaré.",
-   "summary_ar": "تتداول الصحافة أربعة أسماء هي صامويل إيتو وأحمد يحيى وياسين إدريس ديالو وسليمان وابري. وقال موتسيبي، رئيس الكاف منذ 2021، إنه لن يترشح لولاية ثالثة في 2029، ولم يعلن أي مرشح رسمياً.",
-   "title": "CAF : qui pour succéder à Patrice Motsepe ?",
-   "title_ar": "الكاف: من يخلف باتريس موتسيبي؟",
-   "url": "https://www.moroccoworldnews.com/2026/10/342130/who-are-the-potential-successors-to-caf-president-patrice-motsepe/"
-  },
-  {
-   "cat": "eco",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "La guerre au Moyen-Orient fait monter le pétrole, donc les prix aux États-Unis. La banque centrale américaine réagit en augmentant ses taux.",
-    "context_ar": "تؤدي الحرب في الشرق الأوسط إلى ارتفاع النفط ومعه الأسعار في أمريكا، ويردّ البنك المركزي الأمريكي برفع الفائدة.",
-    "figures": [
-     {
-      "d": "La banque centrale vise environ 2 % : on est donc bien au-dessus de l'objectif.",
-      "d_ar": "يستهدف البنك المركزي نحو 2%، فالرقم أعلى بكثير من الهدف.",
-      "n": "3,7 %",
-      "n_ar": "3.7%"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Hausse générale des prix : avec 3,7 %, un panier de courses à 100 $ coûte 103,70 $ un an plus tard.",
-      "d_ar": "ارتفاع عام للأسعار: بنسبة 3.7% تصبح سلة بـ100 دولار 103.7 دولاراً بعد عام.",
-      "t": "inflation",
-      "t_ar": "التضخم"
-     },
-     {
-      "d": "La banque centrale des États-Unis. Quand elle monte ses taux, les crédits coûtent plus cher dans le monde entier.",
-      "d_ar": "البنك المركزي الأمريكي. عندما يرفع فائدته تصبح القروض أغلى في العالم كله.",
-      "t": "la Fed",
-      "t_ar": "الاحتياطي الفيدرالي"
-     }
-    ]
-   },
-   "image": "",
-   "source": "Al Jazeera",
-   "summary": "Les prix ont augmenté de 3,7 % sur un an (3,4 % en août), tirés par l'essence (+9,1 % en un mois). La Fed a relevé son taux de 0,25 point le mois dernier, et les marchés donnent 47 % de chances d'une nouvelle hausse fin octobre.",
-   "summary_ar": "ارتفعت الأسعار 3.7% على أساس سنوي (3.4% في أغسطس) بدفع من البنزين (+9.1% في شهر). ورفع الاحتياطي الفيدرالي فائدته بـ0.25 نقطة الشهر الماضي، وترى الأسواق احتمالاً بنسبة 47% لزيادة جديدة نهاية أكتوبر.",
-   "title": "États-Unis : l'inflation monte à 3,7 % en septembre, la hausse des taux guette",
-   "title_ar": "أمريكا: التضخم يرتفع إلى 3.7% في سبتمبر وخطر رفع الفائدة",
-   "url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
-  },
-  {
-   "cat": "eco",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Le détroit d'Ormuz, par où passe une grande part du pétrole du Golfe, est menacé : les prix montent à chaque risque pour les livraisons.",
-    "context_ar": "يتعرض مضيق هرمز الذي يمر عبره جزء كبير من نفط الخليج للتهديد، فترتفع الأسعار مع كل خطر على الإمدادات.",
-    "figures": [
-     {
-      "d": "Très cher : le baril valait autour de 70 à 80 $ avant la crise.",
-      "d_ar": "غالٍ جداً، فقد كان البرميل بين 70 و80 دولاراً قبل الأزمة.",
-      "n": "106,50 $",
-      "n_ar": "106.5 دولارات"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Prix de référence du pétrole en Europe et en Afrique, dont dépend le prix de l'essence au Maroc.",
-      "d_ar": "السعر المرجعي للنفط في أوروبا وإفريقيا، ويتأثر به سعر البنزين في المغرب.",
-      "t": "Brent",
-      "t_ar": "برنت"
-     },
-     {
-      "d": "Unité du pétrole : environ 159 litres.",
-      "d_ar": "وحدة قياس النفط: نحو 159 لتراً.",
-      "t": "baril",
-      "t_ar": "البرميل"
-     }
-    ]
-   },
-   "image": "",
-   "source": "Morocco World News",
-   "summary": "Le Brent gagne 0,77 % à 106,50 $ le baril et le WTI 1,25 % à 95,32 $, après de nouvelles attaques houthies contre l'Arabie saoudite. L'AIE note que l'offre mondiale a progressé de 2,5 millions de barils par jour en septembre, mais reste fragile.",
-   "summary_ar": "يرتفع برنت 0.77% إلى 106.5 دولارات للبرميل وغرب تكساس 1.25% إلى 95.32 دولاراً، بعد هجمات حوثية جديدة على السعودية. وتشير وكالة الطاقة الدولية إلى أن العرض العالمي زاد 2.5 مليون برميل يومياً في سبتمبر لكنه يظل هشاً.",
-   "title": "Pétrole : le Brent à 106,50 dollars, les tensions au Moyen-Orient pèsent",
-   "title_ar": "النفط: برنت عند 106.5 دولارات والتوترات في الشرق الأوسط تضغط",
-   "url": "https://www.moroccoworldnews.com/2026/10/342145/oil-prices-rise-middle-east-tensions-continue-to-threaten-global-supply/"
-  },
-  {
-   "cat": "geo",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Sans engrais, les récoltes baissent : le blocage d'un passage maritime peut donc faire monter le prix de la nourriture en Asie et en Afrique.",
-    "context_ar": "دون أسمدة تتراجع المحاصيل، فإغلاق ممر بحري قد يرفع أسعار الغذاء في آسيا وإفريقيا.",
-    "figures": [
-     {
-      "d": "Une part énorme du marché mondial passe par un seul détroit.",
-      "d_ar": "حصة ضخمة من السوق العالمية تمر عبر مضيق واحد.",
-      "n": "un tiers",
-      "n_ar": "الثلث"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Engrais azoté très utilisé pour faire pousser blé, riz et maïs.",
-      "d_ar": "سماد آزوتي يستخدم بكثرة لزراعة القمح والأرز والذرة.",
-      "t": "urée",
-      "t_ar": "اليوريا"
-     }
-    ]
-   },
-   "image": "",
-   "source": "Al Jazeera",
-   "summary": "Un haut responsable de l'ONU demande à l'Iran et aux États-Unis d'approuver vite un centre de coordination à Oman, pour faire passer les cargaisons d'engrais. Avant la guerre, un tiers de l'urée mondiale transitait par le détroit.",
-   "summary_ar": "يطالب مسؤول أممي رفيع إيران والولايات المتحدة بالموافقة سريعاً على مركز تنسيق في سلطنة عمان لتمرير شحنات الأسمدة. وقبل الحرب كان ثلث اليوريا العالمية يعبر المضيق.",
-   "title": "Ormuz : l'ONU alerte sur une crise alimentaire si le plan pour les engrais traîne",
-   "title_ar": "هرمز: الأمم المتحدة تحذر من أزمة غذاء إن تعثرت خطة الأسمدة",
-   "url": "https://www.aljazeera.com/news/2026/10/14/un-official-warns-of-looming-food-crisis-as-hormuz-fertiliser-plan-stalls"
-  },
-  {
-   "cat": "geo",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Le premier cas est mort à Nairobi après un voyage depuis la RD Congo via l'Ouganda ; les contrôles aux frontières sont en question.",
-    "context_ar": "توفي المريض الأول في نيروبي بعد سفره من الكونغو عبر أوغندا، ما يثير الشكوك حول مراقبة الحدود.",
-    "figures": [
-     {
-      "d": "Une épidémie très étendue, parmi les plus graves d'Ebola.",
-      "d_ar": "وباء واسع جداً من أخطر أوبئة إيبولا.",
-      "n": "9 000 cas",
-      "n_ar": "9000 إصابة"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Isolement des personnes qui ont pu être contaminées, pour éviter la propagation.",
-      "d_ar": "عزل من قد يكونون أصيبوا بالعدوى لمنع انتشارها.",
-      "t": "quarantaine",
-      "t_ar": "الحجر الصحي"
-     }
-    ]
-   },
-   "image": "",
-   "source": "Al Jazeera",
-   "summary": "Un homme de 39 ans, proche du premier malade, est tombé malade en quarantaine. Le Kenya est le quatrième pays touché par l'épidémie partie de RD Congo, qui dépasse 9 000 cas et 4 000 morts.",
-   "summary_ar": "رجل في التاسعة والثلاثين من قريب المريض الأول أصيب أثناء الحجر الصحي. وكينيا رابع بلد تسجل حالة مرتبطة بالوباء الذي بدأ في الكونغو الديمقراطية وتجاوز 9000 إصابة و4000 وفاة.",
-   "title": "Ebola : le Kenya confirme un deuxième cas",
-   "title_ar": "إيبولا: كينيا تؤكد حالة ثانية",
-   "url": "https://www.aljazeera.com/news/2026/10/14/kenyas-health-ministry-confirms-second-ebola-case"
-  },
-  {
-   "cat": "ia",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Les plateformes de musique sont inondées de titres faits par IA et choisissent des règles différentes.",
-    "context_ar": "تغرق منصات الموسيقى بأغانٍ مصنوعة بالذكاء الاصطناعي وتختار كل منصة قواعد مختلفة.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Le fait de gagner de l'argent avec un contenu, par exemple grâce aux publicités.",
-      "d_ar": "كسب المال من محتوى ما مثل الإعلانات.",
-      "t": "monétisation",
-      "t_ar": "تحقيق الأرباح"
-     }
-    ]
-   },
-   "image": "",
-   "source": "TechCrunch",
-   "summary": "Les créateurs doivent déclarer si un titre est entièrement, en partie ou pas du tout généré par IA ; l'étiquette s'affiche dans le lecteur. YouTube met la transparence en avant sans interdire ni couper la monétisation.",
-   "summary_ar": "على المبدعين التصريح بما إذا كانت الأغنية مولّدة بالكامل أو جزئياً أو غير مولّدة بالذكاء الاصطناعي، وتظهر الوسم في المشغّل. وتركز يوتيوب على الشفافية دون منع أو إيقاف للربح.",
-   "title": "YouTube Music étiquette les chansons créées avec l'IA",
-   "title_ar": "يوتيوب ميوزيك يضع وسوماً على الأغاني المنتجة بالذكاء الاصطناعي",
-   "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/"
-  },
-  {
-   "cat": "ia",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Deezer détecte les titres IA depuis 2025 et les exclut déjà de ses recommandations.",
-    "context_ar": "ترصد ديزر الأغاني المولّدة منذ 2025 وتستبعدها أصلاً من توصياتها.",
-    "figures": [
-     {
-      "d": "Un flot que personne ne pourrait écouter : les humains ne font plus que la moitié des nouveautés.",
-      "d_ar": "سيل لا يمكن لأحد سماعه، فالبشر لم يعودوا ينتجون سوى نصف الجديد.",
-      "n": "90 000 par jour",
-      "n_ar": "90 ألفاً يومياً"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Réglage qui cache ce que l'on ne veut pas voir.",
-      "d_ar": "إعداد يخفي ما لا نريد رؤيته.",
-      "t": "filtre",
-      "t_ar": "فلتر"
-     }
-    ]
-   },
-   "image": "",
-   "source": "TechCrunch",
-   "summary": "Le filtre cacherait les titres IA dans la recherche d'ici la fin 2026. Ces titres représentent plus de 50 % des envois quotidiens, environ 90 000 par jour, contre 10 % début 2025.",
-   "summary_ar": "سيخفي الفلتر الأغاني المولّدة في البحث قبل نهاية 2026، وهي تمثل أكثر من 50% من الملفات اليومية أي نحو 90 ألفاً يومياً، مقابل 10% مطلع 2025.",
-   "title": "Deezer prépare un bouton pour masquer la musique générée par IA",
-   "title_ar": "ديزر تعدّ زراً لإخفاء الموسيقى المولّدة بالذكاء الاصطناعي",
-   "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/"
-  },
-  {
-   "cat": "ia",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Les entreprises cherchent des outils de discussion internes plus sûrs que les applications grand public.",
-    "context_ar": "تبحث الشركات عن أدوات تواصل داخلية أكثر أماناً من التطبيقات العامة.",
-    "figures": [
-     {
-      "d": "Environ 440 millions de dirhams : un tour de financement important pour une petite équipe.",
-      "d_ar": "نحو 440 مليون درهم، جولة تمويل كبيرة لفريق صغير.",
-      "n": "44 millions de dollars",
-      "n_ar": "44 مليون دولار"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Jeune entreprise innovante qui cherche à grandir vite.",
-      "d_ar": "شركة شابة مبتكرة تسعى للنمو بسرعة.",
-      "t": "start-up",
-      "t_ar": "شركة ناشئة"
-     }
-    ]
-   },
-   "image": "",
-   "source": "TechCrunch",
-   "summary": "La start-up fondée en 2022 compte FedEx, Starbucks et Taco Bell parmi ses clients, emploie environ 50 personnes et facture à partir de 51 $ par mois pour 20 utilisateurs. Bessemer et Lightspeed ont financé le tour.",
-   "summary_ar": "تضم الشركة الناشئة المؤسسة عام 2022 بين زبائنها فيديكس وستاربكس وتاكو بيل، ويعمل بها نحو 50 شخصاً وتبدأ أسعارها من 51 دولاراً شهرياً لـ20 مستخدماً. وموّلت الجولة بيسمر ولايتسبيد.",
-   "title": "Zenzap lève 44 millions de dollars pour une messagerie IA qui veut remplacer WhatsApp au travail",
-   "title_ar": "زينزاب تجمع 44 مليون دولار لتطبيق مراسلة بالذكاء الاصطناعي ينافس واتساب في العمل",
-   "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Giannis Antetokounmpo, star grecque de la NBA, a joué toute sa carrière à Milwaukee. Il vient d'arriver au Miami Heat et se confie avant le début de la nouvelle saison.",
-    "context_ar": "يانيس أنتيتوكونمبو نجم يوناني في دوري NBA، قضى مسيرته كلها مع ميلووكي. انتقل حديثاً إلى ميامي هيت ويتحدث عن بداياته قبل انطلاق الموسم الجديد.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Série de matchs amicaux avant la saison officielle. Les résultats ne comptent pas au classement ; ils servent à préparer l'équipe.",
-      "d_ar": "مباريات ودية قبل الموسم الرسمي. نتائجها لا تُحتسب في الترتيب، والهدف منها تحضير الفريق.",
-      "t": "Présaison",
-      "t_ar": "ما قبل الموسم"
-     }
-    ]
-   },
-   "image": "https://images.eurohoops.net/2026/10/d79a66e4-gettyimages-2297898644-950x500.jpg",
-   "source": "Eurohoops",
-   "sport": "basket",
-   "summary": "Dans le podcast de son frère Thanasis, Giannis Antetokounmpo parle de son arrivée au Heat, de son nouveau numéro 7 et de son envie de vivre « comme un papa normal ». Le Heat termine sa présaison contre Brooklyn et Orlando avant d'ouvrir la saison face à Minnesota.",
-   "summary_ar": "في بودكاست شقيقه ثاناسيس، تحدث يانيس أنتيتوكونمبو عن انتقاله إلى ميامي هيت وعن رقمه الجديد 7 ورغبته في العيش كأب عادي. ويختتم الهيت مبارياته الإعدادية أمام بروكلين وأورلاندو قبل افتتاح الموسم ضد مينيسوتا.",
-   "title": "NBA : Giannis raconte ses premiers jours à Miami",
-   "title_ar": "الدوري الأمريكي: يانيس أنتيتوكونمبو يروي أيامه الأولى في ميامي",
-   "url": "https://www.eurohoops.net/en/nba-news/2020681/giannis-antetokounmpo-talks-with-thanasis-antetokounmpo-thanalysis-show-nba/"
-  },
-  {
-   "cat": "ia",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "La Chine produit une grande partie des produits chimiques et matériaux rares dont le monde a besoin. Beaucoup de pays cherchent d'autres fournisseurs pour ne plus dépendre d'elle.",
-    "context_ar": "تنتج الصين جزءاً كبيراً من المواد الكيميائية والمعادن النادرة التي يحتاجها العالم، لذلك تبحث دول كثيرة عن مورّدين آخرين حتى لا تبقى مرتبطة بها.",
-    "figures": [
-     {
-      "d": "Le montant levé, soit environ 250 millions de dirhams. Pour une start-up, c'est une somme solide, qui permet de s'agrandir à l'étranger.",
-      "d_ar": "المبلغ الذي جمعته الشركة، أي حوالي 250 مليون درهم. بالنسبة لشركة ناشئة هو مبلغ مهم يسمح لها بالتوسع في الخارج.",
-      "n": "25 millions de dollars",
-      "n_ar": "25 مليون دولار"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Quand une start-up reçoit de l'argent d'investisseurs en échange d'une part de l'entreprise.",
-      "d_ar": "عندما تحصل شركة ناشئة على أموال من مستثمرين مقابل حصة من رأسمالها.",
-      "t": "Levée de fonds",
-      "t_ar": "جولة تمويل"
-     },
-     {
-      "d": "Matières indispensables à l'industrie (puces, batteries, armes) et difficiles à trouver ailleurs qu'auprès de quelques pays.",
-      "d_ar": "مواد ضرورية للصناعة (الرقائق، البطاريات، الأسلحة) ويصعب الحصول عليها إلا من دول قليلة.",
-      "t": "Matériaux critiques",
-      "t_ar": "المواد الحيوية"
-     },
-     {
-      "d": "Le fonds d'investissement du groupe japonais Hitachi, qui met de l'argent dans des start-up prometteuses.",
-      "d_ar": "صندوق الاستثمار التابع لمجموعة هيتاشي اليابانية، يموّل الشركات الناشئة الواعدة.",
-      "t": "Hitachi Ventures",
-      "t_ar": "هيتاشي فنتشرز"
-     }
-    ]
-   },
-   "image": "https://techcrunch.com/wp-content/uploads/2026/10/scimplify-co-founder-sachin-santhosh.jpg?resize=1200,800",
-   "source": "TechCrunch",
-   "summary": "La start-up indienne Scimplify utilise sa plateforme d'IA pour accélérer la fabrication de produits chimiques et de matériaux utiles aux puces, à la défense et à l'énergie. Menée par Hitachi Ventures, cette levée doit l'aider à s'installer aux États-Unis et à réduire la dépendance à la Chine.",
-   "summary_ar": "تعتمد الشركة الهندية الناشئة Scimplify على منصة ذكاء اصطناعي لتسريع صناعة مواد كيميائية ومعادن تحتاجها الرقائق والدفاع والطاقة. وتقود Hitachi Ventures هذا التمويل الذي سيساعدها على التوسع في الولايات المتحدة وتقليل الاعتماد على الصين.",
-   "title": "Scimplify lève 25 millions de dollars pour produire des matériaux critiques grâce à l'IA",
-   "title_ar": "Scimplify تجمع 25 مليون دولار لإنتاج المواد الحيوية بالذكاء الاصطناعي",
-   "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/"
-  },
-  {
-   "cat": "eco",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "L'Europe importe la plupart de son gaz. Elle le stocke l'été pour l'hiver. Quand les stocks sont bas et qu'un conflit touche les pays producteurs, les prix montent et les factures aussi.",
-    "context_ar": "تستورد أوروبا معظم غازها وتخزّنه في الصيف لفصل الشتاء. عندما تكون المخزونات منخفضة ويقع نزاع في الدول المنتجة، ترتفع الأسعار والفواتير.",
-    "figures": [
-     {
-      "d": "Le prix de gros du gaz. D'après le titre, c'est presque trois fois plus qu'avant la guerre avec l'Iran.",
-      "d_ar": "سعر الغاز في سوق الجملة. حسب العنوان، هو تقريباً ثلاثة أضعاف ما كان عليه قبل الحرب مع إيران.",
-      "n": "87 euros le MWh",
-      "n_ar": "87 يورو للميغاواط ساعة"
-     },
-     {
-      "d": "Les stocks n'avaient pas été aussi bas à cette période de l'année depuis 15 ans. L'Europe aborde l'hiver avec moins de réserves.",
-      "d_ar": "لم تكن المخزونات بهذا الانخفاض في هذه الفترة من السنة منذ 15 عاماً، أي أن أوروبا تدخل الشتاء باحتياطي أقل.",
-      "n": "2011",
-      "n_ar": "2011"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Unité d'énergie égale à 1 000 kWh. Un foyer européen consomme souvent plusieurs MWh de gaz par an pour se chauffer.",
-      "d_ar": "وحدة طاقة تساوي 1000 كيلوواط ساعة. تستهلك أسرة أوروبية عادة عدة ميغاواط ساعة من الغاز سنوياً للتدفئة.",
-      "t": "MWh (mégawattheure)",
-      "t_ar": "ميغاواط ساعة"
-     },
-     {
-      "d": "Réserves gardées sous terre en Europe pour tenir l'hiver. S'ils sont bas, le risque de manque fait monter les prix.",
-      "d_ar": "احتياطيات تُخزَّن تحت الأرض في أوروبا لتجاوز الشتاء. إذا انخفضت يزداد خطر النقص فترتفع الأسعار.",
-      "t": "Stocks de gaz",
-      "t_ar": "مخزونات الغاز"
-     }
-    ]
-   },
-   "image": "https://images.euronews.com/articles/stories/09/95/10/71/1200x675_cmsv2_5b8e065a-a1b8-5b9a-a942-41a5b0bf9b35-9951071.jpg",
-   "source": "Euronews",
-   "summary": "Le prix du gaz atteint environ 87 euros le MWh et les stocks européens sont à leur plus bas niveau depuis 2011 pour la saison. Bruxelles a l'électricité la plus chère, Stockholm le gaz le plus cher.",
-   "summary_ar": "بلغ سعر الغاز نحو 87 يورو للميغاواط ساعة، والمخزونات الأوروبية في أدنى مستوى لها منذ 2011 في هذا الوقت من السنة. وتسجل بروكسل أغلى كهرباء، وستوكهولم أغلى غاز.",
-   "title": "Hiver : le gaz presque trois fois plus cher en Europe qu'avant la guerre avec l'Iran",
-   "title_ar": "الشتاء: الغاز في أوروبا أغلى بنحو ثلاث مرات مما كان عليه قبل الحرب مع إيران",
-   "url": "https://www.euronews.com/2026/10/14/winter-energy-bills-where-are-gas-and-electricity-prices-highest-in-europe"
   },
   {
    "cat": "gaming",
@@ -4611,159 +4572,6 @@
    }
   },
   {
-   "cat": "gaming",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "God of War est une grande série de Sony sur PlayStation. Pour les gros jeux, les éditeurs vendent souvent des coffrets « collector » pleins d'objets pour les fans.",
-    "context_ar": "God of War سلسلة ألعاب كبيرة من سوني على بلايستيشن. في الألعاب الكبرى، يبيع الناشرون غالباً صناديق «كولكتور» مليئة بالقطع الخاصة بالمعجبين.",
-    "figures": [
-     {
-      "d": "Prix du coffret seul, environ 1 600 dirhams. Il faut ajouter le prix du jeu, souvent autour de 70-80 euros.",
-      "d_ar": "سعر الصندوق وحده، أي حوالي 1600 درهم، ويجب إضافة ثمن اللعبة الذي يكون عادة بين 70 و80 يورو.",
-      "n": "149,99 euros",
-      "n_ar": "149,99 يورو"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Version spéciale d'un jeu, plus chère, avec des objets (statue, livre…). Ici, le jeu lui-même n'est pas inclus.",
-      "d_ar": "نسخة خاصة وأغلى من اللعبة تحتوي على قطع (تمثال، كتاب…). وهنا اللعبة نفسها غير مضمّنة.",
-      "t": "Édition collector",
-      "t_ar": "نسخة كولكتور"
-     }
-    ]
-   },
-   "image": "https://www.videogameschronicle.com/files/2026/10/ae2b78ae3d605a74bb2f7e4594b322f1.jpg",
-   "source": "VGC",
-   "summary": "Sony dévoile un coffret avec une statue lumineuse de Faye, un jeu de 51 cartes et un petit livre d'illustrations, vendu 149,99 euros. Il sortira le 16 février 2027 sur PS5, le même jour que le jeu, qu'il faudra acheter à part.",
-   "summary_ar": "كشفت سوني عن صندوق يضم تمثالا مضيئا لشخصية فاي ومجموعة من 51 بطاقة وكتيب رسوم، بسعر 149,99 يورو. ويصدر في 16 فبراير 2027 على PS5 في نفس يوم صدور اللعبة التي يجب شراؤها منفصلة.",
-   "title": "God of War Laufey : un coffret collector à 150 dollars… sans le jeu",
-   "title_ar": "God of War Laufey: صندوق خاص بـ150 دولارا… بدون اللعبة",
-   "url": "https://www.videogameschronicle.com/news/god-of-war-laufeys-150-collector-box-has-been-revealed-doesnt-include-a-copy-of-the-game/",
-   "video": {
-    "channel": "PlayStation",
-    "id": "HLMX2w3cwuE",
-    "kind": "trailer",
-    "url": "https://www.youtube.com/watch?v=HLMX2w3cwuE"
-   }
-  },
-  {
-   "cat": "geo",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Israël et le Hezbollah libanais se sont affrontés à plusieurs reprises. L'armée israélienne occupe une bande au sud du Liban, le long de la frontière, malgré les accords de retrait.",
-    "context_ar": "تواجهت إسرائيل وحزب الله اللبناني عدة مرات. ويحتل الجيش الإسرائيلي شريطاً في جنوب لبنان على طول الحدود رغم اتفاقات الانسحاب.",
-    "figures": [
-     {
-      "d": "La profondeur de la zone tenue par Israël à partir de la frontière : de quoi couvrir de nombreux villages du sud.",
-      "d_ar": "عمق المنطقة التي تسيطر عليها إسرائيل انطلاقاً من الحدود، وهو ما يكفي لتغطية عدد كبير من قرى الجنوب.",
-      "n": "10 km",
-      "n_ar": "10 كلم"
-     },
-     {
-      "d": "Le nombre de villages frontaliers détruits, dont Khiam et Bint Jbeil : une région entière vidée de ses habitants.",
-      "d_ar": "عدد القرى الحدودية المدمرة، منها الخيام وبنت جبيل، أي منطقة كاملة أُفرغت من سكانها.",
-      "n": "une cinquantaine de villages",
-      "n_ar": "حوالي خمسين قرية"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Nom donné à la limite tracée par l'armée israélienne au sud du Liban. Les habitants ne peuvent pas aller au-delà.",
-      "d_ar": "اسم الحد الذي رسمه الجيش الإسرائيلي في جنوب لبنان، ولا يستطيع السكان تجاوزه.",
-      "t": "« Ligne jaune »",
-      "t_ar": "«الخط الأصفر»"
-     },
-     {
-      "d": "Personnes forcées de quitter leur maison mais restées dans leur propre pays.",
-      "d_ar": "أشخاص أُجبروا على مغادرة بيوتهم لكنهم بقوا داخل بلدهم.",
-      "t": "Déplacés",
-      "t_ar": "النازحون"
-     }
-    ]
-   },
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-29T125022Z_483732378_RC20TNAXH8NE_RTRMADP_3_IRAN-CRISIS-LEBANON-STRIKE-1790745377.jpg?resize=1920%2C1440",
-   "source": "Al Jazeera",
-   "summary": "Malgré un accord de juin prévoyant un retrait par étapes, l'armée israélienne garde une zone allant jusqu'à 10 km de profondeur dans le sud du Liban et continue d'y détruire des maisons. Une cinquantaine de villages frontaliers, dont Khiam et Bint Jbeil, sont rasés et les habitants déplacés craignent de ne pas rentrer avant des années.",
-   "summary_ar": "رغم اتفاق يونيو الذي ينص على انسحاب تدريجي، يحتفظ الجيش الإسرائيلي بمنطقة يصل عمقها إلى 10 كيلومترات في جنوب لبنان ويواصل هدم المنازل فيها. وقد دُمّرت نحو خمسين قرية حدودية، منها الخيام وبنت جبيل، ويخشى النازحون ألا يعودوا قبل سنوات طويلة.",
-   "title": "Liban : la « ligne jaune » d'Israël vide le sud du pays",
-   "title_ar": "لبنان: \"الخط الأصفر\" الإسرائيلي يُفرغ الجنوب من سكانه",
-   "url": "https://www.aljazeera.com/news/2026/10/14/how-israels-yellow-line-is-reshaping-southern-lebanon"
-  },
-  {
-   "cat": "geo",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Depuis 2022, la Russie fait la guerre à l'Ukraine. Elle vise souvent les centrales et le réseau électrique, surtout à l'approche de l'hiver, pour priver la population de courant et de chauffage.",
-    "context_ar": "منذ 2022 تخوض روسيا حرباً على أوكرانيا، وتستهدف كثيراً محطات الكهرباء وشبكتها خصوصاً مع اقتراب الشتاء، لحرمان السكان من الكهرباء والتدفئة.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Arrêt temporaire des attaques, ici seulement sur les installations d'énergie, pas sur tout le front.",
-      "d_ar": "توقف مؤقت عن الهجمات، وهنا يخص منشآت الطاقة فقط وليس كل الجبهة.",
-      "t": "Trêve",
-      "t_ar": "هدنة"
-     },
-     {
-      "d": "Petits avions sans pilote, souvent bon marché, utilisés en grand nombre pour frapper des cibles.",
-      "d_ar": "طائرات صغيرة بدون طيار، غالباً رخيصة، تُستعمل بأعداد كبيرة لضرب الأهداف.",
-      "t": "Drones",
-      "t_ar": "المسيّرات"
-     }
-    ]
-   },
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-13T205659Z_1994095009_RC2K2OABDOLX_RTRMADP_3_UKRAINE-CRISIS-ATTACK-KYIV-1791963217.jpg?resize=1920%2C1440",
-   "source": "Al Jazeera",
-   "summary": "La Russie a visé les réseaux électriques et de communication ukrainiens avec des missiles et des drones, faisant plusieurs morts à Kyiv, Lutsk et dans d'autres régions. Volodymyr Zelensky accuse Moscou de violer la trêve sur l'énergie annoncée dimanche par Donald Trump.",
-   "summary_ar": "استهدفت روسيا شبكات الكهرباء والاتصالات في أوكرانيا بالصواريخ والمسيّرات، ما أسفر عن عدة قتلى في كييف ولوتسك ومناطق أخرى. واتهم فولوديمير زيلينسكي موسكو بخرق هدنة الطاقة التي أعلنها دونالد ترامب يوم الأحد.",
-   "title": "Ukraine : vaste attaque russe sur l'énergie, des centaines de milliers de foyers sans courant",
-   "title_ar": "أوكرانيا: هجوم روسي واسع على الطاقة يقطع الكهرباء عن مئات الآلاف",
-   "url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv"
-  },
-  {
-   "cat": "geo",
-   "date": "2026-10-14",
-   "explain": {
-    "context": "Les FARC étaient une guérilla qui a combattu l'État colombien pendant des décennies. Après l'accord de paix de 2016, un tribunal spécial juge les crimes commis pendant ce conflit.",
-    "context_ar": "كانت فارك حركة تمرد مسلحة قاتلت الدولة الكولومبية لعقود. وبعد اتفاق السلام سنة 2016، تحاكم محكمة خاصة الجرائم المرتكبة خلال هذا النزاع.",
-    "figures": [
-     {
-      "d": "La baisse possible du budget du tribunal en 2027 : environ un sixième de ses moyens en moins.",
-      "d_ar": "الانخفاض المحتمل في ميزانية المحكمة سنة 2027، أي نقص يقارب سدس إمكانياتها.",
-      "n": "17 %",
-      "n_ar": "17%"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Forces armées révolutionnaires de Colombie : ancienne guérilla d'extrême gauche, désarmée après l'accord de paix.",
-      "d_ar": "القوات المسلحة الثورية الكولومبية: حركة تمرد يسارية سابقة تخلت عن السلاح بعد اتفاق السلام.",
-      "t": "FARC",
-      "t_ar": "فارك"
-     },
-     {
-      "d": "Justice spéciale créée par l'accord de paix. Elle juge les crimes du conflit et peut alléger les peines si les accusés avouent.",
-      "d_ar": "قضاء خاص أنشأه اتفاق السلام، يحاكم جرائم النزاع ويمكنه تخفيف العقوبات إذا اعترف المتهمون.",
-      "t": "Tribunal de paix (JEP)",
-      "t_ar": "محكمة السلام"
-     },
-     {
-      "d": "Crime très grave commis à grande échelle contre des civils, comme des meurtres ou des déplacements forcés.",
-      "d_ar": "جريمة خطيرة جداً تُرتكب على نطاق واسع ضد المدنيين، مثل القتل أو التهجير القسري.",
-      "t": "Crime contre l'humanité",
-      "t_ar": "جريمة ضد الإنسانية"
-     }
-    ]
-   },
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6acec85470c60-1791936596.jpg?resize=1920%2C1440",
-   "source": "Al Jazeera",
-   "summary": "Le tribunal de paix colombien les accuse de crimes de guerre et contre l'humanité commis entre 1996 et 2016, dont des mines posées sur des terres autochtones. Le budget de ce tribunal pourrait être réduit de 17 % en 2027.",
-   "summary_ar": "تتهمهم محكمة السلام الكولومبية بجرائم حرب وجرائم ضد الإنسانية ارتُكبت بين 1996 و2016، منها زرع ألغام في أراضي السكان الأصليين. وقد تُخفَّض ميزانية هذه المحكمة بنسبة 17 في المائة سنة 2027.",
-   "title": "Colombie : dix ex-FARC inculpés pour des crimes contre des peuples autochtones",
-   "title_ar": "كولومبيا: توجيه اتهامات لعشرة عناصر سابقين في فارك بجرائم ضد شعوب أصلية",
-   "url": "https://www.aljazeera.com/news/2026/10/14/colombia-peace-tribunal-charges-ex-farc-members-with-anti-indigenous-crimes"
-  },
-  {
    "cat": "cinema",
    "date": "2026-10-14",
    "explain": {
@@ -4786,98 +4594,6 @@
    "title": "VisionQuest : la série Marvel avec Paul Bettany arrive sur Disney+",
    "title_ar": "\"فيجن كويست\": مسلسل مارفل مع بول بيتاني يصل إلى ديزني+",
    "url": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227006.html"
-  },
-  {
-   "cat": "ia",
-   "date": "2026-10-13",
-   "explain": {
-    "context": "Le « vibe coding » consiste à décrire une application en langage simple pour que l'IA écrive le code. Google l'ouvre au grand public.",
-    "context_ar": "البرمجة بالإحساس (vibe coding) تعني وصف التطبيق بلغة بسيطة ليكتب الذكاء الاصطناعي الشيفرة. وغوغل تفتحها الآن للعموم.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Créer un logiciel en décrivant ce qu'on veut à une IA, sans écrire le code soi-même.",
-      "d_ar": "إنشاء برنامج بوصف المطلوب لذكاء اصطناعي دون كتابة الشيفرة بنفسك.",
-      "t": "vibe coding",
-      "t_ar": "البرمجة بالوصف"
-     },
-     {
-      "d": "Outil de Google pour créer des applications avec ses modèles Gemini.",
-      "d_ar": "أداة من غوغل لإنشاء تطبيقات باستخدام نماذج جيميني.",
-      "t": "Google AI Studio",
-      "t_ar": "Google AI Studio"
-     }
-    ]
-   },
-   "image": "",
-   "source": "TechCrunch",
-   "summary": "Les adultes aux États-Unis peuvent créer avec Google AI Studio des applications Android visibles par eux seuls. Le partage avec la famille ou des amis doit arriver dans les prochains mois.",
-   "summary_ar": "يمكن للبالغين في الولايات المتحدة إنشاء تطبيقات أندرويد عبر Google AI Studio لا يراها غيرهم. ومن المنتظر أن تتاح مشاركتها مع العائلة أو الأصدقاء خلال الأشهر المقبلة.",
-   "title": "Google Play permet de créer des applications privées par « vibe coding »",
-   "title_ar": "غوغل بلاي تسمح بإنشاء تطبيقات خاصة بالبرمجة بالذكاء الاصطناعي",
-   "url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/"
-  },
-  {
-   "cat": "ia",
-   "date": "2026-10-13",
-   "explain": {
-    "context": "Les IA ne répondent pas toujours de la même façon, donc elles peuvent acheter par erreur. Amex veut en faire un standard du paiement.",
-    "context_ar": "لا تجيب نماذج الذكاء الاصطناعي دائما بالطريقة نفسها، فقد تشتري بالخطأ. وتريد أمكس جعل هذا الإطار معيارا للدفع.",
-    "figures": [
-     {
-      "d": "Part des Américains interrogés qui pensent utiliser un agent IA pour trouver le meilleur prix.",
-      "d_ar": "نسبة الأمريكيين المستجوبين الذين يرجحون استعمال وكيل ذكاء اصطناعي للعثور على أفضل سعر.",
-      "n": "66 %",
-      "n_ar": "66 بالمائة"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Programmes d'IA qui agissent seuls pour faire des tâches à la place de l'utilisateur.",
-      "d_ar": "برامج ذكاء اصطناعي تتصرف بمفردها لتنفيذ مهام نيابة عن المستخدم.",
-      "t": "agents IA",
-      "t_ar": "وكلاء الذكاء الاصطناعي"
-     }
-    ]
-   },
-   "image": "",
-   "source": "TechCrunch",
-   "summary": "Le système enregistre ce que le client demande à l'agent, par exemple le budget maximal, puis le fait valider. L'agent reçoit une preuve d'intention et n'utilise jamais le vrai numéro de carte.",
-   "summary_ar": "يسجل النظام ما يطلبه العميل من الوكيل، مثل الميزانية القصوى، ثم يطلب منه الموافقة. ويحصل الوكيل على إثبات للنية ولا يستعمل رقم البطاقة الحقيقي أبدا.",
-   "title": "American Express crée un cadre pour empêcher les achats non autorisés par des agents IA",
-   "title_ar": "أمريكان إكسبرس تضع إطارا لمنع مشتريات وكلاء الذكاء الاصطناعي غير المصرح بها",
-   "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/"
-  },
-  {
-   "cat": "gaming",
-   "date": "2026-10-13",
-   "explain": {
-    "context": "Pour GTA 5, le passage au PC avait pris environ un an et sept mois. Rockstar n'a pas confirmé cette information.",
-    "context_ar": "استغرق وصول GTA 5 إلى الحاسوب نحو سنة وسبعة أشهر. ولم تؤكد روكستار هذه المعلومة.",
-    "figures": [
-     {
-      "d": "Date de sortie de GTA 6 sur PS5 et Xbox Series X/S.",
-      "d_ar": "موعد صدور GTA 6 على بلايستيشن 5 وإكس بوكس سيريز.",
-      "n": "19 novembre",
-      "n_ar": "19 نوفمبر"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Information non confirmée officiellement.",
-      "d_ar": "معلومة لم تؤكدها جهة رسمية.",
-      "t": "rumeur",
-      "t_ar": "شائعة"
-     }
-    ]
-   },
-   "image": "",
-   "source": "VGC",
-   "summary": "GamesBeat, avec quatre sources anonymes, affirme que Rockstar sortira la version PC au premier trimestre 2027. Les consoles reçoivent le jeu le 19 novembre.",
-   "summary_ar": "تؤكد GamesBeat، اعتمادا على أربعة مصادر مجهولة، أن روكستار ستطلق نسخة الحاسوب في الربع الأول من 2027. أما أجهزة الألعاب فتحصل على اللعبة في 19 نوفمبر.",
-   "title": "GTA 6 sur PC : une sortie avant fin mars 2027 selon une rumeur",
-   "title_ar": "جي تي إيه 6 على الحاسوب: إصدار قبل نهاية مارس 2027 حسب شائعة",
-   "url": "https://www.videogameschronicle.com/news/the-pc-version-of-grand-theft-auto-6-is-reportedly-coming-before-the-end-of-march-2027/"
   },
   {
    "cat": "ux",
@@ -5301,6 +5017,191 @@
   }
  ],
  "reads": [
+  {
+   "cat": "ux",
+   "title": "IA : quand une réponse fausse sonne aussi juste qu'une vraie",
+   "title_ar": "الذكاء الاصطناعي: حين يبدو الجواب الخاطئ واثقا كالجواب الصحيح",
+   "summary": "Le vrai problème de l'IA n'est pas qu'elle se trompe, mais qu'elle se trompe avec le même ton assuré. L'auteur explique pourquoi et propose des pistes de design pour aider l'utilisateur à savoir quand vérifier.",
+   "summary_ar": "المشكلة الحقيقية في الذكاء الاصطناعي ليست أنه يخطئ، بل أنه يخطئ بالنبرة الواثقة نفسها. يشرح الكاتب السبب ويقترح حلولا في التصميم تساعد المستخدم على معرفة متى يجب التحقق.",
+   "why": "Tu conçois des interfaces : cet article montre concrètement comment rendre visible le niveau de fiabilité d'une IA, un sujet qui va arriver dans tous tes projets.",
+   "why_ar": "أنت تصمم الواجهات: هذا المقال يبيّن بشكل ملموس كيف نُظهر درجة موثوقية الذكاء الاصطناعي، وهو موضوع سيصل إلى كل مشاريعك.",
+   "source": "UX Magazine",
+   "url": "https://uxmag.com/articles/your-ai-is-lying-to-you-politely",
+   "date": "2026-10-13",
+   "minutes": 7,
+   "lang": "en",
+   "paywall": false,
+   "image": "https://uxmag.com/generated-images/your-ai-is-lying-to-you-politely-featured.jpg",
+   "resume": "Pour Tushar Deshmukh, le défaut principal de l'IA en matière d'expérience utilisateur n'est pas le nombre d'erreurs, mais le fait qu'une réponse fausse ressemble exactement à une réponse juste. Un modèle de langage prédit des mots plausibles, il ne va pas chercher des faits vérifiés. Quand il ne sait pas, il comble le vide avec un texte fluide, sur le même ton sûr. L'assurance ne dit donc rien sur la vérité. L'auteur cite plusieurs études sur les taux d'« hallucinations » et des affaires judiciaires, en Inde et aux États-Unis, où des décisions reposaient sur des jugements inventés par une IA.\nIl rappelle le biais d'automatisation : après quelques bonnes réponses, on fait trop confiance à la machine. Sa conclusion : les produits les plus fluides sont les plus risqués. Il propose de repérer les zones fragiles (citations, chiffres précis, faits locaux), d'afficher la source et un niveau de confiance, et d'inviter à vérifier les affirmations sensibles, plutôt que d'ajouter des avertissements généraux que plus personne ne lit.",
+   "resume_ar": "يرى توشار ديشموك أن العيب الأساسي للذكاء الاصطناعي في تجربة المستخدم ليس عدد الأخطاء، بل أن الجواب الخاطئ يشبه تماما الجواب الصحيح. فالنموذج اللغوي يتوقع كلمات معقولة، ولا يبحث عن حقائق مؤكدة. وحين لا يعرف، يملأ الفراغ بنص سلس وبالنبرة الواثقة نفسها. لذلك لا تدل الثقة على الصواب. ويستشهد الكاتب بدراسات عن نسب «الهلوسة» وبقضايا في الهند والولايات المتحدة اعتمدت فيها قرارات على أحكام قضائية اخترعها الذكاء الاصطناعي.\nويذكّر بانحياز الأتمتة: بعد بضعة أجوبة جيدة، نثق في الآلة أكثر من اللازم. وخلاصته أن المنتجات الأكثر سلاسة هي الأكثر خطرا. ويقترح تحديد المناطق الهشة (الاستشهادات، الأرقام الدقيقة، المعلومات المحلية)، وإظهار المصدر ودرجة الثقة، ودعوة المستخدم إلى التحقق من المعلومات الحساسة، بدل إضافة تحذيرات عامة لم يعد أحد يقرؤها.",
+   "points": [
+    "Une IA fausse parle avec le même aplomb qu'une IA juste.",
+    "Le modèle prédit des mots plausibles, pas des faits vérifiés.",
+    "Des tribunaux ont annulé des décisions basées sur de faux jugements créés par IA.",
+    "Après quelques bonnes réponses, on fait trop confiance à la machine.",
+    "Solution : montrer sources et niveau de confiance là où l'IA est fragile."
+   ],
+   "points_ar": [
+    "الذكاء الاصطناعي المخطئ يتكلم بالثقة نفسها التي يتكلم بها حين يصيب.",
+    "النموذج يتوقع كلمات معقولة، لا حقائق مؤكدة.",
+    "ألغت محاكم قرارات بُنيت على أحكام مزيفة صنعها الذكاء الاصطناعي.",
+    "بعد بضعة أجوبة جيدة، نثق في الآلة أكثر من اللازم.",
+    "الحل: إظهار المصادر ودرجة الثقة حيث يكون الذكاء الاصطناعي هشا."
+   ],
+   "takeaway": "Le but n'est pas une confiance totale, mais une confiance ajustée : douter là où l'IA est faible, se fier là où elle l'a mérité.",
+   "takeaway_ar": "الهدف ليس ثقة كاملة، بل ثقة معتدلة: الشك حيث يضعف الذكاء الاصطناعي، والاعتماد عليه حيث أثبت جدارته.",
+   "explain": {
+    "context": "Les assistants comme ChatGPT sont utilisés partout, y compris par des avocats et des juges. Leurs erreurs inventées, appelées « hallucinations », posent un problème de confiance.",
+    "context_ar": "يُستخدم المساعدون مثل ChatGPT في كل مكان، حتى من طرف المحامين والقضاة. وأخطاؤهم المختلَقة، المسماة «هلوسة»، تطرح مشكلة ثقة.",
+    "terms": [
+     {
+      "t": "biais d'automatisation",
+      "t_ar": "انحياز الأتمتة",
+      "d": "Tendance à croire une machine sans vérifier, surtout après qu'elle a souvent eu raison.",
+      "d_ar": "الميل إلى تصديق الآلة دون تحقق، خاصة بعد أن أصابت مرات كثيرة."
+     },
+     {
+      "t": "modèle de langage",
+      "t_ar": "النموذج اللغوي",
+      "d": "Programme d'IA entraîné sur d'énormes textes pour deviner le mot suivant le plus probable.",
+      "d_ar": "برنامج ذكاء اصطناعي دُرّب على نصوص ضخمة ليخمّن الكلمة التالية الأكثر احتمالا."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "maroc",
+   "title": "Dirham : pourquoi sa baisse inquiète pour les finances du pays",
+   "title_ar": "الدرهم: لماذا يثير تراجعه القلق بشأن مالية البلاد",
+   "summary": "Le dirham glisse vers le bas de sa marge de fluctuation. Médias24 explique ce que cela révèle : importations en forte hausse, réserves soutenues par la dette extérieure et budget sous pression pour le nouveau gouvernement.",
+   "summary_ar": "ينزلق الدرهم نحو أدنى هامش تقلبه. وتشرح «ميديا 24» ما يكشفه ذلك: ارتفاع قوي للواردات، واحتياطيات مدعومة بالدين الخارجي، وميزانية تحت الضغط أمام الحكومة الجديدة.",
+   "why": "Le prix du dollar et de l'euro touche directement ton quotidien (essence, produits importés, voyages) : ici tu comprends d'où vient la pression et ce qui peut suivre.",
+   "why_ar": "سعر الدولار واليورو يمس حياتك اليومية مباشرة (الوقود، المنتجات المستوردة، السفر): هنا تفهم مصدر الضغط وما قد يليه.",
+   "source": "Médias24",
+   "url": "https://medias24.com/2026/10/14/change-la-glissade-du-dirham-sonne-lalerte-sur-des-finances-en-surchauffe-1779291",
+   "date": "2026-10-14",
+   "minutes": 9,
+   "lang": "fr",
+   "paywall": false,
+   "image": "https://medias24.com/content/uploads/2021/07/dollar_dirham0.jpg",
+   "resume": "En septembre, le dirham a perdu du terrain : le dollar a pris 4,1 % et l'euro 1,78 % face à la monnaie marocaine, puis encore près de 3 % et 1,5 % début octobre. Cela reflète des comptes extérieurs qui se dégradent. Les importations ont bondi de 15,3 % au premier semestre tandis que les ventes de phosphates reculent. Le déficit commercial atteint 282,6 milliards de dirhams fin août. Les réserves de change restent élevées, à 515,7 milliards, mais elles tiennent en grande partie grâce à l'argent emprunté à l'étranger par l'État.\nL'écart de taux d'intérêt avec l'Europe et les États-Unis pousse aussi les importateurs à acheter des devises plus tôt et les exportateurs à attendre avant de convertir. Côté budget, les dépenses augmentent plus vite que les recettes, et les ventes d'actifs publics ont servi à réduire le déficit affiché. Le programme social du PAM n'a pas encore de financement sûr. Le nouveau gouvernement doit choisir entre une monnaie plus flexible et la protection du pouvoir d'achat.",
+   "resume_ar": "في شتنبر تراجع الدرهم: ارتفع الدولار بنسبة 4,1 في المائة واليورو بنسبة 1,78 في المائة مقابل العملة المغربية، ثم بنحو 3 و1,5 في المائة إضافية في بداية أكتوبر. ويعكس ذلك تدهور الحسابات الخارجية. فقد قفزت الواردات بنسبة 15,3 في المائة في النصف الأول، بينما تراجعت مبيعات الفوسفاط. وبلغ العجز التجاري 282,6 مليار درهم في نهاية غشت. وتبقى احتياطيات العملة مرتفعة عند 515,7 مليار درهم، لكنها صامدة إلى حد كبير بفضل الأموال التي تقترضها الدولة من الخارج.\nكما يدفع فارق أسعار الفائدة مع أوروبا والولايات المتحدة المستوردين إلى شراء العملة مبكرا، والمصدّرين إلى التريث قبل التحويل. أما الميزانية، فالنفقات ترتفع أسرع من المداخيل، واستُعملت مبيعات الأصول العمومية لتقليص العجز المعلن. وبرنامج حزب الأصالة والمعاصرة الاجتماعي لا يملك بعد تمويلا مضمونا. وعلى الحكومة الجديدة أن تختار بين عملة أكثر مرونة وحماية القدرة الشرائية.",
+   "points": [
+    "En septembre, le dollar a pris 4,1 % face au dirham.",
+    "Les importations ont augmenté de 15,3 % au premier semestre.",
+    "Le déficit commercial atteint 282,6 milliards de dirhams fin août.",
+    "Les réserves de change tiennent surtout grâce aux emprunts extérieurs.",
+    "Le nouveau gouvernement a peu de marge budgétaire."
+   ],
+   "points_ar": [
+    "في شتنبر ارتفع الدولار بنسبة 4,1 في المائة مقابل الدرهم.",
+    "ارتفعت الواردات بنسبة 15,3 في المائة في النصف الأول.",
+    "بلغ العجز التجاري 282,6 مليار درهم في نهاية غشت.",
+    "احتياطيات العملة صامدة أساسا بفضل القروض الخارجية.",
+    "الحكومة الجديدة تملك هامشا ضيقا في الميزانية."
+   ],
+   "takeaway": "La baisse du dirham n'est pas une crise, mais un signal : le pays dépense plus de devises qu'il n'en gagne et comble l'écart en empruntant.",
+   "takeaway_ar": "تراجع الدرهم ليس أزمة، بل إشارة: البلاد تنفق من العملة الصعبة أكثر مما تكسب، وتسد الفارق بالاقتراض.",
+   "explain": {
+    "context": "Le dirham n'est pas totalement libre : sa valeur suit un panier (60 % euro, 40 % dollar) et peut bouger de 5 % au maximum de chaque côté.",
+    "context_ar": "الدرهم ليس حرا تماما: قيمته مرتبطة بسلة (60 في المائة يورو و40 في المائة دولار) ولا يمكن أن يتحرك بأكثر من 5 في المائة في كل اتجاه.",
+    "terms": [
+     {
+      "t": "réserves de change",
+      "t_ar": "احتياطيات العملة الصعبة",
+      "d": "Stock de devises (dollars, euros) gardé par Bank Al-Maghrib pour payer les importations et défendre le dirham.",
+      "d_ar": "مخزون العملات (دولار، يورو) الذي يحتفظ به بنك المغرب لأداء الواردات والدفاع عن الدرهم."
+     },
+     {
+      "t": "déficit commercial",
+      "t_ar": "العجز التجاري",
+      "d": "Quand le pays achète à l'étranger plus de marchandises qu'il n'en vend.",
+      "d_ar": "حين تشتري البلاد من الخارج سلعا أكثر مما تبيع."
+     },
+     {
+      "t": "marge de fluctuation",
+      "t_ar": "هامش التقلب",
+      "d": "Zone autorisée dans laquelle le cours du dirham peut monter ou descendre.",
+      "d_ar": "المجال المسموح به لارتفاع سعر الدرهم أو انخفاضه."
+     }
+    ],
+    "figures": [
+     {
+      "n": "515,7 milliards de dirhams",
+      "n_ar": "515,7 مليار درهم",
+      "d": "Réserves de change début octobre, en hausse de 16,4 % depuis fin 2025, mais en partie financées par la dette.",
+      "d_ar": "احتياطيات العملة في بداية أكتوبر، بارتفاع 16,4 في المائة منذ نهاية 2025، لكنها ممولة جزئيا بالدين."
+     },
+     {
+      "n": "282,6 milliards de dirhams",
+      "n_ar": "282,6 مليار درهم",
+      "d": "Déficit commercial fin août, 57,3 milliards de plus qu'un an plus tôt.",
+      "d_ar": "العجز التجاري في نهاية غشت، بزيادة 57,3 مليار درهم عن السنة الماضية."
+     },
+     {
+      "n": "4,1 %",
+      "n_ar": "4,1 في المائة",
+      "d": "Hausse du dollar face au dirham en septembre : un produit à 100 dollars coûte environ 40 dirhams de plus.",
+      "d_ar": "ارتفاع الدولار مقابل الدرهم في شتنبر: منتج بـ100 دولار أصبح يكلف نحو 40 درهما إضافية."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "f1",
+   "title": "F1 avant Austin : pourquoi Mercedes ne domine plus",
+   "title_ar": "الفورمولا 1 قبل أوستن: لماذا لم تعد مرسيدس مهيمنة",
+   "summary": "Après six victoires d'affilée en début de saison, Mercedes a perdu son avance. Edd Straw (RACER) analyse le retour de Red Bull, les difficultés de McLaren et le recul de Ferrari avant le Grand Prix des États-Unis.",
+   "summary_ar": "بعد ستة انتصارات متتالية في بداية الموسم، فقدت مرسيدس تفوقها. ويحلل إد ستراو (RACER) عودة ريد بول وصعوبات ماكلارين وتراجع فيراري قبل جائزة الولايات المتحدة الكبرى.",
+   "why": "Pour suivre Austin en comprenant ce qui se passe vraiment : qui progresse, qui recule et pourquoi l'argent pèse autant que le pilotage.",
+   "why_ar": "لتتابع سباق أوستن وأنت تفهم ما يجري فعلا: من يتقدم ومن يتراجع، ولماذا يؤثر المال بقدر ما تؤثر القيادة.",
+   "source": "RACER",
+   "url": "https://racer.com/2026/10/15/what-s-behind-f1-2026-s-surprising-shifts-in-the-balance-of-power-",
+   "date": "2026-10-15",
+   "minutes": 8,
+   "lang": "en",
+   "paywall": false,
+   "image": "https://cdn-cs-images.racer.com/v3/assets/blte77f57883ea46be1/blt9f082ccdde4ea667/6ad0db406f7ed18b11bf5356/GettyImages-2295036649.jpg?environment=live&width=1200&height=630&fit=crop",
+   "resume": "Mercedes a ouvert la saison 2026 par six victoires de suite. Depuis, l'équipe n'a gagné que trois des sept dernières courses, et seul Monza a montré une vraie supériorité. Toto Wolff reconnaît que Mercedes n'a plus assez de marge sous le plafond budgétaire pour suivre le rythme de développement de McLaren et Ferrari. La grosse évolution aérodynamique, avancée à Sepang, a ajouté trop de traînée. À Singapour, les deux pilotes ont roulé avec des versions différentes : la nouvelle a du potentiel, mais elle est difficile à régler. Austin, avec ses virages très variés, sera un test.\nMcLaren est rapide sur certains circuits mais instable : lent dans les virages lents, trop de traînée, voiture « sur le fil » selon Norris. Red Bull, au contraire, a fortement progressé après une évolution à Bakou, et Verstappen a gagné en Malaisie et à Singapour. Ferrari, elle, a reculé et semble désormais derrière Red Bull. Pour l'auteur, ces changements préparent déjà la bataille de 2027.",
+   "resume_ar": "افتتحت مرسيدس موسم 2026 بستة انتصارات متتالية. ومنذ ذلك الحين، لم يفز الفريق إلا في ثلاثة من السباقات السبعة الأخيرة، ولم يظهر تفوق حقيقي إلا في مونزا. ويعترف توتو وولف بأن مرسيدس لم تعد تملك هامشا كافيا تحت سقف الميزانية لمجاراة سرعة تطوير ماكلارين وفيراري. والتحديث الهوائي الكبير، الذي قُدّم إلى سيبانغ، أضاف مقاومة هواء أكثر من اللازم. وفي سنغافورة، قاد السائقان نسختين مختلفتين: الجديدة واعدة لكن ضبطها صعب. وسيكون أوستن، بمنعطفاته المتنوعة، اختبارا مهما.\nأما ماكلارين فسريعة في بعض الحلبات لكنها غير مستقرة: بطيئة في المنعطفات البطيئة، ومقاومة الهواء كبيرة، والسيارة «على حافة السكين» حسب نوريس. وعلى العكس، تقدمت ريد بول كثيرا بعد تحديث في باكو، وفاز فيرستابن في ماليزيا وسنغافورة. وتراجعت فيراري وتبدو الآن خلف ريد بول. ويرى الكاتب أن هذه التغيرات تمهد منذ الآن لمعركة 2027.",
+   "points": [
+    "Mercedes a gagné six courses de suite, puis seulement trois sur sept.",
+    "Wolff dit manquer de marge budgétaire pour développer la voiture.",
+    "La nouvelle évolution Mercedes est rapide mais difficile à régler.",
+    "Red Bull a fortement progressé : Verstappen a gagné en Malaisie et à Singapour.",
+    "McLaren est instable et Ferrari a reculé."
+   ],
+   "points_ar": [
+    "فازت مرسيدس بستة سباقات متتالية، ثم بثلاثة فقط من سبعة.",
+    "يقول وولف إن الفريق يفتقر إلى هامش في الميزانية لتطوير السيارة.",
+    "تحديث مرسيدس الجديد سريع لكن ضبطه صعب.",
+    "تقدمت ريد بول كثيرا: فاز فيرستابن في ماليزيا وسنغافورة.",
+    "ماكلارين غير مستقرة وفيراري تراجعت."
+   ],
+   "takeaway": "À Austin, la question n'est plus seulement le titre d'Antonelli, mais de savoir si Mercedes peut encore suivre Red Bull en rythme pur.",
+   "takeaway_ar": "في أوستن، لم يعد السؤال لقب أنتونيلي فقط، بل هل ما زالت مرسيدس قادرة على مجاراة ريد بول في السرعة الخالصة.",
+   "explain": {
+    "context": "2026 est la première année de nouvelles règles techniques en F1. Dans ces années-là, les équipes progressent très vite et la hiérarchie change souvent.",
+    "context_ar": "سنة 2026 هي أول سنة لقواعد تقنية جديدة في الفورمولا 1. وفي مثل هذه السنوات تتطور الفرق بسرعة كبيرة ويتغير الترتيب كثيرا.",
+    "terms": [
+     {
+      "t": "plafond budgétaire",
+      "t_ar": "سقف الميزانية",
+      "d": "Limite de dépenses imposée à chaque équipe par saison, pour éviter que les plus riches dominent.",
+      "d_ar": "حد للإنفاق مفروض على كل فريق في الموسم، حتى لا يهيمن الأغنى."
+     },
+     {
+      "t": "traînée",
+      "t_ar": "مقاومة الهواء",
+      "d": "Résistance de l'air qui freine la voiture en ligne droite.",
+      "d_ar": "مقاومة الهواء التي تبطئ السيارة في الخطوط المستقيمة."
+     }
+    ],
+    "figures": []
+   }
+  },
   {
    "cat": "sport",
    "date": "2026-10-14",
@@ -7350,213 +7251,83 @@
    "url": "https://www.theringer.com/2026/10/01/nba/nba-preview-2026-27-players-paul-george-jaylen-brown-trade",
    "why": "Parfait pour arriver prêt à la soirée d'ouverture du 20 octobre, avec 76ers–Knicks.",
    "why_ar": "مثالي لتكون مستعدا لليلة الافتتاح يوم 20 أكتوبر، مع مباراة سيكسرز ونيكس."
-  },
-  {
-   "cat": "geo",
-   "date": "2026-10-01",
-   "explain": {
-    "context": "Les États-Unis achètent au monde plus qu'ils ne vendent ; la Chine fait l'inverse. Ces déséquilibres pèsent sur l'Europe, coincée entre les deux géants.",
-    "context_ar": "الولايات المتحدة تشتري من العالم أكثر مما تبيع، والصين تفعل العكس. وهذه الاختلالات تضغط على أوروبا العالقة بين العملاقين.",
-    "figures": [
-     {
-      "d": "Excédent commercial chinois en 2025 : la Chine a vendu pour cette somme de plus qu'elle n'a acheté. C'est plus de 7 fois le PIB annuel du Maroc.",
-      "d_ar": "الفائض التجاري الصيني سنة 2025: باعت الصين بهذا المبلغ أكثر مما اشترت، وهو أكثر من 7 أضعاف الناتج الداخلي الخام السنوي للمغرب.",
-      "n": "1 200 milliards de dollars",
-      "n_ar": "1200 مليار دولار"
-     },
-     {
-      "d": "Grande crise financière, partie des prêts immobiliers américains. Elle a provoqué une récession mondiale.",
-      "d_ar": "الأزمة المالية الكبرى التي انطلقت من القروض العقارية الأمريكية وتسببت في ركود عالمي.",
-      "n": "2007-2008",
-      "n_ar": "2007-2008"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Quand un pays vend à l'étranger plus qu'il n'achète. L'inverse s'appelle un déficit commercial.",
-      "d_ar": "عندما يبيع بلد إلى الخارج أكثر مما يشتري. والعكس يسمى العجز التجاري.",
-      "t": "Excédent commercial",
-      "t_ar": "الفائض التجاري"
-     },
-     {
-      "d": "Protéger ses entreprises de la concurrence étrangère, par exemple avec des droits de douane sur les produits importés.",
-      "d_ar": "حماية الشركات المحلية من المنافسة الأجنبية، مثلاً بفرض رسوم جمركية على السلع المستوردة.",
-      "t": "Protectionnisme",
-      "t_ar": "الحمائية"
-     },
-     {
-      "d": "Les pays de l'UE empruntent ensemble, au nom de l'Union, au lieu que chacun s'endette seul.",
-      "d_ar": "تقترض دول الاتحاد الأوروبي معاً باسم الاتحاد، بدل أن يستدين كل بلد وحده.",
-      "t": "Emprunt commun",
-      "t_ar": "الاقتراض المشترك"
-     },
-     {
-      "d": "Quand l'État aide certains secteurs (usines, technologies) par des subventions ou des règles pour les faire grandir.",
-      "d_ar": "عندما تدعم الدولة قطاعات معينة كالمصانع والتكنولوجيا بالإعانات أو القوانين لتنميتها.",
-      "t": "Politique industrielle",
-      "t_ar": "السياسة الصناعية"
-     }
-    ]
-   },
-   "image": "https://legrandcontinent.eu/fr/wp-content/uploads/sites/2/2026/10/Capture-decran-2026-10-01-a-16.31.49.jpg",
-   "lang": "fr",
-   "minutes": 16,
-   "paywall": false,
-   "points": [
-    "Entretien avec les économistes Hélène Rey et Pierre Wunsch sur les déséquilibres entre la Chine et les États-Unis.",
-    "Les États-Unis consomment plus qu'ils ne produisent et empruntent ; la Chine produit trop et exporte massivement à bas prix.",
-    "L'Europe subit cette pression : industrie concurrencée, risque de départ d'usines et États très endettés.",
-    "Ces déséquilibres rappellent 1985 et 2007 : ils poussent au protectionnisme et créent des risques financiers cachés.",
-    "Pistes : protections commerciales temporaires, emprunt commun pour la défense et la technologie, politique industrielle européenne."
-   ],
-   "points_ar": [
-    "حوار مع الاقتصاديين هيلين ري وبيير فونش حول اختلال التوازن بين الصين والولايات المتحدة.",
-    "تستهلك الولايات المتحدة أكثر مما تنتج وتقترض، بينما تنتج الصين بإفراط وتصدّر بكثافة وبأسعار منخفضة.",
-    "تتحمل أوروبا هذا الضغط: صناعة تواجه منافسة حادة، وخطر نقل المصانع، ودول مثقلة بالديون.",
-    "تذكّر هذه الاختلالات بسنتي 1985 و2007، فهي تدفع نحو الحمائية وتخلق مخاطر مالية خفية.",
-    "الحلول المقترحة: حماية تجارية مؤقتة، واقتراض مشترك للدفاع والتكنولوجيا، وسياسة صناعية أوروبية."
-   ],
-   "resume": "Dans cet entretien, l'économiste Hélène Rey et le gouverneur de la Banque nationale de Belgique, Pierre Wunsch, expliquent les déséquilibres entre la Chine et les États-Unis. Les Américains dépensent plus qu'ils ne produisent et empruntent à l'étranger, surtout à cause du budget de l'État. La Chine, elle, mise sur l'industrie et l'export au détriment de la consommation, avec environ 1 200 milliards de dollars d'excédent commercial en 2025. Des écarts de ce type ont précédé les tensions de 1985 et la crise de 2007-2008 ; ils nourrissent aujourd'hui le protectionnisme et des risques financiers peu visibles.\nL'Europe subit la pression : concurrence chinoise à bas prix, risque de départ d'usines et retard dans l'IA et la robotique. Les deux invités proposent des protections commerciales temporaires, un emprunt commun pour financer défense et technologies, et des outils de politique industrielle, tout en préservant le marché unique. Pierre Wunsch juge la période dangereuse, car les salariés touchés pourraient perdre confiance dans le projet européen.",
-   "resume_ar": "في هذا الحوار، يشرح الاقتصادية هيلين ري ومحافظ البنك الوطني البلجيكي بيير فونش الاختلالات بين الصين والولايات المتحدة. فالأمريكيون ينفقون أكثر مما ينتجون ويقترضون من الخارج، أساسًا بسبب ميزانية الدولة. أما الصين فتراهن على الصناعة والتصدير على حساب الاستهلاك، بفائض تجاري يقارب 1200 مليار دولار سنة 2025. وقد سبقت اختلالات مماثلة توترات سنة 1985 وأزمة 2007-2008، وهي اليوم تغذي الحمائية ومخاطر مالية غير ظاهرة.\nوتتحمل أوروبا هذا الضغط: منافسة صينية بأسعار منخفضة، وخطر انتقال المصانع، وتأخر في الذكاء الاصطناعي والروبوتات. ويقترح الضيفان حماية تجارية مؤقتة، واقتراضًا مشتركًا لتمويل الدفاع والتكنولوجيا، وأدوات للسياسة الصناعية مع الحفاظ على السوق الموحدة. ويرى فونش أن المرحلة خطيرة سياسيًا، لأن العمال المتضررين قد يفقدون ثقتهم في المشروع الأوروبي.",
-   "source": "Le Grand Continent",
-   "summary": "Les économistes Hélène Rey et Pierre Wunsch expliquent comment les déséquilibres américains et chinois retombent sur l'Europe : droits de douane, risques financiers, défense.",
-   "summary_ar": "يشرح الاقتصاديان هيلين ري وبيير وونش كيف تنعكس اختلالات الاقتصادين الأمريكي والصيني على أوروبا: الرسوم الجمركية والمخاطر المالية والدفاع.",
-   "takeaway": "Coincée entre la dette américaine et les surplus chinois, l'Europe doit protéger et financer son industrie.",
-   "takeaway_ar": "بين الديون الأمريكية والفائض الصيني، على أوروبا حماية صناعتها وتمويلها.",
-   "title": "Les États-Unis empruntent, la Chine surproduit, et l'Europe paie la facture",
-   "title_ar": "أمريكا تقترض، والصين تُفرط في الإنتاج، وأوروبا تدفع الثمن",
-   "url": "https://legrandcontinent.eu/fr/2026/10/01/la-chine-et-les-etats-unis-exportent-leur-crise-en-europe/",
-   "why": "La guerre économique entre grandes puissances touche aussi le Maroc, partenaire de l'Europe.",
-   "why_ar": "الحرب الاقتصادية بين القوى الكبرى تمسّ المغرب أيضاً بصفته شريكاً لأوروبا."
-  },
-  {
-   "cat": "ia",
-   "date": "2026-09-28",
-   "explain": {
-    "context": "Ben Thompson (Stratechery) a créé la « théorie de l'agrégation » : sur Internet, ceux qui contrôlent l'accès aux utilisateurs, comme Google, gagnent le plus.",
-    "context_ar": "بن طومبسون (ستراتيكري) صاحب «نظرية التجميع»: على الإنترنت، الرابح الأكبر هو من يتحكم في الوصول إلى المستخدمين، مثل غوغل.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Une plateforme qui rassemble des offres et devient la porte d'entrée des utilisateurs : Google pour le web, Meta pour les réseaux.",
-      "d_ar": "منصة تجمع العروض وتصبح بوابة دخول المستخدمين: غوغل للويب، وميتا لشبكات التواصل.",
-      "t": "Agrégateur",
-      "t_ar": "المُجمِّع"
-     },
-     {
-      "d": "Une IA qui agit pour vous sur un ordinateur : chercher, réserver, créer un outil, sans que vous fassiez chaque étape.",
-      "d_ar": "ذكاء اصطناعي يتصرف نيابة عنك على الحاسوب: يبحث ويحجز ويصنع أداة، دون أن تقوم بكل خطوة.",
-      "t": "Agent IA",
-      "t_ar": "وكيل ذكاء اصطناعي"
-     },
-     {
-      "d": "Un ordinateur simulé par logiciel, qui tourne sur un serveur distant au lieu d'être un appareil physique.",
-      "d_ar": "حاسوب محاكى بالبرمجيات يشتغل على خادم بعيد بدل أن يكون جهازاً مادياً.",
-      "t": "Machine virtuelle",
-      "t_ar": "آلة افتراضية"
-     }
-    ]
-   },
-   "image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2026/09/apps-agents-aggregation-1.png?fit=600%2C340&ssl=1",
-   "lang": "en",
-   "minutes": 10,
-   "paywall": false,
-   "points": [
-    "Pour Ben Thompson, les agents IA vont devenir les nouveaux intermédiaires : les applis ne seront plus qu'un moyen, plus la destination.",
-    "Un agent, c'est une IA qui dispose d'un vrai ordinateur ; Meta offre déjà une machine virtuelle à chaque utilisateur américain de Muse.",
-    "L'auteur a obtenu en cinq minutes, juste en parlant, une petite appli de recettes faite pour lui seul.",
-    "Avant, le problème était de trouver les choses ; aujourd'hui, ce qui compte, c'est l'intention de l'utilisateur et qui la capte.",
-    "Comme on gardera sans doute un seul agent, Meta et Microsoft, avec leurs énormes bases d'utilisateurs, partent favoris."
-   ],
-   "points_ar": [
-    "يرى بن طومسون أن وكلاء الذكاء الاصطناعي سيصبحون الوسطاء الجدد، وأن التطبيقات ستتحول إلى مجرد وسيلة لا وجهة.",
-    "الوكيل هو ذكاء اصطناعي يملك حاسوبًا حقيقيًا، وقد منحت ميتا كل مستخدم أمريكي لـ Muse آلة افتراضية.",
-    "حصل الكاتب في خمس دقائق، عبر المحادثة فقط، على تطبيق وصفات صغير مصمم له وحده.",
-    "كانت المشكلة سابقًا هي الاكتشاف، أما اليوم فالمهم هو نية المستخدم ومن يستحوذ عليها.",
-    "بما أن الناس سيحتفظون غالبًا بوكيل واحد، فإن ميتا ومايكروسوفت تتقدمان بفضل قاعدتي مستخدميهما الضخمتين."
-   ],
-   "resume": "Ben Thompson pense que les agents d'intelligence artificielle vont changer la place des applis : elles deviendront un simple moyen, et non plus la destination. Pour lui, un agent est une IA qui dispose d'un vrai ordinateur. Meta en fournit déjà un, sous forme de machine virtuelle, à chaque utilisateur américain de son assistant Muse. L'auteur raconte avoir obtenu en cinq minutes, juste en parlant pendant une promenade, une petite appli de recettes faite pour lui seul, imparfaite mais utile.\nSon analyse : sur le web, tout était disponible et le plus dur était de trouver ; les gagnants étaient Google et Meta. Avec les agents, faire devient facile, et ce qui compte, c'est l'intention de l'utilisateur et l'agent qui la reçoit. Les services deviennent alors de simples fournisseurs, y compris les logiciels d'entreprise. Comme chacun gardera sans doute un seul agent, Meta et Microsoft, qui touchent presque tout le monde, partent favoris.",
-   "resume_ar": "يرى بن تومسون أن وكلاء الذكاء الاصطناعي سيغيّرون مكانة التطبيقات، فتصبح مجرد وسيلة لا غاية. والوكيل في نظره هو ذكاء اصطناعي يملك حاسوبًا حقيقيًا، وقد بدأت ميتا فعلًا بمنح كل مستخدم أمريكي لمساعدها «ميوز» آلة افتراضية. ويحكي الكاتب أنه حصل في خمس دقائق، بمجرد الكلام أثناء نزهة، على تطبيق صغير للوصفات صُمّم له وحده، غير كامل لكنه مفيد.\nوتحليله أن كل شيء كان متاحًا على الويب وكانت الصعوبة في العثور عليه، فربحت غوغل وميتا. أما مع الوكلاء فيصبح الإنجاز سهلًا، والمهم هو نية المستخدم والوكيل الذي يتلقاها. وهكذا تتحول الخدمات، ومنها برمجيات الشركات، إلى مجرد مزوّدين. وبما أن كل شخص سيحتفظ غالبًا بوكيل واحد، فإن ميتا ومايكروسوفت، اللتين تصلان إلى الجميع تقريبًا، هما الأوفر حظًا.",
-   "source": "Stratechery",
-   "summary": "Ben Thompson pense que les agents IA vont faire des applis un simple moyen et que la ressource rare sera l'intention de l'utilisateur. Meta et Microsoft seraient bien placés pour devenir les nouveaux agrégateurs.",
-   "summary_ar": "يرى بن تومسون أن وكلاء الذكاء الاصطناعي سيجعلون التطبيقات مجرد وسيلة، وأن المورد النادر سيصبح نية المستخدم، وأن ميتا ومايكروسوفت في موقع جيد لتصبحا المجمّعين الجدد.",
-   "takeaway": "Demain, la bataille ne portera plus sur les applis mais sur l'agent unique à qui l'utilisateur confiera ses intentions.",
-   "takeaway_ar": "المعركة القادمة لن تكون حول التطبيقات، بل حول الوكيل الوحيد الذي سيأتمنه المستخدم على نواياه.",
-   "title": "Applis, agents IA et agrégation : qui contrôlera l'utilisateur demain ?",
-   "title_ar": "التطبيقات ووكلاء الذكاء الاصطناعي والتجميع: من سيتحكم في المستخدم غداً؟",
-   "url": "https://stratechery.com/2026/apps-agents-and-aggregation/",
-   "why": "Essentiel pour un designer UX : si l'agent remplace l'interface, le rôle du design change.",
-   "why_ar": "أساسي لمصمم تجربة المستخدم: إذا حلّ الوكيل محل الواجهة، يتغير دور التصميم."
-  },
-  {
-   "cat": "sport",
-   "date": "2026-09-27",
-   "explain": {
-    "context": "Kimi Antonelli, jeune Italien de Mercedes, mène le championnat 2026 de F1 devant son coéquipier George Russell. Bakou est un circuit urbain étroit, bordé de murs.",
-    "context_ar": "كيمي أنتونيلي، السائق الإيطالي الشاب في مرسيدس، يتصدر بطولة الفورمولا 1 لسنة 2026 أمام زميله جورج راسل. وباكو حلبة حضرية ضيقة محاطة بالجدران.",
-    "figures": [
-     {
-      "d": "Avance d'Antonelli avant Bakou. Une victoire rapporte 25 points : c'est plus de trois victoires d'avance.",
-      "d_ar": "تقدّم أنتونيلي قبل باكو. الفوز يمنح 25 نقطة، أي أن تقدمه يعادل أكثر من ثلاثة انتصارات.",
-      "n": "81 points",
-      "n_ar": "81 نقطة"
-     },
-     {
-      "d": "Ce qu'il a perdu sur Russell malgré son pire week-end : une perte limitée par rapport à son avance.",
-      "d_ar": "ما خسره أمام راسل رغم أسوأ نهاية أسبوع له، وهي خسارة محدودة مقارنة بتقدّمه.",
-      "n": "15 points",
-      "n_ar": "15 نقطة"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Voiture qui entre en piste après un accident : tout le monde roule lentement derrière elle et les écarts se resserrent.",
-      "d_ar": "سيارة تدخل الحلبة بعد حادث، فيسير الجميع ببطء خلفها وتتقلص الفوارق بين السيارات.",
-      "t": "Voiture de sécurité",
-      "t_ar": "سيارة الأمان"
-     },
-     {
-      "d": "Le dessous de la voiture, qui la colle à la piste. S'il est abîmé, la voiture devient plus lente.",
-      "d_ar": "الجزء السفلي من السيارة الذي يلصقها بالحلبة، وإذا تضرر تصبح السيارة أبطأ.",
-      "t": "Fond plat",
-      "t_ar": "أرضية السيارة"
-     }
-    ]
-   },
-   "image": "https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/size/w1200/2026/09/M631480.jpg",
-   "lang": "en",
-   "minutes": 4,
-   "paywall": false,
-   "points": [
-    "À Bakou, Antonelli a vécu son pire week-end : sortie de piste inutile en qualifications et voiture abîmée au départ.",
-    "Il a pourtant terminé cinquième en pilotant prudemment et en profitant des erreurs des autres.",
-    "Il n'a perdu que 15 points sur Russell, au lieu d'un week-end qui aurait pu tourner à la catastrophe.",
-    "En 2025, Piastri avait craqué au même endroit avec une avance, multipliant les erreurs.",
-    "L'article y voit un signe de maturité, tout en notant qu'il prend parfois trop de risques cette saison."
-   ],
-   "points_ar": [
-    "عاش أنتونيلي في باكو أسوأ عطلة له: اصطدام غير ضروري في التجارب التأهيلية وتضرر سيارته عند الانطلاق.",
-    "ومع ذلك أنهى السباق خامساً بقيادة حذرة واستغلال أخطاء الآخرين.",
-    "لم يخسر سوى 15 نقطة أمام راسل، بدل أن تتحول العطلة إلى كارثة.",
-    "في 2025 انهار بياستري في الحلبة نفسها رغم تقدمه، وتوالت أخطاؤه.",
-    "يرى المقال في ذلك علامة نضج، مع الإشارة إلى أنه يبالغ أحياناً في المخاطرة هذا الموسم."
-   ],
-   "resume": "Dans The Race, Edd Straw revient sur le Grand Prix d'Azerbaïdjan, de loin le pire week-end de la saison pour Kimi Antonelli. Arrivé à Bakou avec 81 points d'avance, le pilote Mercedes a tapé le mur en qualifications en voulant suivre le rythme de son coéquipier George Russell. En course, un contact avec Ollie Bearman lors d'une relance a abîmé le fond de sa voiture. Il a pourtant fini cinquième, en roulant prudemment et en profitant de la voiture de sécurité, et n'a perdu que 15 points sur Russell.\nL'auteur compare avec Oscar Piastri, qui avait craqué au même endroit en 2025 malgré son avance : accident en qualifications, pénalité, nouvel accident au premier tour, puis une course au titre qui s'effondre. Antonelli, lui, a évité les attaques risquées dans une file de voitures difficile à doubler. Son erreur reste réelle, mais sa gestion montre une maturité rare pour son âge. Pour Straw, savoir limiter les dégâts un mauvais jour est une qualité de champion.",
-   "resume_ar": "في موقع ذا ريس، يعود إد ستراو إلى جائزة أذربيجان الكبرى، أسوأ نهاية أسبوع في الموسم بالنسبة لكيمي أنتونيلي. فقد وصل سائق مرسيدس إلى باكو متقدماً بـ81 نقطة، ثم اصطدم بالحائط في التجارب التأهيلية وهو يحاول مجاراة زميله جورج راسل. وفي السباق، أدى احتكاك مع أولي بيرمان عند استئناف السباق إلى إتلاف أرضية سيارته. ومع ذلك أنهى خامساً، بقيادة حذرة ومستفيداً من سيارة الأمان، ولم يخسر سوى 15 نقطة أمام راسل.\nيقارن الكاتب ذلك بأوسكار بياستري، الذي انهار في المكان نفسه سنة 2025 رغم تقدمه: حادث في التأهيل، ثم عقوبة، ثم حادث جديد في اللفة الأولى، قبل أن ينهار سعيه إلى اللقب. أما أنتونيلي فتجنّب الهجمات الخطيرة وسط طابور من السيارات يصعب تجاوزها. خطؤه حقيقي، لكن تدبيره للسباق يكشف نضجاً نادراً في سنه. ويرى ستراو أن الحد من الخسائر في يوم سيئ من صفات الأبطال.",
-   "source": "The Race",
-   "sport": "f1",
-   "summary": "À Bakou, Antonelli a vécu son pire week-end mais a limité la perte de points face à Russell. Edd Straw compare cette prudence avec l'effondrement de Piastri en 2025.",
-   "summary_ar": "عاش أنتونيلي في باكو أسوأ عطلة أسبوع له هذا الموسم، لكنه حدّ من خسارة النقاط أمام راسل. ويقارن إد ستراو هذا الحذر بانهيار بياستري في 2025.",
-   "takeaway": "Antonelli a su limiter les dégâts un mauvais jour, ce qui distingue souvent un futur champion.",
-   "takeaway_ar": "عرف أنتونيلي كيف يحدّ من الخسائر في يوم سيئ، وهذه صفة البطل.",
-   "title": "Bakou : Antonelli a réussi le test de maturité que Piastri avait raté dans la course au titre",
-   "title_ar": "باكو: أنتونيلي نجح في اختبار النضج الذي فشل فيه بياستري في سباق اللقب",
-   "url": "https://www.the-race.com/formula-1/kimi-antonelli-worst-weekend-f1-2026-azerbaijan-key-test-passed/",
-   "why": "Une lecture claire du duel Antonelli–Russell avant Austin, où le titre peut se jouer.",
-   "why_ar": "قراءة واضحة للصراع بين أنتونيلي وراسل قبل أوستن، حيث قد يُحسم اللقب."
   }
  ],
  "analyses": [
+  {
+   "id": "an-maroc-libye-1016",
+   "cat": "sport",
+   "sport": "football",
+   "event": "fut-mar-lby-1016",
+   "title": "CAN de futsal : Maroc – Libye, un dernier match de groupe sans pression pour les Lions",
+   "title_ar": "كأس إفريقيا للفوتسال: المغرب – ليبيا، آخر مباراة في المجموعة دون ضغط على الأسود",
+   "dek": "Vendredi 16 octobre à 20h, à la salle Moulay Abdellah de Rabat. Déjà qualifié et premier, le Maroc veut garder sa défense invaincue ; la Libye joue sa dernière chance.",
+   "dek_ar": "الجمعة 16 أكتوبر على الساعة 20:00 بقاعة مولاي عبد الله بالرباط. المغرب متأهل ومتصدر ويريد الحفاظ على شباكه نظيفة، وليبيا تلعب آخر فرصها.",
+   "date": "2026-10-16",
+   "minutes": 4,
+   "image": "https://www.afrik-foot.com/thumbor/JMZqc1k18IBU_T-v8KviFeXI-y8=/1024x683/smart/filters:format(webp)/https%3A%2F%2Fmedia.afrik-foot.com%2Fmain%2F2026%2F10%2FICONSPORT_243756_0148.jpg",
+   "image_credit": "Afrik-Foot / Icon Sport",
+   "sections": [
+    {
+     "h": "Le contexte",
+     "h_ar": "السياق",
+     "body": "Ce Maroc – Libye n'est pas un match amical. C'est la troisième et dernière journée du groupe A de la Coupe d'Afrique des nations de futsal, organisée au Maroc du 12 au 21 octobre 2026. Huit sélections sont réparties en deux groupes de quatre. Le groupe A réunit le Maroc, la Libye, la Zambie et l'Algérie ; le groupe B, l'Égypte, l'Angola, le Mozambique et la Tanzanie. Le coup d'envoi est prévu à 20h, heure marocaine, au palais des sports du complexe Prince Moulay Abdellah, à Rabat. Le match est annoncé sur Arryadia et sur la chaîne YouTube de la CAF.",
+     "body_ar": "مباراة المغرب وليبيا ليست ودية. إنها الجولة الثالثة والأخيرة من المجموعة A في كأس إفريقيا للأمم لكرة القدم داخل القاعة، التي ينظمها المغرب من 12 إلى 21 أكتوبر 2026. وتتوزع ثمانية منتخبات على مجموعتين من أربعة. تضم المجموعة A المغرب وليبيا وزامبيا والجزائر، وتضم المجموعة B مصر وأنغولا والموزمبيق وتنزانيا. وتنطلق المباراة على الساعة 20:00 بتوقيت المغرب في القاعة المغطاة بمجمع الأمير مولاي عبد الله بالرباط، ويُعلن بثها على قناة الرياضية وعلى قناة الكاف في يوتيوب."
+    },
+    {
+     "h": "Le Maroc : deux matchs, onze buts, zéro encaissé",
+     "h_ar": "المغرب: مباراتان، أحد عشر هدفا، صفر في الشباك",
+     "body": "Les Lions de l'Atlas ont battu l'Algérie 4-0, puis la Zambie 7-0 mercredi 14 octobre. Face aux Zambiens, Idriss Raïss El Fenni a marqué quatre buts et a été élu homme du match par la CAF. Yanis Ahmed Erraddaf, Soufiane Charraoui et Youssef Jouad ont complété le score. Avec 6 points, le Maroc est assuré de finir premier du groupe et est déjà qualifié pour les demi-finales. Selon Afrik-Foot, il n'a plus rien à gagner au classement, mais veut rester sans but encaissé.",
+     "body_ar": "فاز أسود الأطلس على الجزائر 4-0، ثم على زامبيا 7-0 يوم الأربعاء 14 أكتوبر. وأمام زامبيا، سجل إدريس رايس الفني أربعة أهداف واختارته الكاف رجلا للمباراة، وأكمل يانيس أحمد الرداف وسفيان الشرعاوي ويوسف جواد النتيجة. وبست نقاط، ضمن المغرب صدارة المجموعة والتأهل إلى نصف النهائي. وحسب موقع أفريك فوت، لم يعد لديه ما يكسبه في الترتيب، لكنه يريد الحفاظ على شباكه نظيفة."
+    },
+    {
+     "h": "La Libye : gagner et espérer",
+     "h_ar": "ليبيا: الفوز وانتظار نتيجة أخرى",
+     "body": "La Libye, championne d'Afrique en 2008, a mal commencé : défaite 3-1 contre la Zambie, puis nul 2-2 contre l'Algérie après avoir mené de deux buts en fin de match. Elle compte 1 point, comme l'Algérie, derrière la Zambie (3 points). Pour se qualifier, elle doit battre le Maroc et compter sur un résultat favorable dans l'autre match, Zambie – Algérie, joué au même moment. Si l'Algérie gagne, trois équipes pourraient finir à 4 points ; le règlement de la compétition servirait alors à les départager.",
+     "body_ar": "بدأت ليبيا، بطلة إفريقيا سنة 2008، بشكل سيئ: خسرت 3-1 أمام زامبيا، ثم تعادلت 2-2 مع الجزائر بعدما كانت متقدمة بهدفين في نهاية المباراة. ولها نقطة واحدة مثل الجزائر، خلف زامبيا (3 نقاط). وللتأهل، يجب أن تفوز على المغرب وأن تنتظر نتيجة مناسبة في المباراة الأخرى بين زامبيا والجزائر، التي تُلعب في الوقت نفسه. وإذا فازت الجزائر، قد تنهي ثلاثة منتخبات المجموعة بأربع نقاط، ويحسم نظام المسابقة بينها."
+    },
+    {
+     "h": "Dguig et l'objectif d'un quatrième titre",
+     "h_ar": "الدكيك وهدف اللقب الرابع",
+     "body": "Hicham Dguig dirige la sélection depuis 2010. Sous sa direction, le Maroc a gagné la CAN en 2016, 2020 et 2024, la dernière fois à domicile avec une victoire 5-1 contre l'Angola en finale. Il partage ainsi le record de trois titres avec l'Égypte. L'équipe est sixième au classement mondial de la FIFA et a atteint les quarts de finale des Coupes du monde 2021 et 2024. À Rabat, elle vise un quatrième titre continental d'affilée, devant son public. Hespress rappelle toutefois que le statut de grand favori comporte un risque d'excès de confiance.",
+     "body_ar": "يقود هشام الدكيك المنتخب منذ 2010. وتحت إشرافه، فاز المغرب بكأس إفريقيا سنوات 2016 و2020 و2024، آخرها على أرضه بالفوز 5-1 على أنغولا في النهائي. وبذلك يتقاسم الرقم القياسي بثلاثة ألقاب مع مصر. ويحتل المنتخب المركز السادس في التصنيف العالمي للفيفا، وبلغ ربع نهائي كأس العالم في 2021 و2024. وفي الرباط، يسعى إلى لقب قاري رابع على التوالي أمام جمهوره. لكن هسبريس تذكّر بأن صفة المرشح الأبرز تحمل خطر الثقة الزائدة."
+    },
+    {
+     "h": "Ce qu'il faut surveiller",
+     "h_ar": "ما يجب متابعته",
+     "body": "Aucune des sources consultées ne signale de blessé ou de suspendu côté marocain. Avec la qualification acquise, la question est de savoir si le sélectionneur fera tourner son effectif pour préserver certains joueurs avant les demi-finales, prévues avant la finale du 21 octobre. Pour la Libye, l'enjeu est simple : il lui faut un résultat, et elle devra suivre à distance l'autre match du groupe.",
+     "body_ar": "لا يشير أي من المصادر التي اطلعنا عليها إلى مصاب أو موقوف في صفوف المغرب. ومع ضمان التأهل، يبقى السؤال هل سيغير المدرب بعض اللاعبين لإراحتهم قبل نصف النهائي، الذي يسبق نهائي 21 أكتوبر. أما ليبيا فرهانها واضح: تحتاج إلى نتيجة، وعليها أن تتابع عن بعد المباراة الأخرى في المجموعة."
+    }
+   ],
+   "takeaway": "Sans enjeu comptable pour le Maroc, ce match sert surtout de dernier réglage avant les demi-finales, alors que la Libye y joue sa qualification.",
+   "takeaway_ar": "دون رهان حسابي للمغرب، تُعد هذه المباراة آخر ضبط قبل نصف النهائي، بينما تلعب فيها ليبيا ورقة التأهل.",
+   "sources": [
+    {
+     "name": "Afrik-Foot (Maroc – Libye : chaîne et heure)",
+     "url": "https://www.afrik-foot.com/maroc-libye-chaine-et-heure-du-match-can-futsal-2026"
+    },
+    {
+     "name": "Le Matin (Maroc 7-0 Zambie)",
+     "url": "https://lematin.ma/sports/can-de-futsal-le-maroc-en-demi-finales-apres-son-succes-sur-la-zambie/370420"
+    },
+    {
+     "name": "Le360 Sport (Maroc 7-0 Zambie)",
+     "url": "https://sport.le360.ma/football/futsal/can-de-futsal-les-lions-de-latlas-ecrasent-la-zambie-et-filent-en-demi-finales_QGYOYFD43JBORFUIW7ZY6XLAJI/"
+    },
+    {
+     "name": "APA (présentation de la CAN de futsal)",
+     "url": "https://fr.apanews.net/not-to-be-missed/can-de-futsal-2026-huit-selections-en-lice-au-maroc/"
+    },
+    {
+     "name": "Hespress FR (les Lions visent un 4e sacre)",
+     "url": "https://fr.hespress.com/491424-can-maroc-2026-les-lions-de-futsal-debutent-leur-quete-dun-quadruple-sacre-inedit.html"
+    },
+    {
+     "name": "CAF (tirage au sort)",
+     "url": "https://www.cafonline.com/fr/coupe-dafrique-des-nations-de-futsal/infos/le-maroc-pays-hote-retrouve-des-adversaires-familiers-apres-le-tirage-au-sort-de-la-totalenergies-caf-coupe-d-afrique-des-nations-de-futsal-maroc-2026/"
+    }
+   ]
+  },
   {
    "cat": "sport",
    "date": "2026-10-14",
@@ -9344,6 +9115,6 @@
    "العالم: ماسك يحيل قيود ستارلينك إلى الجيش الأمريكي. إيبولا: حالة ثانية في كينيا.",
    "الاقتصاد: صادرات الصين +36% بدفع الذكاء الاصطناعي. والتضخم الأمريكي 3.7%."
   ],
-  "updatedAt": "2026-10-16T09:02:23Z"
+  "updatedAt": "2026-10-16T09:06:38Z"
  }
 }
