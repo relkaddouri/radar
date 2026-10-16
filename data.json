@@ -5299,7 +5299,39 @@
    "title_ar": "خالد حفتر في الرباط: تعاون عسكري وصراع عائلي في ليبيا",
    "url": "https://medias24.com/2026/10/14/maroc-libye-entre-diplomatie-militaire-et-rivalites-dynastiques-les-dessous-de-la-visite-de-khaled-haftar-a-rabat-1779111/",
    "why": "Un bon exemple pour comprendre comment le Maroc avance ses pions au Maghreb sans le dire tout haut.",
-   "why_ar": "مثال جيد لتفهم كيف يحرّك المغرب أوراقه في المنطقة المغاربية دون إعلان ذلك صراحة."
+   "why_ar": "مثال جيد لتفهم كيف يحرّك المغرب أوراقه في المنطقة المغاربية دون إعلان ذلك صراحة.",
+   "explain": {
+    "context": "Khaled Haftar est un chef militaire de l'Est de la Libye. Le Maroc le reçoit alors qu'il est en froid avec le gouvernement de Tripoli, à l'Ouest.",
+    "context_ar": "خالد حفتر قائد عسكري في شرق ليبيا، يستقبله المغرب في وقت تتوتر فيه علاقته بحكومة طرابلس في الغرب.",
+    "terms": [
+     {
+      "t": "chef d'état-major",
+      "t_ar": "رئيس الأركان",
+      "d": "L'officier le plus haut placé qui dirige l'organisation et la préparation d'une armée.",
+      "d_ar": "أعلى ضابط مسؤول عن تنظيم الجيش وتحضيره."
+     },
+     {
+      "t": "FAR",
+      "t_ar": "القوات المسلحة الملكية",
+      "d": "Les Forces Armées Royales : l'armée du Maroc.",
+      "d_ar": "القوات المسلحة الملكية: جيش المغرب."
+     },
+     {
+      "t": "Conseil de sécurité",
+      "t_ar": "مجلس الأمن",
+      "d": "L'organe de l'ONU qui décide sur la paix et la guerre ; 10 pays y siègent à tour de rôle pour deux ans.",
+      "d_ar": "هيئة في الأمم المتحدة تقرر في قضايا السلم والحرب؛ تتناوب عليها 10 دول لمدة سنتين."
+     }
+    ],
+    "figures": [
+     {
+      "n": "2028-2029",
+      "n_ar": "2028-2029",
+      "d": "La période du siège de membre non permanent au Conseil de sécurité que la Libye et le Maroc se disputent. Un mandat dure deux ans.",
+      "d_ar": "فترة المقعد غير الدائم في مجلس الأمن الذي تتنافس عليه ليبيا والمغرب. مدة الولاية سنتان."
+     }
+    ]
+   }
   },
   {
    "cat": "maroc",
@@ -5333,7 +5365,51 @@
    "title_ar": "السكك الحديدية: المال العام لم يعد كافياً والمكتب الوطني يبحث عن تمويلات أخرى",
    "url": "https://medias24.com/2026/10/14/infrastructures-ferroviaires-le-financement-public-ne-suffit-plus-loncf-explore-de-nouvelles-pistes-1779103/",
    "why": "Un cas concret de stratégie : comment financer un gros projet quand les recettes ne couvrent pas les coûts.",
-   "why_ar": "حالة ملموسة في الاستراتيجية: كيف تموّل مشروعاً ضخماً حين لا تغطي المداخيل التكاليف."
+   "why_ar": "حالة ملموسة في الاستراتيجية: كيف تموّل مشروعاً ضخماً حين لا تغطي المداخيل التكاليف.",
+   "explain": {
+    "context": "Le Maroc construit la grande vitesse jusqu'à Marrakech et de nouveaux trains. Ces chantiers coûtent très cher, et l'État seul ne peut plus payer.",
+    "context_ar": "يبني المغرب القطار فائق السرعة نحو مراكش وقطارات جديدة. هذه الأوراش مكلفة جدا ولم تعد الدولة قادرة على تمويلها وحدها.",
+    "terms": [
+     {
+      "t": "obligations vertes",
+      "t_ar": "سندات خضراء",
+      "d": "Un prêt que l'on emprunte aux investisseurs pour financer des projets bons pour le climat, comme le train. On leur rend l'argent plus tard avec des intérêts.",
+      "d_ar": "قرض تقترضه الجهة من المستثمرين لتمويل مشاريع صديقة للمناخ مثل القطار، ثم تردّه لاحقا مع فوائد."
+     },
+     {
+      "t": "partenariats public-privé",
+      "t_ar": "شراكات بين القطاعين العام والخاص",
+      "d": "Un contrat où l'État et une entreprise privée construisent ou gèrent ensemble un projet et partagent les risques.",
+      "d_ar": "عقد تبني أو تدير بموجبه الدولة وشركة خاصة مشروعا معا وتتقاسمان المخاطر."
+     },
+     {
+      "t": "banques de développement",
+      "t_ar": "بنوك تنمية",
+      "d": "Des banques, souvent internationales, qui prêtent à long terme et à bas coût pour de grands projets utiles au pays.",
+      "d_ar": "بنوك، غالبا دولية، تقرض لمدة طويلة وبكلفة منخفضة لتمويل مشاريع كبرى تفيد البلد."
+     },
+     {
+      "t": "épargne longue",
+      "t_ar": "ادخار طويل الأمد",
+      "d": "L'argent que des caisses de retraite ou des assureurs gardent pendant des années, et qu'ils peuvent investir dans de gros projets.",
+      "d_ar": "أموال تحتفظ بها صناديق التقاعد وشركات التأمين لسنوات ويمكن أن تستثمرها في مشاريع كبرى."
+     }
+    ],
+    "figures": [
+     {
+      "n": "96 milliards de dirhams",
+      "n_ar": "96 مليار درهم",
+      "d": "Le coût du programme rail du Maroc d'ici 2030. C'est une somme énorme : environ 2 600 dirhams pour chaque Marocain.",
+      "d_ar": "كلفة برنامج السكك الحديدية بالمغرب إلى غاية 2030. مبلغ ضخم: نحو 2600 درهم عن كل مغربي."
+     },
+     {
+      "n": "5 milliards de dirhams",
+      "n_ar": "5 مليارات درهم",
+      "d": "Le montant d'obligations vertes déjà émises par l'ONCF depuis 2022, soit environ 5 % du programme.",
+      "d_ar": "قيمة السندات الخضراء التي أصدرها المكتب منذ 2022، أي نحو 5% من البرنامج."
+     }
+    ]
+   }
   },
   {
    "cat": "sport",
