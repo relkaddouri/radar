@@ -1297,650 +1297,794 @@
  ],
  "news": [
   {
-   "cat": "maroc",
-   "sub": "politique",
-   "title": "Le gouvernement de Fatima Ezzahra El Mansouri prête serment devant le Roi",
-   "title_ar": "حكومة فاطمة الزهراء المنصوري تؤدي اليمين أمام الملك",
-   "summary": "Le Roi a présidé vendredi au palais royal de Rabat la prestation de serment du nouveau gouvernement dirigé par Fatima Ezzahra El Mansouri. L'équipe compte 32 membres : Nasser Bourita reste aux Affaires étrangères, Abdelouafi Laftit à l'Intérieur et Fouzi Lekjaa prend l'Économie et les Finances.",
-   "summary_ar": "ترأس الملك يوم الجمعة بالقصر الملكي في الرباط أداء اليمين للحكومة الجديدة برئاسة فاطمة الزهراء المنصوري. وتضم الحكومة 32 عضوا، إذ يبقى ناصر بوريطة في الخارجية وعبد الوافي لفتيت في الداخلية، فيما يتولى فوزي لقجع الاقتصاد والمالية.",
-   "source": "Le360",
-   "url": "https://fr.le360.ma/politique/voici-la-composition-du-nouveau-gouvernement-el-mansouri_SNGAYD2HWVDXFBRKXQDDPL44PU/",
-   "date": "2026-10-16",
-   "image": "https://fr.le360.ma/resizer/v2/IAKGWNG52FDAZNJPWCCOLJDHDA.jpg?auth=3942bdcbb3fafd669f11321ed2f01cbc0516d658027de997c56f022ef44fe22c&smart=true&width=1200&height=630",
+   "cat": "ux",
+   "title": "WhatsApp : on peut rejoindre un appel sans avoir de compte",
+   "title_ar": "واتساب: يمكن الانضمام إلى مكالمة دون امتلاك حساب",
+   "summary": "Depuis le 14 octobre, une personne sans compte WhatsApp peut ouvrir un lien d'invitation dans le navigateur d'un ordinateur, écrire son nom et attendre que l'hôte l'accepte. Les appels réunissent jusqu'à 32 personnes, et l'invité ne voit pas les numéros de téléphone ni ne peut envoyer de messages.",
+   "summary_ar": "منذ 14 أكتوبر، يمكن لشخص لا يملك حساب واتساب أن يفتح رابط دعوة في متصفح الحاسوب، ويكتب اسمه، وينتظر أن يقبله المضيف. وتجمع المكالمات حتى 32 شخصاً، ولا يرى الضيف أرقام الهواتف ولا يستطيع إرسال الرسائل.",
+   "source": "UX News",
+   "url": "https://ux-news.com/whatsapp-guest-calls-without-account/",
+   "date": "2026-10-15",
+   "image": "https://ux-news.com/content/images/size/w1200/2026/10/whatsapp-guest-calls.jpg",
    "explain": {
-    "context": "Après les législatives, Fatima Ezzahra El Mansouri (PAM) a été nommée cheffe du gouvernement. Elle devait ensuite former son équipe de ministres.",
-    "context_ar": "بعد الانتخابات التشريعية، عُيّنت فاطمة الزهراء المنصوري (الأصالة والمعاصرة) رئيسة للحكومة، ثم كان عليها تشكيل فريقها الوزاري.",
+    "context": "Jusqu'ici, il fallait un compte pour participer à un appel WhatsApp. L'hôte, lui, doit toujours avoir un compte pour créer le lien, et des liens avec Google Calendar et Outlook sont prévus plus tard en 2026.",
+    "context_ar": "حتى الآن، كان المشاركون يحتاجون إلى حساب للانضمام إلى مكالمة واتساب. أما المضيف فما زال يحتاج إلى حساب لإنشاء الرابط، ومن المنتظر ربط الخدمة بتقويم غوغل وأوتلوك لاحقاً في 2026.",
     "terms": [
      {
-      "t": "prestation de serment",
-      "t_ar": "أداء اليمين",
-      "d": "Cérémonie où les ministres promettent officiellement devant le Roi de bien faire leur travail.",
-      "d_ar": "مراسم يتعهد فيها الوزراء رسميا أمام الملك بأداء مهامهم على أحسن وجه."
+      "t": "hôte",
+      "t_ar": "المضيف",
+      "d": "La personne qui crée l'appel et décide qui peut entrer ou sortir.",
+      "d_ar": "الشخص الذي ينشئ المكالمة ويقرر من يدخل ومن يخرج."
      }
     ],
     "figures": [
      {
       "n": "32",
       "n_ar": "32",
-      "d": "Nombre de membres du gouvernement, cheffe du gouvernement comprise.",
-      "d_ar": "عدد أعضاء الحكومة بمن فيهم رئيستها."
+      "d": "Nombre maximum de personnes dans un même appel, à peu près une classe d'école.",
+      "d_ar": "أقصى عدد من الأشخاص في المكالمة نفسها، أي ما يقارب قسماً دراسياً."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "ux",
+   "title": "Google Health demande de confirmer les séances de sport détectées",
+   "title_ar": "Google Health يطلب تأكيد الحصص الرياضية التي يكتشفها تلقائياً",
+   "summary": "Google étend la détection automatique du sport de 10 à plus de 100 activités sur les montres Fitbit et Pixel Watch. Une notification propose deux choix simples, « Confirmer » ou « Autre chose », pour corriger l'activité reconnue.",
+   "summary_ar": "توسّع غوغل الاكتشاف التلقائي للرياضة من 10 أنشطة إلى أكثر من 100 نشاط في ساعات فيتبيت وبيكسل ووتش. ويقترح إشعار خيارين بسيطين، «تأكيد» أو «شيء آخر»، لتصحيح النشاط المكتشف.",
+   "source": "UX News",
+   "url": "https://ux-news.com/google-health-automatic-workout-detection/",
+   "date": "2026-10-13",
+   "image": "https://ux-news.com/content/images/size/w1200/2026/10/health-activity.webp",
+   "explain": {
+    "context": "La montre enregistre une séance quand l'effort dure au moins 15 minutes avec un rythme cardiaque élevé. Laisser l'utilisateur confirmer évite d'enregistrer de fausses activités.",
+    "context_ar": "تسجّل الساعة الحصة عندما يدوم المجهود 15 دقيقة على الأقل مع نبض قلب مرتفع. وترك المستخدم يؤكد يجنّب تسجيل أنشطة خاطئة.",
+    "terms": [
+     {
+      "t": "détection automatique",
+      "t_ar": "الاكتشاف التلقائي",
+      "d": "L'appareil devine seul ce que vous faites, sans que vous appuyiez sur un bouton.",
+      "d_ar": "يخمّن الجهاز وحده ما تقوم به، دون أن تضغط على أي زر."
+     }
+    ],
+    "figures": [
+     {
+      "n": "100",
+      "n_ar": "100",
+      "d": "Plus de 100 activités reconnues, contre 10 avant : dix fois plus.",
+      "d_ar": "أكثر من 100 نشاط معروف مقابل 10 من قبل، أي عشرة أضعاف."
+     },
+     {
+      "n": "30 minutes",
+      "n_ar": "30 دقيقة",
+      "d": "Délai habituel avant de recevoir le résumé de la séance dans l'application.",
+      "d_ar": "المدة المعتادة قبل وصول ملخص الحصة إلى التطبيق."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "divers",
+   "sub": "enfant",
+   "title": "La taille du bébé à la naissance liée à ses résultats scolaires",
+   "title_ar": "حجم الرضيع عند الولادة مرتبط بنتائجه الدراسية",
+   "summary": "Une étude norvégienne sur plus de 92 000 enfants montre que les bébés nés plus petits que prévu ont, plus tard, des notes un peu plus basses en mathématiques. Les écarts de développement liés à la durée de la grossesse avaient presque disparu vers 5 ans.",
+   "summary_ar": "تُظهر دراسة نرويجية شملت أكثر من 92 ألف طفل أن الرضّع الذين وُلدوا أصغر من المتوقع يحصلون لاحقاً على نقط أقل قليلاً في الرياضيات. أما الفوارق في النمو المرتبطة بمدة الحمل فقد اختفت تقريباً في حوالي سن الخامسة.",
+   "source": "Earth.com",
+   "url": "https://earth.com/lifestyle/a-babys-size-at-birth-may-predict-school-performance-years-later",
+   "date": "2026-10-16",
+   "image": "https://www.earth.com/img/16x9/1920/media-2026/2026/10/16084754/Baby-birth-size.jpg",
+   "explain": {
+    "context": "L'étude concerne des bébés nés à terme, entre 37 et 41 semaines. Elle montre un lien, pas une cause : d'autres facteurs peuvent jouer.",
+    "context_ar": "تخص الدراسة رضّعاً وُلدوا في موعدهم، بين 37 و41 أسبوعاً. وهي تُظهر علاقة وليس سبباً، إذ قد تتدخل عوامل أخرى.",
+    "terms": [
+     {
+      "t": "plus petits que prévu",
+      "t_ar": "أصغر من المتوقع",
+      "d": "Bébé parmi les 10 % les plus petits pour son sexe et sa semaine de naissance.",
+      "d_ar": "رضيع ضمن 10٪ الأصغر حجماً بالنسبة لجنسه وأسبوع ولادته."
+     }
+    ],
+    "figures": [
+     {
+      "n": "92 000",
+      "n_ar": "92 ألف",
+      "d": "Nombre d'enfants suivis, l'équivalent d'une grande ville moyenne.",
+      "d_ar": "عدد الأطفال الذين تمت متابعتهم، ما يعادل سكان مدينة متوسطة."
+     },
+     {
+      "n": "2,3 points",
+      "n_ar": "2.3 نقطة",
+      "d": "Écart en maths en 5e année, sur une échelle où la moyenne est 50.",
+      "d_ar": "الفارق في الرياضيات في السنة الخامسة، على سلم معدله 50."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "divers",
+   "sub": "montessori",
+   "title": "Comment les enfants Montessori apprennent à lire et à écrire",
+   "title_ar": "كيف يتعلم أطفال مونتيسوري القراءة والكتابة",
+   "summary": "La Montessori Foundation explique un parcours en étapes : d'abord la langue parlée, puis l'écoute des sons dans les mots, avant les noms des lettres. Les enfants tracent des lettres rugueuses et composent des mots avec un alphabet mobile, souvent avant de savoir bien écrire à la main.",
+   "summary_ar": "تشرح مؤسسة مونتيسوري مساراً على مراحل: أولاً اللغة المنطوقة، ثم الاستماع إلى الأصوات داخل الكلمات، قبل أسماء الحروف. ويتتبع الأطفال حروفاً خشنة الملمس ويركّبون كلمات بأبجدية متحركة، غالباً قبل أن يتقنوا الكتابة باليد.",
+   "source": "Montessori Foundation",
+   "url": "https://www.montessori.org/why-montessori-children-learn-to-read-and-write-differently/",
+   "date": "2026-10-16",
+   "image": "https://www.montessori.org/wp-content/uploads/2026/10/reading.webp",
+   "explain": {
+    "context": "Dans cette méthode, l'enfant écrit souvent avant de lire, et les fautes d'orthographe du début sont attendues. La main se prépare aussi avec des activités de la vie pratique.",
+    "context_ar": "في هذه الطريقة، يكتب الطفل غالباً قبل أن يقرأ، والأخطاء الإملائية في البداية أمر متوقع. كما تتهيأ اليد عبر أنشطة الحياة العملية.",
+    "terms": [
+     {
+      "t": "lettres rugueuses",
+      "t_ar": "حروف خشنة الملمس",
+      "d": "Lettres en papier de verre que l'enfant suit du doigt en disant leur son.",
+      "d_ar": "حروف من ورق الصنفرة يتتبعها الطفل بإصبعه وهو ينطق صوتها."
+     },
+     {
+      "t": "alphabet mobile",
+      "t_ar": "أبجدية متحركة",
+      "d": "Boîte de lettres séparées pour former des mots sans tenir de crayon.",
+      "d_ar": "علبة حروف منفصلة لتركيب الكلمات دون الحاجة إلى قلم."
+     }
+    ],
+    "figures": [
+     {
+      "n": "3",
+      "n_ar": "3",
+      "d": "Le mot « sun » (soleil) contient trois sons : s, u, n.",
+      "d_ar": "كلمة «sun» (شمس) تحتوي على ثلاثة أصوات: s وu وn."
      }
     ]
    }
   },
   {
    "cat": "maroc",
-   "sub": "economie",
-   "title": "Coface : le Maroc reste le pays le moins risqué d'Afrique du Nord",
-   "title_ar": "كوفاس: المغرب يبقى البلد الأقل مخاطر في شمال إفريقيا",
-   "summary": "L'assureur-crédit Coface garde au Maroc la note B, la meilleure d'Afrique du Nord, devant l'Algérie, la Tunisie, l'Égypte et la Libye. Il prévoit aussi une croissance mondiale de 2,5 % en 2026, freinée par la guerre au Moyen-Orient et la hausse du pétrole.",
-   "summary_ar": "أبقت شركة تأمين القروض كوفاس على تصنيف المغرب في الدرجة B، وهي الأفضل في شمال إفريقيا، متقدما على الجزائر وتونس ومصر وليبيا. كما تتوقع نموا عالميا بنسبة 2,5% في 2026، يكبحه الصراع في الشرق الأوسط وارتفاع أسعار النفط.",
-   "source": "Le Matin",
-   "url": "https://lematin.ma/economie/risque-pays-le-maroc-reste-le-plus-performant-dafrique-du-nord-coface/370649",
    "date": "2026-10-16",
-   "image": "https://lematin.ma/lematin/uploads/images/2026/10/16/567328.jpg",
+   "explain": {
+    "context": "Après les législatives, Fatima Ezzahra El Mansouri (PAM) a été nommée cheffe du gouvernement. Elle devait ensuite former son équipe de ministres.",
+    "context_ar": "بعد الانتخابات التشريعية، عُيّنت فاطمة الزهراء المنصوري (الأصالة والمعاصرة) رئيسة للحكومة، ثم كان عليها تشكيل فريقها الوزاري.",
+    "figures": [
+     {
+      "d": "Nombre de membres du gouvernement, cheffe du gouvernement comprise.",
+      "d_ar": "عدد أعضاء الحكومة بمن فيهم رئيستها.",
+      "n": "32",
+      "n_ar": "32"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Cérémonie où les ministres promettent officiellement devant le Roi de bien faire leur travail.",
+      "d_ar": "مراسم يتعهد فيها الوزراء رسميا أمام الملك بأداء مهامهم على أحسن وجه.",
+      "t": "prestation de serment",
+      "t_ar": "أداء اليمين"
+     }
+    ]
+   },
+   "image": "https://fr.le360.ma/resizer/v2/IAKGWNG52FDAZNJPWCCOLJDHDA.jpg?auth=3942bdcbb3fafd669f11321ed2f01cbc0516d658027de997c56f022ef44fe22c&smart=true&width=1200&height=630",
+   "source": "Le360",
+   "sub": "politique",
+   "summary": "Le Roi a présidé vendredi au palais royal de Rabat la prestation de serment du nouveau gouvernement dirigé par Fatima Ezzahra El Mansouri. L'équipe compte 32 membres : Nasser Bourita reste aux Affaires étrangères, Abdelouafi Laftit à l'Intérieur et Fouzi Lekjaa prend l'Économie et les Finances.",
+   "summary_ar": "ترأس الملك يوم الجمعة بالقصر الملكي في الرباط أداء اليمين للحكومة الجديدة برئاسة فاطمة الزهراء المنصوري. وتضم الحكومة 32 عضوا، إذ يبقى ناصر بوريطة في الخارجية وعبد الوافي لفتيت في الداخلية، فيما يتولى فوزي لقجع الاقتصاد والمالية.",
+   "title": "Le gouvernement de Fatima Ezzahra El Mansouri prête serment devant le Roi",
+   "title_ar": "حكومة فاطمة الزهراء المنصوري تؤدي اليمين أمام الملك",
+   "url": "https://fr.le360.ma/politique/voici-la-composition-du-nouveau-gouvernement-el-mansouri_SNGAYD2HWVDXFBRKXQDDPL44PU/"
+  },
+  {
+   "cat": "maroc",
+   "date": "2026-10-16",
    "explain": {
     "context": "Coface publie chaque trimestre un classement du risque des pays pour les entreprises. Le Maroc profite de son attrait pour les touristes et les investisseurs.",
     "context_ar": "تنشر كوفاس كل ثلاثة أشهر تصنيفا لمخاطر البلدان بالنسبة للشركات. ويستفيد المغرب من جاذبيته للسياح والمستثمرين.",
-    "terms": [
-     {
-      "t": "assureur-crédit",
-      "t_ar": "شركة تأمين القروض",
-      "d": "Société qui protège les entreprises si leurs clients ne paient pas leurs factures.",
-      "d_ar": "شركة تحمي المقاولات إذا لم يدفع زبناؤها فواتيرهم."
-     },
-     {
-      "t": "croissance mondiale",
-      "t_ar": "النمو العالمي",
-      "d": "Augmentation, en un an, de la richesse produite par tous les pays du monde.",
-      "d_ar": "ارتفاع الثروة التي تنتجها كل دول العالم خلال سنة."
-     }
-    ],
     "figures": [
      {
-      "n": "2,5 %",
-      "n_ar": "2,5%",
       "d": "Croissance mondiale prévue en 2026, contre 2,8 % en 2025.",
-      "d_ar": "النمو العالمي المتوقع في 2026، مقابل 2,8% في 2025."
+      "d_ar": "النمو العالمي المتوقع في 2026، مقابل 2,8% في 2025.",
+      "n": "2,5 %",
+      "n_ar": "2,5%"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Société qui protège les entreprises si leurs clients ne paient pas leurs factures.",
+      "d_ar": "شركة تحمي المقاولات إذا لم يدفع زبناؤها فواتيرهم.",
+      "t": "assureur-crédit",
+      "t_ar": "شركة تأمين القروض"
+     },
+     {
+      "d": "Augmentation, en un an, de la richesse produite par tous les pays du monde.",
+      "d_ar": "ارتفاع الثروة التي تنتجها كل دول العالم خلال سنة.",
+      "t": "croissance mondiale",
+      "t_ar": "النمو العالمي"
      }
     ]
-   }
+   },
+   "image": "https://lematin.ma/lematin/uploads/images/2026/10/16/567328.jpg",
+   "source": "Le Matin",
+   "sub": "economie",
+   "summary": "L'assureur-crédit Coface garde au Maroc la note B, la meilleure d'Afrique du Nord, devant l'Algérie, la Tunisie, l'Égypte et la Libye. Il prévoit aussi une croissance mondiale de 2,5 % en 2026, freinée par la guerre au Moyen-Orient et la hausse du pétrole.",
+   "summary_ar": "أبقت شركة تأمين القروض كوفاس على تصنيف المغرب في الدرجة B، وهي الأفضل في شمال إفريقيا، متقدما على الجزائر وتونس ومصر وليبيا. كما تتوقع نموا عالميا بنسبة 2,5% في 2026، يكبحه الصراع في الشرق الأوسط وارتفاع أسعار النفط.",
+   "title": "Coface : le Maroc reste le pays le moins risqué d'Afrique du Nord",
+   "title_ar": "كوفاس: المغرب يبقى البلد الأقل مخاطر في شمال إفريقيا",
+   "url": "https://lematin.ma/economie/risque-pays-le-maroc-reste-le-plus-performant-dafrique-du-nord-coface/370649"
   },
   {
    "cat": "maroc",
-   "sub": "economie",
-   "title": "Royal Air Maroc ouvre une ligne directe Casablanca–Essaouira",
-   "title_ar": "الخطوط الملكية المغربية تفتتح خطا مباشرا بين الدار البيضاء والصويرة",
-   "summary": "Royal Air Maroc lancera le 1er novembre une ligne directe entre Casablanca et Essaouira, avec deux vols par semaine, le mercredi et le dimanche. L'aller-retour coûtera 800 dirhams en classe économique et 1 600 dirhams en classe affaires.",
-   "summary_ar": "ستطلق الخطوط الملكية المغربية في فاتح نونبر خطا مباشرا بين الدار البيضاء والصويرة، بمعدل رحلتين أسبوعيا يومي الأربعاء والأحد. وسيكلف الذهاب والإياب 800 درهم في الدرجة الاقتصادية و1600 درهم في درجة الأعمال.",
-   "source": "Le Matin",
-   "url": "https://lematin.ma/economie/royal-air-maroc-ouvre-une-nouvelle-ligne-directe-casablancaessaouira/370551",
    "date": "2026-10-15",
-   "image": "https://lematin.ma/lematin/uploads/images/2026/10/15/567130.jpg",
    "explain": {
     "context": "La ligne est née d'un accord avec la région Marrakech-Safi. Depuis Casablanca, les voyageurs d'Essaouira pourront rejoindre 86 destinations internationales.",
     "context_ar": "جاء هذا الخط ثمرة اتفاق مع جهة مراكش آسفي. ومن الدار البيضاء سيتمكن مسافرو الصويرة من الوصول إلى 86 وجهة دولية.",
-    "terms": [],
     "figures": [
      {
-      "n": "800 DH",
-      "n_ar": "800 درهم",
       "d": "Prix d'un aller-retour en classe économique.",
-      "d_ar": "ثمن تذكرة ذهاب وإياب في الدرجة الاقتصادية."
+      "d_ar": "ثمن تذكرة ذهاب وإياب في الدرجة الاقتصادية.",
+      "n": "800 DH",
+      "n_ar": "800 درهم"
      }
-    ]
-   }
+    ],
+    "terms": []
+   },
+   "image": "https://lematin.ma/lematin/uploads/images/2026/10/15/567130.jpg",
+   "source": "Le Matin",
+   "sub": "economie",
+   "summary": "Royal Air Maroc lancera le 1er novembre une ligne directe entre Casablanca et Essaouira, avec deux vols par semaine, le mercredi et le dimanche. L'aller-retour coûtera 800 dirhams en classe économique et 1 600 dirhams en classe affaires.",
+   "summary_ar": "ستطلق الخطوط الملكية المغربية في فاتح نونبر خطا مباشرا بين الدار البيضاء والصويرة، بمعدل رحلتين أسبوعيا يومي الأربعاء والأحد. وسيكلف الذهاب والإياب 800 درهم في الدرجة الاقتصادية و1600 درهم في درجة الأعمال.",
+   "title": "Royal Air Maroc ouvre une ligne directe Casablanca–Essaouira",
+   "title_ar": "الخطوط الملكية المغربية تفتتح خطا مباشرا بين الدار البيضاء والصويرة",
+   "url": "https://lematin.ma/economie/royal-air-maroc-ouvre-une-nouvelle-ligne-directe-casablancaessaouira/370551"
   },
   {
    "cat": "maroc",
-   "sub": "societe",
-   "title": "Travail des enfants : un nouveau dispositif national pour accompagner chaque enfant",
-   "title_ar": "تشغيل الأطفال: آلية وطنية جديدة لمواكبة كل طفل",
-   "summary": "La princesse Lalla Meryem a lancé à Rabat un dispositif national pour sortir les enfants du travail et les aider à revenir à l'école. Selon le HCP, environ 103 000 enfants de 7 à 17 ans travaillent encore au Maroc, surtout en milieu rural.",
-   "summary_ar": "أطلقت الأميرة للا مريم بالرباط آلية وطنية لإبعاد الأطفال عن العمل ومساعدتهم على العودة إلى المدرسة. وحسب المندوبية السامية للتخطيط، لا يزال نحو 103 آلاف طفل بين 7 و17 سنة يعملون في المغرب، أغلبهم في الوسط القروي.",
-   "source": "Le360",
-   "url": "https://fr.le360.ma/societe/la-princesse-lalla-meryem-lance-le-dispositif-national-deradication-du-travail-des-enfants_2GNRWSLB45CF7NT7FBBQSZTXE4/",
    "date": "2026-10-16",
-   "image": "https://fr.le360.ma/resizer/v2/F2Q32TUIPFADTNAOCGMP6VIURY.jpg?auth=71273717420c904a1075ef9a8888a467a6e7d0f66945f9c25de72490a0105415&smart=true&width=1200&height=630",
    "explain": {
     "context": "Le travail des enfants a baissé de plus de 80 % depuis 1999. Le nouveau dispositif prévoit aussi une aide économique aux familles dès le retrait de l'enfant.",
     "context_ar": "تراجع تشغيل الأطفال بأكثر من 80% منذ 1999. وتنص الآلية الجديدة أيضا على دعم اقتصادي للأسر منذ يوم إبعاد الطفل عن العمل.",
-    "terms": [
-     {
-      "t": "HCP",
-      "t_ar": "المندوبية السامية للتخطيط",
-      "d": "Haut-Commissariat au Plan : l'organisme public qui produit les statistiques officielles du Maroc.",
-      "d_ar": "الهيئة العمومية التي تنتج الإحصائيات الرسمية في المغرب."
-     }
-    ],
     "figures": [
      {
-      "n": "103 000",
-      "n_ar": "103 آلاف",
       "d": "Nombre d'enfants de 7 à 17 ans qui travaillent, soit 1,3 % de cette tranche d'âge.",
-      "d_ar": "عدد الأطفال العاملين بين 7 و17 سنة، أي 1,3% من هذه الفئة العمرية."
+      "d_ar": "عدد الأطفال العاملين بين 7 و17 سنة، أي 1,3% من هذه الفئة العمرية.",
+      "n": "103 000",
+      "n_ar": "103 آلاف"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Haut-Commissariat au Plan : l'organisme public qui produit les statistiques officielles du Maroc.",
+      "d_ar": "الهيئة العمومية التي تنتج الإحصائيات الرسمية في المغرب.",
+      "t": "HCP",
+      "t_ar": "المندوبية السامية للتخطيط"
      }
     ]
-   }
+   },
+   "image": "https://fr.le360.ma/resizer/v2/F2Q32TUIPFADTNAOCGMP6VIURY.jpg?auth=71273717420c904a1075ef9a8888a467a6e7d0f66945f9c25de72490a0105415&smart=true&width=1200&height=630",
+   "source": "Le360",
+   "sub": "societe",
+   "summary": "La princesse Lalla Meryem a lancé à Rabat un dispositif national pour sortir les enfants du travail et les aider à revenir à l'école. Selon le HCP, environ 103 000 enfants de 7 à 17 ans travaillent encore au Maroc, surtout en milieu rural.",
+   "summary_ar": "أطلقت الأميرة للا مريم بالرباط آلية وطنية لإبعاد الأطفال عن العمل ومساعدتهم على العودة إلى المدرسة. وحسب المندوبية السامية للتخطيط، لا يزال نحو 103 آلاف طفل بين 7 و17 سنة يعملون في المغرب، أغلبهم في الوسط القروي.",
+   "title": "Travail des enfants : un nouveau dispositif national pour accompagner chaque enfant",
+   "title_ar": "تشغيل الأطفال: آلية وطنية جديدة لمواكبة كل طفل",
+   "url": "https://fr.le360.ma/societe/la-princesse-lalla-meryem-lance-le-dispositif-national-deradication-du-travail-des-enfants_2GNRWSLB45CF7NT7FBBQSZTXE4/"
   },
   {
    "cat": "maroc",
-   "sub": "societe",
-   "title": "Casablanca : un cimetière de 118 hectares pour les quarante prochaines années",
-   "title_ar": "الدار البيضاء: مقبرة على 118 هكتارا لتلبية حاجيات الأربعين سنة المقبلة",
-   "summary": "Le cimetière Al Ihsane, situé dans la province de Médiouna, doit soulager les cimetières saturés de Casablanca. Le projet coûte 75 millions de dirhams, dont 30 millions payés par la région Casablanca-Settat.",
-   "summary_ar": "ستخفف مقبرة الإحسان، الواقعة بإقليم مديونة، الضغط عن مقابر الدار البيضاء الممتلئة. ويكلف المشروع 75 مليون درهم، منها 30 مليونا تتحملها جهة الدار البيضاء سطات.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/492489-cimetiere-al-ihsane-118-hectares-pour-desengorger-les-cimetieres-de-casablanca.html",
    "date": "2026-10-15",
-   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/cimetiere-al-ihssane.jpg",
    "explain": {
     "context": "Le terrain a été offert par un bienfaiteur aujourd'hui décédé. Le site comptera aussi une mosquée, une école coranique, des bureaux et un parking.",
     "context_ar": "قدّم الأرضَ محسنٌ توفي منذ ذلك الحين. وسيضم الموقع أيضا مسجدا ومدرسة قرآنية ومكاتب وموقفا للسيارات.",
-    "terms": [],
     "figures": [
      {
-      "n": "118 hectares",
-      "n_ar": "118 هكتارا",
       "d": "Surface du cimetière, soit environ 165 terrains de football.",
-      "d_ar": "مساحة المقبرة، أي ما يعادل نحو 165 ملعب كرة قدم."
+      "d_ar": "مساحة المقبرة، أي ما يعادل نحو 165 ملعب كرة قدم.",
+      "n": "118 hectares",
+      "n_ar": "118 هكتارا"
      }
-    ]
-   }
+    ],
+    "terms": []
+   },
+   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/cimetiere-al-ihssane.jpg",
+   "source": "Hespress FR",
+   "sub": "societe",
+   "summary": "Le cimetière Al Ihsane, situé dans la province de Médiouna, doit soulager les cimetières saturés de Casablanca. Le projet coûte 75 millions de dirhams, dont 30 millions payés par la région Casablanca-Settat.",
+   "summary_ar": "ستخفف مقبرة الإحسان، الواقعة بإقليم مديونة، الضغط عن مقابر الدار البيضاء الممتلئة. ويكلف المشروع 75 مليون درهم، منها 30 مليونا تتحملها جهة الدار البيضاء سطات.",
+   "title": "Casablanca : un cimetière de 118 hectares pour les quarante prochaines années",
+   "title_ar": "الدار البيضاء: مقبرة على 118 هكتارا لتلبية حاجيات الأربعين سنة المقبلة",
+   "url": "https://fr.hespress.com/492489-cimetiere-al-ihsane-118-hectares-pour-desengorger-les-cimetieres-de-casablanca.html"
   },
   {
    "cat": "sport",
-   "sport": "tennis",
-   "title": "Shanghai : Medvedev bat Tommy Paul et retrouve Jodar en demi-finale",
-   "title_ar": "شنغهاي: ميدفيديف يتغلب على تومي بول ويواجه خودار في نصف النهائي",
-   "summary": "Daniil Medvedev a battu l'Américain Tommy Paul 6-3, 1-6, 6-3 en 2 h 09 en quarts de finale du Masters 1000 de Shanghai. Vainqueur du tournoi en 2019, il affrontera le jeune Espagnol Rafael Jodar pour une place en finale.",
-   "summary_ar": "تغلب دانييل ميدفيديف على الأمريكي تومي بول بنتيجة 6-3 و1-6 و6-3 في ساعتين و9 دقائق ضمن ربع نهائي ماسترز 1000 شنغهاي. وسيواجه الفائز بالدورة سنة 2019 الإسباني الشاب رافاييل خودار على بطاقة النهائي.",
-   "source": "ATPTour.com",
-   "url": "https://www.atptour.com/en/news/medvedev-paul-shanghai-2026-friday",
    "date": "2026-10-16",
-   "image": "https://www.atptour.com/-/media/images/news/2026/10/16/12/06/medvedev-shanghai-2026-friday.jpg",
    "explain": {
     "context": "Medvedev cherche son premier titre en Masters 1000 depuis Rome en 2023. Il remonte à la 6e place de la course pour le tournoi de fin d'année à Turin.",
     "context_ar": "يبحث ميدفيديف عن أول لقب له في دورات الماسترز 1000 منذ روما 2023. وقد صعد إلى المركز السادس في سباق التأهل إلى البطولة الختامية في تورينو.",
-    "terms": [
-     {
-      "t": "Masters 1000",
-      "t_ar": "ماسترز 1000",
-      "d": "Les tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
-      "d_ar": "أهم دورات رابطة المحترفين بعد بطولات الغراند سلام الأربع."
-     }
-    ],
     "figures": [
      {
-      "n": "5-1",
-      "n_ar": "5-1",
       "d": "Bilan de Medvedev face à Paul : 5 victoires pour 1 défaite.",
-      "d_ar": "حصيلة ميدفيديف أمام بول: 5 انتصارات مقابل هزيمة واحدة."
+      "d_ar": "حصيلة ميدفيديف أمام بول: 5 انتصارات مقابل هزيمة واحدة.",
+      "n": "5-1",
+      "n_ar": "5-1"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Les tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
+      "d_ar": "أهم دورات رابطة المحترفين بعد بطولات الغراند سلام الأربع.",
+      "t": "Masters 1000",
+      "t_ar": "ماسترز 1000"
      }
     ]
-   }
+   },
+   "image": "https://www.atptour.com/-/media/images/news/2026/10/16/12/06/medvedev-shanghai-2026-friday.jpg",
+   "source": "ATPTour.com",
+   "sport": "tennis",
+   "summary": "Daniil Medvedev a battu l'Américain Tommy Paul 6-3, 1-6, 6-3 en 2 h 09 en quarts de finale du Masters 1000 de Shanghai. Vainqueur du tournoi en 2019, il affrontera le jeune Espagnol Rafael Jodar pour une place en finale.",
+   "summary_ar": "تغلب دانييل ميدفيديف على الأمريكي تومي بول بنتيجة 6-3 و1-6 و6-3 في ساعتين و9 دقائق ضمن ربع نهائي ماسترز 1000 شنغهاي. وسيواجه الفائز بالدورة سنة 2019 الإسباني الشاب رافاييل خودار على بطاقة النهائي.",
+   "title": "Shanghai : Medvedev bat Tommy Paul et retrouve Jodar en demi-finale",
+   "title_ar": "شنغهاي: ميدفيديف يتغلب على تومي بول ويواجه خودار في نصف النهائي",
+   "url": "https://www.atptour.com/en/news/medvedev-paul-shanghai-2026-friday"
   },
   {
    "cat": "sport",
-   "sport": "football",
-   "title": "Liga : le Real Madrid exige la démission de Javier Tebas après une comparaison avec Goebbels",
-   "title_ar": "الليغا: ريال مدريد يطالب باستقالة خافيير تيباس بعد مقارنته بغوبلز",
-   "summary": "Le président de la Liga, Javier Tebas, a comparé sur X la communication du Real Madrid aux méthodes de propagande de Goebbels. Le club a jugé ces propos très graves et réclame sa démission immédiate de la Liga et de la Fédération espagnole.",
-   "summary_ar": "شبّه رئيس الليغا خافيير تيباس على منصة إكس أسلوب تواصل ريال مدريد بأساليب الدعاية لدى غوبلز. واعتبر النادي هذه التصريحات بالغة الخطورة وطالب باستقالته الفورية من الليغا والاتحاد الإسباني.",
-   "source": "Goal",
-   "url": "https://goal.com/fr/news/la-polemique-autour-du-real-madrid-degenere-le-patron-de-la-liga-appele-a-demissionner-pour-une-comparaison-avec-les-nazis/bltefce09f86d70f6ff",
    "date": "2026-10-16",
-   "image": "https://assets.goal.com/images/v3/blta37ffeef35b444f2/1600.jpg",
    "explain": {
     "context": "La dispute est née de la suspension de quatre matchs de Vinícius Júnior, que le Real conteste. Le club et Tebas s'opposent aussi depuis longtemps sur l'affaire Negreira.",
     "context_ar": "اندلع الخلاف بعد إيقاف فينيسيوس جونيور أربع مباريات، وهو ما يعترض عليه الريال. كما يتواجه النادي وتيباس منذ مدة طويلة حول قضية نيغريرا.",
+    "figures": [],
     "terms": [
      {
-      "t": "Goebbels",
-      "t_ar": "غوبلز",
       "d": "Ministre de la propagande de l'Allemagne nazie, chargé de manipuler l'opinion.",
-      "d_ar": "وزير الدعاية في ألمانيا النازية، كان مكلفا بالتأثير في الرأي العام وتوجيهه."
+      "d_ar": "وزير الدعاية في ألمانيا النازية، كان مكلفا بالتأثير في الرأي العام وتوجيهه.",
+      "t": "Goebbels",
+      "t_ar": "غوبلز"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://assets.goal.com/images/v3/blta37ffeef35b444f2/1600.jpg",
+   "source": "Goal",
+   "sport": "football",
+   "summary": "Le président de la Liga, Javier Tebas, a comparé sur X la communication du Real Madrid aux méthodes de propagande de Goebbels. Le club a jugé ces propos très graves et réclame sa démission immédiate de la Liga et de la Fédération espagnole.",
+   "summary_ar": "شبّه رئيس الليغا خافيير تيباس على منصة إكس أسلوب تواصل ريال مدريد بأساليب الدعاية لدى غوبلز. واعتبر النادي هذه التصريحات بالغة الخطورة وطالب باستقالته الفورية من الليغا والاتحاد الإسباني.",
+   "title": "Liga : le Real Madrid exige la démission de Javier Tebas après une comparaison avec Goebbels",
+   "title_ar": "الليغا: ريال مدريد يطالب باستقالة خافيير تيباس بعد مقارنته بغوبلز",
+   "url": "https://goal.com/fr/news/la-polemique-autour-du-real-madrid-degenere-le-patron-de-la-liga-appele-a-demissionner-pour-une-comparaison-avec-les-nazis/bltefce09f86d70f6ff"
   },
   {
    "cat": "sport",
-   "sport": "f1",
-   "title": "F1 : l'Afrique du Sud critique le choix du Rwanda pour le Grand Prix d'Afrique",
-   "title_ar": "الفورمولا 1: جنوب إفريقيا تنتقد اختيار رواندا لاحتضان جائزة إفريقيا الكبرى",
-   "summary": "La F1 a signé un contrat de 10 ans avec le Rwanda, qui doit accueillir un Grand Prix d'Afrique au début des années 2030 sur un nouveau circuit près de Kigali. Le ministre sud-africain des Sports regrette qu'un continent de 54 pays n'ait qu'une seule course et vise un Grand Prix à Kyalami en 2028 ou 2029.",
-   "summary_ar": "وقّعت الفورمولا 1 عقدا لمدة 10 سنوات مع رواندا التي ستحتضن جائزة إفريقيا الكبرى في بداية الثلاثينيات على حلبة جديدة قرب كيغالي. وأبدى وزير الرياضة الجنوب إفريقي أسفه لأن قارة من 54 دولة لا تحظى إلا بسباق واحد، ويطمح إلى سباق في كيالامي سنة 2028 أو 2029.",
-   "source": "RacingNews365",
-   "url": "https://racingnews365.com/f1-slated-as-african-gp-battle-heats-up-what-kind-of-thinking-is-that",
    "date": "2026-10-16",
-   "image": "https://cdn.racingnews365.com/2026/Albon/Albon-Australia.jpg?v=1792071759&width=1800&height=945&quality=75&crop=3744%2C1966%2C0%2C265",
    "explain": {
     "context": "La dernière course de F1 en Afrique a eu lieu en Afrique du Sud en 1993. Le Moyen-Orient compte quatre Grands Prix et l'Europe neuf.",
     "context_ar": "أُقيم آخر سباق للفورمولا 1 في إفريقيا بجنوب إفريقيا سنة 1993. ويضم الشرق الأوسط أربعة سباقات وأوروبا تسعة.",
-    "terms": [],
     "figures": [
      {
-      "n": "10 ans",
-      "n_ar": "10 سنوات",
       "d": "Durée du contrat signé entre la F1 et le Rwanda.",
-      "d_ar": "مدة العقد الموقع بين الفورمولا 1 ورواندا."
+      "d_ar": "مدة العقد الموقع بين الفورمولا 1 ورواندا.",
+      "n": "10 ans",
+      "n_ar": "10 سنوات"
      }
-    ]
-   }
+    ],
+    "terms": []
+   },
+   "image": "https://cdn.racingnews365.com/2026/Albon/Albon-Australia.jpg?v=1792071759&width=1800&height=945&quality=75&crop=3744%2C1966%2C0%2C265",
+   "source": "RacingNews365",
+   "sport": "f1",
+   "summary": "La F1 a signé un contrat de 10 ans avec le Rwanda, qui doit accueillir un Grand Prix d'Afrique au début des années 2030 sur un nouveau circuit près de Kigali. Le ministre sud-africain des Sports regrette qu'un continent de 54 pays n'ait qu'une seule course et vise un Grand Prix à Kyalami en 2028 ou 2029.",
+   "summary_ar": "وقّعت الفورمولا 1 عقدا لمدة 10 سنوات مع رواندا التي ستحتضن جائزة إفريقيا الكبرى في بداية الثلاثينيات على حلبة جديدة قرب كيغالي. وأبدى وزير الرياضة الجنوب إفريقي أسفه لأن قارة من 54 دولة لا تحظى إلا بسباق واحد، ويطمح إلى سباق في كيالامي سنة 2028 أو 2029.",
+   "title": "F1 : l'Afrique du Sud critique le choix du Rwanda pour le Grand Prix d'Afrique",
+   "title_ar": "الفورمولا 1: جنوب إفريقيا تنتقد اختيار رواندا لاحتضان جائزة إفريقيا الكبرى",
+   "url": "https://racingnews365.com/f1-slated-as-african-gp-battle-heats-up-what-kind-of-thinking-is-that"
   },
   {
    "cat": "sport",
-   "sport": "f1",
-   "title": "F1 : Abu Dhabi maintient sa finale du 6 décembre malgré la guerre dans le Golfe",
-   "title_ar": "الفورمولا 1: أبوظبي تحافظ على السباق الختامي في 6 دجنبر رغم الحرب في الخليج",
-   "summary": "Les organisateurs du Grand Prix d'Abu Dhabi assurent que la course finale du 6 décembre aura bien lieu et que les travaux ont commencé. La F1 aurait toutefois préparé Imola comme solution de secours si une course au Moyen-Orient devait être annulée.",
-   "summary_ar": "أكد منظمو جائزة أبوظبي الكبرى أن السباق الختامي في 6 دجنبر سيقام في موعده وأن الأشغال انطلقت. لكن الفورمولا 1 أعدت حلبة إيمولا كحل بديل إذا أُلغي أحد سباقات الشرق الأوسط.",
-   "source": "RacingNews365",
-   "url": "https://racingnews365.com/abu-dhabi-gp-issue-defiant-f1-message-as-middle-east-crisis-continues",
    "date": "2026-10-16",
-   "image": "https://cdn.racingnews365.com/2025/Norris/Norris-Abu-Dhabi_2026-10-16-063214_hnni.jpg?v=1792132336&width=1800&height=945&quality=75&crop=6000%2C3150%2C0%2C425",
    "explain": {
     "context": "Les Houthis attaquent régulièrement l'Arabie saoudite, dont l'aéroport de Riyad. Le Qatar, voisin du royaume, accueille la course du 29 novembre.",
     "context_ar": "يهاجم الحوثيون السعودية بشكل متكرر، ومن ذلك مطار الرياض. وتحتضن قطر، الجارة للمملكة، سباق 29 نونبر.",
+    "figures": [],
     "terms": [
      {
-      "t": "solution de secours",
-      "t_ar": "حل بديل",
       "d": "Plan prévu à l'avance pour remplacer quelque chose si le plan normal devient impossible.",
-      "d_ar": "خطة معدة مسبقا لتعويض أمر ما إذا تعذر تنفيذ الخطة العادية."
+      "d_ar": "خطة معدة مسبقا لتعويض أمر ما إذا تعذر تنفيذ الخطة العادية.",
+      "t": "solution de secours",
+      "t_ar": "حل بديل"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://cdn.racingnews365.com/2025/Norris/Norris-Abu-Dhabi_2026-10-16-063214_hnni.jpg?v=1792132336&width=1800&height=945&quality=75&crop=6000%2C3150%2C0%2C425",
+   "source": "RacingNews365",
+   "sport": "f1",
+   "summary": "Les organisateurs du Grand Prix d'Abu Dhabi assurent que la course finale du 6 décembre aura bien lieu et que les travaux ont commencé. La F1 aurait toutefois préparé Imola comme solution de secours si une course au Moyen-Orient devait être annulée.",
+   "summary_ar": "أكد منظمو جائزة أبوظبي الكبرى أن السباق الختامي في 6 دجنبر سيقام في موعده وأن الأشغال انطلقت. لكن الفورمولا 1 أعدت حلبة إيمولا كحل بديل إذا أُلغي أحد سباقات الشرق الأوسط.",
+   "title": "F1 : Abu Dhabi maintient sa finale du 6 décembre malgré la guerre dans le Golfe",
+   "title_ar": "الفورمولا 1: أبوظبي تحافظ على السباق الختامي في 6 دجنبر رغم الحرب في الخليج",
+   "url": "https://racingnews365.com/abu-dhabi-gp-issue-defiant-f1-message-as-middle-east-crisis-continues"
   },
   {
    "cat": "sport",
-   "sport": "basket",
-   "title": "NBA : les dirigeants voient les Spurs champions et Wembanyama MVP",
-   "title_ar": "الدوري الأمريكي لكرة السلة: المسيرون يرشحون سبيرز للقب وويمبانياما لجائزة أفضل لاعب",
-   "summary": "Dans l'enquête annuelle auprès des dirigeants de la NBA, 50 % voient San Antonio gagner le titre 2027, devant Oklahoma City (43 %). Victor Wembanyama est choisi comme futur MVP par 77 % d'entre eux, loin devant Nikola Jokic.",
-   "summary_ar": "في الاستطلاع السنوي لمسيري أندية الدوري الأمريكي، يتوقع 50% منهم فوز سان أنطونيو بلقب 2027، متقدما على أوكلاهوما سيتي (43%). واختار 77% منهم فيكتور ويمبانياما أفضل لاعب للموسم، متقدما بفارق كبير على نيكولا يوكيتش.",
-   "source": "BasketNews",
-   "url": "https://basketnews.com/news-257412-nba-gms-reveal-2026-27-title-favorite-mvp-pick-and-best-player-outside-nba.html",
    "date": "2026-10-15",
-   "image": "https://basketnews.com/image-479176-any1200x1200.jpg",
    "explain": {
     "context": "L'an dernier, 80 % des dirigeants voyaient Oklahoma City champion et Jokic était le favori pour le titre de MVP. Wembanyama arrive en tête dans 13 des 48 catégories.",
     "context_ar": "في العام الماضي رشح 80% من المسيرين أوكلاهوما سيتي للقب، وكان يوكيتش المرشح الأول لجائزة أفضل لاعب. ويتصدر ويمبانياما 13 فئة من أصل 48.",
-    "terms": [
-     {
-      "t": "MVP",
-      "t_ar": "أفضل لاعب",
-      "d": "Trophée du meilleur joueur de la saison régulière de NBA.",
-      "d_ar": "جائزة أفضل لاعب في الموسم العادي للدوري الأمريكي لكرة السلة."
-     }
-    ],
     "figures": [
      {
-      "n": "77 %",
-      "n_ar": "77%",
       "d": "Part des dirigeants qui voient Wembanyama MVP ; Jokic n'a que 10 %.",
-      "d_ar": "نسبة المسيرين الذين يرون ويمبانياما أفضل لاعب، مقابل 10% فقط ليوكيتش."
+      "d_ar": "نسبة المسيرين الذين يرون ويمبانياما أفضل لاعب، مقابل 10% فقط ليوكيتش.",
+      "n": "77 %",
+      "n_ar": "77%"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Trophée du meilleur joueur de la saison régulière de NBA.",
+      "d_ar": "جائزة أفضل لاعب في الموسم العادي للدوري الأمريكي لكرة السلة.",
+      "t": "MVP",
+      "t_ar": "أفضل لاعب"
      }
     ]
-   }
+   },
+   "image": "https://basketnews.com/image-479176-any1200x1200.jpg",
+   "source": "BasketNews",
+   "sport": "basket",
+   "summary": "Dans l'enquête annuelle auprès des dirigeants de la NBA, 50 % voient San Antonio gagner le titre 2027, devant Oklahoma City (43 %). Victor Wembanyama est choisi comme futur MVP par 77 % d'entre eux, loin devant Nikola Jokic.",
+   "summary_ar": "في الاستطلاع السنوي لمسيري أندية الدوري الأمريكي، يتوقع 50% منهم فوز سان أنطونيو بلقب 2027، متقدما على أوكلاهوما سيتي (43%). واختار 77% منهم فيكتور ويمبانياما أفضل لاعب للموسم، متقدما بفارق كبير على نيكولا يوكيتش.",
+   "title": "NBA : les dirigeants voient les Spurs champions et Wembanyama MVP",
+   "title_ar": "الدوري الأمريكي لكرة السلة: المسيرون يرشحون سبيرز للقب وويمبانياما لجائزة أفضل لاعب",
+   "url": "https://basketnews.com/news-257412-nba-gms-reveal-2026-27-title-favorite-mvp-pick-and-best-player-outside-nba.html"
   },
   {
    "cat": "ia",
-   "title": "La Chine veut contrôler l'export de ses modèles d'IA et de ses puces",
-   "title_ar": "الصين تريد مراقبة تصدير نماذجها للذكاء الاصطناعي ورقائقها",
-   "summary": "Pékin propose de limiter l'export de 23 technologies d'IA, dont les grands modèles, les agents et les plans de puces gravées en 14 nanomètres ou moins. Le code libre et la recherche publiée ne sont pas concernés, et le public peut donner son avis jusqu'au 15 novembre.",
-   "summary_ar": "تقترح بكين تقييد تصدير 23 تقنية للذكاء الاصطناعي، منها النماذج الكبرى والوكلاء وتصاميم الرقائق بدقة 14 نانومترا أو أقل. ولا يشمل ذلك البرمجيات المفتوحة والأبحاث المنشورة، ويمكن للعموم إبداء الرأي حتى 15 نونبر.",
-   "source": "The Next Web",
-   "url": "https://thenextweb.com/news/china-ai-export-controls-draft",
    "date": "2026-10-16",
-   "image": "https://media.thenextweb.com/2026/10/ai-processor-chip-gold-pins-circuit-board.jpg",
    "explain": {
     "context": "Les États-Unis limitent déjà la vente de puces avancées à la Chine. Pékin veut à son tour garder la main sur ses meilleures technologies.",
     "context_ar": "تقيد الولايات المتحدة أصلا بيع الرقائق المتطورة للصين. وتريد بكين بدورها التحكم في أفضل تقنياتها.",
-    "terms": [
-     {
-      "t": "agents",
-      "t_ar": "الوكلاء",
-      "d": "Programmes d'IA capables d'enchaîner seuls des tâches, comme chercher, remplir ou envoyer.",
-      "d_ar": "برامج ذكاء اصطناعي قادرة على إنجاز مهام متتالية بمفردها، مثل البحث والملء والإرسال."
-     },
-     {
-      "t": "nanomètres",
-      "t_ar": "نانومتر",
-      "d": "Unité très petite (un milliardième de mètre) qui mesure la finesse des puces.",
-      "d_ar": "وحدة صغيرة جدا (جزء من مليار من المتر) تقيس دقة الرقائق."
-     }
-    ],
     "figures": [
      {
-      "n": "23",
-      "n_ar": "23",
       "d": "Nombre de technologies d'IA visées, sur 40 au total avec le solaire et la santé.",
-      "d_ar": "عدد تقنيات الذكاء الاصطناعي المعنية، من أصل 40 مع الطاقة الشمسية والصحة."
+      "d_ar": "عدد تقنيات الذكاء الاصطناعي المعنية، من أصل 40 مع الطاقة الشمسية والصحة.",
+      "n": "23",
+      "n_ar": "23"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Programmes d'IA capables d'enchaîner seuls des tâches, comme chercher, remplir ou envoyer.",
+      "d_ar": "برامج ذكاء اصطناعي قادرة على إنجاز مهام متتالية بمفردها، مثل البحث والملء والإرسال.",
+      "t": "agents",
+      "t_ar": "الوكلاء"
+     },
+     {
+      "d": "Unité très petite (un milliardième de mètre) qui mesure la finesse des puces.",
+      "d_ar": "وحدة صغيرة جدا (جزء من مليار من المتر) تقيس دقة الرقائق.",
+      "t": "nanomètres",
+      "t_ar": "نانومتر"
      }
     ]
-   }
+   },
+   "image": "https://media.thenextweb.com/2026/10/ai-processor-chip-gold-pins-circuit-board.jpg",
+   "source": "The Next Web",
+   "summary": "Pékin propose de limiter l'export de 23 technologies d'IA, dont les grands modèles, les agents et les plans de puces gravées en 14 nanomètres ou moins. Le code libre et la recherche publiée ne sont pas concernés, et le public peut donner son avis jusqu'au 15 novembre.",
+   "summary_ar": "تقترح بكين تقييد تصدير 23 تقنية للذكاء الاصطناعي، منها النماذج الكبرى والوكلاء وتصاميم الرقائق بدقة 14 نانومترا أو أقل. ولا يشمل ذلك البرمجيات المفتوحة والأبحاث المنشورة، ويمكن للعموم إبداء الرأي حتى 15 نونبر.",
+   "title": "La Chine veut contrôler l'export de ses modèles d'IA et de ses puces",
+   "title_ar": "الصين تريد مراقبة تصدير نماذجها للذكاء الاصطناعي ورقائقها",
+   "url": "https://thenextweb.com/news/china-ai-export-controls-draft"
   },
   {
    "cat": "ia",
-   "title": "Anthropic aurait réalisé 16,8 milliards de dollars de revenus en un trimestre",
-   "title_ar": "أنثروبيك حققت 16,8 مليار دولار من الإيرادات في ثلاثة أشهر حسب تقارير",
-   "summary": "Selon le Financial Times et Bloomberg, Anthropic, qui crée l'assistant Claude, a gagné 16,8 milliards de dollars au troisième trimestre, contre 11,6 milliards au précédent. Son entrée en Bourse pourrait avoir lieu avant fin novembre, mais l'entreprise n'a rien confirmé.",
-   "summary_ar": "حسب فايننشال تايمز وبلومبرغ، حققت أنثروبيك، مطورة المساعد كلود، إيرادات بلغت 16,8 مليار دولار في الربع الثالث مقابل 11,6 مليار في الربع السابق. وقد تدخل البورصة قبل نهاية نونبر، لكن الشركة لم تؤكد ذلك.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/492389-anthropic-revendique-168-milliards-de-dollars-de-revenus-trimestriels-avant-son-entree-en-bourse.html",
    "date": "2026-10-15",
-   "image": "https://f2.hespress.com/wp-content/uploads/2024/03/le-logo-d-anthropic-copie.jpg",
    "explain": {
     "context": "Les chiffres ne sont pas vérifiés par un auditeur. Certains investisseurs évoquent une valeur de 1 800 à 2 000 milliards de dollars, contre 965 milliards en mai.",
     "context_ar": "هذه الأرقام غير مدققة. ويتحدث بعض المستثمرين عن قيمة تتراوح بين 1800 و2000 مليار دولار، مقابل 965 مليارا في ماي.",
-    "terms": [
-     {
-      "t": "trimestre",
-      "t_ar": "ربع سنة",
-      "d": "Période de trois mois. Une année compte quatre trimestres.",
-      "d_ar": "فترة من ثلاثة أشهر، والسنة تضم أربعة أرباع."
-     },
-     {
-      "t": "entrée en Bourse",
-      "t_ar": "الدخول إلى البورصة",
-      "d": "Moment où une entreprise vend ses actions au public pour la première fois.",
-      "d_ar": "اللحظة التي تبيع فيها شركة أسهمها للعموم لأول مرة."
-     }
-    ],
     "figures": [
      {
-      "n": "16,8 milliards $",
-      "n_ar": "16,8 مليار دولار",
       "d": "Revenus du 3e trimestre, soit environ 45 % de plus qu'au trimestre précédent.",
-      "d_ar": "إيرادات الربع الثالث، أي بزيادة نحو 45% عن الربع السابق."
+      "d_ar": "إيرادات الربع الثالث، أي بزيادة نحو 45% عن الربع السابق.",
+      "n": "16,8 milliards $",
+      "n_ar": "16,8 مليار دولار"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Période de trois mois. Une année compte quatre trimestres.",
+      "d_ar": "فترة من ثلاثة أشهر، والسنة تضم أربعة أرباع.",
+      "t": "trimestre",
+      "t_ar": "ربع سنة"
+     },
+     {
+      "d": "Moment où une entreprise vend ses actions au public pour la première fois.",
+      "d_ar": "اللحظة التي تبيع فيها شركة أسهمها للعموم لأول مرة.",
+      "t": "entrée en Bourse",
+      "t_ar": "الدخول إلى البورصة"
      }
     ]
-   }
+   },
+   "image": "https://f2.hespress.com/wp-content/uploads/2024/03/le-logo-d-anthropic-copie.jpg",
+   "source": "Hespress FR",
+   "summary": "Selon le Financial Times et Bloomberg, Anthropic, qui crée l'assistant Claude, a gagné 16,8 milliards de dollars au troisième trimestre, contre 11,6 milliards au précédent. Son entrée en Bourse pourrait avoir lieu avant fin novembre, mais l'entreprise n'a rien confirmé.",
+   "summary_ar": "حسب فايننشال تايمز وبلومبرغ، حققت أنثروبيك، مطورة المساعد كلود، إيرادات بلغت 16,8 مليار دولار في الربع الثالث مقابل 11,6 مليار في الربع السابق. وقد تدخل البورصة قبل نهاية نونبر، لكن الشركة لم تؤكد ذلك.",
+   "title": "Anthropic aurait réalisé 16,8 milliards de dollars de revenus en un trimestre",
+   "title_ar": "أنثروبيك حققت 16,8 مليار دولار من الإيرادات في ثلاثة أشهر حسب تقارير",
+   "url": "https://fr.hespress.com/492389-anthropic-revendique-168-milliards-de-dollars-de-revenus-trimestriels-avant-son-entree-en-bourse.html"
   },
   {
    "cat": "ia",
-   "title": "Jev, un petit modèle d'IA, devient le plus vite adopté sur la plateforme de Vercel",
-   "title_ar": "جيف، نموذج ذكاء اصطناعي صغير، يصبح الأسرع انتشارا على منصة فيرسل",
-   "summary": "Deux semaines après son lancement, le modèle Jev de la start-up Typesafe AI est utilisé par 35 % des équipes payantes du service d'IA de Vercel. Léger et bon marché, il sert surtout à trier de grandes quantités de données.",
-   "summary_ar": "بعد أسبوعين من إطلاقه، يستعمل 35% من الفرق المؤدية لخدمة الذكاء الاصطناعي لدى فيرسل نموذج جيف من الشركة الناشئة Typesafe AI. وهو نموذج خفيف ورخيص يُستخدم أساسا لفرز كميات كبيرة من البيانات.",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
    "date": "2026-10-16",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/04/vercel-2249343327-smaller.jpg?resize=1200,800",
    "explain": {
     "context": "Vercel propose un point d'accès unique vers de nombreux modèles d'IA. Ses chiffres peuvent sous-estimer OpenAI et Anthropic, qui vendent aussi en direct.",
     "context_ar": "تقدم فيرسل نقطة ولوج واحدة إلى نماذج ذكاء اصطناعي كثيرة. وقد تقلل أرقامها من حجم أوبن إيه آي وأنثروبيك اللتين تبيعان أيضا مباشرة.",
-    "terms": [
-     {
-      "t": "équipes payantes",
-      "t_ar": "الفرق المؤدية",
-      "d": "Groupes de clients qui paient un abonnement pour utiliser le service.",
-      "d_ar": "مجموعات من الزبناء يدفعون اشتراكا لاستعمال الخدمة."
-     }
-    ],
     "figures": [
      {
-      "n": "35 %",
-      "n_ar": "35%",
       "d": "Part des équipes payantes qui utilisent Jev, presque le double du deuxième modèle.",
-      "d_ar": "نسبة الفرق المؤدية التي تستعمل جيف، أي قرابة ضعف النموذج الثاني."
+      "d_ar": "نسبة الفرق المؤدية التي تستعمل جيف، أي قرابة ضعف النموذج الثاني.",
+      "n": "35 %",
+      "n_ar": "35%"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Groupes de clients qui paient un abonnement pour utiliser le service.",
+      "d_ar": "مجموعات من الزبناء يدفعون اشتراكا لاستعمال الخدمة.",
+      "t": "équipes payantes",
+      "t_ar": "الفرق المؤدية"
      }
     ]
-   }
+   },
+   "image": "https://techcrunch.com/wp-content/uploads/2026/04/vercel-2249343327-smaller.jpg?resize=1200,800",
+   "source": "TechCrunch",
+   "summary": "Deux semaines après son lancement, le modèle Jev de la start-up Typesafe AI est utilisé par 35 % des équipes payantes du service d'IA de Vercel. Léger et bon marché, il sert surtout à trier de grandes quantités de données.",
+   "summary_ar": "بعد أسبوعين من إطلاقه، يستعمل 35% من الفرق المؤدية لخدمة الذكاء الاصطناعي لدى فيرسل نموذج جيف من الشركة الناشئة Typesafe AI. وهو نموذج خفيف ورخيص يُستخدم أساسا لفرز كميات كبيرة من البيانات.",
+   "title": "Jev, un petit modèle d'IA, devient le plus vite adopté sur la plateforme de Vercel",
+   "title_ar": "جيف، نموذج ذكاء اصطناعي صغير، يصبح الأسرع انتشارا على منصة فيرسل",
+   "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/"
   },
   {
    "cat": "eco",
-   "title": "La Chine achète de l'or pour le 23e mois de suite",
-   "title_ar": "الصين تشتري الذهب للشهر الثالث والعشرين على التوالي",
-   "summary": "La banque centrale chinoise a acheté environ 23 tonnes d'or en septembre, son plus gros achat mensuel depuis octobre 2023. L'or représente désormais 8,5 % de ses réserves, contre 5,5 % fin 2024.",
-   "summary_ar": "اشترى البنك المركزي الصيني نحو 23 طنا من الذهب في شتنبر، وهي أكبر عملية شراء شهرية منذ أكتوبر 2023. ويمثل الذهب الآن 8,5% من احتياطاته، مقابل 5,5% في نهاية 2024.",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news-analysis/2026/10/16/why-is-china-buying-up-gold",
    "date": "2026-10-16",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/2019-08-06T114916Z_1522761849_RC1CF5DEDCD0_RTRMADP_3_GLOBAL-PRECIOUS-1792150858.jpg?resize=1920%2C1440",
    "explain": {
     "context": "Pékin veut dépendre un peu moins du dollar, surtout depuis le gel des avoirs russes en 2022. Le dollar reste toutefois la principale monnaie de réserve.",
     "context_ar": "تريد بكين تقليل اعتمادها على الدولار، خاصة منذ تجميد الأصول الروسية سنة 2022. لكن الدولار يبقى العملة الاحتياطية الأولى.",
-    "terms": [
-     {
-      "t": "banque centrale",
-      "t_ar": "البنك المركزي",
-      "d": "Banque publique qui gère la monnaie d'un pays et garde ses réserves.",
-      "d_ar": "بنك عمومي يدير عملة البلد ويحتفظ باحتياطاته."
-     },
-     {
-      "t": "réserves",
-      "t_ar": "الاحتياطات",
-      "d": "Argent, devises et or qu'un pays garde de côté pour payer ou se protéger en cas de crise.",
-      "d_ar": "أموال وعملات وذهب يدخرها البلد للأداء أو للحماية في حالة الأزمات."
-     }
-    ],
     "figures": [
      {
-      "n": "23 tonnes",
-      "n_ar": "23 طنا",
       "d": "Or acheté par la Chine en septembre, record mensuel depuis octobre 2023.",
-      "d_ar": "كمية الذهب التي اشترتها الصين في شتنبر، وهي الأعلى شهريا منذ أكتوبر 2023."
+      "d_ar": "كمية الذهب التي اشترتها الصين في شتنبر، وهي الأعلى شهريا منذ أكتوبر 2023.",
+      "n": "23 tonnes",
+      "n_ar": "23 طنا"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Banque publique qui gère la monnaie d'un pays et garde ses réserves.",
+      "d_ar": "بنك عمومي يدير عملة البلد ويحتفظ باحتياطاته.",
+      "t": "banque centrale",
+      "t_ar": "البنك المركزي"
+     },
+     {
+      "d": "Argent, devises et or qu'un pays garde de côté pour payer ou se protéger en cas de crise.",
+      "d_ar": "أموال وعملات وذهب يدخرها البلد للأداء أو للحماية في حالة الأزمات.",
+      "t": "réserves",
+      "t_ar": "الاحتياطات"
      }
     ]
-   }
+   },
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/2019-08-06T114916Z_1522761849_RC1CF5DEDCD0_RTRMADP_3_GLOBAL-PRECIOUS-1792150858.jpg?resize=1920%2C1440",
+   "source": "Al Jazeera",
+   "summary": "La banque centrale chinoise a acheté environ 23 tonnes d'or en septembre, son plus gros achat mensuel depuis octobre 2023. L'or représente désormais 8,5 % de ses réserves, contre 5,5 % fin 2024.",
+   "summary_ar": "اشترى البنك المركزي الصيني نحو 23 طنا من الذهب في شتنبر، وهي أكبر عملية شراء شهرية منذ أكتوبر 2023. ويمثل الذهب الآن 8,5% من احتياطاته، مقابل 5,5% في نهاية 2024.",
+   "title": "La Chine achète de l'or pour le 23e mois de suite",
+   "title_ar": "الصين تشتري الذهب للشهر الثالث والعشرين على التوالي",
+   "url": "https://www.aljazeera.com/news-analysis/2026/10/16/why-is-china-buying-up-gold"
   },
   {
    "cat": "tech",
-   "title": "Volvo s'associe davantage à Nvidia pour la conduite automatisée",
-   "title_ar": "فولفو تعزز شراكتها مع إنفيديا من أجل القيادة الآلية",
-   "summary": "Volvo va utiliser les capteurs, les ordinateurs et le logiciel de conduite de Nvidia pour créer un système capable de rouler en ville et sur autoroute. La première voiture équipée doit arriver avant la fin de la décennie.",
-   "summary_ar": "ستستخدم فولفو أجهزة الاستشعار والحواسيب وبرنامج القيادة من إنفيديا لتطوير نظام قادر على السير في المدن والطرق السيارة. ومن المنتظر أن تصل أول سيارة مجهزة به قبل نهاية العقد.",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/15/volvo-makes-a-bigger-bet-on-nvidia/",
    "date": "2026-10-15",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/05/volvo-s90.jpg?resize=1200,900",
    "explain": {
     "context": "Les deux groupes travaillent ensemble depuis près de dix ans. Toutes les voitures électriques de Volvo utilisent déjà une puce Nvidia.",
     "context_ar": "تتعاون الشركتان منذ قرابة عشر سنوات. وتستعمل كل سيارات فولفو الكهربائية أصلا رقاقة من إنفيديا.",
+    "figures": [],
     "terms": [
      {
-      "t": "capteurs",
-      "t_ar": "أجهزة الاستشعار",
       "d": "Appareils (caméras, radars) qui permettent à la voiture de « voir » autour d'elle.",
-      "d_ar": "أجهزة (كاميرات ورادارات) تتيح للسيارة رؤية محيطها."
+      "d_ar": "أجهزة (كاميرات ورادارات) تتيح للسيارة رؤية محيطها.",
+      "t": "capteurs",
+      "t_ar": "أجهزة الاستشعار"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://techcrunch.com/wp-content/uploads/2026/05/volvo-s90.jpg?resize=1200,900",
+   "source": "TechCrunch",
+   "summary": "Volvo va utiliser les capteurs, les ordinateurs et le logiciel de conduite de Nvidia pour créer un système capable de rouler en ville et sur autoroute. La première voiture équipée doit arriver avant la fin de la décennie.",
+   "summary_ar": "ستستخدم فولفو أجهزة الاستشعار والحواسيب وبرنامج القيادة من إنفيديا لتطوير نظام قادر على السير في المدن والطرق السيارة. ومن المنتظر أن تصل أول سيارة مجهزة به قبل نهاية العقد.",
+   "title": "Volvo s'associe davantage à Nvidia pour la conduite automatisée",
+   "title_ar": "فولفو تعزز شراكتها مع إنفيديا من أجل القيادة الآلية",
+   "url": "https://techcrunch.com/2026/10/15/volvo-makes-a-bigger-bet-on-nvidia/"
   },
   {
    "cat": "gaming",
-   "title": "Steam lance les « ensembles de succès » pour mieux suivre sa progression",
-   "title_ar": "ستيم تطلق مجموعات الإنجازات لمتابعة التقدم بشكل أفضل",
-   "summary": "Steam teste une nouveauté qui permet aux studios de regrouper les succès d'un jeu en plusieurs ensembles, chacun avec sa barre de progression et un trophée final. Dix-sept jeux l'utilisent déjà, dont Portal 2 et Forza Horizon 5.",
-   "summary_ar": "تختبر ستيم ميزة جديدة تتيح للاستوديوهات تجميع إنجازات اللعبة في عدة مجموعات، لكل منها شريط تقدم وكأس نهائية. وتستعملها حاليا سبع عشرة لعبة، منها Portal 2 وForza Horizon 5.",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/steam-is-introducing-achievement-sets-designed-to-improve-the-achievement-earning-experience/",
    "date": "2026-10-16",
-   "image": "https://www.videogameschronicle.com/files/2025/04/steam-logo.jpg",
    "explain": {
     "context": "Jusqu'ici, les contenus ajoutés plus tard cassaient le 100 % d'un jeu déjà fini. Les succès impossibles à obtenir pourront aussi être archivés.",
     "context_ar": "حتى الآن، كانت المحتويات المضافة لاحقا تُفقد اللاعب نسبة 100% في لعبة أنهاها. كما سيمكن أرشفة الإنجازات التي لم يعد الحصول عليها ممكنا.",
+    "figures": [],
     "terms": [
      {
-      "t": "succès",
-      "t_ar": "الإنجازات",
       "d": "Petits défis dans un jeu qui donnent un badge quand on les réussit.",
-      "d_ar": "تحديات صغيرة داخل اللعبة تمنح شارة عند النجاح فيها."
+      "d_ar": "تحديات صغيرة داخل اللعبة تمنح شارة عند النجاح فيها.",
+      "t": "succès",
+      "t_ar": "الإنجازات"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://www.videogameschronicle.com/files/2025/04/steam-logo.jpg",
+   "source": "VGC",
+   "summary": "Steam teste une nouveauté qui permet aux studios de regrouper les succès d'un jeu en plusieurs ensembles, chacun avec sa barre de progression et un trophée final. Dix-sept jeux l'utilisent déjà, dont Portal 2 et Forza Horizon 5.",
+   "summary_ar": "تختبر ستيم ميزة جديدة تتيح للاستوديوهات تجميع إنجازات اللعبة في عدة مجموعات، لكل منها شريط تقدم وكأس نهائية. وتستعملها حاليا سبع عشرة لعبة، منها Portal 2 وForza Horizon 5.",
+   "title": "Steam lance les « ensembles de succès » pour mieux suivre sa progression",
+   "title_ar": "ستيم تطلق مجموعات الإنجازات لمتابعة التقدم بشكل أفضل",
+   "url": "https://www.videogameschronicle.com/news/steam-is-introducing-achievement-sets-designed-to-improve-the-achievement-earning-experience/"
   },
   {
    "cat": "gaming",
-   "title": "Des images d'un Assassin's Creed annulé, situé en Chine antique, ont fuité",
-   "title_ar": "تسريب لقطات من لعبة أساسنز كريد ملغاة تدور في الصين القديمة",
-   "summary": "Des vidéos d'un jeu Assassin's Creed abandonné, surnommé « Destiny », sont apparues en ligne. Le projet, prévu sur console et PC, se déroulait en Chine en 206 avant J.-C. et était développé par un studio de Tencent.",
-   "summary_ar": "ظهرت على الإنترنت مقاطع من لعبة أساسنز كريد متخلى عنها، تحمل اسم Destiny. وكان المشروع المخصص لأجهزة الألعاب والحاسوب يدور في الصين سنة 206 قبل الميلاد، ويطوره استوديو تابع لتنسنت.",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/footage-from-a-reportedly-cancelled-assassins-creed-game-set-in-china-has-leaked/",
    "date": "2026-10-16",
-   "image": "https://www.videogameschronicle.com/files/2023/06/assassins-creed-codename-jade.jpg",
    "explain": {
     "context": "Ubisoft dit avoir abandonné un projet récemment. Un autre jeu en Chine, Assassin's Creed Jade, reste en développement avec un mode coopératif.",
     "context_ar": "تقول يوبيسوفت إنها تخلت مؤخرا عن مشروع مبكر. ولا تزال لعبة أخرى تدور في الصين، أساسنز كريد جايد، قيد التطوير مع نمط لعب تعاوني.",
-    "terms": [],
-    "figures": []
-   }
+    "figures": [],
+    "terms": []
+   },
+   "image": "https://www.videogameschronicle.com/files/2023/06/assassins-creed-codename-jade.jpg",
+   "source": "VGC",
+   "summary": "Des vidéos d'un jeu Assassin's Creed abandonné, surnommé « Destiny », sont apparues en ligne. Le projet, prévu sur console et PC, se déroulait en Chine en 206 avant J.-C. et était développé par un studio de Tencent.",
+   "summary_ar": "ظهرت على الإنترنت مقاطع من لعبة أساسنز كريد متخلى عنها، تحمل اسم Destiny. وكان المشروع المخصص لأجهزة الألعاب والحاسوب يدور في الصين سنة 206 قبل الميلاد، ويطوره استوديو تابع لتنسنت.",
+   "title": "Des images d'un Assassin's Creed annulé, situé en Chine antique, ont fuité",
+   "title_ar": "تسريب لقطات من لعبة أساسنز كريد ملغاة تدور في الصين القديمة",
+   "url": "https://www.videogameschronicle.com/news/footage-from-a-reportedly-cancelled-assassins-creed-game-set-in-china-has-leaked/"
   },
   {
    "cat": "geo",
-   "title": "Éthiopie : Abiy Ahmed installe un gouvernement provisoire au Tigré pour six mois",
-   "title_ar": "إثيوبيا: آبي أحمد ينصّب حكومة مؤقتة في تيغراي لمدة ستة أشهر",
-   "summary": "Après avoir repris le contrôle du Tigré, le Premier ministre éthiopien a nommé cinq responsables pour diriger la région pendant six mois. Il promet ensuite des élections libres ; le TPLF, chassé des grandes villes, n'a pas encore réagi.",
-   "summary_ar": "بعد استعادة السيطرة على إقليم تيغراي، عيّن رئيس الوزراء الإثيوبي خمسة مسؤولين لإدارة الإقليم مدة ستة أشهر. ووعد بإجراء انتخابات حرة بعد ذلك، بينما لم ترد جبهة تحرير تيغراي التي طُردت من المدن الكبرى.",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/16/ethiopia-announces-instalment-of-interim-government-in-tigray",
    "date": "2026-10-16",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ad211a2-1792151970.jpg?resize=1920%2C1440",
    "explain": {
     "context": "Le TPLF avait lancé une rébellion en septembre. L'Éthiopie accuse l'Érythrée de le soutenir, ce que l'Érythrée nie.",
     "context_ar": "أطلقت جبهة تحرير تيغراي تمردا في شتنبر. وتتهم إثيوبيا إريتريا بدعمها، وهو ما تنفيه إريتريا.",
-    "terms": [
-     {
-      "t": "TPLF",
-      "t_ar": "جبهة تحرير تيغراي",
-      "d": "Front de libération du peuple du Tigré, parti armé qui a dirigé l'Éthiopie jusqu'en 2018.",
-      "d_ar": "جبهة تحرير شعب تيغراي، حزب مسلح حكم إثيوبيا حتى 2018."
-     }
-    ],
     "figures": [
      {
-      "n": "600 000",
-      "n_ar": "600 ألف",
       "d": "Nombre de morts de la guerre de 2020-2022 au Tigré, selon l'article.",
-      "d_ar": "عدد قتلى حرب 2020-2022 في تيغراي حسب المقال."
+      "d_ar": "عدد قتلى حرب 2020-2022 في تيغراي حسب المقال.",
+      "n": "600 000",
+      "n_ar": "600 ألف"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Front de libération du peuple du Tigré, parti armé qui a dirigé l'Éthiopie jusqu'en 2018.",
+      "d_ar": "جبهة تحرير شعب تيغراي، حزب مسلح حكم إثيوبيا حتى 2018.",
+      "t": "TPLF",
+      "t_ar": "جبهة تحرير تيغراي"
      }
     ]
-   }
+   },
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ad211a2-1792151970.jpg?resize=1920%2C1440",
+   "source": "Al Jazeera",
+   "summary": "Après avoir repris le contrôle du Tigré, le Premier ministre éthiopien a nommé cinq responsables pour diriger la région pendant six mois. Il promet ensuite des élections libres ; le TPLF, chassé des grandes villes, n'a pas encore réagi.",
+   "summary_ar": "بعد استعادة السيطرة على إقليم تيغراي، عيّن رئيس الوزراء الإثيوبي خمسة مسؤولين لإدارة الإقليم مدة ستة أشهر. ووعد بإجراء انتخابات حرة بعد ذلك، بينما لم ترد جبهة تحرير تيغراي التي طُردت من المدن الكبرى.",
+   "title": "Éthiopie : Abiy Ahmed installe un gouvernement provisoire au Tigré pour six mois",
+   "title_ar": "إثيوبيا: آبي أحمد ينصّب حكومة مؤقتة في تيغراي لمدة ستة أشهر",
+   "url": "https://www.aljazeera.com/news/2026/10/16/ethiopia-announces-instalment-of-interim-government-in-tigray"
   },
   {
    "cat": "geo",
-   "title": "Cisjordanie : des colons attaquent des cueilleurs d'olives et une photographe américaine",
-   "title_ar": "الضفة الغربية: مستوطنون يهاجمون قاطفي الزيتون ومصورة أمريكية",
-   "summary": "Des dizaines de colons masqués ont attaqué vendredi des Palestiniens qui ramassaient leurs olives à Abu Falah, près de Ramallah, et ont mis le feu à des arbres. Une photographe du Washington Post a été frappée et hospitalisée, et un Palestinien a été blessé par balle par des soldats israéliens.",
-   "summary_ar": "هاجم عشرات المستوطنين الملثمين يوم الجمعة فلسطينيين كانوا يجنون الزيتون في أبو فلاح قرب رام الله، وأضرموا النار في الأشجار. وتعرضت مصورة من واشنطن بوست للضرب ونُقلت إلى المستشفى، فيما أصيب فلسطيني برصاص جنود إسرائيليين.",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/16/palestinians-us-journalist-attacked-in-west-bank-pogrom-what-we-know",
    "date": "2026-10-16",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ad21ae3-1792154339.jpg?resize=1920%2C1440",
    "explain": {
     "context": "La récolte des olives, d'octobre à novembre, est un moment important pour les familles palestiniennes. Les attaques de colons se multiplient pendant cette période.",
     "context_ar": "يعد موسم جني الزيتون، من أكتوبر إلى نونبر، فترة مهمة للأسر الفلسطينية. وتتزايد هجمات المستوطنين خلال هذه الفترة.",
-    "terms": [
-     {
-      "t": "colons",
-      "t_ar": "المستوطنون",
-      "d": "Israéliens installés en Cisjordanie occupée, sur des terres que les Palestiniens revendiquent.",
-      "d_ar": "إسرائيليون استقروا في الضفة الغربية المحتلة على أراض يطالب بها الفلسطينيون."
-     }
-    ],
     "figures": [
      {
-      "n": "170",
-      "n_ar": "170",
       "d": "Attaques de colons recensées par l'ONG israélienne Yesh Din depuis le 27 septembre.",
-      "d_ar": "عدد هجمات المستوطنين التي رصدتها منظمة يش دين الإسرائيلية منذ 27 شتنبر."
+      "d_ar": "عدد هجمات المستوطنين التي رصدتها منظمة يش دين الإسرائيلية منذ 27 شتنبر.",
+      "n": "170",
+      "n_ar": "170"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Israéliens installés en Cisjordanie occupée, sur des terres que les Palestiniens revendiquent.",
+      "d_ar": "إسرائيليون استقروا في الضفة الغربية المحتلة على أراض يطالب بها الفلسطينيون.",
+      "t": "colons",
+      "t_ar": "المستوطنون"
      }
     ]
-   }
+   },
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ad21ae3-1792154339.jpg?resize=1920%2C1440",
+   "source": "Al Jazeera",
+   "summary": "Des dizaines de colons masqués ont attaqué vendredi des Palestiniens qui ramassaient leurs olives à Abu Falah, près de Ramallah, et ont mis le feu à des arbres. Une photographe du Washington Post a été frappée et hospitalisée, et un Palestinien a été blessé par balle par des soldats israéliens.",
+   "summary_ar": "هاجم عشرات المستوطنين الملثمين يوم الجمعة فلسطينيين كانوا يجنون الزيتون في أبو فلاح قرب رام الله، وأضرموا النار في الأشجار. وتعرضت مصورة من واشنطن بوست للضرب ونُقلت إلى المستشفى، فيما أصيب فلسطيني برصاص جنود إسرائيليين.",
+   "title": "Cisjordanie : des colons attaquent des cueilleurs d'olives et une photographe américaine",
+   "title_ar": "الضفة الغربية: مستوطنون يهاجمون قاطفي الزيتون ومصورة أمريكية",
+   "url": "https://www.aljazeera.com/news/2026/10/16/palestinians-us-journalist-attacked-in-west-bank-pogrom-what-we-know"
   },
   {
    "cat": "geo",
-   "title": "Iran : les sanctions américaines rendent les vols vers l'étranger longs et très chers",
-   "title_ar": "إيران: العقوبات الأمريكية تجعل الرحلات نحو الخارج طويلة ومكلفة جدا",
-   "summary": "Depuis les nouvelles sanctions américaines contre les compagnies aériennes iraniennes, un trajet Téhéran-Dubaï peut durer 18 heures et coûter plus de 1 000 dollars. Environ 20 % des vols internationaux iraniens sont suspendus, après des refus des Émirats, de l'Azerbaïdjan et de la Géorgie.",
-   "summary_ar": "منذ العقوبات الأمريكية الجديدة على شركات الطيران الإيرانية، قد تستغرق رحلة طهران-دبي 18 ساعة وتكلف أكثر من 1000 دولار. وعُلّقت نحو 20% من الرحلات الدولية الإيرانية بعد رفض الإمارات وأذربيجان وجورجيا.",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news-analysis/2026/10/16/us-sanctions-leave-iranians-facing-flight-cancellations-and-soaring-costs",
    "date": "2026-10-16",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6abaa2d07d97-1790616272.jpg?resize=1920%2C1440",
    "explain": {
     "context": "Washington a sanctionné 27 compagnies opérant en Iran et menace aussi les aéroports et fournisseurs qui travaillent avec elles.",
     "context_ar": "فرضت واشنطن عقوبات على 27 شركة طيران تعمل في إيران، وتهدد أيضا المطارات والموردين الذين يتعاملون معها.",
-    "terms": [
-     {
-      "t": "sanctions",
-      "t_ar": "العقوبات",
-      "d": "Mesures qui interdisent de commercer avec un pays ou une entreprise pour faire pression sur eux.",
-      "d_ar": "إجراءات تمنع التعامل التجاري مع بلد أو شركة للضغط عليهما."
-     }
-    ],
     "figures": [
      {
-      "n": "1 000 $",
-      "n_ar": "1000 دولار",
       "d": "Prix possible d'un Téhéran-Dubaï, contre 100 à 200 dollars fin septembre.",
-      "d_ar": "السعر الممكن لرحلة طهران-دبي، مقابل 100 إلى 200 دولار في أواخر شتنبر."
+      "d_ar": "السعر الممكن لرحلة طهران-دبي، مقابل 100 إلى 200 دولار في أواخر شتنبر.",
+      "n": "1 000 $",
+      "n_ar": "1000 دولار"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Mesures qui interdisent de commercer avec un pays ou une entreprise pour faire pression sur eux.",
+      "d_ar": "إجراءات تمنع التعامل التجاري مع بلد أو شركة للضغط عليهما.",
+      "t": "sanctions",
+      "t_ar": "العقوبات"
      }
     ]
-   }
+   },
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6abaa2d07d97-1790616272.jpg?resize=1920%2C1440",
+   "source": "Al Jazeera",
+   "summary": "Depuis les nouvelles sanctions américaines contre les compagnies aériennes iraniennes, un trajet Téhéran-Dubaï peut durer 18 heures et coûter plus de 1 000 dollars. Environ 20 % des vols internationaux iraniens sont suspendus, après des refus des Émirats, de l'Azerbaïdjan et de la Géorgie.",
+   "summary_ar": "منذ العقوبات الأمريكية الجديدة على شركات الطيران الإيرانية، قد تستغرق رحلة طهران-دبي 18 ساعة وتكلف أكثر من 1000 دولار. وعُلّقت نحو 20% من الرحلات الدولية الإيرانية بعد رفض الإمارات وأذربيجان وجورجيا.",
+   "title": "Iran : les sanctions américaines rendent les vols vers l'étranger longs et très chers",
+   "title_ar": "إيران: العقوبات الأمريكية تجعل الرحلات نحو الخارج طويلة ومكلفة جدا",
+   "url": "https://www.aljazeera.com/news-analysis/2026/10/16/us-sanctions-leave-iranians-facing-flight-cancellations-and-soaring-costs"
   },
   {
    "cat": "geo",
-   "title": "Liban : le Qatar va financer une grande centrale solaire",
-   "title_ar": "لبنان: قطر ستموّل محطة كبرى للطاقة الشمسية",
-   "summary": "En visite à Beyrouth, le Premier ministre qatari a annoncé une grande centrale solaire pour le Liban, construite par QatarEnergy et le français TotalEnergies. Le Qatar paiera tout, sans frais pour l'État libanais, dont la compagnie d'électricité ne fournit que quelques heures de courant par jour.",
-   "summary_ar": "أعلن رئيس الوزراء القطري خلال زيارته بيروت عن محطة كبرى للطاقة الشمسية في لبنان، ستنجزها قطر للطاقة مع الفرنسية توتال إنرجيز. وستتحمل قطر كل التكاليف دون أي عبء على الدولة اللبنانية، التي لا توفر شركتها للكهرباء سوى ساعات قليلة يوميا.",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/16/qatar-announces-massive-solar-plant-project-in-lebanon",
    "date": "2026-10-16",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6ad22bae69fe2-1792158638.jpg?resize=1920%2C1440",
    "explain": {
     "context": "Le Liban sort d'une guerre avec Israël et une trêve a été conclue en juin. Le Qatar prépare aussi avec les États-Unis la reconstruction du Sud.",
     "context_ar": "يخرج لبنان من حرب مع إسرائيل، وتم التوصل إلى هدنة في يونيو. وتحضّر قطر أيضا مع الولايات المتحدة لإعادة إعمار الجنوب.",
-    "terms": [
-     {
-      "t": "centrale solaire",
-      "t_ar": "محطة للطاقة الشمسية",
-      "d": "Grand site couvert de panneaux qui transforment la lumière du soleil en électricité.",
-      "d_ar": "موقع كبير مغطى بألواح تحول ضوء الشمس إلى كهرباء."
-     }
-    ],
     "figures": [
      {
-      "n": "40 milliards $",
-      "n_ar": "40 مليار دولار",
       "d": "Pertes accumulées par la compagnie publique d'électricité du Liban au fil des années.",
-      "d_ar": "الخسائر التي راكمتها شركة الكهرباء العمومية في لبنان على مر السنين."
+      "d_ar": "الخسائر التي راكمتها شركة الكهرباء العمومية في لبنان على مر السنين.",
+      "n": "40 milliards $",
+      "n_ar": "40 مليار دولار"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Grand site couvert de panneaux qui transforment la lumière du soleil en électricité.",
+      "d_ar": "موقع كبير مغطى بألواح تحول ضوء الشمس إلى كهرباء.",
+      "t": "centrale solaire",
+      "t_ar": "محطة للطاقة الشمسية"
      }
     ]
-   }
+   },
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6ad22bae69fe2-1792158638.jpg?resize=1920%2C1440",
+   "source": "Al Jazeera",
+   "summary": "En visite à Beyrouth, le Premier ministre qatari a annoncé une grande centrale solaire pour le Liban, construite par QatarEnergy et le français TotalEnergies. Le Qatar paiera tout, sans frais pour l'État libanais, dont la compagnie d'électricité ne fournit que quelques heures de courant par jour.",
+   "summary_ar": "أعلن رئيس الوزراء القطري خلال زيارته بيروت عن محطة كبرى للطاقة الشمسية في لبنان، ستنجزها قطر للطاقة مع الفرنسية توتال إنرجيز. وستتحمل قطر كل التكاليف دون أي عبء على الدولة اللبنانية، التي لا توفر شركتها للكهرباء سوى ساعات قليلة يوميا.",
+   "title": "Liban : le Qatar va financer une grande centrale solaire",
+   "title_ar": "لبنان: قطر ستموّل محطة كبرى للطاقة الشمسية",
+   "url": "https://www.aljazeera.com/news/2026/10/16/qatar-announces-massive-solar-plant-project-in-lebanon"
   },
   {
    "cat": "cinema",
-   "title": "Tahar Rahim, Javert dans « Les Misérables », dévoile ses trois films préférés",
-   "title_ar": "طاهر رحيم، جافير في فيلم «البؤساء»، يكشف أفلامه الثلاثة المفضلة",
-   "summary": "À l'affiche des « Misérables », où il joue l'inspecteur Javert, Tahar Rahim cite « Ghost », le film préféré de sa mère, « L'Armée des ombres » de Jean-Pierre Melville et « Voyage au bout de l'enfer » de Michael Cimino. Il voit dans ce dernier un film immense sur l'Amérique et la guerre du Vietnam.",
-   "summary_ar": "يشارك طاهر رحيم في فيلم «البؤساء» بدور المفتش جافير، وقد ذكر من أفلامه المفضلة «Ghost» الذي كانت تحبه والدته، و«جيش الظلال» لجان بيير ملفيل، و«صائد الغزلان» لمايكل تشيمينو. ويرى في هذا الأخير عملا ضخما عن أمريكا وحرب فيتنام.",
-   "source": "Allociné",
-   "url": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227514.html",
    "date": "2026-10-16",
-   "image": "https://fr.web.img3.acsta.net/img/54/b1/54b105abf31b5194a55965a42fb696ec.jpg",
    "explain": {
     "context": "« Les Misérables » adapte le roman de Victor Hugo, avec Vincent Lindon. « L'Armée des ombres » raconte la Résistance pendant la Seconde Guerre mondiale.",
     "context_ar": "فيلم «البؤساء» مقتبس من رواية فيكتور هوغو، ويشارك فيه فنسان ليندون. ويحكي «جيش الظلال» عن المقاومة الفرنسية خلال الحرب العالمية الثانية.",
+    "figures": [],
     "terms": [
      {
-      "t": "À l'affiche",
-      "t_ar": "معروض في القاعات",
       "d": "Se dit d'un film qui est en ce moment projeté dans les salles de cinéma.",
-      "d_ar": "يقال عن فيلم يُعرض حاليا في قاعات السينما."
+      "d_ar": "يقال عن فيلم يُعرض حاليا في قاعات السينما.",
+      "t": "À l'affiche",
+      "t_ar": "معروض في القاعات"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://fr.web.img3.acsta.net/img/54/b1/54b105abf31b5194a55965a42fb696ec.jpg",
+   "source": "Allociné",
+   "summary": "À l'affiche des « Misérables », où il joue l'inspecteur Javert, Tahar Rahim cite « Ghost », le film préféré de sa mère, « L'Armée des ombres » de Jean-Pierre Melville et « Voyage au bout de l'enfer » de Michael Cimino. Il voit dans ce dernier un film immense sur l'Amérique et la guerre du Vietnam.",
+   "summary_ar": "يشارك طاهر رحيم في فيلم «البؤساء» بدور المفتش جافير، وقد ذكر من أفلامه المفضلة «Ghost» الذي كانت تحبه والدته، و«جيش الظلال» لجان بيير ملفيل، و«صائد الغزلان» لمايكل تشيمينو. ويرى في هذا الأخير عملا ضخما عن أمريكا وحرب فيتنام.",
+   "title": "Tahar Rahim, Javert dans « Les Misérables », dévoile ses trois films préférés",
+   "title_ar": "طاهر رحيم، جافير في فيلم «البؤساء»، يكشف أفلامه الثلاثة المفضلة",
+   "url": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227514.html"
   },
   {
    "cat": "sport",
@@ -4780,43 +4924,6 @@
    "cat": "ux",
    "date": "2026-10-06",
    "explain": {
-    "context": "Les design systems demandent beaucoup de maintenance. Figma présente l'IA comme un moyen de garder ce travail sous contrôle sans grossir l'équipe.",
-    "context_ar": "تحتاج أنظمة التصميم إلى صيانة كثيرة. وتقدم فيجما الذكاء الاصطناعي كوسيلة لإبقاء هذا العمل تحت السيطرة دون توسيع الفريق.",
-    "figures": [
-     {
-      "d": "Uber a documenté ses composants sur sept plateformes. Cela montre l'échelle où l'automatisation devient utile.",
-      "d_ar": "وثقت أوبر مكوناتها على سبع منصات، وهذا يبيّن الحجم الذي تصبح فيه الأتمتة مفيدة.",
-      "n": "7 plateformes",
-      "n_ar": "7 منصات"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Un ensemble de composants, de règles et de styles partagés pour concevoir des produits cohérents.",
-      "d_ar": "مجموعة مكونات وقواعد وأنماط مشتركة لتصميم منتجات متسقة.",
-      "t": "design system",
-      "t_ar": "نظام التصميم"
-     },
-     {
-      "d": "Éléments d'interface réutilisables, comme un bouton ou un champ de formulaire.",
-      "d_ar": "عناصر واجهة قابلة لإعادة الاستعمال مثل الزر أو حقل النموذج.",
-      "t": "composants",
-      "t_ar": "المكونات"
-     }
-    ]
-   },
-   "image": "",
-   "source": "Figma Blog",
-   "summary": "Figma explique comment son agent IA réduit le travail répétitif sur un design system : documentation des composants, repérage des éléments hors système et nettoyage des noms. Uber l'a utilisé pour documenter des composants sur sept plateformes.",
-   "summary_ar": "تشرح فيجما كيف يقلل وكيلها الذكي العمل المتكرر في نظام التصميم: توثيق المكونات، وكشف العناصر الخارجة عن النظام، وتوحيد التسميات. استعملته أوبر لتوثيق مكونات على سبع منصات.",
-   "title": "Figma : l'agent aide à entretenir les design systems",
-   "title_ar": "فيجما: الوكيل الذكي يساعد في صيانة أنظمة التصميم",
-   "url": "https://www.figma.com/blog/figma-agent-and-design-systems/"
-  },
-  {
-   "cat": "ux",
-   "date": "2026-10-06",
-   "explain": {
     "context": "Les outils de design passent de l'assistant ponctuel à l'agent qui exécute des tâches longues. Les équipes comme Uber, Granola et Atlassian partagent leurs usages.",
     "context_ar": "تنتقل أدوات التصميم من المساعد المحدود إلى وكيل ينفذ مهاماً طويلة. وتشارك فرق مثل أوبر وغرانولا وأتلاسيان طرق استعماله.",
     "figures": [
@@ -4922,30 +5029,6 @@
    "title": "Dès 4 mois, les bébés devinent qui est proche de qui",
    "title_ar": "منذ الشهر الرابع، يخمّن الرضّع من هو قريب ممن",
    "url": "https://www.eurekalert.org/news-releases/1146751"
-  },
-  {
-   "cat": "ux",
-   "date": "2026-10-02",
-   "explain": {
-    "context": "En UX, on commence souvent un projet en résumant ce qu'on sait des utilisateurs. NN/g (Nielsen Norman Group) est un cabinet de référence qui publie des guides de méthode.",
-    "context_ar": "في تجربة المستخدم، نبدأ المشروع غالباً بتلخيص ما نعرفه عن المستخدمين. ‏NN/g (مجموعة نيلسن نورمان) مكتب مرجعي ينشر أدلة منهجية.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Tableau en 4 cases (dit, pense, fait, ressent) qui résume ce qu'on sait d'un type d'utilisateur.",
-      "d_ar": "جدول من 4 خانات (يقول، يفكر، يفعل، يشعر) يلخّص ما نعرفه عن نوع من المستخدمين.",
-      "t": "Carte d'empathie",
-      "t_ar": "خريطة التعاطف"
-     }
-    ]
-   },
-   "image": "https://media.nngroup.com/media/articles/opengraph_images/Empathy_Mapping-1.png",
-   "source": "Nielsen Norman Group",
-   "summary": "Nielsen Norman Group explique comment construire une carte d'empathie en quatre parties (ce que l'utilisateur dit, pense, fait et ressent) pour partager une vision commune en équipe. Chaque note doit reposer sur des données réelles, et les cases vides ou contradictoires montrent où il faut encore faire de la recherche.",
-   "summary_ar": "تشرح مجموعة نيلسن نورمان كيفية إعداد خريطة التعاطف بأربعة أقسام (ما يقوله المستخدم وما يفكر فيه وما يفعله وما يشعر به) لبناء فهم مشترك داخل الفريق. ويجب أن تستند كل ملاحظة إلى بيانات حقيقية، أما الخانات الفارغة أو المتناقضة فتدل على ما يحتاج إلى بحث إضافي.",
-   "title": "Carte d'empathie : le guide de NN/g pour bien démarrer un projet",
-   "title_ar": "خريطة التعاطف: دليل NN/g لبداية صحيحة لأي مشروع",
-   "url": "https://www.nngroup.com/articles/empathy-mapping/"
   }
  ],
  "reads": [
