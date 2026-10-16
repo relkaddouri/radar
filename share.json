@@ -714,20 +714,6 @@
     "أعلن المغرب وإسرائيل في شتنبر رغبتهما في رفع العلاقات إلى مستوى السفارات."
    ]
   },
-  "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227594.html": {
-   "h": "Zendaya en vedette du prochain film de science-fiction d'Alex Garland",
-   "pts": [
-    "Zendaya aura le rôle principal du prochain film de science-fiction d'Alex Garland, encore sans titre.",
-    "Le film est produit par A24, studio américain indépendant, et le tournage est prévu en 2027.",
-    "L'histoire reste secrète ; la sortie en salles est visée pour l'année qui suivra le tournage."
-   ],
-   "h_ar": "زندايا بطلة فيلم الخيال العلمي القادم للمخرج أليكس غارلاند",
-   "pts_ar": [
-    "ستلعب زندايا الدور الرئيسي في فيلم الخيال العلمي القادم لأليكس غارلاند، الذي لا يحمل عنواناً بعد.",
-    "ينتج الفيلم استوديو A24 الأمريكي المستقل، ومن المقرر أن يبدأ التصوير سنة 2027.",
-    "لم تكشف القصة بعد، ويرتقب عرض الفيلم في القاعات في السنة التي تلي التصوير."
-   ]
-  },
   "https://ux-news.com/figma-code-layers-specs-payload-update/": {
    "h": "Figma : des prototypes en code sur le canevas, ouverts à tous en bêta",
    "pts": [
@@ -868,342 +854,6 @@
     "يبلغ عدد هذه المدارس 231، أي نحو نصف مونتيسوري العمومي."
    ]
   },
-  "https://fr.hespress.com/492431-onu-la-quatrieme-commission-adopte-la-resolution-sur-le-sahara-marocain.html": {
-   "h": "Sahara marocain : large vote en faveur du texte à l'ONU",
-   "pts": [
-    "Une commission de l'ONU sur la décolonisation a adopté son texte annuel sur le Sahara.",
-    "Le vote : 152 pays pour, seulement 2 contre et 7 qui ne se sont pas prononcés.",
-    "Il y a eu un vote à la demande des États-Unis, alors que le texte passait d'habitude sans vote."
-   ],
-   "h_ar": "الصحراء المغربية: تصويت واسع لصالح القرار في الأمم المتحدة",
-   "pts_ar": [
-    "اعتمدت لجنة أممية مكلفة بإنهاء الاستعمار نصها السنوي حول الصحراء.",
-    "صوّتت 152 دولة لصالحه، مقابل دولتين فقط ضده وامتناع 7 دول.",
-    "جرى التصويت بطلب من الولايات المتحدة، بعدما كان النص يُعتمد عادة بالتوافق."
-   ]
-  },
-  "https://fr.hespress.com/492371-le-maroc-attend-une-cargaison-de-40-000-tonnes-de-gazole-russe.html": {
-   "h": "Un navire de gazole russe en route vers le Maroc",
-   "pts": [
-    "Un bateau chargé de 40 000 tonnes de gazole, le diesel des camions et bus, vient de Russie.",
-    "Il a quitté le port russe de Primorsk après son chargement le 13 octobre.",
-    "On ne sait ni qui l'importe ni quand il arrive, et rien ne garantit une baisse rapide à la pompe."
-   ],
-   "h_ar": "سفينة محمّلة بالغازوال الروسي في طريقها إلى المغرب",
-   "pts_ar": [
-    "شحنة من 40 ألف طن من الغازوال، وقود الشاحنات والحافلات، قادمة من روسيا.",
-    "غادرت السفينة ميناء بريمورسك الروسي بعد تحميلها يوم 13 أكتوبر.",
-    "المستورد وموعد الوصول مجهولان، ولا شيء يضمن انخفاضاً سريعاً في أسعار المحطات."
-   ]
-  },
-  "https://fr.hespress.com/492361-hcp-925-des-menages-ne-prevoient-pas-depargner-dans-les-douze-prochains-mois.html": {
-   "h": "Presque aucun ménage marocain ne pense pouvoir épargner cette année",
-   "pts": [
-    "Selon le HCP, l'institut officiel des statistiques, 92,5 % des ménages ne prévoient pas d'épargner.",
-    "Leur moral recule un peu à 59,2 points, mais reste meilleur qu'il y a un an (53,6).",
-    "76,3 % disent vivre moins bien et 95,9 % voient les prix de la nourriture augmenter."
-   ],
-   "h_ar": "أغلب الأسر المغربية لا تتوقع الادخار خلال السنة المقبلة",
-   "pts_ar": [
-    "حسب المندوبية السامية للتخطيط، 92.5% من الأسر لا تتوقع أن تدخر خلال 12 شهراً.",
-    "تراجعت ثقة الأسر قليلاً إلى 59.2 نقطة، لكنها أفضل من مستواها قبل سنة (53.6).",
-    "يرى 76.3% أن معيشتهم ساءت، ويلاحظ 95.9% ارتفاع أسعار المواد الغذائية."
-   ]
-  },
-  "https://fr.hespress.com/492189-rapport-de-la-depf-croissance-de-49-en-2025-mais-le-chomage-reste-un-defi-structurel.html": {
-   "h": "L'économie marocaine accélère, mais le chômage reste élevé",
-   "pts": [
-    "Selon le ministère des Finances, l'économie a grandi de 4,9 % en 2025, contre 4,4 % en 2024.",
-    "Les prix n'ont monté que de 0,8 %, mais le chômage reste entre 12 et 13,5 % des actifs.",
-    "Avant 2020, il était de 9 à 10 % : la croissance ne suffit pas à créer assez d'emplois."
-   ],
-   "h_ar": "الاقتصاد المغربي يتسارع لكن البطالة تبقى مرتفعة",
-   "pts_ar": [
-    "حسب وزارة المالية، نما الاقتصاد بنسبة 4.9% في 2025 مقابل 4.4% في 2024.",
-    "لم ترتفع الأسعار إلا بـ0.8%، لكن البطالة بقيت بين 12 و13.5%.",
-    "كانت قبل 2020 بين 9 و10%، أي أن النمو وحده لا يخلق ما يكفي من مناصب الشغل."
-   ]
-  },
-  "https://fr.hespress.com/492349-ligue-des-champions-hakimi-vise-une-nouvelle-finale-avec-le-psg.html": {
-   "h": "Après le 4-2 à Manchester City, Hakimi rêve d'une autre finale",
-   "pts": [
-    "Le PSG a gagné 4-2 chez Manchester City en Ligue des champions.",
-    "Doué, Dembélé, Vitinha et Akliouche ont marqué ; Haaland a inscrit deux buts pour City.",
-    "Hakimi vise une nouvelle finale européenne, pas à pas ; prochain défi : le Barça le 20 octobre."
-   ],
-   "h_ar": "بعد الفوز 4-2 على مانشستر سيتي، حكيمي يحلم بنهائي جديد",
-   "pts_ar": [
-    "فاز باريس سان جرمان 4-2 على أرض مانشستر سيتي في دوري أبطال أوروبا.",
-    "سجّل دوي وديمبيلي وفيتينيا وأكليوش، بينما أحرز هالاند هدفين لسيتي.",
-    "يطمح حكيمي إلى نهائي أوروبي جديد خطوة بخطوة، والموعد المقبل مع برشلونة يوم 20 أكتوبر."
-   ]
-  },
-  "https://fr.hespress.com/492254-can-2027-trois-pays-un-projet-de-visa-commun.html": {
-   "h": "CAN 2027 : un seul visa pour suivre le tournoi dans trois pays",
-   "pts": [
-    "Le Kenya, la Tanzanie et l'Ouganda préparent un visa commun pour les supporters de la CAN.",
-    "Le tournoi aura lieu du 19 juin au 17 juillet 2027 dans ces trois pays d'Afrique de l'Est.",
-    "Le stade d'Arusha, en Tanzanie, serait déjà terminé à 95 %."
-   ],
-   "h_ar": "كأس أفريقيا 2027: تأشيرة واحدة لمتابعة البطولة في ثلاث دول",
-   "pts_ar": [
-    "تعمل كينيا وتنزانيا وأوغندا على تأشيرة موحدة لمشجعي كأس أمم أفريقيا.",
-    "تقام البطولة من 19 يونيو إلى 17 يوليو 2027 في هذه الدول الثلاث بشرق أفريقيا.",
-    "وتفيد المعطيات بأن أشغال ملعب أروشا بتنزانيا أُنجزت بنسبة 95%."
-   ]
-  },
-  "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/": {
-   "h": "Procès Apple contre OpenAI : un juge exige des dossiers d'embauche",
-   "pts": [
-    "Apple accuse OpenAI d'avoir recruté ses ingénieurs, dans un procès sur des secrets industriels.",
-    "Un juge oblige OpenAI à remettre des entretiens d'embauche en 5 jours, et le reste en 14 jours.",
-    "Ces délais très courts permettent à Apple d'avancer vite dans son procès."
-   ],
-   "h_ar": "قضية أبل ضد OpenAI: القاضي يطلب ملفات التوظيف",
-   "pts_ar": [
-    "تتهم أبل شركة OpenAI باستقطاب مهندسيها، في قضية تتعلق بالأسرار التجارية.",
-    "أمر قاضٍ OpenAI بتسليم مقابلات توظيف خلال 5 أيام، وباقي الوثائق خلال 14 يوماً.",
-    "هذه المهلة القصيرة جداً تسمح لأبل بالتقدم بسرعة في قضيتها."
-   ]
-  },
-  "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/": {
-   "h": "Une jeune entreprise veut créer des puces en une semaine grâce à l'IA",
-   "pts": [
-    "Ricursive Intelligence veut utiliser l'IA pour dessiner des puces, le « cerveau » des ordinateurs.",
-    "Selon ses fondatrices, cela prendrait environ une semaine, contre six mois à deux ans aujourd'hui.",
-    "Elles pensent que les besoins en calcul peuvent être multipliés par 10 000 en cinq ans."
-   ],
-   "h_ar": "شركة ناشئة تريد تصميم الرقائق في أسبوع بفضل الذكاء الاصطناعي",
-   "pts_ar": [
-    "تريد شركة ريكورسيف استعمال الذكاء الاصطناعي لتصميم الرقائق، أي «عقل» الحواسيب.",
-    "حسب مؤسستيها، يستغرق ذلك نحو أسبوع بدل ستة أشهر إلى سنتين حالياً.",
-    "وتتوقعان أن تتضاعف الحاجة إلى القدرة الحاسوبية 10 آلاف مرة خلال خمس سنوات."
-   ]
-  },
-  "https://www.aljazeera.com/news/2026/10/14/mexico-to-force-meta-tiktok-and-x-to-better-protect-minors-on-platform": {
-   "h": "Mexique : Meta, TikTok et X sommés de mieux protéger les mineurs",
-   "pts": [
-    "Un décret oblige les grands réseaux sociaux à mieux protéger les enfants et les adolescents.",
-    "Ils ont un mois pour limiter les contenus violents, sexuels ou de harcèlement vus par les mineurs.",
-    "Pas d'amende pour l'instant, mais la présidente promet une loi si rien ne change."
-   ],
-   "h_ar": "المكسيك تُلزم ميتا وتيك توك وإكس بحماية أفضل للقاصرين",
-   "pts_ar": [
-    "مرسوم جديد يفرض على كبرى منصات التواصل حماية الأطفال والمراهقين بشكل أفضل.",
-    "أمامها شهر واحد للحد من المحتوى العنيف أو الجنسي أو التحرش وحذف المحتوى الخطر بسرعة.",
-    "لا غرامات في الوقت الحالي، لكن الرئيسة تتوعد بقانون إذا لم يتغير شيء."
-   ]
-  },
-  "https://www.moroccoworldnews.com/2026/10/342151/moroccos-ait-boudlal-contract-extension-in-doubt-after-conflicting-reports/": {
-   "h": "Rennes : flou total sur l'avenir du Marocain Ait Boudlal",
-   "pts": [
-    "Le défenseur de 20 ans, formé à l'Académie Mohammed VI, est sous contrat à Rennes jusqu'en 2028.",
-    "Cet été, Rennes a dit non à deux offres de Fulham, dont une de 35 millions d'euros.",
-    "Une prolongation de contrat annoncée le 12 octobre n'a toujours pas été confirmée."
-   ],
-   "h_ar": "رين: غموض حول مستقبل المغربي آيت بودلال",
-   "pts_ar": [
-    "المدافع ذو العشرين عاماً، خريج أكاديمية محمد السادس، مرتبط مع رين بعقد حتى 2028.",
-    "رفض رين هذا الصيف عرضين من فولهام، أحدهما بقيمة 35 مليون يورو.",
-    "أما خبر تمديد عقده المعلن يوم 12 أكتوبر فلم يتأكد حتى الآن."
-   ]
-  },
-  "https://www.hespress.com/%d9%85%d8%af%d9%85%d8%b1%d8%a9-%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a%d8%a9-%d8%aa%d9%86%d9%87%d9%8a-%d8%b2%d9%8a%d8%a7%d8%b1%d8%a9-%d9%85%d9%8a%d9%86%d8%a7%d8%a1-%d8%a3%d9%83%d8%a7%d8%af%d9%8a%d8%b1-1822630.html": {
-   "h": "Agadir : le destroyer américain USS Stout quitte le port après 3 jours",
-   "pts": [
-    "Le navire de guerre américain USS Stout a quitté le port d'Agadir mardi 13 octobre.",
-    "Ce destroyer de la classe Arleigh Burke est resté trois jours en escale au Maroc.",
-    "La marine américaine y voit une pause pour l'équipage et un signe du partenariat avec le Maroc."
-   ],
-   "h_ar": "أكادير: المدمرة الأمريكية «يو إس إس ستاوت» تغادر بعد ثلاثة أيام",
-   "pts_ar": [
-    "غادرت السفينة الحربية الأمريكية «يو إس إس ستاوت» ميناء أكادير يوم الثلاثاء 13 أكتوبر.",
-    "قضت هذه المدمرة من فئة أرلي بيرك ثلاثة أيام راسية في الميناء المغربي.",
-    "تقول البحرية الأمريكية إنها استراحة للطاقم وعلامة على شراكة قديمة مع المغرب."
-   ]
-  },
-  "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/": {
-   "h": "Flock : ses micros entendent-ils vraiment que les coups de feu ?",
-   "pts": [
-    "Le patron de Flock assure que les micros de son entreprise ne détectent que les coups de feu.",
-    "Mais le site de l'entreprise parle aussi de rodéos, d'accidents graves et de feux d'artifice.",
-    "Flock dit ne pas repérer les cris, une idée abandonnée après des critiques sur la vie privée."
-   ],
-   "h_ar": "فلوك: هل ترصد ميكروفوناتها الطلقات النارية فقط؟",
-   "pts_ar": [
-    "يؤكد مدير شركة فلوك أن ميكروفونات شركته ترصد الطلقات النارية فقط.",
-    "لكن موقع الشركة يذكر أيضاً سباقات الشوارع والحوادث الخطيرة والألعاب النارية.",
-    "وتقول فلوك إنها لا ترصد الصراخ، بعد أن تخلت عن الفكرة بسبب انتقادات حول الخصوصية."
-   ]
-  },
-  "https://techcrunch.com/2026/10/14/cedardb-wants-one-database-to-handle-both-transactions-and-analytics-as-ai-agents-raise-the-stakes/": {
-   "h": "CedarDB : une seule base de données pour les agents d'IA",
-   "pts": [
-    "Cette jeune entreprise de Munich gère les opérations et l'analyse des données dans un même outil.",
-    "Elle vient de lever 5,3 millions d'euros et ouvre CedarDB Cloud à un nombre limité d'utilisateurs.",
-    "Elle vise les agents d'IA, des programmes qui agissent seuls, et veut concurrencer Databricks."
-   ],
-   "h_ar": "سيدار دي بي: قاعدة بيانات واحدة لوكلاء الذكاء الاصطناعي",
-   "pts_ar": [
-    "شركة ناشئة من ميونخ تعالج العمليات وتحليل البيانات داخل محرك واحد.",
-    "جمعت 5,3 ملايين يورو وتفتح خدمتها السحابية CedarDB Cloud لعدد محدود من المستخدمين.",
-    "تستهدف وكلاء الذكاء الاصطناعي، أي البرامج التي تعمل بشكل مستقل، وتنافس Databricks."
-   ]
-  },
-  "https://www.aljazeera.com/news/2026/10/14/ukraine-accuses-elon-musks-spacex-of-throttling-starlink-terminals": {
-   "h": "Starlink en Ukraine : Musk renvoie la balle à l'armée américaine",
-   "pts": [
-    "Kiev accuse SpaceX de brider, c'est-à-dire ralentir, ses terminaux Starlink les plus rapides.",
-    "Musk répond sur X que l'armée américaine et le président décident des limites sur Starshield.",
-    "La Maison-Blanche ne confirme pas ; la Pologne et un sénateur américain veulent lever ces limites."
-   ],
-   "h_ar": "ستارلينك في أوكرانيا: ماسك يحمّل الجيش الأمريكي مسؤولية القيود",
-   "pts_ar": [
-    "تتهم كييف شركة سبيس إكس بتقييد، أي إبطاء، محطات ستارلينك السريعة.",
-    "يرد ماسك على إكس بأن الجيش الأمريكي والرئيس هما من يقرران أي قيود على ستارشيلد.",
-    "البيت الأبيض لم يؤكد ولم ينفِ، وبولندا وسيناتور أمريكي يطالبان برفع القيود."
-   ]
-  },
-  "https://www.moroccoworldnews.com/2026/10/342173/real-madrid-complete-stunning-remontada-to-beat-roma-4-3/": {
-   "h": "Ligue des champions : le Real renverse la Roma 4-3 en fin de match",
-   "pts": [
-    "Mené 3-1 à Rome, le Real Madrid a gagné 4-3 en marquant trois buts en sept minutes.",
-    "L'entrée des remplaçants a tout changé, avec le but de la victoire de Rüdiger à la 90e minute.",
-    "Madrid compte 6 points en 2 matchs, la Roma 1 ; Mourinho y retrouvait son ancien club."
-   ],
-   "h_ar": "دوري الأبطال: ريال مدريد يقلب الطاولة على روما 4-3",
-   "pts_ar": [
-    "كان ريال مدريد متأخراً 1-3 في روما، ثم فاز 4-3 بثلاثة أهداف في سبع دقائق.",
-    "غيّر دخول البدلاء مجرى المباراة، وسجل روديغر هدف الفوز في الدقيقة 90.",
-    "يملك الريال 6 نقاط من مباراتين وروما نقطة واحدة، وواجه مورينيو ناديه السابق."
-   ]
-  },
-  "https://www.espn.com/soccer/match/_/gameId/401915407/paris-saint-germain-manchester-city": {
-   "h": "Ligue des champions : le PSG gagne 4-2 à Manchester City",
-   "pts": [
-    "Le PSG menait déjà 3-0 à la pause grâce à Doué, Dembélé et Vitinha.",
-    "Haaland a marqué deux fois pour City, mais les Parisiens ont tenu jusqu'au bout : 4-2.",
-    "Le PSG recevra Barcelone mardi prochain en étant dans une position confortable."
-   ],
-   "h_ar": "دوري الأبطال: باريس سان جيرمان يفوز 4-2 على مانشستر سيتي",
-   "pts_ar": [
-    "تقدم باريس سان جيرمان 3-0 قبل الاستراحة بأهداف دوي وديمبيلي وفيتينيا.",
-    "سجل هالاند هدفين لسيتي، لكن الباريسيين صمدوا وفازوا 4-2 خارج ميدانهم.",
-    "بهذا الفوز يستقبل باريس برشلونة الثلاثاء المقبل وهو في وضع مريح."
-   ]
-  },
-  "https://www.moroccoworldnews.com/2026/10/342186/morocco-thrash-zambia-7-0-to-advance-in-futsal-afcon-2026/": {
-   "h": "CAN de futsal : le Maroc écrase la Zambie 7-0 et file en demi-finale",
-   "pts": [
-    "En futsal, le football en salle, le Maroc a battu la Zambie 7-0 à Rabat.",
-    "Après le 4-0 contre l'Algérie, il a 6 points en deux matchs et joue déjà les demi-finales.",
-    "Dernier match de groupe contre la Libye, vendredi 16 octobre à 20h."
-   ],
-   "h_ar": "كأس إفريقيا للفوتسال: المغرب يكتسح زامبيا 7-0 ويتأهل لنصف النهائي",
-   "pts_ar": [
-    "في كرة القدم داخل القاعة، فاز المنتخب المغربي على زامبيا 7-0 في الرباط.",
-    "بعد فوزه 4-0 على الجزائر، يملك 6 نقاط من مباراتين وضمن مكانه في نصف النهائي.",
-    "آخر مباراة في المجموعة أمام ليبيا يوم الجمعة 16 أكتوبر على الساعة 20:00."
-   ]
-  },
-  "https://www.hespress.com/%d8%b1%d9%8a%d9%85%d9%88%d9%86%d8%aa%d8%a7%d8%af%d8%a7-%d8%b7%d9%86%d8%ac%d8%a7%d9%88%d9%8a%d8%a9-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%85%d8%a7%d8%b5-1823018.html": {
-   "h": "Botola : l'Ittihad Tanger renverse le MAS 2-1 en une minute",
-   "pts": [
-    "Mené depuis la 32e minute, l'Ittihad Tanger a finalement battu le MAS 2-1.",
-    "Tanger a égalisé sur coup franc ou corner à la 75e, puis marqué le but gagnant une minute après.",
-    "Grâce à cette victoire, le club monte à 7 points après quatre journées."
-   ],
-   "h_ar": "البطولة: اتحاد طنجة يقلب الطاولة على المغرب الفاسي 2-1 في دقيقة",
-   "pts_ar": [
-    "كان اتحاد طنجة متأخراً منذ الدقيقة 32، لكنه فاز في النهاية 2-1 على المغرب الفاسي.",
-    "عادل من كرة ثابتة في الدقيقة 75، ثم سجل هدف الفوز بعد دقيقة واحدة فقط.",
-    "بهذا الفوز يرتفع رصيد الفريق إلى 7 نقاط بعد أربع جولات."
-   ]
-  },
-  "https://www.hespress.com/%d8%aa%d9%88%d9%82%d8%b9%d8%a7%d8%aa-%d8%a8%d8%aa%d8%b3%d8%a7%d8%b1%d8%b9-%d9%86%d9%85%d9%88-%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8%d9%8a-1822578.html": {
-   "h": "Maroc : le HCP prévoit une croissance de 4,1 % puis de 4,7 %",
-   "pts": [
-    "Le Haut-Commissariat au Plan prévoit 4,1 % de croissance au 3e trimestre pour le Maroc.",
-    "L'économie accélérerait à 4,7 % au 4e trimestre, grâce à l'agriculture et aux services.",
-    "Malgré le choc de l'énergie lié à la guerre en Iran, la hausse des prix resterait sous 2 %."
-   ],
-   "h_ar": "المغرب: مندوبية التخطيط تتوقع نمواً بـ4,1% ثم 4,7%",
-   "pts_ar": [
-    "تتوقع المندوبية السامية للتخطيط نمو الاقتصاد المغربي بـ4,1% في الفصل الثالث.",
-    "ويُنتظر أن يتسارع النمو إلى 4,7% في الفصل الرابع بدعم من الفلاحة والخدمات.",
-    "رغم صدمة أسعار الطاقة بسبب الحرب في إيران، سيبقى ارتفاع الأسعار دون 2%."
-   ]
-  },
-  "https://www.moroccoworldnews.com/2026/10/342179/morocco-arrests-spains-biggest-hashish-kingpin-linked-to-miss-spains-husband/": {
-   "h": "Le Maroc arrête le plus gros trafiquant de haschich recherché par l'Espagne",
-   "pts": [
-    "Les autorités marocaines ont arrêté le trafiquant surnommé Moreno, caché depuis des mois.",
-    "Son réseau est lié à plus de dix arrestations et à plus de 10 tonnes de haschich saisies en Espagne.",
-    "Il était considéré comme le plus gros trafiquant de haschich recherché par l'Espagne."
-   ],
-   "h_ar": "المغرب يوقف أكبر تاجر حشيش مطلوب لدى إسبانيا",
-   "pts_ar": [
-    "أوقفت السلطات المغربية المدعو «مورينو» الذي كان مختبئاً منذ أشهر.",
-    "ترتبط شبكته بأكثر من عشر عمليات توقيف وبحجز أكثر من 10 أطنان من الحشيش في إسبانيا.",
-    "ويُعدّ أكبر تاجر حشيش كانت تبحث عنه السلطات الإسبانية."
-   ]
-  },
-  "https://www.moroccoworldnews.com/2026/10/342181/caf-boosts-annual-funding-for-member-associations-to-700000/": {
-   "h": "CAF : chaque fédération recevra 700 000 dollars par an",
-   "pts": [
-    "La CAF augmente de 33 % l'aide annuelle versée à chacune des 54 fédérations africaines.",
-    "Chaque fédération touchera désormais 700 000 dollars, contre 200 000 dollars en 2021.",
-    "Depuis 2021, ce soutien a donc été multiplié par 3,5, soit une hausse de 250 %."
-   ],
-   "h_ar": "الكاف: دعم سنوي بـ700 ألف دولار لكل اتحاد إفريقي",
-   "pts_ar": [
-    "رفع رئيس الكاف باتريس موتسيبي الدعم السنوي لكل اتحاد من الاتحادات الـ54 بنسبة 33%.",
-    "سيحصل كل اتحاد الآن على 700 ألف دولار، مقابل 200 ألف دولار فقط سنة 2021.",
-    "أي أن هذا الدعم تضاعف 3,5 مرات منذ 2021، بزيادة تبلغ 250%."
-   ]
-  },
-  "https://www.moroccoworldnews.com/2026/10/342176/morocco-women-to-face-france-in-friendly-ahead-of-2027-world-cup/": {
-   "h": "Football féminin : le Maroc défiera la France le 5 décembre",
-   "pts": [
-    "Les Lionnes de l'Atlas joueront un match amical contre la France le 5 décembre à Sochaux.",
-    "Ce sera le premier match du nouvel entraîneur Eric Blahic, qui remplace Jorge Vilda.",
-    "Ce match sert à préparer la Coupe du monde 2027, qui aura lieu au Brésil."
-   ],
-   "h_ar": "الكرة النسوية: المغرب يواجه فرنسا ودياً يوم 5 دجنبر",
-   "pts_ar": [
-    "تلعب سيدات المنتخب المغربي مباراة ودية أمام فرنسا يوم 5 دجنبر في سوشو.",
-    "ستكون أول مباراة للمدرب الجديد إيريك بلاهيك الذي خلف خورخي فيلدا.",
-    "تدخل هذه المواجهة ضمن التحضير لكأس العالم 2027 المقررة في البرازيل."
-   ]
-  },
-  "https://techcrunch.com/2026/10/14/ambanis-jio-seeks-to-raise-3-2b-in-what-could-be-indias-biggest-ipo/": {
-   "h": "Inde : Jio veut lever 3,2 milliards, un record pour une entrée en Bourse",
-   "pts": [
-    "Jio, branche numérique du groupe Reliance, veut lever 3,2 milliards de dollars en Bourse.",
-    "Elle vise une valeur d'environ 108 milliards de dollars, contre 65 milliards en 2020.",
-    "Le public pourra acheter des actions du 21 au 23 octobre ; une grande part paiera des dettes."
-   ],
-   "h_ar": "الهند: جيو تسعى لجمع 3,2 مليار دولار في أكبر اكتتاب بالبلاد",
-   "pts_ar": [
-    "تسعى جيو، الذراع الرقمية لمجموعة ريلاينس، إلى جمع 3,2 مليار دولار عبر دخول البورصة.",
-    "تستهدف قيمة تقارب 108 مليارات دولار، مقابل 65 ملياراً سنة 2020.",
-    "يمكن للعموم شراء الأسهم من 21 إلى 23 أكتوبر، وسيذهب جزء كبير من المبلغ لسداد الديون."
-   ]
-  },
-  "https://www.aljazeera.com/news/2026/10/14/israels-former-security-chief-sues-netanyahu-for-october-7-defamation": {
-   "h": "Israël : l'ex-chef du Shin Bet porte plainte contre Netanyahou",
-   "pts": [
-    "Ronen Bar, ancien chef du Shin Bet, la sécurité intérieure, attaque Netanyahou pour diffamation.",
-    "Il dit avoir été accusé à tort après l'attaque du 7 octobre 2023 et réclame 3 millions de shekels.",
-    "Cette plainte arrive à quelques semaines des élections israéliennes du 27 octobre."
-   ],
-   "h_ar": "إسرائيل: الرئيس السابق للشاباك يقاضي نتنياهو بتهمة التشهير",
-   "pts_ar": [
-    "رفع رونين بار، الرئيس السابق لجهاز الأمن الداخلي (الشاباك)، دعوى تشهير ضد نتنياهو.",
-    "يتهمه بتحميله المسؤولية زوراً بعد هجوم 7 أكتوبر 2023، ويطالب بـ3 ملايين شيكل.",
-    "تأتي هذه الدعوى قبل أسابيع قليلة من الانتخابات المقررة يوم 27 أكتوبر."
-   ]
-  },
   "https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/": {
    "h": "Figma : quatre habitudes d'équipe pour bien adopter l'IA",
    "pts": [
@@ -1316,20 +966,6 @@
     "نحو 60% من هذه الوفيات كانت لأسباب يمكن تجنبها."
    ]
   },
-  "https://www.figma.com/blog/figma-agent-and-design-systems/": {
-   "h": "Figma : son agent IA allège l'entretien des design systems",
-   "pts": [
-    "L'agent IA de Figma aide à entretenir les bibliothèques de composants des équipes.",
-    "Il documente les composants, repère ceux hors système et nettoie les noms.",
-    "Uber s'en est servi pour documenter des composants sur sept plateformes."
-   ],
-   "h_ar": "فيغما: وكيل الذكاء الاصطناعي يخفف عبء صيانة أنظمة التصميم",
-   "pts_ar": [
-    "يساعد وكيل الذكاء الاصطناعي في فيغما الفرق على صيانة مكتبات مكوّنات التصميم.",
-    "يوثّق المكوّنات، ويكشف العناصر الخارجة عن النظام، وينظّم الأسماء.",
-    "استعملته أوبر لتوثيق مكوّنات على سبع منصات مختلفة."
-   ]
-  },
   "https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent/": {
    "h": "Figma : l'agent IA est désormais ouvert à tous les designers",
    "pts": [
@@ -1384,20 +1020,6 @@
     "يظهر بحث أن الرضّع في عمر 4 أشهر يفهمون بعض الروابط الاجتماعية.",
     "يتوقعون أن شخصين يتقاسمان الطعام سيساعد أحدهما الآخر أكثر.",
     "هذه علامة مبكرة جداً على فهم العلاقات بين الناس."
-   ]
-  },
-  "https://www.nngroup.com/articles/empathy-mapping/": {
-   "h": "Carte d'empathie : bien démarrer un projet selon NN/g",
-   "pts": [
-    "Nielsen Norman Group explique comment construire une carte d'empathie.",
-    "Elle a quatre parties : ce que l'utilisateur dit, pense, fait et ressent.",
-    "Chaque note doit venir de données réelles ; les cases vides montrent quoi étudier encore."
-   ],
-   "h_ar": "خريطة التعاطف: دليل NN/g لبداية مشروع ناجحة",
-   "pts_ar": [
-    "يشرح Nielsen Norman Group طريقة بناء خريطة التعاطف لفهم المستخدم.",
-    "تتكون من أربعة أجزاء: ما يقوله المستخدم، وما يفكر فيه، وما يفعله، وما يشعر به.",
-    "كل ملاحظة يجب أن تستند إلى بيانات حقيقية، والخانات الفارغة تبيّن ما يحتاج بحثاً."
    ]
   },
   "https://uxmag.com/articles/your-ai-is-lying-to-you-politely": {
@@ -2156,20 +1778,6 @@
     "تريد مايكروسوفت تقليل اعتمادها على أوبن إيه آي، وستستعمله لصنع مساعديها القادمين."
    ]
   },
-  "https://yro.slashdot.org/story/26/10/14/2127240/eight-us-states-sue-openai-claiming-chatgpt-harms-young-users": {
-   "h": "Huit États américains attaquent OpenAI en justice à cause de ChatGPT",
-   "pts": [
-    "Huit États américains accusent OpenAI d'avoir trompé les gens sur la sécurité de ChatGPT.",
-    "Ils parlent surtout des jeunes et demandent des changements, des amendes et des réparations.",
-    "C'est l'action la plus large d'États américains contre une entreprise d'IA jusqu'ici."
-   ],
-   "h_ar": "ثماني ولايات أمريكية تقاضي أوبن إيه آي بسبب شات جي بي تي",
-   "pts_ar": [
-    "تتهم ثماني ولايات أمريكية شركة أوبن إيه آي بتضليل الناس بشأن سلامة شات جي بي تي.",
-    "تركز على حماية الشباب، وتطالب بتغييرات في الأداة وبغرامات وتعويضات.",
-    "هذه أوسع خطوة تقوم بها ولايات أمريكية ضد شركة للذكاء الاصطناعي حتى الآن."
-   ]
-  },
   "https://pmnewsnigeria.com/2026/10/16/global-economy-faces-debt-inflation-risks-imf-warns/": {
    "h": "FMI : la croissance mondiale menacée par la dette et l'énergie",
    "pts": [
@@ -2280,6 +1888,370 @@
     "قال رون بيرلمان، البالغ 76 عاما، إنه مستعد لأداء دور هيلبوي من جديد في فيلم ثالث.",
     "لكنه يشترط أن يكون ذلك مع غييرمو ديل تورو، مخرج الجزأين الأولين.",
     "سيكمل ذلك قصة بقيت مفتوحة منذ 2008، رغم صدور نسختين أخريين منذ ذلك الحين."
+   ]
+  },
+  "https://ux-news.com/whatsapp-guest-calls-without-account/": {
+   "h": "WhatsApp : rejoindre un appel sans avoir de compte, c'est possible",
+   "pts": [
+    "Depuis le 14 octobre, on peut rejoindre un appel WhatsApp sans compte, via un lien.",
+    "L'invité ouvre le lien sur ordinateur, écrit son nom ; l'appel accueille jusqu'à 32 personnes.",
+    "L'invité ne voit pas les numéros et ne peut pas écrire de messages : la vie privée est protégée."
+   ],
+   "h_ar": "واتساب: صار بالإمكان الانضمام إلى مكالمة دون حساب",
+   "pts_ar": [
+    "منذ 14 أكتوبر، يمكن الانضمام إلى مكالمة واتساب عبر رابط دعوة دون امتلاك حساب.",
+    "يفتح الضيف الرابط في متصفح الحاسوب ويكتب اسمه، وتتسع المكالمة لـ32 شخصاً.",
+    "لا يرى الضيف أرقام الهواتف ولا يرسل رسائل، مما يحمي خصوصية المشاركين."
+   ]
+  },
+  "https://ux-news.com/google-health-automatic-workout-detection/": {
+   "h": "Les montres de Google reconnaissent maintenant plus de 100 sports",
+   "pts": [
+    "Les montres Fitbit et Pixel Watch devinent seules le sport que vous pratiquez.",
+    "Elles reconnaissent désormais plus de 100 activités, contre 10 seulement avant.",
+    "Une notification demande de confirmer ou corriger, pour éviter les fausses séances."
+   ],
+   "h_ar": "ساعات غوغل صارت تتعرف على أكثر من 100 نشاط رياضي",
+   "pts_ar": [
+    "تتعرف ساعات فيتبيت وبيكسل ووتش تلقائياً على الرياضة التي تمارسها.",
+    "أصبحت تميز أكثر من 100 نشاط، بعدما كانت تكتفي بـ10 أنشطة فقط.",
+    "يطلب منك إشعار تأكيد النشاط أو تصحيحه، لتجنب تسجيل حصص خاطئة."
+   ]
+  },
+  "https://earth.com/lifestyle/a-babys-size-at-birth-may-predict-school-performance-years-later": {
+   "h": "Un bébé né plus petit aurait plus tard des notes un peu plus basses",
+   "pts": [
+    "Une étude norvégienne a suivi plus de 92 000 enfants, de la naissance à l'école.",
+    "Les bébés nés plus petits que prévu ont ensuite des notes un peu plus basses en maths.",
+    "C'est un lien observé, pas une cause prouvée : d'autres facteurs peuvent jouer."
+   ],
+   "h_ar": "حجم الرضيع عند الولادة مرتبط بنتائجه الدراسية لاحقاً",
+   "pts_ar": [
+    "تابعت دراسة نرويجية أكثر من 92 ألف طفل منذ الولادة إلى المدرسة.",
+    "الرضّع الذين وُلدوا أصغر من المتوقع حصلوا لاحقاً على نقط أقل قليلاً في الرياضيات.",
+    "هذه علاقة ملاحظة وليست سبباً مؤكداً، فقد تتدخل عوامل أخرى."
+   ]
+  },
+  "https://www.montessori.org/why-montessori-children-learn-to-read-and-write-differently/": {
+   "h": "Montessori : pourquoi les enfants écrivent souvent avant de lire",
+   "pts": [
+    "Avec Montessori, l'enfant écoute d'abord les sons des mots avant d'apprendre les lettres.",
+    "Il suit du doigt des lettres rugueuses et forme des mots avec des lettres en bois.",
+    "Il peut ainsi écrire avant de savoir tenir un crayon, et les fautes sont normales au début."
+   ],
+   "h_ar": "مونتيسوري: لماذا يكتب الأطفال غالباً قبل أن يقرؤوا؟",
+   "pts_ar": [
+    "في طريقة مونتيسوري، يسمع الطفل أولاً أصوات الكلمات قبل أن يتعلم أسماء الحروف.",
+    "يتتبع بإصبعه حروفاً خشنة الملمس ويركّب كلمات بحروف منفصلة.",
+    "هكذا يكتب قبل أن يمسك القلم جيداً، والأخطاء في البداية أمر عادي."
+   ]
+  },
+  "https://fr.le360.ma/politique/voici-la-composition-du-nouveau-gouvernement-el-mansouri_SNGAYD2HWVDXFBRKXQDDPL44PU/": {
+   "h": "Le gouvernement El Mansouri prête serment devant le Roi",
+   "pts": [
+    "Le Roi a présidé à Rabat la prestation de serment du gouvernement de Fatima Ezzahra El Mansouri.",
+    "L'équipe compte 32 membres ; Bourita et Laftit gardent les Affaires étrangères et l'Intérieur.",
+    "Fouzi Lekjaa prend l'Économie et les Finances : le nouveau gouvernement peut se mettre au travail."
+   ],
+   "h_ar": "حكومة المنصوري تؤدي اليمين أمام الملك",
+   "pts_ar": [
+    "ترأس الملك بالرباط مراسم أداء اليمين لحكومة فاطمة الزهراء المنصوري.",
+    "تضم الحكومة 32 عضواً، ويحتفظ بوريطة ولفتيت بالخارجية والداخلية.",
+    "تولى فوزي لقجع الاقتصاد والمالية، وصارت الحكومة الجديدة جاهزة لبدء عملها."
+   ]
+  },
+  "https://lematin.ma/economie/risque-pays-le-maroc-reste-le-plus-performant-dafrique-du-nord-coface/370649": {
+   "h": "Le Maroc reste le pays le plus sûr d'Afrique du Nord pour les entreprises",
+   "pts": [
+    "Coface, qui protège les entreprises contre les clients qui ne paient pas, garde au Maroc la note B.",
+    "C'est la meilleure note d'Afrique du Nord, devant l'Algérie, la Tunisie, l'Égypte et la Libye.",
+    "Une bonne note rassure les investisseurs étrangers et peut attirer plus de projets au Maroc."
+   ],
+   "h_ar": "المغرب يبقى البلد الأقل مخاطرة للشركات في شمال إفريقيا",
+   "pts_ar": [
+    "أبقت كوفاس، التي تحمي الشركات من الزبناء الذين لا يدفعون، على تصنيف المغرب في الدرجة B.",
+    "وهو أفضل تصنيف في شمال إفريقيا، متقدماً على الجزائر وتونس ومصر وليبيا.",
+    "التصنيف الجيد يطمئن المستثمرين الأجانب وقد يجذب مشاريع أكثر إلى المغرب."
+   ]
+  },
+  "https://lematin.ma/economie/royal-air-maroc-ouvre-une-nouvelle-ligne-directe-casablancaessaouira/370551": {
+   "h": "Royal Air Maroc lance un vol direct Casablanca–Essaouira",
+   "pts": [
+    "Dès le 1er novembre, Royal Air Maroc reliera Casablanca et Essaouira sans escale.",
+    "Deux vols par semaine, mercredi et dimanche, à 800 dirhams l'aller-retour en économique.",
+    "Depuis Casablanca, les voyageurs d'Essaouira pourront rejoindre 86 destinations dans le monde."
+   ],
+   "h_ar": "الخطوط الملكية المغربية تطلق رحلة مباشرة بين الدار البيضاء والصويرة",
+   "pts_ar": [
+    "ابتداءً من فاتح نونبر، ستربط الخطوط الملكية المغربية الدار البيضاء بالصويرة مباشرة.",
+    "رحلتان أسبوعياً يومي الأربعاء والأحد، بـ800 درهم ذهاباً وإياباً في الدرجة الاقتصادية.",
+    "من الدار البيضاء، سيصل مسافرو الصويرة إلى 86 وجهة دولية."
+   ]
+  },
+  "https://fr.le360.ma/societe/la-princesse-lalla-meryem-lance-le-dispositif-national-deradication-du-travail-des-enfants_2GNRWSLB45CF7NT7FBBQSZTXE4/": {
+   "h": "Travail des enfants : un plan national pour les ramener à l'école",
+   "pts": [
+    "La princesse Lalla Meryem a lancé à Rabat un plan pour sortir les enfants du travail.",
+    "Selon le HCP, environ 103 000 enfants de 7 à 17 ans travaillent encore, surtout à la campagne.",
+    "Les familles recevront une aide dès que l'enfant quitte son travail, pour qu'il retourne à l'école."
+   ],
+   "h_ar": "تشغيل الأطفال: آلية وطنية لإعادتهم إلى المدرسة",
+   "pts_ar": [
+    "أطلقت الأميرة للا مريم بالرباط آلية وطنية لإبعاد الأطفال عن العمل.",
+    "حسب المندوبية السامية للتخطيط، يعمل نحو 103 آلاف طفل بين 7 و17 سنة، أغلبهم في القرى.",
+    "ستحصل الأسر على دعم بمجرد ترك الطفل للعمل، ليعود إلى مقاعد الدراسة."
+   ]
+  },
+  "https://fr.hespress.com/492489-cimetiere-al-ihsane-118-hectares-pour-desengorger-les-cimetieres-de-casablanca.html": {
+   "h": "Casablanca : un nouveau cimetière de 118 hectares à Médiouna",
+   "pts": [
+    "Le cimetière Al Ihsane, à Médiouna, doit soulager les cimetières pleins de Casablanca.",
+    "Il couvre 118 hectares, environ 165 terrains de football, et coûte 75 millions de dirhams.",
+    "Prévu pour les 40 prochaines années, il aura aussi une mosquée et une école coranique."
+   ],
+   "h_ar": "الدار البيضاء: مقبرة جديدة على 118 هكتاراً بمديونة",
+   "pts_ar": [
+    "ستخفف مقبرة الإحسان بمديونة الضغط عن مقابر الدار البيضاء الممتلئة.",
+    "تمتد على 118 هكتاراً، أي نحو 165 ملعب كرة قدم، وتكلف 75 مليون درهم.",
+    "صُممت لتلبية الحاجيات لأربعين سنة، وستضم أيضاً مسجداً ومدرسة قرآنية."
+   ]
+  },
+  "https://www.atptour.com/en/news/medvedev-paul-shanghai-2026-friday": {
+   "h": "Shanghai : Medvedev bat Tommy Paul et file en demi-finale",
+   "pts": [
+    "Daniil Medvedev a battu Tommy Paul 6-3, 1-6, 6-3 en quarts de finale à Shanghai.",
+    "Le Russe, vainqueur du tournoi en 2019, mène désormais 5-1 dans leurs duels.",
+    "Il affronte le jeune Espagnol Rafael Jodar pour une place en finale."
+   ],
+   "h_ar": "شنغهاي: ميدفيديف يهزم تومي بول ويبلغ نصف النهائي",
+   "pts_ar": [
+    "فاز دانييل ميدفيديف على تومي بول 6-3 و1-6 و6-3 في ربع نهائي دورة شنغهاي.",
+    "الروسي المتوج بالدورة سنة 2019 صار متفوقاً 5-1 في مواجهاتهما.",
+    "سيلاقي الإسباني الشاب رافاييل خودار من أجل بطاقة التأهل إلى النهائي."
+   ]
+  },
+  "https://goal.com/fr/news/la-polemique-autour-du-real-madrid-degenere-le-patron-de-la-liga-appele-a-demissionner-pour-une-comparaison-avec-les-nazis/bltefce09f86d70f6ff": {
+   "h": "Le Real Madrid demande la démission du patron de la Liga",
+   "pts": [
+    "Javier Tebas, président de la Liga, a comparé la communication du Real à la propagande nazie.",
+    "Il a cité Goebbels, le ministre qui manipulait l'opinion dans l'Allemagne d'Hitler.",
+    "Le Real juge ces propos très graves et exige qu'il quitte la Liga et la Fédération."
+   ],
+   "h_ar": "ريال مدريد يطالب باستقالة رئيس الليغا",
+   "pts_ar": [
+    "شبّه خافيير تيباس، رئيس الليغا، أسلوب تواصل ريال مدريد بالدعاية النازية.",
+    "استشهد بغوبلز، الوزير الذي كان يوجّه الرأي العام في ألمانيا النازية.",
+    "اعتبر الريال التصريحات بالغة الخطورة وطالب برحيله عن الليغا والاتحاد الإسباني."
+   ]
+  },
+  "https://racingnews365.com/f1-slated-as-african-gp-battle-heats-up-what-kind-of-thinking-is-that": {
+   "h": "F1 : l'Afrique du Sud critique le choix du Rwanda pour l'Afrique",
+   "pts": [
+    "La F1 a signé un contrat de 10 ans avec le Rwanda pour un Grand Prix d'Afrique.",
+    "La course aura lieu au début des années 2030 sur un nouveau circuit près de Kigali.",
+    "L'Afrique du Sud regrette une seule course pour 54 pays et vise Kyalami en 2028 ou 2029."
+   ],
+   "h_ar": "الفورمولا 1: جنوب إفريقيا تنتقد اختيار رواندا لسباق إفريقيا",
+   "pts_ar": [
+    "وقّعت الفورمولا 1 عقداً لمدة 10 سنوات مع رواندا لاحتضان جائزة إفريقيا الكبرى.",
+    "سيُقام السباق في بداية الثلاثينيات على حلبة جديدة قرب كيغالي.",
+    "تأسف جنوب إفريقيا لسباق واحد لقارة من 54 دولة، وتطمح إلى كيالامي في 2028 أو 2029."
+   ]
+  },
+  "https://racingnews365.com/abu-dhabi-gp-issue-defiant-f1-message-as-middle-east-crisis-continues": {
+   "h": "F1 : Abu Dhabi maintient la dernière course malgré la guerre",
+   "pts": [
+    "Les organisateurs assurent que le Grand Prix d'Abu Dhabi aura bien lieu le 6 décembre.",
+    "Les travaux de préparation du circuit ont déjà commencé, malgré la crise dans la région.",
+    "La F1 aurait gardé Imola en réserve si une course au Moyen-Orient devait être annulée."
+   ],
+   "h_ar": "الفورمولا 1: أبوظبي تحافظ على السباق الختامي رغم الحرب",
+   "pts_ar": [
+    "يؤكد المنظمون أن جائزة أبوظبي الكبرى ستقام في موعدها يوم 6 دجنبر.",
+    "انطلقت أشغال تجهيز الحلبة رغم الأزمة التي تعرفها المنطقة.",
+    "يُقال إن الفورمولا 1 جهزت حلبة إيمولا بديلاً إذا أُلغي سباق في الشرق الأوسط."
+   ]
+  },
+  "https://basketnews.com/news-257412-nba-gms-reveal-2026-27-title-favorite-mvp-pick-and-best-player-outside-nba.html": {
+   "h": "NBA : les dirigeants voient les Spurs champions et Wembanyama MVP",
+   "pts": [
+    "Dans le sondage annuel des dirigeants NBA, 50 % voient San Antonio champion en 2027.",
+    "Victor Wembanyama est choisi meilleur joueur de la saison par 77 %, contre 10 % pour Jokic.",
+    "Le Français devient la grande star attendue de la ligue, devant Oklahoma City et Jokic."
+   ],
+   "h_ar": "كرة السلة الأمريكية: المسيرون يرشحون سبيرز للقب وويمبانياما أفضل لاعب",
+   "pts_ar": [
+    "في الاستطلاع السنوي لمسيري الأندية، يتوقع 50% فوز سان أنطونيو بلقب 2027.",
+    "اختار 77% منهم فيكتور ويمبانياما أفضل لاعب للموسم، مقابل 10% فقط ليوكيتش.",
+    "صار اللاعب الفرنسي النجم الأكثر ترقباً، متقدماً على أوكلاهوما سيتي ويوكيتش."
+   ]
+  },
+  "https://thenextweb.com/news/china-ai-export-controls-draft": {
+   "h": "La Chine veut limiter la vente à l'étranger de ses technologies d'IA",
+   "pts": [
+    "Pékin propose de limiter l'export de 23 technologies d'intelligence artificielle.",
+    "Sont visés les grands modèles, les agents et les plans de puces très fines, de 14 nm ou moins.",
+    "Comme les États-Unis, la Chine veut garder pour elle ses meilleures technologies."
+   ],
+   "h_ar": "الصين تريد تقييد بيع تقنياتها في الذكاء الاصطناعي للخارج",
+   "pts_ar": [
+    "تقترح بكين تقييد تصدير 23 تقنية في مجال الذكاء الاصطناعي.",
+    "تشمل النماذج الكبرى والوكلاء وتصاميم الرقائق الدقيقة جداً، بـ14 نانومتراً أو أقل.",
+    "على غرار الولايات المتحدة، تريد الصين الاحتفاظ بأفضل تقنياتها لنفسها."
+   ]
+  },
+  "https://fr.hespress.com/492389-anthropic-revendique-168-milliards-de-dollars-de-revenus-trimestriels-avant-son-entree-en-bourse.html": {
+   "h": "Anthropic aurait gagné 16,8 milliards de dollars en trois mois",
+   "pts": [
+    "Selon la presse financière, Anthropic, créateur de Claude, a encaissé 16,8 milliards de dollars.",
+    "C'est sur trois mois, contre 11,6 milliards le trimestre d'avant, soit environ 45 % de plus.",
+    "L'entreprise pourrait vendre ses actions au public avant fin novembre, sans confirmation."
+   ],
+   "h_ar": "أنثروبيك حققت 16,8 مليار دولار في ثلاثة أشهر حسب الصحافة",
+   "pts_ar": [
+    "حسب الصحافة المالية، حققت أنثروبيك، مطورة كلود، إيرادات بقيمة 16,8 مليار دولار.",
+    "تحقق ذلك في ثلاثة أشهر، مقابل 11,6 ملياراً في الفترة السابقة، أي بزيادة نحو 45%.",
+    "قد تطرح الشركة أسهمها للعموم قبل نهاية نونبر، لكنها لم تؤكد ذلك."
+   ]
+  },
+  "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/": {
+   "h": "Jev, un petit modèle d'IA, adopté à une vitesse record",
+   "pts": [
+    "Le modèle Jev, de la jeune entreprise Typesafe AI, connaît un succès très rapide sur Vercel.",
+    "Deux semaines après son lancement, 35 % des équipes clientes payantes l'utilisent déjà.",
+    "Léger et pas cher, il sert surtout à trier de grandes quantités de données."
+   ],
+   "h_ar": "جيف، نموذج ذكاء اصطناعي صغير، ينتشر بسرعة قياسية",
+   "pts_ar": [
+    "يحقق نموذج جيف من الشركة الناشئة Typesafe AI نجاحاً سريعاً جداً على منصة فيرسل.",
+    "بعد أسبوعين من إطلاقه، صار يستعمله 35% من الفرق المشتركة بمقابل.",
+    "هو خفيف ورخيص، ويُستخدم أساساً لفرز كميات كبيرة من البيانات."
+   ]
+  },
+  "https://www.aljazeera.com/news-analysis/2026/10/16/why-is-china-buying-up-gold": {
+   "h": "La Chine achète de l'or pour le 23e mois de suite",
+   "pts": [
+    "La banque centrale chinoise a acheté environ 23 tonnes d'or en septembre.",
+    "L'or pèse maintenant 8,5 % de ses réserves, l'argent mis de côté, contre 5,5 % fin 2024.",
+    "Pékin veut ainsi dépendre un peu moins du dollar américain en cas de crise."
+   ],
+   "h_ar": "الصين تشتري الذهب للشهر الثالث والعشرين على التوالي",
+   "pts_ar": [
+    "اشترى البنك المركزي الصيني نحو 23 طناً من الذهب في شتنبر.",
+    "صار الذهب يمثل 8,5% من احتياطاته، أي الأموال المدخرة، مقابل 5,5% في نهاية 2024.",
+    "تريد بكين بذلك تقليل اعتمادها على الدولار الأمريكي في أوقات الأزمات."
+   ]
+  },
+  "https://techcrunch.com/2026/10/15/volvo-makes-a-bigger-bet-on-nvidia/": {
+   "h": "Volvo mise davantage sur Nvidia pour la conduite automatisée",
+   "pts": [
+    "Volvo va utiliser les capteurs, ordinateurs et logiciels de conduite de Nvidia.",
+    "Le but : une voiture capable de rouler seule en ville et sur autoroute.",
+    "La première voiture équipée de ce système doit sortir avant la fin de la décennie."
+   ],
+   "h_ar": "فولفو تعزز رهانها على إنفيديا من أجل القيادة الآلية",
+   "pts_ar": [
+    "ستستعمل فولفو أجهزة الاستشعار والحواسيب وبرامج القيادة من إنفيديا.",
+    "الهدف سيارة قادرة على السير وحدها في المدن وعلى الطرق السيارة.",
+    "من المنتظر أن تصدر أول سيارة مجهزة بهذا النظام قبل نهاية العقد الحالي."
+   ]
+  },
+  "https://www.videogameschronicle.com/news/steam-is-introducing-achievement-sets-designed-to-improve-the-achievement-earning-experience/": {
+   "h": "Steam regroupe les succès des jeux en plusieurs ensembles",
+   "pts": [
+    "Steam teste une nouveauté pour ranger les succès d'un jeu en plusieurs groupes.",
+    "Chaque groupe a sa barre de progression et un trophée final ; 17 jeux l'utilisent déjà.",
+    "Un contenu ajouté plus tard ne fera plus perdre le 100 % d'un jeu déjà terminé."
+   ],
+   "h_ar": "ستيم تجمع إنجازات الألعاب في عدة مجموعات",
+   "pts_ar": [
+    "تختبر ستيم ميزة جديدة لتنظيم إنجازات اللعبة في عدة مجموعات.",
+    "لكل مجموعة شريط تقدم وكأس نهائية، وتستعملها حالياً 17 لعبة.",
+    "لن يفقد اللاعب نسبة 100% في لعبة أنهاها عند إضافة محتوى جديد لاحقاً."
+   ]
+  },
+  "https://www.videogameschronicle.com/news/footage-from-a-reportedly-cancelled-assassins-creed-game-set-in-china-has-leaked/": {
+   "h": "Des images d'un Assassin's Creed annulé en Chine antique ont fuité",
+   "pts": [
+    "Des vidéos d'un Assassin's Creed abandonné, surnommé « Destiny », sont apparues en ligne.",
+    "Le jeu se passait en Chine en 206 avant J.-C. et était créé par un studio de Tencent.",
+    "Un autre jeu de la série en Chine, Assassin's Creed Jade, reste toujours en développement."
+   ],
+   "h_ar": "تسريب لقطات من لعبة أساسنز كريد ملغاة تدور في الصين القديمة",
+   "pts_ar": [
+    "ظهرت على الإنترنت مقاطع من لعبة أساسنز كريد متخلى عنها تحمل اسم Destiny.",
+    "كانت أحداثها تدور في الصين سنة 206 قبل الميلاد، ويطورها استوديو تابع لتنسنت.",
+    "لعبة أخرى من السلسلة في الصين، أساسنز كريد جايد، لا تزال قيد التطوير."
+   ]
+  },
+  "https://www.aljazeera.com/news/2026/10/16/ethiopia-announces-instalment-of-interim-government-in-tigray": {
+   "h": "Éthiopie : un gouvernement provisoire au Tigré pour six mois",
+   "pts": [
+    "Après avoir repris le Tigré, le Premier ministre Abiy Ahmed a nommé cinq dirigeants.",
+    "Ils géreront la région six mois ; la guerre de 2020-2022 y avait fait 600 000 morts.",
+    "Abiy promet ensuite des élections libres ; le TPLF, chassé des villes, n'a pas réagi."
+   ],
+   "h_ar": "إثيوبيا: حكومة مؤقتة في تيغراي لمدة ستة أشهر",
+   "pts_ar": [
+    "بعد استعادة تيغراي، عيّن رئيس الوزراء آبي أحمد خمسة مسؤولين لإدارة الإقليم.",
+    "سيديرونه ستة أشهر، علماً أن حرب 2020-2022 خلفت هناك 600 ألف قتيل.",
+    "يعد آبي بانتخابات حرة بعد ذلك، ولم ترد جبهة تيغراي التي طُردت من المدن."
+   ]
+  },
+  "https://www.aljazeera.com/news/2026/10/16/palestinians-us-journalist-attacked-in-west-bank-pogrom-what-we-know": {
+   "h": "Cisjordanie : des colons attaquent des cueilleurs d'olives",
+   "pts": [
+    "Des dizaines de colons masqués ont attaqué des Palestiniens qui cueillaient leurs olives.",
+    "Près de Ramallah, ils ont brûlé des arbres ; une photographe du Washington Post a été hospitalisée.",
+    "Une ONG israélienne compte 170 attaques de colons depuis le 27 septembre, en pleine récolte."
+   ],
+   "h_ar": "الضفة الغربية: مستوطنون يهاجمون جناة الزيتون",
+   "pts_ar": [
+    "هاجم عشرات المستوطنين الملثمين فلسطينيين كانوا يجنون زيتونهم قرب رام الله.",
+    "أضرموا النار في الأشجار، ونُقلت مصورة من واشنطن بوست إلى المستشفى بعد ضربها.",
+    "رصدت منظمة إسرائيلية 170 هجوماً للمستوطنين منذ 27 شتنبر، في عز موسم الجني."
+   ]
+  },
+  "https://www.aljazeera.com/news-analysis/2026/10/16/us-sanctions-leave-iranians-facing-flight-cancellations-and-soaring-costs": {
+   "h": "Iran : voyager à l'étranger devient long et très cher",
+   "pts": [
+    "Les nouvelles sanctions américaines visent les compagnies aériennes qui travaillent en Iran.",
+    "Un Téhéran-Dubaï peut durer 18 heures et coûter plus de 1 000 dollars, contre 100 à 200 avant.",
+    "Environ 20 % des vols internationaux iraniens sont suspendus, après des refus des Émirats et de la Géorgie."
+   ],
+   "h_ar": "إيران: السفر إلى الخارج صار طويلاً ومكلفاً جداً",
+   "pts_ar": [
+    "تستهدف العقوبات الأمريكية الجديدة شركات الطيران العاملة في إيران.",
+    "قد تستغرق رحلة طهران-دبي 18 ساعة وتكلف أكثر من 1000 دولار، مقابل 100 إلى 200 من قبل.",
+    "عُلّقت نحو 20% من الرحلات الدولية الإيرانية بعد رفض الإمارات وجورجيا."
+   ]
+  },
+  "https://www.aljazeera.com/news/2026/10/16/qatar-announces-massive-solar-plant-project-in-lebanon": {
+   "h": "Liban : le Qatar va payer une grande centrale solaire",
+   "pts": [
+    "Le Qatar va construire au Liban une grande centrale solaire avec TotalEnergies.",
+    "Le Qatar paiera tout : l'État libanais, dont l'électricité a perdu 40 milliards $, ne paiera rien.",
+    "Au Liban, le courant public ne marche que quelques heures par jour : ce projet peut aider."
+   ],
+   "h_ar": "لبنان: قطر ستموّل محطة كبرى للطاقة الشمسية",
+   "pts_ar": [
+    "ستنجز قطر في لبنان محطة كبرى للطاقة الشمسية بالشراكة مع توتال إنرجيز.",
+    "ستتحمل قطر كل التكاليف، دون أي عبء على الدولة التي خسرت شركة كهربائها 40 مليار دولار.",
+    "لا توفر الكهرباء العمومية في لبنان سوى ساعات قليلة يومياً، وقد يساعد هذا المشروع."
+   ]
+  },
+  "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227514.html": {
+   "h": "Tahar Rahim révèle ses trois films préférés",
+   "pts": [
+    "Tahar Rahim, qui joue l'inspecteur Javert dans « Les Misérables », cite ses films favoris.",
+    "Il choisit « Ghost », « L'Armée des ombres » et « Voyage au bout de l'enfer ».",
+    "« Ghost » était le film préféré de sa mère ; le dernier parle de la guerre du Vietnam."
+   ],
+   "h_ar": "طاهر رحيم يكشف أفلامه الثلاثة المفضلة",
+   "pts_ar": [
+    "كشف طاهر رحيم، الذي يؤدي دور المفتش جافير في «البؤساء»، عن أفلامه المفضلة.",
+    "اختار «Ghost» و«جيش الظلال» و«صائد الغزلان».",
+    "كان «Ghost» الفيلم المفضل لوالدته، أما الأخير فيتحدث عن حرب فيتنام."
    ]
   }
  }
