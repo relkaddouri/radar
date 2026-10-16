@@ -1297,242 +1297,410 @@
  ],
  "news": [
   {
+   "cat": "ux",
+   "title": "YouTube lance sa recherche par conversation sur mobile",
+   "title_ar": "يوتيوب يطلق البحث بالمحادثة على الهاتف",
+   "summary": "Aux États-Unis, « Ask YouTube » arrive sur mobile : on décrit ce qu'on veut voir, puis on affine avec des questions. Les réponses mêlent un guide écrit et des cartes vidéo sur une même page.",
+   "summary_ar": "في الولايات المتحدة وصلت ميزة «Ask YouTube» إلى الهاتف: تصف ما تريد مشاهدته ثم تدقق النتائج بأسئلة إضافية. وتجمع الإجابة بين دليل مكتوب وبطاقات فيديو في صفحة واحدة.",
+   "source": "UX News",
+   "url": "https://ux-news.com/ask-youtube-conversational-search-mobile/",
+   "date": "2026-10-13",
+   "image": "https://ux-news.com/content/images/2026/10/ask-youtube-cover.webp",
+   "explain": {
+    "context": "La fonction avait été annoncée à Google I/O. Elle existait déjà sur le web et la télé ; elle arrive maintenant sur téléphone.",
+    "context_ar": "أُعلن عن الميزة في مؤتمر Google I/O، وكانت متاحة على الويب والتلفاز، وهي تصل الآن إلى الهاتف.",
+    "terms": [
+     {
+      "t": "recherche par conversation",
+      "t_ar": "البحث بالمحادثة",
+      "d": "Chercher en posant des questions comme à une personne, puis préciser au fil des réponses.",
+      "d_ar": "البحث بطرح أسئلة كأنك تحادث شخصاً، ثم التدقيق حسب الإجابات."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "ux",
+   "title": "Google Play change de design pour les écrans de voiture",
+   "title_ar": "غوغل بلاي يغيّر تصميمه لشاشات السيارات",
+   "summary": "Dans les voitures avec Google intégré, le Play Store s'adapte à la taille et au sens de l'écran : menu à gauche en paysage, en haut en portrait. Les contenus pour la voiture à l'arrêt sont séparés de ceux utiles en roulant.",
+   "summary_ar": "في السيارات المزودة بنظام غوغل، يتكيف متجر بلاي مع حجم الشاشة واتجاهها: القائمة على اليسار في الوضع الأفقي وفي الأعلى في الوضع العمودي. وتُفصل محتويات التوقف عن الأدوات المفيدة أثناء القيادة.",
+   "source": "UX News",
+   "url": "https://ux-news.com/google-play-redesign-car-displays/",
+   "date": "2026-10-14",
+   "image": "https://ux-news.com/content/images/2026/10/cars-play-cover.webp",
+   "explain": {
+    "context": "Google a annoncé cette mise à jour le 13 octobre ; elle arrive dans les voitures petit à petit, dans les prochaines semaines.",
+    "context_ar": "أعلنت غوغل التحديث يوم 13 أكتوبر، وسيصل إلى السيارات تدريجياً خلال الأسابيع المقبلة.",
+    "terms": [
+     {
+      "t": "s'adapte",
+      "t_ar": "يتكيف",
+      "d": "Design « adaptatif » : la page change de disposition selon la forme de l'écran.",
+      "d_ar": "تصميم متكيّف: تتغير طريقة عرض الصفحة حسب شكل الشاشة."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "ux",
+   "title": "Design de service : le client ne paie pas seulement la coupe",
+   "title_ar": "تصميم الخدمة: الزبون لا يدفع ثمن القصّة فقط",
+   "summary": "Dans UX Magazine, Josh Tyson raconte le salon de coiffure qu'il tenait avec sa femme à Denver. La vraie valeur était le temps passé avec la coiffeuse et ce que le client ressent après, pas seulement la coupe.",
+   "summary_ar": "في مجلة UX Magazine يروي جوش تايسون تجربة صالون الحلاقة الذي أداره مع زوجته في دنفر. القيمة الحقيقية كانت في الوقت مع المصففة وما يشعر به الزبون بعدها، لا القصّة وحدها.",
+   "source": "UX Magazine",
+   "url": "https://uxmag.com/articles/they-arent-paying-for-the-haircut",
+   "date": "2026-10-07",
+   "image": "https://uxmag.com/articles/media/they-arent-paying-for-the-haircut-1.jpg",
+   "explain": {
+    "context": "Le texte fait partie d'une série de UX Magazine sur la façon dont l'IA change le design de service.",
+    "context_ar": "النص جزء من سلسلة في UX Magazine حول كيف يغيّر الذكاء الاصطناعي تصميم الخدمات.",
+    "terms": [
+     {
+      "t": "Design de service",
+      "t_ar": "تصميم الخدمة",
+      "d": "Concevoir toute l'expérience d'un service (avant, pendant, après), pas seulement un écran ou un produit.",
+      "d_ar": "تصميم التجربة الكاملة لخدمة ما قبلها وأثناءها وبعدها، لا شاشة أو منتجاً فقط."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "divers",
+   "sub": "enfant",
+   "title": "Un parent chaleureux à 3 ans aide le cerveau à mieux ressentir la joie",
+   "title_ar": "دفء الوالدين في سن الثالثة يساعد الدماغ على الإحساس بالفرح",
+   "summary": "Une étude sur 465 jeunes a observé les parents quand l'enfant avait 3 ans, puis le cerveau à 9, 12, 15 et 18 ans. Plus de chaleur et d'encouragements est lié à une réponse plus forte du cerveau aux bons moments.",
+   "summary_ar": "تابعت دراسة 465 شاباً: لوحظ سلوك الوالدين عندما كان الطفل في الثالثة، ثم الدماغ في 9 و12 و15 و18 سنة. ويرتبط الدفء والتشجيع باستجابة أقوى للدماغ للتجارب الإيجابية.",
+   "source": "News-Medical",
+   "url": "https://www.news-medical.net/news/20261009/Positive-parenting-in-early-childhood-linked-to-stronger-brain-reward-responses.aspx",
+   "date": "2026-10-09",
+   "image": "https://www.news-medical.net/images/tags/TagImage-1831-45296002389942131275-620x480.jpg",
+   "explain": {
+    "context": "Étude de Stony Brook et Notre Dame publiée dans Communications Psychology. Elle observe un lien, sans prouver une cause.",
+    "context_ar": "دراسة من جامعتي ستوني بروك ونوتردام نُشرت في Communications Psychology. تلاحظ علاقة دون أن تثبت السبب.",
+    "terms": [
+     {
+      "t": "réponse plus forte du cerveau",
+      "t_ar": "استجابة أقوى للدماغ",
+      "d": "Le « circuit de la récompense » s'active quand on vit quelque chose d'agréable, comme gagner à un jeu.",
+      "d_ar": "«دائرة المكافأة» تنشط عندما نعيش شيئاً ممتعاً، مثل الفوز في لعبة."
+     }
+    ],
+    "figures": [
+     {
+      "n": "465 jeunes",
+      "n_ar": "465 شاباً",
+      "d": "Suivis pendant 15 ans : c'est long et solide pour ce type d'étude.",
+      "d_ar": "تابعتهم الدراسة 15 سنة، وهي مدة طويلة ومتينة لهذا النوع من الأبحاث."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "divers",
+   "sub": "enfant",
+   "title": "Nutrition des 1 000 premiers jours : l'Afrique presque absente des études",
+   "title_ar": "تغذية الألف يوم الأولى: أفريقيا شبه غائبة عن الدراسات",
+   "summary": "Des chercheurs ont recensé 104 grandes études sur 1,17 million d'enfants dans 41 pays. 57 % des enfants viennent de pays riches et l'Afrique subsaharienne compte à peine 6 enfants par million d'habitants.",
+   "summary_ar": "أحصى باحثون 104 دراسات كبرى شملت 1.17 مليون طفل في 41 دولة. 57% من الأطفال من دول غنية، وأفريقيا جنوب الصحراء لا تمثل سوى 6 أطفال لكل مليون نسمة.",
+   "source": "News-Medical",
+   "url": "https://news-medical.net/news/20261014/Scientists-reviewed-studies-covering-117-million-children-and-found-a-major-research-gap.aspx",
+   "date": "2026-10-14",
+   "image": "https://www.news-medical.net/images/news/ImageForNews_848893_17920298558048444.jpg",
+   "explain": {
+    "context": "Les « 1 000 premiers jours » vont de la grossesse aux 2 ans : une période clé pour le cerveau. L'étude est parue dans iScience.",
+    "context_ar": "«الألف يوم الأولى» تمتد من الحمل إلى سن الثانية، وهي مرحلة حاسمة لنمو الدماغ. نُشرت الدراسة في مجلة iScience.",
+    "terms": [
+     {
+      "t": "études",
+      "t_ar": "الدراسات",
+      "d": "Ici des « cohortes » : de grands groupes d'enfants suivis pendant des années.",
+      "d_ar": "المقصود «مجموعات أتراب»: أعداد كبيرة من الأطفال تُتابع لسنوات."
+     }
+    ],
+    "figures": [
+     {
+      "n": "57 %",
+      "n_ar": "57%",
+      "d": "Plus de la moitié des données vient des pays riches ; aucun pays à faible revenu n'est inclus.",
+      "d_ar": "أكثر من نصف البيانات من الدول الغنية، ولا توجد أي دولة منخفضة الدخل."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "divers",
+   "sub": "montessori",
+   "title": "Écoles Montessori publiques : un guide pour les autorités aux États-Unis",
+   "title_ar": "مدارس مونتيسوري العمومية: دليل جديد للسلطات في أمريكا",
+   "summary": "Deux organisations ont publié un guide de 12 pages pour évaluer les projets d'écoles Montessori « charter ». Près de la moitié des écoles Montessori publiques américaines ont ce statut, soit 231 programmes.",
+   "summary_ar": "نشرت منظمتان دليلاً من 12 صفحة لتقييم مشاريع مدارس مونتيسوري «تشارتر». ونحو نصف مدارس مونتيسوري العمومية الأمريكية تعمل بهذا النظام، أي 231 برنامجاً.",
+   "source": "Montessori Public",
+   "url": "https://montessoripublic.org/2026/10/new-resource-for-montessori-charter-school-authorizers",
+   "date": "2026-10-14",
+   "image": "https://eadn-wc03-7783607.nxedge.io/wp-content/uploads/2026/10/NACSA-photo-960x500.png",
+   "explain": {
+    "context": "Le guide vient de NCMPS, centre pour le Montessori public, et NACSA, qui réunit les autorités qui valident les écoles charter.",
+    "context_ar": "الدليل من إعداد NCMPS، مركز مونتيسوري العمومي، وNACSA التي تجمع الجهات التي تعتمد مدارس «تشارتر».",
+    "terms": [
+     {
+      "t": "charter",
+      "t_ar": "تشارتر",
+      "d": "École publique gratuite mais gérée de façon indépendante, avec un contrat accordé par une autorité.",
+      "d_ar": "مدرسة عمومية مجانية تُدار باستقلالية، بموجب عقد تمنحه جهة رسمية."
+     }
+    ],
+    "figures": [
+     {
+      "n": "231 programmes",
+      "n_ar": "231 برنامجاً",
+      "d": "Sur environ 600 programmes Montessori publics dans tout le pays.",
+      "d_ar": "من بين نحو 600 برنامج مونتيسوري عمومي في البلاد."
+     }
+    ]
+   }
+  },
+  {
    "cat": "maroc",
-   "title": "ONU : la Quatrième Commission adopte la résolution sur le Sahara marocain",
-   "title_ar": "الأمم المتحدة: اللجنة الرابعة تعتمد القرار حول الصحراء المغربية",
-   "summary": "La commission de l'ONU a adopté son texte annuel par 152 voix pour, 2 contre et 7 abstentions. Le vote a eu lieu parce que les États-Unis l'ont demandé, ce qui rompt avec l'habitude du consensus.",
-   "summary_ar": "اعتمدت لجنة الأمم المتحدة نصها السنوي بـ152 صوتاً مؤيداً و2 معارضين و7 ممتنعين. جرى التصويت لأن الولايات المتحدة طلبته، وهذا يخالف عادة التوافق.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/492431-onu-la-quatrieme-commission-adopte-la-resolution-sur-le-sahara-marocain.html",
    "date": "2026-10-15",
-   "image": "",
    "explain": {
     "context": "Chaque automne, l'ONU examine le dossier du Sahara. Le texte rappelle la résolution 2797 du Conseil de sécurité d'octobre 2025.",
     "context_ar": "تبحث الأمم المتحدة ملف الصحراء كل خريف. ويذكّر النص بقرار مجلس الأمن 2797 الصادر في أكتوبر 2025.",
-    "terms": [
-     {
-      "t": "Quatrième Commission",
-      "t_ar": "اللجنة الرابعة",
-      "d": "Comité de l'Assemblée générale de l'ONU qui traite de la décolonisation.",
-      "d_ar": "لجنة في الجمعية العامة للأمم المتحدة تعنى بإنهاء الاستعمار."
-     }
-    ],
     "figures": [
      {
-      "n": "152 voix pour",
-      "n_ar": "152 صوتاً مؤيداً",
       "d": "Très large majorité : seulement 2 pays ont voté contre.",
-      "d_ar": "أغلبية ساحقة: دولتان فقط صوتتا ضد."
+      "d_ar": "أغلبية ساحقة: دولتان فقط صوتتا ضد.",
+      "n": "152 voix pour",
+      "n_ar": "152 صوتاً مؤيداً"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Comité de l'Assemblée générale de l'ONU qui traite de la décolonisation.",
+      "d_ar": "لجنة في الجمعية العامة للأمم المتحدة تعنى بإنهاء الاستعمار.",
+      "t": "Quatrième Commission",
+      "t_ar": "اللجنة الرابعة"
      }
     ]
    },
-   "sub": "politique"
+   "image": "",
+   "source": "Hespress FR",
+   "sub": "politique",
+   "summary": "La commission de l'ONU a adopté son texte annuel par 152 voix pour, 2 contre et 7 abstentions. Le vote a eu lieu parce que les États-Unis l'ont demandé, ce qui rompt avec l'habitude du consensus.",
+   "summary_ar": "اعتمدت لجنة الأمم المتحدة نصها السنوي بـ152 صوتاً مؤيداً و2 معارضين و7 ممتنعين. جرى التصويت لأن الولايات المتحدة طلبته، وهذا يخالف عادة التوافق.",
+   "title": "ONU : la Quatrième Commission adopte la résolution sur le Sahara marocain",
+   "title_ar": "الأمم المتحدة: اللجنة الرابعة تعتمد القرار حول الصحراء المغربية",
+   "url": "https://fr.hespress.com/492431-onu-la-quatrieme-commission-adopte-la-resolution-sur-le-sahara-marocain.html"
   },
   {
    "cat": "maroc",
-   "title": "Le Maroc attend une cargaison de 40 000 tonnes de gazole russe",
-   "title_ar": "المغرب ينتظر شحنة من 40 ألف طن من الغازوال الروسي",
-   "summary": "Un navire est parti du port russe de Primorsk après son chargement le 13 octobre. L'importateur et la date d'arrivée ne sont pas connus, et rien ne dit que les prix à la pompe vont baisser vite.",
-   "summary_ar": "غادرت سفينة ميناء بريمورسك الروسي بعد تحميلها يوم 13 أكتوبر. المستورد وتاريخ الوصول غير معروفين، ولا شيء يؤكد أن أسعار المحطات ستنخفض قريباً.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/492371-le-maroc-attend-une-cargaison-de-40-000-tonnes-de-gazole-russe.html",
    "date": "2026-10-15",
-   "image": "https://f2.hespress.com/wp-content/overlay/2026/10/cargaison.webp?v2",
    "explain": {
     "context": "Le Maroc importe presque tout son carburant. Les États-Unis ont allégé en partie leurs limites sur le pétrole russe.",
     "context_ar": "يستورد المغرب كل وقوده تقريباً. وقد خففت الولايات المتحدة جزئياً قيودها على النفط الروسي.",
-    "terms": [
-     {
-      "t": "gazole",
-      "t_ar": "الغازوال",
-      "d": "Carburant diesel utilisé par les camions, bus et tracteurs.",
-      "d_ar": "وقود الديزل الذي تستعمله الشاحنات والحافلات والجرارات."
-     }
-    ],
     "figures": [
      {
-      "n": "16,30 dirhams",
-      "n_ar": "16,30 درهماً",
       "d": "Prix par litre dans certaines stations début octobre : un niveau élevé pour les ménages.",
-      "d_ar": "سعر اللتر في بعض المحطات مطلع أكتوبر، وهو مرتفع على الأسر."
+      "d_ar": "سعر اللتر في بعض المحطات مطلع أكتوبر، وهو مرتفع على الأسر.",
+      "n": "16,30 dirhams",
+      "n_ar": "16,30 درهماً"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Carburant diesel utilisé par les camions, bus et tracteurs.",
+      "d_ar": "وقود الديزل الذي تستعمله الشاحنات والحافلات والجرارات.",
+      "t": "gazole",
+      "t_ar": "الغازوال"
      }
     ]
    },
-   "sub": "economie"
+   "image": "https://f2.hespress.com/wp-content/overlay/2026/10/cargaison.webp?v2",
+   "source": "Hespress FR",
+   "sub": "economie",
+   "summary": "Un navire est parti du port russe de Primorsk après son chargement le 13 octobre. L'importateur et la date d'arrivée ne sont pas connus, et rien ne dit que les prix à la pompe vont baisser vite.",
+   "summary_ar": "غادرت سفينة ميناء بريمورسك الروسي بعد تحميلها يوم 13 أكتوبر. المستورد وتاريخ الوصول غير معروفين، ولا شيء يؤكد أن أسعار المحطات ستنخفض قريباً.",
+   "title": "Le Maroc attend une cargaison de 40 000 tonnes de gazole russe",
+   "title_ar": "المغرب ينتظر شحنة من 40 ألف طن من الغازوال الروسي",
+   "url": "https://fr.hespress.com/492371-le-maroc-attend-une-cargaison-de-40-000-tonnes-de-gazole-russe.html"
   },
   {
    "cat": "maroc",
-   "title": "HCP : 92,5 % des ménages ne prévoient pas d'épargner dans les douze prochains mois",
-   "title_ar": "المندوبية: 92.5% من الأسر لا تتوقع الادخار خلال 12 شهراً",
-   "summary": "La confiance des ménages recule à 59,2 points au 3e trimestre, mais reste au-dessus de l'an dernier (53,6). 76,3 % jugent que leur niveau de vie s'est dégradé et 95,9 % voient les prix alimentaires monter.",
-   "summary_ar": "تراجعت ثقة الأسر إلى 59.2 نقطة في الفصل الثالث لكنها تفوق مستواها قبل سنة (53.6). ويرى 76.3% أن مستوى معيشتهم ساء، و95.9% يلاحظون ارتفاع أسعار الغذاء.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/492361-hcp-925-des-menages-ne-prevoient-pas-depargner-dans-les-douze-prochains-mois.html",
    "date": "2026-10-15",
-   "image": "https://f2.hespress.com/wp-content/overlay/2022/10/epargne.jpg?v2",
    "explain": {
     "context": "Chaque trimestre, le HCP demande aux ménages comment ils voient leur situation et l'avenir.",
     "context_ar": "كل فصل تسأل المندوبية السامية للتخطيط الأسر عن رأيها في وضعها والمستقبل.",
-    "terms": [
-     {
-      "t": "indice de confiance",
-      "t_ar": "مؤشر الثقة",
-      "d": "Note sur 100 environ qui mesure l'optimisme des ménages ; plus elle est haute, plus ils sont confiants.",
-      "d_ar": "درجة تقيس تفاؤل الأسر؛ كلما ارتفعت زادت الثقة."
-     },
-     {
-      "t": "HCP",
-      "t_ar": "المندوبية السامية للتخطيط",
-      "d": "Haut-Commissariat au Plan : l'institut officiel des statistiques du Maroc.",
-      "d_ar": "المؤسسة الرسمية للإحصاء في المغرب."
-     }
-    ],
     "figures": [
      {
-      "n": "59,2 points",
-      "n_ar": "59.2 نقطة",
       "d": "Recul léger par rapport à 60,1, mais mieux que 53,6 il y a un an.",
-      "d_ar": "تراجع طفيف عن 60.1 لكنه أفضل من 53.6 قبل سنة."
+      "d_ar": "تراجع طفيف عن 60.1 لكنه أفضل من 53.6 قبل سنة.",
+      "n": "59,2 points",
+      "n_ar": "59.2 نقطة"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Note sur 100 environ qui mesure l'optimisme des ménages ; plus elle est haute, plus ils sont confiants.",
+      "d_ar": "درجة تقيس تفاؤل الأسر؛ كلما ارتفعت زادت الثقة.",
+      "t": "indice de confiance",
+      "t_ar": "مؤشر الثقة"
+     },
+     {
+      "d": "Haut-Commissariat au Plan : l'institut officiel des statistiques du Maroc.",
+      "d_ar": "المؤسسة الرسمية للإحصاء في المغرب.",
+      "t": "HCP",
+      "t_ar": "المندوبية السامية للتخطيط"
      }
     ]
    },
-   "sub": "economie"
+   "image": "https://f2.hespress.com/wp-content/overlay/2022/10/epargne.jpg?v2",
+   "source": "Hespress FR",
+   "sub": "economie",
+   "summary": "La confiance des ménages recule à 59,2 points au 3e trimestre, mais reste au-dessus de l'an dernier (53,6). 76,3 % jugent que leur niveau de vie s'est dégradé et 95,9 % voient les prix alimentaires monter.",
+   "summary_ar": "تراجعت ثقة الأسر إلى 59.2 نقطة في الفصل الثالث لكنها تفوق مستواها قبل سنة (53.6). ويرى 76.3% أن مستوى معيشتهم ساء، و95.9% يلاحظون ارتفاع أسعار الغذاء.",
+   "title": "HCP : 92,5 % des ménages ne prévoient pas d'épargner dans les douze prochains mois",
+   "title_ar": "المندوبية: 92.5% من الأسر لا تتوقع الادخار خلال 12 شهراً",
+   "url": "https://fr.hespress.com/492361-hcp-925-des-menages-ne-prevoient-pas-depargner-dans-les-douze-prochains-mois.html"
   },
   {
    "cat": "maroc",
-   "title": "DEPF : croissance de 4,9 % en 2025, mais le chômage reste un défi structurel",
-   "title_ar": "مديرية الدراسات: نمو 4.9% في 2025 لكن البطالة تحدٍّ هيكلي",
-   "summary": "Selon la DEPF, l'économie a progressé de 4,9 % en 2025 contre 4,4 % en 2024, avec une inflation de 0,8 % et un déficit de 3,5 % du PIB. Le chômage reste autour de 12 à 13,5 %, contre 9 à 10 % avant 2020.",
-   "summary_ar": "حسب مديرية الدراسات والتوقعات المالية نما الاقتصاد 4.9% في 2025 مقابل 4.4% في 2024، مع تضخم 0.8% وعجز 3.5% من الناتج. وتبقى البطالة بين 12 و13.5% مقابل 9 إلى 10% قبل 2020.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/492189-rapport-de-la-depf-croissance-de-49-en-2025-mais-le-chomage-reste-un-defi-structurel.html",
    "date": "2026-10-15",
-   "image": "https://f2.hespress.com/wp-content/overlay/2023/08/CHOMAGE.jpg?v2",
    "explain": {
     "context": "La DEPF est le service du ministère des Finances qui analyse l'économie du pays.",
     "context_ar": "المديرية جهاز بوزارة المالية يحلل الاقتصاد الوطني.",
-    "terms": [
-     {
-      "t": "PIB",
-      "t_ar": "الناتج الداخلي الإجمالي",
-      "d": "Valeur de tout ce que le pays produit en un an.",
-      "d_ar": "قيمة كل ما ينتجه البلد في سنة."
-     },
-     {
-      "t": "chômage structurel",
-      "t_ar": "البطالة الهيكلية",
-      "d": "Chômage qui dure même quand l'économie va bien.",
-      "d_ar": "بطالة تستمر حتى عندما يكون الاقتصاد جيداً."
-     }
-    ],
     "figures": [
      {
-      "n": "4,9 %",
-      "n_ar": "4.9%",
       "d": "Forte croissance par rapport à beaucoup de pays, mais elle ne baisse pas le chômage.",
-      "d_ar": "نمو قوي مقارنة بكثير من الدول لكنه لم يخفض البطالة."
+      "d_ar": "نمو قوي مقارنة بكثير من الدول لكنه لم يخفض البطالة.",
+      "n": "4,9 %",
+      "n_ar": "4.9%"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Valeur de tout ce que le pays produit en un an.",
+      "d_ar": "قيمة كل ما ينتجه البلد في سنة.",
+      "t": "PIB",
+      "t_ar": "الناتج الداخلي الإجمالي"
+     },
+     {
+      "d": "Chômage qui dure même quand l'économie va bien.",
+      "d_ar": "بطالة تستمر حتى عندما يكون الاقتصاد جيداً.",
+      "t": "chômage structurel",
+      "t_ar": "البطالة الهيكلية"
      }
     ]
    },
-   "sub": "economie"
+   "image": "https://f2.hespress.com/wp-content/overlay/2023/08/CHOMAGE.jpg?v2",
+   "source": "Hespress FR",
+   "sub": "economie",
+   "summary": "Selon la DEPF, l'économie a progressé de 4,9 % en 2025 contre 4,4 % en 2024, avec une inflation de 0,8 % et un déficit de 3,5 % du PIB. Le chômage reste autour de 12 à 13,5 %, contre 9 à 10 % avant 2020.",
+   "summary_ar": "حسب مديرية الدراسات والتوقعات المالية نما الاقتصاد 4.9% في 2025 مقابل 4.4% في 2024، مع تضخم 0.8% وعجز 3.5% من الناتج. وتبقى البطالة بين 12 و13.5% مقابل 9 إلى 10% قبل 2020.",
+   "title": "DEPF : croissance de 4,9 % en 2025, mais le chômage reste un défi structurel",
+   "title_ar": "مديرية الدراسات: نمو 4.9% في 2025 لكن البطالة تحدٍّ هيكلي",
+   "url": "https://fr.hespress.com/492189-rapport-de-la-depf-croissance-de-49-en-2025-mais-le-chomage-reste-un-defi-structurel.html"
   },
   {
    "cat": "sport",
-   "title": "Ligue des champions : Hakimi vise une nouvelle finale avec le PSG",
-   "title_ar": "دوري الأبطال: حكيمي يستهدف نهائياً جديداً مع سان جرمان",
-   "summary": "Après la victoire 4-2 à Manchester City, Hakimi dit vouloir une autre finale européenne, « étape par étape ». Doué, Dembélé, Vitinha et Akliouche ont marqué ; Haaland a signé un doublé pour City.",
-   "summary_ar": "بعد الفوز 4-2 على مانشستر سيتي قال حكيمي إنه يريد نهائياً أوروبياً آخر «خطوة خطوة». سجل دوي وديمبيلي وفيتينيا وأكليوش، وسجل هالاند هدفين لسيتي.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/492349-ligue-des-champions-hakimi-vise-une-nouvelle-finale-avec-le-psg.html",
    "date": "2026-10-15",
-   "image": "https://f2.hespress.com/wp-content/overlay/2026/10/hak-city.jpg?v2",
    "explain": {
     "context": "Le PSG est le tenant du titre européen visé par tous. Il reçoit le Barça le 20 octobre.",
     "context_ar": "يملك باريس أبرز حظوظ أوروبا، ويستقبل برشلونة يوم 20 أكتوبر.",
-    "terms": [],
-    "figures": []
+    "figures": [],
+    "terms": []
    },
-   "sport": "football"
+   "image": "https://f2.hespress.com/wp-content/overlay/2026/10/hak-city.jpg?v2",
+   "source": "Hespress FR",
+   "sport": "football",
+   "summary": "Après la victoire 4-2 à Manchester City, Hakimi dit vouloir une autre finale européenne, « étape par étape ». Doué, Dembélé, Vitinha et Akliouche ont marqué ; Haaland a signé un doublé pour City.",
+   "summary_ar": "بعد الفوز 4-2 على مانشستر سيتي قال حكيمي إنه يريد نهائياً أوروبياً آخر «خطوة خطوة». سجل دوي وديمبيلي وفيتينيا وأكليوش، وسجل هالاند هدفين لسيتي.",
+   "title": "Ligue des champions : Hakimi vise une nouvelle finale avec le PSG",
+   "title_ar": "دوري الأبطال: حكيمي يستهدف نهائياً جديداً مع سان جرمان",
+   "url": "https://fr.hespress.com/492349-ligue-des-champions-hakimi-vise-une-nouvelle-finale-avec-le-psg.html"
   },
   {
    "cat": "sport",
-   "title": "CAN 2027 : trois pays préparent un visa commun pour les supporters",
-   "title_ar": "كأس أمم أفريقيا 2027: ثلاث دول تحضّر تأشيرة موحدة للمشجعين",
-   "summary": "Le Kenya, la Tanzanie et l'Ouganda veulent un visa commun pour la CAN, du 19 juin au 17 juillet 2027. Le stade d'Arusha serait terminé à 95 %.",
-   "summary_ar": "تعمل كينيا وتنزانيا وأوغندا على تأشيرة موحدة لكأس أمم أفريقيا من 19 يونيو إلى 17 يوليو 2027. وملعب أروشا أنجز بنسبة 95%.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/492254-can-2027-trois-pays-un-projet-de-visa-commun.html",
    "date": "2026-10-15",
-   "image": "https://f2.hespress.com/wp-content/overlay/2026/04/cankenya.jpg?v2",
    "explain": {
     "context": "La CAN 2027 sera organisée à trois en Afrique de l'Est.",
     "context_ar": "تنظم بطولة 2027 ثلاث دول في شرق أفريقيا.",
-    "terms": [],
-    "figures": []
+    "figures": [],
+    "terms": []
    },
-   "sport": "football"
+   "image": "https://f2.hespress.com/wp-content/overlay/2026/04/cankenya.jpg?v2",
+   "source": "Hespress FR",
+   "sport": "football",
+   "summary": "Le Kenya, la Tanzanie et l'Ouganda veulent un visa commun pour la CAN, du 19 juin au 17 juillet 2027. Le stade d'Arusha serait terminé à 95 %.",
+   "summary_ar": "تعمل كينيا وتنزانيا وأوغندا على تأشيرة موحدة لكأس أمم أفريقيا من 19 يونيو إلى 17 يوليو 2027. وملعب أروشا أنجز بنسبة 95%.",
+   "title": "CAN 2027 : trois pays préparent un visa commun pour les supporters",
+   "title_ar": "كأس أمم أفريقيا 2027: ثلاث دول تحضّر تأشيرة موحدة للمشجعين",
+   "url": "https://fr.hespress.com/492254-can-2027-trois-pays-un-projet-de-visa-commun.html"
   },
   {
    "cat": "ia",
-   "title": "Un juge ordonne à OpenAI de remettre des dossiers d'embauche à Apple",
-   "title_ar": "قاض يأمر OpenAI بتسليم ملفات توظيف لأبل",
-   "summary": "Dans le procès sur des secrets industriels, Apple obtient vite l'accès à des entretiens d'embauche d'anciens employés. OpenAI a 5 jours pour les documents déjà réunis et 14 jours pour le reste.",
-   "summary_ar": "في قضية الأسرار التجارية حصلت أبل على إذن سريع للاطلاع على مقابلات توظيف موظفين سابقين. أمام OpenAI خمسة أيام للوثائق المجمعة و14 يوماً لما تبقى.",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
    "date": "2026-10-15",
-   "image": "",
    "explain": {
     "context": "Apple accuse OpenAI d'avoir recruté ses ingénieurs pour son projet d'appareils.",
     "context_ar": "تتهم أبل OpenAI باستقطاب مهندسيها لمشروع أجهزتها.",
-    "terms": [
-     {
-      "t": "secrets industriels",
-      "t_ar": "الأسرار التجارية",
-      "d": "Informations privées d'une entreprise qui lui donnent un avantage.",
-      "d_ar": "معلومات سرية لشركة تمنحها أفضلية."
-     }
-    ],
     "figures": [
      {
-      "n": "5 jours",
-      "n_ar": "5 أيام",
       "d": "Délai très court pour une procédure judiciaire.",
-      "d_ar": "مهلة قصيرة جداً في القضاء."
+      "d_ar": "مهلة قصيرة جداً في القضاء.",
+      "n": "5 jours",
+      "n_ar": "5 أيام"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Informations privées d'une entreprise qui lui donnent un avantage.",
+      "d_ar": "معلومات سرية لشركة تمنحها أفضلية.",
+      "t": "secrets industriels",
+      "t_ar": "الأسرار التجارية"
      }
     ]
-   }
+   },
+   "image": "",
+   "source": "TechCrunch",
+   "summary": "Dans le procès sur des secrets industriels, Apple obtient vite l'accès à des entretiens d'embauche d'anciens employés. OpenAI a 5 jours pour les documents déjà réunis et 14 jours pour le reste.",
+   "summary_ar": "في قضية الأسرار التجارية حصلت أبل على إذن سريع للاطلاع على مقابلات توظيف موظفين سابقين. أمام OpenAI خمسة أيام للوثائق المجمعة و14 يوماً لما تبقى.",
+   "title": "Un juge ordonne à OpenAI de remettre des dossiers d'embauche à Apple",
+   "title_ar": "قاض يأمر OpenAI بتسليم ملفات توظيف لأبل",
+   "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/"
   },
   {
    "cat": "ia",
-   "title": "Ricursive Intelligence veut concevoir des puces avec l'IA",
-   "title_ar": "ريكورسيف تراهن على تصميم الرقائق بالذكاء الاصطناعي",
-   "summary": "Les fondatrices disent que l'IA peut dessiner une puce en environ une semaine, contre six mois à deux ans aujourd'hui. Elles pensent que les besoins en calcul peuvent monter au moins 10 000 fois en cinq ans.",
-   "summary_ar": "تقول المؤسستان إن الذكاء الاصطناعي يصمم رقاقة في نحو أسبوع بدل ستة أشهر إلى سنتين. وتتوقعان أن تزيد الحاجة إلى القدرة الحاسوبية 10 آلاف ضعف على الأقل خلال خمس سنوات.",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
    "date": "2026-10-15",
-   "image": "",
    "explain": {
     "context": "Les centres de données d'IA manquent de puces, et en fabriquer prend très longtemps.",
     "context_ar": "تفتقر مراكز بيانات الذكاء الاصطناعي إلى الرقائق، وتصميمها يستغرق وقتاً طويلاً.",
-    "terms": [
-     {
-      "t": "puce",
-      "t_ar": "رقاقة",
-      "d": "Petit composant électronique qui fait le calcul dans un ordinateur ou un téléphone.",
-      "d_ar": "مكوّن إلكتروني صغير يجري الحسابات في الحاسوب والهاتف."
-     }
-    ],
     "figures": [
      {
-      "n": "10 000 fois",
-      "n_ar": "10 آلاف ضعف",
       "d": "Hausse énorme : c'est l'avis des fondatrices, pas un fait.",
-      "d_ar": "زيادة هائلة، وهي رأي المؤسستين لا حقيقة مؤكدة."
+      "d_ar": "زيادة هائلة، وهي رأي المؤسستين لا حقيقة مؤكدة.",
+      "n": "10 000 fois",
+      "n_ar": "10 آلاف ضعف"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Petit composant électronique qui fait le calcul dans un ordinateur ou un téléphone.",
+      "d_ar": "مكوّن إلكتروني صغير يجري الحسابات في الحاسوب والهاتف.",
+      "t": "puce",
+      "t_ar": "رقاقة"
      }
     ]
-   }
+   },
+   "image": "",
+   "source": "TechCrunch",
+   "summary": "Les fondatrices disent que l'IA peut dessiner une puce en environ une semaine, contre six mois à deux ans aujourd'hui. Elles pensent que les besoins en calcul peuvent monter au moins 10 000 fois en cinq ans.",
+   "summary_ar": "تقول المؤسستان إن الذكاء الاصطناعي يصمم رقاقة في نحو أسبوع بدل ستة أشهر إلى سنتين. وتتوقعان أن تزيد الحاجة إلى القدرة الحاسوبية 10 آلاف ضعف على الأقل خلال خمس سنوات.",
+   "title": "Ricursive Intelligence veut concevoir des puces avec l'IA",
+   "title_ar": "ريكورسيف تراهن على تصميم الرقائق بالذكاء الاصطناعي",
+   "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/"
   },
   {
    "cat": "tech",
@@ -4727,38 +4895,6 @@
    "title": "Carte d'empathie : le guide de NN/g pour bien démarrer un projet",
    "title_ar": "خريطة التعاطف: دليل NN/g لبداية صحيحة لأي مشروع",
    "url": "https://www.nngroup.com/articles/empathy-mapping/"
-  },
-  {
-   "cat": "divers",
-   "date": "2026-09-29",
-   "explain": {
-    "context": "Étude de l'université de Binghamton publiée dans une revue de psychopathologie. Elle suggère que l'attention aux émotions pourrait servir de signal précoce, mais elle ne le prouve pas encore.",
-    "context_ar": "دراسة من جامعة بينغهامتون نُشرت في مجلة علم النفس المرضي. تشير إلى أن الانتباه للانفعالات قد يكون إشارة مبكرة، لكنها لا تثبت ذلك بعد.",
-    "figures": [
-     {
-      "d": "Taille de l'échantillon, suivi tous les six mois pendant deux ans : assez petit pour rester prudent.",
-      "d_ar": "حجم العينة، مع متابعة كل ستة أشهر لسنتين: صغير نسبياً فيجب الحذر.",
-      "n": "242 enfants",
-      "n_ar": "242 طفلاً"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Une technique qui mesure où et combien de temps une personne regarde.",
-      "d_ar": "تقنية تقيس أين ينظر الشخص ولكم من الوقت.",
-      "t": "suivi du regard",
-      "t_ar": "تتبع حركة العين"
-     }
-    ]
-   },
-   "image": "",
-   "source": "ScienceDaily",
-   "sub": "enfant",
-   "summary": "Des chercheurs ont suivi 242 enfants et leurs mères pendant deux ans avec un suivi du regard. Quand les symptômes montent chez les enfants dont la mère a eu une dépression, ils regardent de plus en plus les visages tristes.",
-   "summary_ar": "تابع باحثون 242 طفلاً وأمهاتهم لمدة سنتين مع تتبع حركة العين. وعندما ترتفع الأعراض عند الأطفال الذين أصيبت أمهاتهم بالاكتئاب، يزداد نظرهم إلى الوجوه الحزينة.",
-   "title": "Enfants à risque de dépression : leur regard reste sur les visages tristes",
-   "title_ar": "أطفال معرضون للاكتئاب: نظرهم يتعلق بالوجوه الحزينة",
-   "url": "https://www.sciencedaily.com/releases/2026/09/260927225022.htm"
   }
  ],
  "reads": [

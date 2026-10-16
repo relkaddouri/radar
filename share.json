@@ -1372,20 +1372,6 @@
     "كل ملاحظة يجب أن تستند إلى بيانات حقيقية، والخانات الفارغة تبيّن ما يحتاج بحثاً."
    ]
   },
-  "https://www.sciencedaily.com/releases/2026/09/260927225022.htm": {
-   "h": "Risque de dépression : ces enfants fixent les visages tristes",
-   "pts": [
-    "Des chercheurs ont suivi 242 enfants et leurs mères pendant deux ans.",
-    "Un appareil mesurait où se posait le regard des enfants face à des visages.",
-    "Quand leur mal-être monte, les enfants de mères déprimées regardent plus les visages tristes."
-   ],
-   "h_ar": "أطفال معرضون للاكتئاب: نظراتهم تتجه نحو الوجوه الحزينة",
-   "pts_ar": [
-    "تابع باحثون 242 طفلاً وأمهاتهم لمدة سنتين.",
-    "استعملوا جهازاً يقيس أين تتجه نظرات الأطفال أمام صور الوجوه.",
-    "حين تزداد أعراضهم، ينظر أطفال الأمهات اللواتي عانين من الاكتئاب أكثر إلى الوجوه الحزينة."
-   ]
-  },
   "https://theanalyst.com/articles/chelsea-early-goals-xabi-alonso-stats-why": {
    "h": "Chelsea marque très tôt, mais sa défense inquiète",
    "pts": [
@@ -2084,6 +2070,90 @@
     "تريد شركة ريكورسيف استعمال الذكاء الاصطناعي لتصميم الرقائق، أي «عقل» الحواسيب.",
     "حسب مؤسستيها، يستغرق ذلك نحو أسبوع بدل ستة أشهر إلى سنتين حالياً.",
     "وتتوقعان أن تتضاعف الحاجة إلى القدرة الحاسوبية 10 آلاف مرة خلال خمس سنوات."
+   ]
+  },
+  "https://ux-news.com/ask-youtube-conversational-search-mobile/": {
+   "h": "Sur mobile, YouTube se cherche maintenant en posant des questions",
+   "pts": [
+    "Aux États-Unis, la recherche « Ask YouTube » arrive sur téléphone.",
+    "On décrit la vidéo voulue, puis on précise avec d'autres questions, sans tout recommencer.",
+    "La réponse mêle un petit guide écrit et des vidéos sur une même page."
+   ],
+   "h_ar": "على الهاتف، صار البحث في يوتيوب بطرح الأسئلة",
+   "pts_ar": [
+    "في الولايات المتحدة، وصلت ميزة البحث «Ask YouTube» إلى الهاتف.",
+    "تصف الفيديو الذي تريده ثم تدقق بأسئلة أخرى دون أن تبدأ من جديد.",
+    "تجمع الإجابة بين دليل مكتوب قصير ومقاطع فيديو في صفحة واحدة."
+   ]
+  },
+  "https://ux-news.com/google-play-redesign-car-displays/": {
+   "h": "Le Play Store de Google se refait une beauté pour les voitures",
+   "pts": [
+    "Dans les voitures avec Google intégré, le Play Store s'adapte à chaque écran.",
+    "Le menu passe à gauche sur un écran large et en haut sur un écran vertical.",
+    "Les applis pour la voiture à l'arrêt sont séparées de celles utiles en roulant."
+   ],
+   "h_ar": "متجر غوغل بلاي بتصميم جديد لشاشات السيارات",
+   "pts_ar": [
+    "في السيارات المزودة بنظام غوغل، يتكيف متجر بلاي مع كل شاشة.",
+    "تنتقل القائمة إلى اليسار في الشاشة العريضة وإلى الأعلى في الشاشة العمودية.",
+    "تُفصل تطبيقات وقت التوقف عن التطبيقات المفيدة أثناء القيادة."
+   ]
+  },
+  "https://uxmag.com/articles/they-arent-paying-for-the-haircut": {
+   "h": "Chez le coiffeur, on ne paie pas que la coupe de cheveux",
+   "pts": [
+    "Un auteur de UX Magazine raconte le salon de coiffure qu'il tenait à Denver.",
+    "La vraie valeur : le temps avec la coiffeuse et ce qu'on ressent après la coupe.",
+    "Le design de service pense toute l'expérience, avant, pendant et après."
+   ],
+   "h_ar": "عند الحلاق، لا ندفع ثمن القصّة وحدها",
+   "pts_ar": [
+    "يروي كاتب في UX Magazine تجربة صالون الحلاقة الذي أداره في دنفر.",
+    "القيمة الحقيقية: الوقت مع المصففة وما نشعر به بعد القصّة.",
+    "تصميم الخدمة يفكر في التجربة كلها: قبلها وأثناءها وبعدها."
+   ]
+  },
+  "https://www.news-medical.net/news/20261009/Positive-parenting-in-early-childhood-linked-to-stronger-brain-reward-responses.aspx": {
+   "h": "Un parent chaleureux à 3 ans, un cerveau plus sensible à la joie",
+   "pts": [
+    "Des chercheurs ont observé des parents avec leur enfant de 3 ans.",
+    "Ils ont suivi 465 jeunes jusqu'à 18 ans, avec des mesures du cerveau.",
+    "Chaleur et encouragements vont avec un cerveau qui réagit mieux aux bons moments."
+   ],
+   "h_ar": "دفء الوالدين في الثالثة يجعل الدماغ أكثر إحساساً بالفرح",
+   "pts_ar": [
+    "لاحظ باحثون سلوك الوالدين مع أطفالهم في سن الثالثة.",
+    "تابعوا 465 شاباً حتى سن 18، مع قياسات لنشاط الدماغ.",
+    "يرتبط الدفء والتشجيع بدماغ يتفاعل أكثر مع اللحظات الجميلة."
+   ]
+  },
+  "https://news-medical.net/news/20261014/Scientists-reviewed-studies-covering-117-million-children-and-found-a-major-research-gap.aspx": {
+   "h": "Bébés et nutrition : les études oublient presque l'Afrique",
+   "pts": [
+    "Des chercheurs ont réuni 104 études sur la nutrition des bébés et leur cerveau.",
+    "Elles couvrent 1,17 million d'enfants, mais 57 % viennent de pays riches.",
+    "Résultat : on connaît mal ce qui marche pour les enfants d'Afrique."
+   ],
+   "h_ar": "الرضع والتغذية: الدراسات تكاد تنسى أفريقيا",
+   "pts_ar": [
+    "جمع باحثون 104 دراسات حول تغذية الرضع ونمو أدمغتهم.",
+    "تشمل 1.17 مليون طفل، لكن 57% منهم من دول غنية.",
+    "والنتيجة: معرفة قليلة بما يناسب أطفال أفريقيا."
+   ]
+  },
+  "https://montessoripublic.org/2026/10/new-resource-for-montessori-charter-school-authorizers": {
+   "h": "Montessori : un guide pour ouvrir plus d'écoles publiques aux États-Unis",
+   "pts": [
+    "Deux organisations américaines publient un guide de 12 pages sur Montessori.",
+    "Il aide à juger les projets d'écoles publiques gérées de façon indépendante.",
+    "Ces écoles sont déjà 231, soit près de la moitié du Montessori public."
+   ],
+   "h_ar": "مونتيسوري: دليل لفتح مزيد من المدارس العمومية في أمريكا",
+   "pts_ar": [
+    "نشرت منظمتان أمريكيتان دليلاً من 12 صفحة حول مونتيسوري.",
+    "يساعد الدليل على تقييم مشاريع مدارس عمومية تُدار باستقلالية.",
+    "يبلغ عدد هذه المدارس 231، أي نحو نصف مونتيسوري العمومي."
    ]
   }
  }
