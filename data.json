@@ -1298,23 +1298,29 @@
  "news": [
   {
    "cat": "ux",
-   "title": "YouTube lance sa recherche par conversation sur mobile",
-   "title_ar": "يوتيوب يطلق البحث بالمحادثة على الهاتف",
-   "summary": "Aux États-Unis, « Ask YouTube » arrive sur mobile : on décrit ce qu'on veut voir, puis on affine avec des questions. Les réponses mêlent un guide écrit et des cartes vidéo sur une même page.",
-   "summary_ar": "في الولايات المتحدة وصلت ميزة «Ask YouTube» إلى الهاتف: تصف ما تريد مشاهدته ثم تدقق النتائج بأسئلة إضافية. وتجمع الإجابة بين دليل مكتوب وبطاقات فيديو في صفحة واحدة.",
+   "title": "Figma : des prototypes en code sur le canevas, ouverts à tous en bêta",
+   "title_ar": "فيغما: نماذج أولية بالكود على لوحة التصميم، متاحة للجميع في نسخة تجريبية",
+   "summary": "Figma passe ses calques de code en bêta ouverte : on peut faire tourner une interface interactive directement sur le canevas, à partir d'un design ou d'un projet GitHub. L'outil ajoute aussi Specs, des documents partagés qui gardent les exigences à côté des écrans et peuvent être transmis aux agents IA.",
+   "summary_ar": "نقلت فيغما طبقات الكود إلى نسخة تجريبية مفتوحة، فصار بالإمكان تشغيل واجهة تفاعلية مباشرة على لوحة التصميم انطلاقاً من تصميم أو مشروع على GitHub. كما أضافت أداة Specs، وهي وثائق مشتركة تضع المتطلبات بجانب الشاشات ويمكن تمريرها إلى وكلاء الذكاء الاصطناعي.",
    "source": "UX News",
-   "url": "https://ux-news.com/ask-youtube-conversational-search-mobile/",
-   "date": "2026-10-13",
-   "image": "https://ux-news.com/content/images/2026/10/ask-youtube-cover.webp",
+   "url": "https://ux-news.com/figma-code-layers-specs-payload-update/",
+   "date": "2026-10-15",
+   "image": "https://ux-news.com/content/images/size/w1200/2026/10/figma-oct15-cover.png",
    "explain": {
-    "context": "La fonction avait été annoncée à Google I/O. Elle existait déjà sur le web et la télé ; elle arrive maintenant sur téléphone.",
-    "context_ar": "أُعلن عن الميزة في مؤتمر Google I/O، وكانت متاحة على الويب والتلفاز، وهي تصل الآن إلى الهاتف.",
+    "context": "Figma veut réunir au même endroit maquettes, prototypes et consignes pour l'IA. La création de code reste gratuite sur les offres payantes jusqu'au 4 novembre 2026, puis elle utilisera des crédits IA.",
+    "context_ar": "تسعى فيغما إلى جمع التصاميم والنماذج الأولية وتعليمات الذكاء الاصطناعي في مكان واحد. وإنشاء الكود مجاني في الاشتراكات المدفوعة حتى 4 نوفمبر 2026، ثم سيستهلك أرصدة الذكاء الاصطناعي.",
     "terms": [
      {
-      "t": "recherche par conversation",
-      "t_ar": "البحث بالمحادثة",
-      "d": "Chercher en posant des questions comme à une personne, puis préciser au fil des réponses.",
-      "d_ar": "البحث بطرح أسئلة كأنك تحادث شخصاً، ثم التدقيق حسب الإجابات."
+      "t": "bêta ouverte",
+      "t_ar": "نسخة تجريبية مفتوحة",
+      "d": "Version d'essai d'un outil que tous les clients concernés peuvent utiliser, même si elle n'est pas encore finie.",
+      "d_ar": "نسخة للتجربة من أداة يمكن لكل العملاء المعنيين استعمالها رغم أنها لم تكتمل بعد."
+     },
+     {
+      "t": "agents IA",
+      "t_ar": "وكلاء الذكاء الاصطناعي",
+      "d": "Programmes d'IA qui réalisent eux-mêmes une suite d'actions pour accomplir une tâche.",
+      "d_ar": "برامج ذكاء اصطناعي تنفذ بنفسها سلسلة من الخطوات لإنجاز مهمة."
      }
     ],
     "figures": []
@@ -1322,80 +1328,31 @@
   },
   {
    "cat": "ux",
-   "title": "Google Play change de design pour les écrans de voiture",
-   "title_ar": "غوغل بلاي يغيّر تصميمه لشاشات السيارات",
-   "summary": "Dans les voitures avec Google intégré, le Play Store s'adapte à la taille et au sens de l'écran : menu à gauche en paysage, en haut en portrait. Les contenus pour la voiture à l'arrêt sont séparés de ceux utiles en roulant.",
-   "summary_ar": "في السيارات المزودة بنظام غوغل، يتكيف متجر بلاي مع حجم الشاشة واتجاهها: القائمة على اليسار في الوضع الأفقي وفي الأعلى في الوضع العمودي. وتُفصل محتويات التوقف عن الأدوات المفيدة أثناء القيادة.",
+   "title": "Gemini ajoute un bouton pour passer du chat aux tâches",
+   "title_ar": "جيميني يضيف زراً للتنقل بين المحادثة والمهام",
+   "summary": "Google a placé sous le champ de saisie de Gemini un interrupteur entre « Chat » et « Tâche », réservé aux abonnés AI Pro et Ultra. En mode Tâche, l'assistant peut continuer à travailler quand l'utilisateur n'est plus devant son ordinateur.",
+   "summary_ar": "أضافت غوغل تحت خانة الكتابة في جيميني مفتاحاً للتبديل بين «المحادثة» و«المهمة»، وهو متاح لمشتركي AI Pro وUltra. وفي وضع المهمة يمكن للمساعد مواصلة العمل حتى عندما لا يكون المستخدم أمام حاسوبه.",
    "source": "UX News",
-   "url": "https://ux-news.com/google-play-redesign-car-displays/",
+   "url": "https://ux-news.com/gemini-chat-task-switcher/",
    "date": "2026-10-14",
-   "image": "https://ux-news.com/content/images/2026/10/cars-play-cover.webp",
+   "image": "https://ux-news.com/content/images/size/w1200/2026/10/gemini-tasks-cover.png",
    "explain": {
-    "context": "Google a annoncé cette mise à jour le 13 octobre ; elle arrive dans les voitures petit à petit, dans les prochaines semaines.",
-    "context_ar": "أعلنت غوغل التحديث يوم 13 أكتوبر، وسيصل إلى السيارات تدريجياً خلال الأسابيع المقبلة.",
+    "context": "La nouveauté arrive avec le modèle Gemini 4 Argon, présenté le 13 octobre. Gemini se relie aussi à plus de 40 applications, comme Adobe, Shopify ou OpenTable.",
+    "context_ar": "جاءت هذه الميزة مع نموذج Gemini 4 Argon الذي قُدّم في 13 أكتوبر. كما صار جيميني يرتبط بأكثر من 40 تطبيقاً، مثل Adobe وShopify وOpenTable.",
     "terms": [
      {
-      "t": "s'adapte",
-      "t_ar": "يتكيف",
-      "d": "Design « adaptatif » : la page change de disposition selon la forme de l'écran.",
-      "d_ar": "تصميم متكيّف: تتغير طريقة عرض الصفحة حسب شكل الشاشة."
-     }
-    ],
-    "figures": []
-   }
-  },
-  {
-   "cat": "ux",
-   "title": "Design de service : le client ne paie pas seulement la coupe",
-   "title_ar": "تصميم الخدمة: الزبون لا يدفع ثمن القصّة فقط",
-   "summary": "Dans UX Magazine, Josh Tyson raconte le salon de coiffure qu'il tenait avec sa femme à Denver. La vraie valeur était le temps passé avec la coiffeuse et ce que le client ressent après, pas seulement la coupe.",
-   "summary_ar": "في مجلة UX Magazine يروي جوش تايسون تجربة صالون الحلاقة الذي أداره مع زوجته في دنفر. القيمة الحقيقية كانت في الوقت مع المصففة وما يشعر به الزبون بعدها، لا القصّة وحدها.",
-   "source": "UX Magazine",
-   "url": "https://uxmag.com/articles/they-arent-paying-for-the-haircut",
-   "date": "2026-10-07",
-   "image": "https://uxmag.com/articles/media/they-arent-paying-for-the-haircut-1.jpg",
-   "explain": {
-    "context": "Le texte fait partie d'une série de UX Magazine sur la façon dont l'IA change le design de service.",
-    "context_ar": "النص جزء من سلسلة في UX Magazine حول كيف يغيّر الذكاء الاصطناعي تصميم الخدمات.",
-    "terms": [
-     {
-      "t": "Design de service",
-      "t_ar": "تصميم الخدمة",
-      "d": "Concevoir toute l'expérience d'un service (avant, pendant, après), pas seulement un écran ou un produit.",
-      "d_ar": "تصميم التجربة الكاملة لخدمة ما قبلها وأثناءها وبعدها، لا شاشة أو منتجاً فقط."
-     }
-    ],
-    "figures": []
-   }
-  },
-  {
-   "cat": "divers",
-   "sub": "enfant",
-   "title": "Un parent chaleureux à 3 ans aide le cerveau à mieux ressentir la joie",
-   "title_ar": "دفء الوالدين في سن الثالثة يساعد الدماغ على الإحساس بالفرح",
-   "summary": "Une étude sur 465 jeunes a observé les parents quand l'enfant avait 3 ans, puis le cerveau à 9, 12, 15 et 18 ans. Plus de chaleur et d'encouragements est lié à une réponse plus forte du cerveau aux bons moments.",
-   "summary_ar": "تابعت دراسة 465 شاباً: لوحظ سلوك الوالدين عندما كان الطفل في الثالثة، ثم الدماغ في 9 و12 و15 و18 سنة. ويرتبط الدفء والتشجيع باستجابة أقوى للدماغ للتجارب الإيجابية.",
-   "source": "News-Medical",
-   "url": "https://www.news-medical.net/news/20261009/Positive-parenting-in-early-childhood-linked-to-stronger-brain-reward-responses.aspx",
-   "date": "2026-10-09",
-   "image": "https://www.news-medical.net/images/tags/TagImage-1831-45296002389942131275-620x480.jpg",
-   "explain": {
-    "context": "Étude de Stony Brook et Notre Dame publiée dans Communications Psychology. Elle observe un lien, sans prouver une cause.",
-    "context_ar": "دراسة من جامعتي ستوني بروك ونوتردام نُشرت في Communications Psychology. تلاحظ علاقة دون أن تثبت السبب.",
-    "terms": [
-     {
-      "t": "réponse plus forte du cerveau",
-      "t_ar": "استجابة أقوى للدماغ",
-      "d": "Le « circuit de la récompense » s'active quand on vit quelque chose d'agréable, comme gagner à un jeu.",
-      "d_ar": "«دائرة المكافأة» تنشط عندما نعيش شيئاً ممتعاً، مثل الفوز في لعبة."
+      "t": "mode Tâche",
+      "t_ar": "وضع المهمة",
+      "d": "Mode où l'on confie un travail complet à l'IA, qui le fait seule par étapes au lieu de simplement répondre.",
+      "d_ar": "وضع تُسند فيه عملاً كاملاً إلى الذكاء الاصطناعي فينجزه وحده خطوة بخطوة بدل الاكتفاء بالرد."
      }
     ],
     "figures": [
      {
-      "n": "465 jeunes",
-      "n_ar": "465 شاباً",
-      "d": "Suivis pendant 15 ans : c'est long et solide pour ce type d'étude.",
-      "d_ar": "تابعتهم الدراسة 15 سنة، وهي مدة طويلة ومتينة لهذا النوع من الأبحاث."
+      "n": "40+",
+      "n_ar": "أكثر من 40",
+      "d": "applications reliées à Gemini (Adobe, Shopify, OpenTable…)",
+      "d_ar": "تطبيقاً مرتبطاً بجيميني (Adobe وShopify وOpenTable…)"
      }
     ]
    }
@@ -1403,31 +1360,37 @@
   {
    "cat": "divers",
    "sub": "enfant",
-   "title": "Nutrition des 1 000 premiers jours : l'Afrique presque absente des études",
-   "title_ar": "تغذية الألف يوم الأولى: أفريقيا شبه غائبة عن الدراسات",
-   "summary": "Des chercheurs ont recensé 104 grandes études sur 1,17 million d'enfants dans 41 pays. 57 % des enfants viennent de pays riches et l'Afrique subsaharienne compte à peine 6 enfants par million d'habitants.",
-   "summary_ar": "أحصى باحثون 104 دراسات كبرى شملت 1.17 مليون طفل في 41 دولة. 57% من الأطفال من دول غنية، وأفريقيا جنوب الصحراء لا تمثل سوى 6 أطفال لكل مليون نسمة.",
-   "source": "News-Medical",
-   "url": "https://news-medical.net/news/20261014/Scientists-reviewed-studies-covering-117-million-children-and-found-a-major-research-gap.aspx",
-   "date": "2026-10-14",
-   "image": "https://www.news-medical.net/images/news/ImageForNews_848893_17920298558048444.jpg",
+   "title": "Le regard dans les yeux aide les bébés de 9 mois à apprendre des mots",
+   "title_ar": "النظر في العينين يساعد الرضع في شهرهم التاسع على تعلّم الكلمات",
+   "summary": "Une étude publiée dans Nature Communications a testé 47 bébés d'environ 9 mois au Royaume-Uni et à Singapour. Ils n'ont repéré de nouveaux mots que lorsque l'adulte qui parlait les regardait dans les yeux, et leur activité cérébrale, mesurée par EEG, suivait alors davantage celle de l'adulte.",
+   "summary_ar": "اختبرت دراسة نُشرت في مجلة Nature Communications سبعة وأربعين رضيعاً في شهرهم التاسع تقريباً في المملكة المتحدة وسنغافورة. ولم يتعرفوا على كلمات جديدة إلا عندما كان المتكلم ينظر في أعينهم، وكان نشاط أدمغتهم، المقيس بتخطيط الدماغ، يتبع حينها نشاط دماغ الشخص البالغ أكثر.",
+   "source": "PsyPost",
+   "url": "https://www.psypost.org/eye-contact-may-act-as-a-learning-switch-for-babies-brains/",
+   "date": "2026-10-08",
+   "image": "https://www.psypost.org/wp-content/uploads/2026/10/woman-talking-to-infant.jpg",
    "explain": {
-    "context": "Les « 1 000 premiers jours » vont de la grossesse aux 2 ans : une période clé pour le cerveau. L'étude est parue dans iScience.",
-    "context_ar": "«الألف يوم الأولى» تمتد من الحمل إلى سن الثانية، وهي مرحلة حاسمة لنمو الدماغ. نُشرت الدراسة في مجلة iScience.",
+    "context": "Des chercheurs de l'université Nanyang (Singapour) et de Cambridge ont montré aux bébés une adulte qui parlait en les regardant, en détournant un peu les yeux, ou sans regard. Le lien avec le cerveau reste préliminaire.",
+    "context_ar": "عرض باحثون من جامعة نانيانغ في سنغافورة وجامعة كامبريدج على الرضع امرأة تتكلم وهي تنظر إليهم، أو تُبعد نظرها قليلاً، أو دون نظر. وتبقى العلاقة بنشاط الدماغ أولية.",
     "terms": [
      {
-      "t": "études",
-      "t_ar": "الدراسات",
-      "d": "Ici des « cohortes » : de grands groupes d'enfants suivis pendant des années.",
-      "d_ar": "المقصود «مجموعات أتراب»: أعداد كبيرة من الأطفال تُتابع لسنوات."
+      "t": "EEG",
+      "t_ar": "تخطيط الدماغ",
+      "d": "Examen sans douleur qui enregistre l'activité électrique du cerveau grâce à un bonnet posé sur la tête.",
+      "d_ar": "فحص غير مؤلم يسجل النشاط الكهربائي للدماغ بواسطة قبعة توضع على الرأس."
      }
     ],
     "figures": [
      {
-      "n": "57 %",
-      "n_ar": "57%",
-      "d": "Plus de la moitié des données vient des pays riches ; aucun pays à faible revenu n'est inclus.",
-      "d_ar": "أكثر من نصف البيانات من الدول الغنية، ولا توجد أي دولة منخفضة الدخل."
+      "n": "47",
+      "n_ar": "47",
+      "d": "bébés testés : 29 au Royaume-Uni et 18 à Singapour",
+      "d_ar": "رضيعاً خضعوا للاختبار: 29 في المملكة المتحدة و18 في سنغافورة"
+     },
+     {
+      "n": "9 mois",
+      "n_ar": "9 أشهر",
+      "d": "âge moyen des bébés (environ 286 jours)",
+      "d_ar": "متوسط عمر الرضع (نحو 286 يوماً)"
      }
     ]
    }
@@ -1435,34 +1398,188 @@
   {
    "cat": "divers",
    "sub": "montessori",
-   "title": "Écoles Montessori publiques : un guide pour les autorités aux États-Unis",
-   "title_ar": "مدارس مونتيسوري العمومية: دليل جديد للسلطات في أمريكا",
-   "summary": "Deux organisations ont publié un guide de 12 pages pour évaluer les projets d'écoles Montessori « charter ». Près de la moitié des écoles Montessori publiques américaines ont ce statut, soit 231 programmes.",
-   "summary_ar": "نشرت منظمتان دليلاً من 12 صفحة لتقييم مشاريع مدارس مونتيسوري «تشارتر». ونحو نصف مدارس مونتيسوري العمومية الأمريكية تعمل بهذا النظام، أي 231 برنامجاً.",
-   "source": "Montessori Public",
-   "url": "https://montessoripublic.org/2026/10/new-resource-for-montessori-charter-school-authorizers",
+   "title": "Fondation Montessori : et si on fêtait les enfants plutôt qu'Halloween ?",
+   "title_ar": "مؤسسة مونتيسوري: ماذا لو احتفلنا بالأطفال بدل الهالوين؟",
+   "summary": "Dans un article de la Montessori Foundation, Tim Seldin propose aux écoles de remplacer ou de compléter Halloween par une « semaine internationale des enfants » fin octobre. Chaque jour aurait un thème : la personnalité de chaque enfant, les enfants du monde, le jeu, l'entraide entre enfants et la paix.",
+   "summary_ar": "في مقال لمؤسسة مونتيسوري، يقترح تيم سيلدن على المدارس تعويض الهالوين أو إكماله بـ«أسبوع دولي للأطفال» في أواخر أكتوبر. ولكل يوم موضوع: شخصية كل طفل، وأطفال العالم، واللعب، وتعاون الأطفال فيما بينهم، والسلام.",
+   "source": "Montessori Foundation",
+   "url": "https://www.montessori.org/beyond-halloween-what-if-we-celebrated-children-instead/",
+   "date": "2026-10-16",
+   "image": "https://www.montessori.org/wp-content/uploads/2026/10/kids-in-coustume.webp",
+   "explain": {
+    "context": "L'auteur juge que les masques effrayants, les images de mort et l'excès de bonbons conviennent mal aux petits, qui distinguent encore mal le jeu et la réalité. Il garde les déguisements et l'imagination.",
+    "context_ar": "يرى الكاتب أن الأقنعة المخيفة وصور الموت وكثرة الحلوى لا تناسب الصغار الذين لا يميزون جيداً بعدُ بين اللعب والواقع، لكنه يحافظ على التنكر والخيال.",
+    "terms": [],
+    "figures": []
+   }
+  },
+  {
+   "cat": "ux",
+   "date": "2026-10-13",
+   "explain": {
+    "context": "La fonction avait été annoncée à Google I/O. Elle existait déjà sur le web et la télé ; elle arrive maintenant sur téléphone.",
+    "context_ar": "أُعلن عن الميزة في مؤتمر Google I/O، وكانت متاحة على الويب والتلفاز، وهي تصل الآن إلى الهاتف.",
+    "figures": [],
+    "terms": [
+     {
+      "d": "Chercher en posant des questions comme à une personne, puis préciser au fil des réponses.",
+      "d_ar": "البحث بطرح أسئلة كأنك تحادث شخصاً، ثم التدقيق حسب الإجابات.",
+      "t": "recherche par conversation",
+      "t_ar": "البحث بالمحادثة"
+     }
+    ]
+   },
+   "image": "https://ux-news.com/content/images/2026/10/ask-youtube-cover.webp",
+   "source": "UX News",
+   "summary": "Aux États-Unis, « Ask YouTube » arrive sur mobile : on décrit ce qu'on veut voir, puis on affine avec des questions. Les réponses mêlent un guide écrit et des cartes vidéo sur une même page.",
+   "summary_ar": "في الولايات المتحدة وصلت ميزة «Ask YouTube» إلى الهاتف: تصف ما تريد مشاهدته ثم تدقق النتائج بأسئلة إضافية. وتجمع الإجابة بين دليل مكتوب وبطاقات فيديو في صفحة واحدة.",
+   "title": "YouTube lance sa recherche par conversation sur mobile",
+   "title_ar": "يوتيوب يطلق البحث بالمحادثة على الهاتف",
+   "url": "https://ux-news.com/ask-youtube-conversational-search-mobile/"
+  },
+  {
+   "cat": "ux",
    "date": "2026-10-14",
-   "image": "https://eadn-wc03-7783607.nxedge.io/wp-content/uploads/2026/10/NACSA-photo-960x500.png",
+   "explain": {
+    "context": "Google a annoncé cette mise à jour le 13 octobre ; elle arrive dans les voitures petit à petit, dans les prochaines semaines.",
+    "context_ar": "أعلنت غوغل التحديث يوم 13 أكتوبر، وسيصل إلى السيارات تدريجياً خلال الأسابيع المقبلة.",
+    "figures": [],
+    "terms": [
+     {
+      "d": "Design « adaptatif » : la page change de disposition selon la forme de l'écran.",
+      "d_ar": "تصميم متكيّف: تتغير طريقة عرض الصفحة حسب شكل الشاشة.",
+      "t": "s'adapte",
+      "t_ar": "يتكيف"
+     }
+    ]
+   },
+   "image": "https://ux-news.com/content/images/2026/10/cars-play-cover.webp",
+   "source": "UX News",
+   "summary": "Dans les voitures avec Google intégré, le Play Store s'adapte à la taille et au sens de l'écran : menu à gauche en paysage, en haut en portrait. Les contenus pour la voiture à l'arrêt sont séparés de ceux utiles en roulant.",
+   "summary_ar": "في السيارات المزودة بنظام غوغل، يتكيف متجر بلاي مع حجم الشاشة واتجاهها: القائمة على اليسار في الوضع الأفقي وفي الأعلى في الوضع العمودي. وتُفصل محتويات التوقف عن الأدوات المفيدة أثناء القيادة.",
+   "title": "Google Play change de design pour les écrans de voiture",
+   "title_ar": "غوغل بلاي يغيّر تصميمه لشاشات السيارات",
+   "url": "https://ux-news.com/google-play-redesign-car-displays/"
+  },
+  {
+   "cat": "ux",
+   "date": "2026-10-07",
+   "explain": {
+    "context": "Le texte fait partie d'une série de UX Magazine sur la façon dont l'IA change le design de service.",
+    "context_ar": "النص جزء من سلسلة في UX Magazine حول كيف يغيّر الذكاء الاصطناعي تصميم الخدمات.",
+    "figures": [],
+    "terms": [
+     {
+      "d": "Concevoir toute l'expérience d'un service (avant, pendant, après), pas seulement un écran ou un produit.",
+      "d_ar": "تصميم التجربة الكاملة لخدمة ما قبلها وأثناءها وبعدها، لا شاشة أو منتجاً فقط.",
+      "t": "Design de service",
+      "t_ar": "تصميم الخدمة"
+     }
+    ]
+   },
+   "image": "https://uxmag.com/articles/media/they-arent-paying-for-the-haircut-1.jpg",
+   "source": "UX Magazine",
+   "summary": "Dans UX Magazine, Josh Tyson raconte le salon de coiffure qu'il tenait avec sa femme à Denver. La vraie valeur était le temps passé avec la coiffeuse et ce que le client ressent après, pas seulement la coupe.",
+   "summary_ar": "في مجلة UX Magazine يروي جوش تايسون تجربة صالون الحلاقة الذي أداره مع زوجته في دنفر. القيمة الحقيقية كانت في الوقت مع المصففة وما يشعر به الزبون بعدها، لا القصّة وحدها.",
+   "title": "Design de service : le client ne paie pas seulement la coupe",
+   "title_ar": "تصميم الخدمة: الزبون لا يدفع ثمن القصّة فقط",
+   "url": "https://uxmag.com/articles/they-arent-paying-for-the-haircut"
+  },
+  {
+   "cat": "divers",
+   "date": "2026-10-09",
+   "explain": {
+    "context": "Étude de Stony Brook et Notre Dame publiée dans Communications Psychology. Elle observe un lien, sans prouver une cause.",
+    "context_ar": "دراسة من جامعتي ستوني بروك ونوتردام نُشرت في Communications Psychology. تلاحظ علاقة دون أن تثبت السبب.",
+    "figures": [
+     {
+      "d": "Suivis pendant 15 ans : c'est long et solide pour ce type d'étude.",
+      "d_ar": "تابعتهم الدراسة 15 سنة، وهي مدة طويلة ومتينة لهذا النوع من الأبحاث.",
+      "n": "465 jeunes",
+      "n_ar": "465 شاباً"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Le « circuit de la récompense » s'active quand on vit quelque chose d'agréable, comme gagner à un jeu.",
+      "d_ar": "«دائرة المكافأة» تنشط عندما نعيش شيئاً ممتعاً، مثل الفوز في لعبة.",
+      "t": "réponse plus forte du cerveau",
+      "t_ar": "استجابة أقوى للدماغ"
+     }
+    ]
+   },
+   "image": "https://www.news-medical.net/images/tags/TagImage-1831-45296002389942131275-620x480.jpg",
+   "source": "News-Medical",
+   "sub": "enfant",
+   "summary": "Une étude sur 465 jeunes a observé les parents quand l'enfant avait 3 ans, puis le cerveau à 9, 12, 15 et 18 ans. Plus de chaleur et d'encouragements est lié à une réponse plus forte du cerveau aux bons moments.",
+   "summary_ar": "تابعت دراسة 465 شاباً: لوحظ سلوك الوالدين عندما كان الطفل في الثالثة، ثم الدماغ في 9 و12 و15 و18 سنة. ويرتبط الدفء والتشجيع باستجابة أقوى للدماغ للتجارب الإيجابية.",
+   "title": "Un parent chaleureux à 3 ans aide le cerveau à mieux ressentir la joie",
+   "title_ar": "دفء الوالدين في سن الثالثة يساعد الدماغ على الإحساس بالفرح",
+   "url": "https://www.news-medical.net/news/20261009/Positive-parenting-in-early-childhood-linked-to-stronger-brain-reward-responses.aspx"
+  },
+  {
+   "cat": "divers",
+   "date": "2026-10-14",
+   "explain": {
+    "context": "Les « 1 000 premiers jours » vont de la grossesse aux 2 ans : une période clé pour le cerveau. L'étude est parue dans iScience.",
+    "context_ar": "«الألف يوم الأولى» تمتد من الحمل إلى سن الثانية، وهي مرحلة حاسمة لنمو الدماغ. نُشرت الدراسة في مجلة iScience.",
+    "figures": [
+     {
+      "d": "Plus de la moitié des données vient des pays riches ; aucun pays à faible revenu n'est inclus.",
+      "d_ar": "أكثر من نصف البيانات من الدول الغنية، ولا توجد أي دولة منخفضة الدخل.",
+      "n": "57 %",
+      "n_ar": "57%"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Ici des « cohortes » : de grands groupes d'enfants suivis pendant des années.",
+      "d_ar": "المقصود «مجموعات أتراب»: أعداد كبيرة من الأطفال تُتابع لسنوات.",
+      "t": "études",
+      "t_ar": "الدراسات"
+     }
+    ]
+   },
+   "image": "https://www.news-medical.net/images/news/ImageForNews_848893_17920298558048444.jpg",
+   "source": "News-Medical",
+   "sub": "enfant",
+   "summary": "Des chercheurs ont recensé 104 grandes études sur 1,17 million d'enfants dans 41 pays. 57 % des enfants viennent de pays riches et l'Afrique subsaharienne compte à peine 6 enfants par million d'habitants.",
+   "summary_ar": "أحصى باحثون 104 دراسات كبرى شملت 1.17 مليون طفل في 41 دولة. 57% من الأطفال من دول غنية، وأفريقيا جنوب الصحراء لا تمثل سوى 6 أطفال لكل مليون نسمة.",
+   "title": "Nutrition des 1 000 premiers jours : l'Afrique presque absente des études",
+   "title_ar": "تغذية الألف يوم الأولى: أفريقيا شبه غائبة عن الدراسات",
+   "url": "https://news-medical.net/news/20261014/Scientists-reviewed-studies-covering-117-million-children-and-found-a-major-research-gap.aspx"
+  },
+  {
+   "cat": "divers",
+   "date": "2026-10-14",
    "explain": {
     "context": "Le guide vient de NCMPS, centre pour le Montessori public, et NACSA, qui réunit les autorités qui valident les écoles charter.",
     "context_ar": "الدليل من إعداد NCMPS، مركز مونتيسوري العمومي، وNACSA التي تجمع الجهات التي تعتمد مدارس «تشارتر».",
-    "terms": [
-     {
-      "t": "charter",
-      "t_ar": "تشارتر",
-      "d": "École publique gratuite mais gérée de façon indépendante, avec un contrat accordé par une autorité.",
-      "d_ar": "مدرسة عمومية مجانية تُدار باستقلالية، بموجب عقد تمنحه جهة رسمية."
-     }
-    ],
     "figures": [
      {
-      "n": "231 programmes",
-      "n_ar": "231 برنامجاً",
       "d": "Sur environ 600 programmes Montessori publics dans tout le pays.",
-      "d_ar": "من بين نحو 600 برنامج مونتيسوري عمومي في البلاد."
+      "d_ar": "من بين نحو 600 برنامج مونتيسوري عمومي في البلاد.",
+      "n": "231 programmes",
+      "n_ar": "231 برنامجاً"
+     }
+    ],
+    "terms": [
+     {
+      "d": "École publique gratuite mais gérée de façon indépendante, avec un contrat accordé par une autorité.",
+      "d_ar": "مدرسة عمومية مجانية تُدار باستقلالية، بموجب عقد تمنحه جهة رسمية.",
+      "t": "charter",
+      "t_ar": "تشارتر"
      }
     ]
-   }
+   },
+   "image": "https://eadn-wc03-7783607.nxedge.io/wp-content/uploads/2026/10/NACSA-photo-960x500.png",
+   "source": "Montessori Public",
+   "sub": "montessori",
+   "summary": "Deux organisations ont publié un guide de 12 pages pour évaluer les projets d'écoles Montessori « charter ». Près de la moitié des écoles Montessori publiques américaines ont ce statut, soit 231 programmes.",
+   "summary_ar": "نشرت منظمتان دليلاً من 12 صفحة لتقييم مشاريع مدارس مونتيسوري «تشارتر». ونحو نصف مدارس مونتيسوري العمومية الأمريكية تعمل بهذا النظام، أي 231 برنامجاً.",
+   "title": "Écoles Montessori publiques : un guide pour les autorités aux États-Unis",
+   "title_ar": "مدارس مونتيسوري العمومية: دليل جديد للسلطات في أمريكا",
+   "url": "https://montessoripublic.org/2026/10/new-resource-for-montessori-charter-school-authorizers"
   },
   {
    "cat": "maroc",
