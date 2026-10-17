@@ -1102,557 +1102,701 @@
  ],
  "news": [
   {
+   "cat": "ux",
+   "title": "Nouveau Siri : sa vraie force est le contexte, pas l'intelligence",
+   "title_ar": "سيري الجديد: قوته الحقيقية في السياق لا في الذكاء",
+   "summary": "Nielsen Norman Group a testé l'ancien Siri, le nouveau Siri AI et ChatGPT sur les mêmes tâches après un week-end à New York. Siri AI réussit mieux car il accède aux messages et aux photos de l'utilisateur, mais il doit mieux expliquer où il a cherché.",
+   "summary_ar": "اختبرت Nielsen Norman Group سيري القديم وسيري AI الجديد وChatGPT في المهام نفسها بعد عطلة نهاية أسبوع في نيويورك. ونجح سيري AI أكثر لأنه يصل إلى رسائل المستخدم وصوره، لكن عليه أن يوضح أكثر أين بحث.",
+   "source": "Nielsen Norman Group",
+   "url": "https://www.nngroup.com/articles/ai-assistant-context/",
+   "date": "2026-10-09",
+   "image": "https://media.nngroup.com/media/articles/opengraph_images/The_New_Siri-1.png",
+   "explain": {
+    "context": "Apple a lancé Siri AI en version bêta en anglais le 14 septembre 2026. L'article montre qu'un assistant utile dépend surtout des données personnelles qu'il peut voir et utiliser.",
+    "context_ar": "أطلقت آبل سيري AI في نسخة تجريبية بالإنجليزية يوم 14 شتنبر 2026. ويبين المقال أن المساعد المفيد يعتمد أساسا على البيانات الشخصية التي يستطيع رؤيتها واستعمالها.",
+    "terms": [
+     {
+      "t": "contexte",
+      "t_ar": "السياق",
+      "d": "Les informations sur la vie de l'utilisateur (messages, photos, contacts) qui aident l'assistant à bien répondre.",
+      "d_ar": "المعلومات عن حياة المستخدم (رسائل، صور، جهات اتصال) التي تساعد المساعد على الإجابة بشكل جيد."
+     }
+    ],
+    "figures": [
+     {
+      "n": "3",
+      "n_ar": "3",
+      "d": "Restaurants conseillés par message que Siri AI a retrouvés seul.",
+      "d_ar": "مطاعم نُصح بها في رسالة، وجدها سيري AI وحده."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "ux",
+   "title": "Agents IA : les experts soignent leur « bibliothèque de contexte » plus que leurs consignes",
+   "title_ar": "وكلاء الذكاء الاصطناعي: الخبراء يعتنون بـ«مكتبة السياق» أكثر من التعليمات",
+   "summary": "Une étude de Nielsen Norman Group auprès d'utilisateurs experts de Claude montre qu'ils passent plus de temps à organiser leurs fichiers de contexte qu'à écrire des consignes. Ces bibliothèques doivent être entretenues, bien rangées, et ne charger que le nécessaire pour chaque tâche.",
+   "summary_ar": "تُظهر دراسة لـNielsen Norman Group على مستخدمين خبراء لـClaude أنهم يقضون وقتا أطول في تنظيم ملفات السياق مقارنة بكتابة التعليمات. ويجب صيانة هذه المكتبات وترتيبها جيدا، وألا تحمّل إلا ما تحتاجه كل مهمة.",
+   "source": "Nielsen Norman Group",
+   "url": "https://www.nngroup.com/articles/context-libraries/",
+   "date": "2026-10-09",
+   "image": "https://media.nngroup.com/media/articles/opengraph_images/Context_Libraries-1.png",
+   "explain": {
+    "context": "Les agents IA font de plus en plus de travail seuls. Pour bien travailler, ils ont besoin de connaître les règles et les méthodes de l'utilisateur, rangées dans des fichiers.",
+    "context_ar": "تقوم وكلاء الذكاء الاصطناعي بعمل متزايد بشكل مستقل. ولكي تعمل جيدا، تحتاج إلى معرفة قواعد المستخدم وطرقه، المرتبة في ملفات.",
+    "terms": [
+     {
+      "t": "bibliothèque de contexte",
+      "t_ar": "مكتبة السياق",
+      "d": "Ensemble de fichiers où l'on garde les connaissances et méthodes que l'agent IA doit utiliser.",
+      "d_ar": "مجموعة ملفات تُحفظ فيها المعارف والطرق التي يجب أن يستعملها وكيل الذكاء الاصطناعي."
+     },
+     {
+      "t": "Agents IA",
+      "t_ar": "وكلاء الذكاء الاصطناعي",
+      "d": "Programmes d'IA qui réalisent des tâches en plusieurs étapes, pas seulement des réponses.",
+      "d_ar": "برامج ذكاء اصطناعي تنجز مهام من عدة مراحل، وليس مجرد أجوبة."
+     }
+    ],
+    "figures": [
+     {
+      "n": "2 700",
+      "n_ar": "2700",
+      "d": "Nombre de fichiers de contexte d'un participant, rangés en dossiers.",
+      "d_ar": "عدد ملفات السياق لدى أحد المشاركين، مرتبة في مجلدات."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "divers",
+   "sub": "enfant",
+   "title": "Près d'un bébé sur trois manque d'une bactérie intestinale clé, même allaité",
+   "title_ar": "قرابة رضيع من كل ثلاثة يفتقد بكتيريا معوية أساسية حتى مع الرضاعة الطبيعية",
+   "summary": "Une étude sur 253 bébés suédois suivis pendant 18 mois n'a trouvé aucune bifidobactérie dans 30 % des échantillons de selles. Les bébés sans cette bactérie pleuraient plus après les repas, et environ la moitié en manquaient encore six mois plus tard.",
+   "summary_ar": "لم تجد دراسة على 253 رضيعا سويديا تمت متابعتهم لمدة 18 شهرا أي بكتيريا بيفيدو في 30% من عينات البراز. وكان الرضع الذين يفتقدون هذه البكتيريا يبكون أكثر بعد الرضاعة، وظل نحو نصفهم يفتقدونها بعد ستة أشهر.",
+   "source": "NutraIngredients",
+   "url": "https://www.nutraingredients.com/Article/2026/10/12/up-to-one-third-of-infants-lack-key-gut-bacteria-despite-breastfeeding/",
+   "date": "2026-10-12",
+   "image": "https://www.nutraingredients.com/resizer/v2/N6BCUI7SV5HC5GADR2N7ONHJ3E.jpg?auth=69e0633082d4263ba099682668865bc9c809c691a14d5bb12a87ba07596e807&width=1200&height=630&smart=true",
+   "explain": {
+    "context": "L'étude, publiée dans la revue Gut Microbes, associe des chercheurs du Karolinska Institute et d'autres universités. Les échantillons sans bifidobactéries contenaient plus de gènes liés à l'inflammation.",
+    "context_ar": "نُشرت الدراسة في مجلة Gut Microbes بمشاركة باحثين من معهد كارولينسكا وجامعات أخرى. واحتوت العينات الخالية من بكتيريا بيفيدو على جينات أكثر مرتبطة بالالتهاب.",
+    "terms": [
+     {
+      "t": "bifidobactérie",
+      "t_ar": "بكتيريا بيفيدو",
+      "d": "Bonne bactérie de l'intestin, très présente chez les bébés, qui aide à digérer le lait.",
+      "d_ar": "بكتيريا نافعة في الأمعاء، كثيرة عند الرضع، تساعد على هضم الحليب."
+     }
+    ],
+    "figures": [
+     {
+      "n": "30 %",
+      "n_ar": "30%",
+      "d": "Part des échantillons de selles sans aucune bifidobactérie détectée.",
+      "d_ar": "نسبة عينات البراز التي لم تُرصد فيها أي بكتيريا بيفيدو."
+     },
+     {
+      "n": "253",
+      "n_ar": "253",
+      "d": "Nombre de bébés suédois suivis pendant leurs 18 premiers mois.",
+      "d_ar": "عدد الرضع السويديين الذين تمت متابعتهم خلال أشهرهم الـ18 الأولى."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "divers",
+   "sub": "montessori",
+   "title": "États-Unis : un guide pour aider à autoriser les écoles Montessori publiques",
+   "title_ar": "الولايات المتحدة: دليل للمساعدة على ترخيص مدارس مونتيسوري العمومية",
+   "summary": "Deux organismes américains publient un guide de 12 pages pour aider les autorités à évaluer les projets d'écoles Montessori sous contrat. Près de la moitié des écoles Montessori publiques du pays fonctionnent sous ce statut.",
+   "summary_ar": "نشرت هيئتان أمريكيتان دليلا من 12 صفحة لمساعدة السلطات على تقييم مشاريع مدارس مونتيسوري المتعاقدة. ونحو نصف مدارس مونتيسوري العمومية في البلاد تعمل بهذا الوضع.",
+   "source": "Montessori Public",
+   "url": "https://montessoripublic.org/2026/10/new-resource-for-montessori-charter-school-authorizers",
+   "date": "2026-10-14",
+   "image": "https://eadn-wc03-7783607.nxedge.io/wp-content/uploads/2026/10/NACSA-photo-960x500.png",
+   "explain": {
+    "context": "La première école Montessori sous contrat a ouvert au Minnesota en 1993. Environ sept nouvelles ouvrent chaque année, et le pays compte près de 600 programmes Montessori publics.",
+    "context_ar": "افتُتحت أول مدرسة مونتيسوري متعاقدة في مينيسوتا سنة 1993. وتُفتح نحو سبع مدارس جديدة كل سنة، وتضم البلاد قرابة 600 برنامج مونتيسوري عمومي.",
+    "terms": [
+     {
+      "t": "écoles Montessori sous contrat",
+      "t_ar": "مدارس مونتيسوري المتعاقدة",
+      "d": "Écoles publiques gratuites gérées de façon autonome, avec un contrat accordé par une autorité.",
+      "d_ar": "مدارس عمومية مجانية تُدار باستقلالية، بموجب عقد تمنحه سلطة مختصة."
+     }
+    ],
+    "figures": [
+     {
+      "n": "231",
+      "n_ar": "231",
+      "d": "Nombre de programmes Montessori sous contrat aux États-Unis.",
+      "d_ar": "عدد برامج مونتيسوري المتعاقدة في الولايات المتحدة."
+     },
+     {
+      "n": "12",
+      "n_ar": "12",
+      "d": "Nombre de pages du nouveau guide.",
+      "d_ar": "عدد صفحات الدليل الجديد."
+     }
+    ]
+   }
+  },
+  {
    "cat": "maroc",
-   "sub": "economie",
-   "title": "Finance mondiale : le Maroc devient deuxième vice-président du G-24",
-   "title_ar": "المالية العالمية: المغرب نائبا ثانيا لرئيس مجموعة الـ24",
-   "summary": "Le Maroc occupera ce poste à partir du 1er novembre 2026, après la réunion du groupe à Bangkok. Selon le principe de rotation, il devrait présider le G-24 en 2028.",
-   "summary_ar": "سيشغل المغرب هذا المنصب ابتداء من فاتح نونبر 2026، بعد اجتماع المجموعة في بانكوك. ووفق مبدأ التناوب، يُنتظر أن يترأس مجموعة الـ24 سنة 2028.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/492419-le-maroc-designe-deuxieme-vice-president-du-g-24.html",
    "date": "2026-10-16",
-   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/gg-maroc.jpg",
    "explain": {
     "context": "Une délégation du ministère des Finances et de Bank Al-Maghrib a participé à la réunion. Le Maroc veut défendre les priorités des pays en développement.",
     "context_ar": "شارك في الاجتماع وفد من وزارة المالية وبنك المغرب. ويريد المغرب الدفاع عن أولويات الدول النامية.",
-    "terms": [
-     {
-      "t": "G-24",
-      "t_ar": "مجموعة الـ24",
-      "d": "Groupe de pays en développement qui accordent leurs positions sur la monnaie et la finance mondiales.",
-      "d_ar": "مجموعة من الدول النامية تنسق مواقفها حول النقد والمالية العالميين."
-     },
-     {
-      "t": "rotation",
-      "t_ar": "التناوب",
-      "d": "Règle où les pays occupent les postes chacun à leur tour.",
-      "d_ar": "قاعدة تتولى فيها الدول المناصب كل واحدة بدورها."
-     }
-    ],
     "figures": [
      {
-      "n": "2028",
-      "n_ar": "2028",
       "d": "Année où le Maroc devrait présider le groupe, après une vice-présidence en 2027.",
-      "d_ar": "السنة التي يُنتظر أن يترأس فيها المغرب المجموعة، بعد نيابة أولى للرئاسة في 2027."
+      "d_ar": "السنة التي يُنتظر أن يترأس فيها المغرب المجموعة، بعد نيابة أولى للرئاسة في 2027.",
+      "n": "2028",
+      "n_ar": "2028"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Groupe de pays en développement qui accordent leurs positions sur la monnaie et la finance mondiales.",
+      "d_ar": "مجموعة من الدول النامية تنسق مواقفها حول النقد والمالية العالميين.",
+      "t": "G-24",
+      "t_ar": "مجموعة الـ24"
+     },
+     {
+      "d": "Règle où les pays occupent les postes chacun à leur tour.",
+      "d_ar": "قاعدة تتولى فيها الدول المناصب كل واحدة بدورها.",
+      "t": "rotation",
+      "t_ar": "التناوب"
      }
     ]
-   }
+   },
+   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/gg-maroc.jpg",
+   "source": "Hespress FR",
+   "sub": "economie",
+   "summary": "Le Maroc occupera ce poste à partir du 1er novembre 2026, après la réunion du groupe à Bangkok. Selon le principe de rotation, il devrait présider le G-24 en 2028.",
+   "summary_ar": "سيشغل المغرب هذا المنصب ابتداء من فاتح نونبر 2026، بعد اجتماع المجموعة في بانكوك. ووفق مبدأ التناوب، يُنتظر أن يترأس مجموعة الـ24 سنة 2028.",
+   "title": "Finance mondiale : le Maroc devient deuxième vice-président du G-24",
+   "title_ar": "المالية العالمية: المغرب نائبا ثانيا لرئيس مجموعة الـ24",
+   "url": "https://fr.hespress.com/492419-le-maroc-designe-deuxieme-vice-president-du-g-24.html"
   },
   {
    "cat": "maroc",
-   "sub": "economie",
-   "title": "Le Maroc doit plus à l'étranger qu'il ne possède : 791,8 milliards de dirhams en 2025",
-   "title_ar": "التزامات المغرب تجاه الخارج تفوق أصوله: 791,8 مليار درهم في 2025",
-   "summary": "Selon l'Office des changes, ce solde négatif a augmenté de 81,1 milliards de dirhams en un an. Les investissements étrangers au Maroc ont progressé de 16 %, à 756,9 milliards.",
-   "summary_ar": "حسب مكتب الصرف، ارتفع هذا الرصيد السلبي بـ81,1 مليار درهم في سنة واحدة. وزادت الاستثمارات الأجنبية في المغرب بنسبة 16% لتبلغ 756,9 مليار درهم.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/492482-la-position-exterieure-globale-nationale-affiche-une-situation-nette-debitrice-de-7918-mmdh-en-2025.html",
    "date": "2026-10-16",
-   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/position-exterieure-globale.jpg",
    "explain": {
     "context": "Ce chiffre compare ce que le Maroc possède à l'étranger et ce que les étrangers possèdent au Maroc. La hausse des réserves de change a limité l'écart.",
     "context_ar": "يقارن هذا الرقم بين ما يملكه المغرب في الخارج وما يملكه الأجانب في المغرب. وقد حدّ ارتفاع احتياطيات الصرف من الفارق.",
-    "terms": [
-     {
-      "t": "Office des changes",
-      "t_ar": "مكتب الصرف",
-      "d": "Organisme public qui suit les échanges d'argent entre le Maroc et l'étranger.",
-      "d_ar": "هيئة عمومية تتابع المعاملات المالية بين المغرب والخارج."
-     },
-     {
-      "t": "investissements étrangers",
-      "t_ar": "الاستثمارات الأجنبية",
-      "d": "Argent placé par des entreprises étrangères dans des sociétés ou projets au Maroc.",
-      "d_ar": "أموال تضعها شركات أجنبية في مقاولات أو مشاريع داخل المغرب."
-     },
-     {
-      "t": "solde négatif",
-      "t_ar": "الرصيد السلبي",
-      "d": "Situation où ce qu'on doit dépasse ce qu'on possède.",
-      "d_ar": "وضع تتجاوز فيه الالتزامات ما نملكه."
-     }
-    ],
     "figures": [
      {
-      "n": "791,8 milliards de dirhams",
-      "n_ar": "791,8 مليار درهم",
       "d": "Écart fin 2025 entre les engagements du Maroc envers l'étranger et ses avoirs à l'étranger.",
-      "d_ar": "الفارق في نهاية 2025 بين التزامات المغرب تجاه الخارج وأصوله في الخارج."
+      "d_ar": "الفارق في نهاية 2025 بين التزامات المغرب تجاه الخارج وأصوله في الخارج.",
+      "n": "791,8 milliards de dirhams",
+      "n_ar": "791,8 مليار درهم"
      },
      {
-      "n": "16 %",
-      "n_ar": "16%",
       "d": "Hausse en un an du stock d'investissements étrangers au Maroc.",
-      "d_ar": "ارتفاع رصيد الاستثمارات الأجنبية في المغرب خلال سنة."
+      "d_ar": "ارتفاع رصيد الاستثمارات الأجنبية في المغرب خلال سنة.",
+      "n": "16 %",
+      "n_ar": "16%"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Organisme public qui suit les échanges d'argent entre le Maroc et l'étranger.",
+      "d_ar": "هيئة عمومية تتابع المعاملات المالية بين المغرب والخارج.",
+      "t": "Office des changes",
+      "t_ar": "مكتب الصرف"
+     },
+     {
+      "d": "Argent placé par des entreprises étrangères dans des sociétés ou projets au Maroc.",
+      "d_ar": "أموال تضعها شركات أجنبية في مقاولات أو مشاريع داخل المغرب.",
+      "t": "investissements étrangers",
+      "t_ar": "الاستثمارات الأجنبية"
+     },
+     {
+      "d": "Situation où ce qu'on doit dépasse ce qu'on possède.",
+      "d_ar": "وضع تتجاوز فيه الالتزامات ما نملكه.",
+      "t": "solde négatif",
+      "t_ar": "الرصيد السلبي"
      }
     ]
-   }
+   },
+   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/position-exterieure-globale.jpg",
+   "source": "Hespress FR",
+   "sub": "economie",
+   "summary": "Selon l'Office des changes, ce solde négatif a augmenté de 81,1 milliards de dirhams en un an. Les investissements étrangers au Maroc ont progressé de 16 %, à 756,9 milliards.",
+   "summary_ar": "حسب مكتب الصرف، ارتفع هذا الرصيد السلبي بـ81,1 مليار درهم في سنة واحدة. وزادت الاستثمارات الأجنبية في المغرب بنسبة 16% لتبلغ 756,9 مليار درهم.",
+   "title": "Le Maroc doit plus à l'étranger qu'il ne possède : 791,8 milliards de dirhams en 2025",
+   "title_ar": "التزامات المغرب تجاه الخارج تفوق أصوله: 791,8 مليار درهم في 2025",
+   "url": "https://fr.hespress.com/492482-la-position-exterieure-globale-nationale-affiche-une-situation-nette-debitrice-de-7918-mmdh-en-2025.html"
   },
   {
    "cat": "maroc",
-   "sub": "societe",
-   "title": "Assurance maladie : le patron de l'ACAPS met en garde sur la santé financière de certains régimes",
-   "title_ar": "التأمين الصحي: رئيس هيئة مراقبة التأمينات ينبه إلى هشاشة مالية بعض الأنظمة",
-   "summary": "La couverture santé est passée d'environ 40 % à 80 % de la population au Maroc. Pour Abderrahim Chaffai, cela ne garantit pas que tous les régimes tiendront dans la durée.",
-   "summary_ar": "ارتفعت التغطية الصحية في المغرب من حوالي 40% إلى 80% من السكان. ويرى عبد الرحيم الشافعي أن ذلك لا يضمن استمرار جميع الأنظمة على المدى الطويل.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/492369-couverture-sanitaire-des-fragilites-financieres-menacent-la-perennite-de-certains-regimes.html",
    "date": "2026-10-16",
-   "image": "",
    "explain": {
     "context": "Il parlait à Marrakech lors d'un colloque du Conseil de la concurrence. Le régime des salariés est jugé équilibré, celui de la CNOPS pose des questions.",
     "context_ar": "كان يتحدث في مراكش خلال ندوة لمجلس المنافسة. ويُعد نظام الأجراء متوازنا، بينما يطرح نظام الصندوق الوطني لمنظمات الاحتياط الاجتماعي تساؤلات.",
-    "terms": [
-     {
-      "t": "ACAPS",
-      "t_ar": "هيئة مراقبة التأمينات",
-      "d": "Autorité publique qui surveille les assurances et la protection sociale au Maroc.",
-      "d_ar": "سلطة عمومية تراقب التأمينات والحماية الاجتماعية في المغرب."
-     },
-     {
-      "t": "régimes",
-      "t_ar": "الأنظمة",
-      "d": "Caisses qui remboursent les soins d'un groupe de personnes, par exemple les salariés.",
-      "d_ar": "صناديق تعوض مصاريف العلاج لفئة من الناس، مثل الأجراء."
-     }
-    ],
     "figures": [
      {
-      "n": "80 %",
-      "n_ar": "80%",
       "d": "Part de la population couverte par une assurance maladie, contre environ 40 % avant.",
-      "d_ar": "نسبة السكان المشمولين بتأمين صحي، مقابل حوالي 40% من قبل."
+      "d_ar": "نسبة السكان المشمولين بتأمين صحي، مقابل حوالي 40% من قبل.",
+      "n": "80 %",
+      "n_ar": "80%"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Autorité publique qui surveille les assurances et la protection sociale au Maroc.",
+      "d_ar": "سلطة عمومية تراقب التأمينات والحماية الاجتماعية في المغرب.",
+      "t": "ACAPS",
+      "t_ar": "هيئة مراقبة التأمينات"
+     },
+     {
+      "d": "Caisses qui remboursent les soins d'un groupe de personnes, par exemple les salariés.",
+      "d_ar": "صناديق تعوض مصاريف العلاج لفئة من الناس، مثل الأجراء.",
+      "t": "régimes",
+      "t_ar": "الأنظمة"
      }
     ]
-   }
+   },
+   "image": "",
+   "source": "Hespress FR",
+   "sub": "societe",
+   "summary": "La couverture santé est passée d'environ 40 % à 80 % de la population au Maroc. Pour Abderrahim Chaffai, cela ne garantit pas que tous les régimes tiendront dans la durée.",
+   "summary_ar": "ارتفعت التغطية الصحية في المغرب من حوالي 40% إلى 80% من السكان. ويرى عبد الرحيم الشافعي أن ذلك لا يضمن استمرار جميع الأنظمة على المدى الطويل.",
+   "title": "Assurance maladie : le patron de l'ACAPS met en garde sur la santé financière de certains régimes",
+   "title_ar": "التأمين الصحي: رئيس هيئة مراقبة التأمينات ينبه إلى هشاشة مالية بعض الأنظمة",
+   "url": "https://fr.hespress.com/492369-couverture-sanitaire-des-fragilites-financieres-menacent-la-perennite-de-certains-regimes.html"
   },
   {
    "cat": "maroc",
-   "sub": "economie",
-   "title": "Cannabis légal : 1 100 hectares récoltés et 1 490 autorisations retirées",
-   "title_ar": "القنب الهندي المشروع: حصاد 1100 هكتار وسحب 1490 ترخيصا",
-   "summary": "L'agence chargée du cannabis légal a retiré 1 490 autorisations, surtout à des agriculteurs, pour non-respect des règles. La récolte de 2026 couvre déjà 60 % des surfaces de la variété locale.",
-   "summary_ar": "سحبت الوكالة المكلفة بالقنب الهندي المشروع 1490 ترخيصا، أغلبها لفلاحين، بسبب عدم احترام القواعد. ويغطي حصاد 2026 حتى الآن 60% من مساحات الصنف المحلي.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/492355-cannabis-legal-1-100-hectares-recoltes-et-pres-de-1-500-autorisations-retirees-pour-non-respect-des-procedures.html",
    "date": "2026-10-16",
-   "image": "https://f2.hespress.com/wp-content/uploads/2024/01/Cannabis-838x558-copie.jpg",
    "explain": {
     "context": "Environ 1 800 agriculteurs, réunis dans 154 coopératives, cultivent légalement dans trois provinces. La récolte de la variété importée va jusqu'en décembre.",
     "context_ar": "يزرع حوالي 1800 فلاح، منضوين في 154 تعاونية، بشكل قانوني في ثلاثة أقاليم. ويستمر حصاد الصنف المستورد حتى دجنبر.",
-    "terms": [
-     {
-      "t": "variété locale",
-      "t_ar": "الصنف المحلي",
-      "d": "Plante traditionnelle du pays, appelée « beldia ».",
-      "d_ar": "نبتة تقليدية في البلاد تسمى «البلدية»."
-     }
-    ],
     "figures": [
      {
-      "n": "1 490",
-      "n_ar": "1490",
       "d": "Autorisations retirées, dont environ 1 300 à des agriculteurs.",
-      "d_ar": "عدد التراخيص المسحوبة، منها حوالي 1300 لفلاحين."
+      "d_ar": "عدد التراخيص المسحوبة، منها حوالي 1300 لفلاحين.",
+      "n": "1 490",
+      "n_ar": "1490"
      },
      {
-      "n": "1 100 hectares",
-      "n_ar": "1100 هكتار",
       "d": "Surface déjà récoltée, soit environ 1 500 terrains de football.",
-      "d_ar": "المساحة المحصودة حتى الآن، أي ما يعادل نحو 1500 ملعب كرة قدم."
+      "d_ar": "المساحة المحصودة حتى الآن، أي ما يعادل نحو 1500 ملعب كرة قدم.",
+      "n": "1 100 hectares",
+      "n_ar": "1100 هكتار"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Plante traditionnelle du pays, appelée « beldia ».",
+      "d_ar": "نبتة تقليدية في البلاد تسمى «البلدية».",
+      "t": "variété locale",
+      "t_ar": "الصنف المحلي"
      }
     ]
-   }
+   },
+   "image": "https://f2.hespress.com/wp-content/uploads/2024/01/Cannabis-838x558-copie.jpg",
+   "source": "Hespress FR",
+   "sub": "economie",
+   "summary": "L'agence chargée du cannabis légal a retiré 1 490 autorisations, surtout à des agriculteurs, pour non-respect des règles. La récolte de 2026 couvre déjà 60 % des surfaces de la variété locale.",
+   "summary_ar": "سحبت الوكالة المكلفة بالقنب الهندي المشروع 1490 ترخيصا، أغلبها لفلاحين، بسبب عدم احترام القواعد. ويغطي حصاد 2026 حتى الآن 60% من مساحات الصنف المحلي.",
+   "title": "Cannabis légal : 1 100 hectares récoltés et 1 490 autorisations retirées",
+   "title_ar": "القنب الهندي المشروع: حصاد 1100 هكتار وسحب 1490 ترخيصا",
+   "url": "https://fr.hespress.com/492355-cannabis-legal-1-100-hectares-recoltes-et-pres-de-1-500-autorisations-retirees-pour-non-respect-des-procedures.html"
   },
   {
    "cat": "sport",
-   "sport": "tennis",
-   "title": "Shanghai : Rafael Jodar bat Medvedev et file en finale contre Davidovich Fokina",
-   "title_ar": "شنغهاي: رافاييل خودار يهزم ميدفيديف ويتأهل للنهائي أمام دافيدوفيتش فوكينا",
-   "summary": "L'Espagnol Rafael Jodar a battu Daniil Medvedev 6-3, 6-4 en demi-finale du Masters 1000 de Shanghai. Il affrontera en finale son compatriote Alejandro Davidovich Fokina, qu'il n'a jamais joué sur le circuit.",
-   "summary_ar": "فاز الإسباني رافاييل خودار على دانييل ميدفيديف 6-3 و6-4 في نصف نهائي دورة شنغهاي للماسترز 1000. وسيواجه في النهائي مواطنه أليخاندرو دافيدوفيتش فوكينا الذي لم يسبق أن لعب ضده في الدوري.",
-   "source": "Tennis Tonic",
-   "url": "https://tennistonic.com/tennis-news/1066626/rafael-jodar-ousts-medvedev-in-the-semifinal-shanghai-results-highlights/",
    "date": "2026-10-17",
-   "image": "https://tennistonic.com/wp-content/uploads/2026/10/Prediction-and-head-to-head-Rafael-Jodar-vs-Daniil-Medvedev-UvZHEO31Fs.jpg",
    "explain": {
     "context": "La finale sera 100 % espagnole. Davidovich Fokina avait sorti Alexander Zverev, tête de série n°1, dans l'autre demi-finale.",
     "context_ar": "سيكون النهائي إسبانيا خالصا. وكان دافيدوفيتش فوكينا قد أقصى ألكسندر زفيريف، المصنف الأول، في نصف النهائي الآخر.",
-    "terms": [
-     {
-      "t": "Masters 1000",
-      "t_ar": "الماسترز 1000",
-      "d": "Catégorie de grands tournois ATP, juste en dessous des Grand Chelem.",
-      "d_ar": "فئة من دورات رابطة المحترفين الكبرى، تأتي مباشرة بعد البطولات الأربع الكبرى."
-     }
-    ],
     "figures": [
      {
-      "n": "6-3, 6-4",
-      "n_ar": "6-3 و6-4",
       "d": "Score en deux sets, une victoire nette.",
-      "d_ar": "النتيجة في مجموعتين، وهو فوز واضح."
+      "d_ar": "النتيجة في مجموعتين، وهو فوز واضح.",
+      "n": "6-3, 6-4",
+      "n_ar": "6-3 و6-4"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Catégorie de grands tournois ATP, juste en dessous des Grand Chelem.",
+      "d_ar": "فئة من دورات رابطة المحترفين الكبرى، تأتي مباشرة بعد البطولات الأربع الكبرى.",
+      "t": "Masters 1000",
+      "t_ar": "الماسترز 1000"
      }
     ]
-   }
+   },
+   "image": "https://tennistonic.com/wp-content/uploads/2026/10/Prediction-and-head-to-head-Rafael-Jodar-vs-Daniil-Medvedev-UvZHEO31Fs.jpg",
+   "source": "Tennis Tonic",
+   "sport": "tennis",
+   "summary": "L'Espagnol Rafael Jodar a battu Daniil Medvedev 6-3, 6-4 en demi-finale du Masters 1000 de Shanghai. Il affrontera en finale son compatriote Alejandro Davidovich Fokina, qu'il n'a jamais joué sur le circuit.",
+   "summary_ar": "فاز الإسباني رافاييل خودار على دانييل ميدفيديف 6-3 و6-4 في نصف نهائي دورة شنغهاي للماسترز 1000. وسيواجه في النهائي مواطنه أليخاندرو دافيدوفيتش فوكينا الذي لم يسبق أن لعب ضده في الدوري.",
+   "title": "Shanghai : Rafael Jodar bat Medvedev et file en finale contre Davidovich Fokina",
+   "title_ar": "شنغهاي: رافاييل خودار يهزم ميدفيديف ويتأهل للنهائي أمام دافيدوفيتش فوكينا",
+   "url": "https://tennistonic.com/tennis-news/1066626/rafael-jodar-ousts-medvedev-in-the-semifinal-shanghai-results-highlights/"
   },
   {
    "cat": "sport",
-   "sport": "football",
-   "title": "Premier League : doublé de Pedro Neto, Chelsea inflige à Everton sa première défaite",
-   "title_ar": "الدوري الإنجليزي: ثنائية لبيدرو نيتو وتشيلسي يلحق بإيفرتون أول هزيمة",
-   "summary": "Chelsea a gagné 2-0 à Everton samedi grâce à deux buts de Pedro Neto, à la 47e et à la 90e minute. Everton n'avait encore jamais perdu cette saison en championnat.",
-   "summary_ar": "فاز تشيلسي على إيفرتون 2-0 يوم السبت بفضل هدفين لبيدرو نيتو في الدقيقتين 47 و90. ولم يكن إيفرتون قد خسر أي مباراة في الدوري هذا الموسم.",
-   "source": "VAVEL",
-   "url": "https://www.vavel.com/en-us/soccer/2026/10/17/1275532-everton-vs-chelsea-live-score-premier-league.html",
    "date": "2026-10-17",
-   "image": "https://img.vavel.com/c1200_675_everton-vs-chelsea-1275532-1792212552569-gl8o3i.jpg",
    "explain": {
     "context": "Le gardien d'Everton, Dibu Martinez, s'est blessé après un choc avec un coéquipier et a dû céder sa place à Mike Penders.",
     "context_ar": "أصيب حارس إيفرتون ديبو مارتينيز بعد اصطدام مع زميل له، واضطر لترك مكانه لمايك بندرز.",
+    "figures": [],
     "terms": [
      {
-      "t": "doublé",
-      "t_ar": "ثنائية",
       "d": "Deux buts marqués par le même joueur dans un match.",
-      "d_ar": "هدفان يسجلهما اللاعب نفسه في مباراة واحدة."
+      "d_ar": "هدفان يسجلهما اللاعب نفسه في مباراة واحدة.",
+      "t": "doublé",
+      "t_ar": "ثنائية"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://img.vavel.com/c1200_675_everton-vs-chelsea-1275532-1792212552569-gl8o3i.jpg",
+   "source": "VAVEL",
+   "sport": "football",
+   "summary": "Chelsea a gagné 2-0 à Everton samedi grâce à deux buts de Pedro Neto, à la 47e et à la 90e minute. Everton n'avait encore jamais perdu cette saison en championnat.",
+   "summary_ar": "فاز تشيلسي على إيفرتون 2-0 يوم السبت بفضل هدفين لبيدرو نيتو في الدقيقتين 47 و90. ولم يكن إيفرتون قد خسر أي مباراة في الدوري هذا الموسم.",
+   "title": "Premier League : doublé de Pedro Neto, Chelsea inflige à Everton sa première défaite",
+   "title_ar": "الدوري الإنجليزي: ثنائية لبيدرو نيتو وتشيلسي يلحق بإيفرتون أول هزيمة",
+   "url": "https://www.vavel.com/en-us/soccer/2026/10/17/1275532-everton-vs-chelsea-live-score-premier-league.html"
   },
   {
    "cat": "sport",
-   "sport": "basket",
-   "title": "NBA : LeBron James joue pour la première fois à domicile avec Philadelphie, battu par Boston",
-   "title_ar": "الدوري الأمريكي لكرة السلة: ليبرون جيمس يلعب أول مرة على أرضه مع فيلادلفيا ويخسر أمام بوسطن",
-   "summary": "En match de préparation, les Celtics ont battu les Sixers 125-120 après prolongation. LeBron James a fini avec 8 points, 8 rebonds et 7 passes, Joel Embiid a marqué 27 points.",
-   "summary_ar": "في مباراة إعدادية، فاز سيلتيكس على سيكسرز 125-120 بعد وقت إضافي. وأنهى ليبرون جيمس اللقاء بـ8 نقاط و8 متابعات و7 تمريرات حاسمة، بينما سجل جويل إمبيد 27 نقطة.",
-   "source": "NBC Sports Philadelphia",
-   "url": "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-celtics-preseason-live-updates-lebron-james/759087/",
    "date": "2026-10-16",
-   "image": "https://media.nbcsportsphiladelphia.com/2026/10/DSC03863.jpg?quality=85&strip=all&crop=234px%2C68px%2C1296px%2C730px&resize=1200%2C675",
    "explain": {
     "context": "Boston jouait sans plusieurs titulaires. Philadelphie commence la saison mardi 20 octobre à New York, contre les Knicks.",
     "context_ar": "لعب بوسطن دون عدد من لاعبيه الأساسيين. ويفتتح فيلادلفيا الموسم يوم الثلاثاء 20 أكتوبر في نيويورك أمام نيكس.",
-    "terms": [
-     {
-      "t": "prolongation",
-      "t_ar": "وقت إضافي",
-      "d": "Temps de jeu ajouté quand les deux équipes sont à égalité à la fin.",
-      "d_ar": "وقت لعب يضاف عندما يتعادل الفريقان في النهاية."
-     },
-     {
-      "t": "rebonds",
-      "t_ar": "متابعات",
-      "d": "Ballons récupérés après un tir raté.",
-      "d_ar": "كرات يتم استرجاعها بعد تسديدة ضائعة."
-     }
-    ],
     "figures": [
      {
-      "n": "27 points",
-      "n_ar": "27 نقطة",
       "d": "Total de Joel Embiid en 29 minutes, le meilleur de son équipe.",
-      "d_ar": "مجموع جويل إمبيد في 29 دقيقة، وهو الأفضل في فريقه."
+      "d_ar": "مجموع جويل إمبيد في 29 دقيقة، وهو الأفضل في فريقه.",
+      "n": "27 points",
+      "n_ar": "27 نقطة"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Temps de jeu ajouté quand les deux équipes sont à égalité à la fin.",
+      "d_ar": "وقت لعب يضاف عندما يتعادل الفريقان في النهاية.",
+      "t": "prolongation",
+      "t_ar": "وقت إضافي"
+     },
+     {
+      "d": "Ballons récupérés après un tir raté.",
+      "d_ar": "كرات يتم استرجاعها بعد تسديدة ضائعة.",
+      "t": "rebonds",
+      "t_ar": "متابعات"
      }
     ]
-   }
+   },
+   "image": "https://media.nbcsportsphiladelphia.com/2026/10/DSC03863.jpg?quality=85&strip=all&crop=234px%2C68px%2C1296px%2C730px&resize=1200%2C675",
+   "source": "NBC Sports Philadelphia",
+   "sport": "basket",
+   "summary": "En match de préparation, les Celtics ont battu les Sixers 125-120 après prolongation. LeBron James a fini avec 8 points, 8 rebonds et 7 passes, Joel Embiid a marqué 27 points.",
+   "summary_ar": "في مباراة إعدادية، فاز سيلتيكس على سيكسرز 125-120 بعد وقت إضافي. وأنهى ليبرون جيمس اللقاء بـ8 نقاط و8 متابعات و7 تمريرات حاسمة، بينما سجل جويل إمبيد 27 نقطة.",
+   "title": "NBA : LeBron James joue pour la première fois à domicile avec Philadelphie, battu par Boston",
+   "title_ar": "الدوري الأمريكي لكرة السلة: ليبرون جيمس يلعب أول مرة على أرضه مع فيلادلفيا ويخسر أمام بوسطن",
+   "url": "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-celtics-preseason-live-updates-lebron-james/759087/"
   },
   {
    "cat": "ia",
-   "title": "Une IA d'Anthropic perce le mystère des courbes de chiffrement de la NSA",
-   "title_ar": "ذكاء اصطناعي من أنثروبيك يكشف لغز منحنيات التشفير الخاصة بوكالة الأمن القومي",
-   "summary": "En moins d'une demi-heure, un modèle d'Anthropic a montré que cinq nombres de départ fournis par la NSA à la fin des années 1990 venaient d'un simple générateur de hasard. Cela rend moins probable une porte dérobée cachée.",
-   "summary_ar": "في أقل من نصف ساعة، بيّن نموذج من أنثروبيك أن خمسة أرقام انطلاق قدمتها وكالة الأمن القومي الأمريكية أواخر التسعينيات جاءت من مولد عشوائي بسيط. وهذا يجعل وجود باب خلفي مخفي أقل احتمالا.",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/tech/2026/10/17/wow-it-s-a-real-discovery-claude-cracks-a-25-year-nsa-number-mystery",
    "date": "2026-10-17",
-   "image": "https://cdn.sanity.io/images/s3y3vcno/production/2297ea2e470af647418127b13e7a3275fed8827a-1920x1200.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
    "explain": {
     "context": "Ces courbes servent à sécuriser beaucoup d'échanges sur Internet. Leur origine inexpliquée faisait douter depuis 25 ans. Le bitcoin, qui utilise une autre courbe, n'est pas concerné.",
     "context_ar": "تُستخدم هذه المنحنيات لتأمين كثير من المعاملات على الإنترنت. وكان أصلها الغامض يثير الشكوك منذ 25 سنة. ولا يشمل الأمر البيتكوين الذي يستعمل منحنى آخر.",
-    "terms": [
-     {
-      "t": "NSA",
-      "t_ar": "وكالة الأمن القومي",
-      "d": "Service de renseignement américain spécialisé dans les communications.",
-      "d_ar": "جهاز استخبارات أمريكي متخصص في الاتصالات."
-     },
-     {
-      "t": "porte dérobée",
-      "t_ar": "باب خلفي",
-      "d": "Accès secret caché dans un système pour pouvoir le contourner.",
-      "d_ar": "منفذ سري مخفي داخل نظام لتجاوز حمايته."
-     },
-     {
-      "t": "chiffrement",
-      "t_ar": "التشفير",
-      "d": "Technique qui rend un message illisible pour ceux qui n'ont pas la clé.",
-      "d_ar": "تقنية تجعل الرسالة غير مقروءة لمن لا يملك المفتاح."
-     }
-    ],
     "figures": [
      {
-      "n": "cinq",
-      "n_ar": "خمسة",
       "d": "Nombres de départ des courbes, restés inexpliqués depuis la fin des années 1990.",
-      "d_ar": "أرقام الانطلاق الخاصة بالمنحنيات، التي ظلت دون تفسير منذ أواخر التسعينيات."
+      "d_ar": "أرقام الانطلاق الخاصة بالمنحنيات، التي ظلت دون تفسير منذ أواخر التسعينيات.",
+      "n": "cinq",
+      "n_ar": "خمسة"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Service de renseignement américain spécialisé dans les communications.",
+      "d_ar": "جهاز استخبارات أمريكي متخصص في الاتصالات.",
+      "t": "NSA",
+      "t_ar": "وكالة الأمن القومي"
+     },
+     {
+      "d": "Accès secret caché dans un système pour pouvoir le contourner.",
+      "d_ar": "منفذ سري مخفي داخل نظام لتجاوز حمايته.",
+      "t": "porte dérobée",
+      "t_ar": "باب خلفي"
+     },
+     {
+      "d": "Technique qui rend un message illisible pour ceux qui n'ont pas la clé.",
+      "d_ar": "تقنية تجعل الرسالة غير مقروءة لمن لا يملك المفتاح.",
+      "t": "chiffrement",
+      "t_ar": "التشفير"
      }
     ]
-   }
+   },
+   "image": "https://cdn.sanity.io/images/s3y3vcno/production/2297ea2e470af647418127b13e7a3275fed8827a-1920x1200.jpg?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75",
+   "source": "CoinDesk",
+   "summary": "En moins d'une demi-heure, un modèle d'Anthropic a montré que cinq nombres de départ fournis par la NSA à la fin des années 1990 venaient d'un simple générateur de hasard. Cela rend moins probable une porte dérobée cachée.",
+   "summary_ar": "في أقل من نصف ساعة، بيّن نموذج من أنثروبيك أن خمسة أرقام انطلاق قدمتها وكالة الأمن القومي الأمريكية أواخر التسعينيات جاءت من مولد عشوائي بسيط. وهذا يجعل وجود باب خلفي مخفي أقل احتمالا.",
+   "title": "Une IA d'Anthropic perce le mystère des courbes de chiffrement de la NSA",
+   "title_ar": "ذكاء اصطناعي من أنثروبيك يكشف لغز منحنيات التشفير الخاصة بوكالة الأمن القومي",
+   "url": "https://www.coindesk.com/tech/2026/10/17/wow-it-s-a-real-discovery-claude-cracks-a-25-year-nsa-number-mystery"
   },
   {
    "cat": "ia",
-   "title": "Anthropic propose aux élus américains sa propre loi sur la sécurité de l'IA",
-   "title_ar": "أنثروبيك تقترح على المشرعين الأمريكيين قانونها الخاص لسلامة الذكاء الاصطناعي",
-   "summary": "Selon Politico, Anthropic a présenté un projet de loi qui obligerait les grands laboratoires à tester leurs modèles et à les faire évaluer par des experts indépendants. L'État ne pourrait bloquer un modèle qu'en cas de risque grave et proche.",
-   "summary_ar": "حسب بوليتيكو، قدمت أنثروبيك مشروع قانون يُلزم المختبرات الكبرى باختبار نماذجها وإخضاعها لتقييم خبراء مستقلين. ولن تتمكن الدولة من منع نموذج إلا في حالة خطر جسيم ووشيك.",
-   "source": "The Star (Reuters)",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/17/anthropic-quietly-pitches-its-own-ai-safety-bill-to-lawmakers-politico-reports",
    "date": "2026-10-17",
-   "image": "https://apicms.thestar.com.my/uploads/images/2026/10/17/4166383.jpg",
    "explain": {
     "context": "Le risque doit venir d'une arme biologique, d'une cyberattaque ou d'un modèle qui échappe au contrôle de ses créateurs. Seul un juge fédéral pourrait ordonner l'arrêt.",
     "context_ar": "يجب أن يأتي الخطر من سلاح بيولوجي أو هجوم إلكتروني أو نموذج يفلت من سيطرة مطوريه. ولن يأمر بالإيقاف إلا قاض فيدرالي.",
+    "figures": [],
     "terms": [
      {
-      "t": "projet de loi",
-      "t_ar": "مشروع قانون",
       "d": "Texte proposé aux élus, qui ne devient une loi qu'après leur vote.",
-      "d_ar": "نص يُقترح على المنتخبين ولا يصبح قانونا إلا بعد تصويتهم."
+      "d_ar": "نص يُقترح على المنتخبين ولا يصبح قانونا إلا بعد تصويتهم.",
+      "t": "projet de loi",
+      "t_ar": "مشروع قانون"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://apicms.thestar.com.my/uploads/images/2026/10/17/4166383.jpg",
+   "source": "The Star (Reuters)",
+   "summary": "Selon Politico, Anthropic a présenté un projet de loi qui obligerait les grands laboratoires à tester leurs modèles et à les faire évaluer par des experts indépendants. L'État ne pourrait bloquer un modèle qu'en cas de risque grave et proche.",
+   "summary_ar": "حسب بوليتيكو، قدمت أنثروبيك مشروع قانون يُلزم المختبرات الكبرى باختبار نماذجها وإخضاعها لتقييم خبراء مستقلين. ولن تتمكن الدولة من منع نموذج إلا في حالة خطر جسيم ووشيك.",
+   "title": "Anthropic propose aux élus américains sa propre loi sur la sécurité de l'IA",
+   "title_ar": "أنثروبيك تقترح على المشرعين الأمريكيين قانونها الخاص لسلامة الذكاء الاصطناعي",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/17/anthropic-quietly-pitches-its-own-ai-safety-bill-to-lawmakers-politico-reports"
   },
   {
    "cat": "eco",
-   "title": "FMI : la dette et les guerres pèsent sur les pays les plus pauvres",
-   "title_ar": "صندوق النقد الدولي: الديون والحروب تثقل كاهل أفقر الدول",
-   "summary": "À la fin des assemblées de Bangkok, Kristalina Georgieva a demandé d'aider les pays à faible revenu, qui consacrent 8 à 14 % de leurs recettes au remboursement de leur dette. Elle a qualifié l'inflation d'« impôt sur les pauvres ».",
-   "summary_ar": "في ختام اجتماعات بانكوك، دعت كريستالينا غورغييفا إلى مساعدة الدول منخفضة الدخل التي تخصص ما بين 8 و14% من مداخيلها لسداد ديونها. ووصفت التضخم بأنه «ضريبة على الفقراء».",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/economy/2026/10/17/war-spillovers-debt-threaten-low-income-nations-imf-chief-warns",
    "date": "2026-10-17",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/epa_6ad33713b8c0-1792227091.jpg?resize=1920%2C1440",
    "explain": {
     "context": "Les prix de l'énergie ont monté depuis la guerre lancée en février contre l'Iran. Le FMI veut aider à restructurer certaines dettes et discute avec l'Irak et le Liban.",
     "context_ar": "ارتفعت أسعار الطاقة منذ الحرب التي اندلعت في فبراير ضد إيران. ويريد الصندوق المساعدة في إعادة هيكلة بعض الديون، ويتباحث مع العراق ولبنان.",
-    "terms": [
-     {
-      "t": "inflation",
-      "t_ar": "التضخم",
-      "d": "Hausse générale des prix : avec le même argent, on achète moins.",
-      "d_ar": "ارتفاع عام في الأسعار: بالمال نفسه نشتري أقل."
-     },
-     {
-      "t": "pays à faible revenu",
-      "t_ar": "الدول منخفضة الدخل",
-      "d": "Pays où la richesse produite par habitant est la plus basse.",
-      "d_ar": "دول تكون فيها الثروة المنتجة لكل فرد هي الأدنى."
-     },
-     {
-      "t": "recettes",
-      "t_ar": "المداخيل",
-      "d": "Argent que l'État reçoit, surtout grâce aux impôts.",
-      "d_ar": "الأموال التي تحصل عليها الدولة، أساسا من الضرائب."
-     }
-    ],
     "figures": [
      {
-      "n": "8 à 14 %",
-      "n_ar": "ما بين 8 و14%",
       "d": "Part des recettes des pays pauvres qui part dans la dette, plus qu'avant à cause des taux élevés.",
-      "d_ar": "حصة مداخيل الدول الفقيرة التي تذهب للديون، وهي أكثر من قبل بسبب ارتفاع الفائدة."
+      "d_ar": "حصة مداخيل الدول الفقيرة التي تذهب للديون، وهي أكثر من قبل بسبب ارتفاع الفائدة.",
+      "n": "8 à 14 %",
+      "n_ar": "ما بين 8 و14%"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Hausse générale des prix : avec le même argent, on achète moins.",
+      "d_ar": "ارتفاع عام في الأسعار: بالمال نفسه نشتري أقل.",
+      "t": "inflation",
+      "t_ar": "التضخم"
+     },
+     {
+      "d": "Pays où la richesse produite par habitant est la plus basse.",
+      "d_ar": "دول تكون فيها الثروة المنتجة لكل فرد هي الأدنى.",
+      "t": "pays à faible revenu",
+      "t_ar": "الدول منخفضة الدخل"
+     },
+     {
+      "d": "Argent que l'État reçoit, surtout grâce aux impôts.",
+      "d_ar": "الأموال التي تحصل عليها الدولة، أساسا من الضرائب.",
+      "t": "recettes",
+      "t_ar": "المداخيل"
      }
     ]
-   }
+   },
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/epa_6ad33713b8c0-1792227091.jpg?resize=1920%2C1440",
+   "source": "Al Jazeera",
+   "summary": "À la fin des assemblées de Bangkok, Kristalina Georgieva a demandé d'aider les pays à faible revenu, qui consacrent 8 à 14 % de leurs recettes au remboursement de leur dette. Elle a qualifié l'inflation d'« impôt sur les pauvres ».",
+   "summary_ar": "في ختام اجتماعات بانكوك، دعت كريستالينا غورغييفا إلى مساعدة الدول منخفضة الدخل التي تخصص ما بين 8 و14% من مداخيلها لسداد ديونها. ووصفت التضخم بأنه «ضريبة على الفقراء».",
+   "title": "FMI : la dette et les guerres pèsent sur les pays les plus pauvres",
+   "title_ar": "صندوق النقد الدولي: الديون والحروب تثقل كاهل أفقر الدول",
+   "url": "https://www.aljazeera.com/economy/2026/10/17/war-spillovers-debt-threaten-low-income-nations-imf-chief-warns"
   },
   {
    "cat": "tech",
-   "title": "iPhone Duo : le premier iPhone pliable en rupture en quelques minutes",
-   "title_ar": "آيفون ديو: أول آيفون قابل للطي ينفد في دقائق",
-   "summary": "Vendu à partir de 1 999 dollars, l'iPhone pliable d'Apple a été épuisé peu après l'ouverture des commandes, le 16 octobre. Certaines livraisons sont repoussées à fin janvier.",
-   "summary_ar": "نفد هاتف آبل القابل للطي، الذي يبدأ سعره من 1999 دولارا، بعد وقت قصير من فتح الطلبات يوم 16 أكتوبر. وتأجلت بعض عمليات التسليم إلى نهاية يناير.",
-   "source": "24/7 Wall St.",
-   "url": "https://247wallst.com/investing/2026/10/17/apples-1999-foldable-iphone-sold-out-in-minutes-deliveries-now-slip-to-january",
    "date": "2026-10-17",
-   "image": "https://247wallst.com/wp-content/uploads/2026/10/apple-s-1-999-foldable-iphone-sold-out-in-minutes-featured-1792204507560.webp",
    "explain": {
     "context": "La sortie officielle est prévue le 23 octobre. Le modèle de base a 256 Go de stockage. Les dates de livraison varient selon le pays et la version.",
     "context_ar": "الإطلاق الرسمي مقرر يوم 23 أكتوبر. ويتوفر الطراز الأساسي على 256 جيغابايت من التخزين. وتختلف مواعيد التسليم حسب البلد والنسخة.",
-    "terms": [
-     {
-      "t": "en rupture",
-      "t_ar": "ينفد",
-      "d": "Quand un produit n'est plus disponible parce que tout le stock est vendu.",
-      "d_ar": "عندما لا يعود المنتج متوفرا لأن كل المخزون بيع."
-     }
-    ],
     "figures": [
      {
-      "n": "1 999 dollars",
-      "n_ar": "1999 دولارا",
       "d": "Prix de départ, environ deux fois celui d'un iPhone classique haut de gamme.",
-      "d_ar": "السعر الأدنى، أي حوالي ضعف ثمن آيفون عادي من الفئة الراقية."
+      "d_ar": "السعر الأدنى، أي حوالي ضعف ثمن آيفون عادي من الفئة الراقية.",
+      "n": "1 999 dollars",
+      "n_ar": "1999 دولارا"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Quand un produit n'est plus disponible parce que tout le stock est vendu.",
+      "d_ar": "عندما لا يعود المنتج متوفرا لأن كل المخزون بيع.",
+      "t": "en rupture",
+      "t_ar": "ينفد"
      }
     ]
-   }
+   },
+   "image": "https://247wallst.com/wp-content/uploads/2026/10/apple-s-1-999-foldable-iphone-sold-out-in-minutes-featured-1792204507560.webp",
+   "source": "24/7 Wall St.",
+   "summary": "Vendu à partir de 1 999 dollars, l'iPhone pliable d'Apple a été épuisé peu après l'ouverture des commandes, le 16 octobre. Certaines livraisons sont repoussées à fin janvier.",
+   "summary_ar": "نفد هاتف آبل القابل للطي، الذي يبدأ سعره من 1999 دولارا، بعد وقت قصير من فتح الطلبات يوم 16 أكتوبر. وتأجلت بعض عمليات التسليم إلى نهاية يناير.",
+   "title": "iPhone Duo : le premier iPhone pliable en rupture en quelques minutes",
+   "title_ar": "آيفون ديو: أول آيفون قابل للطي ينفد في دقائق",
+   "url": "https://247wallst.com/investing/2026/10/17/apples-1999-foldable-iphone-sold-out-in-minutes-deliveries-now-slip-to-january"
   },
   {
    "cat": "gaming",
-   "title": "Le film Cyberpunk avec Paramount racontera une nouvelle histoire",
-   "title_ar": "فيلم «سايبربانك» مع باراماونت سيروي قصة جديدة",
-   "summary": "Le co-patron de CD Projekt a confirmé un film en prises de vues réelles avec Paramount Pictures. Il ne reprendra pas l'histoire du jeu, mais se passera dans le même univers.",
-   "summary_ar": "أكد الرئيس المشارك لشركة CD Projekt إنتاج فيلم بممثلين حقيقيين مع باراماونت بيكتشرز. ولن يعيد الفيلم قصة اللعبة، بل ستدور أحداثه في العالم نفسه.",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/movies-tv/the-cyberpunk-2077-movie-wont-be-a-film-adaptation-of-the-game-cd-projekt-chief-says/",
    "date": "2026-10-16",
-   "image": "",
    "explain": {
     "context": "Un premier projet annoncé en 2023 avec Anonymous Content n'avait pas abouti. La série animée Cyberpunk: Edgerunners 2 arrive sur Netflix le 20 octobre.",
     "context_ar": "لم ينجح مشروع أول أُعلن عنه سنة 2023 مع شركة Anonymous Content. ويصل مسلسل الرسوم المتحركة «سايبربانك: إدجرانرز 2» إلى نتفليكس يوم 20 أكتوبر.",
+    "figures": [],
     "terms": [
      {
-      "t": "prises de vues réelles",
-      "t_ar": "ممثلين حقيقيين",
       "d": "Film tourné avec de vrais acteurs, et non en dessin animé.",
-      "d_ar": "فيلم يُصوَّر بممثلين حقيقيين وليس بالرسوم المتحركة."
+      "d_ar": "فيلم يُصوَّر بممثلين حقيقيين وليس بالرسوم المتحركة.",
+      "t": "prises de vues réelles",
+      "t_ar": "ممثلين حقيقيين"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "",
+   "source": "PC Gamer",
+   "summary": "Le co-patron de CD Projekt a confirmé un film en prises de vues réelles avec Paramount Pictures. Il ne reprendra pas l'histoire du jeu, mais se passera dans le même univers.",
+   "summary_ar": "أكد الرئيس المشارك لشركة CD Projekt إنتاج فيلم بممثلين حقيقيين مع باراماونت بيكتشرز. ولن يعيد الفيلم قصة اللعبة، بل ستدور أحداثه في العالم نفسه.",
+   "title": "Le film Cyberpunk avec Paramount racontera une nouvelle histoire",
+   "title_ar": "فيلم «سايبربانك» مع باراماونت سيروي قصة جديدة",
+   "url": "https://www.pcgamer.com/movies-tv/the-cyberpunk-2077-movie-wont-be-a-film-adaptation-of-the-game-cd-projekt-chief-says/"
   },
   {
    "cat": "geo",
-   "title": "Sud de la Syrie : les incursions israéliennes poussent la population à bout",
-   "title_ar": "جنوب سوريا: التوغلات الإسرائيلية تدفع السكان إلى حافة الانهيار",
-   "summary": "Au moins 51 Syriens sont encore détenus en Israël, selon Al Jazeera. Un centre local a compté 280 violations israéliennes de l'accord de 1974 rien qu'en septembre.",
-   "summary_ar": "لا يزال 51 سوريا على الأقل محتجزين في إسرائيل، حسب الجزيرة. وأحصى مركز محلي 280 خرقا إسرائيليا لاتفاق 1974 خلال شتنبر وحده.",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/features/2026/10/17/israeli-raids-and-arrests-in-southern-syria-push-population-to-the-brink",
    "date": "2026-10-17",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/AP25346650977796-1792177581.jpg?resize=1920%2C1440",
    "explain": {
     "context": "Israël a élargi son occupation en Syrie après la chute de Bachar al-Assad en décembre 2024. Des obus tombent presque chaque jour dans les champs depuis août.",
     "context_ar": "وسّعت إسرائيل احتلالها لأراض سورية بعد سقوط بشار الأسد في دجنبر 2024. وتسقط القذائف على الحقول بشكل شبه يومي منذ غشت.",
-    "terms": [
-     {
-      "t": "accord de 1974",
-      "t_ar": "اتفاق 1974",
-      "d": "Accord qui a séparé les armées syrienne et israélienne après la guerre de 1973.",
-      "d_ar": "اتفاق فصل بين الجيشين السوري والإسرائيلي بعد حرب 1973."
-     },
-     {
-      "t": "incursions",
-      "t_ar": "التوغلات",
-      "d": "Entrées rapides de soldats sur un territoire qui n'est pas le leur.",
-      "d_ar": "دخول سريع لجنود إلى أرض ليست أرضهم."
-     }
-    ],
     "figures": [
      {
-      "n": "280",
-      "n_ar": "280",
       "d": "Violations relevées en un mois : raids, arrestations et tirs.",
-      "d_ar": "عدد الخروقات المسجلة في شهر واحد: مداهمات واعتقالات وإطلاق نار."
+      "d_ar": "عدد الخروقات المسجلة في شهر واحد: مداهمات واعتقالات وإطلاق نار.",
+      "n": "280",
+      "n_ar": "280"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Accord qui a séparé les armées syrienne et israélienne après la guerre de 1973.",
+      "d_ar": "اتفاق فصل بين الجيشين السوري والإسرائيلي بعد حرب 1973.",
+      "t": "accord de 1974",
+      "t_ar": "اتفاق 1974"
+     },
+     {
+      "d": "Entrées rapides de soldats sur un territoire qui n'est pas le leur.",
+      "d_ar": "دخول سريع لجنود إلى أرض ليست أرضهم.",
+      "t": "incursions",
+      "t_ar": "التوغلات"
      }
     ]
-   }
+   },
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/AP25346650977796-1792177581.jpg?resize=1920%2C1440",
+   "source": "Al Jazeera",
+   "summary": "Au moins 51 Syriens sont encore détenus en Israël, selon Al Jazeera. Un centre local a compté 280 violations israéliennes de l'accord de 1974 rien qu'en septembre.",
+   "summary_ar": "لا يزال 51 سوريا على الأقل محتجزين في إسرائيل، حسب الجزيرة. وأحصى مركز محلي 280 خرقا إسرائيليا لاتفاق 1974 خلال شتنبر وحده.",
+   "title": "Sud de la Syrie : les incursions israéliennes poussent la population à bout",
+   "title_ar": "جنوب سوريا: التوغلات الإسرائيلية تدفع السكان إلى حافة الانهيار",
+   "url": "https://www.aljazeera.com/features/2026/10/17/israeli-raids-and-arrests-in-southern-syria-push-population-to-the-brink"
   },
   {
    "cat": "geo",
-   "title": "Flottille pour Gaza : la justice italienne enquête sur le ministre israélien Katz",
-   "title_ar": "أسطول غزة: القضاء الإيطالي يحقق مع الوزير الإسرائيلي كاتس",
-   "summary": "Le parquet de Rome vise le ministre de la Défense Israel Katz et 12 hauts responsables pour torture et enlèvement. L'enquête suit les plaintes de 50 Italiens arrêtés lors de deux flottilles vers Gaza.",
-   "summary_ar": "تستهدف النيابة العامة في روما وزير الدفاع يسرائيل كاتس و12 مسؤولا كبيرا بتهم التعذيب والاختطاف. ويأتي التحقيق بعد شكاوى 50 إيطاليا اعتُقلوا خلال أسطولين نحو غزة.",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/16/italy-probes-israels-katz-over-abuse-sexual-assault-of-flotilla-activists",
    "date": "2026-10-16",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/05/AA-20260522-41460755-41460732-GLOBAL_SUMUD_FLOTILLA_ACTIVISTS_ARRIVE_IN_ROME_AFTER_EXPULSION_FROM_ISRAEL-1-1779414941.jpg?resize=1920%2C1440",
    "explain": {
     "context": "Les bateaux de la Global Sumud Flotilla voulaient briser le blocus de Gaza. Le chef de l'armée israélienne, Eyal Zamir, est aussi visé.",
     "context_ar": "كانت سفن «أسطول الصمود العالمي» تسعى لكسر الحصار على غزة. ويشمل التحقيق أيضا رئيس أركان الجيش الإسرائيلي إيال زامير.",
-    "terms": [
-     {
-      "t": "parquet",
-      "t_ar": "النيابة العامة",
-      "d": "Magistrats chargés d'enquêter et de poursuivre les auteurs d'infractions.",
-      "d_ar": "قضاة مكلفون بالتحقيق ومتابعة مرتكبي المخالفات."
-     },
-     {
-      "t": "flottilles",
-      "t_ar": "أسطولين",
-      "d": "Groupes de bateaux qui naviguent ensemble vers un même but.",
-      "d_ar": "مجموعات من السفن تبحر معا نحو هدف واحد."
-     }
-    ],
     "figures": [
      {
-      "n": "50",
-      "n_ar": "50",
       "d": "Italiens arrêtés par Israël qui ont porté plainte.",
-      "d_ar": "عدد الإيطاليين الذين اعتقلتهم إسرائيل وقدموا شكاوى."
+      "d_ar": "عدد الإيطاليين الذين اعتقلتهم إسرائيل وقدموا شكاوى.",
+      "n": "50",
+      "n_ar": "50"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Magistrats chargés d'enquêter et de poursuivre les auteurs d'infractions.",
+      "d_ar": "قضاة مكلفون بالتحقيق ومتابعة مرتكبي المخالفات.",
+      "t": "parquet",
+      "t_ar": "النيابة العامة"
+     },
+     {
+      "d": "Groupes de bateaux qui naviguent ensemble vers un même but.",
+      "d_ar": "مجموعات من السفن تبحر معا نحو هدف واحد.",
+      "t": "flottilles",
+      "t_ar": "أسطولين"
      }
     ]
-   }
+   },
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/05/AA-20260522-41460755-41460732-GLOBAL_SUMUD_FLOTILLA_ACTIVISTS_ARRIVE_IN_ROME_AFTER_EXPULSION_FROM_ISRAEL-1-1779414941.jpg?resize=1920%2C1440",
+   "source": "Al Jazeera",
+   "summary": "Le parquet de Rome vise le ministre de la Défense Israel Katz et 12 hauts responsables pour torture et enlèvement. L'enquête suit les plaintes de 50 Italiens arrêtés lors de deux flottilles vers Gaza.",
+   "summary_ar": "تستهدف النيابة العامة في روما وزير الدفاع يسرائيل كاتس و12 مسؤولا كبيرا بتهم التعذيب والاختطاف. ويأتي التحقيق بعد شكاوى 50 إيطاليا اعتُقلوا خلال أسطولين نحو غزة.",
+   "title": "Flottille pour Gaza : la justice italienne enquête sur le ministre israélien Katz",
+   "title_ar": "أسطول غزة: القضاء الإيطالي يحقق مع الوزير الإسرائيلي كاتس",
+   "url": "https://www.aljazeera.com/news/2026/10/16/italy-probes-israels-katz-over-abuse-sexual-assault-of-flotilla-activists"
   },
   {
    "cat": "geo",
-   "title": "Israël : cinq chefs d'opposition unis pour battre Netanyahu le 27 octobre",
-   "title_ar": "إسرائيل: خمسة قادة معارضين يتحدون لهزيمة نتنياهو في 27 أكتوبر",
-   "summary": "Gadi Eisenkot, ancien chef de l'armée, part favori de l'opposition aux élections du 27 octobre. Avec Bennett, Lapid, Lieberman et Golan, il a signé un pacte de non-agression le 26 septembre.",
-   "summary_ar": "يُعد غادي آيزنكوت، الرئيس السابق لأركان الجيش، الأوفر حظا في المعارضة لانتخابات 27 أكتوبر. وقد وقّع مع بينيت ولابيد وليبرمان وغولان ميثاق عدم اعتداء في 26 شتنبر.",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/17/the-israeli-politicians-seeking-to-replace-netanyahu",
    "date": "2026-10-17",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/GettyImages-2153281784-1-3-1791989772.jpg?resize=1200%2C630",
    "explain": {
     "context": "Naftali Bennett et Yair Lapid se présentent ensemble sur une liste appelée « Ensemble ». Yair Golan est le seul de ce groupe issu de la gauche.",
     "context_ar": "يخوض نفتالي بينيت ويائير لابيد الانتخابات معا في لائحة اسمها «معا». ويائير غولان هو الوحيد في هذه المجموعة القادم من اليسار.",
+    "figures": [],
     "terms": [
      {
-      "t": "pacte de non-agression",
-      "t_ar": "ميثاق عدم اعتداء",
       "d": "Promesse de ne pas s'attaquer entre partenaires pendant la campagne.",
-      "d_ar": "تعهد بعدم مهاجمة الشركاء لبعضهم خلال الحملة."
+      "d_ar": "تعهد بعدم مهاجمة الشركاء لبعضهم خلال الحملة.",
+      "t": "pacte de non-agression",
+      "t_ar": "ميثاق عدم اعتداء"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/GettyImages-2153281784-1-3-1791989772.jpg?resize=1200%2C630",
+   "source": "Al Jazeera",
+   "summary": "Gadi Eisenkot, ancien chef de l'armée, part favori de l'opposition aux élections du 27 octobre. Avec Bennett, Lapid, Lieberman et Golan, il a signé un pacte de non-agression le 26 septembre.",
+   "summary_ar": "يُعد غادي آيزنكوت، الرئيس السابق لأركان الجيش، الأوفر حظا في المعارضة لانتخابات 27 أكتوبر. وقد وقّع مع بينيت ولابيد وليبرمان وغولان ميثاق عدم اعتداء في 26 شتنبر.",
+   "title": "Israël : cinq chefs d'opposition unis pour battre Netanyahu le 27 octobre",
+   "title_ar": "إسرائيل: خمسة قادة معارضين يتحدون لهزيمة نتنياهو في 27 أكتوبر",
+   "url": "https://www.aljazeera.com/news/2026/10/17/the-israeli-politicians-seeking-to-replace-netanyahu"
   },
   {
    "cat": "cinema",
-   "title": "Box-office : « Street Fighter » passe les 12 millions et vise 30 millions ce week-end",
-   "title_ar": "شباك التذاكر: «ستريت فايتر» يتجاوز 12 مليونا ويستهدف 30 مليونا في نهاية الأسبوع",
-   "summary": "Le film tiré du jeu vidéo a récolté plus de 12 millions de dollars jeudi soir et vendredi aux États-Unis. Il devrait finir premier, devant le documentaire « You Can See Everything », attendu vers 13 millions.",
-   "summary_ar": "حقق الفيلم المقتبس من لعبة الفيديو أكثر من 12 مليون دولار مساء الخميس ويوم الجمعة في الولايات المتحدة. ويُتوقع أن يحتل الصدارة أمام الوثائقي «You Can See Everything» المنتظر أن يحقق نحو 13 مليونا.",
-   "source": "Roger's Movie Nation",
-   "url": "https://rogersmovienation.com/2026/10/17/box-office-street-fighter-opens-well-not-great-elizabeth-holmes-goes-to-jail-doc-makes-bank/",
    "date": "2026-10-17",
-   "image": "https://rogersmovienation.com/wp-content/uploads/2026/10/street.jpeg",
    "explain": {
     "context": "Les critiques sont peu favorables au film. Le film d'horreur « Other Mommy » pourrait finir troisième et dépasse déjà 40 millions au total.",
     "context_ar": "آراء النقاد غير مشجعة تجاه الفيلم. وقد يحتل فيلم الرعب «Other Mommy» المركز الثالث، وقد تجاوزت إيراداته الإجمالية 40 مليونا.",
-    "terms": [
-     {
-      "t": "Box-office",
-      "t_ar": "شباك التذاكر",
-      "d": "Argent gagné par un film grâce aux billets vendus en salle.",
-      "d_ar": "المال الذي يجنيه الفيلم من التذاكر المباعة في القاعات."
-     }
-    ],
     "figures": [
      {
-      "n": "30 millions",
-      "n_ar": "30 مليونا",
       "d": "Recettes attendues sur le week-end aux États-Unis, une estimation.",
-      "d_ar": "الإيرادات المتوقعة في نهاية الأسبوع بالولايات المتحدة، وهي تقدير."
+      "d_ar": "الإيرادات المتوقعة في نهاية الأسبوع بالولايات المتحدة، وهي تقدير.",
+      "n": "30 millions",
+      "n_ar": "30 مليونا"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Argent gagné par un film grâce aux billets vendus en salle.",
+      "d_ar": "المال الذي يجنيه الفيلم من التذاكر المباعة في القاعات.",
+      "t": "Box-office",
+      "t_ar": "شباك التذاكر"
      }
     ]
-   }
+   },
+   "image": "https://rogersmovienation.com/wp-content/uploads/2026/10/street.jpeg",
+   "source": "Roger's Movie Nation",
+   "summary": "Le film tiré du jeu vidéo a récolté plus de 12 millions de dollars jeudi soir et vendredi aux États-Unis. Il devrait finir premier, devant le documentaire « You Can See Everything », attendu vers 13 millions.",
+   "summary_ar": "حقق الفيلم المقتبس من لعبة الفيديو أكثر من 12 مليون دولار مساء الخميس ويوم الجمعة في الولايات المتحدة. ويُتوقع أن يحتل الصدارة أمام الوثائقي «You Can See Everything» المنتظر أن يحقق نحو 13 مليونا.",
+   "title": "Box-office : « Street Fighter » passe les 12 millions et vise 30 millions ce week-end",
+   "title_ar": "شباك التذاكر: «ستريت فايتر» يتجاوز 12 مليونا ويستهدف 30 مليونا في نهاية الأسبوع",
+   "url": "https://rogersmovienation.com/2026/10/17/box-office-street-fighter-opens-well-not-great-elizabeth-holmes-goes-to-jail-doc-makes-bank/"
   },
   {
    "cat": "maroc",
