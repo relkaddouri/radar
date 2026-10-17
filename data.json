@@ -2,22 +2,6 @@
  "events": [
   {
    "allDay": true,
-   "comp": "ATP Masters 1000",
-   "comp_ar": "دورات الماسترز 1000 (ATP)",
-   "end": "2026-10-18",
-   "id": "ten-sha",
-   "level": 2,
-   "place": "Shanghai",
-   "place_ar": "شنغهاي",
-   "sport": "tennis",
-   "start": "2026-10-07",
-   "title": "Masters de Shanghai",
-   "title_ar": "دورة شنغهاي للماسترز",
-   "why": "Sinner forfait, Alcaraz éliminé ; quarts jeudi et vendredi, finale dimanche 18",
-   "why_ar": "سينر انسحب وألكاراس أُقصي؛ ربع النهائي الخميس والجمعة، والنهائي يوم الأحد 18"
-  },
-  {
-   "allDay": true,
    "comp": "CAN futsal (au Maroc)",
    "comp_ar": "كأس أمم أفريقيا لكرة القدم داخل القاعة (في المغرب)",
    "end": "2026-10-21",
@@ -31,92 +15,6 @@
    "title_ar": "أسود الأطلس يسعون إلى لقب رابع على التوالي",
    "why": "Maroc 4-0 Algérie puis 7-0 Zambie, déjà en demi-finale ; Maroc–Libye vendredi 16 à 20h ; demi-finales le 19, finale le 21 octobre",
    "why_ar": "المغرب فاز على الجزائر 4-0 ثم زامبيا 7-0 وبلغ نصف النهائي؛ المغرب–ليبيا الجمعة 16 على الساعة 20:00؛ نصف النهائي يوم 19 والنهائي يوم 21 أكتوبر"
-  },
-  {
-   "allDay": true,
-   "comp": "Masters de Shanghai · 8e de finale",
-   "comp_ar": "دورة شنغهاي للماسترز · ثمن النهائي",
-   "id": "atp-sha-ruud-aliassime",
-   "level": 2,
-   "place": "Masters de Shanghai, Shanghai",
-   "place_ar": "دورة شنغهاي للماسترز، شنغهاي",
-   "recap": "Ruud file en quarts (contre Jodar) ; Auger-Aliassime (n°5) abandonne sur blessure au genou.",
-   "result": "Ruud bat Auger-Aliassime, abandon à 5-2 (genou)",
-   "result_ar": "روود يتأهل بعد انسحاب أوجي-أليسيم عند 5-2 (إصابة في الركبة)",
-   "sport": "tennis",
-   "start": "2026-10-14",
-   "title": "Ruud (24) – Auger-Aliassime (5)",
-   "title_ar": "رود (24) – أوجيه-ألياسيم (5)",
-   "why": "",
-   "why_ar": ""
-  },
-  {
-   "comp": "Masters de Shanghai · 8e de finale",
-   "comp_ar": "دورة شنغهاي للماسترز · ثمن النهائي",
-   "id": "atp-sha-medvedev-tsitsipas",
-   "level": 2,
-   "place": "Masters de Shanghai, Shanghai",
-   "place_ar": "دورة شنغهاي للماسترز، شنغهاي",
-   "recap": "Medvedev retrouve les quarts (3e année de suite) et jouera Paul.",
-   "result": "Medvedev bat Tsitsipas 6-4, 7-5",
-   "result_ar": "ميدفيديف يفوز على تسيتسيباس 6-4 و7-5",
-   "sport": "tennis",
-   "start": "2026-10-14T18:00:00+08:00",
-   "title": "Medvedev (6) – Tsitsipas (43)",
-   "title_ar": "ميدفيديف (6) – تسيتسيباس (43)",
-   "why": "Medvedev en quarts sans perdre un set ; il affronte Paul ou Bergs",
-   "why_ar": "ميدفيديف يبلغ ربع النهائي دون خسارة أي مجموعة، ويواجه بول أو بيرغس"
-  },
-  {
-   "comp": "Ligue des champions · J2",
-   "comp_ar": "دوري أبطال أوروبا · الجولة 2",
-   "id": "ucl-mci-psg-1014",
-   "level": 3,
-   "place": "Manchester",
-   "place_ar": "مانشستر",
-   "recap": "https://www.espn.com/soccer/match/_/gameId/401915407/paris-saint-germain-manchester-city",
-   "result": "Man City 2-4 PSG",
-   "result_ar": "مانشستر سيتي 2-4 باريس سان جيرمان",
-   "sport": "football",
-   "start": "2026-10-14T21:00:00+02:00",
-   "title": "Manchester City – PSG",
-   "title_ar": "مانشستر سيتي – باريس سان جيرمان",
-   "why": "choc de la 2e journée",
-   "why_ar": "قمة الجولة الثانية"
-  },
-  {
-   "comp": "Ligue des champions · J2",
-   "comp_ar": "دوري أبطال أوروبا · الجولة 2",
-   "id": "ucl-rom-rma-1014",
-   "level": 3,
-   "place": "Stade olympique, Rome",
-   "place_ar": "الملعب الأولمبي، روما",
-   "recap": "https://www.moroccoworldnews.com/2026/10/342173/real-madrid-complete-stunning-remontada-to-beat-roma-4-3/",
-   "result": "Roma 3-4 Real Madrid",
-   "result_ar": "روما 3-4 ريال مدريد",
-   "sport": "football",
-   "start": "2026-10-14T21:00:00+02:00",
-   "title": "Roma – Real Madrid",
-   "title_ar": "روما – ريال مدريد",
-   "why": "Mourinho retrouve la Roma",
-   "why_ar": "مورينيو يعود لمواجهة روما"
-  },
-  {
-   "comp": "Ligue des champions · J2",
-   "comp_ar": "دوري أبطال أوروبا · الجولة 2",
-   "id": "ucl-lask-liv-1014",
-   "level": 1,
-   "place": "Linz",
-   "place_ar": "لينتس",
-   "recap": "Neuf buts à Linz : Liverpool s'impose 6-3 (Foot Mercato, La DH).",
-   "result": "LASK 3-6 Liverpool",
-   "result_ar": "لاسك لينتس 3-6 ليفربول",
-   "sport": "football",
-   "start": "2026-10-14T21:00:00+02:00",
-   "title": "LASK – Liverpool",
-   "title_ar": "لاسك – ليفربول",
-   "why": "déplacement en Autriche",
-   "why_ar": "رحلة إلى النمسا"
   },
   {
    "allDay": true,
@@ -8094,6 +7992,60 @@
  ],
  "pause": [
   {
+   "id": "reunion-cafe-froid",
+   "kind": "blague",
+   "origin": "claude",
+   "title": "Le plan de la semaine",
+   "title_ar": "خطة الأسبوع",
+   "text": "Lundi, ma collègue annonce : « Cette semaine, je m'organise enfin. »\nMardi, elle achète un agenda. Mercredi, elle cherche un stylo pour l'agenda. Jeudi, elle note dans l'agenda : « Retrouver l'agenda ».\nVendredi, elle l'a retrouvé… et il était déjà plein de tous les rendez-vous de la semaine passée.",
+   "text_ar": "يوم الاثنين أعلنت زميلتي: «هذا الأسبوع سأنظّم وقتي أخيراً».\nيوم الثلاثاء اشترت مفكّرة. الأربعاء بحثت عن قلم للمفكّرة. الخميس كتبت فيها: «العثور على المفكّرة».\nويوم الجمعة وجدتها… وكانت ممتلئة أصلاً بمواعيد الأسبوع الماضي.",
+   "date": "2026-10-17"
+  },
+  {
+   "id": "le-temps-des-enfants",
+   "kind": "khatira",
+   "origin": "claude",
+   "title": "Le temps des petits pas",
+   "title_ar": "زمن الخطوات الصغيرة",
+   "text": "Un enfant ne marche jamais vite. Il s'arrête devant une fourmi, une flaque, un caillou qui brille. Nous, les grands, nous regardons l'heure et nous disons : « Allez, dépêche-toi. »\nPourtant, c'est peut-être lui qui a raison. Il avance comme si chaque mètre méritait d'être vu. Nous arrivons plus vite, mais nous oublions souvent le chemin.\nAujourd'hui, essaie de marcher à son rythme dix minutes. Tu seras en retard de dix minutes, et peut-être en avance sur quelque chose de plus important.",
+   "text_ar": "الطفل لا يمشي بسرعة أبداً. يتوقف أمام نملة، أو بِركة ماء، أو حصاة لامعة. أما نحن الكبار فننظر إلى الساعة ونقول: «هيّا، أسرع».\nومع ذلك قد يكون هو على صواب. إنه يتقدّم وكأن كل متر يستحق أن يُرى. نصل نحن أسرع، لكننا ننسى الطريق كثيراً.\nجرّب اليوم أن تمشي بإيقاعه عشر دقائق. ستتأخر عشر دقائق، وربما تسبق شيئاً أهمّ.",
+   "date": "2026-10-17"
+  },
+  {
+   "id": "les-deux-seaux-de-lait",
+   "kind": "histoire",
+   "origin": "conte",
+   "title": "Les deux grenouilles et la crème",
+   "title_ar": "الضفدعتان والقشدة",
+   "text": "Deux grenouilles tombent dans un grand pot de crème. Les parois sont glissantes, impossible de sortir.\nLa première se dit : « C'est fini » et cesse de bouger. Elle coule doucement.\nLa seconde ne comprend rien, mais elle continue de battre des pattes, encore et encore, toute la nuit. Au matin, la crème est devenue une petite motte de beurre. Elle s'appuie dessus et saute dehors.\nMoral : quand tu ne vois pas comment ça finira, continue simplement à bouger. Parfois, c'est le mouvement lui-même qui change la situation.",
+   "text_ar": "سقطت ضفدعتان في وعاء كبير من القشدة. كانت الجدران زلقة ولا سبيل إلى الخروج.\nقالت الأولى في نفسها: «انتهى كل شيء» وتوقفت عن الحركة، فغرقت بهدوء.\nأما الثانية فلم تفهم شيئاً، لكنها واصلت تحريك قوائمها طوال الليل. وعند الصباح كانت القشدة قد صارت قطعة زبدة صغيرة، فاستندت عليها وقفزت إلى الخارج.\nالعبرة: حين لا ترى كيف ستنتهي الأمور، استمرّ في الحركة. فأحياناً الحركة نفسها هي ما يغيّر الوضع.",
+   "date": "2026-10-17"
+  },
+  {
+   "id": "dir-niya-tdkhol-jnna",
+   "kind": "proverbe",
+   "origin": "proverbe",
+   "orig": "دير النية تسبق الجنة",
+   "title": "La bonne intention prend de l'avance",
+   "title_ar": "دير النية تسبق الجنة",
+   "text": "« Dir niya, tsbaq jenna » : commence par avoir une intention sincère, le reste suivra. On dit cela pour encourager quelqu'un qui hésite à faire un geste gentil ou à se lancer.\nSens simple : une bonne intention, même petite, est déjà la moitié du chemin.",
+   "text_ar": "«دير النية تسبق الجنة»: ابدأ بنية صادقة وسيتبعها الباقي. يُقال لتشجيع من يتردد في فعل خير أو في الانطلاق في عمل ما.\nمعناه ببساطة: النية الطيبة، ولو كانت صغيرة، هي نصف الطريق.",
+   "date": "2026-10-17"
+  },
+  {
+   "id": "passerelle-faune-colorado",
+   "kind": "bonne",
+   "origin": "source",
+   "title": "Un pont pour les animaux fait chuter les accidents de 91 %",
+   "title_ar": "جسر للحيوانات يخفض الحوادث بنسبة 91٪",
+   "text": "Dans le Colorado, aux États-Unis, un grand pont végétalisé a été construit au-dessus de l'autoroute I-25 pour que les animaux sauvages traversent en sécurité. Dix mois après son ouverture, les collisions avec la faune ont baissé de 91 %, un peu mieux que prévu.\nOurs, wapitis, élans et même petites grenouilles l'utilisent. Les retards de circulation ont aussi diminué, et six autres sites sont à l'étude.",
+   "text_ar": "في ولاية كولورادو الأمريكية، بُني جسر مغطّى بالنباتات فوق الطريق السيار I-25 لتعبر عليه الحيوانات البرية بأمان. وبعد عشرة أشهر من افتتاحه انخفضت الاصطدامات مع الحيوانات بنسبة 91٪، أي أفضل قليلاً من المتوقع.\nتستعمله الدببة والأيائل وحتى الضفادع الصغيرة. كما قلّت تأخيرات السير، وتجري دراسة ستة مواقع أخرى.",
+   "source": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/north-americas-largest-wildlife-overpass-is-working-animal-collisions-on-i-25-down-91/",
+   "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/credit-Colorado-Department-of-Transportation.jpg",
+   "date": "2026-10-17"
+  },
+  {
    "date": "2026-10-14",
    "id": "batterie-3-pourcent",
    "kind": "blague",
@@ -9130,17 +9082,17 @@
  },
  "meta": {
   "brief": [
-   "Sport : Maroc–Libye en futsal ce soir. Samedi, demi-finales à Shanghai.",
-   "Maroc : Lekjaa aux Finances dans le gouvernement El Mansouri. Six femmes y entrent.",
-   "Monde : Ormuz, record de navires attaqués. Ebola : 3e cas au Kenya.",
-   "Économie : les valeurs de l'IA chutent. Le Kospi perd plus de 8 %."
+   "Sport : demi-finales à Shanghai ce samedi. Dubois–Wardley en boxe ce soir.",
+   "Maroc : le nouveau gouvernement se met en place. Lekjaa dirige les Finances.",
+   "Monde : tensions à Ormuz, record de navires attaqués. Ebola : 3e cas au Kenya.",
+   "Économie : les valeurs de l'IA chutent en bourse. Le Kospi perd plus de 8 %."
   ],
   "brief_ar": [
-   "رياضة: المغرب–ليبيا في الفوتسال الليلة. السبت نصف نهائي شنغهاي.",
-   "المغرب: لقجع على رأس المالية في حكومة المنصوري. ست نساء في التشكيلة.",
-   "العالم: رقم قياسي لهجمات السفن في هرمز. إيبولا: حالة ثالثة في كينيا.",
-   "الاقتصاد: أسهم الذكاء الاصطناعي تهبط. مؤشر كوسبي يخسر أكثر من 8%."
+   "رياضة: نصف نهائي شنغهاي اليوم السبت. دوبوا ضد وردلي في الملاكمة الليلة.",
+   "المغرب: الحكومة الجديدة تباشر عملها. لقجع على رأس المالية.",
+   "العالم: توتر في هرمز ورقم قياسي لهجمات السفن. إيبولا: حالة ثالثة في كينيا.",
+   "الاقتصاد: أسهم الذكاء الاصطناعي تهبط في البورصة. مؤشر كوسبي يخسر أكثر من 8%."
   ],
-  "updatedAt": "2026-10-16T22:00:00Z"
+  "updatedAt": "2026-10-17T07:24:00Z"
  }
 }
