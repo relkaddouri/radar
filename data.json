@@ -1102,626 +1102,744 @@
  ],
  "news": [
   {
+   "cat": "ux",
+   "title": "Meta laisse ses designers créer des prototypes avec l'IA dans le vrai code de l'app",
+   "title_ar": "ميتا تتيح لمصمميها صنع نماذج أولية بالذكاء الاصطناعي داخل الشيفرة الحقيقية للتطبيق",
+   "summary": "Pour créer Forum, une app séparée pour les Groupes Facebook, les designers de Meta ont fabriqué des prototypes avec l'IA dans une version d'essai qui utilise le code et le système de design de l'app réelle. Des agents IA vérifient le travail avant la revue, mais chaque changement publié reste validé par un ingénieur.",
+   "summary_ar": "لتطوير تطبيق Forum المستقل الخاص بمجموعات فيسبوك، صنع مصممو ميتا نماذج أولية بالذكاء الاصطناعي داخل نسخة تجريبية تستعمل شيفرة التطبيق الحقيقي ونظام تصميمه. وتفحص وكلاء ذكاء اصطناعي العمل قبل المراجعة، لكن كل تغيير يُنشر يظل بحاجة إلى موافقة مهندس.",
+   "source": "UX News",
+   "url": "https://ux-news.com/meta-forum-ai-prototyping-designers/",
+   "date": "2026-10-16",
+   "image": "https://ux-news.com/content/images/2026/10/meta-forum-cover.jpg",
+   "explain": {
+    "context": "Souvent, un prototype de designer doit être refait par les développeurs. Ici, il est construit avec les vrais composants, et le travail validé peut passer en production sans être reconstruit.",
+    "context_ar": "غالبا ما يعيد المطورون بناء النموذج الأولي الذي يصنعه المصمم. هنا يُبنى بالمكوّنات الحقيقية، ويمكن نقل العمل المعتمد إلى الإنتاج دون إعادة بنائه.",
+    "terms": [
+     {
+      "t": "système de design",
+      "t_ar": "نظام التصميم",
+      "d": "Bibliothèque commune de boutons, couleurs et règles qui donne le même style à tous les écrans d'un produit.",
+      "d_ar": "مكتبة مشتركة من الأزرار والألوان والقواعد تمنح كل شاشات المنتج نفس الأسلوب."
+     },
+     {
+      "t": "agents IA",
+      "t_ar": "وكلاء ذكاء اصطناعي",
+      "d": "Programmes d'IA qui font seuls une suite de tâches, ici des tests et des comparaisons d'écrans.",
+      "d_ar": "برامج ذكاء اصطناعي تنجز وحدها سلسلة من المهام، وهنا اختبارات ومقارنات للشاشات."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "ux",
+   "title": "Windows 11 : l'app Photos change de look avec une nouvelle galerie et un nouvel éditeur",
+   "title_ar": "ويندوز 11: تطبيق الصور يتجدد بمعرض ومحرر جديدين",
+   "summary": "Microsoft refait l'app Photos de Windows 11 : la galerie réunit les photos du PC, de OneDrive et d'iCloud, avec une recherche où l'on décrit l'image en phrases simples. L'éditeur range ses outils en quatre groupes, et la nouvelle version arrive d'abord chez les testeurs Windows Insiders.",
+   "summary_ar": "تعيد مايكروسوفت تصميم تطبيق الصور في ويندوز 11: يجمع المعرض صور الحاسوب وOneDrive وiCloud، مع بحث يكفي فيه وصف الصورة بجمل بسيطة. ويرتب المحرر أدواته في أربع مجموعات، وتصل النسخة الجديدة أولا إلى مختبري Windows Insiders.",
+   "source": "UX News",
+   "url": "https://ux-news.com/windows-11-photos-redesign-gallery-editor-viewer/",
+   "date": "2026-10-16",
+   "image": "https://ux-news.com/content/images/2026/10/photos-All-new-gallery.jpg",
+   "explain": {
+    "context": "Les photos sont souvent dispersées entre l'ordinateur et plusieurs services en ligne. Microsoft veut tout montrer au même endroit et prévoit une sortie plus large plus tard en 2026.",
+    "context_ar": "كثيرا ما تتوزع الصور بين الحاسوب وعدة خدمات على الإنترنت. تريد مايكروسوفت عرضها كلها في مكان واحد، وتخطط لإتاحة أوسع لاحقا في 2026.",
+    "terms": [
+     {
+      "t": "Windows Insiders",
+      "t_ar": "Windows Insiders",
+      "d": "Programme gratuit de Microsoft où des volontaires testent les nouveautés de Windows avant tout le monde.",
+      "d_ar": "برنامج مجاني من مايكروسوفت يجرب فيه متطوعون مستجدات ويندوز قبل الجميع."
+     }
+    ],
+    "figures": [
+     {
+      "n": "4",
+      "n_ar": "4",
+      "d": "groupes d'outils dans l'éditeur : recadrer, améliorer, réparer, styliser.",
+      "d_ar": "مجموعات أدوات في المحرر: القص، التحسين، الإصلاح، التنسيق."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "divers",
+   "sub": "enfant",
+   "title": "Le cerveau des tout-petits s'active plus en jouant avec un parent que devant un film",
+   "title_ar": "دماغ الصغار ينشط أكثر عند اللعب مع أحد الوالدين مقارنة بمشاهدة فيلم",
+   "summary": "Des chercheurs de l'université Northwestern ont mesuré l'activité du cerveau de 49 enfants de 2 à 3 ans et demi pendant qu'ils lisaient des livres ou faisaient des puzzles avec un parent, puis regardaient un film. Les moments de jeu partagé étaient liés à plus d'activité dans les zones de l'attention, de l'apprentissage et du lien social.",
+   "summary_ar": "قاس باحثون من جامعة نورثويسترن نشاط دماغ 49 طفلا بين سنتين وثلاث سنوات ونصف أثناء قراءة الكتب أو حل الألغاز مع أحد الوالدين، ثم أثناء مشاهدة فيلم. وارتبطت لحظات اللعب المشترك بنشاط أكبر في مناطق الانتباه والتعلم والتواصل الاجتماعي.",
+   "source": "Northwestern Now",
+   "url": "https://news.northwestern.edu/stories/2026/10/children-brain-engagement",
+   "date": "2026-10-06",
+   "image": "https://news.northwestern.edu/assets/Stories/2026/10/play1940__FocusFillMaxWyIwLjAwIiwiMC4wMCIsMTIwMCw2MzBd.jpg",
+   "explain": {
+    "context": "C'est la première fois qu'on enregistre le cerveau de tout-petits pendant un vrai jeu avec un parent. Les enfants autistes ou en retard de langage avaient un cerveau aussi actif lors de ces moments.",
+    "context_ar": "هذه أول مرة يُسجَّل فيها نشاط دماغ أطفال صغار أثناء لعب حقيقي مع أحد الوالدين. وكان دماغ الأطفال المصابين بالتوحد أو بتأخر اللغة نشيطا بالقدر نفسه في تلك اللحظات.",
+    "terms": [
+     {
+      "t": "activité du cerveau",
+      "t_ar": "نشاط الدماغ",
+      "d": "Mesurée ici par EEG : un bonnet souple avec des capteurs qui enregistre les petits signaux électriques du cerveau.",
+      "d_ar": "قيس هنا بتخطيط الدماغ: قبعة لينة بها مستشعرات تسجل الإشارات الكهربائية الصغيرة للدماغ."
+     }
+    ],
+    "figures": [
+     {
+      "n": "49",
+      "n_ar": "49",
+      "d": "enfants âgés de 24 à 44 mois ont participé à l'étude.",
+      "d_ar": "طفلا تتراوح أعمارهم بين 24 و44 شهرا شاركوا في الدراسة."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "divers",
+   "sub": "montessori",
+   "title": "Montessori : faut-il obliger son enfant à prêter ses jouets ?",
+   "title_ar": "منتسوري: هل يجب إجبار الطفل على إعارة ألعابه؟",
+   "summary": "La Montessori Foundation explique qu'un enfant concentré sur une activité peut la garder jusqu'à la fin, et que l'autre enfant apprend à attendre son tour. Forcer à donner tout de suite apprendrait surtout à obéir, alors que la vraie générosité vient de l'exemple des adultes et d'un choix libre.",
+   "summary_ar": "تشرح مؤسسة منتسوري أن الطفل المنشغل بنشاط ما يمكنه الاحتفاظ به حتى ينهيه، وأن الطفل الآخر يتعلم انتظار دوره. فالإجبار على العطاء فورا يعلّم الطاعة أساسا، بينما ينبع الكرم الحقيقي من قدوة الكبار ومن اختيار حر.",
+   "source": "The Montessori Foundation",
+   "url": "https://www.montessori.org/when-your-child-doesnt-want-to-share/",
+   "date": "2026-10-16",
+   "image": "https://www.montessori.org/wp-content/uploads/2026/10/sharing.webp",
+   "explain": {
+    "context": "À la maison, l'article conseille de dire avant l'arrivée des invités quels jouets sont pour tous, et de laisser l'enfant ranger ses objets spéciaux.",
+    "context_ar": "في البيت، ينصح المقال بالاتفاق قبل وصول الضيوف على الألعاب المتاحة للجميع، وترك الطفل يضع أغراضه الخاصة جانبا.",
+    "terms": [
+     {
+      "t": "attendre son tour",
+      "t_ar": "انتظار دوره",
+      "d": "Savoir patienter quand un autre utilise un objet : une compétence qui se travaille avec la pratique.",
+      "d_ar": "القدرة على الصبر حين يستعمل شخص آخر شيئا ما: مهارة تنمو بالممارسة."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
    "cat": "maroc",
-   "sub": "economie",
-   "title": "Carburants : le gasoil baisse de 20 centimes, l'essence ne bouge pas",
-   "title_ar": "المحروقات: الغازوال ينخفض بـ20 سنتيما والبنزين دون تغيير",
-   "summary": "Le prix du gasoil baisse de 20 centimes par litre depuis la nuit du 15 au 16 octobre, à environ 15,61 dirhams. C'est la première baisse après six hausses depuis la mi-juillet, qui avaient ajouté environ 3,54 dirhams par litre.",
-   "summary_ar": "انخفض سعر الغازوال بـ20 سنتيما للتر منذ ليلة 15 إلى 16 أكتوبر ليبلغ نحو 15,61 درهما. وهو أول انخفاض بعد ست زيادات منذ منتصف يوليوز أضافت حوالي 3,54 دراهم للتر.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/492510-carburants-le-gasoil-baisse-de-20-centimes-lessence-stable.html",
    "date": "2026-10-15",
-   "image": "https://f2.hespress.com/wp-content/uploads/2026/06/CARBURANT.jpg",
    "explain": {
     "context": "Les prix à la pompe suivent les marchés mondiaux avec environ deux semaines de retard, le temps d'acheter les cargaisons. Le gasoil coûte désormais plus cher que l'essence, ce qui est rare.",
     "context_ar": "تتبع أسعار المحروقات الأسواق العالمية بتأخر يقارب أسبوعين، وهي مدة شراء الشحنات. وأصبح الغازوال الآن أغلى من البنزين، وهو أمر نادر.",
-    "terms": [
-     {
-      "t": "gasoil",
-      "t_ar": "الغازوال",
-      "d": "Carburant utilisé par les moteurs diesel, très répandu au Maroc pour les voitures et les camions.",
-      "d_ar": "وقود محركات الديزل، واسع الاستعمال في المغرب للسيارات والشاحنات."
-     },
-     {
-      "t": "hausses",
-      "t_ar": "زيادات",
-      "d": "Augmentations successives du prix à la pompe, décidées par les distributeurs selon les prix mondiaux.",
-      "d_ar": "ارتفاعات متتالية في سعر المحروقات يقررها الموزعون حسب الأسعار العالمية."
-     }
-    ],
     "figures": [
      {
-      "n": "15,61 dirhams",
-      "n_ar": "15,61 درهما",
       "d": "Prix estimé d'un litre de gasoil après la baisse, contre 15,81 avant.",
-      "d_ar": "السعر التقريبي للتر الغازوال بعد الانخفاض، مقابل 15,81 قبله."
+      "d_ar": "السعر التقريبي للتر الغازوال بعد الانخفاض، مقابل 15,81 قبله.",
+      "n": "15,61 dirhams",
+      "n_ar": "15,61 درهما"
      },
      {
-      "n": "3,54 dirhams",
-      "n_ar": "3,54 دراهم",
       "d": "Hausse totale du litre de gasoil depuis la mi-juillet, avant cette baisse.",
-      "d_ar": "مجموع الزيادة في لتر الغازوال منذ منتصف يوليوز قبل هذا الانخفاض."
+      "d_ar": "مجموع الزيادة في لتر الغازوال منذ منتصف يوليوز قبل هذا الانخفاض.",
+      "n": "3,54 dirhams",
+      "n_ar": "3,54 دراهم"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Carburant utilisé par les moteurs diesel, très répandu au Maroc pour les voitures et les camions.",
+      "d_ar": "وقود محركات الديزل، واسع الاستعمال في المغرب للسيارات والشاحنات.",
+      "t": "gasoil",
+      "t_ar": "الغازوال"
+     },
+     {
+      "d": "Augmentations successives du prix à la pompe, décidées par les distributeurs selon les prix mondiaux.",
+      "d_ar": "ارتفاعات متتالية في سعر المحروقات يقررها الموزعون حسب الأسعار العالمية.",
+      "t": "hausses",
+      "t_ar": "زيادات"
      }
     ]
-   }
+   },
+   "image": "https://f2.hespress.com/wp-content/uploads/2026/06/CARBURANT.jpg",
+   "source": "Hespress FR",
+   "sub": "economie",
+   "summary": "Le prix du gasoil baisse de 20 centimes par litre depuis la nuit du 15 au 16 octobre, à environ 15,61 dirhams. C'est la première baisse après six hausses depuis la mi-juillet, qui avaient ajouté environ 3,54 dirhams par litre.",
+   "summary_ar": "انخفض سعر الغازوال بـ20 سنتيما للتر منذ ليلة 15 إلى 16 أكتوبر ليبلغ نحو 15,61 درهما. وهو أول انخفاض بعد ست زيادات منذ منتصف يوليوز أضافت حوالي 3,54 دراهم للتر.",
+   "title": "Carburants : le gasoil baisse de 20 centimes, l'essence ne bouge pas",
+   "title_ar": "المحروقات: الغازوال ينخفض بـ20 سنتيما والبنزين دون تغيير",
+   "url": "https://fr.hespress.com/492510-carburants-le-gasoil-baisse-de-20-centimes-lessence-stable.html"
   },
   {
    "cat": "maroc",
-   "sub": "economie",
-   "title": "Hôtels : Pickalbatros obtient 250 millions de dollars de la SFI et d'Attijariwafa",
-   "title_ar": "الفنادق: بيكالباتروس تحصل على 250 مليون دولار من مؤسسة التمويل الدولية والتجاري وفا بنك",
-   "summary": "Le groupe hôtelier Pickalbatros reçoit un financement de 250 millions de dollars de la SFI, filiale de la Banque mondiale, et d'Attijariwafa bank. L'argent servira à racheter des hôtels à Casablanca et à rénover d'autres à Marrakech et Agadir.",
-   "summary_ar": "تحصل مجموعة بيكالباتروس الفندقية على تمويل بقيمة 250 مليون دولار من مؤسسة التمويل الدولية، التابعة للبنك الدولي، ومن التجاري وفا بنك. وستُستعمل الأموال لشراء فنادق في الدار البيضاء وتجديد أخرى في مراكش وأكادير.",
-   "source": "Morocco World News",
-   "url": "https://www.moroccoworldnews.com/2026/10/342385/pickalbatros-secures-250-million-financing-from-ifc-attijariwafa-bank-in-morocco/",
    "date": "2026-10-16",
-   "image": "https://www.moroccoworldnews.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-16-at-12.29.46.jpeg",
    "explain": {
     "context": "Il s'agit du plus gros financement hôtelier soutenu par la SFI dans l'histoire du Maroc. Le groupe a déjà racheté le Sofitel Tour Blanche et le Mövenpick de Casablanca.",
     "context_ar": "يتعلق الأمر بأكبر تمويل فندقي تدعمه مؤسسة التمويل الدولية في تاريخ المغرب. وقد اشترت المجموعة سابقا فندقي سوفيتيل لاتور بلانش وموفنبيك بالدار البيضاء.",
-    "terms": [
-     {
-      "t": "SFI",
-      "t_ar": "مؤسسة التمويل الدولية",
-      "d": "Société financière internationale : branche de la Banque mondiale qui prête aux entreprises privées.",
-      "d_ar": "فرع من البنك الدولي يقدم قروضا للشركات الخاصة."
-     },
-     {
-      "t": "financement",
-      "t_ar": "تمويل",
-      "d": "Argent prêté par des banques à une entreprise, qui devra le rembourser avec des intérêts.",
-      "d_ar": "أموال تقرضها البنوك لشركة، وعليها أن تردها مع الفوائد."
-     }
-    ],
     "figures": [
      {
-      "n": "250 millions de dollars",
-      "n_ar": "250 مليون دولار",
       "d": "Montant du financement, soit environ 2,3 milliards de dirhams.",
-      "d_ar": "قيمة التمويل، أي نحو 2,3 مليار درهم."
+      "d_ar": "قيمة التمويل، أي نحو 2,3 مليار درهم.",
+      "n": "250 millions de dollars",
+      "n_ar": "250 مليون دولار"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Société financière internationale : branche de la Banque mondiale qui prête aux entreprises privées.",
+      "d_ar": "فرع من البنك الدولي يقدم قروضا للشركات الخاصة.",
+      "t": "SFI",
+      "t_ar": "مؤسسة التمويل الدولية"
+     },
+     {
+      "d": "Argent prêté par des banques à une entreprise, qui devra le rembourser avec des intérêts.",
+      "d_ar": "أموال تقرضها البنوك لشركة، وعليها أن تردها مع الفوائد.",
+      "t": "financement",
+      "t_ar": "تمويل"
      }
     ]
-   }
+   },
+   "image": "https://www.moroccoworldnews.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-16-at-12.29.46.jpeg",
+   "source": "Morocco World News",
+   "sub": "economie",
+   "summary": "Le groupe hôtelier Pickalbatros reçoit un financement de 250 millions de dollars de la SFI, filiale de la Banque mondiale, et d'Attijariwafa bank. L'argent servira à racheter des hôtels à Casablanca et à rénover d'autres à Marrakech et Agadir.",
+   "summary_ar": "تحصل مجموعة بيكالباتروس الفندقية على تمويل بقيمة 250 مليون دولار من مؤسسة التمويل الدولية، التابعة للبنك الدولي، ومن التجاري وفا بنك. وستُستعمل الأموال لشراء فنادق في الدار البيضاء وتجديد أخرى في مراكش وأكادير.",
+   "title": "Hôtels : Pickalbatros obtient 250 millions de dollars de la SFI et d'Attijariwafa",
+   "title_ar": "الفنادق: بيكالباتروس تحصل على 250 مليون دولار من مؤسسة التمويل الدولية والتجاري وفا بنك",
+   "url": "https://www.moroccoworldnews.com/2026/10/342385/pickalbatros-secures-250-million-financing-from-ifc-attijariwafa-bank-in-morocco/"
   },
   {
    "cat": "maroc",
-   "sub": "politique",
-   "title": "Nouveau gouvernement : 32 membres et un ministère dédié à l'IA",
-   "title_ar": "الحكومة الجديدة: 32 عضوا ووزارة خاصة بالذكاء الاصطناعي",
-   "summary": "Le gouvernement El Mansouri compte 32 membres, dont 7 femmes et 11 ministres délégués, sans secrétaire d'État. Un nouveau ministère de l'Intelligence artificielle, de la Transformation numérique et de la Réforme de l'administration est confié à Ahmed Rahhou.",
-   "summary_ar": "تضم حكومة المنصوري 32 عضوا، منهم 7 نساء و11 وزيرا منتدبا، دون كتاب دولة. وأُسندت وزارة جديدة للذكاء الاصطناعي والتحول الرقمي وإصلاح الإدارة إلى أحمد رحو.",
-   "source": "Le360",
-   "url": "https://fr.le360.ma/politique/une-equipe-elargie-politique-rajeunie-et-renouvelee-ce-quil-faut-retenir-du-nouveau-gouvernement_K7UG2766HFE2VISIZLQD5T5LDE/",
    "date": "2026-10-16",
-   "image": "https://fr.le360.ma/resizer/v2/ZFCX452SBVG3JDD3VDOG43FUSQ.png?auth=a459c6f4fe5eb07dcf6affa1f804b10183c33a66a8343f507dfc682376b8c59c&smart=true&width=1200&height=630",
    "explain": {
     "context": "La majorité réunit le PAM, l'Istiqlal, l'USFP et le PPS, soit 207 sièges à la Chambre des représentants. Le PAM est arrivé premier aux législatives avec 97 sièges.",
     "context_ar": "تضم الأغلبية الأصالة والمعاصرة والاستقلال والاتحاد الاشتراكي والتقدم والاشتراكية، أي 207 مقاعد بمجلس النواب. وحل الأصالة والمعاصرة أولا في الانتخابات التشريعية بـ97 مقعدا.",
-    "terms": [
-     {
-      "t": "ministres délégués",
-      "t_ar": "وزراء منتدبون",
-      "d": "Ministres qui travaillent sous l'autorité d'un autre ministre ou du chef du gouvernement, sur un domaine précis.",
-      "d_ar": "وزراء يعملون تحت إشراف وزير آخر أو رئيس الحكومة في مجال محدد."
-     }
-    ],
     "figures": [
      {
-      "n": "32",
-      "n_ar": "32",
       "d": "Nombre de membres du gouvernement, cheffe du gouvernement comprise.",
-      "d_ar": "عدد أعضاء الحكومة بمن فيهم رئيسة الحكومة."
+      "d_ar": "عدد أعضاء الحكومة بمن فيهم رئيسة الحكومة.",
+      "n": "32",
+      "n_ar": "32"
      },
      {
-      "n": "7",
-      "n_ar": "7",
       "d": "Nombre de femmes dans l'équipe, en comptant Fatima Ezzahra El Mansouri.",
-      "d_ar": "عدد النساء في الفريق، باحتساب فاطمة الزهراء المنصوري."
+      "d_ar": "عدد النساء في الفريق، باحتساب فاطمة الزهراء المنصوري.",
+      "n": "7",
+      "n_ar": "7"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Ministres qui travaillent sous l'autorité d'un autre ministre ou du chef du gouvernement, sur un domaine précis.",
+      "d_ar": "وزراء يعملون تحت إشراف وزير آخر أو رئيس الحكومة في مجال محدد.",
+      "t": "ministres délégués",
+      "t_ar": "وزراء منتدبون"
      }
     ]
-   }
+   },
+   "image": "https://fr.le360.ma/resizer/v2/ZFCX452SBVG3JDD3VDOG43FUSQ.png?auth=a459c6f4fe5eb07dcf6affa1f804b10183c33a66a8343f507dfc682376b8c59c&smart=true&width=1200&height=630",
+   "source": "Le360",
+   "sub": "politique",
+   "summary": "Le gouvernement El Mansouri compte 32 membres, dont 7 femmes et 11 ministres délégués, sans secrétaire d'État. Un nouveau ministère de l'Intelligence artificielle, de la Transformation numérique et de la Réforme de l'administration est confié à Ahmed Rahhou.",
+   "summary_ar": "تضم حكومة المنصوري 32 عضوا، منهم 7 نساء و11 وزيرا منتدبا، دون كتاب دولة. وأُسندت وزارة جديدة للذكاء الاصطناعي والتحول الرقمي وإصلاح الإدارة إلى أحمد رحو.",
+   "title": "Nouveau gouvernement : 32 membres et un ministère dédié à l'IA",
+   "title_ar": "الحكومة الجديدة: 32 عضوا ووزارة خاصة بالذكاء الاصطناعي",
+   "url": "https://fr.le360.ma/politique/une-equipe-elargie-politique-rajeunie-et-renouvelee-ce-quil-faut-retenir-du-nouveau-gouvernement_K7UG2766HFE2VISIZLQD5T5LDE/"
   },
   {
    "cat": "maroc",
-   "sub": "politique",
-   "title": "Santé : le professeur de médecine Youns Bjijou devient ministre",
-   "title_ar": "الصحة: أستاذ الطب يونس بجيجو وزيرا",
-   "summary": "Youns Bjijou, 55 ans, prend le ministère de la Santé et de la Protection sociale. Ce gynécologue enseigne à la faculté de médecine de Rabat et était directeur adjoint de la Fondation Mohammed VI des sciences et de la santé.",
-   "summary_ar": "يتولى يونس بجيجو، 55 عاما، وزارة الصحة والحماية الاجتماعية. وهو طبيب نساء وتوليد يدرّس بكلية الطب بالرباط، وكان مديرا مساعدا لمؤسسة محمد السادس للعلوم والصحة.",
-   "source": "Le360",
-   "url": "https://fr.le360.ma/politique/qui-est-youns-bjijou-nouveau-ministre-de-la-sante-et-de-la-protection-sociale_AV7YXCVUE5AMPESMUODXPTHPWU/",
    "date": "2026-10-16",
-   "image": "https://fr.le360.ma/resizer/v2/73NYBAKYVJG4VHT4EY7K4VITJI.jpg?auth=018b6cdacb8f16dcbdfb225a3eb94d68ec9dee813c87e055d4bbae90a57c6e7e&smart=true&width=1200&height=630",
    "explain": {
     "context": "Né à Taza en 1971, il a aussi dirigé le département d'anatomie de la faculté de Rabat. Il hérite d'un ministère central pour la généralisation de la couverture médicale.",
     "context_ar": "وُلد بتازة سنة 1971، وترأس أيضا شعبة التشريح بكلية الرباط. ويتسلم وزارة محورية في تعميم التغطية الصحية.",
+    "figures": [],
     "terms": [
      {
-      "t": "Protection sociale",
-      "t_ar": "الحماية الاجتماعية",
       "d": "Ensemble des aides publiques : assurance maladie, retraite, allocations pour les familles.",
-      "d_ar": "مجموع المساعدات العمومية: التأمين الصحي والتقاعد والتعويضات العائلية."
+      "d_ar": "مجموع المساعدات العمومية: التأمين الصحي والتقاعد والتعويضات العائلية.",
+      "t": "Protection sociale",
+      "t_ar": "الحماية الاجتماعية"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://fr.le360.ma/resizer/v2/73NYBAKYVJG4VHT4EY7K4VITJI.jpg?auth=018b6cdacb8f16dcbdfb225a3eb94d68ec9dee813c87e055d4bbae90a57c6e7e&smart=true&width=1200&height=630",
+   "source": "Le360",
+   "sub": "politique",
+   "summary": "Youns Bjijou, 55 ans, prend le ministère de la Santé et de la Protection sociale. Ce gynécologue enseigne à la faculté de médecine de Rabat et était directeur adjoint de la Fondation Mohammed VI des sciences et de la santé.",
+   "summary_ar": "يتولى يونس بجيجو، 55 عاما، وزارة الصحة والحماية الاجتماعية. وهو طبيب نساء وتوليد يدرّس بكلية الطب بالرباط، وكان مديرا مساعدا لمؤسسة محمد السادس للعلوم والصحة.",
+   "title": "Santé : le professeur de médecine Youns Bjijou devient ministre",
+   "title_ar": "الصحة: أستاذ الطب يونس بجيجو وزيرا",
+   "url": "https://fr.le360.ma/politique/qui-est-youns-bjijou-nouveau-ministre-de-la-sante-et-de-la-protection-sociale_AV7YXCVUE5AMPESMUODXPTHPWU/"
   },
   {
    "cat": "maroc",
-   "sub": "societe",
-   "title": "Larache : l'incendie de la forêt de Taoula maîtrisé après trois jours",
-   "title_ar": "العرائش: السيطرة على حريق غابة تاولة بعد ثلاثة أيام",
-   "summary": "L'incendie de la forêt de Taoula, dans la province de Larache, a été maîtrisé le 15 octobre après trois jours de lutte. Il a détruit 98 hectares, malgré l'aide d'avions Canadair et de plus de 500 personnes au sol.",
-   "summary_ar": "تمت السيطرة على حريق غابة تاولة بإقليم العرائش يوم 15 أكتوبر بعد ثلاثة أيام من المكافحة. وأتى على 98 هكتارا رغم تدخل طائرات كنادير وأكثر من 500 شخص على الأرض.",
-   "source": "Morocco World News",
-   "url": "https://www.moroccoworldnews.com/2026/10/342374/morocco-contains-larache-forest-fire-after-three-days/",
    "date": "2026-10-16",
-   "image": "https://www.moroccoworldnews.com/wp-content/uploads/2026/07/wildfire_thibaud-mortiz-afp-getty-scaled-1.webp",
    "explain": {
     "context": "Le vent fort et le relief montagneux ont rendu le travail des pompiers difficile. Des équipes restent sur place pour éviter que le feu ne reprenne.",
     "context_ar": "صعّبت الرياح القوية والتضاريس الجبلية عمل رجال الإطفاء. وتبقى فرق في عين المكان لمنع اشتعال النار من جديد.",
-    "terms": [
-     {
-      "t": "Canadair",
-      "t_ar": "كنادير",
-      "d": "Avion qui prend de l'eau dans la mer ou un lac et la largue sur les feux de forêt.",
-      "d_ar": "طائرة تملأ الماء من البحر أو بحيرة وتلقيه على حرائق الغابات."
-     }
-    ],
     "figures": [
      {
-      "n": "98 hectares",
-      "n_ar": "98 هكتارا",
       "d": "Surface de forêt brûlée, soit environ 137 terrains de football.",
-      "d_ar": "مساحة الغابة المحروقة، أي ما يعادل نحو 137 ملعب كرة قدم."
+      "d_ar": "مساحة الغابة المحروقة، أي ما يعادل نحو 137 ملعب كرة قدم.",
+      "n": "98 hectares",
+      "n_ar": "98 هكتارا"
      },
      {
-      "n": "500",
-      "n_ar": "500",
       "d": "Nombre approximatif de personnes mobilisées au sol contre le feu.",
-      "d_ar": "العدد التقريبي للأشخاص المعبئين على الأرض لمواجهة النار."
+      "d_ar": "العدد التقريبي للأشخاص المعبئين على الأرض لمواجهة النار.",
+      "n": "500",
+      "n_ar": "500"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Avion qui prend de l'eau dans la mer ou un lac et la largue sur les feux de forêt.",
+      "d_ar": "طائرة تملأ الماء من البحر أو بحيرة وتلقيه على حرائق الغابات.",
+      "t": "Canadair",
+      "t_ar": "كنادير"
      }
     ]
-   }
+   },
+   "image": "https://www.moroccoworldnews.com/wp-content/uploads/2026/07/wildfire_thibaud-mortiz-afp-getty-scaled-1.webp",
+   "source": "Morocco World News",
+   "sub": "societe",
+   "summary": "L'incendie de la forêt de Taoula, dans la province de Larache, a été maîtrisé le 15 octobre après trois jours de lutte. Il a détruit 98 hectares, malgré l'aide d'avions Canadair et de plus de 500 personnes au sol.",
+   "summary_ar": "تمت السيطرة على حريق غابة تاولة بإقليم العرائش يوم 15 أكتوبر بعد ثلاثة أيام من المكافحة. وأتى على 98 هكتارا رغم تدخل طائرات كنادير وأكثر من 500 شخص على الأرض.",
+   "title": "Larache : l'incendie de la forêt de Taoula maîtrisé après trois jours",
+   "title_ar": "العرائش: السيطرة على حريق غابة تاولة بعد ثلاثة أيام",
+   "url": "https://www.moroccoworldnews.com/2026/10/342374/morocco-contains-larache-forest-fire-after-three-days/"
   },
   {
    "cat": "sport",
-   "sport": "football",
-   "title": "CAN de futsal : le Maroc écrase la Libye 6-0 et finit premier de son groupe",
-   "title_ar": "كأس إفريقيا للفوتسال: المغرب يكتسح ليبيا 6-0 ويتصدر مجموعته",
-   "summary": "Le Maroc a battu la Libye 6-0 à Rabat et termine la phase de groupes avec trois victoires et 9 points. Soufiane El Mesrar a marqué un triplé, Othmane El Idrissi un doublé et Bilal Bakkali un but.",
-   "summary_ar": "فاز المغرب على ليبيا 6-0 بالرباط وأنهى دور المجموعات بثلاثة انتصارات و9 نقاط. وسجل سفيان المسرار ثلاثية وعثمان الإدريسي هدفين وبلال البقالي هدفا.",
-   "source": "Morocco World News",
-   "url": "https://www.moroccoworldnews.com/2026/10/342559/morocco-crushes-libya-6-0-to-complete-perfect-afcon-futsal-group-stage/",
    "date": "2026-10-16",
-   "image": "https://www.moroccoworldnews.com/wp-content/uploads/2026/10/futsal-afcon-2026-moroccan-team.png",
    "explain": {
     "context": "Le Maroc accueille la Coupe d'Afrique des nations de futsal 2026. Le match s'est joué à la salle Prince Moulay Abdellah, et les Marocains menaient déjà 3-0 à la pause.",
     "context_ar": "يستضيف المغرب كأس إفريقيا للأمم للفوتسال 2026. ولُعبت المباراة بقاعة الأمير مولاي عبد الله، وكان المغاربة متقدمين 3-0 في الاستراحة.",
-    "terms": [
-     {
-      "t": "futsal",
-      "t_ar": "الفوتسال",
-      "d": "Football en salle à cinq contre cinq, sur un petit terrain, avec un ballon plus lourd.",
-      "d_ar": "كرة قدم داخل القاعة بخمسة لاعبين لكل فريق، في ملعب صغير وبكرة أثقل."
-     },
-     {
-      "t": "triplé",
-      "t_ar": "ثلاثية",
-      "d": "Trois buts marqués par le même joueur dans un match.",
-      "d_ar": "ثلاثة أهداف يسجلها اللاعب نفسه في مباراة واحدة."
-     }
-    ],
     "figures": [
      {
-      "n": "9 points",
-      "n_ar": "9 نقاط",
       "d": "Le maximum possible en trois matchs de groupe : trois victoires.",
-      "d_ar": "أقصى ما يمكن جمعه في ثلاث مباريات: ثلاثة انتصارات."
+      "d_ar": "أقصى ما يمكن جمعه في ثلاث مباريات: ثلاثة انتصارات.",
+      "n": "9 points",
+      "n_ar": "9 نقاط"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Football en salle à cinq contre cinq, sur un petit terrain, avec un ballon plus lourd.",
+      "d_ar": "كرة قدم داخل القاعة بخمسة لاعبين لكل فريق، في ملعب صغير وبكرة أثقل.",
+      "t": "futsal",
+      "t_ar": "الفوتسال"
+     },
+     {
+      "d": "Trois buts marqués par le même joueur dans un match.",
+      "d_ar": "ثلاثة أهداف يسجلها اللاعب نفسه في مباراة واحدة.",
+      "t": "triplé",
+      "t_ar": "ثلاثية"
      }
     ]
-   }
+   },
+   "image": "https://www.moroccoworldnews.com/wp-content/uploads/2026/10/futsal-afcon-2026-moroccan-team.png",
+   "source": "Morocco World News",
+   "sport": "football",
+   "summary": "Le Maroc a battu la Libye 6-0 à Rabat et termine la phase de groupes avec trois victoires et 9 points. Soufiane El Mesrar a marqué un triplé, Othmane El Idrissi un doublé et Bilal Bakkali un but.",
+   "summary_ar": "فاز المغرب على ليبيا 6-0 بالرباط وأنهى دور المجموعات بثلاثة انتصارات و9 نقاط. وسجل سفيان المسرار ثلاثية وعثمان الإدريسي هدفين وبلال البقالي هدفا.",
+   "title": "CAN de futsal : le Maroc écrase la Libye 6-0 et finit premier de son groupe",
+   "title_ar": "كأس إفريقيا للفوتسال: المغرب يكتسح ليبيا 6-0 ويتصدر مجموعته",
+   "url": "https://www.moroccoworldnews.com/2026/10/342559/morocco-crushes-libya-6-0-to-complete-perfect-afcon-futsal-group-stage/"
   },
   {
    "cat": "sport",
-   "sport": "football",
-   "title": "Chants contre les musulmans : la FIFA sanctionne l'Espagne",
-   "title_ar": "هتافات ضد المسلمين: الفيفا تعاقب إسبانيا",
-   "summary": "La FIFA inflige à la fédération espagnole une amende de 20 000 dollars et la fermeture partielle du stade pour son prochain match amical. En mars, lors d'Espagne-Égypte (0-0), des supporters avaient chanté « Qui ne saute pas est musulman ».",
-   "summary_ar": "فرضت الفيفا على الاتحاد الإسباني غرامة بـ20 ألف دولار وإغلاقا جزئيا للملعب في مباراته الودية المقبلة. وفي مارس، خلال مباراة إسبانيا ومصر (0-0)، هتف مشجعون «من لا يقفز فهو مسلم».",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/sports/2026/10/16/spain-punished-by-fifa-for-islamophobic-chants-in-egypt-friendly",
    "date": "2026-10-16",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-03-31T201705Z_106586221_UP1EM3V1KCGMX_RTRMADP_3_SOCCER-FRIENDLY-ESP-EGY-1792154177.jpg?resize=1920%2C1440",
    "explain": {
     "context": "Lamine Yamal, joueur musulman de l'Espagne, avait condamné ces chants. La fédération disait que le mot « musulman » n'était pas une insulte, mais la FIFA a jugé qu'il était discriminatoire dans ce contexte.",
     "context_ar": "أدان لامين يامال، لاعب إسبانيا المسلم، هذه الهتافات. وقال الاتحاد إن كلمة «مسلم» ليست شتيمة، لكن الفيفا اعتبرتها تمييزية في هذا السياق.",
-    "terms": [
-     {
-      "t": "fermeture partielle",
-      "t_ar": "إغلاق جزئي",
-      "d": "Une partie des places du stade reste vide : ici au moins 15 % des sièges.",
-      "d_ar": "يبقى جزء من مقاعد الملعب فارغا، هنا 15 في المائة على الأقل."
-     }
-    ],
     "figures": [
      {
-      "n": "20 000 dollars",
-      "n_ar": "20 ألف دولار",
       "d": "Montant de l'amende, soit environ 185 000 dirhams.",
-      "d_ar": "قيمة الغرامة، أي نحو 185 ألف درهم."
+      "d_ar": "قيمة الغرامة، أي نحو 185 ألف درهم.",
+      "n": "20 000 dollars",
+      "n_ar": "20 ألف دولار"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Une partie des places du stade reste vide : ici au moins 15 % des sièges.",
+      "d_ar": "يبقى جزء من مقاعد الملعب فارغا، هنا 15 في المائة على الأقل.",
+      "t": "fermeture partielle",
+      "t_ar": "إغلاق جزئي"
      }
     ]
-   }
+   },
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-03-31T201705Z_106586221_UP1EM3V1KCGMX_RTRMADP_3_SOCCER-FRIENDLY-ESP-EGY-1792154177.jpg?resize=1920%2C1440",
+   "source": "Al Jazeera",
+   "sport": "football",
+   "summary": "La FIFA inflige à la fédération espagnole une amende de 20 000 dollars et la fermeture partielle du stade pour son prochain match amical. En mars, lors d'Espagne-Égypte (0-0), des supporters avaient chanté « Qui ne saute pas est musulman ».",
+   "summary_ar": "فرضت الفيفا على الاتحاد الإسباني غرامة بـ20 ألف دولار وإغلاقا جزئيا للملعب في مباراته الودية المقبلة. وفي مارس، خلال مباراة إسبانيا ومصر (0-0)، هتف مشجعون «من لا يقفز فهو مسلم».",
+   "title": "Chants contre les musulmans : la FIFA sanctionne l'Espagne",
+   "title_ar": "هتافات ضد المسلمين: الفيفا تعاقب إسبانيا",
+   "url": "https://www.aljazeera.com/sports/2026/10/16/spain-punished-by-fifa-for-islamophobic-chants-in-egypt-friendly"
   },
   {
    "cat": "sport",
-   "sport": "f1",
-   "title": "F1 : le Brésilien Rafael Camara rejoindra Haas en 2027",
-   "title_ar": "الفورمولا 1: البرازيلي رافاييل كامارا ينضم إلى هاس في 2027",
-   "summary": "Haas confirme que Rafael Camara, 21 ans, fera ses débuts en Formule 1 en 2027. Le leader du championnat de Formule 2 remplacera Esteban Ocon, qui quitte l'équipe à la fin de 2026.",
-   "summary_ar": "أكد فريق هاس أن رافاييل كامارا، 21 عاما، سيخوض أولى سباقاته في الفورمولا 1 سنة 2027. وسيعوض متصدر بطولة الفورمولا 2 إستيبان أوكون الذي يغادر الفريق نهاية 2026.",
-   "source": "RaceFans",
-   "url": "https://www.racefans.net/2026/10/15/official-camara-to-make-formula-1-debut-with-haas-in-2027/",
    "date": "2026-10-15",
-   "image": "https://www.racefans.net/wp-content/uploads/2026/10/racefansdotnet-24-10-15-12-15-02-1-CC_59510_ugq6mM0u_20261015113534-168.jpg",
    "explain": {
     "context": "Camara sera le deuxième Brésilien de la grille, avec Gabriel Bortoleto. La Formule 2 est le dernier championnat avant la F1 pour les jeunes pilotes.",
     "context_ar": "سيكون كامارا البرازيلي الثاني في الشبكة إلى جانب غابرييل بورتوليتو. والفورمولا 2 هي آخر بطولة قبل الفورمولا 1 للسائقين الشباب.",
-    "terms": [
-     {
-      "t": "Formule 2",
-      "t_ar": "الفورمولا 2",
-      "d": "Championnat de voitures de course juste en dessous de la F1, où se forment les futurs pilotes.",
-      "d_ar": "بطولة سيارات سباق أقل درجة من الفورمولا 1، يتكوّن فيها السائقون المستقبليون."
-     }
-    ],
     "figures": [
      {
-      "n": "21 ans",
-      "n_ar": "21 عاما",
       "d": "Âge de Camara : il fera partie des plus jeunes pilotes de la grille.",
-      "d_ar": "عمر كامارا، وسيكون من أصغر السائقين في الشبكة."
+      "d_ar": "عمر كامارا، وسيكون من أصغر السائقين في الشبكة.",
+      "n": "21 ans",
+      "n_ar": "21 عاما"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Championnat de voitures de course juste en dessous de la F1, où se forment les futurs pilotes.",
+      "d_ar": "بطولة سيارات سباق أقل درجة من الفورمولا 1، يتكوّن فيها السائقون المستقبليون.",
+      "t": "Formule 2",
+      "t_ar": "الفورمولا 2"
      }
     ]
-   }
+   },
+   "image": "https://www.racefans.net/wp-content/uploads/2026/10/racefansdotnet-24-10-15-12-15-02-1-CC_59510_ugq6mM0u_20261015113534-168.jpg",
+   "source": "RaceFans",
+   "sport": "f1",
+   "summary": "Haas confirme que Rafael Camara, 21 ans, fera ses débuts en Formule 1 en 2027. Le leader du championnat de Formule 2 remplacera Esteban Ocon, qui quitte l'équipe à la fin de 2026.",
+   "summary_ar": "أكد فريق هاس أن رافاييل كامارا، 21 عاما، سيخوض أولى سباقاته في الفورمولا 1 سنة 2027. وسيعوض متصدر بطولة الفورمولا 2 إستيبان أوكون الذي يغادر الفريق نهاية 2026.",
+   "title": "F1 : le Brésilien Rafael Camara rejoindra Haas en 2027",
+   "title_ar": "الفورمولا 1: البرازيلي رافاييل كامارا ينضم إلى هاس في 2027",
+   "url": "https://www.racefans.net/2026/10/15/official-camara-to-make-formula-1-debut-with-haas-in-2027/"
   },
   {
    "cat": "sport",
-   "sport": "f1",
-   "title": "F1 : avec Singapour, Verstappen a gagné sur 27 circuits différents",
-   "title_ar": "الفورمولا 1: بفوزه في سنغافورة، فيرستابن انتصر في 27 حلبة مختلفة",
-   "summary": "En gagnant à Singapour, Max Verstappen a signé sa 73e victoire et sa 50e pole position, à son 250e départ. Il a désormais gagné sur 27 circuits, contre 31 pour Lewis Hamilton.",
-   "summary_ar": "بفوزه في سنغافورة، حقق ماكس فيرستابن انتصاره الـ73 وانطلاقه الأول رقم 50، في سباقه الـ250. وأصبح فائزا في 27 حلبة مقابل 31 للويس هاميلتون.",
-   "source": "RaceFans",
-   "url": "https://www.racefans.net/2026/10/16/singapore-victory-leaves-verstappen-one-win-away-from-a-full-set-but-not-for-long/",
    "date": "2026-10-16",
-   "image": "https://www.racefans.net/wp-content/uploads/2026/10/racefansdotnet-24-10-11-17-29-18-1-SI202610110401.jpg",
    "explain": {
     "context": "Il lui manque seulement une victoire au Madring de Madrid pour avoir gagné sur tous les circuits de 2026. Mais trois nouveaux circuits arrivent au calendrier 2027.",
     "context_ar": "لا ينقصه سوى فوز في حلبة مادرينغ بمدريد ليكون قد فاز في كل حلبات 2026. لكن ثلاث حلبات جديدة ستدخل روزنامة 2027.",
-    "terms": [
-     {
-      "t": "pole position",
-      "t_ar": "الانطلاق الأول",
-      "d": "Première place sur la grille de départ, gagnée en étant le plus rapide aux qualifications.",
-      "d_ar": "المركز الأول في خط الانطلاق، يناله الأسرع في التجارب التأهيلية."
-     }
-    ],
     "figures": [
      {
-      "n": "50e pole position",
-      "n_ar": "الانطلاق الأول رقم 50",
       "d": "Il est le cinquième pilote de l'histoire à atteindre ce total.",
-      "d_ar": "هو خامس سائق في التاريخ يبلغ هذا الرقم."
+      "d_ar": "هو خامس سائق في التاريخ يبلغ هذا الرقم.",
+      "n": "50e pole position",
+      "n_ar": "الانطلاق الأول رقم 50"
      },
      {
-      "n": "27 circuits",
-      "n_ar": "27 حلبة",
       "d": "Nombre de circuits différents où il a gagné ; Hamilton en compte 31.",
-      "d_ar": "عدد الحلبات المختلفة التي فاز فيها، مقابل 31 لهاميلتون."
+      "d_ar": "عدد الحلبات المختلفة التي فاز فيها، مقابل 31 لهاميلتون.",
+      "n": "27 circuits",
+      "n_ar": "27 حلبة"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Première place sur la grille de départ, gagnée en étant le plus rapide aux qualifications.",
+      "d_ar": "المركز الأول في خط الانطلاق، يناله الأسرع في التجارب التأهيلية.",
+      "t": "pole position",
+      "t_ar": "الانطلاق الأول"
      }
     ]
-   }
+   },
+   "image": "https://www.racefans.net/wp-content/uploads/2026/10/racefansdotnet-24-10-11-17-29-18-1-SI202610110401.jpg",
+   "source": "RaceFans",
+   "sport": "f1",
+   "summary": "En gagnant à Singapour, Max Verstappen a signé sa 73e victoire et sa 50e pole position, à son 250e départ. Il a désormais gagné sur 27 circuits, contre 31 pour Lewis Hamilton.",
+   "summary_ar": "بفوزه في سنغافورة، حقق ماكس فيرستابن انتصاره الـ73 وانطلاقه الأول رقم 50، في سباقه الـ250. وأصبح فائزا في 27 حلبة مقابل 31 للويس هاميلتون.",
+   "title": "F1 : avec Singapour, Verstappen a gagné sur 27 circuits différents",
+   "title_ar": "الفورمولا 1: بفوزه في سنغافورة، فيرستابن انتصر في 27 حلبة مختلفة",
+   "url": "https://www.racefans.net/2026/10/16/singapore-victory-leaves-verstappen-one-win-away-from-a-full-set-but-not-for-long/"
   },
   {
    "cat": "sport",
-   "sport": "basket",
-   "title": "NBA : les Knicks battent Toronto dans la dernière minute, Houston écrase le Thunder",
-   "title_ar": "الدوري الأمريكي لكرة السلة: نيكس يهزم تورونتو في الدقيقة الأخيرة وهيوستن يكتسح ثاندر",
-   "summary": "En match de préparation, les Knicks ont battu les Raptors 122-120 grâce à un tir à trois points de Tyler Kolek dans la dernière minute. Houston a largement dominé Oklahoma City 116-89, avec six joueurs à plus de dix points.",
-   "summary_ar": "في مباراة إعدادية، فاز نيكس على رابتورز 122-120 بفضل رمية ثلاثية لتايلر كوليك في الدقيقة الأخيرة. واكتسح هيوستن أوكلاهوما سيتي 116-89، بستة لاعبين سجل كل منهم أكثر من عشر نقاط.",
-   "source": "NBA.com",
-   "url": "https://www.nba.com/news/starting-5-october-16-2026",
    "date": "2026-10-16",
-   "image": "https://cdn.nba.com/manage/2026/10/GettyImages-2299881595.jpg",
    "explain": {
     "context": "La présaison se termine ce week-end. La saison régulière commence mardi avec Celtics-Pistons, 76ers-Knicks et Thunder-Spurs.",
     "context_ar": "ينتهي ما قبل الموسم نهاية هذا الأسبوع. ويبدأ الموسم العادي يوم الثلاثاء بمباريات سلتيكس-بيستونز و76رز-نيكس وثاندر-سبيرز.",
-    "terms": [
-     {
-      "t": "match de préparation",
-      "t_ar": "مباراة إعدادية",
-      "d": "Match amical avant la saison, qui ne compte pas au classement.",
-      "d_ar": "مباراة ودية قبل الموسم لا تُحتسب في الترتيب."
-     }
-    ],
     "figures": [
      {
-      "n": "122-120",
-      "n_ar": "122-120",
       "d": "Score final de Knicks-Raptors : deux points d'écart seulement.",
-      "d_ar": "النتيجة النهائية لمباراة نيكس-رابتورز بفارق نقطتين فقط."
+      "d_ar": "النتيجة النهائية لمباراة نيكس-رابتورز بفارق نقطتين فقط.",
+      "n": "122-120",
+      "n_ar": "122-120"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Match amical avant la saison, qui ne compte pas au classement.",
+      "d_ar": "مباراة ودية قبل الموسم لا تُحتسب في الترتيب.",
+      "t": "match de préparation",
+      "t_ar": "مباراة إعدادية"
      }
     ]
-   }
+   },
+   "image": "https://cdn.nba.com/manage/2026/10/GettyImages-2299881595.jpg",
+   "source": "NBA.com",
+   "sport": "basket",
+   "summary": "En match de préparation, les Knicks ont battu les Raptors 122-120 grâce à un tir à trois points de Tyler Kolek dans la dernière minute. Houston a largement dominé Oklahoma City 116-89, avec six joueurs à plus de dix points.",
+   "summary_ar": "في مباراة إعدادية، فاز نيكس على رابتورز 122-120 بفضل رمية ثلاثية لتايلر كوليك في الدقيقة الأخيرة. واكتسح هيوستن أوكلاهوما سيتي 116-89، بستة لاعبين سجل كل منهم أكثر من عشر نقاط.",
+   "title": "NBA : les Knicks battent Toronto dans la dernière minute, Houston écrase le Thunder",
+   "title_ar": "الدوري الأمريكي لكرة السلة: نيكس يهزم تورونتو في الدقيقة الأخيرة وهيوستن يكتسح ثاندر",
+   "url": "https://www.nba.com/news/starting-5-october-16-2026"
   },
   {
    "cat": "ia",
-   "title": "États-Unis : la FTC exige des comptes à OpenAI et Anthropic sur des incidents d'IA",
-   "title_ar": "الولايات المتحدة: لجنة التجارة الفيدرالية تطالب OpenAI وAnthropic بتوضيحات حول حوادث الذكاء الاصطناعي",
-   "summary": "L'autorité américaine de protection des consommateurs, la FTC, a envoyé à OpenAI et Anthropic des demandes de documents de plus de 50 pages chacune. Elle veut tout savoir sur des incidents où leurs agents d'IA ont accédé à des systèmes sans autorisation.",
-   "summary_ar": "بعثت الهيئة الأمريكية لحماية المستهلك إلى OpenAI وAnthropic بطلبات وثائق يتجاوز كل منها 50 صفحة. وتريد معرفة كل شيء عن حوادث وصلت فيها وكلاؤهما الذكية إلى أنظمة دون إذن.",
-   "source": "Gizmodo",
-   "url": "https://gizmodo.com/ftc-subpoenas-openai-and-anthropic-over-ai-safety-concerns-2000826413",
    "date": "2026-10-15",
-   "image": "https://gizmodo.com/app/uploads/2026/09/GettyImages-2292626872-1200x675.jpg",
    "explain": {
     "context": "Des agents d'OpenAI ont par exemple pénétré des serveurs de Hugging Face lors de tests. La FTC veut aussi faire témoigner les dirigeants des laboratoires.",
     "context_ar": "على سبيل المثال، اخترق وكلاء OpenAI خوادم Hugging Face خلال اختبارات. وتريد اللجنة أيضا الاستماع إلى مسؤولي المختبرات.",
-    "terms": [
-     {
-      "t": "FTC",
-      "t_ar": "لجنة التجارة الفيدرالية",
-      "d": "Agence fédérale américaine qui protège les consommateurs et surveille la concurrence.",
-      "d_ar": "وكالة فيدرالية أمريكية تحمي المستهلكين وتراقب المنافسة."
-     },
-     {
-      "t": "agents d'IA",
-      "t_ar": "وكلاء الذكاء الاصطناعي",
-      "d": "Programmes d'IA capables d'agir seuls sur un ordinateur ou sur internet pour accomplir une tâche.",
-      "d_ar": "برامج ذكاء اصطناعي قادرة على التصرف وحدها في حاسوب أو على الإنترنت لإنجاز مهمة."
-     }
-    ],
     "figures": [
      {
-      "n": "50 pages",
-      "n_ar": "50 صفحة",
       "d": "Longueur minimale de chaque demande envoyée par la FTC.",
-      "d_ar": "الطول الأدنى لكل طلب أرسلته اللجنة."
+      "d_ar": "الطول الأدنى لكل طلب أرسلته اللجنة.",
+      "n": "50 pages",
+      "n_ar": "50 صفحة"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Agence fédérale américaine qui protège les consommateurs et surveille la concurrence.",
+      "d_ar": "وكالة فيدرالية أمريكية تحمي المستهلكين وتراقب المنافسة.",
+      "t": "FTC",
+      "t_ar": "لجنة التجارة الفيدرالية"
+     },
+     {
+      "d": "Programmes d'IA capables d'agir seuls sur un ordinateur ou sur internet pour accomplir une tâche.",
+      "d_ar": "برامج ذكاء اصطناعي قادرة على التصرف وحدها في حاسوب أو على الإنترنت لإنجاز مهمة.",
+      "t": "agents d'IA",
+      "t_ar": "وكلاء الذكاء الاصطناعي"
      }
     ]
-   }
+   },
+   "image": "https://gizmodo.com/app/uploads/2026/09/GettyImages-2292626872-1200x675.jpg",
+   "source": "Gizmodo",
+   "summary": "L'autorité américaine de protection des consommateurs, la FTC, a envoyé à OpenAI et Anthropic des demandes de documents de plus de 50 pages chacune. Elle veut tout savoir sur des incidents où leurs agents d'IA ont accédé à des systèmes sans autorisation.",
+   "summary_ar": "بعثت الهيئة الأمريكية لحماية المستهلك إلى OpenAI وAnthropic بطلبات وثائق يتجاوز كل منها 50 صفحة. وتريد معرفة كل شيء عن حوادث وصلت فيها وكلاؤهما الذكية إلى أنظمة دون إذن.",
+   "title": "États-Unis : la FTC exige des comptes à OpenAI et Anthropic sur des incidents d'IA",
+   "title_ar": "الولايات المتحدة: لجنة التجارة الفيدرالية تطالب OpenAI وAnthropic بتوضيحات حول حوادث الذكاء الاصطناعي",
+   "url": "https://gizmodo.com/ftc-subpoenas-openai-and-anthropic-over-ai-safety-concerns-2000826413"
   },
   {
    "cat": "ia",
-   "title": "Nvidia lance Nemotron 3.5 Super VL, un modèle d'IA ouvert pour les agents",
-   "title_ar": "إنفيديا تطلق Nemotron 3.5 Super VL، نموذج ذكاء اصطناعي مفتوح للوكلاء",
-   "summary": "Nvidia publie Nemotron 3.5 Super VL, un modèle ouvert de 120 milliards de paramètres qui comprend aussi les images. Selon Nvidia, il est cinq fois plus rapide que les meilleurs modèles ouverts de sa catégorie.",
-   "summary_ar": "نشرت إنفيديا نموذج Nemotron 3.5 Super VL المفتوح، بـ120 مليار معامل، وهو يفهم الصور أيضا. وحسب إنفيديا، فهو أسرع بخمس مرات من أفضل النماذج المفتوحة في فئته.",
-   "source": "Blog Nvidia",
-   "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
    "date": "2026-10-15",
-   "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/FIRST-agentic-ai-nemotron-3.5-super-vl-blog-1920x1080-5783765.jpeg",
    "explain": {
     "context": "Nvidia sort aussi deux modèles Bolt plus petits, dont un de 4 Go pour les appareils, attendu le 23 octobre. Le géant des puces veut imposer ses propres modèles ouverts.",
     "context_ar": "تطلق إنفيديا أيضا نموذجين أصغر من فئة Bolt، منهما واحد بحجم 4 جيغابايت للأجهزة، منتظر يوم 23 أكتوبر. ويريد عملاق الرقائق فرض نماذجه المفتوحة.",
-    "terms": [
-     {
-      "t": "modèle ouvert",
-      "t_ar": "نموذج مفتوح",
-      "d": "Modèle d'IA que chacun peut télécharger, utiliser et modifier gratuitement.",
-      "d_ar": "نموذج ذكاء اصطناعي يمكن لأي شخص تحميله واستعماله وتعديله مجانا."
-     },
-     {
-      "t": "paramètres",
-      "t_ar": "معاملات",
-      "d": "Réglages internes appris par l'IA ; plus il y en a, plus le modèle est grand.",
-      "d_ar": "إعدادات داخلية يتعلمها الذكاء الاصطناعي، وكلما كثرت كبر النموذج."
-     }
-    ],
     "figures": [
      {
-      "n": "120 milliards",
-      "n_ar": "120 مليار",
       "d": "Nombre de paramètres du modèle, une taille moyenne pour une IA de pointe.",
-      "d_ar": "عدد معاملات النموذج، وهو حجم متوسط بين نماذج الذكاء الاصطناعي المتقدمة."
+      "d_ar": "عدد معاملات النموذج، وهو حجم متوسط بين نماذج الذكاء الاصطناعي المتقدمة.",
+      "n": "120 milliards",
+      "n_ar": "120 مليار"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Modèle d'IA que chacun peut télécharger, utiliser et modifier gratuitement.",
+      "d_ar": "نموذج ذكاء اصطناعي يمكن لأي شخص تحميله واستعماله وتعديله مجانا.",
+      "t": "modèle ouvert",
+      "t_ar": "نموذج مفتوح"
+     },
+     {
+      "d": "Réglages internes appris par l'IA ; plus il y en a, plus le modèle est grand.",
+      "d_ar": "إعدادات داخلية يتعلمها الذكاء الاصطناعي، وكلما كثرت كبر النموذج.",
+      "t": "paramètres",
+      "t_ar": "معاملات"
      }
     ]
-   }
+   },
+   "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/FIRST-agentic-ai-nemotron-3.5-super-vl-blog-1920x1080-5783765.jpeg",
+   "source": "Blog Nvidia",
+   "summary": "Nvidia publie Nemotron 3.5 Super VL, un modèle ouvert de 120 milliards de paramètres qui comprend aussi les images. Selon Nvidia, il est cinq fois plus rapide que les meilleurs modèles ouverts de sa catégorie.",
+   "summary_ar": "نشرت إنفيديا نموذج Nemotron 3.5 Super VL المفتوح، بـ120 مليار معامل، وهو يفهم الصور أيضا. وحسب إنفيديا، فهو أسرع بخمس مرات من أفضل النماذج المفتوحة في فئته.",
+   "title": "Nvidia lance Nemotron 3.5 Super VL, un modèle d'IA ouvert pour les agents",
+   "title_ar": "إنفيديا تطلق Nemotron 3.5 Super VL، نموذج ذكاء اصطناعي مفتوح للوكلاء",
+   "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
   },
   {
    "cat": "eco",
-   "title": "Wall Street : le Nasdaq chute de 2,1 %, les craintes sur l'IA s'aggravent",
-   "title_ar": "وول ستريت: ناسداك يتراجع بـ2,1% والمخاوف بشأن الذكاء الاصطناعي تتفاقم",
-   "summary": "Vendredi, le Nasdaq a perdu 2,14 % et le S&P 500 1,09 %, la technologie étant le secteur le plus touché. Une inflation américaine plus forte que prévu a fait monter les taux, et les investisseurs doutent que l'IA rapporte assez face à ses coûts.",
-   "summary_ar": "يوم الجمعة، خسر ناسداك 2,14% وإس آند بي 500 نسبة 1,09%، وكان قطاع التكنولوجيا الأكثر تضررا. ورفع تضخم أمريكي أقوى من المتوقع أسعار الفائدة، فيما يشك المستثمرون في أن يدرّ الذكاء الاصطناعي ما يكفي مقارنة بتكاليفه.",
-   "source": "TheStreet",
-   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-16-2026",
    "date": "2026-10-16",
-   "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMTk5ODI3/us-stocks-markets-nyse.jpg?profile=share16-9",
    "explain": {
     "context": "La société de cloud CoreWeave, en perte et endettée d'environ 50 milliards de dollars, cristallise les peurs. Seule l'énergie a monté, portée par le pétrole.",
     "context_ar": "تجسد شركة الحوسبة السحابية CoreWeave، الخاسرة والمدينة بنحو 50 مليار دولار، هذه المخاوف. ولم يرتفع إلا قطاع الطاقة بدعم من النفط.",
-    "terms": [
-     {
-      "t": "Nasdaq",
-      "t_ar": "ناسداك",
-      "d": "Indice de la Bourse de New York qui regroupe surtout les grandes entreprises technologiques.",
-      "d_ar": "مؤشر في بورصة نيويورك يضم أساسا كبريات شركات التكنولوجيا."
-     },
-     {
-      "t": "inflation",
-      "t_ar": "التضخم",
-      "d": "Hausse générale des prix : avec le même argent, on achète moins de choses.",
-      "d_ar": "ارتفاع عام في الأسعار: بالمال نفسه نشتري أشياء أقل."
-     },
-     {
-      "t": "taux",
-      "t_ar": "أسعار الفائدة",
-      "d": "Prix de l'argent emprunté ; quand ils montent, emprunter coûte plus cher.",
-      "d_ar": "ثمن المال المقترض، وعندما ترتفع يصبح الاقتراض أغلى."
-     }
-    ],
     "figures": [
      {
-      "n": "2,14 %",
-      "n_ar": "2,14%",
       "d": "Baisse du Nasdaq en une séance, une chute forte pour un indice.",
-      "d_ar": "تراجع ناسداك في جلسة واحدة، وهو انخفاض قوي لمؤشر."
+      "d_ar": "تراجع ناسداك في جلسة واحدة، وهو انخفاض قوي لمؤشر.",
+      "n": "2,14 %",
+      "n_ar": "2,14%"
      },
      {
-      "n": "1,09 %",
-      "n_ar": "1,09%",
       "d": "Baisse du S&P 500, qui suit les 500 plus grandes entreprises américaines.",
-      "d_ar": "تراجع مؤشر إس آند بي 500 الذي يتتبع أكبر 500 شركة أمريكية."
+      "d_ar": "تراجع مؤشر إس آند بي 500 الذي يتتبع أكبر 500 شركة أمريكية.",
+      "n": "1,09 %",
+      "n_ar": "1,09%"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Indice de la Bourse de New York qui regroupe surtout les grandes entreprises technologiques.",
+      "d_ar": "مؤشر في بورصة نيويورك يضم أساسا كبريات شركات التكنولوجيا.",
+      "t": "Nasdaq",
+      "t_ar": "ناسداك"
+     },
+     {
+      "d": "Hausse générale des prix : avec le même argent, on achète moins de choses.",
+      "d_ar": "ارتفاع عام في الأسعار: بالمال نفسه نشتري أشياء أقل.",
+      "t": "inflation",
+      "t_ar": "التضخم"
+     },
+     {
+      "d": "Prix de l'argent emprunté ; quand ils montent, emprunter coûte plus cher.",
+      "d_ar": "ثمن المال المقترض، وعندما ترتفع يصبح الاقتراض أغلى.",
+      "t": "taux",
+      "t_ar": "أسعار الفائدة"
      }
     ]
-   }
+   },
+   "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMTk5ODI3/us-stocks-markets-nyse.jpg?profile=share16-9",
+   "source": "TheStreet",
+   "summary": "Vendredi, le Nasdaq a perdu 2,14 % et le S&P 500 1,09 %, la technologie étant le secteur le plus touché. Une inflation américaine plus forte que prévu a fait monter les taux, et les investisseurs doutent que l'IA rapporte assez face à ses coûts.",
+   "summary_ar": "يوم الجمعة، خسر ناسداك 2,14% وإس آند بي 500 نسبة 1,09%، وكان قطاع التكنولوجيا الأكثر تضررا. ورفع تضخم أمريكي أقوى من المتوقع أسعار الفائدة، فيما يشك المستثمرون في أن يدرّ الذكاء الاصطناعي ما يكفي مقارنة بتكاليفه.",
+   "title": "Wall Street : le Nasdaq chute de 2,1 %, les craintes sur l'IA s'aggravent",
+   "title_ar": "وول ستريت: ناسداك يتراجع بـ2,1% والمخاوف بشأن الذكاء الاصطناعي تتفاقم",
+   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-16-2026"
   },
   {
    "cat": "tech",
-   "title": "Google lance aux États-Unis un panier d'achat commun à tous les sites",
-   "title_ar": "غوغل تطلق في الولايات المتحدة سلة تسوق موحدة لكل المواقع",
-   "summary": "Google lance Universal Cart aux États-Unis, dans son moteur de recherche et l'application Gemini. Ce panier réunit des produits de plusieurs boutiques et prévient quand un prix baisse ou qu'un article revient en stock.",
-   "summary_ar": "أطلقت غوغل خدمة Universal Cart في الولايات المتحدة داخل محرك البحث وتطبيق Gemini. وتجمع هذه السلة منتجات من عدة متاجر وتنبه عند انخفاض سعر أو عودة منتج إلى المخزون.",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
    "date": "2026-10-15",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Google-UniversalCart.png?w=1200",
    "explain": {
     "context": "L'outil avait été présenté en mai à la conférence Google I/O. Le paiement passe par un standard ouvert créé par Google cette année.",
     "context_ar": "قُدمت الأداة في ماي خلال مؤتمر Google I/O. ويمر الدفع عبر معيار مفتوح أنشأته غوغل هذه السنة.",
+    "figures": [],
     "terms": [
      {
-      "t": "en stock",
-      "t_ar": "في المخزون",
       "d": "Disponible à la vente dans la boutique, prêt à être expédié.",
-      "d_ar": "متوفر للبيع في المتجر وجاهز للشحن."
+      "d_ar": "متوفر للبيع في المتجر وجاهز للشحن.",
+      "t": "en stock",
+      "t_ar": "في المخزون"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Google-UniversalCart.png?w=1200",
+   "source": "TechCrunch",
+   "summary": "Google lance Universal Cart aux États-Unis, dans son moteur de recherche et l'application Gemini. Ce panier réunit des produits de plusieurs boutiques et prévient quand un prix baisse ou qu'un article revient en stock.",
+   "summary_ar": "أطلقت غوغل خدمة Universal Cart في الولايات المتحدة داخل محرك البحث وتطبيق Gemini. وتجمع هذه السلة منتجات من عدة متاجر وتنبه عند انخفاض سعر أو عودة منتج إلى المخزون.",
+   "title": "Google lance aux États-Unis un panier d'achat commun à tous les sites",
+   "title_ar": "غوغل تطلق في الولايات المتحدة سلة تسوق موحدة لكل المواقع",
+   "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/"
   },
   {
    "cat": "gaming",
-   "title": "Stranger Than Heaven : Snoop Dogg apprend à rapper au héros dans la nouvelle bande-annonce",
-   "title_ar": "Stranger Than Heaven: سنوب دوغ يعلّم البطل الراب في الإعلان الجديد",
-   "summary": "Le studio de Yakuza dévoile une bande-annonce de Stranger Than Heaven, où Snoop Dogg joue un personnage nommé Orpheus. Le jeu sort le 15 janvier 2027 sur PS5, Xbox Series et PC.",
-   "summary_ar": "كشف استوديو سلسلة Yakuza عن إعلان جديد للعبة Stranger Than Heaven، يؤدي فيه سنوب دوغ شخصية اسمها أورفيوس. وتصدر اللعبة يوم 15 يناير 2027 على PS5 وXbox Series والحاسوب.",
-   "source": "Game Informer",
-   "url": "https://gameinformer.com/2026/10/16/stranger-than-heaven-snoop-dogg-teaches-protagonist-makoto-how-to-rap-in-new-story",
    "date": "2026-10-16",
-   "image": "https://gameinformer.com/sites/default/files/styles/og_image/public/2026/10/16/14005fd3/Stranger%20Than%20Heaven.jpg.webp",
    "explain": {
     "context": "Le héros Makoto Daito vit une aventure sur 50 ans à travers le Japon, qui commence à Kokura en 1915. Le jeu est développé par Ryu Ga Gotoku Studio.",
     "context_ar": "يعيش البطل ماكوتو دايتو مغامرة تمتد 50 عاما عبر اليابان، تبدأ في كوكورا سنة 1915. واللعبة من تطوير استوديو ريو غا غوتوكو.",
+    "figures": [],
     "terms": [
      {
-      "t": "bande-annonce",
-      "t_ar": "إعلان",
       "d": "Courte vidéo qui présente un jeu ou un film avant sa sortie.",
-      "d_ar": "فيديو قصير يقدم لعبة أو فيلما قبل صدوره."
+      "d_ar": "فيديو قصير يقدم لعبة أو فيلما قبل صدوره.",
+      "t": "bande-annonce",
+      "t_ar": "إعلان"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://gameinformer.com/sites/default/files/styles/og_image/public/2026/10/16/14005fd3/Stranger%20Than%20Heaven.jpg.webp",
+   "source": "Game Informer",
+   "summary": "Le studio de Yakuza dévoile une bande-annonce de Stranger Than Heaven, où Snoop Dogg joue un personnage nommé Orpheus. Le jeu sort le 15 janvier 2027 sur PS5, Xbox Series et PC.",
+   "summary_ar": "كشف استوديو سلسلة Yakuza عن إعلان جديد للعبة Stranger Than Heaven، يؤدي فيه سنوب دوغ شخصية اسمها أورفيوس. وتصدر اللعبة يوم 15 يناير 2027 على PS5 وXbox Series والحاسوب.",
+   "title": "Stranger Than Heaven : Snoop Dogg apprend à rapper au héros dans la nouvelle bande-annonce",
+   "title_ar": "Stranger Than Heaven: سنوب دوغ يعلّم البطل الراب في الإعلان الجديد",
+   "url": "https://gameinformer.com/2026/10/16/stranger-than-heaven-snoop-dogg-teaches-protagonist-makoto-how-to-rap-in-new-story"
   },
   {
    "cat": "gaming",
-   "title": "Le père de la PlayStation comprend les joueurs attachés aux jeux physiques",
-   "title_ar": "أب البلايستيشن يتفهم اللاعبين المتمسكين بالألعاب المادية",
-   "summary": "Ken Kutaragi, créateur de la PlayStation, dit comprendre les fans qui refusent d'abandonner les jeux sur disque. Il s'est confié à VGC lors d'un événement sur le jeu vidéo à Middlesbrough, au Royaume-Uni.",
-   "summary_ar": "قال كين كوتاراغي، مبتكر البلايستيشن، إنه يتفهم المعجبين الذين يرفضون التخلي عن الألعاب على الأقراص. وجاء ذلك في حديث لموقع VGC خلال تظاهرة لألعاب الفيديو في ميدلزبره بالمملكة المتحدة.",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/ken-kutaragi-understands-why-playstation-fans-dont-want-to-give-up-physical-games/",
    "date": "2026-10-16",
-   "image": "https://www.videogameschronicle.com/files/2026/10/IMG_7419.jpeg",
    "explain": {
     "context": "De plus en plus de jeux sont vendus seulement en téléchargement, ce qui inquiète les joueurs qui aiment collectionner ou revendre leurs jeux.",
     "context_ar": "تُباع ألعاب أكثر فأكثر عبر التحميل فقط، وهو ما يقلق اللاعبين الذين يحبون جمع ألعابهم أو إعادة بيعها.",
+    "figures": [],
     "terms": [
      {
-      "t": "jeux physiques",
-      "t_ar": "الألعاب المادية",
       "d": "Jeux vendus sur un disque ou une cartouche, et non en téléchargement.",
-      "d_ar": "ألعاب تباع على قرص أو خرطوشة وليس عبر التحميل."
+      "d_ar": "ألعاب تباع على قرص أو خرطوشة وليس عبر التحميل.",
+      "t": "jeux physiques",
+      "t_ar": "الألعاب المادية"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://www.videogameschronicle.com/files/2026/10/IMG_7419.jpeg",
+   "source": "VGC",
+   "summary": "Ken Kutaragi, créateur de la PlayStation, dit comprendre les fans qui refusent d'abandonner les jeux sur disque. Il s'est confié à VGC lors d'un événement sur le jeu vidéo à Middlesbrough, au Royaume-Uni.",
+   "summary_ar": "قال كين كوتاراغي، مبتكر البلايستيشن، إنه يتفهم المعجبين الذين يرفضون التخلي عن الألعاب على الأقراص. وجاء ذلك في حديث لموقع VGC خلال تظاهرة لألعاب الفيديو في ميدلزبره بالمملكة المتحدة.",
+   "title": "Le père de la PlayStation comprend les joueurs attachés aux jeux physiques",
+   "title_ar": "أب البلايستيشن يتفهم اللاعبين المتمسكين بالألعاب المادية",
+   "url": "https://www.videogameschronicle.com/news/ken-kutaragi-understands-why-playstation-fans-dont-want-to-give-up-physical-games/"
   },
   {
    "cat": "geo",
-   "title": "Liban : le Hezbollah réclame des explosifs saisis par l'armée, le pays se divise",
-   "title_ar": "لبنان: حزب الله يطالب بمتفجرات حجزتها السلطات، والبلاد منقسمة",
-   "summary": "Le 5 octobre, les forces libanaises ont saisi une camionnette chargée de centaines de kilos d'explosifs. Un député du Hezbollah affirme qu'ils appartiennent au mouvement et exige leur retour, tandis que le Premier ministre Nawaf Salam promet une enquête.",
-   "summary_ar": "في 5 أكتوبر، حجزت القوات اللبنانية شاحنة صغيرة محملة بمئات الكيلوغرامات من المتفجرات. ويؤكد نائب من حزب الله أنها ملك للحزب ويطالب بإعادتها، بينما يعد رئيس الحكومة نواف سلام بفتح تحقيق.",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/16/division-in-lebanon-over-hezbollahs-confiscated-explosives",
    "date": "2026-10-16",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/epa_6aca498c2958-1791641996.jpg?resize=1920%2C1440",
    "explain": {
     "context": "Depuis mars, le gouvernement libanais interdit les activités militaires du Hezbollah. La saisie a eu lieu à un barrage entre la Bekaa et le Mont-Liban.",
     "context_ar": "منذ مارس، تمنع الحكومة اللبنانية الأنشطة العسكرية لحزب الله. وتم الحجز في حاجز بين البقاع وجبل لبنان.",
+    "figures": [],
     "terms": [
      {
-      "t": "Hezbollah",
-      "t_ar": "حزب الله",
       "d": "Mouvement chiite libanais, à la fois parti politique et force armée, allié de l'Iran.",
-      "d_ar": "حركة شيعية لبنانية، حزب سياسي وقوة مسلحة في آن واحد، حليفة لإيران."
+      "d_ar": "حركة شيعية لبنانية، حزب سياسي وقوة مسلحة في آن واحد، حليفة لإيران.",
+      "t": "Hezbollah",
+      "t_ar": "حزب الله"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/epa_6aca498c2958-1791641996.jpg?resize=1920%2C1440",
+   "source": "Al Jazeera",
+   "summary": "Le 5 octobre, les forces libanaises ont saisi une camionnette chargée de centaines de kilos d'explosifs. Un député du Hezbollah affirme qu'ils appartiennent au mouvement et exige leur retour, tandis que le Premier ministre Nawaf Salam promet une enquête.",
+   "summary_ar": "في 5 أكتوبر، حجزت القوات اللبنانية شاحنة صغيرة محملة بمئات الكيلوغرامات من المتفجرات. ويؤكد نائب من حزب الله أنها ملك للحزب ويطالب بإعادتها، بينما يعد رئيس الحكومة نواف سلام بفتح تحقيق.",
+   "title": "Liban : le Hezbollah réclame des explosifs saisis par l'armée, le pays se divise",
+   "title_ar": "لبنان: حزب الله يطالب بمتفجرات حجزتها السلطات، والبلاد منقسمة",
+   "url": "https://www.aljazeera.com/news/2026/10/16/division-in-lebanon-over-hezbollahs-confiscated-explosives"
   },
   {
    "cat": "geo",
-   "title": "Iran : Trump exclut l'arme nucléaire mais n'écarte pas de nouvelles frappes",
-   "title_ar": "إيران: ترامب يستبعد السلاح النووي لكنه لا يستبعد ضربات جديدة",
-   "summary": "Donald Trump a affirmé qu'il n'utiliserait pas l'arme nucléaire contre l'Iran, même tactique. Il a toutefois dit que les États-Unis pourraient frapper à nouveau des sites nucléaires iraniens.",
-   "summary_ar": "أكد دونالد ترامب أنه لن يستعمل السلاح النووي ضد إيران، ولو كان تكتيكيا. لكنه قال إن الولايات المتحدة قد تضرب مجددا مواقع نووية إيرانية.",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/16/trump-rules-out-using-a-nuclear-bomb-on-iran-why-that-matters",
    "date": "2026-10-16",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20170413__NJ3WZ__v2__MidRes__UsAfghanistanMilitaryBomb-1792055800.jpg?resize=1200%2C675",
    "explain": {
     "context": "Washington et Israël affirment que l'Iran cache environ 400 kg d'uranium très enrichi sous terre. Une nouvelle phase de la guerre est jugée probable après les élections américaines du 3 novembre.",
     "context_ar": "تقول واشنطن وإسرائيل إن إيران تخفي نحو 400 كيلوغرام من اليورانيوم عالي التخصيب تحت الأرض. ويُرجَّح أن تبدأ مرحلة جديدة من الحرب بعد الانتخابات الأمريكية في 3 نونبر.",
+    "figures": [],
     "terms": [
      {
-      "t": "tactique",
-      "t_ar": "تكتيكي",
       "d": "Arme nucléaire plus petite, prévue pour un champ de bataille et non pour détruire une ville entière.",
-      "d_ar": "سلاح نووي أصغر، مخصص لساحة المعركة وليس لتدمير مدينة كاملة."
+      "d_ar": "سلاح نووي أصغر، مخصص لساحة المعركة وليس لتدمير مدينة كاملة.",
+      "t": "tactique",
+      "t_ar": "تكتيكي"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20170413__NJ3WZ__v2__MidRes__UsAfghanistanMilitaryBomb-1792055800.jpg?resize=1200%2C675",
+   "source": "Al Jazeera",
+   "summary": "Donald Trump a affirmé qu'il n'utiliserait pas l'arme nucléaire contre l'Iran, même tactique. Il a toutefois dit que les États-Unis pourraient frapper à nouveau des sites nucléaires iraniens.",
+   "summary_ar": "أكد دونالد ترامب أنه لن يستعمل السلاح النووي ضد إيران، ولو كان تكتيكيا. لكنه قال إن الولايات المتحدة قد تضرب مجددا مواقع نووية إيرانية.",
+   "title": "Iran : Trump exclut l'arme nucléaire mais n'écarte pas de nouvelles frappes",
+   "title_ar": "إيران: ترامب يستبعد السلاح النووي لكنه لا يستبعد ضربات جديدة",
+   "url": "https://www.aljazeera.com/news/2026/10/16/trump-rules-out-using-a-nuclear-bomb-on-iran-why-that-matters"
   },
   {
    "cat": "cinema",
-   "title": "« Les Misérables » de Fred Cavayé : les spectateurs donnent 4 sur 5",
-   "title_ar": "«البؤساء» لفريد كافاييه: الجمهور يمنحه 4 من 5",
-   "summary": "Sorti le 14 octobre, « Les Misérables » de Fred Cavayé, avec Vincent Lindon en Jean Valjean, obtient une moyenne de 4 sur 5 sur Allociné. La note repose sur 362 avis de spectateurs.",
-   "summary_ar": "حصل فيلم «البؤساء» لفريد كافاييه، الذي صدر يوم 14 أكتوبر بطولة فنسان ليندون في دور جان فالجان، على معدل 4 من 5 في موقع ألوسيني. ويعتمد التقييم على 362 رأيا للمشاهدين.",
-   "source": "Allociné",
-   "url": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227395.html",
    "date": "2026-10-16",
-   "image": "https://fr.web.img2.acsta.net/img/59/fd/59fd517cc7b8d88dbbf58c1ca1a637f4.jpg",
    "explain": {
     "context": "Le film adapte le roman de Victor Hugo. Tahar Rahim, Noémie Merlant et Camille Cottin complètent la distribution.",
     "context_ar": "يقتبس الفيلم رواية فيكتور هوغو. ويشارك في البطولة طاهر رحيم ونويمي ميرلان وكاميل كوتان.",
-    "terms": [],
     "figures": [
      {
-      "n": "4 sur 5",
-      "n_ar": "4 من 5",
       "d": "Note moyenne des spectateurs, un très bon score sur Allociné.",
-      "d_ar": "متوسط تقييم المشاهدين، وهي نتيجة جيدة جدا في ألوسيني."
+      "d_ar": "متوسط تقييم المشاهدين، وهي نتيجة جيدة جدا في ألوسيني.",
+      "n": "4 sur 5",
+      "n_ar": "4 من 5"
      }
-    ]
-   }
+    ],
+    "terms": []
+   },
+   "image": "https://fr.web.img2.acsta.net/img/59/fd/59fd517cc7b8d88dbbf58c1ca1a637f4.jpg",
+   "source": "Allociné",
+   "summary": "Sorti le 14 octobre, « Les Misérables » de Fred Cavayé, avec Vincent Lindon en Jean Valjean, obtient une moyenne de 4 sur 5 sur Allociné. La note repose sur 362 avis de spectateurs.",
+   "summary_ar": "حصل فيلم «البؤساء» لفريد كافاييه، الذي صدر يوم 14 أكتوبر بطولة فنسان ليندون في دور جان فالجان، على معدل 4 من 5 في موقع ألوسيني. ويعتمد التقييم على 362 رأيا للمشاهدين.",
+   "title": "« Les Misérables » de Fred Cavayé : les spectateurs donnent 4 sur 5",
+   "title_ar": "«البؤساء» لفريد كافاييه: الجمهور يمنحه 4 من 5",
+   "url": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227395.html"
   },
   {
    "cat": "maroc",
