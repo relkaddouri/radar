@@ -5341,7 +5341,32 @@
    "title_ar": "خالد حفتر في الرباط: تعاون عسكري وصراع عائلي في ليبيا",
    "url": "https://medias24.com/2026/10/14/maroc-libye-entre-diplomatie-militaire-et-rivalites-dynastiques-les-dessous-de-la-visite-de-khaled-haftar-a-rabat-1779111/",
    "why": "Un bon exemple pour comprendre comment le Maroc avance ses pions au Maghreb sans le dire tout haut.",
-   "why_ar": "مثال جيد لتفهم كيف يحرّك المغرب أوراقه في المنطقة المغاربية دون إعلان ذلك صراحة."
+   "why_ar": "مثال جيد لتفهم كيف يحرّك المغرب أوراقه في المنطقة المغاربية دون إعلان ذلك صراحة.",
+   "explain": {
+    "context": "Khaled Haftar est un fils du maréchal Haftar, qui tient l'Est de la Libye. Le pays a deux pouvoirs rivaux, à l'Est et à Tripoli ; le Maroc soigne ses liens avec les deux camps.",
+    "context_ar": "خالد حفتر ابن المشير حفتر الذي يسيطر على شرق ليبيا. للبلاد سلطتان متنافستان، في الشرق وفي طرابلس، والمغرب يحافظ على علاقاته مع الطرفين.",
+    "terms": [
+     {
+      "t": "chef d'état-major",
+      "t_ar": "رئيس الأركان",
+      "d": "L'officier qui dirige l'organisation générale d'une armée et prépare ses opérations.",
+      "d_ar": "الضابط الذي يدير التنظيم العام للجيش ويُعدّ عملياته."
+     },
+     {
+      "t": "Conseil de sécurité",
+      "t_ar": "مجلس الأمن",
+      "d": "L'organe de l'ONU qui traite de la paix dans le monde ; certains sièges tournent entre pays pour deux ans.",
+      "d_ar": "هيئة في الأمم المتحدة تعنى بالسلم العالمي؛ وبعض مقاعدها تتناوب عليها الدول لمدة سنتين."
+     },
+     {
+      "t": "FAR",
+      "t_ar": "القوات المسلحة الملكية",
+      "d": "Les Forces armées royales : l'armée marocaine.",
+      "d_ar": "القوات المسلحة الملكية: الجيش المغربي."
+     }
+    ],
+    "figures": []
+   }
   },
   {
    "cat": "maroc",
@@ -5375,7 +5400,51 @@
    "title_ar": "السكك الحديدية: المال العام لم يعد كافياً والمكتب الوطني يبحث عن تمويلات أخرى",
    "url": "https://medias24.com/2026/10/14/infrastructures-ferroviaires-le-financement-public-ne-suffit-plus-loncf-explore-de-nouvelles-pistes-1779103/",
    "why": "Un cas concret de stratégie : comment financer un gros projet quand les recettes ne couvrent pas les coûts.",
-   "why_ar": "حالة ملموسة في الاستراتيجية: كيف تموّل مشروعاً ضخماً حين لا تغطي المداخيل التكاليف."
+   "why_ar": "حالة ملموسة في الاستراتيجية: كيف تموّل مشروعاً ضخماً حين لا تغطي المداخيل التكاليف.",
+   "explain": {
+    "context": "Construire des lignes de train coûte très cher, et l'État ne peut pas tout payer seul. L'ONCF, l'office du rail marocain, cherche donc de l'argent auprès d'autres acteurs.",
+    "context_ar": "بناء خطوط القطار مكلف جداً ولا تستطيع الدولة تمويله وحدها. لذلك يبحث المكتب الوطني للسكك الحديدية عن المال لدى جهات أخرى.",
+    "terms": [
+     {
+      "t": "partenariats public-privé",
+      "t_ar": "الشراكة بين القطاعين العام والخاص",
+      "d": "Un accord où l'État et une entreprise privée réalisent ensemble un projet et se partagent les risques.",
+      "d_ar": "اتفاق تنجز فيه الدولة وشركة خاصة مشروعاً معاً وتتقاسمان المخاطر."
+     },
+     {
+      "t": "obligations vertes",
+      "t_ar": "السندات الخضراء",
+      "d": "Un emprunt lancé pour financer des projets bons pour le climat ; l'investisseur prête de l'argent et est remboursé avec intérêts.",
+      "d_ar": "قرض يُطلق لتمويل مشاريع مفيدة للمناخ؛ يُقرض المستثمر المال ويستردّه مع فوائد."
+     },
+     {
+      "t": "caisses de retraite",
+      "t_ar": "صناديق التقاعد",
+      "d": "Des organismes qui gèrent les cotisations des salariés et les placent pour payer leurs pensions plus tard.",
+      "d_ar": "مؤسسات تدير اشتراكات الأجراء وتستثمرها لدفع معاشاتهم لاحقاً."
+     },
+     {
+      "t": "banques de développement",
+      "t_ar": "بنوك التنمية",
+      "d": "Des banques, souvent publiques ou internationales, qui prêtent à long terme pour de grands projets utiles au pays.",
+      "d_ar": "بنوك، غالباً عمومية أو دولية، تقرض لآجال طويلة لمشاريع كبرى مفيدة للبلد."
+     }
+    ],
+    "figures": [
+     {
+      "n": "96 milliards de dirhams",
+      "n_ar": "96 مليار درهم",
+      "d": "Le coût du programme ferroviaire d'ici 2030. C'est un très gros budget : environ 96 000 millions de dirhams, à payer sur plusieurs années.",
+      "d_ar": "كلفة البرنامج السككي في أفق 2030. ميزانية ضخمة جداً، تُدفع على عدة سنوات."
+     },
+     {
+      "n": "5 milliards de dirhams",
+      "n_ar": "5 مليارات درهم",
+      "d": "Le montant d'obligations vertes déjà émises depuis 2022, soit environ 5 % du programme de 96 milliards.",
+      "d_ar": "قيمة السندات الخضراء المصدرة منذ 2022، أي نحو 5% من برنامج 96 مليار."
+     }
+    ]
+   }
   },
   {
    "cat": "sport",
