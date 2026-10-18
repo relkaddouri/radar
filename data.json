@@ -1049,648 +1049,779 @@
  ],
  "news": [
   {
+   "cat": "ux",
+   "title": "Service blueprint : avec l'IA, il pourrait guider tout le fonctionnement d'un service",
+   "title_ar": "مخطط الخدمة: مع الذكاء الاصطناعي قد يصبح دليلاً لتسيير الخدمة كلها",
+   "summary": "Dans UX Magazine, Ben Reason, cofondateur de l'agence Livework, imagine un service blueprint qui sert à piloter un service et à encadrer l'usage de l'IA selon les résultats pour les usagers. Avec l'exemple d'un système de santé, il explique que les décisions sur les soins doivent rester aux humains, et que le personnel doit aller vers des rôles de conception et de gouvernance.",
+   "summary_ar": "في مجلة UX Magazine، يتصور بن ريزن، الشريك المؤسس لوكالة Livework، مخطط خدمة يُستعمل لقيادة الخدمة وتأطير استعمال الذكاء الاصطناعي حسب النتائج التي تهم المستفيدين. ومن خلال مثال نظام صحي، يوضح أن قرارات العلاج يجب أن تبقى بيد البشر، وأن على العاملين التوجه نحو أدوار التصميم والحوكمة.",
+   "source": "UX Magazine",
+   "url": "https://uxmag.com/articles/what-is-a-service-blueprint-in-the-age-of-ai-part-2",
+   "date": "2026-10-14",
+   "image": "https://uxmag.com/generated-images/what-is-a-service-blueprint-in-the-age-of-ai-part-2-featured.jpg",
+   "explain": {
+    "context": "C'est la 2e partie d'une série. L'auteur part de l'idée que l'IA rend les données faciles à réunir : la vraie difficulté devient de choisir quels résultats comptent le plus pour les gens.",
+    "context_ar": "هذا هو الجزء الثاني من سلسلة. ينطلق الكاتب من فكرة أن الذكاء الاصطناعي يجعل جمع البيانات سهلاً، فتصبح الصعوبة الحقيقية هي اختيار النتائج الأهم بالنسبة للناس.",
+    "terms": [
+     {
+      "t": "service blueprint",
+      "t_ar": "مخطط الخدمة",
+      "d": "Schéma qui montre toutes les étapes d'un service : ce que vit l'usager et ce qui se passe en coulisses.",
+      "d_ar": "رسم يبيّن كل مراحل الخدمة: ما يعيشه المستفيد وما يجري خلف الكواليس."
+     },
+     {
+      "t": "gouvernance",
+      "t_ar": "الحوكمة",
+      "d": "Manière de décider et de contrôler qui fait quoi et selon quelles règles.",
+      "d_ar": "طريقة اتخاذ القرار ومراقبة من يفعل ماذا ووفق أي قواعد."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "ux",
+   "title": "Bien nommer les composants, couleurs et fonctions : un guide pratique",
+   "title_ar": "تسمية المكونات والألوان والوظائف بشكل جيد: دليل عملي",
+   "summary": "Dans Smashing Magazine, Vitaly Friedman réunit des ressources pour nommer les composants d'interface, les couleurs, les design tokens, les fonctions et les produits. Il rappelle qu'un bon nom est compris à la fois par l'équipe et par les utilisateurs, et qu'une fonction peu utilisée peut parfois cacher un problème de nom.",
+   "summary_ar": "في مجلة Smashing Magazine، يجمع فيتالي فريدمان موارد لتسمية مكونات الواجهة والألوان ورموز التصميم والوظائف والمنتجات. ويذكّر بأن الاسم الجيد يفهمه الفريق والمستخدمون معاً، وأن ضعف استعمال وظيفة ما قد يخفي أحياناً مشكلة في اسمها.",
+   "source": "Smashing Magazine",
+   "url": "https://www.smashingmagazine.com/2026/10/how-name-things/",
+   "date": "2026-10-06",
+   "image": "https://files.smashing.media/articles/how-name-things-choose-accordion-icons/how-name-things.jpg",
+   "explain": {
+    "context": "Dans une équipe, designers, développeurs, chefs de produit et utilisateurs parlent souvent des « dialectes » différents. Des noms flous créent de la confusion et freinent la réutilisation.",
+    "context_ar": "داخل الفريق، كثيراً ما يتكلم المصممون والمطورون ومديرو المنتج والمستخدمون «لهجات» مختلفة. والأسماء الغامضة تسبب الالتباس وتعيق إعادة الاستعمال.",
+    "terms": [
+     {
+      "t": "design tokens",
+      "t_ar": "رموز التصميم",
+      "d": "Petites valeurs nommées (couleur, taille, espace) partagées entre le design et le code.",
+      "d_ar": "قيم صغيرة لها أسماء (لون، حجم، مسافة) يتقاسمها التصميم والبرمجة."
+     }
+    ],
+    "figures": [
+     {
+      "n": "30 355",
+      "n_ar": "30355",
+      "d": "Nombre de noms de couleurs uniques dans la liste de David Aerne citée par l'article.",
+      "d_ar": "عدد أسماء الألوان المختلفة في قائمة ديفيد إيرن المذكورة في المقال."
+     },
+     {
+      "n": "50",
+      "n_ar": "50",
+      "d": "Plus de 50 composants d'interface décrits dans la Component Gallery, avec leurs autres noms.",
+      "d_ar": "أكثر من 50 مكوناً للواجهة في Component Gallery مع أسمائها الأخرى."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "divers",
+   "sub": "enfant",
+   "title": "Dès 4 à 6 mois, les bébés devinent qui est proche grâce au partage de salive",
+   "title_ar": "منذ 4 إلى 6 أشهر يفهم الرضّع من هو القريب من خلال تقاسم اللعاب",
+   "summary": "Une étude de l'université de Californie à Santa Barbara, avec Harvard et le MIT, montre que des bébés de 4 à 6 mois regardent plus longtemps la personne qui a partagé de la salive avec une marionnette, par exemple en lui donnant un fruit déjà goûté. Ils semblent comprendre que cette personne est plus proche et répondra si la marionnette pleure.",
+   "summary_ar": "تُظهر دراسة لجامعة كاليفورنيا في سانتا باربرا، بمشاركة هارفارد ومعهد MIT، أن الرضّع بين 4 و6 أشهر ينظرون مدة أطول إلى الشخص الذي تقاسم اللعاب مع دمية، مثلاً بإعطائها فاكهة ذاقها من قبل. ويبدو أنهم يفهمون أن هذا الشخص أقرب وسيستجيب إذا بكت الدمية.",
+   "source": "EurekAlert!",
+   "url": "https://www.eurekalert.org/news-releases/1146751",
+   "date": "2026-10-06",
+   "image": "",
+   "explain": {
+    "context": "La même équipe avait déjà montré ce comportement vers 8 mois. Cette nouvelle étude, publiée dans Evolution and Human Behavior, montre qu'il apparaît plus tôt.",
+    "context_ar": "سبق للفريق نفسه أن لاحظ هذا السلوك في حوالي 8 أشهر. وتُبيّن هذه الدراسة الجديدة، المنشورة في مجلة Evolution and Human Behavior، أنه يظهر في وقت أبكر.",
+    "terms": [
+     {
+      "t": "partage de salive",
+      "t_ar": "تقاسم اللعاب",
+      "d": "Gestes comme partager la nourriture ou un baiser, qu'on fait surtout avec des proches.",
+      "d_ar": "تصرفات مثل تقاسم الطعام أو القبلة، نقوم بها غالباً مع المقرّبين."
+     }
+    ],
+    "figures": [
+     {
+      "n": "4 à 6 mois",
+      "n_ar": "من 4 إلى 6 أشهر",
+      "d": "Âge des bébés testés, contre environ 8 mois dans l'étude précédente.",
+      "d_ar": "عمر الرضّع في الدراسة، مقابل حوالي 8 أشهر في الدراسة السابقة."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "divers",
+   "sub": "montessori",
+   "title": "Montessori : l'état intérieur de l'enseignant compte autant que la méthode",
+   "title_ar": "مونتيسوري: الحالة الداخلية للمعلم مهمة بقدر الطريقة",
+   "summary": "Dans la revue Montessori Life, reprise par l'American Montessori Society, l'enseignante Elizabeth Willis rappelle que Maria Montessori voyait trois préparations chez l'enseignant : intellectuelle, liée à la méthode et intérieure. Elle explique que l'enfant absorbe le ton, le rythme et l'état émotionnel de l'adulte, et qu'un enseignant calme aide à avoir une classe plus calme.",
+   "summary_ar": "في مجلة Montessori Life، التي نشرتها الجمعية الأمريكية لمونتيسوري، تذكّر المعلمة إليزابيث ويليس بأن ماريا مونتيسوري كانت ترى ثلاثة أنواع من إعداد المعلم: فكري، ومرتبط بالطريقة، وداخلي. وتوضح أن الطفل يمتص نبرة الراشد وإيقاعه وحالته العاطفية، وأن المعلم الهادئ يساعد على قسم أكثر هدوءاً.",
+   "source": "American Montessori Society",
+   "url": "https://amshq.org/blog/from-the-magazine/teaching-soul-to-soul-reclaiming-the-prepared-teacher-in-the-modern-montessori-era-from-montessori-life-fall-2026/",
+   "date": "2026-10-09",
+   "image": "https://amshq.org/wp-content/uploads/2026/10/iStock-2243608907-crop-scaled.png",
+   "explain": {
+    "context": "L'autrice a plus de 25 ans d'expérience en classe Montessori. Elle relie cette idée ancienne au bien-être actuel des enseignants.",
+    "context_ar": "للكاتبة أكثر من 25 سنة من التجربة في أقسام مونتيسوري. وهي تربط هذه الفكرة القديمة برفاه المعلمين اليوم.",
+    "terms": [
+     {
+      "t": "absorbe",
+      "t_ar": "يمتص",
+      "d": "Pour Montessori, le jeune enfant prend sans effort ce qu'il voit et ressent autour de lui.",
+      "d_ar": "عند مونتيسوري، يأخذ الطفل الصغير دون جهد ما يراه ويحسّ به من حوله."
+     }
+    ],
+    "figures": [
+     {
+      "n": "3",
+      "n_ar": "3",
+      "d": "Les trois préparations de l'enseignant selon Montessori : intellectuelle, méthode, intérieure.",
+      "d_ar": "أنواع إعداد المعلم الثلاثة عند مونتيسوري: فكري، الطريقة، داخلي."
+     }
+    ]
+   }
+  },
+  {
    "cat": "maroc",
-   "sub": "politique",
-   "title": "Gouvernement : la ministre Madiha Khayr remerciée deux jours après sa nomination",
-   "title_ar": "الحكومة: إعفاء الوزيرة مديحة خير بعد يومين من تعيينها",
-   "summary": "Le roi a approuvé dimanche la demande de la cheffe du gouvernement, Fatima Ezzahra El Mansouri, de mettre fin aux fonctions de Madiha Khayr, ministre déléguée à la Formation professionnelle. Nommée le 16 octobre, cette députée de l'Istiqlal à Béni Mellal n'aura tenu que deux jours, sans raison officielle donnée.",
-   "summary_ar": "وافق الملك يوم الأحد على طلب رئيسة الحكومة فاطمة الزهراء المنصوري إنهاء مهام مديحة خير، الوزيرة المنتدبة المكلفة بالتكوين المهني. وقد عُيّنت هذه النائبة الاستقلالية عن بني ملال في 16 أكتوبر، ولم تبقَ في منصبها سوى يومين دون ذكر سبب رسمي.",
-   "source": "APA News",
-   "url": "https://fr.apanews.net/society/maroc-le-roi-approuve-la-fin-des-fonctions-dune-ministre-du-nouveau-gouvernement/",
    "date": "2026-10-18",
-   "image": "https://fr.apanews.net/wp-content/uploads/sites/2/2026/10/large_IMG_3941_b4abf040a5-2.jpeg",
    "explain": {
     "context": "Le gouvernement El Mansouri a été nommé le 16 octobre, après les législatives du 23 septembre. Madiha Khayr présidait aussi le groupe de l'Istiqlal à la Chambre des représentants.",
     "context_ar": "عُيّنت حكومة المنصوري في 16 أكتوبر بعد الانتخابات التشريعية ليوم 23 شتنبر. وكانت مديحة خير ترأس أيضاً فريق حزب الاستقلال بمجلس النواب.",
-    "terms": [
-     {
-      "t": "ministre déléguée",
-      "t_ar": "وزيرة منتدبة",
-      "d": "Membre du gouvernement qui aide un ministre et s'occupe d'un domaine précis.",
-      "d_ar": "عضو في الحكومة يساعد وزيراً ويتولى مجالاً محدداً."
-     }
-    ],
     "figures": [
      {
-      "n": "2 jours",
-      "n_ar": "يومان",
       "d": "Durée entre sa nomination, le 16 octobre, et la fin de ses fonctions, le 18 octobre.",
-      "d_ar": "المدة بين تعيينها في 16 أكتوبر وإنهاء مهامها في 18 أكتوبر."
+      "d_ar": "المدة بين تعيينها في 16 أكتوبر وإنهاء مهامها في 18 أكتوبر.",
+      "n": "2 jours",
+      "n_ar": "يومان"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Membre du gouvernement qui aide un ministre et s'occupe d'un domaine précis.",
+      "d_ar": "عضو في الحكومة يساعد وزيراً ويتولى مجالاً محدداً.",
+      "t": "ministre déléguée",
+      "t_ar": "وزيرة منتدبة"
      }
     ]
-   }
+   },
+   "image": "https://fr.apanews.net/wp-content/uploads/sites/2/2026/10/large_IMG_3941_b4abf040a5-2.jpeg",
+   "source": "APA News",
+   "sub": "politique",
+   "summary": "Le roi a approuvé dimanche la demande de la cheffe du gouvernement, Fatima Ezzahra El Mansouri, de mettre fin aux fonctions de Madiha Khayr, ministre déléguée à la Formation professionnelle. Nommée le 16 octobre, cette députée de l'Istiqlal à Béni Mellal n'aura tenu que deux jours, sans raison officielle donnée.",
+   "summary_ar": "وافق الملك يوم الأحد على طلب رئيسة الحكومة فاطمة الزهراء المنصوري إنهاء مهام مديحة خير، الوزيرة المنتدبة المكلفة بالتكوين المهني. وقد عُيّنت هذه النائبة الاستقلالية عن بني ملال في 16 أكتوبر، ولم تبقَ في منصبها سوى يومين دون ذكر سبب رسمي.",
+   "title": "Gouvernement : la ministre Madiha Khayr remerciée deux jours après sa nomination",
+   "title_ar": "الحكومة: إعفاء الوزيرة مديحة خير بعد يومين من تعيينها",
+   "url": "https://fr.apanews.net/society/maroc-le-roi-approuve-la-fin-des-fonctions-dune-ministre-du-nouveau-gouvernement/"
   },
   {
    "cat": "maroc",
-   "sub": "societe",
-   "title": "Mariage des mineurs : les demandes baissent de 17 %, mais 10 691 mariages autorisés",
-   "title_ar": "زواج القاصرين: الطلبات تتراجع بـ17% لكن 10.691 زواجاً حصل على الإذن",
-   "summary": "En 2024, les juges ont reçu 16 755 demandes de mariage de mineurs, contre 20 192 en 2023, et en ont accepté 10 691, soit environ 63 %. Près de 98,5 % des demandes concernent des filles, et la région de Marrakech arrive en tête.",
-   "summary_ar": "في سنة 2024، توصّل القضاة بـ16.755 طلباً لتزويج قاصرين مقابل 20.192 في 2023، ووافقوا على 10.691 منها، أي نحو 63%. وتخص قرابة 98,5% من الطلبات الفتيات، وتأتي جهة مراكش في المقدمة.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/492496-mariage-des-mineures-au-maroc-moins-de-demandes-une-exception-judiciaire-qui-persiste.html",
    "date": "2026-10-18",
-   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/mariage_mineurs.jpg",
    "explain": {
     "context": "Le Code de la famille fixe l'âge du mariage à 18 ans, mais son article 20 permet au juge d'accorder une exception. Les chiffres viennent du Conseil supérieur du pouvoir judiciaire.",
     "context_ar": "تحدد مدونة الأسرة سن الزواج في 18 سنة، لكن مادتها العشرين تسمح للقاضي بمنح استثناء. وتصدر هذه الأرقام عن المجلس الأعلى للسلطة القضائية.",
-    "terms": [
-     {
-      "t": "mineurs",
-      "t_ar": "القاصرون",
-      "d": "Personnes de moins de 18 ans, l'âge légal de la majorité au Maroc.",
-      "d_ar": "أشخاص تقل أعمارهم عن 18 سنة، وهو سن الرشد القانوني بالمغرب."
-     }
-    ],
     "figures": [
      {
-      "n": "16 755",
-      "n_ar": "16.755",
       "d": "Demandes reçues en 2024, contre 20 192 l'année d'avant : une baisse de 17 %.",
-      "d_ar": "عدد الطلبات المسجلة في 2024 مقابل 20.192 في السنة السابقة، أي تراجع بـ17%."
+      "d_ar": "عدد الطلبات المسجلة في 2024 مقابل 20.192 في السنة السابقة، أي تراجع بـ17%.",
+      "n": "16 755",
+      "n_ar": "16.755"
      },
      {
-      "n": "63 %",
-      "n_ar": "63%",
       "d": "Part des demandes acceptées par les juges : environ six sur dix.",
-      "d_ar": "نسبة الطلبات التي وافق عليها القضاة: حوالي ستة من كل عشرة."
+      "d_ar": "نسبة الطلبات التي وافق عليها القضاة: حوالي ستة من كل عشرة.",
+      "n": "63 %",
+      "n_ar": "63%"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Personnes de moins de 18 ans, l'âge légal de la majorité au Maroc.",
+      "d_ar": "أشخاص تقل أعمارهم عن 18 سنة، وهو سن الرشد القانوني بالمغرب.",
+      "t": "mineurs",
+      "t_ar": "القاصرون"
      }
     ]
-   }
+   },
+   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/mariage_mineurs.jpg",
+   "source": "Hespress FR",
+   "sub": "societe",
+   "summary": "En 2024, les juges ont reçu 16 755 demandes de mariage de mineurs, contre 20 192 en 2023, et en ont accepté 10 691, soit environ 63 %. Près de 98,5 % des demandes concernent des filles, et la région de Marrakech arrive en tête.",
+   "summary_ar": "في سنة 2024، توصّل القضاة بـ16.755 طلباً لتزويج قاصرين مقابل 20.192 في 2023، ووافقوا على 10.691 منها، أي نحو 63%. وتخص قرابة 98,5% من الطلبات الفتيات، وتأتي جهة مراكش في المقدمة.",
+   "title": "Mariage des mineurs : les demandes baissent de 17 %, mais 10 691 mariages autorisés",
+   "title_ar": "زواج القاصرين: الطلبات تتراجع بـ17% لكن 10.691 زواجاً حصل على الإذن",
+   "url": "https://fr.hespress.com/492496-mariage-des-mineures-au-maroc-moins-de-demandes-une-exception-judiciaire-qui-persiste.html"
   },
   {
    "cat": "maroc",
-   "sub": "economie",
-   "title": "Bourse de Casablanca : le Masi gagne 1,2 % sur la semaine, Addoha s'envole",
-   "title_ar": "بورصة الدار البيضاء: مؤشر مازي يربح 1,2% في أسبوع وأسهم الضحى تقفز",
-   "summary": "Du 12 au 16 octobre, le principal indice de la Bourse de Casablanca a gagné 1,2 % pour finir à 16 997,92 points. Addoha a bondi de 16,67 %, tandis que Zellidja a perdu 10,73 %, pour environ 866 millions de dirhams échangés.",
-   "summary_ar": "بين 12 و16 أكتوبر، ارتفع المؤشر الرئيسي لبورصة الدار البيضاء بـ1,2% ليغلق عند 16.997,92 نقطة. وقفز سهم الضحى بـ16,67%، فيما خسر سهم زليجة 10,73%، بحجم تداول بلغ نحو 866 مليون درهم.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/492741-bourse-de-casablanca-une-semaine-dans-le-vert-42.html",
    "date": "2026-10-17",
-   "image": "https://f2.hespress.com/wp-content/uploads/2025/02/bourse_hausse.jpg",
    "explain": {
     "context": "La Bourse a fini la semaine en hausse, avec une valeur totale des sociétés cotées proche de 1 000 milliards de dirhams. Attijariwafa bank a été l'action la plus échangée.",
     "context_ar": "أنهت البورصة الأسبوع على ارتفاع، مع قيمة إجمالية للشركات المدرجة تقارب 1000 مليار درهم. وكان سهم التجاري وفا بنك الأكثر تداولاً.",
-    "terms": [
-     {
-      "t": "Masi",
-      "t_ar": "مازي",
-      "d": "Indice qui suit l'évolution de toutes les actions cotées à Casablanca.",
-      "d_ar": "مؤشر يتتبع تطور جميع الأسهم المدرجة في بورصة الدار البيضاء."
-     },
-     {
-      "t": "indice",
-      "t_ar": "مؤشر",
-      "d": "Chiffre qui résume la hausse ou la baisse d'un groupe d'actions.",
-      "d_ar": "رقم يلخص ارتفاع أو انخفاض مجموعة من الأسهم."
-     }
-    ],
     "figures": [
      {
-      "n": "16 997,92",
-      "n_ar": "16.997,92",
       "d": "Niveau du Masi en fin de semaine, tout près du seuil des 17 000 points.",
-      "d_ar": "مستوى مؤشر مازي في نهاية الأسبوع، قريباً جداً من عتبة 17.000 نقطة."
+      "d_ar": "مستوى مؤشر مازي في نهاية الأسبوع، قريباً جداً من عتبة 17.000 نقطة.",
+      "n": "16 997,92",
+      "n_ar": "16.997,92"
      },
      {
-      "n": "866 millions",
-      "n_ar": "866 مليون",
       "d": "Montant en dirhams des actions échangées pendant la semaine.",
-      "d_ar": "قيمة الأسهم المتداولة خلال الأسبوع بالدرهم."
+      "d_ar": "قيمة الأسهم المتداولة خلال الأسبوع بالدرهم.",
+      "n": "866 millions",
+      "n_ar": "866 مليون"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Indice qui suit l'évolution de toutes les actions cotées à Casablanca.",
+      "d_ar": "مؤشر يتتبع تطور جميع الأسهم المدرجة في بورصة الدار البيضاء.",
+      "t": "Masi",
+      "t_ar": "مازي"
+     },
+     {
+      "d": "Chiffre qui résume la hausse ou la baisse d'un groupe d'actions.",
+      "d_ar": "رقم يلخص ارتفاع أو انخفاض مجموعة من الأسهم.",
+      "t": "indice",
+      "t_ar": "مؤشر"
      }
     ]
-   }
+   },
+   "image": "https://f2.hespress.com/wp-content/uploads/2025/02/bourse_hausse.jpg",
+   "source": "Hespress FR",
+   "sub": "economie",
+   "summary": "Du 12 au 16 octobre, le principal indice de la Bourse de Casablanca a gagné 1,2 % pour finir à 16 997,92 points. Addoha a bondi de 16,67 %, tandis que Zellidja a perdu 10,73 %, pour environ 866 millions de dirhams échangés.",
+   "summary_ar": "بين 12 و16 أكتوبر، ارتفع المؤشر الرئيسي لبورصة الدار البيضاء بـ1,2% ليغلق عند 16.997,92 نقطة. وقفز سهم الضحى بـ16,67%، فيما خسر سهم زليجة 10,73%، بحجم تداول بلغ نحو 866 مليون درهم.",
+   "title": "Bourse de Casablanca : le Masi gagne 1,2 % sur la semaine, Addoha s'envole",
+   "title_ar": "بورصة الدار البيضاء: مؤشر مازي يربح 1,2% في أسبوع وأسهم الضحى تقفز",
+   "url": "https://fr.hespress.com/492741-bourse-de-casablanca-une-semaine-dans-le-vert-42.html"
   },
   {
    "cat": "maroc",
-   "sub": "economie",
-   "title": "Transports : 134 milliards de dirhams pour le rail et 168 nouveaux trains d'ici 2030",
-   "title_ar": "النقل: 134 مليار درهم للسكك الحديدية و168 قطاراً جديداً في أفق 2030",
-   "summary": "Le nouveau ministre des Transports, Abdessamad Kayouh, a présenté ses priorités : 134 milliards de dirhams pour le rail, avec 168 nouveaux trains et la grande vitesse jusqu'à Marrakech. Les aéroports recevront 38 milliards de dirhams pour accueillir 80 millions de passagers par an.",
-   "summary_ar": "قدّم وزير النقل الجديد عبد الصمد قيوح أولوياته: 134 مليار درهم للسكك الحديدية تشمل 168 قطاراً جديداً ومدّ القطار فائق السرعة إلى مراكش. كما ستحظى المطارات بـ38 مليار درهم لاستقبال 80 مليون مسافر سنوياً.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/492813-transports-abdessamad-kayouh-fixe-ses-priorites-a-lhorizon-2030.html",
    "date": "2026-10-17",
-   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/kayouh_transport1.jpg",
    "explain": {
     "context": "Le Maroc prépare la Coupe du monde 2030 et modernise ses transports. Le plan prévoit aussi un nouveau terminal à l'aéroport Mohammed-V et le raccordement du port Nador West Med au rail.",
     "context_ar": "يستعد المغرب لكأس العالم 2030 ويعمل على تحديث النقل. ويشمل المخطط أيضاً محطة جديدة بمطار محمد الخامس وربط ميناء الناظور غرب المتوسط بالسكة الحديدية.",
-    "terms": [
-     {
-      "t": "grande vitesse",
-      "t_ar": "القطار فائق السرعة",
-      "d": "Trains très rapides, comme Al Boraq, qui roulent sur des voies spéciales.",
-      "d_ar": "قطارات سريعة جداً، مثل البراق، تسير على خطوط خاصة."
-     },
-     {
-      "t": "milliards de dirhams",
-      "t_ar": "مليار درهم",
-      "d": "Un milliard vaut mille millions : il s'agit ici de très gros budgets publics.",
-      "d_ar": "المليار يساوي ألف مليون: والمقصود هنا ميزانيات عمومية ضخمة جداً."
-     }
-    ],
     "figures": [
      {
-      "n": "134 milliards",
-      "n_ar": "134 مليار",
       "d": "Budget en dirhams du programme ferroviaire de l'ONCF jusqu'en 2030.",
-      "d_ar": "ميزانية برنامج المكتب الوطني للسكك الحديدية بالدرهم حتى 2030."
+      "d_ar": "ميزانية برنامج المكتب الوطني للسكك الحديدية بالدرهم حتى 2030.",
+      "n": "134 milliards",
+      "n_ar": "134 مليار"
      },
      {
-      "n": "80 millions",
-      "n_ar": "80 مليون",
       "d": "Nombre de passagers par an visé dans les aéroports du pays.",
-      "d_ar": "عدد المسافرين السنوي المستهدف في مطارات المملكة."
+      "d_ar": "عدد المسافرين السنوي المستهدف في مطارات المملكة.",
+      "n": "80 millions",
+      "n_ar": "80 مليون"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Trains très rapides, comme Al Boraq, qui roulent sur des voies spéciales.",
+      "d_ar": "قطارات سريعة جداً، مثل البراق، تسير على خطوط خاصة.",
+      "t": "grande vitesse",
+      "t_ar": "القطار فائق السرعة"
+     },
+     {
+      "d": "Un milliard vaut mille millions : il s'agit ici de très gros budgets publics.",
+      "d_ar": "المليار يساوي ألف مليون: والمقصود هنا ميزانيات عمومية ضخمة جداً.",
+      "t": "milliards de dirhams",
+      "t_ar": "مليار درهم"
      }
     ]
-   }
+   },
+   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/kayouh_transport1.jpg",
+   "source": "Hespress FR",
+   "sub": "economie",
+   "summary": "Le nouveau ministre des Transports, Abdessamad Kayouh, a présenté ses priorités : 134 milliards de dirhams pour le rail, avec 168 nouveaux trains et la grande vitesse jusqu'à Marrakech. Les aéroports recevront 38 milliards de dirhams pour accueillir 80 millions de passagers par an.",
+   "summary_ar": "قدّم وزير النقل الجديد عبد الصمد قيوح أولوياته: 134 مليار درهم للسكك الحديدية تشمل 168 قطاراً جديداً ومدّ القطار فائق السرعة إلى مراكش. كما ستحظى المطارات بـ38 مليار درهم لاستقبال 80 مليون مسافر سنوياً.",
+   "title": "Transports : 134 milliards de dirhams pour le rail et 168 nouveaux trains d'ici 2030",
+   "title_ar": "النقل: 134 مليار درهم للسكك الحديدية و168 قطاراً جديداً في أفق 2030",
+   "url": "https://fr.hespress.com/492813-transports-abdessamad-kayouh-fixe-ses-priorites-a-lhorizon-2030.html"
   },
   {
    "cat": "sport",
-   "sport": "tennis",
-   "title": "Shanghai : Davidovich Fokina renverse Jodar et gagne le plus grand titre de sa carrière",
-   "title_ar": "شنغهاي: دافيدوفيتش فوكينا يقلب الطاولة على خودار ويحرز أكبر لقب في مسيرته",
-   "summary": "L'Espagnol Alejandro Davidovich Fokina a battu son compatriote Rafael Jodar 1-6, 7-6, 6-4 en finale du Masters 1000 de Shanghai, après avoir été mené d'un set et d'un break. Il avait perdu ses cinq premières finales et signe son troisième titre de l'année.",
-   "summary_ar": "تغلب الإسباني أليخاندرو دافيدوفيتش فوكينا على مواطنه رافاييل خودار بنتيجة 1-6 و7-6 و6-4 في نهائي دورة شنغهاي للماسترز 1000، بعدما كان متأخراً بمجموعة وكسر إرسال. وكان قد خسر نهائياته الخمسة الأولى، ليحرز لقبه الثالث هذا العام.",
-   "source": "theScore",
-   "url": "https://www.thescore.com/atp/news/3627779/davidovich-fokina-overcomes-jodar-to-win-shanghai-masters",
    "date": "2026-10-18",
-   "image": "https://assets-cms.thescore.com/uploads/image/file/852660/w1280xh720_GettyImages-2300287501.jpg?ts=1792332840",
    "explain": {
     "context": "Davidovich Fokina, 25e tête de série, avait déjà éliminé Zverev. Jodar, 20 ans, jouait sa première finale de Masters 1000.",
     "context_ar": "كان دافيدوفيتش فوكينا، المصنف 25 في القرعة، قد أقصى زفيريف. أما خودار، البالغ 20 عاماً، فكان يخوض أول نهائي له في الماسترز 1000.",
-    "terms": [
-     {
-      "t": "Masters 1000",
-      "t_ar": "ماسترز 1000",
-      "d": "Tournois les plus importants après les quatre Grands Chelems ; le vainqueur gagne 1 000 points.",
-      "d_ar": "أهم الدورات بعد البطولات الأربع الكبرى، ويحصل الفائز فيها على 1000 نقطة."
-     },
-     {
-      "t": "break",
-      "t_ar": "كسر الإرسال",
-      "d": "Jeu gagné par le joueur qui ne sert pas : un vrai avantage au tennis.",
-      "d_ar": "شوط يفوز به اللاعب الذي لا يرسل، وهو أفضلية حقيقية في التنس."
-     }
-    ],
     "figures": [
      {
-      "n": "5",
-      "n_ar": "5",
       "d": "Finales perdues avant celle-ci, dont Monte-Carlo en 2022.",
-      "d_ar": "عدد النهائيات التي خسرها قبل هذا النهائي، ومنها مونتي كارلو 2022."
+      "d_ar": "عدد النهائيات التي خسرها قبل هذا النهائي، ومنها مونتي كارلو 2022.",
+      "n": "5",
+      "n_ar": "5"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Tournois les plus importants après les quatre Grands Chelems ; le vainqueur gagne 1 000 points.",
+      "d_ar": "أهم الدورات بعد البطولات الأربع الكبرى، ويحصل الفائز فيها على 1000 نقطة.",
+      "t": "Masters 1000",
+      "t_ar": "ماسترز 1000"
+     },
+     {
+      "d": "Jeu gagné par le joueur qui ne sert pas : un vrai avantage au tennis.",
+      "d_ar": "شوط يفوز به اللاعب الذي لا يرسل، وهو أفضلية حقيقية في التنس.",
+      "t": "break",
+      "t_ar": "كسر الإرسال"
      }
     ]
-   }
+   },
+   "image": "https://assets-cms.thescore.com/uploads/image/file/852660/w1280xh720_GettyImages-2300287501.jpg?ts=1792332840",
+   "source": "theScore",
+   "sport": "tennis",
+   "summary": "L'Espagnol Alejandro Davidovich Fokina a battu son compatriote Rafael Jodar 1-6, 7-6, 6-4 en finale du Masters 1000 de Shanghai, après avoir été mené d'un set et d'un break. Il avait perdu ses cinq premières finales et signe son troisième titre de l'année.",
+   "summary_ar": "تغلب الإسباني أليخاندرو دافيدوفيتش فوكينا على مواطنه رافاييل خودار بنتيجة 1-6 و7-6 و6-4 في نهائي دورة شنغهاي للماسترز 1000، بعدما كان متأخراً بمجموعة وكسر إرسال. وكان قد خسر نهائياته الخمسة الأولى، ليحرز لقبه الثالث هذا العام.",
+   "title": "Shanghai : Davidovich Fokina renverse Jodar et gagne le plus grand titre de sa carrière",
+   "title_ar": "شنغهاي: دافيدوفيتش فوكينا يقلب الطاولة على خودار ويحرز أكبر لقب في مسيرته",
+   "url": "https://www.thescore.com/atp/news/3627779/davidovich-fokina-overcomes-jodar-to-win-shanghai-masters"
   },
   {
    "cat": "sport",
-   "sport": "football",
-   "title": "Ligue des champions africaine : Berkane gagne 2-0 en Sierra Leone",
-   "title_ar": "دوري أبطال إفريقيا: بركان تفوز 2-0 في سيراليون",
-   "summary": "La RS Berkane s'est imposée 2-0 samedi chez Star Sport Academy, en Sierra Leone, grâce à un doublé d'Oussama Lamlioui. Le club marocain prend une sérieuse option pour la qualification avant le match retour.",
-   "summary_ar": "فازت نهضة بركان يوم السبت 2-0 على مضيفها ستار سبورت أكاديمي في سيراليون، بفضل ثنائية أسامة لمليوي. ويقترب النادي المغربي كثيراً من التأهل قبل مباراة الإياب.",
-   "source": "Le360 Sport",
-   "url": "https://fr.le360.ma/sports/ligue-des-champions-la-rs-berkane-simpose-en-sierra-leone-et-prend-une-serieuse-option-sur-la_R76VG47SJNAVRGIOTALTAMMMBU/",
    "date": "2026-10-17",
-   "image": "https://fr.le360.ma/resizer/v2/DW4NOZLHTJA5ZJKM7NJKCVAASY.jpeg?auth=f0a5623359701c81782c4de73e7fbf9b6d3a497ed1dc1a2da859d09c43965aaa&smart=true&width=1200&height=630",
    "explain": {
     "context": "Le même week-end, l'AS FAR a fait 0-0 en Côte d'Ivoire en Coupe de la CAF. Les clubs marocains jouent les tours préliminaires des coupes africaines.",
     "context_ar": "في نفس نهاية الأسبوع، تعادل الجيش الملكي 0-0 في كوت ديفوار في كأس الكونفدرالية. وتخوض الأندية المغربية الأدوار التمهيدية للمسابقات الإفريقية.",
-    "terms": [
-     {
-      "t": "doublé",
-      "t_ar": "ثنائية",
-      "d": "Deux buts marqués par le même joueur dans un match.",
-      "d_ar": "هدفان يسجلهما اللاعب نفسه في مباراة واحدة."
-     }
-    ],
     "figures": [
      {
-      "n": "2-0",
-      "n_ar": "2-0",
       "d": "Victoire à l'extérieur : Berkane pourra gérer son avance au retour, à domicile.",
-      "d_ar": "فوز خارج الميدان يسمح لبركان بتدبير تقدمها في مباراة الإياب على أرضها."
+      "d_ar": "فوز خارج الميدان يسمح لبركان بتدبير تقدمها في مباراة الإياب على أرضها.",
+      "n": "2-0",
+      "n_ar": "2-0"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Deux buts marqués par le même joueur dans un match.",
+      "d_ar": "هدفان يسجلهما اللاعب نفسه في مباراة واحدة.",
+      "t": "doublé",
+      "t_ar": "ثنائية"
      }
     ]
-   }
+   },
+   "image": "https://fr.le360.ma/resizer/v2/DW4NOZLHTJA5ZJKM7NJKCVAASY.jpeg?auth=f0a5623359701c81782c4de73e7fbf9b6d3a497ed1dc1a2da859d09c43965aaa&smart=true&width=1200&height=630",
+   "source": "Le360 Sport",
+   "sport": "football",
+   "summary": "La RS Berkane s'est imposée 2-0 samedi chez Star Sport Academy, en Sierra Leone, grâce à un doublé d'Oussama Lamlioui. Le club marocain prend une sérieuse option pour la qualification avant le match retour.",
+   "summary_ar": "فازت نهضة بركان يوم السبت 2-0 على مضيفها ستار سبورت أكاديمي في سيراليون، بفضل ثنائية أسامة لمليوي. ويقترب النادي المغربي كثيراً من التأهل قبل مباراة الإياب.",
+   "title": "Ligue des champions africaine : Berkane gagne 2-0 en Sierra Leone",
+   "title_ar": "دوري أبطال إفريقيا: بركان تفوز 2-0 في سيراليون",
+   "url": "https://fr.le360.ma/sports/ligue-des-champions-la-rs-berkane-simpose-en-sierra-leone-et-prend-une-serieuse-option-sur-la_R76VG47SJNAVRGIOTALTAMMMBU/"
   },
   {
    "cat": "sport",
-   "sport": "football",
-   "title": "Premier League : Manchester United accroché 1-1 à Leeds, toujours sans victoire",
-   "title_ar": "الدوري الإنجليزي: مانشستر يونايتد يتعادل 1-1 مع ليدز ويواصل غياب الفوز",
-   "summary": "Bryan Mbeumo a ouvert le score pour Manchester United en première période, avant que Dominic Calvert-Lewin n'égalise de la tête à la 51e minute pour Leeds. United reste sur cinq matchs de championnat sans victoire, dont trois nuls 1-1 de suite.",
-   "summary_ar": "افتتح برايان مبيومو التسجيل لمانشستر يونايتد في الشوط الأول، قبل أن يعادل دومينيك كالفرت لوين برأسية في الدقيقة 51 لصالح ليدز. ويبقى يونايتد دون فوز في خمس مباريات بالدوري، منها ثلاثة تعادلات متتالية 1-1.",
-   "source": "NBC Sports",
-   "url": "https://www.nbcsports.com/soccer/live/leeds-vs-manchester-united-live-updates-score-goals-highlights-stats-2026-october-18",
    "date": "2026-10-18",
-   "image": "https://nbcsports.brightspotcdn.com/dims4/default/f10e4e3/2147483647/strip/true/crop/4221x2374+0+231/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F58%2F5e%2Fbde64f574570aa95b354db73961c%2F2300811056.jpg",
    "explain": {
     "context": "Manchester United est entraîné par Michael Carrick et Leeds par Daniel Farke. Leeds a eu plus d'occasions dangereuses que son rival.",
     "context_ar": "يدرب مايكل كاريك مانشستر يونايتد، بينما يدرب دانيال فاركه ليدز. وقد صنع ليدز فرصاً خطيرة أكثر من منافسه.",
-    "terms": [],
     "figures": [
      {
-      "n": "5",
-      "n_ar": "5",
       "d": "Matchs de Premier League de suite sans victoire pour Manchester United.",
-      "d_ar": "عدد مباريات الدوري المتتالية دون فوز لمانشستر يونايتد."
+      "d_ar": "عدد مباريات الدوري المتتالية دون فوز لمانشستر يونايتد.",
+      "n": "5",
+      "n_ar": "5"
      }
-    ]
-   }
+    ],
+    "terms": []
+   },
+   "image": "https://nbcsports.brightspotcdn.com/dims4/default/f10e4e3/2147483647/strip/true/crop/4221x2374+0+231/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F58%2F5e%2Fbde64f574570aa95b354db73961c%2F2300811056.jpg",
+   "source": "NBC Sports",
+   "sport": "football",
+   "summary": "Bryan Mbeumo a ouvert le score pour Manchester United en première période, avant que Dominic Calvert-Lewin n'égalise de la tête à la 51e minute pour Leeds. United reste sur cinq matchs de championnat sans victoire, dont trois nuls 1-1 de suite.",
+   "summary_ar": "افتتح برايان مبيومو التسجيل لمانشستر يونايتد في الشوط الأول، قبل أن يعادل دومينيك كالفرت لوين برأسية في الدقيقة 51 لصالح ليدز. ويبقى يونايتد دون فوز في خمس مباريات بالدوري، منها ثلاثة تعادلات متتالية 1-1.",
+   "title": "Premier League : Manchester United accroché 1-1 à Leeds, toujours sans victoire",
+   "title_ar": "الدوري الإنجليزي: مانشستر يونايتد يتعادل 1-1 مع ليدز ويواصل غياب الفوز",
+   "url": "https://www.nbcsports.com/soccer/live/leeds-vs-manchester-united-live-updates-score-goals-highlights-stats-2026-october-18"
   },
   {
    "cat": "sport",
-   "sport": "football",
-   "title": "Botola : El Jadida écrase Tétouan 4-1, cinq clubs en tête avec 7 points",
-   "title_ar": "البطولة: الجديدة تكتسح تطوان 4-1 وخمسة أندية في الصدارة بـ7 نقاط",
-   "summary": "Pour la 4e journée de la Botola Pro, le Difaâ d'El Jadida a battu le Moghreb de Tétouan 4-1 et le CODM de Meknès a dominé l'Union de Touarga 1-0 samedi. Cinq équipes se partagent la tête avec 7 points, avant le match du Wydad contre Tiznit dimanche soir.",
-   "summary_ar": "في الجولة الرابعة من البطولة الاحترافية، فاز الدفاع الحسني الجديدي على المغرب التطواني 4-1، وتغلب النادي المكناسي على اتحاد تواركة 1-0 يوم السبت. وتتقاسم خمسة فرق الصدارة بـ7 نقاط، قبل مباراة الوداد أمام أمل تيزنيت مساء الأحد.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/492886-botola-pro-d1-resultats-suite-du-programme-et-classement-provisoire.html",
    "date": "2026-10-18",
-   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/DHJ_MAT.jpg",
    "explain": {
     "context": "Plus tôt dans la semaine, le Raja a fait 1-1 chez le FUS de Rabat et l'AS FAR 2-2 à Agadir. Le championnat est très serré après quatre journées.",
     "context_ar": "في وقت سابق من الأسبوع، تعادل الرجاء 1-1 أمام الفتح الرباطي، والجيش الملكي 2-2 في أكادير. والبطولة متقاربة جداً بعد أربع جولات.",
-    "terms": [
-     {
-      "t": "journée",
-      "t_ar": "جولة",
-      "d": "Série de matchs où chaque équipe du championnat joue une fois.",
-      "d_ar": "مجموعة مباريات يلعب فيها كل فريق في البطولة مرة واحدة."
-     }
-    ],
     "figures": [
      {
-      "n": "7 points",
-      "n_ar": "7 نقاط",
       "d": "Total des cinq clubs en tête, soit deux victoires et un nul en quatre matchs.",
-      "d_ar": "رصيد الأندية الخمسة المتصدرة، أي فوزان وتعادل في أربع مباريات."
+      "d_ar": "رصيد الأندية الخمسة المتصدرة، أي فوزان وتعادل في أربع مباريات.",
+      "n": "7 points",
+      "n_ar": "7 نقاط"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Série de matchs où chaque équipe du championnat joue une fois.",
+      "d_ar": "مجموعة مباريات يلعب فيها كل فريق في البطولة مرة واحدة.",
+      "t": "journée",
+      "t_ar": "جولة"
      }
     ]
-   }
+   },
+   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/DHJ_MAT.jpg",
+   "source": "Hespress FR",
+   "sport": "football",
+   "summary": "Pour la 4e journée de la Botola Pro, le Difaâ d'El Jadida a battu le Moghreb de Tétouan 4-1 et le CODM de Meknès a dominé l'Union de Touarga 1-0 samedi. Cinq équipes se partagent la tête avec 7 points, avant le match du Wydad contre Tiznit dimanche soir.",
+   "summary_ar": "في الجولة الرابعة من البطولة الاحترافية، فاز الدفاع الحسني الجديدي على المغرب التطواني 4-1، وتغلب النادي المكناسي على اتحاد تواركة 1-0 يوم السبت. وتتقاسم خمسة فرق الصدارة بـ7 نقاط، قبل مباراة الوداد أمام أمل تيزنيت مساء الأحد.",
+   "title": "Botola : El Jadida écrase Tétouan 4-1, cinq clubs en tête avec 7 points",
+   "title_ar": "البطولة: الجديدة تكتسح تطوان 4-1 وخمسة أندية في الصدارة بـ7 نقاط",
+   "url": "https://fr.hespress.com/492886-botola-pro-d1-resultats-suite-du-programme-et-classement-provisoire.html"
   },
   {
    "cat": "sport",
-   "sport": "basket",
-   "title": "NBA : fin de la présaison, la saison démarre mardi avec Knicks-76ers",
-   "title_ar": "الدوري الأمريكي لكرة السلة: نهاية فترة الإعداد وانطلاق الموسم الثلاثاء",
-   "summary": "La présaison NBA s'est terminée vendredi, avec notamment une victoire de Boston sur Philadelphie après prolongation malgré 27 points de Joel Embiid. La saison commence mardi 20 octobre avec Celtics-Pistons, 76ers-Knicks et Thunder-Spurs.",
-   "summary_ar": "انتهت فترة الإعداد في الدوري الأمريكي يوم الجمعة، ومن أبرز مبارياتها فوز بوسطن على فيلادلفيا بعد وقت إضافي رغم تسجيل جويل إمبيد 27 نقطة. ويبدأ الموسم الثلاثاء 20 أكتوبر بمباريات سلتيكس ضد بيستونز وسفنتي سيكسرز ضد نيكس وثاندر ضد سبيرز.",
-   "source": "NBA.com",
-   "url": "https://www.nba.com/news/starting-5-finishing-the-preseason-in-style",
    "date": "2026-10-17",
-   "image": "https://cdn.nba.com/manage/2026/10/GettyImages-2300584107-Cropped.jpg",
    "explain": {
     "context": "Les jeunes recrues de la draft se sont montrées : Cooper Flagg a fait 26 points et 12 rebonds avec Dallas. Boston finit sa présaison invaincu, avec quatre victoires.",
     "context_ar": "برز اللاعبون الجدد في الدرافت: سجل كوبر فلاغ 26 نقطة و12 متابعة مع دالاس. وأنهى بوسطن فترة الإعداد دون هزيمة بأربعة انتصارات.",
-    "terms": [
-     {
-      "t": "présaison",
-      "t_ar": "فترة الإعداد",
-      "d": "Matchs amicaux avant la saison, qui ne comptent pas au classement.",
-      "d_ar": "مباريات ودية قبل الموسم لا تُحتسب في الترتيب."
-     },
-     {
-      "t": "prolongation",
-      "t_ar": "وقت إضافي",
-      "d": "Temps de jeu en plus quand les deux équipes sont à égalité à la fin.",
-      "d_ar": "وقت لعب إضافي حين يتعادل الفريقان في نهاية المباراة."
-     }
-    ],
     "figures": [
      {
-      "n": "27 points",
-      "n_ar": "27 نقطة",
       "d": "Score de Joel Embiid, qui n'a pas suffi à Philadelphie.",
-      "d_ar": "ما سجله جويل إمبيد، ولم يكن كافياً لفيلادلفيا."
+      "d_ar": "ما سجله جويل إمبيد، ولم يكن كافياً لفيلادلفيا.",
+      "n": "27 points",
+      "n_ar": "27 نقطة"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Matchs amicaux avant la saison, qui ne comptent pas au classement.",
+      "d_ar": "مباريات ودية قبل الموسم لا تُحتسب في الترتيب.",
+      "t": "présaison",
+      "t_ar": "فترة الإعداد"
+     },
+     {
+      "d": "Temps de jeu en plus quand les deux équipes sont à égalité à la fin.",
+      "d_ar": "وقت لعب إضافي حين يتعادل الفريقان في نهاية المباراة.",
+      "t": "prolongation",
+      "t_ar": "وقت إضافي"
      }
     ]
-   }
+   },
+   "image": "https://cdn.nba.com/manage/2026/10/GettyImages-2300584107-Cropped.jpg",
+   "source": "NBA.com",
+   "sport": "basket",
+   "summary": "La présaison NBA s'est terminée vendredi, avec notamment une victoire de Boston sur Philadelphie après prolongation malgré 27 points de Joel Embiid. La saison commence mardi 20 octobre avec Celtics-Pistons, 76ers-Knicks et Thunder-Spurs.",
+   "summary_ar": "انتهت فترة الإعداد في الدوري الأمريكي يوم الجمعة، ومن أبرز مبارياتها فوز بوسطن على فيلادلفيا بعد وقت إضافي رغم تسجيل جويل إمبيد 27 نقطة. ويبدأ الموسم الثلاثاء 20 أكتوبر بمباريات سلتيكس ضد بيستونز وسفنتي سيكسرز ضد نيكس وثاندر ضد سبيرز.",
+   "title": "NBA : fin de la présaison, la saison démarre mardi avec Knicks-76ers",
+   "title_ar": "الدوري الأمريكي لكرة السلة: نهاية فترة الإعداد وانطلاق الموسم الثلاثاء",
+   "url": "https://www.nba.com/news/starting-5-finishing-the-preseason-in-style"
   },
   {
    "cat": "ia",
-   "title": "OpenAI confirme qu'il va construire un robot humanoïde, démo attendue en 2027",
-   "title_ar": "أوبن إيه آي تؤكد أنها ستصنع روبوتاً بشري الشكل مع عرض أول في 2027",
-   "summary": "Sam Altman, patron d'OpenAI, a confirmé que l'entreprise fabriquera un robot humanoïde et promet une démonstration en 2027. Il dit miser surtout sur le « cerveau » logiciel du robot, et OpenAI recrute déjà pour 27 postes en robotique.",
-   "summary_ar": "أكد سام ألتمان، رئيس أوبن إيه آي، أن الشركة ستصنع روبوتاً بشري الشكل، ووعد بعرض تجريبي في 2027. ويقول إنه يراهن أساساً على العقل البرمجي للروبوت، فيما تعرض الشركة حالياً 27 وظيفة في مجال الروبوتات.",
-   "source": "Engadget",
-   "url": "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/",
    "date": "2026-10-17",
-   "image": "https://www.engadget.com/img/gallery/openai-is-building-a-humanoid-robot-but-the-body-isnt-the-real-challenge/l-intro-1791892991.jpg",
    "explain": {
     "context": "OpenAI rejoint Tesla et son robot Optimus, ou le chinois XPENG, dans la course aux robots humanoïdes. Aucun prix ni date de sortie n'a été annoncé.",
     "context_ar": "تنضم أوبن إيه آي إلى تسلا وروبوتها أوبتيموس وشركة إكس بنغ الصينية في سباق الروبوتات البشرية الشكل. ولم يُعلن عن أي سعر أو موعد طرح.",
-    "terms": [
-     {
-      "t": "humanoïde",
-      "t_ar": "بشري الشكل",
-      "d": "Robot qui a une forme proche de celle d'un humain : tête, bras, jambes.",
-      "d_ar": "روبوت يشبه شكله شكل الإنسان: رأس وذراعان وساقان."
-     }
-    ],
     "figures": [
      {
-      "n": "27",
-      "n_ar": "27",
       "d": "Postes ouverts en robotique sur le site de recrutement d'OpenAI.",
-      "d_ar": "عدد الوظائف المفتوحة في مجال الروبوتات على موقع التوظيف لدى أوبن إيه آي."
+      "d_ar": "عدد الوظائف المفتوحة في مجال الروبوتات على موقع التوظيف لدى أوبن إيه آي.",
+      "n": "27",
+      "n_ar": "27"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Robot qui a une forme proche de celle d'un humain : tête, bras, jambes.",
+      "d_ar": "روبوت يشبه شكله شكل الإنسان: رأس وذراعان وساقان.",
+      "t": "humanoïde",
+      "t_ar": "بشري الشكل"
      }
     ]
-   }
+   },
+   "image": "https://www.engadget.com/img/gallery/openai-is-building-a-humanoid-robot-but-the-body-isnt-the-real-challenge/l-intro-1791892991.jpg",
+   "source": "Engadget",
+   "summary": "Sam Altman, patron d'OpenAI, a confirmé que l'entreprise fabriquera un robot humanoïde et promet une démonstration en 2027. Il dit miser surtout sur le « cerveau » logiciel du robot, et OpenAI recrute déjà pour 27 postes en robotique.",
+   "summary_ar": "أكد سام ألتمان، رئيس أوبن إيه آي، أن الشركة ستصنع روبوتاً بشري الشكل، ووعد بعرض تجريبي في 2027. ويقول إنه يراهن أساساً على العقل البرمجي للروبوت، فيما تعرض الشركة حالياً 27 وظيفة في مجال الروبوتات.",
+   "title": "OpenAI confirme qu'il va construire un robot humanoïde, démo attendue en 2027",
+   "title_ar": "أوبن إيه آي تؤكد أنها ستصنع روبوتاً بشري الشكل مع عرض أول في 2027",
+   "url": "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/"
   },
   {
    "cat": "ia",
-   "title": "Californie : Newsom veut des « boutons d'arrêt » pour les IA hors de contrôle",
-   "title_ar": "كاليفورنيا: نيوسوم يريد أزرار إيقاف للذكاء الاصطناعي الخارج عن السيطرة",
-   "summary": "Le gouverneur de Californie, Gavin Newsom, durcit les règles sur l'IA : il veut des contrôles indépendants des modèles et des « boutons d'arrêt » pour les agents d'IA hors de contrôle. Il avait pourtant rejeté une loi semblable en 2024.",
-   "summary_ar": "يشدد حاكم كاليفورنيا غافين نيوسوم القواعد المتعلقة بالذكاء الاصطناعي، إذ يريد فحصاً مستقلاً للنماذج وأزرار إيقاف للوكلاء الذكيين الخارجين عن السيطرة. وكان قد رفض قانوناً مشابهاً في 2024.",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/economy/2026/10/17/california-gov-newsom-boosts-ai-regulation-as-he-eyes-2028-presidential-run",
    "date": "2026-10-17",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2025/11/AP25309178500980-1762319702.jpg?resize=1200%2C675",
    "explain": {
     "context": "La Californie accueille la plupart des grandes entreprises d'IA. Newsom, qui quitte son poste en janvier 2027, pense à la présidentielle de 2028.",
     "context_ar": "تحتضن كاليفورنيا أغلب شركات الذكاء الاصطناعي الكبرى. ونيوسوم، الذي يغادر منصبه في يناير 2027، يفكر في الانتخابات الرئاسية لسنة 2028.",
-    "terms": [
-     {
-      "t": "agents d'IA",
-      "t_ar": "وكلاء الذكاء الاصطناعي",
-      "d": "Programmes d'IA capables d'agir seuls : envoyer des messages, acheter, écrire du code.",
-      "d_ar": "برامج ذكاء اصطناعي قادرة على التصرف وحدها: إرسال رسائل أو الشراء أو كتابة الشيفرة."
-     },
-     {
-      "t": "boutons d'arrêt",
-      "t_ar": "أزرار الإيقاف",
-      "d": "Moyens techniques pour couper tout de suite une IA qui se comporte mal.",
-      "d_ar": "وسائل تقنية لإيقاف ذكاء اصطناعي فوراً إذا تصرف بشكل سيئ."
-     }
-    ],
     "figures": [
      {
-      "n": "2024",
-      "n_ar": "2024",
       "d": "Année où Newsom avait refusé une loi aux exigences proches.",
-      "d_ar": "السنة التي رفض فيها نيوسوم قانوناً بشروط مشابهة."
+      "d_ar": "السنة التي رفض فيها نيوسوم قانوناً بشروط مشابهة.",
+      "n": "2024",
+      "n_ar": "2024"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Programmes d'IA capables d'agir seuls : envoyer des messages, acheter, écrire du code.",
+      "d_ar": "برامج ذكاء اصطناعي قادرة على التصرف وحدها: إرسال رسائل أو الشراء أو كتابة الشيفرة.",
+      "t": "agents d'IA",
+      "t_ar": "وكلاء الذكاء الاصطناعي"
+     },
+     {
+      "d": "Moyens techniques pour couper tout de suite une IA qui se comporte mal.",
+      "d_ar": "وسائل تقنية لإيقاف ذكاء اصطناعي فوراً إذا تصرف بشكل سيئ.",
+      "t": "boutons d'arrêt",
+      "t_ar": "أزرار الإيقاف"
      }
     ]
-   }
+   },
+   "image": "https://www.aljazeera.com/wp-content/uploads/2025/11/AP25309178500980-1762319702.jpg?resize=1200%2C675",
+   "source": "Al Jazeera",
+   "summary": "Le gouverneur de Californie, Gavin Newsom, durcit les règles sur l'IA : il veut des contrôles indépendants des modèles et des « boutons d'arrêt » pour les agents d'IA hors de contrôle. Il avait pourtant rejeté une loi semblable en 2024.",
+   "summary_ar": "يشدد حاكم كاليفورنيا غافين نيوسوم القواعد المتعلقة بالذكاء الاصطناعي، إذ يريد فحصاً مستقلاً للنماذج وأزرار إيقاف للوكلاء الذكيين الخارجين عن السيطرة. وكان قد رفض قانوناً مشابهاً في 2024.",
+   "title": "Californie : Newsom veut des « boutons d'arrêt » pour les IA hors de contrôle",
+   "title_ar": "كاليفورنيا: نيوسوم يريد أزرار إيقاف للذكاء الاصطناعي الخارج عن السيطرة",
+   "url": "https://www.aljazeera.com/economy/2026/10/17/california-gov-newsom-boosts-ai-regulation-as-he-eyes-2028-presidential-run"
   },
   {
    "cat": "eco",
-   "title": "Wall Street : après la chute des valeurs de l'IA, les marchés attendent les résultats",
-   "title_ar": "وول ستريت: بعد تراجع أسهم الذكاء الاصطناعي، الأسواق تنتظر نتائج الشركات",
-   "summary": "Le S&P 500 a connu sa pire semaine depuis juin, tiré vers le bas par les fabricants de puces, dont l'indice a perdu environ 12 % en octobre. Les investisseurs comptent sur les résultats du troisième trimestre, attendus en hausse de plus de 30 %, pour se rassurer.",
-   "summary_ar": "سجل مؤشر إس آند بي 500 أسوأ أسبوع له منذ يونيو، متأثراً بتراجع شركات الرقائق التي فقد مؤشرها نحو 12% في أكتوبر. ويعوّل المستثمرون على نتائج الربع الثالث، المتوقع ارتفاعها بأكثر من 30%، لاستعادة الثقة.",
-   "source": "Reuters (via Investing.com)",
-   "url": "https://investing.com/news/stock-market-news/as-ai-rally-wobbles-stock-markets-spotlight-turns-to-earnings-4955913",
    "date": "2026-10-18",
-   "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9F0QP_L.jpg",
    "explain": {
     "context": "Les géants du numérique dépensent des sommes énormes dans l'IA, et certains investisseurs doutent de leur rentabilité. Une inflation forte fait aussi craindre une hausse des taux de la Fed.",
     "context_ar": "تنفق عمالقة التكنولوجيا مبالغ ضخمة على الذكاء الاصطناعي، ويشك بعض المستثمرين في مردوديتها. كما يثير التضخم المرتفع مخاوف من رفع الاحتياطي الفيدرالي لأسعار الفائدة.",
-    "terms": [
-     {
-      "t": "S&P 500",
-      "t_ar": "إس آند بي 500",
-      "d": "Indice qui suit les 500 plus grandes entreprises cotées aux États-Unis.",
-      "d_ar": "مؤشر يتتبع أكبر 500 شركة مدرجة في البورصة الأمريكية."
-     },
-     {
-      "t": "résultats du troisième trimestre",
-      "t_ar": "نتائج الربع الثالث",
-      "d": "Bénéfices des entreprises entre juillet et septembre, publiés en octobre.",
-      "d_ar": "أرباح الشركات بين يوليوز وشتنبر، وتُنشر في أكتوبر."
-     }
-    ],
     "figures": [
      {
-      "n": "12 %",
-      "n_ar": "12%",
       "d": "Baisse de l'indice des fabricants de puces en octobre ; il reste en hausse de 57 % sur l'année.",
-      "d_ar": "تراجع مؤشر شركات الرقائق في أكتوبر، مع بقائه مرتفعاً بـ57% منذ بداية السنة."
+      "d_ar": "تراجع مؤشر شركات الرقائق في أكتوبر، مع بقائه مرتفعاً بـ57% منذ بداية السنة.",
+      "n": "12 %",
+      "n_ar": "12%"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Indice qui suit les 500 plus grandes entreprises cotées aux États-Unis.",
+      "d_ar": "مؤشر يتتبع أكبر 500 شركة مدرجة في البورصة الأمريكية.",
+      "t": "S&P 500",
+      "t_ar": "إس آند بي 500"
+     },
+     {
+      "d": "Bénéfices des entreprises entre juillet et septembre, publiés en octobre.",
+      "d_ar": "أرباح الشركات بين يوليوز وشتنبر، وتُنشر في أكتوبر.",
+      "t": "résultats du troisième trimestre",
+      "t_ar": "نتائج الربع الثالث"
      }
     ]
-   }
+   },
+   "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9F0QP_L.jpg",
+   "source": "Reuters (via Investing.com)",
+   "summary": "Le S&P 500 a connu sa pire semaine depuis juin, tiré vers le bas par les fabricants de puces, dont l'indice a perdu environ 12 % en octobre. Les investisseurs comptent sur les résultats du troisième trimestre, attendus en hausse de plus de 30 %, pour se rassurer.",
+   "summary_ar": "سجل مؤشر إس آند بي 500 أسوأ أسبوع له منذ يونيو، متأثراً بتراجع شركات الرقائق التي فقد مؤشرها نحو 12% في أكتوبر. ويعوّل المستثمرون على نتائج الربع الثالث، المتوقع ارتفاعها بأكثر من 30%، لاستعادة الثقة.",
+   "title": "Wall Street : après la chute des valeurs de l'IA, les marchés attendent les résultats",
+   "title_ar": "وول ستريت: بعد تراجع أسهم الذكاء الاصطناعي، الأسواق تنتظر نتائج الشركات",
+   "url": "https://investing.com/news/stock-market-news/as-ai-rally-wobbles-stock-markets-spotlight-turns-to-earnings-4955913"
   },
   {
    "cat": "eco",
-   "title": "Canada : la banque centrale s'attend à une inflation bien plus forte à cause du pétrole",
-   "title_ar": "كندا: البنك المركزي يتوقع تضخماً أقوى بكثير بسبب النفط",
-   "summary": "Le gouverneur de la Banque du Canada, Tiff Macklem, va relever fortement ses prévisions d'inflation à cause de la flambée du pétrole. Les marchés misent sur 100 points de base de hausse des taux dans l'année, même si aucun changement n'est attendu le 28 octobre.",
-   "summary_ar": "سيرفع محافظ بنك كندا تيف ماكليم توقعاته للتضخم بشكل كبير بسبب ارتفاع أسعار النفط. وتراهن الأسواق على رفع أسعار الفائدة بـ100 نقطة أساس خلال سنة، رغم أنها لا تتوقع أي تغيير في 28 أكتوبر.",
-   "source": "Reuters (via Investing.com)",
-   "url": "https://www.investing.com/news/economy-news/bank-of-canada-sees-sharply-higher-inflation-outlook-as-oil-surges-macklem-says-4955437",
    "date": "2026-10-17",
-   "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9G0DJ_L.jpg",
    "explain": {
     "context": "La guerre au Moyen-Orient perturbe le transport du pétrole et des raffineries ont été touchées. Le prix du baril a fortement monté, ce qui pèse sur les prix partout.",
     "context_ar": "تُربك الحرب في الشرق الأوسط نقل النفط، وتضررت مصافٍ عدة. وقد ارتفع سعر البرميل بقوة، ما يضغط على الأسعار في كل مكان.",
-    "terms": [
-     {
-      "t": "inflation",
-      "t_ar": "التضخم",
-      "d": "Hausse générale des prix : avec le même argent, on achète moins.",
-      "d_ar": "ارتفاع عام في الأسعار: بالمبلغ نفسه نشتري أقل."
-     },
-     {
-      "t": "points de base",
-      "t_ar": "نقاط أساس",
-      "d": "Unité pour les taux : 100 points de base valent 1 %.",
-      "d_ar": "وحدة لقياس أسعار الفائدة: 100 نقطة أساس تساوي 1%."
-     }
-    ],
     "figures": [
      {
-      "n": "28 octobre",
-      "n_ar": "28 أكتوبر",
       "d": "Date de la prochaine décision de la Banque du Canada sur ses taux.",
-      "d_ar": "موعد القرار المقبل لبنك كندا بشأن أسعار الفائدة."
+      "d_ar": "موعد القرار المقبل لبنك كندا بشأن أسعار الفائدة.",
+      "n": "28 octobre",
+      "n_ar": "28 أكتوبر"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Hausse générale des prix : avec le même argent, on achète moins.",
+      "d_ar": "ارتفاع عام في الأسعار: بالمبلغ نفسه نشتري أقل.",
+      "t": "inflation",
+      "t_ar": "التضخم"
+     },
+     {
+      "d": "Unité pour les taux : 100 points de base valent 1 %.",
+      "d_ar": "وحدة لقياس أسعار الفائدة: 100 نقطة أساس تساوي 1%.",
+      "t": "points de base",
+      "t_ar": "نقاط أساس"
      }
     ]
-   }
+   },
+   "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9G0DJ_L.jpg",
+   "source": "Reuters (via Investing.com)",
+   "summary": "Le gouverneur de la Banque du Canada, Tiff Macklem, va relever fortement ses prévisions d'inflation à cause de la flambée du pétrole. Les marchés misent sur 100 points de base de hausse des taux dans l'année, même si aucun changement n'est attendu le 28 octobre.",
+   "summary_ar": "سيرفع محافظ بنك كندا تيف ماكليم توقعاته للتضخم بشكل كبير بسبب ارتفاع أسعار النفط. وتراهن الأسواق على رفع أسعار الفائدة بـ100 نقطة أساس خلال سنة، رغم أنها لا تتوقع أي تغيير في 28 أكتوبر.",
+   "title": "Canada : la banque centrale s'attend à une inflation bien plus forte à cause du pétrole",
+   "title_ar": "كندا: البنك المركزي يتوقع تضخماً أقوى بكثير بسبب النفط",
+   "url": "https://www.investing.com/news/economy-news/bank-of-canada-sees-sharply-higher-inflation-outlook-as-oil-surges-macklem-says-4955437"
   },
   {
    "cat": "tech",
-   "title": "TikTok bannit à vie le compte publicitaire du documentaire « Musk »",
-   "title_ar": "تيك توك تحظر نهائياً الحساب الإعلاني للوثائقي «ماسك»",
-   "summary": "TikTok a suspendu pour toujours le compte publicitaire du documentaire d'Alex Gibney sur Elon Musk, pour « contenu politique ». Meta et YouTube avaient d'abord refusé ses publicités avant de les accepter, tandis que X, le réseau de Musk, refuse de les diffuser.",
-   "summary_ar": "علّقت تيك توك بشكل دائم الحساب الإعلاني للفيلم الوثائقي الذي أخرجه أليكس غيبني عن إيلون ماسك، بدعوى «محتوى سياسي». وكانت ميتا ويوتيوب قد رفضتا إعلاناته أولاً ثم قبلتاها، بينما ترفض منصة إكس المملوكة لماسك بثها.",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/17/tiktok-permanently-bans-musk-documentary-advertising-account/",
    "date": "2026-10-17",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2297262633.jpg?resize=1200,800",
    "explain": {
     "context": "Le film de quatre heures est sorti dans quatre salles américaines et sera diffusé sur HBO l'an prochain. TikTok aux États-Unis appartient en partie à Larry Ellison, proche de Trump.",
     "context_ar": "عُرض الفيلم الذي يدوم أربع ساعات في أربع قاعات أمريكية، وسيُبث على HBO العام المقبل. ويملك لاري إليسون، المقرب من ترامب، جزءاً من تيك توك في الولايات المتحدة.",
-    "terms": [
-     {
-      "t": "documentaire",
-      "t_ar": "فيلم وثائقي",
-      "d": "Film qui raconte des faits réels, sans acteurs ni histoire inventée.",
-      "d_ar": "فيلم يروي وقائع حقيقية دون ممثلين أو قصة مختلقة."
-     }
-    ],
     "figures": [
      {
-      "n": "4 heures",
-      "n_ar": "4 ساعات",
       "d": "Durée du film, bien plus longue qu'un film classique d'environ deux heures.",
-      "d_ar": "مدة الفيلم، وهي أطول بكثير من فيلم عادي يدوم نحو ساعتين."
+      "d_ar": "مدة الفيلم، وهي أطول بكثير من فيلم عادي يدوم نحو ساعتين.",
+      "n": "4 heures",
+      "n_ar": "4 ساعات"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Film qui raconte des faits réels, sans acteurs ni histoire inventée.",
+      "d_ar": "فيلم يروي وقائع حقيقية دون ممثلين أو قصة مختلقة.",
+      "t": "documentaire",
+      "t_ar": "فيلم وثائقي"
      }
     ]
-   }
+   },
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2297262633.jpg?resize=1200,800",
+   "source": "TechCrunch",
+   "summary": "TikTok a suspendu pour toujours le compte publicitaire du documentaire d'Alex Gibney sur Elon Musk, pour « contenu politique ». Meta et YouTube avaient d'abord refusé ses publicités avant de les accepter, tandis que X, le réseau de Musk, refuse de les diffuser.",
+   "summary_ar": "علّقت تيك توك بشكل دائم الحساب الإعلاني للفيلم الوثائقي الذي أخرجه أليكس غيبني عن إيلون ماسك، بدعوى «محتوى سياسي». وكانت ميتا ويوتيوب قد رفضتا إعلاناته أولاً ثم قبلتاها، بينما ترفض منصة إكس المملوكة لماسك بثها.",
+   "title": "TikTok bannit à vie le compte publicitaire du documentaire « Musk »",
+   "title_ar": "تيك توك تحظر نهائياً الحساب الإعلاني للوثائقي «ماسك»",
+   "url": "https://techcrunch.com/2026/10/17/tiktok-permanently-bans-musk-documentary-advertising-account/"
   },
   {
    "cat": "gaming",
-   "title": "Japon : Sony vend une PS5 à 55 000 yens pour contrer la Switch 2",
-   "title_ar": "اليابان: سوني تطرح بلايستيشن 5 بسعر 55 ألف ين لمنافسة سويتش 2",
-   "summary": "Sony lance au Japon une PS5 « Midnight Black » à 55 000 yens, soit environ 310 euros, moins chère que la Switch 2 de Nintendo. Elle sortira le 19 novembre, le jour de la sortie de GTA VI, et ne fonctionnera qu'avec les réglages japonais.",
-   "summary_ar": "تطلق سوني في اليابان نسخة «ميدنايت بلاك» من بلايستيشن 5 بسعر 55 ألف ين، أي نحو 310 يورو، وهي أرخص من سويتش 2 من نينتندو. وستصدر في 19 نونبر، يوم صدور لعبة GTA VI، ولن تعمل إلا بالإعدادات اليابانية.",
-   "source": "Jeuxvideo.com",
-   "url": "https://www.jeuxvideo.com/news/2109189/a-cause-du-succes-de-la-nintendo-switch-2-sony-force-de-brader-sa-ps5-310-pour-que-les-fans-de-gta-6-puissent-y-jouer-au-japon.htm",
    "date": "2026-10-17",
-   "image": "https://image.jeuxvideo.com/medias-crop-1200-675/179206/1792058556-8487-card.png",
    "explain": {
     "context": "Au Japon, la Switch 2 se vend très bien et Sony perd des parts de marché. La PS5 numérique y coûte normalement 89 980 yens.",
     "context_ar": "في اليابان، تحقق سويتش 2 مبيعات قوية وتفقد سوني حصتها في السوق. ويبلغ السعر العادي لبلايستيشن 5 الرقمية هناك 89.980 ين.",
-    "terms": [
-     {
-      "t": "yens",
-      "t_ar": "ين",
-      "d": "Monnaie du Japon. 55 000 yens font environ 310 euros.",
-      "d_ar": "عملة اليابان. 55 ألف ين تعادل نحو 310 يورو."
-     }
-    ],
     "figures": [
      {
-      "n": "55 000 yens",
-      "n_ar": "55 ألف ين",
       "d": "Prix de cette PS5, soit près de 39 % de moins que le modèle numérique habituel.",
-      "d_ar": "سعر هذه النسخة، أي أقل بنحو 39% من النسخة الرقمية المعتادة."
+      "d_ar": "سعر هذه النسخة، أي أقل بنحو 39% من النسخة الرقمية المعتادة.",
+      "n": "55 000 yens",
+      "n_ar": "55 ألف ين"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Monnaie du Japon. 55 000 yens font environ 310 euros.",
+      "d_ar": "عملة اليابان. 55 ألف ين تعادل نحو 310 يورو.",
+      "t": "yens",
+      "t_ar": "ين"
      }
     ]
-   }
+   },
+   "image": "https://image.jeuxvideo.com/medias-crop-1200-675/179206/1792058556-8487-card.png",
+   "source": "Jeuxvideo.com",
+   "summary": "Sony lance au Japon une PS5 « Midnight Black » à 55 000 yens, soit environ 310 euros, moins chère que la Switch 2 de Nintendo. Elle sortira le 19 novembre, le jour de la sortie de GTA VI, et ne fonctionnera qu'avec les réglages japonais.",
+   "summary_ar": "تطلق سوني في اليابان نسخة «ميدنايت بلاك» من بلايستيشن 5 بسعر 55 ألف ين، أي نحو 310 يورو، وهي أرخص من سويتش 2 من نينتندو. وستصدر في 19 نونبر، يوم صدور لعبة GTA VI، ولن تعمل إلا بالإعدادات اليابانية.",
+   "title": "Japon : Sony vend une PS5 à 55 000 yens pour contrer la Switch 2",
+   "title_ar": "اليابان: سوني تطرح بلايستيشن 5 بسعر 55 ألف ين لمنافسة سويتش 2",
+   "url": "https://www.jeuxvideo.com/news/2109189/a-cause-du-succes-de-la-nintendo-switch-2-sony-force-de-brader-sa-ps5-310-pour-que-les-fans-de-gta-6-puissent-y-jouer-au-japon.htm"
   },
   {
    "cat": "gaming",
-   "title": "Shrek 2 Remastered apparaît sur la boutique Xbox avant son annonce",
-   "title_ar": "«شريك 2» المحسّنة تظهر على متجر إكس بوكس قبل الإعلان عنها",
-   "summary": "Une page « Shrek 2 Remastered » est apparue sur la boutique de Microsoft, avec Aspyr comme studio. Le jeu promet la 4K, des graphismes revus et une coopération jusqu'à quatre joueurs, et pourrait être annoncé le 20 octobre.",
-   "summary_ar": "ظهرت صفحة للعبة «شريك 2 ريماسترد» على متجر مايكروسوفت، مع استوديو أسبير كمطوّر. وتعد اللعبة بدقة 4K ورسوم محسّنة ولعب جماعي حتى أربعة لاعبين، وقد يُعلن عنها في 20 أكتوبر.",
-   "source": "Gematsu",
-   "url": "https://www.gematsu.com/2026/10/shrek-2-remastered-microsoft-store-page-appears",
    "date": "2026-10-16",
-   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Shrek-2-Remastered-Leak_10-16-26.jpg",
    "explain": {
     "context": "Le jeu original, tiré du film d'animation, était sorti en 2004. Le salon ID@Xbox du 20 octobre pourrait servir à l'annonce officielle.",
     "context_ar": "صدرت اللعبة الأصلية المستوحاة من فيلم الرسوم المتحركة سنة 2004. وقد يكون عرض ID@Xbox يوم 20 أكتوبر مناسبة للإعلان الرسمي.",
-    "terms": [
-     {
-      "t": "Remastered",
-      "t_ar": "نسخة محسّنة",
-      "d": "Ancien jeu ressorti avec une image et un son améliorés.",
-      "d_ar": "لعبة قديمة يُعاد طرحها بصورة وصوت محسّنين."
-     }
-    ],
     "figures": [
      {
-      "n": "4",
-      "n_ar": "4",
       "d": "Nombre de joueurs possibles ensemble, sur le même écran ou en ligne.",
-      "d_ar": "عدد اللاعبين الممكن مشاركتهم معاً، على الشاشة نفسها أو عبر الإنترنت."
+      "d_ar": "عدد اللاعبين الممكن مشاركتهم معاً، على الشاشة نفسها أو عبر الإنترنت.",
+      "n": "4",
+      "n_ar": "4"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Ancien jeu ressorti avec une image et un son améliorés.",
+      "d_ar": "لعبة قديمة يُعاد طرحها بصورة وصوت محسّنين.",
+      "t": "Remastered",
+      "t_ar": "نسخة محسّنة"
      }
     ]
-   }
+   },
+   "image": "https://www.gematsu.com/wp-content/uploads/2026/10/Shrek-2-Remastered-Leak_10-16-26.jpg",
+   "source": "Gematsu",
+   "summary": "Une page « Shrek 2 Remastered » est apparue sur la boutique de Microsoft, avec Aspyr comme studio. Le jeu promet la 4K, des graphismes revus et une coopération jusqu'à quatre joueurs, et pourrait être annoncé le 20 octobre.",
+   "summary_ar": "ظهرت صفحة للعبة «شريك 2 ريماسترد» على متجر مايكروسوفت، مع استوديو أسبير كمطوّر. وتعد اللعبة بدقة 4K ورسوم محسّنة ولعب جماعي حتى أربعة لاعبين، وقد يُعلن عنها في 20 أكتوبر.",
+   "title": "Shrek 2 Remastered apparaît sur la boutique Xbox avant son annonce",
+   "title_ar": "«شريك 2» المحسّنة تظهر على متجر إكس بوكس قبل الإعلان عنها",
+   "url": "https://www.gematsu.com/2026/10/shrek-2-remastered-microsoft-store-page-appears"
   },
   {
    "cat": "geo",
-   "title": "Gaza : Israël bloque les marchandises, les prix de la nourriture s'envolent",
-   "title_ar": "غزة: إسرائيل تمنع دخول السلع وأسعار الغذاء ترتفع بقوة",
-   "summary": "Depuis plusieurs jours, Israël empêche l'entrée des produits commerciaux à Gaza, et les prix flambent : le carton d'œufs est passé de 35 à 60-70 shekels. Selon l'ONU, en septembre, la nourriture coûtait déjà en moyenne 204 % de plus qu'avant octobre 2023.",
-   "summary_ar": "منذ عدة أيام، تمنع إسرائيل دخول السلع التجارية إلى غزة، فارتفعت الأسعار بشدة: انتقل ثمن علبة البيض من 35 إلى ما بين 60 و70 شيكلاً. وحسب الأمم المتحدة، كانت أسعار الغذاء في شتنبر أعلى بـ204% في المتوسط مقارنة بما قبل أكتوبر 2023.",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/18/gaza-families-fear-food-shortages-as-israel-halts-commercial-shipments",
    "date": "2026-10-18",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/7K0A8053-copy-1792324954.jpg?resize=1920%2C1440",
    "explain": {
     "context": "Israël évoque des frais imposés aux camions, ce que les autorités de Gaza démentent. Elles demandent l'entrée de 600 camions par jour.",
     "context_ar": "تتحدث إسرائيل عن رسوم مفروضة على الشاحنات، وهو ما تنفيه السلطات في غزة. وتطالب هذه الأخيرة بدخول 600 شاحنة يومياً.",
-    "terms": [
-     {
-      "t": "shekels",
-      "t_ar": "شيكل",
-      "d": "Monnaie israélienne, utilisée aussi à Gaza.",
-      "d_ar": "العملة الإسرائيلية، وتُستعمل أيضاً في غزة."
-     }
-    ],
     "figures": [
      {
-      "n": "204 %",
-      "n_ar": "204%",
       "d": "Hausse moyenne des prix de la nourriture : ils ont été multipliés par trois environ.",
-      "d_ar": "متوسط ارتفاع أسعار الغذاء، أي أنها تضاعفت ثلاث مرات تقريباً."
+      "d_ar": "متوسط ارتفاع أسعار الغذاء، أي أنها تضاعفت ثلاث مرات تقريباً.",
+      "n": "204 %",
+      "n_ar": "204%"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Monnaie israélienne, utilisée aussi à Gaza.",
+      "d_ar": "العملة الإسرائيلية، وتُستعمل أيضاً في غزة.",
+      "t": "shekels",
+      "t_ar": "شيكل"
      }
     ]
-   }
+   },
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/7K0A8053-copy-1792324954.jpg?resize=1920%2C1440",
+   "source": "Al Jazeera",
+   "summary": "Depuis plusieurs jours, Israël empêche l'entrée des produits commerciaux à Gaza, et les prix flambent : le carton d'œufs est passé de 35 à 60-70 shekels. Selon l'ONU, en septembre, la nourriture coûtait déjà en moyenne 204 % de plus qu'avant octobre 2023.",
+   "summary_ar": "منذ عدة أيام، تمنع إسرائيل دخول السلع التجارية إلى غزة، فارتفعت الأسعار بشدة: انتقل ثمن علبة البيض من 35 إلى ما بين 60 و70 شيكلاً. وحسب الأمم المتحدة، كانت أسعار الغذاء في شتنبر أعلى بـ204% في المتوسط مقارنة بما قبل أكتوبر 2023.",
+   "title": "Gaza : Israël bloque les marchandises, les prix de la nourriture s'envolent",
+   "title_ar": "غزة: إسرائيل تمنع دخول السلع وأسعار الغذاء ترتفع بقوة",
+   "url": "https://www.aljazeera.com/news/2026/10/18/gaza-families-fear-food-shortages-as-israel-halts-commercial-shipments"
   },
   {
    "cat": "geo",
-   "title": "Ormuz : deux pétroliers en feu après avoir heurté des mines, selon l'Iran",
-   "title_ar": "هرمز: ناقلتا نفط تشتعلان بعد اصطدامهما بألغام حسب إيران",
-   "summary": "Les Gardiens de la révolution iraniens affirment que deux pétroliers, chargés chacun d'environ 2 millions de barils, ont pris feu après avoir touché des mines dans le détroit d'Ormuz. Selon l'Iran, ils avaient coupé leurs systèmes de localisation et pris une route non autorisée.",
-   "summary_ar": "يؤكد الحرس الثوري الإيراني أن ناقلتي نفط، تحمل كل منهما نحو مليوني برميل، اشتعلت فيهما النيران بعد اصطدامهما بألغام في مضيق هرمز. وحسب إيران، كانتا قد أطفأتا أنظمة تحديد الموقع وسلكتا طريقاً غير مرخص.",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/18/iran-says-two-tankers-catch-fire-after-hitting-mines-in-strait-of-hormuz",
    "date": "2026-10-18",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/GettyImages-2293771658-1791423375.jpg?resize=1920%2C1440",
    "explain": {
     "context": "Depuis la guerre lancée fin février par les États-Unis et Israël, l'Iran contrôle le détroit et exige une autorisation de passage. Avant la guerre, un cinquième du pétrole mondial y passait.",
     "context_ar": "منذ الحرب التي شنتها الولايات المتحدة وإسرائيل أواخر فبراير، تسيطر إيران على المضيق وتفرض إذناً للعبور. وقبل الحرب، كان خُمس النفط العالمي يمر عبره.",
-    "terms": [
-     {
-      "t": "détroit d'Ormuz",
-      "t_ar": "مضيق هرمز",
-      "d": "Passage maritime étroit entre l'Iran et Oman, clé pour le pétrole du Golfe.",
-      "d_ar": "ممر بحري ضيق بين إيران وعُمان، أساسي لنقل نفط الخليج."
-     }
-    ],
     "figures": [
      {
-      "n": "2 millions",
-      "n_ar": "مليونا",
       "d": "Barils de pétrole brut transportés par chacun des deux navires.",
-      "d_ar": "عدد براميل النفط الخام التي تحملها كل ناقلة."
+      "d_ar": "عدد براميل النفط الخام التي تحملها كل ناقلة.",
+      "n": "2 millions",
+      "n_ar": "مليونا"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Passage maritime étroit entre l'Iran et Oman, clé pour le pétrole du Golfe.",
+      "d_ar": "ممر بحري ضيق بين إيران وعُمان، أساسي لنقل نفط الخليج.",
+      "t": "détroit d'Ormuz",
+      "t_ar": "مضيق هرمز"
      }
     ]
-   }
+   },
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/GettyImages-2293771658-1791423375.jpg?resize=1920%2C1440",
+   "source": "Al Jazeera",
+   "summary": "Les Gardiens de la révolution iraniens affirment que deux pétroliers, chargés chacun d'environ 2 millions de barils, ont pris feu après avoir touché des mines dans le détroit d'Ormuz. Selon l'Iran, ils avaient coupé leurs systèmes de localisation et pris une route non autorisée.",
+   "summary_ar": "يؤكد الحرس الثوري الإيراني أن ناقلتي نفط، تحمل كل منهما نحو مليوني برميل، اشتعلت فيهما النيران بعد اصطدامهما بألغام في مضيق هرمز. وحسب إيران، كانتا قد أطفأتا أنظمة تحديد الموقع وسلكتا طريقاً غير مرخص.",
+   "title": "Ormuz : deux pétroliers en feu après avoir heurté des mines, selon l'Iran",
+   "title_ar": "هرمز: ناقلتا نفط تشتعلان بعد اصطدامهما بألغام حسب إيران",
+   "url": "https://www.aljazeera.com/news/2026/10/18/iran-says-two-tankers-catch-fire-after-hitting-mines-in-strait-of-hormuz"
   },
   {
    "cat": "cinema",
-   "title": "« La Momie 4 » s'appelle « Le Livre des Morts », avec Brendan Fraser et Rachel Weisz",
-   "title_ar": "«المومياء 4» بعنوان «كتاب الموتى» مع بريندان فريزر وراشيل وايز",
-   "summary": "Universal a dévoilé le titre du nouveau film « La Momie » : « Le Livre des Morts », en tournage à Londres. Brendan Fraser et Rachel Weisz reprennent leurs rôles, pour une sortie le 13 octobre 2027 en France.",
-   "summary_ar": "كشفت يونيفرسال عن عنوان فيلم «المومياء» الجديد: «كتاب الموتى»، الذي يجري تصويره في لندن. ويعود بريندان فريزر وراشيل وايز إلى دوريهما، على أن يُعرض في فرنسا يوم 13 أكتوبر 2027.",
-   "source": "AlloCiné",
-   "url": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227719.html",
    "date": "2026-10-17",
-   "image": "https://fr.web.img3.acsta.net/img/ee/57/ee578b919096ddb6e16d66015f474894.jpg",
    "explain": {
     "context": "Le film est réalisé par Matt Bettinelli-Olpin et Tyler Gillett. Les premières photos du tournage laissent penser que l'histoire se passe dans les années 1950.",
     "context_ar": "يخرج الفيلم مات بيتينيلي أولبين وتايلر جيليت. وتوحي الصور الأولى من التصوير بأن القصة تدور في خمسينيات القرن الماضي.",
-    "terms": [],
     "figures": [
      {
-      "n": "13 octobre 2027",
-      "n_ar": "13 أكتوبر 2027",
       "d": "Date de sortie en France, deux jours avant les États-Unis.",
-      "d_ar": "موعد العرض في فرنسا، قبل يومين من الولايات المتحدة."
+      "d_ar": "موعد العرض في فرنسا، قبل يومين من الولايات المتحدة.",
+      "n": "13 octobre 2027",
+      "n_ar": "13 أكتوبر 2027"
      }
-    ]
-   }
+    ],
+    "terms": []
+   },
+   "image": "https://fr.web.img3.acsta.net/img/ee/57/ee578b919096ddb6e16d66015f474894.jpg",
+   "source": "AlloCiné",
+   "summary": "Universal a dévoilé le titre du nouveau film « La Momie » : « Le Livre des Morts », en tournage à Londres. Brendan Fraser et Rachel Weisz reprennent leurs rôles, pour une sortie le 13 octobre 2027 en France.",
+   "summary_ar": "كشفت يونيفرسال عن عنوان فيلم «المومياء» الجديد: «كتاب الموتى»، الذي يجري تصويره في لندن. ويعود بريندان فريزر وراشيل وايز إلى دوريهما، على أن يُعرض في فرنسا يوم 13 أكتوبر 2027.",
+   "title": "« La Momie 4 » s'appelle « Le Livre des Morts », avec Brendan Fraser et Rachel Weisz",
+   "title_ar": "«المومياء 4» بعنوان «كتاب الموتى» مع بريندان فريزر وراشيل وايز",
+   "url": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227719.html"
   },
   {
    "cat": "sport",
@@ -2351,44 +2482,6 @@
    "title": "De Figma au produit final : réduire l'écart entre le design voulu et ce qui est livré",
    "title_ar": "من فيغما إلى المنتج النهائي: تقليص الفجوة بين التصميم المقصود وما يتم إطلاقه",
    "url": "https://uxmag.com/articles/from-figma-to-firmware-the-invisible-tax-on-designops"
-  },
-  {
-   "cat": "divers",
-   "date": "2026-10-08",
-   "explain": {
-    "context": "Les chercheurs ont observé les échanges parents-enfant à 3 ans, puis mesuré l'activité du cerveau pendant un petit jeu où l'on gagne ou perd de l'argent. C'est une étude d'observation, publiée dans Communications Psychology.",
-    "context_ar": "لاحظ الباحثون التفاعل بين الآباء والطفل في سن 3 سنوات، ثم قاسوا نشاط الدماغ أثناء لعبة صغيرة يُربح فيها المال أو يُخسر. وهي دراسة ملاحظة نُشرت في مجلة Communications Psychology.",
-    "figures": [
-     {
-      "d": "Nombre de jeunes suivis avec leurs parents dans l'étude.",
-      "d_ar": "عدد الشباب الذين تمت متابعتهم مع آبائهم في الدراسة.",
-      "n": "465",
-      "n_ar": "465"
-     },
-     {
-      "d": "Durée du suivi, de l'âge de 3 ans jusqu'à 18 ans.",
-      "d_ar": "مدة المتابعة، من سن 3 سنوات إلى 18 سنة.",
-      "n": "15 ans",
-      "n_ar": "15 سنة"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Activité électrique du cerveau, mesurée par EEG, quand on reçoit une récompense.",
-      "d_ar": "النشاط الكهربائي للدماغ، يُقاس بجهاز تخطيط الدماغ، عند الحصول على مكافأة.",
-      "t": "réponse du cerveau au plaisir",
-      "t_ar": "استجابة الدماغ للمتعة"
-     }
-    ]
-   },
-   "image": "https://mediasvc.eurekalert.org/Api/v1/Multimedia/e9e5f940-16c2-462e-b9d3-90a6361f0d40/Rendition/thumbnail/Content/Public",
-   "source": "EurekAlert! (Université de Notre-Dame)",
-   "sub": "enfant",
-   "summary": "Une étude de l'Université de Notre-Dame a suivi 465 enfants et leurs parents pendant 15 ans. Les enfants qui avaient reçu plus de chaleur et d'encouragements à 3 ans montraient ensuite une réponse du cerveau au plaisir plus forte quand ils gagnaient, de 9 à 18 ans.",
-   "summary_ar": "تابعت دراسة من جامعة نوتردام 465 طفلاً مع آبائهم طيلة 15 سنة. وأظهر الأطفال الذين تلقوا دفئاً وتشجيعاً أكثر في سن 3 سنوات استجابة دماغية أقوى لمتعة الفوز، بين 9 و18 سنة.",
-   "title": "Des parents chaleureux à 3 ans, un cerveau plus sensible à la joie à l'adolescence",
-   "title_ar": "آباء دافئون في سن 3 سنوات، ودماغ أكثر تجاوباً مع الفرح في المراهقة",
-   "url": "https://www.eurekalert.org/news-releases/1147080"
   },
   {
    "cat": "divers",
@@ -4297,38 +4390,6 @@
    "title": "Windows 11 : l'app Photos change de look avec une nouvelle galerie et un nouvel éditeur",
    "title_ar": "ويندوز 11: تطبيق الصور يتجدد بمعرض ومحرر جديدين",
    "url": "https://ux-news.com/windows-11-photos-redesign-gallery-editor-viewer/"
-  },
-  {
-   "cat": "divers",
-   "date": "2026-10-06",
-   "explain": {
-    "context": "C'est la première fois qu'on enregistre le cerveau de tout-petits pendant un vrai jeu avec un parent. Les enfants autistes ou en retard de langage avaient un cerveau aussi actif lors de ces moments.",
-    "context_ar": "هذه أول مرة يُسجَّل فيها نشاط دماغ أطفال صغار أثناء لعب حقيقي مع أحد الوالدين. وكان دماغ الأطفال المصابين بالتوحد أو بتأخر اللغة نشيطا بالقدر نفسه في تلك اللحظات.",
-    "figures": [
-     {
-      "d": "enfants âgés de 24 à 44 mois ont participé à l'étude.",
-      "d_ar": "طفلا تتراوح أعمارهم بين 24 و44 شهرا شاركوا في الدراسة.",
-      "n": "49",
-      "n_ar": "49"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Mesurée ici par EEG : un bonnet souple avec des capteurs qui enregistre les petits signaux électriques du cerveau.",
-      "d_ar": "قيس هنا بتخطيط الدماغ: قبعة لينة بها مستشعرات تسجل الإشارات الكهربائية الصغيرة للدماغ.",
-      "t": "activité du cerveau",
-      "t_ar": "نشاط الدماغ"
-     }
-    ]
-   },
-   "image": "https://news.northwestern.edu/assets/Stories/2026/10/play1940__FocusFillMaxWyIwLjAwIiwiMC4wMCIsMTIwMCw2MzBd.jpg",
-   "source": "Northwestern Now",
-   "sub": "enfant",
-   "summary": "Des chercheurs de l'université Northwestern ont mesuré l'activité du cerveau de 49 enfants de 2 à 3 ans et demi pendant qu'ils lisaient des livres ou faisaient des puzzles avec un parent, puis regardaient un film. Les moments de jeu partagé étaient liés à plus d'activité dans les zones de l'attention, de l'apprentissage et du lien social.",
-   "summary_ar": "قاس باحثون من جامعة نورثويسترن نشاط دماغ 49 طفلا بين سنتين وثلاث سنوات ونصف أثناء قراءة الكتب أو حل الألغاز مع أحد الوالدين، ثم أثناء مشاهدة فيلم. وارتبطت لحظات اللعب المشترك بنشاط أكبر في مناطق الانتباه والتعلم والتواصل الاجتماعي.",
-   "title": "Le cerveau des tout-petits s'active plus en jouant avec un parent que devant un film",
-   "title_ar": "دماغ الصغار ينشط أكثر عند اللعب مع أحد الوالدين مقارنة بمشاهدة فيلم",
-   "url": "https://news.northwestern.edu/stories/2026/10/children-brain-engagement"
   },
   {
    "cat": "divers",
