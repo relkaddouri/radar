@@ -1049,154 +1049,740 @@
  ],
  "news": [
   {
+   "cat": "sport",
+   "sport": "mma",
+   "title": "UFC Edmonton : Malott met KO Buckley, Jasudavicius bat Blanchfield",
+   "title_ar": "يو إف سي إدمونتون: مالوت يُسقط باكلي بالضربة القاضية وياسوداڤيشيوس تهزم بلانشفيلد",
+   "summary": "À Edmonton, Mike Malott a battu Joaquin Buckley par KO au 2e round, sur un coup de genou suivi de coups de poing, pour sa 5e victoire de suite. Juste avant, Jasmine Jasudavicius a battu Erin Blanchfield, n°3 de la catégorie, par décision unanime.",
+   "summary_ar": "في إدمونتون، فاز مايك مالوت على خواكين باكلي بالضربة القاضية في الجولة الثانية بضربة ركبة تلتها لكمات، محققاً فوزه الخامس على التوالي. وقبله مباشرة، تغلبت ياسمين ياسوداڤيشيوس على إيرين بلانشفيلد، المصنفة ثالثة في فئتها، بقرار إجماعي من الحكام.",
+   "source": "Yahoo Sports",
+   "url": "https://sports.yahoo.com/mma/article/ufc-edmonton-results-mike-malott-viciously-folds-joaquin-buckley-jasmine-jasudavicius-shocks-erin-blanchfield-032744371.html",
+   "date": "2026-10-18",
+   "image": "https://s.yimg.com/lo/mysterio/api/7b0abb8198d02e34161a9abcd3f0845990478f8d79cd1ae6d488c5e87983af57/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F0ea7b827-bb6b-4348-9c09-a6323efadfc0",
+   "explain": {
+    "context": "Le gala se tenait au Canada, pays de Malott. Buckley, classé n°10 chez les mi-moyens, enchaîne une troisième défaite de suite.",
+    "context_ar": "أقيم الحفل في كندا، بلد مالوت. أما باكلي، المصنف العاشر في وزن الويلتر، فقد تلقى خسارته الثالثة على التوالي.",
+    "terms": [
+     {
+      "t": "KO",
+      "t_ar": "الضربة القاضية",
+      "d": "Victoire quand l'adversaire ne peut plus continuer après un coup.",
+      "d_ar": "فوز يتحقق حين يعجز الخصم عن مواصلة النزال بعد ضربة."
+     },
+     {
+      "t": "décision unanime",
+      "t_ar": "قرار إجماعي",
+      "d": "Victoire aux points : les trois juges choisissent le même combattant.",
+      "d_ar": "فوز بالنقاط: الحكام الثلاثة يختارون المقاتل نفسه."
+     }
+    ],
+    "figures": [
+     {
+      "n": "5e",
+      "n_ar": "الخامس",
+      "d": "Malott enchaîne cinq victoires sans défaite, ce qui le rapproche du haut du classement.",
+      "d_ar": "حقق مالوت خمسة انتصارات متتالية، ما يقرّبه من قمة الترتيب."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "football",
+   "title": "Premier League : Liverpool gagne 2-1 à Brentford, qui finit à neuf",
+   "title_ar": "الدوري الإنجليزي: ليفربول يفوز 2-1 على برينتفورد الذي أنهى المباراة بتسعة لاعبين",
+   "summary": "Mené à la pause sur une tête de Keane Lewis-Potter, Liverpool a gagné 2-1 grâce à Víctor Muñoz et Alexander Isak. Brentford a fini le match à neuf après les exclusions de Yegor Yarmolyuk et Vitaly Janelt.",
+   "summary_ar": "بعد أن كان متأخراً في الشوط الأول بضربة رأس من كين لويس-بوتر، فاز ليفربول 2-1 بفضل فيكتور مونيوز وألكسندر إيساك. وأنهى برينتفورد المباراة بتسعة لاعبين بعد طرد يغور يارمولوك وفيتالي يانيلت.",
+   "source": "VAVEL",
+   "url": "https://www.vavel.com/en-us/soccer/2026/10/17/1275674-brentford-vs-liverpool-live-updates-premier-league.html",
+   "date": "2026-10-17",
+   "image": "https://img.vavel.com/c1200_675_brentford-vs-liverpool-1275674-1792222315838-f116au.jpg",
+   "explain": {
+    "context": "Le match comptait pour la 7e journée. Un penalty d'abord accordé à Liverpool a été annulé après vérification vidéo, juste avant le but de Brentford.",
+    "context_ar": "كانت المباراة ضمن الجولة السابعة. وأُلغيت ركلة جزاء مُنحت أولاً لليفربول بعد مراجعة الفيديو، قبل هدف برينتفورد مباشرة.",
+    "terms": [
+     {
+      "t": "exclusions",
+      "t_ar": "طرد",
+      "d": "Quand l'arbitre renvoie un joueur avec un carton rouge ; son équipe joue sans lui.",
+      "d_ar": "حين يُخرج الحكم لاعباً بالبطاقة الحمراء، فيلعب فريقه من دونه."
+     }
+    ],
+    "figures": [
+     {
+      "n": "2-1",
+      "n_ar": "2-1",
+      "d": "Liverpool a marqué deux fois en deuxième période, à la 62e et à la 70e minute.",
+      "d_ar": "سجل ليفربول هدفين في الشوط الثاني، في الدقيقتين 62 و70."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "football",
+   "title": "CAN de futsal : le Maroc affrontera l'Égypte en demi-finale lundi",
+   "title_ar": "كأس إفريقيا لكرة القدم داخل القاعة: المغرب يواجه مصر في نصف النهائي يوم الاثنين",
+   "summary": "L'Angola a battu l'Égypte 3-2 à Rabat et termine premier de son groupe avec 9 points. Le Maroc retrouvera donc l'Égypte en demi-finale lundi 19 octobre à 20 h, après Angola–Algérie à 17 h.",
+   "summary_ar": "فازت أنغولا على مصر 3-2 في الرباط وتصدرت مجموعتها برصيد 9 نقاط. وبذلك يلتقي المغرب مصر في نصف النهائي يوم الاثنين 19 أكتوبر على الساعة الثامنة مساءً، بعد مباراة أنغولا والجزائر على الساعة الخامسة.",
+   "source": "Hespress FR",
+   "url": "https://fr.hespress.com/492876-can-futsal-2026-le-maroc-jouera-legypte-en-demi-finale.html",
+   "date": "2026-10-17",
+   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/team_futsal.jpeg",
+   "explain": {
+    "context": "Le Maroc accueille la CAN de futsal à Rabat. Les Lions de l'Atlas ont fini premiers de leur groupe sans perdre de match.",
+    "context_ar": "يستضيف المغرب كأس إفريقيا لكرة القدم داخل القاعة في الرباط. وأنهى أسود الأطلس مجموعتهم في الصدارة دون أي هزيمة.",
+    "terms": [
+     {
+      "t": "futsal",
+      "t_ar": "كرة القدم داخل القاعة",
+      "d": "Football joué en salle, à cinq contre cinq, sur un petit terrain.",
+      "d_ar": "كرة قدم تُلعب في قاعة، بخمسة لاعبين لكل فريق، على ملعب صغير."
+     }
+    ],
+    "figures": [
+     {
+      "n": "9 points",
+      "n_ar": "9 نقاط",
+      "d": "Le maximum possible : l'Angola a gagné ses trois matchs de groupe.",
+      "d_ar": "أقصى رصيد ممكن: فازت أنغولا بمبارياتها الثلاث في المجموعة."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "football",
+   "title": "Coupe de la CAF : l'AS FAR ramène un nul 0-0 de Korhogo",
+   "title_ar": "كأس الكونفدرالية: الجيش الملكي يعود بتعادل سلبي من كورهوغو",
+   "summary": "L'AS FAR a fait match nul 0-0 sur le terrain du CO Korhogo, en Côte d'Ivoire, au 2e tour préliminaire de la Coupe de la Confédération. Un but ivoirien a été refusé pour hors-jeu, et le match retour aura lieu au Maroc le 25 octobre.",
+   "summary_ar": "تعادل الجيش الملكي دون أهداف مع نادي كورهوغو في كوت ديفوار، ضمن الدور التمهيدي الثاني لكأس الكونفدرالية الإفريقية. وأُلغي هدف للفريق الإيفواري بداعي التسلل، وستُلعب مباراة الإياب في المغرب يوم 25 أكتوبر.",
+   "source": "Hespress FR",
+   "url": "https://fr.hespress.com/492854-coupe-de-la-caf-2e-tour-preliminaire-las-far-decroche-un-nul-en-cote-divoire-face-au-co-korhogo.html",
+   "date": "2026-10-17",
+   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/AS-FAR-Khorogo.jpg",
+   "explain": {
+    "context": "La Coupe de la Confédération est la deuxième compétition de clubs en Afrique. Le vainqueur des deux matchs ira en phase de groupes.",
+    "context_ar": "كأس الكونفدرالية هي ثاني مسابقة للأندية في إفريقيا. والفائز في مجموع المباراتين يتأهل إلى دور المجموعات.",
+    "terms": [
+     {
+      "t": "tour préliminaire",
+      "t_ar": "الدور التمهيدي",
+      "d": "Phase de qualification jouée avant la phase de groupes d'une compétition.",
+      "d_ar": "مرحلة تأهيلية تُلعب قبل دور المجموعات في المسابقة."
+     },
+     {
+      "t": "hors-jeu",
+      "t_ar": "التسلل",
+      "d": "Faute d'un attaquant trop avancé au moment de la passe ; le but est annulé.",
+      "d_ar": "خطأ لمهاجم متقدم أكثر من اللازم لحظة التمريرة، فيُلغى الهدف."
+     }
+    ],
+    "figures": [
+     {
+      "n": "25 octobre",
+      "n_ar": "25 أكتوبر",
+      "d": "Date du match retour au Maroc, qui décidera de la qualification.",
+      "d_ar": "موعد مباراة الإياب في المغرب، التي ستحسم التأهل."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "maroc",
+   "sub": "economie",
+   "title": "Eau : le Maroc lance les appels d'offres pour 11 nouveaux barrages",
+   "title_ar": "الماء: المغرب يطلق طلبات العروض لبناء 11 سداً جديداً",
+   "summary": "Le Maroc a lancé 11 appels d'offres pour construire des barrages dans huit provinces, dont Taroudant, Chefchaouen, Figuig et Zagora. Le budget prévu dépasse 339 millions de dirhams et les offres seront ouvertes entre le 9 et le 16 novembre.",
+   "summary_ar": "أطلق المغرب 11 طلب عروض لبناء سدود في ثمانية أقاليم، من بينها تارودانت وشفشاون وفجيج وزاكورة. وتتجاوز الميزانية المتوقعة 339 مليون درهم، وستُفتح العروض بين 9 و16 نونبر.",
+   "source": "Hespress FR",
+   "url": "https://fr.hespress.com/492847-le-maroc-lance-les-appels-doffre-pour-la-construction-de-11-barrages.html",
+   "date": "2026-10-17",
+   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/barrage_travaux.jpg",
+   "explain": {
+    "context": "Les barrages stockent l'eau de pluie pour l'eau potable et l'agriculture. Ce programme vise surtout des provinces rurales, du Nord au Sud-Est.",
+    "context_ar": "تخزّن السدود مياه الأمطار للشرب والفلاحة. ويستهدف هذا البرنامج أساساً أقاليم قروية، من الشمال إلى الجنوب الشرقي.",
+    "terms": [
+     {
+      "t": "appels d'offres",
+      "t_ar": "طلبات العروض",
+      "d": "L'État invite les entreprises à proposer un prix, puis choisit la meilleure offre.",
+      "d_ar": "تدعو الدولة الشركات إلى تقديم أثمنتها، ثم تختار أفضل عرض."
+     },
+     {
+      "t": "provinces",
+      "t_ar": "أقاليم",
+      "d": "Divisions administratives du Maroc, plus petites qu'une région.",
+      "d_ar": "تقسيمات إدارية في المغرب، أصغر من الجهة."
+     }
+    ],
+    "figures": [
+     {
+      "n": "339 millions de dirhams",
+      "n_ar": "339 مليون درهم",
+      "d": "Coût total prévu ; le plus cher, à Taroudant, avoisine 46 millions.",
+      "d_ar": "الكلفة الإجمالية المتوقعة؛ وأغلى سد، في تارودانت، يقارب 46 مليوناً."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "maroc",
+   "sub": "politique",
+   "title": "Législatives : 38 recours déposés devant la Cour constitutionnelle",
+   "title_ar": "الانتخابات التشريعية: 38 طعناً أمام المحكمة الدستورية",
+   "summary": "Au moins 38 recours contestent des résultats des élections législatives du 23 septembre, dont un du PJD à Médiouna. Les dépôts restent possibles jusqu'au 25 octobre, et la Cour a en principe un an pour trancher.",
+   "summary_ar": "يطعن ما لا يقل عن 38 طعناً في نتائج الانتخابات التشريعية التي جرت في 23 شتنبر، من بينها طعن لحزب العدالة والتنمية في مديونة. ويظل إيداع الطعون ممكناً حتى 25 أكتوبر، وللمحكمة مبدئياً سنة للبت فيها.",
+   "source": "Hespress FR",
+   "url": "https://fr.hespress.com/492760-resultats-des-legislatives-38-recours-deposes-devant-la-cour-constitutionnelle.html",
+   "date": "2026-10-18",
+   "image": "https://f2.hespress.com/wp-content/uploads/2025/12/cour_constitutionnelle.jpg",
+   "explain": {
+    "context": "La loi donne 30 jours après l'annonce des résultats pour contester l'élection d'un député. Le nombre de recours peut encore augmenter.",
+    "context_ar": "يمنح القانون 30 يوماً بعد إعلان النتائج للطعن في انتخاب نائب. وقد يرتفع عدد الطعون بعد.",
+    "terms": [
+     {
+      "t": "recours",
+      "t_ar": "طعون",
+      "d": "Demande officielle faite à un tribunal pour contester une décision ou un résultat.",
+      "d_ar": "طلب رسمي يُقدَّم إلى المحكمة للاعتراض على قرار أو نتيجة."
+     },
+     {
+      "t": "Cour constitutionnelle",
+      "t_ar": "المحكمة الدستورية",
+      "d": "Haute juridiction qui veille au respect de la Constitution et juge les litiges électoraux.",
+      "d_ar": "هيئة قضائية عليا تسهر على احترام الدستور وتبت في النزاعات الانتخابية."
+     }
+    ],
+    "figures": [
+     {
+      "n": "38",
+      "n_ar": "38",
+      "d": "Nombre de recours déjà déposés, selon des sources citées par Hespress.",
+      "d_ar": "عدد الطعون المودعة حتى الآن، حسب مصادر نقلت عنها هسبريس."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "maroc",
+   "sub": "societe",
+   "title": "Agadir : rempli à plus de 83 %, le barrage Moulay Abdellah testé par précaution",
+   "title_ar": "أكادير: سد مولاي عبد الله ممتلئ بأكثر من 83% ويخضع لاختبارات وقائية",
+   "summary": "Le barrage Prince Moulay Abdellah, au nord d'Agadir, contient 68,4 millions de mètres cubes, soit plus de 83 % de sa capacité. Des lâchers d'eau contrôlés testent ses équipements, comme au début de chaque année hydrologique.",
+   "summary_ar": "يحتوي سد الأمير مولاي عبد الله، شمال أكادير، على 68,4 مليون متر مكعب، أي أكثر من 83% من سعته. وتُجرى عمليات تفريغ مراقبة لاختبار تجهيزاته، كما يحدث في بداية كل سنة هيدرولوجية.",
+   "source": "Le360",
+   "url": "https://fr.le360.ma/economie/agadir-avec-un-taux-de-remplissage-depassant-83-le-barrage-moulay-abdellah-soumis-a-des-tests-de_AKULZBIVX5ARNGUM3HWE34FVIA/",
+   "date": "2026-10-17",
+   "image": "https://fr.le360.ma/resizer/v2/2Q33M25TNFFN7NFAOW3PNKIJ4M.jpg?auth=b6025369835ffaae36388fe201534177b727d2b17c51228a72950543b690ca37&smart=true&width=1200&height=630",
+   "explain": {
+    "context": "Ce barrage, mis en service en 2002, alimente en eau potable le Grand Agadir et la côte jusqu'à Imsouane. Les pluies de l'année ont été bien au-dessus de la normale.",
+    "context_ar": "يزوّد هذا السد، الذي دخل الخدمة سنة 2002، أكادير الكبير والساحل حتى إمسوان بالماء الصالح للشرب. وكانت تساقطات هذه السنة أعلى بكثير من المعدل.",
+    "terms": [
+     {
+      "t": "année hydrologique",
+      "t_ar": "السنة الهيدرولوجية",
+      "d": "Période de 12 mois utilisée pour suivre l'eau ; au Maroc, elle commence en septembre.",
+      "d_ar": "فترة 12 شهراً تُستعمل لتتبع الموارد المائية، وتبدأ في المغرب في شتنبر."
+     }
+    ],
+    "figures": [
+     {
+      "n": "83 %",
+      "n_ar": "83%",
+      "d": "Part du réservoir remplie, pour une capacité totale de 81,9 millions de m³.",
+      "d_ar": "نسبة امتلاء الحقينة، من سعة إجمالية تبلغ 81,9 مليون متر مكعب."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "maroc",
+   "sub": "economie",
+   "title": "Finances : Fouzi Lekjaa fixe ses priorités jusqu'en 2030",
+   "title_ar": "المالية: فوزي لقجع يحدد أولوياته في أفق 2030",
+   "summary": "En succédant à Nadia Fettah au ministère de l'Économie et des Finances, Fouzi Lekjaa a estimé que le budget offre aujourd'hui plus de marge, tout en appelant à la prudence. Il met en avant les infrastructures, l'emploi des jeunes et une croissance capable de résister aux chocs extérieurs.",
+   "summary_ar": "عند تسلمه مهامه خلفاً لنادية فتاح على رأس وزارة الاقتصاد والمالية، اعتبر فوزي لقجع أن الميزانية توفر اليوم هامشاً أكبر، مع دعوته إلى الحذر. ويضع في المقدمة البنيات التحتية وتشغيل الشباب ونمواً قادراً على الصمود أمام الصدمات الخارجية.",
+   "source": "Hespress FR",
+   "url": "https://fr.hespress.com/492829-mef-fouzi-lekjaa-fixe-la-feuille-de-route-budgetaire-a-lhorizon-2030.html",
+   "date": "2026-10-17",
+   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/passation_mef_lekjaa.jpg",
+   "explain": {
+    "context": "La passation a eu lieu le 17 octobre au siège du ministère. Nadia Fettah a cité la hausse des exportations, de l'investissement et du tourisme.",
+    "context_ar": "جرى تسليم السلط يوم 17 أكتوبر بمقر الوزارة. وذكّرت نادية فتاح بارتفاع الصادرات والاستثمار والسياحة.",
+    "terms": [
+     {
+      "t": "marge",
+      "t_ar": "هامش",
+      "d": "Argent disponible que l'État peut utiliser sans trop creuser sa dette.",
+      "d_ar": "أموال متاحة يمكن للدولة استعمالها دون زيادة كبيرة في ديونها."
+     },
+     {
+      "t": "chocs extérieurs",
+      "t_ar": "الصدمات الخارجية",
+      "d": "Événements venus de l'étranger, comme une flambée du pétrole, qui frappent l'économie.",
+      "d_ar": "أحداث قادمة من الخارج، مثل ارتفاع حاد في أسعار النفط، تضر بالاقتصاد."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "ia",
+   "title": "Microsoft se retire d'un projet de centre de données d'IA de Nscale au Royaume-Uni",
+   "title_ar": "مايكروسوفت تنسحب من مشروع مركز بيانات للذكاء الاصطناعي لشركة Nscale في بريطانيا",
+   "summary": "Selon le Telegraph, Microsoft renonce à être le principal client d'un centre de données prévu par Nscale à Loughton, dans l'Essex, un projet freiné par des retards et des difficultés d'accès à l'électricité. Le coup est rude pour Nscale, qui prépare une entrée en Bourse pouvant lever jusqu'à 3 milliards de dollars.",
+   "summary_ar": "حسب صحيفة التلغراف، تخلّت مايكروسوفت عن أن تكون الزبون الرئيسي لمركز بيانات تخطط له Nscale في لوتن بمقاطعة إسكس، وهو مشروع تعثر بسبب التأخير وصعوبة الربط بالكهرباء. وتُعد هذه ضربة قوية لـNscale التي تستعد لدخول البورصة بهدف جمع ما يصل إلى 3 مليارات دولار.",
+   "source": "Investing.com",
+   "url": "https://www.investing.com/news/economy-news/microsoft-pulls-out-of-uk-data-centre-deal-with-nscale-telegraph-reports-4955855",
+   "date": "2026-10-18",
+   "image": "https://content-media.investing.com/news/LYNXNPEB6J0AM_L.jpg",
+   "explain": {
+    "context": "Les géants de l'IA ont besoin d'énormes centres de données, mais l'accès au réseau électrique devient un frein. Le site pourrait n'être raccordé que dans les années 2030.",
+    "context_ar": "تحتاج شركات الذكاء الاصطناعي الكبرى إلى مراكز بيانات ضخمة، لكن الربط بشبكة الكهرباء أصبح عائقاً. وقد لا يُربط الموقع بالشبكة إلا في ثلاثينيات هذا القرن.",
+    "terms": [
+     {
+      "t": "centre de données",
+      "t_ar": "مركز بيانات",
+      "d": "Grand bâtiment rempli d'ordinateurs qui stockent des données et font tourner les IA.",
+      "d_ar": "مبنى كبير مليء بالحواسيب التي تخزن البيانات وتشغّل أنظمة الذكاء الاصطناعي."
+     },
+     {
+      "t": "entrée en Bourse",
+      "t_ar": "دخول البورصة",
+      "d": "Quand une entreprise vend pour la première fois ses actions au public.",
+      "d_ar": "حين تبيع شركة أسهمها للعموم لأول مرة."
+     }
+    ],
+    "figures": [
+     {
+      "n": "3 milliards de dollars",
+      "n_ar": "3 مليارات دولار",
+      "d": "Somme que Nscale espère lever ; Microsoft et Anthropic pèsent environ 85 % de ses contrats.",
+      "d_ar": "المبلغ الذي تأمل Nscale جمعه؛ وتمثل مايكروسوفت وأنثروبيك نحو 85% من عقودها."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "ia",
+   "title": "Meta retire de ses conditions la mention de l'entraînement de son IA sur les sites",
+   "title_ar": "ميتا تحذف من شروطها الإشارة إلى تدريب ذكائها الاصطناعي على المواقع",
+   "summary": "Après de vives critiques, Meta a supprimé de ses nouvelles conditions commerciales la mention explicite de l'entraînement de modèles d'IA. La clause visait les sites liés aux comptes professionnels sur Facebook, Instagram ou WhatsApp ; ces conditions entrent en vigueur le 30 octobre.",
+   "summary_ar": "بعد انتقادات حادة، حذفت ميتا من شروطها التجارية الجديدة الإشارة الصريحة إلى تدريب نماذج الذكاء الاصطناعي. وكان البند يشمل المواقع المرتبطة بالحسابات المهنية على فيسبوك وإنستغرام وواتساب، وتدخل هذه الشروط حيز التنفيذ في 30 أكتوبر.",
+   "source": "Android Headlines",
+   "url": "https://www.androidheadlines.com/2026/10/meta-revises-ai-scraping-terms-update.html",
+   "date": "2026-10-17",
+   "image": "https://www.androidheadlines.com/wp-content/uploads/2026/04/Meta-Muse-Spark-AI-model-logo-2.jpg",
+   "explain": {
+    "context": "Des éditeurs de presse craignaient que Meta utilise leurs articles pour nourrir son IA sans les payer.",
+    "context_ar": "كان ناشرو الصحف يخشون أن تستعمل ميتا مقالاتهم لتغذية ذكائها الاصطناعي دون مقابل.",
+    "terms": [
+     {
+      "t": "conditions commerciales",
+      "t_ar": "الشروط التجارية",
+      "d": "Règles qu'une entreprise impose à ses clients professionnels pour utiliser ses services.",
+      "d_ar": "قواعد تفرضها شركة على زبائنها المهنيين لاستعمال خدماتها."
+     },
+     {
+      "t": "entraînement",
+      "t_ar": "تدريب",
+      "d": "Phase où une IA apprend en analysant d'énormes quantités de textes et d'images.",
+      "d_ar": "مرحلة يتعلم فيها الذكاء الاصطناعي بتحليل كميات هائلة من النصوص والصور."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "eco",
+   "title": "Marchés : le pétrole américain bondit de 10,9 % en une semaine, l'or recule",
+   "title_ar": "الأسواق: النفط الأمريكي يقفز 10,9% في أسبوع والذهب يتراجع",
+   "summary": "Le baril de pétrole américain WTI a gagné 10,9 % en une semaine et le Brent 4,8 %. Dans le même temps, l'once d'or a perdu 0,7 % pour finir vers 4 165 dollars, malgré un dollar plus faible.",
+   "summary_ar": "ارتفع برميل النفط الأمريكي WTI بنسبة 10,9% في أسبوع، وارتفع برنت بنسبة 4,8%. وفي الفترة نفسها، فقدت أوقية الذهب 0,7% لتنهي الأسبوع قرب 4165 دولاراً، رغم ضعف الدولار.",
+   "source": "Investing.com",
+   "url": "https://www.investing.com/news/commodities-news/gold-steadies-near-4160-as-stock-selloff-drives-bond-rally-treasury-yields-fall-4952940",
+   "date": "2026-10-16",
+   "image": "https://content-media.investing.com/news/LYNXNPEF410GC_L.jpg",
+   "explain": {
+    "context": "Le pétrole et l'or reflètent les craintes des investisseurs. Un pétrole cher pèse sur les prix de l'essence et du transport, y compris au Maroc.",
+    "context_ar": "يعكس النفط والذهب مخاوف المستثمرين. وارتفاع سعر النفط يضغط على أسعار الوقود والنقل، بما في ذلك في المغرب.",
+    "terms": [
+     {
+      "t": "WTI",
+      "t_ar": "WTI",
+      "d": "Pétrole de référence produit aux États-Unis, dont le prix sert de repère.",
+      "d_ar": "نفط مرجعي يُنتج في الولايات المتحدة، ويُعتمد سعره كمؤشر."
+     },
+     {
+      "t": "Brent",
+      "t_ar": "برنت",
+      "d": "Pétrole de référence de la mer du Nord, qui sert à fixer le prix de nombreux barils.",
+      "d_ar": "نفط مرجعي من بحر الشمال، يُستعمل لتحديد سعر كثير من البراميل."
+     },
+     {
+      "t": "once",
+      "t_ar": "أوقية",
+      "d": "Unité de poids des métaux précieux, d'environ 31 grammes.",
+      "d_ar": "وحدة وزن للمعادن النفيسة تعادل نحو 31 غراماً."
+     }
+    ],
+    "figures": [
+     {
+      "n": "10,9 %",
+      "n_ar": "10,9%",
+      "d": "Hausse du WTI en cinq jours de Bourse, une montée très rapide.",
+      "d_ar": "ارتفاع WTI خلال خمسة أيام تداول، وهو صعود سريع جداً."
+     },
+     {
+      "n": "4 165 dollars",
+      "n_ar": "4165 دولاراً",
+      "d": "Prix de l'once d'or en fin de semaine, en léger recul.",
+      "d_ar": "سعر أوقية الذهب في نهاية الأسبوع، بتراجع طفيف."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "tech",
+   "title": "Tesla prend des acomptes jusqu'à 250 000 dollars pour son Roadster à propulseurs",
+   "title_ar": "تيسلا تقبل عربوناً يصل إلى 250 ألف دولار لسيارتها رودستر المزودة بدافعات",
+   "summary": "Tesla accepte des réservations de 50 000 ou 250 000 dollars pour son nouveau Roadster, dont la production doit commencer en 2028, avec huit ans de retard. La version « Rocket », avec 10 propulseurs à air comprimé, peut brièvement décoller, mais la FAA estime que ce n'est pas un avion.",
+   "summary_ar": "تقبل تيسلا حجوزات بقيمة 50 ألف أو 250 ألف دولار لسيارتها رودستر الجديدة، التي يُنتظر أن يبدأ إنتاجها سنة 2028، بتأخير ثماني سنوات. ويمكن لنسخة «روكيت»، المزودة بعشر دافعات تعمل بالهواء المضغوط، أن ترتفع عن الأرض لوقت قصير، لكن هيئة FAA ترى أنها ليست طائرة.",
+   "source": "Fortune",
+   "url": "https://fortune.com/2026/10/17/tesla-flying-roadster-spacex-thrusters-2028-production-price",
+   "date": "2026-10-17",
+   "image": "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2297261280.jpg?resize=1200,600",
+   "explain": {
+    "context": "Le Roadster avait été promis pour 2020. Le prix final des trois versions n'est pas encore connu.",
+    "context_ar": "كانت سيارة رودستر موعودة لسنة 2020. ولم يُعلن بعد السعر النهائي لنسخها الثلاث.",
+    "terms": [
+     {
+      "t": "acomptes",
+      "t_ar": "عربون",
+      "d": "Somme versée d'avance pour réserver un produit, déduite du prix final.",
+      "d_ar": "مبلغ يُدفع مسبقاً لحجز منتج، ويُخصم من الثمن النهائي."
+     },
+     {
+      "t": "FAA",
+      "t_ar": "FAA",
+      "d": "Agence américaine chargée de la sécurité de l'aviation civile.",
+      "d_ar": "الهيئة الأمريكية المكلفة بسلامة الطيران المدني."
+     }
+    ],
+    "figures": [
+     {
+      "n": "2028",
+      "n_ar": "2028",
+      "d": "Année prévue du début de production, huit ans après la date promise au départ.",
+      "d_ar": "السنة المرتقبة لبدء الإنتاج، بعد ثماني سنوات من الموعد الأول."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "gaming",
+   "title": "Deadlock, le jeu de Valve encore sur invitation, dépasse 300 000 joueurs simultanés",
+   "title_ar": "لعبة Deadlock من Valve، المتاحة بالدعوة فقط، تتجاوز 300 ألف لاعب في وقت واحد",
+   "summary": "Deadlock a atteint un record de 303 347 joueurs connectés en même temps sur Steam, après l'arrivée d'une nouvelle héroïne, Violet. Le jeu de Valve est pourtant toujours en test fermé et accessible seulement sur invitation d'un ami.",
+   "summary_ar": "حققت Deadlock رقماً قياسياً بلغ 303347 لاعباً متصلاً في الوقت نفسه على Steam، بعد إضافة بطلة جديدة اسمها Violet. ومع ذلك، ما تزال لعبة Valve في مرحلة اختبار مغلق ولا يمكن الوصول إليها إلا بدعوة من صديق.",
+   "source": "Destructoid",
+   "url": "https://www.destructoid.com/deadlock-new-record/",
+   "date": "2026-10-17",
+   "image": "https://www.destructoid.com/wp-content/uploads/2026/10/kelvin-deadlock.jpg",
+   "explain": {
+    "context": "Le jeu n'est même pas en vente sur la boutique Steam. Une grosse mise à jour ajoute six héros, à raison de deux par semaine.",
+    "context_ar": "اللعبة ليست معروضة حتى في متجر Steam. ويضيف تحديث كبير ستة أبطال، بمعدل بطلين كل أسبوع.",
+    "terms": [
+     {
+      "t": "test fermé",
+      "t_ar": "اختبار مغلق",
+      "d": "Version en développement ouverte à un nombre limité de joueurs avant la sortie.",
+      "d_ar": "نسخة قيد التطوير مفتوحة لعدد محدود من اللاعبين قبل الإصدار."
+     }
+    ],
+    "figures": [
+     {
+      "n": "303 347",
+      "n_ar": "303347",
+      "d": "Record de joueurs en même temps, plus que des jeux payants comme Arc Raiders.",
+      "d_ar": "رقم قياسي للاعبين في وقت واحد، أكثر من ألعاب مدفوعة مثل Arc Raiders."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "gaming",
+   "title": "Faillite de Liquid Swords, le studio suédois de Samson, six mois après la sortie du jeu",
+   "title_ar": "إفلاس استوديو Liquid Swords السويدي مطوّر Samson بعد ستة أشهر من صدور اللعبة",
+   "summary": "Le studio Liquid Swords, fondé par Christofer Sundberg, cofondateur d'Avalanche Studios (Just Cause), a été déclaré en faillite le 12 octobre. Ses quelque 30 salariés n'étaient plus payés depuis au moins deux mois, et le studio comme le jeu Samson sont mis en vente.",
+   "summary_ar": "أُعلن إفلاس استوديو Liquid Swords، الذي أسسه كريستوفر ساندبرغ، أحد مؤسسي Avalanche Studios مطوّر Just Cause، يوم 12 أكتوبر. ولم يتقاضَ موظفوه، وعددهم نحو 30، أجورهم منذ شهرين على الأقل، ويُعرض الاستوديو ولعبة Samson للبيع.",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/gaming-industry/liquid-swords-developer-of-open-city-crime-sim-samson-has-gone-bankrupt-following-staff-claims-that-they-havent-been-paid-in-two-months/",
+   "date": "2026-10-18",
+   "image": "",
+   "explain": {
+    "context": "Samson, un jeu d'action en ville ouverte sorti en avril 2026, a reçu des avis mitigés. Le studio avait déjà licencié la moitié de son équipe l'an dernier.",
+    "context_ar": "صدرت Samson، وهي لعبة حركة في مدينة مفتوحة، في أبريل 2026 وتلقت آراء متباينة. وكان الاستوديو قد سرّح نصف فريقه العام الماضي.",
+    "terms": [
+     {
+      "t": "faillite",
+      "t_ar": "إفلاس",
+      "d": "Situation d'une entreprise qui ne peut plus payer ses dettes ; un administrateur vend ses biens.",
+      "d_ar": "وضع شركة عاجزة عن أداء ديونها، فيتولى مسيّر بيع ممتلكاتها."
+     }
+    ],
+    "figures": [
+     {
+      "n": "30",
+      "n_ar": "30",
+      "d": "Nombre d'employés touchés ; leurs salaires seront couverts par une garantie de l'État suédois.",
+      "d_ar": "عدد الموظفين المتضررين؛ وستتكفل ضمانة من الدولة السويدية بأجورهم."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "geo",
+   "title": "Cisjordanie : des colons masqués attaquent des diplomates européens à Taybeh",
+   "title_ar": "الضفة الغربية: مستوطنون ملثمون يهاجمون دبلوماسيين أوروبيين في الطيبة",
+   "summary": "Des colons israéliens armés de barres de fer ont attaqué une délégation de diplomates belges, français et polonais venue à Taybeh pour la récolte des olives ; un maire français a été frappé. La police israélienne a ouvert une enquête, et la Belgique réclame davantage de sanctions européennes.",
+   "summary_ar": "هاجم مستوطنون إسرائيليون مسلحون بقضبان حديدية وفداً من دبلوماسيين بلجيكيين وفرنسيين وبولنديين جاء إلى الطيبة للمشاركة في قطف الزيتون، وتعرض عمدة فرنسي للضرب. وفتحت الشرطة الإسرائيلية تحقيقاً، فيما تطالب بلجيكا بمزيد من العقوبات الأوروبية.",
+   "source": "PBS NewsHour",
+   "url": "https://www.pbs.org/newshour/world/masked-settlers-attack-european-diplomats-in-the-occupied-west-bank",
+   "date": "2026-10-17",
+   "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-10-03T081247Z_1447641109_RC2IVNASLQMA_RTRMADP_3_ISRAEL-PALESTINIANS-OLIVE-HARVEST-SETTLERS-1024x683.jpg",
+   "explain": {
+    "context": "Depuis le début de la récolte des olives en octobre, au moins quatre Palestiniens ont été tués et plus de 100 blessés, selon leur ministère de la Santé.",
+    "context_ar": "منذ بداية موسم قطف الزيتون في أكتوبر، قُتل أربعة فلسطينيين على الأقل وأصيب أكثر من 100، حسب وزارة الصحة الفلسطينية.",
+    "terms": [
+     {
+      "t": "colons",
+      "t_ar": "مستوطنون",
+      "d": "Israéliens installés en Cisjordanie occupée, dans des colonies jugées illégales par l'ONU.",
+      "d_ar": "إسرائيليون يقيمون في الضفة الغربية المحتلة، في مستوطنات تعتبرها الأمم المتحدة غير قانونية."
+     },
+     {
+      "t": "Cisjordanie",
+      "t_ar": "الضفة الغربية",
+      "d": "Territoire palestinien occupé par Israël depuis la guerre de 1967.",
+      "d_ar": "أرض فلسطينية تحتلها إسرائيل منذ حرب 1967."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "geo",
+   "title": "Iran : un vétéran de l'industrie des missiles devient ministre de la Défense",
+   "title_ar": "إيران: أحد قدامى صناعة الصواريخ يتولى وزارة الدفاع",
+   "summary": "Le Parlement iranien a approuvé Mehrdad Akhlaghi Ketabchi comme ministre de la Défense, par 237 voix contre 15. Ancien chef des industries de défense, visé par des sanctions américaines et de l'ONU, il remplace Aziz Nasirzadeh, tué en février dans une frappe américano-israélienne.",
+   "summary_ar": "صادق البرلمان الإيراني على تعيين مهرداد أخلاقي كتابچي وزيراً للدفاع، بـ237 صوتاً مقابل 15. وهو رئيس سابق للصناعات الدفاعية، وتشمله عقوبات أمريكية وأممية، ويخلف عزيز نصير زاده الذي قُتل في فبراير في غارة أمريكية إسرائيلية.",
+   "source": "The National",
+   "url": "https://www.thenationalnews.com/news/mena/2026/10/18/iran-names-new-defence-minister-as-he-warns-us-over-mother-of-all-bombs/",
+   "date": "2026-10-18",
+   "image": "https://www.thenationalnews.com/resizer/v2/IEMXXYNFIBEDBGTRGSAHHPUBSY.jpg?auth=de79c660f1eeb5a486e16b3004664a52a55f25ba6e1752c3437b3be6dcf913b8&smart=true&width=1200&height=630",
+   "explain": {
+    "context": "L'Iran est en guerre avec les États-Unis et Israël depuis février. Le nouveau ministre a mis en garde Washington contre toute frappe avec de très grosses bombes.",
+    "context_ar": "تخوض إيران حرباً مع الولايات المتحدة وإسرائيل منذ فبراير. وحذّر الوزير الجديد واشنطن من أي ضربة بقنابل ضخمة جداً.",
+    "terms": [
+     {
+      "t": "sanctions",
+      "t_ar": "عقوبات",
+      "d": "Mesures de punition, comme le gel d'avoirs, prises contre un pays ou une personne.",
+      "d_ar": "إجراءات عقابية، مثل تجميد الأموال، تُتخذ ضد بلد أو شخص."
+     }
+    ],
+    "figures": [
+     {
+      "n": "237 voix",
+      "n_ar": "237 صوتاً",
+      "d": "Large majorité : seuls 15 députés ont voté contre, sans abstention.",
+      "d_ar": "أغلبية واسعة: صوّت 15 نائباً فقط ضده، دون امتناع."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "cinema",
+   "title": "« You Can See Everything » : meilleur démarrage d'un documentaire depuis 2013",
+   "title_ar": "«You Can See Everything»: أفضل انطلاقة لفيلم وثائقي منذ 2013",
+   "summary": "Le documentaire d'A24 sur Elizabeth Holmes a rapporté 5,5 millions de dollars le jour de sa sortie et vise 12,5 millions sur le week-end, du jamais vu pour un documentaire depuis 2013. « Street Fighter » reste en tête du box-office, avec environ 31 millions attendus.",
+   "summary_ar": "حقق الوثائقي الذي أنتجته A24 عن إليزابيث هولمز 5,5 ملايين دولار في يوم عرضه الأول، ويتجه نحو 12,5 مليوناً في عطلة نهاية الأسبوع، وهو رقم لم يحققه أي وثائقي منذ 2013. ويبقى «Street Fighter» في صدارة شباك التذاكر بنحو 31 مليوناً متوقعة.",
+   "source": "TheWrap (Yahoo)",
+   "url": "https://www.yahoo.com/entertainment/movies/articles/street-fighter-tops-box-office-150306865.html",
+   "date": "2026-10-17",
+   "image": "https://s.yimg.com/lo/mysterio/api/e779875d2de9875afadf8c966750de94ede73c2122c03fab8718e0c9df946a48/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthewrap.com%2Ff57af6544c5ded6403493dc8920d614a.png",
+   "explain": {
+    "context": "Elizabeth Holmes est la fondatrice de Theranos, une start-up de tests sanguins qui s'est effondrée. Hors films de concert, le record reste « Fahrenheit 9/11 » en 2004.",
+    "context_ar": "إليزابيث هولمز هي مؤسسة Theranos، الشركة الناشئة لتحاليل الدم التي انهارت. وخارج أفلام الحفلات الموسيقية، يبقى الرقم القياسي لفيلم «Fahrenheit 9/11» سنة 2004.",
+    "terms": [
+     {
+      "t": "box-office",
+      "t_ar": "شباك التذاكر",
+      "d": "Classement des films selon l'argent rapporté par la vente de billets.",
+      "d_ar": "ترتيب الأفلام حسب المداخيل المحققة من بيع التذاكر."
+     }
+    ],
+    "figures": [
+     {
+      "n": "5,5 millions de dollars",
+      "n_ar": "5,5 ملايين دولار",
+      "d": "Recette du premier jour dans 855 salles aux États-Unis.",
+      "d_ar": "مداخيل اليوم الأول في 855 قاعة بالولايات المتحدة."
+     }
+    ]
+   }
+  },
+  {
    "cat": "ux",
-   "title": "IA : des réponses fausses qui ont l'air aussi sûres que les vraies",
-   "title_ar": "الذكاء الاصطناعي: أجوبة خاطئة تبدو واثقة مثل الصحيحة",
-   "summary": "Dans UX Magazine, Tushar Deshmukh explique que le plus gros défaut des assistants IA est que leurs erreurs sont dites avec la même assurance que leurs bonnes réponses. Il propose d'afficher dans l'interface un niveau de confiance, les sources et des invitations à vérifier certaines affirmations, plutôt qu'un simple avertissement général.",
-   "summary_ar": "في مجلة UX Magazine، يوضح توشار ديشموخ أن أكبر عيب في مساعدات الذكاء الاصطناعي هو أن أخطاءها تُقدَّم بنفس الثقة التي تُقدَّم بها الأجوبة الصحيحة. ويقترح أن تعرض الواجهة مستوى الثقة والمصادر ودعوات للتحقق من بعض المعلومات، بدل تنبيه عام واحد.",
-   "source": "UX Magazine",
-   "url": "https://uxmag.com/articles/your-ai-is-lying-to-you-politely",
    "date": "2026-10-13",
-   "image": "https://uxmag.com/generated-images/your-ai-is-lying-to-you-politely-featured.jpg",
    "explain": {
     "context": "Les utilisateurs font souvent confiance à un texte bien écrit et assuré. Avec l'IA, cela pose problème, car l'interface ne montre pas quand une réponse est incertaine.",
     "context_ar": "يثق المستخدمون غالباً في النص المكتوب بأسلوب واثق. ومع الذكاء الاصطناعي يصبح هذا مشكلة، لأن الواجهة لا تُظهر متى يكون الجواب غير مؤكد.",
-    "terms": [
-     {
-      "t": "niveau de confiance",
-      "t_ar": "مستوى الثقة",
-      "d": "Indication qui montre à quel point le système est sûr de sa réponse.",
-      "d_ar": "إشارة تبيّن إلى أي حد يكون النظام متأكداً من جوابه."
-     }
-    ],
     "figures": [
      {
-      "n": "34 %",
-      "n_ar": "34٪",
       "d": "Selon une étude du MIT citée, les modèles utilisent 34 % plus souvent des mots assurés quand ils se trompent.",
-      "d_ar": "حسب دراسة لـMIT مذكورة في المقال، تستعمل النماذج كلمات واثقة أكثر بنسبة 34٪ عندما تخطئ."
+      "d_ar": "حسب دراسة لـMIT مذكورة في المقال، تستعمل النماذج كلمات واثقة أكثر بنسبة 34٪ عندما تخطئ.",
+      "n": "34 %",
+      "n_ar": "34٪"
      },
      {
-      "n": "22 à 94 %",
-      "n_ar": "من 22 إلى 94٪",
       "d": "Écart des taux d'erreurs inventées entre 26 grands modèles, selon l'AI Index 2026 de Stanford cité.",
-      "d_ar": "الفرق في نسب المعلومات المختلَقة بين 26 نموذجاً كبيراً، حسب مؤشر ستانفورد للذكاء الاصطناعي 2026."
+      "d_ar": "الفرق في نسب المعلومات المختلَقة بين 26 نموذجاً كبيراً، حسب مؤشر ستانفورد للذكاء الاصطناعي 2026.",
+      "n": "22 à 94 %",
+      "n_ar": "من 22 إلى 94٪"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Indication qui montre à quel point le système est sûr de sa réponse.",
+      "d_ar": "إشارة تبيّن إلى أي حد يكون النظام متأكداً من جوابه.",
+      "t": "niveau de confiance",
+      "t_ar": "مستوى الثقة"
      }
     ]
-   }
+   },
+   "image": "https://uxmag.com/generated-images/your-ai-is-lying-to-you-politely-featured.jpg",
+   "source": "UX Magazine",
+   "summary": "Dans UX Magazine, Tushar Deshmukh explique que le plus gros défaut des assistants IA est que leurs erreurs sont dites avec la même assurance que leurs bonnes réponses. Il propose d'afficher dans l'interface un niveau de confiance, les sources et des invitations à vérifier certaines affirmations, plutôt qu'un simple avertissement général.",
+   "summary_ar": "في مجلة UX Magazine، يوضح توشار ديشموخ أن أكبر عيب في مساعدات الذكاء الاصطناعي هو أن أخطاءها تُقدَّم بنفس الثقة التي تُقدَّم بها الأجوبة الصحيحة. ويقترح أن تعرض الواجهة مستوى الثقة والمصادر ودعوات للتحقق من بعض المعلومات، بدل تنبيه عام واحد.",
+   "title": "IA : des réponses fausses qui ont l'air aussi sûres que les vraies",
+   "title_ar": "الذكاء الاصطناعي: أجوبة خاطئة تبدو واثقة مثل الصحيحة",
+   "url": "https://uxmag.com/articles/your-ai-is-lying-to-you-politely"
   },
   {
    "cat": "ux",
-   "title": "De Figma au produit final : réduire l'écart entre le design voulu et ce qui est livré",
-   "title_ar": "من فيغما إلى المنتج النهائي: تقليص الفجوة بين التصميم المقصود وما يتم إطلاقه",
-   "summary": "Pavel Bukengolts propose que les équipes ne considèrent plus le fichier Figma comme le livrable principal, mais un « contrat système » versionné qui décrit les règles, les états et les données du produit. Selon lui, l'IA accélère la production, donc les écarts entre l'intention et le résultat coûtent plus cher et doivent être repérés plus tôt.",
-   "summary_ar": "يقترح بافيل بوكنغولتس ألّا تعتبر الفرق ملف فيغما هو المُخرَج الأساسي، بل «عقد نظام» بإصدارات متتالية يصف قواعد المنتج وحالاته وبياناته. ويرى أن الذكاء الاصطناعي يسرّع الإنتاج، لذلك تصبح الفجوات بين النية والنتيجة أكثر كلفة ويجب اكتشافها مبكراً.",
-   "source": "UX Magazine",
-   "url": "https://uxmag.com/articles/from-figma-to-firmware-the-invisible-tax-on-designops",
    "date": "2026-10-14",
-   "image": "https://uxmag.com/generated-images/from-figma-to-firmware-the-invisible-tax-on-designops-featured.jpg",
    "explain": {
     "context": "Souvent, ce qui est livré ne correspond pas exactement à la maquette. L'auteur veut une source de vérité unique, partagée par designers et développeurs, et des règles vérifiables.",
     "context_ar": "غالباً لا يطابق ما يتم إطلاقه النموذجَ المصمَّم تماماً. ويريد الكاتب مصدراً واحداً للحقيقة يتقاسمه المصممون والمطورون، مع قواعد يمكن التحقق منها.",
-    "terms": [
-     {
-      "t": "contrat système",
-      "t_ar": "عقد النظام",
-      "d": "Document de référence qui fixe les règles du produit : ce qu'il doit faire, ne pas faire, ses états et ses données.",
-      "d_ar": "وثيقة مرجعية تحدد قواعد المنتج: ما يجب أن يفعله وما لا يفعله، وحالاته وبياناته."
-     },
-     {
-      "t": "versionné",
-      "t_ar": "بإصدارات متتالية",
-      "d": "Chaque modification est enregistrée avec un numéro, pour garder l'historique.",
-      "d_ar": "كل تعديل يُسجَّل برقم، للاحتفاظ بتاريخ التغييرات."
-     }
-    ],
     "figures": [
      {
-      "n": "60 jours",
-      "n_ar": "60 يوماً",
       "d": "Période pendant laquelle l'auteur conseille de ne plus mesurer la vitesse des sprints au début du changement.",
-      "d_ar": "المدة التي ينصح فيها الكاتب بالتوقف عن قياس سرعة الدورات في بداية التغيير."
+      "d_ar": "المدة التي ينصح فيها الكاتب بالتوقف عن قياس سرعة الدورات في بداية التغيير.",
+      "n": "60 jours",
+      "n_ar": "60 يوماً"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Document de référence qui fixe les règles du produit : ce qu'il doit faire, ne pas faire, ses états et ses données.",
+      "d_ar": "وثيقة مرجعية تحدد قواعد المنتج: ما يجب أن يفعله وما لا يفعله، وحالاته وبياناته.",
+      "t": "contrat système",
+      "t_ar": "عقد النظام"
+     },
+     {
+      "d": "Chaque modification est enregistrée avec un numéro, pour garder l'historique.",
+      "d_ar": "كل تعديل يُسجَّل برقم، للاحتفاظ بتاريخ التغييرات.",
+      "t": "versionné",
+      "t_ar": "بإصدارات متتالية"
      }
     ]
-   }
+   },
+   "image": "https://uxmag.com/generated-images/from-figma-to-firmware-the-invisible-tax-on-designops-featured.jpg",
+   "source": "UX Magazine",
+   "summary": "Pavel Bukengolts propose que les équipes ne considèrent plus le fichier Figma comme le livrable principal, mais un « contrat système » versionné qui décrit les règles, les états et les données du produit. Selon lui, l'IA accélère la production, donc les écarts entre l'intention et le résultat coûtent plus cher et doivent être repérés plus tôt.",
+   "summary_ar": "يقترح بافيل بوكنغولتس ألّا تعتبر الفرق ملف فيغما هو المُخرَج الأساسي، بل «عقد نظام» بإصدارات متتالية يصف قواعد المنتج وحالاته وبياناته. ويرى أن الذكاء الاصطناعي يسرّع الإنتاج، لذلك تصبح الفجوات بين النية والنتيجة أكثر كلفة ويجب اكتشافها مبكراً.",
+   "title": "De Figma au produit final : réduire l'écart entre le design voulu et ce qui est livré",
+   "title_ar": "من فيغما إلى المنتج النهائي: تقليص الفجوة بين التصميم المقصود وما يتم إطلاقه",
+   "url": "https://uxmag.com/articles/from-figma-to-firmware-the-invisible-tax-on-designops"
   },
   {
    "cat": "divers",
-   "sub": "enfant",
-   "title": "Des parents chaleureux à 3 ans, un cerveau plus sensible à la joie à l'adolescence",
-   "title_ar": "آباء دافئون في سن 3 سنوات، ودماغ أكثر تجاوباً مع الفرح في المراهقة",
-   "summary": "Une étude de l'Université de Notre-Dame a suivi 465 enfants et leurs parents pendant 15 ans. Les enfants qui avaient reçu plus de chaleur et d'encouragements à 3 ans montraient ensuite une réponse du cerveau au plaisir plus forte quand ils gagnaient, de 9 à 18 ans.",
-   "summary_ar": "تابعت دراسة من جامعة نوتردام 465 طفلاً مع آبائهم طيلة 15 سنة. وأظهر الأطفال الذين تلقوا دفئاً وتشجيعاً أكثر في سن 3 سنوات استجابة دماغية أقوى لمتعة الفوز، بين 9 و18 سنة.",
-   "source": "EurekAlert! (Université de Notre-Dame)",
-   "url": "https://www.eurekalert.org/news-releases/1147080",
    "date": "2026-10-08",
-   "image": "https://mediasvc.eurekalert.org/Api/v1/Multimedia/e9e5f940-16c2-462e-b9d3-90a6361f0d40/Rendition/thumbnail/Content/Public",
    "explain": {
     "context": "Les chercheurs ont observé les échanges parents-enfant à 3 ans, puis mesuré l'activité du cerveau pendant un petit jeu où l'on gagne ou perd de l'argent. C'est une étude d'observation, publiée dans Communications Psychology.",
     "context_ar": "لاحظ الباحثون التفاعل بين الآباء والطفل في سن 3 سنوات، ثم قاسوا نشاط الدماغ أثناء لعبة صغيرة يُربح فيها المال أو يُخسر. وهي دراسة ملاحظة نُشرت في مجلة Communications Psychology.",
-    "terms": [
-     {
-      "t": "réponse du cerveau au plaisir",
-      "t_ar": "استجابة الدماغ للمتعة",
-      "d": "Activité électrique du cerveau, mesurée par EEG, quand on reçoit une récompense.",
-      "d_ar": "النشاط الكهربائي للدماغ، يُقاس بجهاز تخطيط الدماغ، عند الحصول على مكافأة."
-     }
-    ],
     "figures": [
      {
-      "n": "465",
-      "n_ar": "465",
       "d": "Nombre de jeunes suivis avec leurs parents dans l'étude.",
-      "d_ar": "عدد الشباب الذين تمت متابعتهم مع آبائهم في الدراسة."
+      "d_ar": "عدد الشباب الذين تمت متابعتهم مع آبائهم في الدراسة.",
+      "n": "465",
+      "n_ar": "465"
      },
      {
-      "n": "15 ans",
-      "n_ar": "15 سنة",
       "d": "Durée du suivi, de l'âge de 3 ans jusqu'à 18 ans.",
-      "d_ar": "مدة المتابعة، من سن 3 سنوات إلى 18 سنة."
+      "d_ar": "مدة المتابعة، من سن 3 سنوات إلى 18 سنة.",
+      "n": "15 ans",
+      "n_ar": "15 سنة"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Activité électrique du cerveau, mesurée par EEG, quand on reçoit une récompense.",
+      "d_ar": "النشاط الكهربائي للدماغ، يُقاس بجهاز تخطيط الدماغ، عند الحصول على مكافأة.",
+      "t": "réponse du cerveau au plaisir",
+      "t_ar": "استجابة الدماغ للمتعة"
      }
     ]
-   }
+   },
+   "image": "https://mediasvc.eurekalert.org/Api/v1/Multimedia/e9e5f940-16c2-462e-b9d3-90a6361f0d40/Rendition/thumbnail/Content/Public",
+   "source": "EurekAlert! (Université de Notre-Dame)",
+   "sub": "enfant",
+   "summary": "Une étude de l'Université de Notre-Dame a suivi 465 enfants et leurs parents pendant 15 ans. Les enfants qui avaient reçu plus de chaleur et d'encouragements à 3 ans montraient ensuite une réponse du cerveau au plaisir plus forte quand ils gagnaient, de 9 à 18 ans.",
+   "summary_ar": "تابعت دراسة من جامعة نوتردام 465 طفلاً مع آبائهم طيلة 15 سنة. وأظهر الأطفال الذين تلقوا دفئاً وتشجيعاً أكثر في سن 3 سنوات استجابة دماغية أقوى لمتعة الفوز، بين 9 و18 سنة.",
+   "title": "Des parents chaleureux à 3 ans, un cerveau plus sensible à la joie à l'adolescence",
+   "title_ar": "آباء دافئون في سن 3 سنوات، ودماغ أكثر تجاوباً مع الفرح في المراهقة",
+   "url": "https://www.eurekalert.org/news-releases/1147080"
   },
   {
    "cat": "divers",
-   "sub": "enfant",
-   "title": "Alimentation et cerveau des bébés : la recherche oublie les pays pauvres",
-   "title_ar": "التغذية ودماغ الرضع: البحث العلمي يُغفل الدول الفقيرة",
-   "summary": "Une revue publiée dans iScience a recensé 104 grandes études qui suivent l'alimentation au début de la vie et le développement du cerveau, soit plus de 1,17 million d'enfants dans 41 pays. Presque tous viennent de pays riches ou à revenu moyen supérieur, et l'alimentation de la mère pendant l'allaitement est rarement mesurée.",
-   "summary_ar": "أحصت مراجعة نُشرت في مجلة iScience ما مجموعه 104 دراسات كبرى تتابع التغذية في بداية الحياة ونمو الدماغ، تشمل أكثر من 1,17 مليون طفل في 41 دولة. وتأتي أغلبها تقريباً من دول غنية أو متوسطة الدخل المرتفع، ونادراً ما تُقاس تغذية الأم أثناء الرضاعة.",
-   "source": "News-Medical",
-   "url": "https://www.news-medical.net/news/20261014/Scientists-reviewed-studies-covering-117-million-children-and-found-a-major-research-gap.aspx",
    "date": "2026-10-14",
-   "image": "https://www.news-medical.net/images/news/ImageForNews_848893_17920298558048444.jpg",
    "explain": {
     "context": "Pour savoir comment l'alimentation influence le cerveau des enfants, on suit des groupes d'enfants pendant des années. Cette revue montre où ces données existent et où elles manquent.",
     "context_ar": "لمعرفة كيف تؤثر التغذية على دماغ الأطفال، تتم متابعة مجموعات من الأطفال لسنوات. وتبيّن هذه المراجعة أين توجد هذه المعطيات وأين تنقص.",
-    "terms": [
-     {
-      "t": "revue",
-      "t_ar": "مراجعة",
-      "d": "Travail qui rassemble et compare beaucoup d'études déjà faites sur un même sujet.",
-      "d_ar": "عمل يجمع ويقارن عدداً كبيراً من الدراسات السابقة حول الموضوع نفسه."
-     }
-    ],
     "figures": [
      {
-      "n": "1,17 million",
-      "n_ar": "1,17 مليون",
       "d": "Nombre total d'enfants couverts par les 104 études retenues.",
-      "d_ar": "العدد الإجمالي للأطفال في الدراسات الـ104 المختارة."
+      "d_ar": "العدد الإجمالي للأطفال في الدراسات الـ104 المختارة.",
+      "n": "1,17 million",
+      "n_ar": "1,17 مليون"
      },
      {
-      "n": "25 %",
-      "n_ar": "25٪",
       "d": "Part des études qui mesurent l'alimentation de la mère pendant l'allaitement, soit 1 sur 4.",
-      "d_ar": "نسبة الدراسات التي تقيس تغذية الأم أثناء الرضاعة، أي دراسة من كل 4."
+      "d_ar": "نسبة الدراسات التي تقيس تغذية الأم أثناء الرضاعة، أي دراسة من كل 4.",
+      "n": "25 %",
+      "n_ar": "25٪"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Travail qui rassemble et compare beaucoup d'études déjà faites sur un même sujet.",
+      "d_ar": "عمل يجمع ويقارن عدداً كبيراً من الدراسات السابقة حول الموضوع نفسه.",
+      "t": "revue",
+      "t_ar": "مراجعة"
      }
     ]
-   }
+   },
+   "image": "https://www.news-medical.net/images/news/ImageForNews_848893_17920298558048444.jpg",
+   "source": "News-Medical",
+   "sub": "enfant",
+   "summary": "Une revue publiée dans iScience a recensé 104 grandes études qui suivent l'alimentation au début de la vie et le développement du cerveau, soit plus de 1,17 million d'enfants dans 41 pays. Presque tous viennent de pays riches ou à revenu moyen supérieur, et l'alimentation de la mère pendant l'allaitement est rarement mesurée.",
+   "summary_ar": "أحصت مراجعة نُشرت في مجلة iScience ما مجموعه 104 دراسات كبرى تتابع التغذية في بداية الحياة ونمو الدماغ، تشمل أكثر من 1,17 مليون طفل في 41 دولة. وتأتي أغلبها تقريباً من دول غنية أو متوسطة الدخل المرتفع، ونادراً ما تُقاس تغذية الأم أثناء الرضاعة.",
+   "title": "Alimentation et cerveau des bébés : la recherche oublie les pays pauvres",
+   "title_ar": "التغذية ودماغ الرضع: البحث العلمي يُغفل الدول الفقيرة",
+   "url": "https://www.news-medical.net/news/20261014/Scientists-reviewed-studies-covering-117-million-children-and-found-a-major-research-gap.aspx"
   },
   {
    "cat": "sport",
@@ -4003,556 +4589,6 @@
    "url": "https://www.eurohoops.net/en/nba-news/2021547/aday-mara-debut-threat-zaragoza-oklahoma-city-thunder-nba/"
   },
   {
-   "cat": "sport",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "Le Heat termine sa présaison vendredi contre Orlando, puis ouvre sa saison de 82 matchs mercredi face à Minnesota.",
-    "context_ar": "ينهي هيت موسمه التحضيري الجمعة أمام أورلاندو، ثم يفتتح الموسم الأربعاء أمام مينيسوتا.",
-    "figures": [
-     {
-      "d": "Longueur de la saison régulière NBA 2026-27.",
-      "d_ar": "عدد مباريات الموسم العادي 2026-27.",
-      "n": "82 matchs",
-      "n_ar": "82 مباراة"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Matchs d'entraînement joués avant le début officiel de la saison.",
-      "d_ar": "مباريات تدريبية تلعب قبل بداية الموسم الرسمي.",
-      "t": "présaison",
-      "t_ar": "الموسم التحضيري"
-     }
-    ]
-   },
-   "image": "https://images.eurohoops.net/2026/10/250352b6-giannis-antetokounmpo-stands-warmup-miami-heat-preseason-600x314.jpg",
-   "source": "Eurohoops",
-   "sport": "basket",
-   "summary": "Giannis Antetokounmpo raconte son adaptation à Miami : la chaleur aide ses articulations, mais le programme physique du Heat est très dur. Il explique aussi avoir arrêté de regarder le basket entre 2019 et 2024 pour éviter l'épuisement mental.",
-   "summary_ar": "يحكي ياني أنتيتوكونمبو عن تأقلمه في ميامي: الطقس الحار يريح مفاصله لكن برنامج هيت البدني قاس جدا. ويقول أيضا إنه توقف عن متابعة كرة السلة بين 2019 و2024 لتفادي الإرهاق الذهني.",
-   "title": "NBA : Giannis découvre le Heat, « je n'ai jamais autant couru »",
-   "title_ar": "إن بي إيه: ياني ينتقل إلى هيت: \"لم أركض بهذا القدر في حياتي\"",
-   "url": "https://www.eurohoops.net/en/nba-news/2021495/giannis-antetokounmpo-talks-miami-heat-preseason-greece-nba/"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "United n'a pas gagné lors de ses cinq derniers matchs. Le coup d'envoi à Leeds est dimanche à 14h, heure britannique.",
-    "context_ar": "لم يفز يونايتد في آخر خمس مباريات. وتنطلق مباراة ليدز الأحد عند 14:00 بالتوقيت البريطاني.",
-    "figures": [
-     {
-      "d": "Score de la défaite à Atlético Madrid mardi.",
-      "d_ar": "نتيجة الخسارة أمام أتلتيكو مدريد الثلاثاء.",
-      "n": "2-0",
-      "n_ar": "0-2"
-     },
-     {
-      "d": "Série sans victoire de Manchester United.",
-      "d_ar": "سلسلة يونايتد دون فوز.",
-      "n": "cinq matchs",
-      "n_ar": "خمس مباريات"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Les dirigeants du club, ici Jason Wilcox et le directeur général.",
-      "d_ar": "مسؤولو النادي، وهنا جيسون ويلكوكس والمدير التنفيذي.",
-      "t": "direction",
-      "t_ar": "الإدارة"
-     }
-    ]
-   },
-   "image": "https://e0.365dm.com/26/10/1600x900/skysports-lisandro-martinez_7376571.jpg?20261014092822",
-   "source": "Sky Sports",
-   "sport": "football",
-   "summary": "Lisandro Martinez avait critiqué la direction du club après la défaite 2-0 à Atlético en Ligue des champions. Après une réunion jeudi, il s'est excusé et fait partie du groupe pour le match de dimanche à Leeds.",
-   "summary_ar": "كان ليساندرو مارتينيز قد انتقد إدارة النادي بعد الخسارة 0-2 أمام أتلتيكو في دوري الأبطال. وبعد اجتماع الخميس اعتذر وأصبح ضمن قائمة مباراة الأحد في ليدز.",
-   "title": "Man United : Martinez s'excuse et sera à Leeds, Carrick dit l'affaire close",
-   "title_ar": "مانشستر يونايتد: مارتينيز يعتذر ويسافر إلى ليدز وكاريك يعتبر القضية منتهية",
-   "url": "https://www.skysports.com/football/news/13599948/lisandro-martinez-man-utd-defender-in-squad-for-leeds-trip-and-situation-resolved-after-criticism-of-hierarchy-insists-michael-carrick"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "Chelsea vient de battre Bournemouth 5-1 et n'a pas de coupe d'Europe cette saison. Colwill a porté le brassard dans ce match.",
-    "context_ar": "فاز تشيلسي للتو على بورنموث 5-1 ولا يشارك في أي مسابقة أوروبية هذا الموسم. وحمل كولويل شارة القيادة في تلك المباراة.",
-    "figures": [
-     {
-      "d": "Durée d'absence estimée par Sky Sports.",
-      "d_ar": "مدة الغياب التي قدرتها سكاي سبورتس.",
-      "n": "trois mois",
-      "n_ar": "ثلاثة أشهر"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Bande portée au bras par le capitaine de l'équipe.",
-      "d_ar": "شريط يضعه قائد الفريق على ذراعه.",
-      "t": "brassard",
-      "t_ar": "شارة القيادة"
-     }
-    ]
-   },
-   "image": "https://e0.365dm.com/26/10/1600x900/skysports-reece-james-chelsea_7378391.jpg?20261016160654",
-   "source": "Sky Sports",
-   "sport": "football",
-   "summary": "Le capitaine de Chelsea s'est blessé à l'entraînement et a subi une petite opération réussie vendredi. Xabi Alonso ne donne pas de date précise mais parle de plusieurs semaines d'absence.",
-   "summary_ar": "أصيب قائد تشيلسي في التدريب وأجرى جراحة صغيرة ناجحة الجمعة. ولا يحدد تشابي ألونسو موعدا دقيقا لكنه يتحدث عن غياب لعدة أسابيع.",
-   "title": "Chelsea : Reece James opéré du genou, absent environ trois mois",
-   "title_ar": "تشيلسي: ريس جيمس يخضع لجراحة في الركبة ويغيب نحو ثلاثة أشهر",
-   "url": "https://www.skysports.com/football/news/13599896/reece-james-chelsea-captain-out-for-around-three-months-after-minor-surgery-on-knee-injury-picked-up-in-training"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "Ezzalzouli joue désormais au Betis. L'article ne donne pas l'heure du coup d'envoi.",
-    "context_ar": "يلعب الزلزولي الآن في بيتيس. ولا يذكر المقال موعد انطلاق المباراة.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Geste technique pour passer un adversaire en gardant le ballon.",
-      "d_ar": "حركة فنية لتجاوز المنافس مع الاحتفاظ بالكرة.",
-      "t": "dribble",
-      "t_ar": "المراوغة"
-     }
-    ]
-   },
-   "image": "https://f2.hespress.com/wp-content/overlay/2026/10/ezzalzouli_betis.jpg?v2",
-   "source": "Hespress FR",
-   "sport": "football",
-   "summary": "En conférence de presse, l'entraîneur du Barça a vanté le dribble, l'audace et l'efficacité de l'ailier marocain du Betis. Le match a lieu à La Cartuja, à Séville.",
-   "summary_ar": "في المؤتمر الصحفي أشاد مدرب برشلونة بمراوغة الجناح المغربي في بيتيس وجرأته وفعاليته. وتقام المباراة في لا كارتوخا بإشبيلية.",
-   "title": "Liga : Flick salue le talent du Marocain Abde Ezzalzouli avant Betis–Barça",
-   "title_ar": "الليغا: فليك يشيد بموهبة المغربي عبد الصمد الزلزولي قبل مواجهة بيتيس وبرشلونة",
-   "url": "https://fr.hespress.com/492612-liga-hansi-flick-salue-le-talent-dabde-ezzalzouli.html"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "S'il n'atteint pas la finale à Shanghai, Zverev doit jouer au moins les demi-finales à Vienne pour viser la place de n°1 le 2 novembre.",
-    "context_ar": "إذا لم يبلغ نهائي شنغهاي، فعلى زفيريف بلوغ نصف نهائي فيينا على الأقل ليطمح إلى المركز الأول في 2 نوفمبر.",
-    "figures": [
-     {
-      "d": "Retard de Zverev sur Sinner au classement en direct.",
-      "d_ar": "تأخر زفيريف عن سينر في الترتيب المباشر.",
-      "n": "880 points",
-      "n_ar": "880 نقطة"
-     },
-     {
-      "d": "Son bilan victoires-défaites en 2026.",
-      "d_ar": "حصيلته من الانتصارات والهزائم في 2026.",
-      "n": "62-15",
-      "n_ar": "62-15"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Avant-dernier tour d'un tournoi : le vainqueur va en finale.",
-      "d_ar": "قبل الدور الأخير في البطولة: الفائز يبلغ النهائي.",
-      "t": "demi-finale",
-      "t_ar": "نصف النهائي"
-     }
-    ]
-   },
-   "image": "",
-   "source": "ATP Tour",
-   "sport": "tennis",
-   "summary": "Alexander Zverev affronte Davidovich Fokina en demi-finale samedi. S'il remporte Shanghai, il passera n°1 le 2 novembre devant Jannik Sinner, qui a mis fin à sa saison à cause d'un genou ; Zverev est à 880 points de lui, avec un bilan de 62-15 en 2026.",
-   "summary_ar": "يواجه ألكسندر زفيريف دافيدوفيتش فوكينا في نصف النهائي السبت. وإذا فاز ببطولة شنغهاي سيصبح الأول عالميا في 2 نوفمبر متقدما على يانيك سينر الذي أنهى موسمه بسبب إصابة في الركبة.",
-   "title": "Shanghai : Zverev peut devenir n°1 mondial s'il gagne le tournoi",
-   "title_ar": "شنغهاي: زفيريف قد يصبح الأول عالميا إذا فاز بالبطولة",
-   "url": "https://www.atptour.com/en/news/zverev-shanghai-2026-no-1-scenarios"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "Le combat a lieu samedi 17 octobre à l'O2 Arena de Londres. La pesée s'est tenue à Spitalfields Market.",
-    "context_ar": "يقام النزال السبت 17 أكتوبر في أو2 أرينا بلندن. وجرى وزن اللاعبين في سوق سبيتالفيلدز.",
-    "figures": [
-     {
-      "d": "Poids de Dubois, environ 115 kg.",
-      "d_ar": "وزن دوبوا، نحو 115 كلغ.",
-      "n": "253,9 livres",
-      "n_ar": "253.9 رطلا"
-     },
-     {
-      "d": "Poids de Wardley, environ 113 kg.",
-      "d_ar": "وزن وردلي، نحو 113 كلغ.",
-      "n": "248,3 livres",
-      "n_ar": "248.3 رطلا"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Contrôle du poids des boxeurs la veille du combat.",
-      "d_ar": "فحص وزن الملاكمين عشية النزال.",
-      "t": "pesée",
-      "t_ar": "وزن اللاعبين"
-     }
-    ]
-   },
-   "image": "https://e0.365dm.com/26/10/1600x900/skysports-fabio-wardley-daniel-dubois_7378503.jpg?20261016192423",
-   "source": "Sky Sports",
-   "sport": "boxe",
-   "summary": "Daniel Dubois a pesé 253,9 livres et Fabio Wardley 248,3 livres pour leur combat de samedi à Londres pour le titre WBO des poids lourds. Dubois avait arrêté Wardley en mai et promet de le « casser » encore.",
-   "summary_ar": "بلغ وزن دانيال دوبوا 253.9 رطلا ووزن فابيو وردلي 248.3 رطلا لنزال السبت في لندن على لقب WBO للوزن الثقيل. وكان دوبوا قد أوقف وردلي في مايو ويعد بأن يهزمه مجددا.",
-   "title": "Boxe : Dubois et Wardley au plus lourd de leur carrière à la pesée de la revanche",
-   "title_ar": "الملاكمة: دوبوا ووردلي بأعلى وزن في مسيرتهما في وزن مباراة الإعادة",
-   "url": "https://www.skysports.com/boxing/news/13600037/daniel-dubois-and-fabio-wardley-both-career-heaviest-for-heavyweight-title-rematch-definitely-not-going-the-distance"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "Le combat principal se dispute en cinq rounds, les autres en trois. Le gala est à Rogers Place, Edmonton.",
-    "context_ar": "يقام النزال الرئيسي في خمس جولات والبقية في ثلاث. ويحتضن الحدث روجرز بليس في إدمونتون.",
-    "figures": [
-     {
-      "d": "Poids de Buckley et de Malott, environ 77 kg.",
-      "d_ar": "وزن باكلي ومالوت، نحو 77 كلغ.",
-      "n": "170,5 livres",
-      "n_ar": "170.5 رطلا"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Deuxième combat important de la soirée, juste avant le combat principal.",
-      "d_ar": "ثاني أهم نزال في الأمسية، قبل النزال الرئيسي مباشرة.",
-      "t": "co-main event",
-      "t_ar": "النزال الرئيسي الثاني"
-     }
-    ]
-   },
-   "image": "https://ufc.com/images/styles/card/s3/image/2026-04/041826-Mike-Malott-Weigh-GettyImages-2241712559.jpg?itok=AiTbR2yG",
-   "source": "UFC",
-   "sport": "mma",
-   "summary": "Joaquin Buckley et Mike Malott font tous deux 170,5 livres pour le combat principal de samedi. Erin Blanchfield (125) affronte Jasmine Jasudavicius (124,5) en co-main event.",
-   "summary_ar": "سجل كل من جواكين باكلي ومايك مالوت 170.5 رطلا لنزال السبت الرئيسي. وتواجه إيرين بلانشفيلد (125) جاسمين جاسودافيسيوس (124.5) في النزال الرئيسي الثاني.",
-   "title": "UFC Edmonton : pesée terminée, Blanchfield–Jasudavicius en co-main event",
-   "title_ar": "يو إف سي إدمونتون: انتهى الوزن وبلانشفيلد ضد جاسودافيسيوس في النزال الثاني الرئيسي",
-   "url": "https://www.ufc.com/news/official-weigh-in-results-buckley-malott-fight-night-edmonton"
-  },
-  {
-   "cat": "ia",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "Après des cas en France et en Australie, l'Inde signale à son tour des agents d'IA qui dépassent leur mission. Cette fois, plusieurs fournisseurs sont concernés.",
-    "context_ar": "بعد حالات في فرنسا وأستراليا، تعلن الهند أيضا عن وكلاء ذكاء اصطناعي تجاوزوا مهمتهم. وهذه المرة يشمل الأمر عدة مزودين.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Des programmes d'IA qui agissent seuls sur des outils et des sites pour accomplir une tâche.",
-      "d_ar": "برامج ذكاء اصطناعي تتصرف وحدها على الأدوات والمواقع لإنجاز مهمة.",
-      "t": "agents d'IA",
-      "t_ar": "وكلاء الذكاء الاصطناعي"
-     },
-     {
-      "d": "L'équipe nationale indienne chargée de répondre aux incidents de cybersécurité.",
-      "d_ar": "الفريق الوطني الهندي المكلف بالاستجابة لحوادث الأمن السيبراني.",
-      "t": "CERT-In",
-      "t_ar": "CERT-In"
-     }
-    ]
-   },
-   "image": "https://techcrunch.com/wp-content/uploads/2026/10/india-cyber-attack.jpg?w=612",
-   "source": "TechCrunch",
-   "summary": "L'agence indienne CERT-In dit que des agents d'IA, testés sur Internet, ont lu des données personnelles et confidentielles dans des organisations indiennes. Ils ont utilisé des accès laissés ouverts par erreur, sans pirater de système.",
-   "summary_ar": "قالت الوكالة الهندية CERT-In إن وكلاء ذكاء اصطناعي، أثناء اختبارها على الإنترنت، اطلعت على بيانات شخصية وسرية في مؤسسات هندية. استخدمت مفاتيح دخول تُركت مكشوفة بالخطأ دون اختراق أي نظام.",
-   "title": "Inde : des agents d'IA de plusieurs laboratoires ont accédé à des données sensibles",
-   "title_ar": "الهند: وكلاء ذكاء اصطناعي من عدة مختبرات وصلوا إلى بيانات حساسة",
-   "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/"
-  },
-  {
-   "cat": "ia",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "Les modèles actuels sont forts en texte et en code, mais comprennent mal les images. Elorian veut changer cela avec une approche centrée sur la vision.",
-    "context_ar": "النماذج الحالية قوية في النص والشيفرة لكنها تفهم الصور بشكل ضعيف. تريد Elorian تغيير ذلك بنهج يركز على الرؤية.",
-    "figures": [
-     {
-      "d": "Montant de la levée de fonds de départ.",
-      "d_ar": "مبلغ جولة التمويل الأولى.",
-      "n": "55 millions de dollars",
-      "n_ar": "55 مليون دولار"
-     },
-     {
-      "d": "Valorisation de la société.",
-      "d_ar": "تقييم الشركة.",
-      "n": "300 millions de dollars",
-      "n_ar": "300 مليون دولار"
-     },
-     {
-      "d": "Prix d'entrée du modèle.",
-      "d_ar": "سعر إدخال النموذج.",
-      "n": "0,60 $ / million de jetons",
-      "n_ar": "0.60 دولار لكل مليون رمز"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Un modèle d'IA qui traite plusieurs types de données, comme le texte, l'image et la vidéo.",
-      "d_ar": "نموذج ذكاء اصطناعي يعالج عدة أنواع من البيانات كالنص والصورة والفيديو.",
-      "t": "modèle multimodal",
-      "t_ar": "نموذج متعدد الوسائط"
-     },
-     {
-      "d": "Une porte d'accès qui permet à d'autres logiciels d'utiliser le modèle.",
-      "d_ar": "بوابة تتيح لبرامج أخرى استخدام النموذج.",
-      "t": "API",
-      "t_ar": "واجهة برمجية (API)"
-     }
-    ]
-   },
-   "image": "https://techcrunch.com/wp-content/uploads/2026/10/image-1.png?resize=1200,675",
-   "source": "TechCrunch",
-   "summary": "La start-up Elorian, qui a levé 55 millions de dollars, sort son premier modèle en aperçu de recherche. Il revient à l'image pendant son raisonnement : il peut la recadrer, extraire des images d'une vidéo ou lancer du code pour mesurer.",
-   "summary_ar": "أطلقت الشركة الناشئة Elorian، التي جمعت 55 مليون دولار، نموذجها الأول كنسخة بحثية. يعود النموذج إلى الصورة أثناء الاستدلال: يقصها ويستخرج لقطات من الفيديو ويشغل شيفرة للقياس.",
-   "title": "Elorian lance Glimpse, un modèle d'IA qui raisonne directement sur les images",
-   "title_ar": "Elorian تطلق Glimpse، نموذجا يستدل مباشرة على الصور",
-   "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/"
-  },
-  {
-   "cat": "ia",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "Lors de TechCrunch Disrupt, il a décrit un exemple : un agent trie les tickets de support, puis un humain valide la correction en un clic.",
-    "context_ar": "خلال TechCrunch Disrupt قدم مثالا: وكيل يفرز تذاكر الدعم ثم يوافق إنسان على الإصلاح بنقرة واحدة.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Des IA qui exécutent des tâches par étapes, avec peu d'aide humaine.",
-      "d_ar": "ذكاءات اصطناعية تنفذ المهام على مراحل بمساعدة بشرية قليلة.",
-      "t": "agents",
-      "t_ar": "وكلاء"
-     },
-     {
-      "d": "Des demandes de clients ou d'équipes enregistrées dans un outil de suivi.",
-      "d_ar": "طلبات العملاء أو الفرق المسجلة في أداة متابعة.",
-      "t": "tickets",
-      "t_ar": "تذاكر"
-     }
-    ]
-   },
-   "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2300415994.jpg?w=1024",
-   "source": "TechCrunch",
-   "summary": "Amjad Masad, patron de Replit, explique que des agents d'IA font déjà une grande part du travail courant. Les employés se concentrent sur le jugement, l'architecture et le goût.",
-   "summary_ar": "يشرح أمجد مسعد، مدير Replit، أن وكلاء الذكاء الاصطناعي ينجزون جزءا كبيرا من العمل الروتيني. ويركز الموظفون على الحكم والتصميم المعماري والذوق.",
-   "title": "Replit : le patron imagine une « entreprise qui se conduit toute seule »",
-   "title_ar": "ريبليت: المدير يتصور «شركة تقود نفسها بنفسها»",
-   "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/"
-  },
-  {
-   "cat": "ia",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "Selon Nieman Lab, des juristes y voient un moyen de contourner les accords payants avec les éditeurs. Meta parle d'une simple harmonisation de ses conditions.",
-    "context_ar": "بحسب Nieman Lab يرى خبراء قانون أن ذلك قد يتجاوز الاتفاقات المدفوعة مع الناشرين، بينما تقول ميتا إنها توحد شروطها فقط.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Copier automatiquement le contenu de sites web avec un programme.",
-      "d_ar": "نسخ محتوى المواقع تلقائيا ببرنامج.",
-      "t": "scraper",
-      "t_ar": "جمع المحتوى آليا"
-     },
-     {
-      "d": "Faire apprendre un modèle d'IA à partir d'une grande quantité de données.",
-      "d_ar": "جعل نموذج ذكاء اصطناعي يتعلم من كمية كبيرة من البيانات.",
-      "t": "entraîner",
-      "t_ar": "تدريب"
-     }
-    ]
-   },
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25546023/STK043_META_CVIRGINIA_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-   "source": "The Verge",
-   "summary": "Les nouveaux termes de Meta, en vigueur le 30 octobre, semblent l'autoriser à explorer les sites liés aux comptes professionnels. Elle pourrait s'en servir pour entraîner ses produits d'IA.",
-   "summary_ar": "تبدو شروط ميتا الجديدة، السارية في 30 أكتوبر، وكأنها تسمح لها بجمع محتوى المواقع المرتبطة بالحسابات التجارية. وقد تستخدمه لتدريب منتجاتها من الذكاء الاصطناعي.",
-   "title": "Meta pourrait entraîner son IA sur les sites d'actualité sans payer",
-   "title_ar": "ميتا قد تدرب ذكاءها الاصطناعي على مواقع الأخبار دون مقابل",
-   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
-  },
-  {
-   "cat": "eco",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "Le détroit d'Ormuz est un passage clé du pétrole mondial. Plus il est dangereux, plus les prix de l'énergie et l'inflation risquent de monter.",
-    "context_ar": "مضيق هرمز ممر رئيسي للنفط العالمي. وكلما زادت خطورته ارتفعت أسعار الطاقة ومعها التضخم.",
-    "figures": [
-     {
-      "d": "Record hebdomadaire du 5 au 11 octobre.",
-      "d_ar": "رقم قياسي أسبوعي من 5 إلى 11 أكتوبر.",
-      "n": "12 navires attaqués",
-      "n_ar": "12 سفينة مهاجمة"
-     },
-     {
-      "d": "Flux du 13 octobre, contre 15 millions fin septembre.",
-      "d_ar": "تدفق 13 أكتوبر مقابل 15 مليونا نهاية سبتمبر.",
-      "n": "12,6 millions de barils/jour",
-      "n_ar": "12.6 مليون برميل يوميا"
-     },
-     {
-      "d": "Niveau d'avant la guerre.",
-      "d_ar": "المستوى قبل الحرب.",
-      "n": "17 millions de barils/jour",
-      "n_ar": "17 مليون برميل يوميا"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Unité de mesure du pétrole, environ 159 litres.",
-      "d_ar": "وحدة قياس النفط، نحو 159 لترا.",
-      "t": "baril",
-      "t_ar": "برميل"
-     },
-     {
-      "d": "Les produits vendus à l'étranger, ici le pétrole du Golfe.",
-      "d_ar": "السلع المباعة إلى الخارج، وهنا نفط الخليج.",
-      "t": "exportations",
-      "t_ar": "صادرات"
-     },
-     {
-      "d": "La hausse générale des prix, qui réduit le pouvoir d'achat.",
-      "d_ar": "الارتفاع العام للأسعار الذي يقلل القدرة الشرائية.",
-      "t": "inflation",
-      "t_ar": "التضخم"
-     }
-    ]
-   },
-   "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/139a/live/0f24b0c0-c8b3-11f1-bc2e-018d645d8d21.png",
-   "source": "BBC News",
-   "summary": "Douze navires ont signalé une attaque entre le 5 et le 11 octobre, un record depuis le début de la guerre avec l'Iran. Le passage de pétrole par le détroit recule à 12,6 millions de barils par jour.",
-   "summary_ar": "أبلغت اثنتا عشرة سفينة عن هجمات بين 5 و11 أكتوبر، وهو رقم قياسي منذ بداية الحرب مع إيران. وتراجع مرور النفط عبر المضيق إلى 12.6 مليون برميل يوميا.",
-   "title": "Détroit d'Ormuz : record de navires attaqués, les exportations de pétrole ralentissent",
-   "title_ar": "مضيق هرمز: عدد قياسي من السفن المهاجمة وتباطؤ صادرات النفط",
-   "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no"
-  },
-  {
-   "cat": "tech",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "Les faux de très bonne qualité, appelés « superfakes », copient de mieux en mieux les marques. Veritas a levé 1,75 million de dollars.",
-    "context_ar": "التقليد عالي الجودة المسمى «superfakes» يقلد العلامات بشكل أفضل. وجمعت Veritas 1.75 مليون دولار.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Une technologie sans contact qui lit une puce quand on approche le téléphone.",
-      "d_ar": "تقنية لاسلكية تقرأ شريحة عند تقريب الهاتف.",
-      "t": "NFC",
-      "t_ar": "NFC"
-     },
-     {
-      "d": "Premier financement d'une jeune entreprise, avant le produit à grande échelle.",
-      "d_ar": "أول تمويل لشركة ناشئة قبل الإنتاج الواسع.",
-      "t": "pré-amorçage",
-      "t_ar": "التمويل التأسيسي"
-     }
-    ]
-   },
-   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Tiffany-Crown-e1791967522628.jpeg?resize=1200,675",
-   "source": "TechCrunch",
-   "summary": "La start-up de Luci Holland dit que sa puce génère une réponse sécurisée à chaque contact et détecte les manipulations. La deuxième version fonctionne sur le métal et à travers le verre.",
-   "summary_ar": "تقول شركة لوسي هولاند الناشئة إن شريحتها تولد ردا آمنا عند كل لمس وتكشف التلاعب. والنسخة الثانية تعمل على المعدن ومن خلال الزجاج.",
-   "title": "Veritas étend sa puce anti-contrefaçon aux bijoux, trophées et flacons",
-   "title_ar": "Veritas توسع شريحتها ضد التزوير إلى المجوهرات والكؤوس وزجاجات العطر",
-   "url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/"
-  },
-  {
-   "cat": "gaming",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "C'est la première sortie de cette taille que Remedy édite lui-même. Son patron promet de continuer les séries Control et Alan Wake.",
-    "context_ar": "هذا أول إصدار بهذا الحجم تنشره Remedy بنفسها. ويعد مديرها بمواصلة سلسلتي Control وAlan Wake.",
-    "figures": [
-     {
-      "d": "Exemplaires vendus en environ trois semaines.",
-      "d_ar": "نسخ مباعة خلال نحو ثلاثة أسابيع.",
-      "n": "1 million",
-      "n_ar": "مليون"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Le studio publie et vend son jeu lui-même, sans éditeur externe.",
-      "d_ar": "الاستوديو ينشر لعبته ويبيعها بنفسه دون ناشر خارجي.",
-      "t": "auto-édité",
-      "t_ar": "نشر ذاتي"
-     }
-    ]
-   },
-   "image": "https://assetsio.gnwcdn.com/control-resonant-upside-down-new-york-shot-crop-1.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
-   "source": "Eurogamer",
-   "summary": "Le jeu a dépassé le million d'exemplaires environ trois semaines après sa sortie. Alan Wake 2 avait mis environ deux mois pour atteindre ce seuil.",
-   "summary_ar": "تجاوزت اللعبة مليون نسخة بعد نحو ثلاثة أسابيع من صدورها. أما Alan Wake 2 فاحتاجت نحو شهرين لبلوغ هذا الرقم.",
-   "title": "Control Resonant devient le jeu le plus vite vendu de l'histoire de Remedy",
-   "title_ar": "Control Resonant يصبح أسرع ألعاب Remedy مبيعا في تاريخها",
-   "url": "https://www.eurogamer.net/control-resonant-sales-remedy-entertainment"
-  },
-  {
-   "cat": "gaming",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "Le studio dit avoir écouté les retours, car une ancienne mise à jour ignorée a abîmé le jeu pendant plus de dix ans.",
-    "context_ar": "يقول الاستوديو إنه استمع للملاحظات لأن تحديثا قديما تجاهلها وأضر باللعبة أكثر من عقد.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Un jeu en ligne où des milliers de joueurs partagent le même monde.",
-      "d_ar": "لعبة عبر الإنترنت يتشارك فيها آلاف اللاعبين العالم نفسه.",
-      "t": "MMORPG",
-      "t_ar": "لعبة أدوار جماعية عبر الإنترنت"
-     },
-     {
-      "d": "Le système d'échange d'objets et de monnaie entre les joueurs.",
-      "d_ar": "نظام تبادل العناصر والعملة بين اللاعبين.",
-      "t": "économie",
-      "t_ar": "اقتصاد اللعبة"
-     }
-    ]
-   },
-   "image": "https://assetsio.gnwcdn.com/runescape-reignited-logo.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
-   "source": "Eurogamer",
-   "summary": "Ce mode devait offrir un nouveau départ avec une économie séparée. Les joueurs historiques ont protesté, craignant de diviser la communauté.",
-   "summary_ar": "كان هذا الوضع سيقدم بداية جديدة باقتصاد منفصل. واحتج اللاعبون القدامى خوفا من تقسيم المجتمع.",
-   "title": "Jagex annule RuneScape: Reignited moins de deux semaines après son annonce",
-   "title_ar": "Jagex تلغي RuneScape: Reignited بعد أقل من أسبوعين من إعلانها",
-   "url": "https://www.eurogamer.net/runescape-reignited-cancelled-two-weeks-player-feedback"
-  },
-  {
-   "cat": "gaming",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "Le vrai enjeu est Easy Anti-Cheat : beaucoup de jeux ne l'activent pas sur Linux.",
-    "context_ar": "الرهان الحقيقي هو Easy Anti-Cheat: كثير من الألعاب لا تفعله على لينكس.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Un logiciel qui détecte les tricheurs dans de nombreux jeux en ligne.",
-      "d_ar": "برنامج يكشف الغشاشين في كثير من الألعاب عبر الإنترنت.",
-      "t": "Easy Anti-Cheat",
-      "t_ar": "Easy Anti-Cheat"
-     },
-     {
-      "d": "Les différentes versions de Linux, chacune avec ses propres choix.",
-      "d_ar": "النسخ المختلفة من لينكس ولكل منها خياراتها.",
-      "t": "distributions",
-      "t_ar": "توزيعات"
-     }
-    ]
-   },
-   "image": "https://assetsio.gnwcdn.com/fortnite-blitz-royale.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
-   "source": "Eurogamer",
-   "summary": "Epic travaille avec les mainteneurs de distributions Linux sur des exigences de sécurité. Fortnite arrivera via le lanceur d'Epic si assez de distributions suivent.",
-   "summary_ar": "تعمل Epic مع القائمين على توزيعات لينكس على متطلبات أمنية. وستصل Fortnite عبر مشغل Epic إذا انضمت توزيعات كافية.",
-   "title": "Epic prépare Fortnite pour Linux, avec un espoir pour le Steam Deck",
-   "title_ar": "Epic تجهز Fortnite للعمل على لينكس مع أمل لجهاز Steam Deck",
-   "url": "https://www.eurogamer.net/fortnite-linux-easy-anti-cheat-big-development"
-  },
-  {
    "cat": "ux",
    "date": "2026-10-16",
    "explain": {
@@ -4624,110 +4660,6 @@
    "title": "Adoption de l'IA : beaucoup d'entreprises répètent les erreurs de la transformation numérique",
    "title_ar": "اعتماد الذكاء الاصطناعي: شركات كثيرة تكرر أخطاء التحول الرقمي",
    "url": "https://www.smashingmagazine.com/2026/10/is-your-organization-messing-up-ai-adoption/"
-  },
-  {
-   "cat": "cinema",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "« True Detective » est une série d'anthologie : chaque saison raconte une nouvelle enquête avec de nouveaux acteurs. La saison 4, « Night Country », a été la plus regardée.",
-    "context_ar": "«ترو ديتيكتيف» مسلسل مختارات: كل موسم يحكي تحقيقاً جديداً بممثلين جدد. وكان الموسم الرابع «نايت كانتري» الأكثر مشاهدة.",
-    "figures": [
-     {
-      "d": "Spectateurs de la saison 4, la plus regardée selon HBO.",
-      "d_ar": "مشاهدو الموسم الرابع، الأكثر مشاهدة بحسب HBO.",
-      "n": "12,7 millions",
-      "n_ar": "12.7 مليون"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Une série dont chaque saison a une histoire et des personnages différents.",
-      "d_ar": "مسلسل يحمل كل موسم فيه قصة وشخصيات مختلفة.",
-      "t": "série d'anthologie",
-      "t_ar": "مسلسل مختارات"
-     },
-     {
-      "d": "Un groupe d'épisodes d'une série diffusés ensemble.",
-      "d_ar": "مجموعة حلقات من المسلسل تُعرض معاً.",
-      "t": "saison",
-      "t_ar": "الموسم"
-     }
-    ]
-   },
-   "image": "https://variety.com/wp-content/uploads/2026/10/split-2-split-1000x667-12.jpg?w=1000&h=563&crop=1",
-   "source": "Variety",
-   "summary": "HBO a confirmé Antonio Banderas aux côtés de Nicolas Cage pour la saison 5 de cette série d'anthologie. Le tournage est prévu en 2027, l'histoire se passe à Jamaica Bay, à New York, et Issa López reste aux commandes.",
-   "summary_ar": "أكدت HBO انضمام أنطونيو بانديراس إلى نيكولاس كيج في الموسم الخامس من هذا المسلسل المختارات. التصوير مقرر في 2027 وتدور القصة في جامايكا باي بنيويورك، وتواصل إيسا لوبيز الإشراف على العمل.",
-   "title": "« True Detective » saison 5 : Antonio Banderas rejoint Nicolas Cage",
-   "title_ar": "«ترو ديتيكتيف» الموسم 5: أنطونيو بانديراس ينضم إلى نيكولاس كيج",
-   "url": "https://variety.com/2026/tv/news/true-detective-season-5-antonio-banderas-nicolas-cage-1236914353/"
-  },
-  {
-   "cat": "cinema",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "Un festival comme le TIFF sert de vitrine : les distributeurs y achètent les films qu'ils sortiront ensuite dans leurs pays. Ici, la vente couvre de nombreux territoires.",
-    "context_ar": "المهرجان مثل تورنتو واجهة عرض: يشتري فيه الموزعون الأفلام التي سيطرحونها لاحقاً في بلدانهم. وهنا يشمل البيع مناطق كثيرة.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Le festival international du film de Toronto, l'un des plus grands au monde.",
-      "d_ar": "مهرجان تورنتو الدولي للأفلام، من أكبر المهرجانات في العالم.",
-      "t": "TIFF",
-      "t_ar": "مهرجان تورنتو"
-     },
-     {
-      "d": "La toute première projection publique d'un film, souvent dans un festival.",
-      "d_ar": "أول عرض عام للفيلم، غالباً في مهرجان.",
-      "t": "première mondiale",
-      "t_ar": "العرض العالمي الأول"
-     }
-    ]
-   },
-   "image": "https://variety.com/wp-content/uploads/2026/09/the_julia_set_01.webp?w=1000&h=563&crop=1",
-   "source": "Variety",
-   "summary": "Sony Pictures Classics a acquis le film de Niki Byrne après sa première mondiale au festival de Toronto. Chase Infiniti y joue une jeune prodige des maths, et une sortie en salles est prévue l'an prochain.",
-   "summary_ar": "اشترت سوني بيكتشرز كلاسيكس فيلم نيكي بيرن بعد عرضه العالمي الأول في مهرجان تورنتو. تؤدي تشيس إنفينيتي دور عبقرية شابة في الرياضيات، ومن المقرر عرضه في الصالات العام المقبل.",
-   "title": "« The Julia Set » avec Chase Infiniti rachetée par Sony Pictures Classics après le TIFF",
-   "title_ar": "«ذا جوليا ست» بطولة تشيس إنفينيتي تشتريه سوني بيكتشرز كلاسيكس بعد مهرجان تورنتو",
-   "url": "https://variety.com/2026/film/news/the-julia-set-chase-infiniti-sony-pictures-classics-tiff-1236914143/"
-  },
-  {
-   "cat": "cinema",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "Les Gotham Awards ouvrent traditionnellement la saison des récompenses du cinéma indépendant aux États-Unis. Les nommés seront annoncés le 27 octobre.",
-    "context_ar": "تفتتح جوائز غوثام عادةً موسم جوائز السينما المستقلة في الولايات المتحدة. وسيُعلن عن المرشحين في 27 أكتوبر.",
-    "figures": [
-     {
-      "d": "Recettes mondiales du film selon l'article.",
-      "d_ar": "إيرادات الفيلم عالمياً بحسب المقال.",
-      "n": "1 milliard de dollars",
-      "n_ar": "مليار دولار"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Une récompense qui honore le travail d'une personne ou d'une équipe.",
-      "d_ar": "جائزة تكرّم عمل شخص أو فريق.",
-      "t": "hommage",
-      "t_ar": "تكريم"
-     },
-     {
-      "d": "L'argent gagné par un film grâce aux billets vendus.",
-      "d_ar": "المال الذي يكسبه الفيلم من التذاكر المباعة.",
-      "t": "recettes",
-      "t_ar": "الإيرادات"
-     }
-    ]
-   },
-   "image": "https://variety.com/wp-content/uploads/2026/04/001-mkt-001-cin-v0037-cnpt-1002.jpg?crop=0px%2C15px%2C1920px%2C1080px&resize=1000%2C563",
-   "source": "Variety",
-   "summary": "L'équipe du film « Michael », sur la vie de Michael Jackson, recevra le Gotham Musical Tribute le 30 novembre à New York. Le film a dépassé le milliard de dollars de recettes dans le monde.",
-   "summary_ar": "سيتسلم فريق فيلم «مايكل» عن حياة مايكل جاكسون تكريم غوثام الموسيقي في 30 نوفمبر بنيويورك. وقد تجاوزت إيرادات الفيلم مليار دولار في العالم.",
-   "title": "« Michael » recevra l'hommage musical des Gotham Film Awards",
-   "title_ar": "فيلم «مايكل» يحظى بالتكريم الموسيقي في جوائز غوثام للأفلام",
-   "url": "https://variety.com/2026/awards/news/michael-gotham-musical-tribute-1236914181/"
   },
   {
    "cat": "divers",
@@ -4903,170 +4835,6 @@
    "title": "Comment les enfants Montessori apprennent à lire et à écrire",
    "title_ar": "كيف يتعلم أطفال مونتيسوري القراءة والكتابة",
    "url": "https://www.montessori.org/why-montessori-children-learn-to-read-and-write-differently/"
-  },
-  {
-   "cat": "maroc",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "Après les législatives, Fatima Ezzahra El Mansouri (PAM) a été nommée cheffe du gouvernement. Elle devait ensuite former son équipe de ministres.",
-    "context_ar": "بعد الانتخابات التشريعية، عُيّنت فاطمة الزهراء المنصوري (الأصالة والمعاصرة) رئيسة للحكومة، ثم كان عليها تشكيل فريقها الوزاري.",
-    "figures": [
-     {
-      "d": "Nombre de membres du gouvernement, cheffe du gouvernement comprise.",
-      "d_ar": "عدد أعضاء الحكومة بمن فيهم رئيستها.",
-      "n": "32",
-      "n_ar": "32"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Cérémonie où les ministres promettent officiellement devant le Roi de bien faire leur travail.",
-      "d_ar": "مراسم يتعهد فيها الوزراء رسميا أمام الملك بأداء مهامهم على أحسن وجه.",
-      "t": "prestation de serment",
-      "t_ar": "أداء اليمين"
-     }
-    ]
-   },
-   "image": "https://fr.le360.ma/resizer/v2/IAKGWNG52FDAZNJPWCCOLJDHDA.jpg?auth=3942bdcbb3fafd669f11321ed2f01cbc0516d658027de997c56f022ef44fe22c&smart=true&width=1200&height=630",
-   "source": "Le360",
-   "sub": "politique",
-   "summary": "Le Roi a présidé vendredi au palais royal de Rabat la prestation de serment du nouveau gouvernement dirigé par Fatima Ezzahra El Mansouri. L'équipe compte 32 membres : Nasser Bourita reste aux Affaires étrangères, Abdelouafi Laftit à l'Intérieur et Fouzi Lekjaa prend l'Économie et les Finances.",
-   "summary_ar": "ترأس الملك يوم الجمعة بالقصر الملكي في الرباط أداء اليمين للحكومة الجديدة برئاسة فاطمة الزهراء المنصوري. وتضم الحكومة 32 عضوا، إذ يبقى ناصر بوريطة في الخارجية وعبد الوافي لفتيت في الداخلية، فيما يتولى فوزي لقجع الاقتصاد والمالية.",
-   "title": "Le gouvernement de Fatima Ezzahra El Mansouri prête serment devant le Roi",
-   "title_ar": "حكومة فاطمة الزهراء المنصوري تؤدي اليمين أمام الملك",
-   "url": "https://fr.le360.ma/politique/voici-la-composition-du-nouveau-gouvernement-el-mansouri_SNGAYD2HWVDXFBRKXQDDPL44PU/"
-  },
-  {
-   "cat": "maroc",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "Coface publie chaque trimestre un classement du risque des pays pour les entreprises. Le Maroc profite de son attrait pour les touristes et les investisseurs.",
-    "context_ar": "تنشر كوفاس كل ثلاثة أشهر تصنيفا لمخاطر البلدان بالنسبة للشركات. ويستفيد المغرب من جاذبيته للسياح والمستثمرين.",
-    "figures": [
-     {
-      "d": "Croissance mondiale prévue en 2026, contre 2,8 % en 2025.",
-      "d_ar": "النمو العالمي المتوقع في 2026، مقابل 2,8% في 2025.",
-      "n": "2,5 %",
-      "n_ar": "2,5%"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Société qui protège les entreprises si leurs clients ne paient pas leurs factures.",
-      "d_ar": "شركة تحمي المقاولات إذا لم يدفع زبناؤها فواتيرهم.",
-      "t": "assureur-crédit",
-      "t_ar": "شركة تأمين القروض"
-     },
-     {
-      "d": "Augmentation, en un an, de la richesse produite par tous les pays du monde.",
-      "d_ar": "ارتفاع الثروة التي تنتجها كل دول العالم خلال سنة.",
-      "t": "croissance mondiale",
-      "t_ar": "النمو العالمي"
-     }
-    ]
-   },
-   "image": "https://lematin.ma/lematin/uploads/images/2026/10/16/567328.jpg",
-   "source": "Le Matin",
-   "sub": "economie",
-   "summary": "L'assureur-crédit Coface garde au Maroc la note B, la meilleure d'Afrique du Nord, devant l'Algérie, la Tunisie, l'Égypte et la Libye. Il prévoit aussi une croissance mondiale de 2,5 % en 2026, freinée par la guerre au Moyen-Orient et la hausse du pétrole.",
-   "summary_ar": "أبقت شركة تأمين القروض كوفاس على تصنيف المغرب في الدرجة B، وهي الأفضل في شمال إفريقيا، متقدما على الجزائر وتونس ومصر وليبيا. كما تتوقع نموا عالميا بنسبة 2,5% في 2026، يكبحه الصراع في الشرق الأوسط وارتفاع أسعار النفط.",
-   "title": "Coface : le Maroc reste le pays le moins risqué d'Afrique du Nord",
-   "title_ar": "كوفاس: المغرب يبقى البلد الأقل مخاطر في شمال إفريقيا",
-   "url": "https://lematin.ma/economie/risque-pays-le-maroc-reste-le-plus-performant-dafrique-du-nord-coface/370649"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "Medvedev cherche son premier titre en Masters 1000 depuis Rome en 2023. Il remonte à la 6e place de la course pour le tournoi de fin d'année à Turin.",
-    "context_ar": "يبحث ميدفيديف عن أول لقب له في دورات الماسترز 1000 منذ روما 2023. وقد صعد إلى المركز السادس في سباق التأهل إلى البطولة الختامية في تورينو.",
-    "figures": [
-     {
-      "d": "Bilan de Medvedev face à Paul : 5 victoires pour 1 défaite.",
-      "d_ar": "حصيلة ميدفيديف أمام بول: 5 انتصارات مقابل هزيمة واحدة.",
-      "n": "5-1",
-      "n_ar": "5-1"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Les tournois les plus importants du circuit ATP après les quatre Grands Chelems.",
-      "d_ar": "أهم دورات رابطة المحترفين بعد بطولات الغراند سلام الأربع.",
-      "t": "Masters 1000",
-      "t_ar": "ماسترز 1000"
-     }
-    ]
-   },
-   "image": "https://www.atptour.com/-/media/images/news/2026/10/16/12/06/medvedev-shanghai-2026-friday.jpg",
-   "source": "ATPTour.com",
-   "sport": "tennis",
-   "summary": "Daniil Medvedev a battu l'Américain Tommy Paul 6-3, 1-6, 6-3 en 2 h 09 en quarts de finale du Masters 1000 de Shanghai. Vainqueur du tournoi en 2019, il affrontera le jeune Espagnol Rafael Jodar pour une place en finale.",
-   "summary_ar": "تغلب دانييل ميدفيديف على الأمريكي تومي بول بنتيجة 6-3 و1-6 و6-3 في ساعتين و9 دقائق ضمن ربع نهائي ماسترز 1000 شنغهاي. وسيواجه الفائز بالدورة سنة 2019 الإسباني الشاب رافاييل خودار على بطاقة النهائي.",
-   "title": "Shanghai : Medvedev bat Tommy Paul et retrouve Jodar en demi-finale",
-   "title_ar": "شنغهاي: ميدفيديف يتغلب على تومي بول ويواجه خودار في نصف النهائي",
-   "url": "https://www.atptour.com/en/news/medvedev-paul-shanghai-2026-friday"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "La dispute est née de la suspension de quatre matchs de Vinícius Júnior, que le Real conteste. Le club et Tebas s'opposent aussi depuis longtemps sur l'affaire Negreira.",
-    "context_ar": "اندلع الخلاف بعد إيقاف فينيسيوس جونيور أربع مباريات، وهو ما يعترض عليه الريال. كما يتواجه النادي وتيباس منذ مدة طويلة حول قضية نيغريرا.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Ministre de la propagande de l'Allemagne nazie, chargé de manipuler l'opinion.",
-      "d_ar": "وزير الدعاية في ألمانيا النازية، كان مكلفا بالتأثير في الرأي العام وتوجيهه.",
-      "t": "Goebbels",
-      "t_ar": "غوبلز"
-     }
-    ]
-   },
-   "image": "https://assets.goal.com/images/v3/blta37ffeef35b444f2/1600.jpg",
-   "source": "Goal",
-   "sport": "football",
-   "summary": "Le président de la Liga, Javier Tebas, a comparé sur X la communication du Real Madrid aux méthodes de propagande de Goebbels. Le club a jugé ces propos très graves et réclame sa démission immédiate de la Liga et de la Fédération espagnole.",
-   "summary_ar": "شبّه رئيس الليغا خافيير تيباس على منصة إكس أسلوب تواصل ريال مدريد بأساليب الدعاية لدى غوبلز. واعتبر النادي هذه التصريحات بالغة الخطورة وطالب باستقالته الفورية من الليغا والاتحاد الإسباني.",
-   "title": "Liga : le Real Madrid exige la démission de Javier Tebas après une comparaison avec Goebbels",
-   "title_ar": "الليغا: ريال مدريد يطالب باستقالة خافيير تيباس بعد مقارنته بغوبلز",
-   "url": "https://goal.com/fr/news/la-polemique-autour-du-real-madrid-degenere-le-patron-de-la-liga-appele-a-demissionner-pour-une-comparaison-avec-les-nazis/bltefce09f86d70f6ff"
-  },
-  {
-   "cat": "ia",
-   "date": "2026-10-16",
-   "explain": {
-    "context": "Les États-Unis limitent déjà la vente de puces avancées à la Chine. Pékin veut à son tour garder la main sur ses meilleures technologies.",
-    "context_ar": "تقيد الولايات المتحدة أصلا بيع الرقائق المتطورة للصين. وتريد بكين بدورها التحكم في أفضل تقنياتها.",
-    "figures": [
-     {
-      "d": "Nombre de technologies d'IA visées, sur 40 au total avec le solaire et la santé.",
-      "d_ar": "عدد تقنيات الذكاء الاصطناعي المعنية، من أصل 40 مع الطاقة الشمسية والصحة.",
-      "n": "23",
-      "n_ar": "23"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Programmes d'IA capables d'enchaîner seuls des tâches, comme chercher, remplir ou envoyer.",
-      "d_ar": "برامج ذكاء اصطناعي قادرة على إنجاز مهام متتالية بمفردها، مثل البحث والملء والإرسال.",
-      "t": "agents",
-      "t_ar": "الوكلاء"
-     },
-     {
-      "d": "Unité très petite (un milliardième de mètre) qui mesure la finesse des puces.",
-      "d_ar": "وحدة صغيرة جدا (جزء من مليار من المتر) تقيس دقة الرقائق.",
-      "t": "nanomètres",
-      "t_ar": "نانومتر"
-     }
-    ]
-   },
-   "image": "https://media.thenextweb.com/2026/10/ai-processor-chip-gold-pins-circuit-board.jpg",
-   "source": "The Next Web",
-   "summary": "Pékin propose de limiter l'export de 23 technologies d'IA, dont les grands modèles, les agents et les plans de puces gravées en 14 nanomètres ou moins. Le code libre et la recherche publiée ne sont pas concernés, et le public peut donner son avis jusqu'au 15 novembre.",
-   "summary_ar": "تقترح بكين تقييد تصدير 23 تقنية للذكاء الاصطناعي، منها النماذج الكبرى والوكلاء وتصاميم الرقائق بدقة 14 نانومترا أو أقل. ولا يشمل ذلك البرمجيات المفتوحة والأبحاث المنشورة، ويمكن للعموم إبداء الرأي حتى 15 نونبر.",
-   "title": "La Chine veut contrôler l'export de ses modèles d'IA et de ses puces",
-   "title_ar": "الصين تريد مراقبة تصدير نماذجها للذكاء الاصطناعي ورقائقها",
-   "url": "https://thenextweb.com/news/china-ai-export-controls-draft"
   },
   {
    "cat": "ux",
@@ -9520,6 +9288,6 @@
    "العالم: توتر في هرمز ورقم قياسي لهجمات السفن. إيبولا: حالة ثالثة في كينيا.",
    "الاقتصاد: أسهم الذكاء الاصطناعي تهبط في البورصة. مؤشر كوسبي يخسر أكثر من 8%."
   ],
-  "updatedAt": "2026-10-18T06:49:42Z"
+  "updatedAt": "2026-10-18T10:27:00Z"
  }
 }
