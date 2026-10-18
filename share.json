@@ -1,5 +1,299 @@
 {
  "items": {
+  "https://www.atptour.com/en/news/jodar-davidovich-fokina-shanghai-2026-final-preview": {
+   "h": "Shanghai : finale entre deux Espagnols qui visent leur premier grand titre",
+   "pts": [
+    "Rafael Jodar et Alejandro Davidovich Fokina s'affrontent en finale du Masters de Shanghai.",
+    "Jodar, 20 ans, a battu Medvedev en deux sets, et Davidovich Fokina a éliminé Zverev, le n°1 du tableau.",
+    "Le vainqueur gagnera son premier Masters 1000, un des 9 plus gros tournois après les Grands Chelems."
+   ],
+   "h_ar": "شنغهاي: نهائي إسباني بين لاعبين يبحثان عن أول لقب كبير",
+   "pts_ar": [
+    "يتواجه رافائيل خودار وأليخاندرو دافيدوفيتش فوكينا في نهائي ماسترز شنغهاي.",
+    "خودار (20 عاما) هزم ميدفيديف في مجموعتين، ودافيدوفيتش فوكينا أقصى زفيريف المصنف الأول.",
+    "سيحرز الفائز أول لقب ماسترز 1000، وهي من أكبر 9 بطولات في الموسم بعد الغراند سلام."
+   ]
+  },
+  "https://fr.hespress.com/492815-conseil-des-ministres-le-pouvoir-dachat-au-coeur-des-priorites-du-gouvernement.html": {
+   "h": "Budget 2027 : le gouvernement mise sur 4,7 % de croissance",
+   "pts": [
+    "Le Roi a présidé le premier Conseil des ministres du gouvernement El Mansouri, sur le budget 2027.",
+    "Prévisions : 4,7 % de croissance fin 2026, des prix qui montent d'environ 0,7 % et un déficit à 3 %.",
+    "Le déficit, c'est quand l'État dépense plus qu'il ne gagne ; la priorité affichée reste le pouvoir d'achat."
+   ],
+   "h_ar": "ميزانية 2027: الحكومة تراهن على نمو بنسبة 4,7 في المائة",
+   "pts_ar": [
+    "ترأس الملك أول مجلس وزاري لحكومة المنصوري، وخُصص لمشروع ميزانية 2027.",
+    "التوقعات: نمو 4,7 في المائة نهاية 2026، وارتفاع الأسعار بنحو 0,7 في المائة، وعجز في حدود 3 في المائة.",
+    "العجز يعني أن الدولة تنفق أكثر مما تجني، والأولوية المعلنة هي القدرة الشرائية للأسر."
+   ]
+  },
+  "https://lematin.ma/nation/lancement-du-dispositif-national-deradication-du-travail-des-enfants/370706": {
+   "h": "Travail des enfants : le Maroc lance un plan national pour y mettre fin",
+   "pts": [
+    "La Princesse Lalla Meryem a lancé à Rabat un plan national contre le travail des enfants.",
+    "Selon le HCP, environ 103 000 enfants de 7 à 17 ans travaillent encore, soit 1,3 %, surtout à la campagne.",
+    "Ce chiffre a baissé de plus de 80 % depuis 1999 ; le plan sera testé puis étendu à tout le pays."
+   ],
+   "h_ar": "تشغيل الأطفال: المغرب يطلق خطة وطنية للقضاء عليه",
+   "pts_ar": [
+    "أطلقت الأميرة للا مريم بالرباط خطة وطنية لمحاربة تشغيل الأطفال.",
+    "حسب المندوبية السامية للتخطيط، ما زال نحو 103 آلاف طفل بين 7 و17 سنة يشتغلون، أغلبهم في القرى.",
+    "تراجع هذا الرقم بأكثر من 80 في المائة منذ 1999، وستُجرَّب الخطة قبل تعميمها على كل البلاد."
+   ]
+  },
+  "https://medias24.com/2026/10/16/traite-humaine-et-trafic-de-migrants-1-600-reseaux-demanteles-en-cinq-ans-un-lourd-bilan-1780369/": {
+   "h": "Trafic de migrants : près de 1 600 réseaux démantelés au Maroc en cinq ans",
+   "pts": [
+    "Un rapport national présenté à Rabat fait le bilan de la lutte contre le trafic de personnes.",
+    "Entre 2021 et 2025 : 1 597 réseaux démantelés, 774 personnes condamnées et 988 victimes identifiées.",
+    "Cela fait environ 320 réseaux par an ; le Maroc suit un plan national contre ces trafics jusqu'en 2030."
+   ],
+   "h_ar": "تهريب المهاجرين: تفكيك قرابة 1600 شبكة بالمغرب في خمس سنوات",
+   "pts_ar": [
+    "قُدم بالرباط تقرير وطني يرصد حصيلة محاربة تهريب البشر والاتجار بهم.",
+    "بين 2021 و2025: تفكيك 1597 شبكة، وإدانة 774 شخصا، والتعرف على 988 ضحية.",
+    "أي نحو 320 شبكة في السنة، ويطبق المغرب خطة وطنية لمحاربة هذه الجرائم إلى غاية 2030."
+   ]
+  },
+  "https://medias24.com/2026/10/16/devant-le-conseil-de-securite-de-mistura-place-lautonomie-au-centre-du-jeu-et-precise-les-conditions-dun-eventuel-compromis-1780523/": {
+   "h": "Sahara : l'envoyé de l'ONU place l'autonomie au cœur des négociations",
+   "pts": [
+    "Staffan de Mistura a demandé au Conseil de sécurité de partir de l'autonomie pour les prochaines discussions.",
+    "Il juge le projet marocain de 39 pages solide pour négocier, mais pas encore prêt à être adopté.",
+    "L'autonomie veut dire qu'une région gère certaines affaires elle-même tout en restant dans le pays."
+   ],
+   "h_ar": "الصحراء: المبعوث الأممي يضع الحكم الذاتي في قلب المفاوضات",
+   "pts_ar": [
+    "طلب ستافان دي ميستورا من مجلس الأمن اعتماد الحكم الذاتي أساسا للمفاوضات المقبلة.",
+    "يرى أن المشروع المغربي المكون من 39 صفحة أساس متين للتفاوض، لكنه غير جاهز بعد للاعتماد.",
+    "الحكم الذاتي يعني أن تسير جهة بعض شؤونها بنفسها مع بقائها جزءا من الدولة."
+   ]
+  },
+  "https://medias24.com/2026/10/16/cannabis-medical-trois-medicaments-de-fm6ss-sothema-obtiennent-leur-amm-1780751/": {
+   "h": "Cannabis médical : trois médicaments marocains contre l'épilepsie autorisés",
+   "pts": [
+    "Trois médicaments à base de cannabis, créés par la FM6SS et Sothema, ont reçu le feu vert officiel.",
+    "Ils visent l'épilepsie, une maladie du cerveau qui cause des crises, et s'ajoutent à un premier créé en 2024.",
+    "Ils peuvent désormais être vendus, mais aucun de ces médicaments n'est encore en pharmacie au Maroc."
+   ],
+   "h_ar": "القنب الطبي: الترخيص لثلاثة أدوية مغربية لعلاج الصرع",
+   "pts_ar": [
+    "حصلت ثلاثة أدوية من القنب، طورتها مؤسسة محمد السادس للعلوم والصحة ومختبر سوطيما، على الترخيص.",
+    "تعالج الصرع، وهو مرض في الدماغ يسبب نوبات متكررة، وتنضاف إلى دواء أول طُور سنة 2024.",
+    "صار بيعها مسموحا، لكن لا يوجد أي من هذه الأدوية بعد في صيدليات المغرب."
+   ]
+  },
+  "https://www.footmercato.net/a8597321365324438984-liga-porte-par-lamine-yamal-le-barca-colle-5-buts-au-betis-avant-le-psg": {
+   "h": "Liga : le Barça bat le Betis 5-2, Ezzalzouli marque contre son ancien club",
+   "pts": [
+    "Porté par Lamine Yamal, buteur dès la 10e minute, le FC Barcelone a battu le Betis 5-2.",
+    "Le Marocain Abde Ezzalzouli a marqué le 2e but du Betis, qui a fini à dix après un carton rouge.",
+    "Le Barça a gagné ses 11 matchs de la saison et reçoit le PSG mardi en Ligue des champions."
+   ],
+   "h_ar": "الليغا: برشلونة يهزم بيتيس 5-2 والزلزولي يسجل في مرمى فريقه السابق",
+   "pts_ar": [
+    "بقيادة لامين يامال الذي سجل منذ الدقيقة العاشرة، فاز برشلونة على بيتيس 5-2.",
+    "سجل المغربي عبد الصمد الزلزولي الهدف الثاني لبيتيس الذي أنهى اللقاء بعشرة لاعبين بعد طرد.",
+    "فاز برشلونة في مبارياته الـ11 هذا الموسم، ويستقبل باريس سان جيرمان الثلاثاء في دوري الأبطال."
+   ]
+  },
+  "https://sports.yahoo.com/articles/manchester-city-3-2-ipswich-163500507.html": {
+   "h": "Premier League : Haaland marque deux fois, City bat Ipswich 3-2",
+   "pts": [
+    "Manchester City a battu Ipswich 3-2 grâce à un but de Phil Foden et deux buts d'Erling Haaland.",
+    "C'est la 7e victoire en 7 matchs de championnat pour City, malgré un penalty d'Ipswich en fin de match.",
+    "Avec Enzo Maresca comme entraîneur, City n'a encore perdu aucun point cette saison."
+   ],
+   "h_ar": "الدوري الإنجليزي: هالاند يسجل هدفين والسيتي يهزم إبسويتش 3-2",
+   "pts_ar": [
+    "فاز مانشستر سيتي على إبسويتش 3-2 بهدف لفيل فودن وهدفين لإرلينغ هالاند.",
+    "إنه الفوز السابع في 7 مباريات بالدوري للسيتي، رغم ضربة جزاء لإبسويتش في آخر المباراة.",
+    "مع مدربه إنزو ماريسكا، لم يضيع السيتي أي نقطة بعد هذا الموسم."
+   ]
+  },
+  "https://sport.le360.ma/coupe-du-monde/mondial-feminin-u17-les-lioncelles-de-latlas-reussissent-leur-entree-face-a-la-nouvelle-zelande_2HN4AKSW4RAZHLYLA5LSOX7BRA/": {
+   "h": "Mondial U17 féminin : le Maroc bat la Nouvelle-Zélande 4-0 à Rabat",
+   "pts": [
+    "Les Lioncelles de l'Atlas ont gagné 4-0 le match d'ouverture du Mondial des moins de 17 ans.",
+    "Sonia Abajiou, Imane Dhissi et Hiba Youssoufi, sur penalty, ont marqué, avec un but contre son camp.",
+    "Le Maroc organise ce Mondial à Rabat et joue contre l'Allemagne mardi 20 octobre."
+   ],
+   "h_ar": "مونديال الناشئات: المغرب يهزم نيوزيلندا 4-0 بالرباط",
+   "pts_ar": [
+    "فازت لبؤات الأطلس الصغيرات 4-0 في المباراة الافتتاحية لكأس العالم لأقل من 17 سنة.",
+    "سجلت سونيا أبجيو وإيمان الضيسي وهبة اليوسفي من ضربة جزاء، إضافة إلى هدف ضد المرمى.",
+    "يحتضن المغرب هذا المونديال بالرباط، ويواجه المنتخب ألمانيا يوم الثلاثاء 20 أكتوبر."
+   ]
+  },
+  "https://www.worldboxingnews.com/daniel-dubois-brutalizes-fabio-wardley/": {
+   "h": "Boxe : Daniel Dubois bat Wardley en deux rounds et garde son titre",
+   "pts": [
+    "À Londres, Daniel Dubois a battu Fabio Wardley dès le 2e round de leur deuxième combat.",
+    "Il l'a envoyé au sol dès les premières secondes, puis l'équipe de Wardley a arrêté le combat.",
+    "Dubois reste champion du monde WBO des lourds, après une première victoire plus difficile au 11e round."
+   ],
+   "h_ar": "ملاكمة: دانيال دوبوا يهزم واردلي في جولتين ويحتفظ بلقبه",
+   "pts_ar": [
+    "في لندن، هزم دانيال دوبوا فابيو واردلي في الجولة الثانية من نزالهما الثاني.",
+    "أسقطه أرضا في الثواني الأولى، ثم أوقف فريق واردلي النزال لحمايته.",
+    "يحتفظ دوبوا بلقب WBO للوزن الثقيل، بعد فوز أول أصعب في الجولة 11."
+   ]
+  },
+  "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017": {
+   "h": "IA : DeepSeek publie une version plus rapide de son modèle Flash",
+   "pts": [
+    "La société chinoise DeepSeek a publié une mise à jour de son modèle d'IA ouvert, V4.1-Flash.",
+    "Elle annonce des progrès en raisonnement et en code, avec des réponses plus courtes et plus rapides.",
+    "Le modèle est ouvert : tout le monde peut le télécharger et l'utiliser librement."
+   ],
+   "h_ar": "ذكاء اصطناعي: ديب سيك تنشر نسخة أسرع من نموذجها Flash",
+   "pts_ar": [
+    "نشرت الشركة الصينية ديب سيك تحديثا لنموذجها المفتوح للذكاء الاصطناعي V4.1-Flash.",
+    "تعلن عن تحسن في الاستدلال والبرمجة، مع أجوبة أقصر وأسرع.",
+    "النموذج مفتوح، أي يمكن لأي شخص تحميله واستعماله بحرية."
+   ]
+  },
+  "https://www.thestar.com.my/tech/tech-news/2026/10/17/anthropic-signs-lease-for-first-canadian-data-center": {
+   "h": "Anthropic loue son premier centre de données au Canada",
+   "pts": [
+    "Anthropic, qui crée l'IA Claude, a signé un bail pour un centre de données en Nouvelle-Écosse.",
+    "Le propriétaire, EverWind, prévoit plus de 10 milliards de dollars canadiens pour ce site et des éoliennes.",
+    "Un centre de données est un grand bâtiment plein d'ordinateurs ; l'IA en a besoin pour fonctionner."
+   ],
+   "h_ar": "أنثروبيك تكتري أول مركز بيانات لها في كندا",
+   "pts_ar": [
+    "وقعت أنثروبيك، مطورة Claude، عقد كراء لمركز بيانات في مقاطعة نوفا سكوشا الكندية.",
+    "تعتزم الشركة المالكة EverWind استثمار أكثر من 10 مليارات دولار كندي في الموقع وفي طاقة الرياح.",
+    "مركز البيانات مبنى كبير مليء بالحواسيب، والذكاء الاصطناعي يحتاجه ليشتغل."
+   ]
+  },
+  "https://www.anthropic.com/research/employment-at-anthropic": {
+   "h": "Chez Anthropic, l'IA fait baisser l'embauche de jeunes ingénieurs",
+   "pts": [
+    "Anthropic a étudié l'effet de l'IA sur ses propres équipes depuis début 2025.",
+    "Les débutants ne sont plus que 9 % des embauches techniques, contre 27 % avant.",
+    "Les ingénieurs écrivent environ 5 fois plus de code, et c'est l'attention humaine qui devient la limite."
+   ],
+   "h_ar": "في أنثروبيك: الذكاء الاصطناعي يقلص توظيف المهندسين المبتدئين",
+   "pts_ar": [
+    "درست أنثروبيك أثر الذكاء الاصطناعي على فرقها منذ بداية 2025.",
+    "لم يعد المبتدئون يمثلون سوى 9 في المائة من التوظيفات التقنية، مقابل 27 في المائة سابقا.",
+    "ينتج المهندسون نحو خمسة أضعاف الشيفرة، وصار انتباه البشر هو العائق الأساسي."
+   ]
+  },
+  "https://www.aljazeera.com/news/2026/10/17/trump-eases-russia-oil-sanctions-but-is-europe-still-buying-moscows-gas": {
+   "h": "Pétrole russe : Trump met en pause des sanctions votées par le Congrès",
+   "pts": [
+    "Donald Trump a signé un décret qui suspend de nouvelles sanctions (des punitions) contre la Russie.",
+    "Elles prévoyaient des taxes jusqu'à 100 % sur les produits des pays qui achètent son pétrole et son gaz.",
+    "Une taxe de 100 % double le prix d'un produit importé ; le décret bloque ces mesures du Congrès."
+   ],
+   "h_ar": "النفط الروسي: ترامب يعلق عقوبات صوت عليها الكونغرس",
+   "pts_ar": [
+    "وقع دونالد ترامب مرسوما يعلق عقوبات جديدة على روسيا كان الكونغرس قد صوت عليها.",
+    "كانت تنص على رسوم تصل إلى 100 في المائة على سلع الدول التي تشتري النفط والغاز الروسيين.",
+    "رسم بنسبة 100 في المائة يضاعف ثمن السلعة المستوردة، والمرسوم يوقف هذه الإجراءات حاليا."
+   ]
+  },
+  "https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-insists-the-rtx-5090-isnt-dead-despite-severe-shortages-and-removed-listings-at-multiple-retailers-flagship-gpu-is-missing-from-nvidias-store-and-commands-usd8-500-on-amazon": {
+   "h": "Nvidia assure que la RTX 5090 n'est pas arrêtée, malgré la pénurie",
+   "pts": [
+    "Un dirigeant de Nvidia dément l'arrêt de la RTX 5090, sa carte graphique la plus puissante.",
+    "La carte a disparu de plusieurs magasins et se vend environ 8 500 dollars chez des vendeurs sur Amazon.",
+    "Selon des rumeurs, Nvidia préfère fabriquer des puces pour l'IA, plus rentables, que des cartes pour les jeux."
+   ],
+   "h_ar": "إنفيديا تؤكد أن RTX 5090 لم تتوقف رغم ندرتها",
+   "pts_ar": [
+    "نفى مسؤول في إنفيديا توقف إنتاج RTX 5090، أقوى بطاقة رسوميات لديها.",
+    "اختفت البطاقة من عدة متاجر وتباع بنحو 8500 دولار لدى بائعين على أمازون.",
+    "حسب شائعات، تفضل إنفيديا صنع رقائق الذكاء الاصطناعي الأكثر ربحا بدل بطاقات الألعاب."
+   ]
+  },
+  "https://www.jeuxvideo.com/news/2109500/baldur-s-gate-4-est-deja-dans-la-panade-apres-les-refus-des-studios-de-le-developper-les-ayants-droits-forces-de-reprendre-les-choses-en-mains.htm": {
+   "h": "Baldur's Gate 4 : refusé par les grands studios, Hasbro le fera lui-même",
+   "pts": [
+    "Larian et d'autres grands studios ont refusé de développer Baldur's Gate 4.",
+    "Hasbro et Wizards of the Coast ouvrent donc un studio à Montréal, avec 200 développeurs visés en deux ans.",
+    "Larian, créateur du très populaire Baldur's Gate 3, préfère se consacrer à ses propres projets."
+   ],
+   "h_ar": "Baldur's Gate 4: بعد رفض كبار الاستوديوهات، هاسبرو ستطورها بنفسها",
+   "pts_ar": [
+    "رفضت لاريان واستوديوهات كبرى أخرى تطوير لعبة Baldur's Gate 4.",
+    "لذلك تفتح هاسبرو وويزاردز أوف ذا كوست استوديو في مونتريال يستهدف 200 مطور خلال سنتين.",
+    "تفضل لاريان، صاحبة Baldur's Gate 3 الناجحة جدا، التفرغ لمشاريعها الخاصة."
+   ]
+  },
+  "https://www.jeuxvideo.com/news/2109228/crimson-desert-le-studio-reconnait-s-etre-plante-et-fait-un-mea-culpa.htm": {
+   "h": "Crimson Desert : le studio reconnaît ses erreurs, le jeu dépasse 6 millions",
+   "pts": [
+    "Pearl Abyss admet que la presse a testé Crimson Desert dans une version différente du jeu vendu.",
+    "Le jeu a obtenu 77 de moyenne dans la presse, mais 82 % d'avis positifs chez les joueurs sur Steam.",
+    "Il s'est vendu à plus de 6 millions d'exemplaires, et une version Switch 2 est prévue en 2027."
+   ],
+   "h_ar": "Crimson Desert: الاستوديو يعترف بأخطائه واللعبة تتجاوز 6 ملايين نسخة",
+   "pts_ar": [
+    "تعترف Pearl Abyss بأن الصحافة جربت Crimson Desert في نسخة مختلفة عن اللعبة المبيعة.",
+    "حصلت اللعبة على معدل 77 لدى الصحافة، لكن 82 في المائة من تقييمات اللاعبين على Steam إيجابية.",
+    "بيع منها أكثر من 6 ملايين نسخة، ونسخة Switch 2 مرتقبة سنة 2027."
+   ]
+  },
+  "https://www.aljazeera.com/news/2026/10/17/thousands-rally-for-biggest-protest-in-years-against-tunisias-saied": {
+   "h": "Tunisie : la plus grande manifestation depuis des années contre Saïed",
+   "pts": [
+    "Des milliers de Tunisiens ont défilé samedi à Tunis contre le président Kaïs Saïed.",
+    "Plus de 3 000 personnes selon l'AFP, contre la vie chère et les limites aux libertés.",
+    "Le grand syndicat UGTT menait le cortège et demandait la libération des opposants emprisonnés."
+   ],
+   "h_ar": "تونس: أكبر مظاهرة منذ سنوات ضد الرئيس قيس سعيد",
+   "pts_ar": [
+    "خرج آلاف التونسيين يوم السبت في مسيرة بالعاصمة ضد الرئيس قيس سعيد.",
+    "أكثر من 3000 شخص حسب وكالة الأنباء الفرنسية، احتجاجا على غلاء المعيشة والتضييق على الحريات.",
+    "قاد الاتحاد العام التونسي للشغل المسيرة وطالب بالإفراج عن المعارضين المعتقلين."
+   ]
+  },
+  "https://www.aljazeera.com/economy/2026/10/17/egypts-sisi-seeks-authorisation-for-defence-assistance-to-saudi-arabia": {
+   "h": "Égypte : Sissi veut pouvoir aider militairement l'Arabie saoudite",
+   "pts": [
+    "Le président égyptien Sissi a demandé une réunion d'urgence du Parlement.",
+    "But : pouvoir répondre à une demande d'aide militaire saoudienne, après 14 morts à l'aéroport de Riyad.",
+    "Ces attaques viennent des Houthis du Yémen, soutenus par l'Iran ; Sissi parle d'une aide seulement défensive."
+   ],
+   "h_ar": "مصر: السيسي يريد إمكانية مساعدة السعودية عسكريا",
+   "pts_ar": [
+    "طلب الرئيس المصري عبد الفتاح السيسي عقد جلسة طارئة للبرلمان.",
+    "الهدف: الاستجابة لأي طلب مساعدة عسكرية سعودي، بعد مقتل 14 شخصا في هجمات على مطار الرياض.",
+    "تأتي هذه الهجمات من الحوثيين في اليمن المدعومين من إيران، ويؤكد السيسي أن المساعدة دفاعية فقط."
+   ]
+  },
+  "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227702.html": {
+   "h": "The Batman Part II : Steven Soderbergh vient terminer le tournage",
+   "pts": [
+    "Le réalisateur Steven Soderbergh va diriger les dernières semaines de tournage de The Batman Part II.",
+    "Le tournage à Londres était arrêté depuis début octobre, Matt Reeves étant absent pour raisons familiales.",
+    "Matt Reeves reste sur le film et reviendra pour le montage ; la sortie est prévue en février 2028."
+   ],
+   "h_ar": "The Batman Part II: ستيفن سودربرغ ينضم لإنهاء التصوير",
+   "pts_ar": [
+    "سيتولى المخرج ستيفن سودربرغ إدارة الأسابيع الأخيرة من تصوير The Batman Part II.",
+    "توقف التصوير في لندن منذ مطلع أكتوبر بسبب غياب مات ريفز لأسباب عائلية.",
+    "يبقى مات ريفز مخرج الفيلم وسيعود للمونتاج، والعرض مرتقب في فبراير 2028."
+   ]
+  },
+  "https://www.allocine.fr/article/fichearticle_gen_carticle=1000227797.html": {
+   "h": "Dune : Troisième partie dévoile de nouvelles images avant décembre",
+   "pts": [
+    "Le magazine Empire a publié de nouvelles photos de Dune : Troisième partie, de Denis Villeneuve.",
+    "Le film, avec Timothée Chalamet et Zendaya, sort le 16 décembre 2026, le même jour qu'Avengers: Doomsday.",
+    "Dernier film de la trilogie, 17 ans après l'histoire du 2e ; les deux premiers ressortent le 11 novembre."
+   ],
+   "h_ar": "Dune: الجزء الثالث يكشف صورا جديدة قبل عرضه في دجنبر",
+   "pts_ar": [
+    "نشرت مجلة Empire صورا جديدة من فيلم Dune: الجزء الثالث لدوني فيلنوف.",
+    "الفيلم من بطولة تيموثي شالاميه وزندايا، ويُعرض يوم 16 دجنبر 2026 مع Avengers: Doomsday.",
+    "إنه آخر أجزاء الثلاثية، وتدور قصته بعد 17 سنة، ويعود الفيلمان الأولان للقاعات يوم 11 نونبر."
+   ]
+  },
   "https://www.nngroup.com/articles/ai-assistant-context/": {
    "h": "Nouveau Siri : il gagne grâce à vos données, pas à son intelligence",
    "pts": [
@@ -56,62 +350,6 @@
     "يهم هذا الوضع قرابة نصف مدارس مونتيسوري العمومية في البلاد، ومن هنا أهميته."
    ]
   },
-  "https://fr.hespress.com/492419-le-maroc-designe-deuxieme-vice-president-du-g-24.html": {
-   "h": "Le Maroc devient deuxième vice-président du G-24",
-   "pts": [
-    "Le G-24 réunit des pays en développement qui accordent leurs positions sur la finance mondiale.",
-    "Le Maroc prend ce poste le 1er novembre 2026 et devrait présider le groupe en 2028.",
-    "Il pourra mieux défendre les priorités des pays en développement auprès des grandes institutions."
-   ],
-   "h_ar": "المالية العالمية: المغرب نائبا ثانيا لرئيس مجموعة الـ24",
-   "pts_ar": [
-    "تضم مجموعة الـ24 دولا نامية تنسق مواقفها حول المالية العالمية.",
-    "يتولى المغرب هذا المنصب في فاتح نونبر 2026، ويُنتظر أن يترأس المجموعة سنة 2028.",
-    "سيتمكن بذلك من الدفاع بشكل أقوى عن أولويات الدول النامية أمام المؤسسات الكبرى."
-   ]
-  },
-  "https://fr.hespress.com/492482-la-position-exterieure-globale-nationale-affiche-une-situation-nette-debitrice-de-7918-mmdh-en-2025.html": {
-   "h": "Le Maroc doit plus à l'étranger qu'il n'y possède : 791,8 milliards DH",
-   "pts": [
-    "Fin 2025, ce que les étrangers ont ou prêtent au Maroc dépasse de 791,8 milliards DH ses avoirs dehors.",
-    "Cet écart a grandi de 81,1 milliards en un an, selon l'Office des changes.",
-    "La hausse vient surtout des entreprises étrangères qui investissent au Maroc : +16 % en un an."
-   ],
-   "h_ar": "ما يدين به المغرب للخارج يفوق ما يملكه فيه بـ791,8 مليار درهم",
-   "pts_ar": [
-    "نهاية 2025، ما يملكه الأجانب في المغرب أو يقرضونه له يفوق ما يملكه المغرب بالخارج بـ791,8 مليار درهم.",
-    "ارتفع هذا الفرق بـ81,1 مليار درهم في سنة واحدة، حسب مكتب الصرف.",
-    "يعود الارتفاع أساسا إلى استثمارات الشركات الأجنبية في المغرب التي زادت بـ16 في المائة."
-   ]
-  },
-  "https://fr.hespress.com/492369-couverture-sanitaire-des-fragilites-financieres-menacent-la-perennite-de-certains-regimes.html": {
-   "h": "Assurance maladie : alerte sur l'argent de certaines caisses au Maroc",
-   "pts": [
-    "Le patron de l'ACAPS, qui surveille les assurances, alerte sur certaines caisses de santé.",
-    "La couverture santé est passée d'environ 40 % à 80 % de la population marocaine.",
-    "Mais plus d'assurés ne veut pas dire que chaque caisse aura assez d'argent pour durer."
-   ],
-   "h_ar": "التأمين الصحي: تنبيه إلى الوضع المالي لبعض الصناديق بالمغرب",
-   "pts_ar": [
-    "نبه رئيس هيئة مراقبة التأمينات إلى هشاشة بعض صناديق التأمين الصحي.",
-    "ارتفعت التغطية الصحية من حوالي 40% إلى 80% من سكان المغرب.",
-    "لكن ارتفاع عدد المؤمَّنين لا يعني أن كل صندوق سيملك ما يكفي من المال ليستمر."
-   ]
-  },
-  "https://fr.hespress.com/492355-cannabis-legal-1-100-hectares-recoltes-et-pres-de-1-500-autorisations-retirees-pour-non-respect-des-procedures.html": {
-   "h": "Cannabis légal : 1 490 autorisations retirées pour règles non respectées",
-   "pts": [
-    "L'agence du cannabis légal a retiré 1 490 autorisations, surtout à des agriculteurs.",
-    "1 100 hectares sont déjà récoltés, soit environ 1 500 terrains de football.",
-    "Le message est clair : cultiver légalement oblige à suivre les règles, sinon on perd son droit."
-   ],
-   "h_ar": "القنب الهندي المشروع: سحب 1490 ترخيصا بسبب خرق القواعد",
-   "pts_ar": [
-    "سحبت وكالة القنب الهندي المشروع 1490 ترخيصا، أغلبها من فلاحين.",
-    "تم حصاد 1100 هكتار حتى الآن، أي ما يعادل نحو 1500 ملعب كرة قدم.",
-    "الرسالة واضحة: الزراعة القانونية تفرض احترام القواعد، وإلا يُسحب الترخيص."
-   ]
-  },
   "https://tennistonic.com/tennis-news/1066626/rafael-jodar-ousts-medvedev-in-the-semifinal-shanghai-results-highlights/": {
    "h": "Shanghai : Rafael Jodar bat Medvedev et va en finale",
    "pts": [
@@ -138,20 +376,6 @@
     "فاز تشيلسي على إيفرتون 2-0 يوم السبت في ملعب إيفرتون.",
     "سجل بيدرو نيتو الهدفين معا، في الدقيقة 47 ثم في الدقيقة 90.",
     "إنها أول هزيمة لإيفرتون في الدوري منذ بداية هذا الموسم."
-   ]
-  },
-  "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-celtics-preseason-live-updates-lebron-james/759087/": {
-   "h": "NBA : LeBron James débute à domicile avec Philadelphie, battu par Boston",
-   "pts": [
-    "En match de préparation, Boston a battu Philadelphie 125-120 après prolongation.",
-    "LeBron James a fini avec 8 points, 8 rebonds et 7 passes ; Joel Embiid a marqué 27 points.",
-    "Philadelphie lance sa vraie saison mardi 20 octobre à New York, contre les Knicks."
-   ],
-   "h_ar": "الدوري الأمريكي: أول مباراة لليبرون جيمس على أرض فيلادلفيا تنتهي بخسارة",
-   "pts_ar": [
-    "في مباراة إعدادية، فاز بوسطن على فيلادلفيا 125-120 بعد وقت إضافي.",
-    "أنهى ليبرون جيمس اللقاء بـ8 نقاط و8 متابعات و7 تمريرات، وسجل جويل إمبيد 27 نقطة.",
-    "يبدأ فيلادلفيا الموسم الرسمي يوم الثلاثاء 20 أكتوبر في نيويورك أمام نيكس."
    ]
   },
   "https://www.coindesk.com/tech/2026/10/17/wow-it-s-a-real-discovery-claude-cracks-a-25-year-nsa-number-mystery": {
@@ -210,20 +434,6 @@
     "سيضطر بعض المشترين إلى الانتظار حتى نهاية يناير لتسلّم هواتفهم."
    ]
   },
-  "https://www.pcgamer.com/movies-tv/the-cyberpunk-2077-movie-wont-be-a-film-adaptation-of-the-game-cd-projekt-chief-says/": {
-   "h": "Le film Cyberpunk avec Paramount racontera une nouvelle histoire",
-   "pts": [
-    "CD Projekt confirme un film Cyberpunk avec Paramount, tourné avec de vrais acteurs.",
-    "Il ne reprendra pas l'histoire du jeu, mais se passera dans le même univers.",
-    "En attendant, la série animée Cyberpunk: Edgerunners 2 arrive sur Netflix le 20 octobre."
-   ],
-   "h_ar": "فيلم «سايبربانك» مع باراماونت سيروي قصة جديدة",
-   "pts_ar": [
-    "أكدت CD Projekt إنتاج فيلم «سايبربانك» مع باراماونت بممثلين حقيقيين.",
-    "لن يعيد الفيلم قصة اللعبة، لكن أحداثه ستدور في العالم نفسه.",
-    "وفي الانتظار، يصل مسلسل الرسوم «سايبربانك: إدجرانرز 2» إلى نتفليكس يوم 20 أكتوبر."
-   ]
-  },
   "https://www.aljazeera.com/features/2026/10/17/israeli-raids-and-arrests-in-southern-syria-push-population-to-the-brink": {
    "h": "Sud de la Syrie : les raids israéliens épuisent les habitants",
    "pts": [
@@ -236,20 +446,6 @@
     "لا يزال 51 سوريا على الأقل محتجزين في إسرائيل، حسب الجزيرة.",
     "أحصى مركز محلي 280 خرقا إسرائيليا لاتفاق 1974 خلال شتنبر وحده.",
     "كان هذا الاتفاق يفصل بين الجيشين منذ حرب 1973، والقذائف تسقط على الحقول شبه يوميا."
-   ]
-  },
-  "https://www.aljazeera.com/news/2026/10/16/italy-probes-israels-katz-over-abuse-sexual-assault-of-flotilla-activists": {
-   "h": "Flottille pour Gaza : la justice italienne enquête sur le ministre Katz",
-   "pts": [
-    "Les juges de Rome visent le ministre israélien de la Défense, Israel Katz, et 12 hauts responsables.",
-    "L'enquête porte sur des faits de torture et d'enlèvement, après les plaintes de 50 Italiens.",
-    "Ces Italiens avaient été arrêtés par Israël sur des bateaux qui voulaient briser le blocus de Gaza."
-   ],
-   "h_ar": "أسطول غزة: القضاء الإيطالي يحقق مع الوزير الإسرائيلي كاتس",
-   "pts_ar": [
-    "تستهدف النيابة العامة في روما وزير الدفاع الإسرائيلي يسرائيل كاتس و12 مسؤولا كبيرا.",
-    "يتعلق التحقيق بتهم التعذيب والاختطاف، بعد شكاوى قدمها 50 إيطاليا.",
-    "كانت إسرائيل قد اعتقلت هؤلاء على متن سفن أرادت كسر الحصار على غزة."
    ]
   },
   "https://www.aljazeera.com/news/2026/10/17/the-israeli-politicians-seeking-to-replace-netanyahu": {
@@ -280,34 +476,6 @@
     "يُتوقع أن يحتل الصدارة رغم آراء نقدية غير مشجعة، متقدما على فيلم وثائقي."
    ]
   },
-  "https://fr.le360.ma/societe/echec-de-la-strategie-nationale-anticorruption-le-bilan-sans-concession-de-mohamed-benalilou_YSFESZVCMNCRHL4WO6OUN5PKAE/": {
-   "h": "Corruption : le plan national n'a réalisé que la moitié de ses projets",
-   "pts": [
-    "Le plan de l'État contre la corruption, lancé en 2015, a coûté environ 1,8 milliard de dirhams.",
-    "Seuls 54 % des projets sont terminés, 14 % n'ont jamais commencé, selon l'instance anticorruption.",
-    "Le gouvernement annonçait 76 % : l'écart montre que la lutte contre la corruption reste en retard."
-   ],
-   "h_ar": "الفساد: المخطط الوطني لم ينجز سوى نصف مشاريعه",
-   "pts_ar": [
-    "كلّفت خطة الدولة لمحاربة الفساد، التي انطلقت سنة 2015، نحو 1,8 مليار درهم.",
-    "لم يُنجز سوى 54% من المشاريع، و14% لم تنطلق قط، حسب هيئة محاربة الرشوة.",
-    "كانت الحكومة تعلن 76%، والفرق يبين أن محاربة الفساد ما زالت متأخرة."
-   ]
-  },
-  "https://fr.le360.ma/politique/la-defense-au-menu-dune-visite-dune-delegation-du-congres-americain-conduite-par-mike-rogers_6RPGMAVHCVAILASNAFKFFEBEGA/": {
-   "h": "Défense : des élus du Congrès américain reçus à Rabat",
-   "pts": [
-    "Le ministre Abdeltif Loudyi a reçu une délégation du Congrès américain menée par Mike Rogers.",
-    "Ils ont parlé du plan militaire 2026-2036 et du grand exercice annuel African Lion.",
-    "La coopération doit aussi toucher l'industrie de défense, l'espace et la protection informatique."
-   ],
-   "h_ar": "الدفاع: استقبال وفد من الكونغرس الأمريكي بالرباط",
-   "pts_ar": [
-    "استقبل الوزير عبد اللطيف لوديي وفدا من الكونغرس الأمريكي يقوده مايك روجرز.",
-    "تناول اللقاء خارطة الطريق العسكرية 2026-2036 ومناورات الأسد الإفريقي السنوية.",
-    "ويشمل التعاون أيضا الصناعة الدفاعية والفضاء وحماية الحواسيب والشبكات."
-   ]
-  },
   "https://fr.hespress.com/492757-prescolaire-et-decrochage-les-dossiers-qui-attendent-kamal-hachoumi.html": {
    "h": "Kamal Hachoumi nommé ministre délégué contre l'abandon scolaire",
    "pts": [
@@ -336,20 +504,6 @@
     "ارتفع مجموع الصادرات بـ3% إلى 470 مليار درهم، مما يُدخل مزيدا من العملة الصعبة."
    ]
   },
-  "https://medias24.com/2026/10/16/foncier-industriel-jorf-sagrandit-bouknadel-accueille-une-nouvelle-zone-1780217/": {
-   "h": "Zones industrielles : Jorf s'agrandit, nouvelle zone à Bouknadel",
-   "pts": [
-    "Deux décrets agrandissent la zone industrielle de Jorf, près d'El Jadida, à environ 502 hectares.",
-    "Ils créent aussi Bouknadel 2, une zone de 42,64 hectares près de Salé.",
-    "Ces zones offrent des avantages fiscaux pour attirer des usines, donc des emplois."
-   ],
-   "h_ar": "المناطق الصناعية: توسيع منطقة الجرف وإحداث منطقة ببوقنادل",
-   "pts_ar": [
-    "وسّع مرسومان منطقة التسريع الصناعي بالجرف قرب الجديدة إلى نحو 502 هكتار.",
-    "كما أحدثا منطقة بوقنادل 2 بمساحة 42,64 هكتارا قرب سلا.",
-    "تمنح هذه المناطق امتيازات ضريبية لجذب المصانع، وبالتالي فرص الشغل."
-   ]
-  },
   "https://www.malaymail.com/news/sports/2026/10/17/world-no-26-davidovich-fokina-refuses-to-fold-and-stuns-zverev-in-shanghai-semi-final/239502": {
    "h": "Shanghai : Davidovich Fokina élimine Zverev, le favori",
    "pts": [
@@ -364,118 +518,6 @@
     "حقق تسعة انتصارات متتالية في الصين وسيلعب النهائي يوم الأحد."
    ]
   },
-  "https://tmspn.com/wizards-face-injury-scare-as-no-1-overall-pick-aj-dybantsa-exits-preseason-finale/": {
-   "h": "NBA : AJ Dybantsa, premier choix de la draft, se tord la cheville",
-   "pts": [
-    "AJ Dybantsa, premier jeune joueur choisi en 2026, s'est tordu la cheville gauche.",
-    "Il avait marqué 12 points en 15 minutes avant de sortir, par précaution selon Washington.",
-    "Aucune date de retour n'est donnée : sa présence pour le début de saison reste incertaine."
-   ],
-   "h_ar": "الدوري الأمريكي: إيه جي ديبانتسا، الاختيار الأول، يصاب في الكاحل",
-   "pts_ar": [
-    "أصيب إيه جي ديبانتسا، أول لاعب شاب يتم اختياره سنة 2026، بالتواء في كاحله الأيسر.",
-    "كان قد سجل 12 نقطة في 15 دقيقة قبل خروجه احتياطيا حسب فريق واشنطن.",
-    "لم يُحدد موعد لعودته، لذلك تبقى مشاركته في بداية الموسم غير مؤكدة."
-   ]
-  },
-  "https://www.si.com/soccer/real-betis-vs-barcelona-preview-predictions-lineups-10-17-26": {
-   "h": "Liga : le Barça, invaincu, défie le Betis pour un départ record",
-   "pts": [
-    "Le Barça, sur dix victoires de suite, joue samedi à Séville contre le Betis, 3e.",
-    "Le Betis n'a plus battu le Barça chez lui en Liga depuis la saison 2007-2008.",
-    "En gagnant, le Barça serait la 2e équipe à remporter ses neuf premiers matchs de Liga."
-   ],
-   "h_ar": "الليغا: برشلونة غير المهزوم يواجه بيتيس من أجل انطلاقة قياسية",
-   "pts_ar": [
-    "يلعب برشلونة، صاحب عشرة انتصارات متتالية، يوم السبت في إشبيلية أمام بيتيس الثالث.",
-    "لم يهزم بيتيس برشلونة على أرضه في الليغا منذ موسم 2007-2008.",
-    "في حال الفوز، سيصبح برشلونة ثاني فريق يفوز في مبارياته التسع الأولى في الليغا."
-   ]
-  },
-  "https://venturebeat.com/technology/reflections-beam-aims-to-undercut-chinese-open-models-with-fewer-tokens-not-cheaper-tokens": {
-   "h": "Beam, une IA ouverte américaine qui veut coûter moins cher",
-   "pts": [
-    "La start-up Reflection AI publie Beam, une IA que chacun peut télécharger et modifier.",
-    "Pour une même tâche, elle utilise environ trois fois moins de morceaux de texte que le chinois GLM-5.2.",
-    "Comme on paie souvent selon ce nombre, Beam veut concurrencer les modèles chinois bon marché."
-   ],
-   "h_ar": "Beam: ذكاء اصطناعي مفتوح أمريكي يريد أن يكون أقل كلفة",
-   "pts_ar": [
-    "نشرت الشركة الناشئة Reflection AI نموذج Beam، وهو ذكاء اصطناعي يمكن لأي شخص تحميله وتعديله.",
-    "للمهمة نفسها، يستعمل نحو ثلث القطع النصية التي يستعملها النموذج الصيني GLM-5.2.",
-    "ولأن الأداء يكون غالبا حسب هذا العدد، يريد Beam منافسة النماذج الصينية الرخيصة."
-   ]
-  },
-  "https://9to5google.com/2026/10/16/chatgpt-gets-deeper-google-chrome-integration-including-control-over-tabs/": {
-   "h": "ChatGPT peut désormais agir dans les onglets de Chrome",
-   "pts": [
-    "OpenAI met à jour son extension ChatGPT pour Chrome, un petit ajout au navigateur.",
-    "Elle lit les pages ouvertes, remplit des formulaires, envoie des messages et range les onglets.",
-    "OpenAI répond ainsi à Google, qui propose déjà son IA Gemini intégrée à Chrome."
-   ],
-   "h_ar": "ChatGPT أصبح قادرا على التصرف داخل علامات تبويب كروم",
-   "pts_ar": [
-    "حدّثت OpenAI إضافة ChatGPT لمتصفح كروم، وهي برنامج صغير يضاف إلى المتصفح.",
-    "تقرأ الصفحات المفتوحة وتملأ الاستمارات وترسل الرسائل وترتب علامات التبويب.",
-    "وبهذا ترد OpenAI على غوغل التي تقترح مسبقا ذكاءها Gemini مدمجا في كروم."
-   ]
-  },
-  "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471": {
-   "h": "PostgreSQL 19 retardé : l'IA a trouvé trop d'erreurs à corriger",
-   "pts": [
-    "La version 19 de PostgreSQL, logiciel très utilisé pour stocker des données, est repoussée.",
-    "Prévue fin septembre, elle arrive vers le 19 novembre, et 8 à 10 fonctions sont reportées.",
-    "Des IA qui relisent le code ont signalé plus de défauts que les humains ne pouvaient corriger à temps."
-   ],
-   "h_ar": "تأجيل PostgreSQL 19: الذكاء الاصطناعي وجد أخطاء كثيرة",
-   "pts_ar": [
-    "تأجل الإصدار 19 من PostgreSQL، وهو برنامج واسع الاستعمال لتخزين البيانات.",
-    "كان مقررا نهاية شتنبر وأصبح منتظرا حوالي 19 نونبر، مع تأجيل 8 إلى 10 وظائف.",
-    "رصدت أدوات ذكاء اصطناعي تراجع الشيفرة عيوبا أكثر مما يستطيع البشر إصلاحه في الوقت."
-   ]
-  },
-  "https://www.purexbox.com/news/2026/10/stop-the-presses-shrek-2-is-officially-being-remastered-for-xbox-series-xs": {
-   "h": "Shrek 2 revient : le jeu culte refait pour Xbox Series",
-   "pts": [
-    "Le studio Aspyr prépare une nouvelle version du jeu Shrek 2 pour Xbox Series X et S.",
-    "Le jeu sera remasterisé, c'est-à-dire refait avec de meilleurs graphismes.",
-    "Aucune date de sortie n'est encore donnée ; une période pourrait être annoncée bientôt."
-   ],
-   "h_ar": "عودة Shrek 2: اللعبة الشهيرة بنسخة جديدة على Xbox Series",
-   "pts_ar": [
-    "يحضّر استوديو Aspyr نسخة جديدة من لعبة Shrek 2 لجهازي Xbox Series X وS.",
-    "ستكون نسخة محسنة، أي لعبة قديمة أعيد إنجازها برسومات أفضل.",
-    "لم يُعلن بعد عن موعد الإصدار، وقد تُكشف فترة إصداره قريبا."
-   ]
-  },
-  "https://www.purexbox.com/news/2026/10/heres-what-the-reviews-are-saying-about-call-of-duty-modern-warfare-4s-campaign": {
-   "h": "Call of Duty Modern Warfare 4 : le mode histoire plaît aux critiques",
-   "pts": [
-    "Les premiers avis sur le mode histoire de Modern Warfare 4 sont surtout positifs.",
-    "Le grand site IGN lui donne la note de 8/10, et GameSpot 7/10.",
-    "Certains parlent du meilleur mode histoire de la série depuis des années ; sortie le 23 octobre."
-   ],
-   "h_ar": "Call of Duty Modern Warfare 4: طور القصة ينال إعجاب النقاد",
-   "pts_ar": [
-    "جاءت أولى المراجعات لطور القصة في Modern Warfare 4 إيجابية في معظمها.",
-    "منحها موقع IGN تقييم 8/10، وموقع GameSpot تقييم 7/10.",
-    "يصفها البعض بأفضل حملة في السلسلة منذ سنوات، وتصدر اللعبة يوم 23 أكتوبر."
-   ]
-  },
-  "https://www.euronews.com/2026/10/16/eu-summit-leaders-to-rally-behind-zelenskyy-amid-bitter-row-with-trump": {
-   "h": "Sommet européen : Zelensky demande 70 milliards d'euros de plus",
-   "pts": [
-    "À Bruxelles, Volodymyr Zelensky a demandé au moins 70 milliards d'euros d'aide en plus pour 2027.",
-    "C'est en plus du prêt de 90 milliards déjà prévu ; 70 milliards font environ 750 milliards de dirhams.",
-    "Les dirigeants n'ont rien décidé et demandent à la Commission européenne de chercher des solutions."
-   ],
-   "h_ar": "القمة الأوروبية: زيلينسكي يطلب 70 مليار يورو إضافية",
-   "pts_ar": [
-    "في بروكسل، طلب فولوديمير زيلينسكي 70 مليار يورو على الأقل من المساعدات الإضافية لسنة 2027.",
-    "يأتي ذلك فوق القرض المقرر بـ90 مليارا، و70 مليار يورو تعادل نحو 750 مليار درهم.",
-    "لم يتخذ القادة أي قرار، وطلبوا من المفوضية الأوروبية البحث عن حلول."
-   ]
-  },
   "https://www.newarab.com/news/drone-strike-kills-30-cattle-market-sudans-darfur": {
    "h": "Soudan : une frappe de drone tue 30 personnes sur un marché au Darfour",
    "pts": [
@@ -488,20 +530,6 @@
     "أصابت ضربة بطائرة مسيرة سوقا للماشية في نيالا بدارفور.",
     "قتلت الضربة 30 شخصا وجرحت 47 آخرين، حسب مصدر من مستشفى نيالا.",
     "تتهم قوات الدعم السريع الجيش، والحرب بينهما مستمرة منذ ثلاث سنوات ونصف."
-   ]
-  },
-  "https://www.forbes.com/sites/timlammers/2026/10/16/elizabeth-holmes-documentary-you-can-see-everything-eyes-12-million-opening-weekend/": {
-   "h": "Box-office : le documentaire sur Elizabeth Holmes vise un record",
-   "pts": [
-    "Le film suit Elizabeth Holmes, fondatrice de Theranos, juste avant son entrée en prison.",
-    "Il aurait gagné 5,3 millions de dollars vendredi, et 12 millions sont attendus sur le week-end.",
-    "Ce serait le meilleur démarrage d'un documentaire non musical depuis dix ans."
-   ],
-   "h_ar": "شباك التذاكر: الوثائقي عن إليزابيث هولمز يتجه نحو رقم قياسي",
-   "pts_ar": [
-    "يتابع الفيلم إليزابيث هولمز، مؤسسة ثيرانوس، قبيل دخولها السجن.",
-    "يُقدّر أنه حقق 5,3 ملايين دولار يوم الجمعة، مع 12 مليونا متوقعة في نهاية الأسبوع.",
-    "سيكون ذلك أفضل انطلاقة لوثائقي غير موسيقي منذ عشر سنوات."
    ]
   },
   "https://www.nngroup.com/articles/ux-maps-glossary/": {
@@ -560,62 +588,6 @@
     "المدرسة بمقابل ليست بالضرورة أفضل، ومن المفيد السؤال عن التخفيضات."
    ]
   },
-  "https://fr.hespress.com/492689-lutte-antiterroriste-la-police-scientifique-avorte-un-projet-dattentat-imminent-a-tanger.html": {
-   "h": "Tanger : les analyses confirment un projet d'attentat déjà avancé",
-   "pts": [
-    "Un jeune de 22 ans lié à Daech, arrêté le 9 octobre à Tanger, préparait une attaque.",
-    "Chez lui : produits pour explosifs, clous et téléphone modifié pour déclencher une bombe.",
-    "Selon les experts, il avait déjà fait des essais d'explosion : le danger était réel."
-   ],
-   "h_ar": "طنجة: التحاليل تؤكد أن مشروع الاعتداء كان في مرحلة متقدمة",
-   "pts_ar": [
-    "شاب عمره 22 عاما مرتبط بداعش، أوقف في 9 أكتوبر بطنجة، كان يحضر لاعتداء.",
-    "حجزت لديه مواد لصنع المتفجرات ومسامير وهاتف معدل لتفجير عبوة.",
-    "حسب الخبراء، أجرى المشتبه به تجارب تفجير، ما يعني أن الخطر كان حقيقيا."
-   ]
-  },
-  "https://fr.hespress.com/492713-f-z-el-mansouri-presentera-le-programme-de-son-gouvernemental-le-lundi-19-octobre.html": {
-   "h": "El Mansouri présente son programme au Parlement lundi 19 octobre",
-   "pts": [
-    "La cheffe du gouvernement présentera son programme lundi à 15 h aux deux chambres réunies.",
-    "Le programme, c'est la liste des priorités et des mesures prévues pour tout le mandat.",
-    "Après le débat, les députés voteront : sans leur confiance, le gouvernement ne peut pas agir."
-   ],
-   "h_ar": "المنصوري تقدم برنامج حكومتها أمام البرلمان يوم الاثنين 19 أكتوبر",
-   "pts_ar": [
-    "ستقدم رئيسة الحكومة برنامجها يوم الاثنين على الساعة الثالثة أمام مجلسي البرلمان مجتمعين.",
-    "البرنامج هو لائحة الأولويات والإجراءات التي تنوي الحكومة إنجازها طيلة ولايتها.",
-    "بعد النقاش، سيصوت مجلس النواب على منح الثقة للحكومة، كما ينص الفصل 88 من الدستور."
-   ]
-  },
-  "https://fr.hespress.com/492660-gaz-et-carburants-au-maroc-radiographie-dun-marche-sous-triple-pression.html": {
-   "h": "Carburants et gaz : le Maroc a acheté 8 % d'énergie en plus en 2025",
-   "pts": [
-    "Le Maroc a importé environ 36,6 millions de tonnes d'énergie en 2025, contre 33,9 en 2024.",
-    "L'argent public qui garde le gaz et la farine moins chers est tombé à 17,7 milliards de dirhams.",
-    "L'aide de l'État par bouteille de butane a baissé de 14 % : l'État la réduit peu à peu."
-   ],
-   "h_ar": "المحروقات والغاز: المغرب استورد طاقة أكثر بـ8% سنة 2025",
-   "pts_ar": [
-    "استورد المغرب حوالي 36,6 مليون طن من الطاقة سنة 2025، مقابل 33,9 مليون طن في 2024.",
-    "تراجعت كلفة المقاصة، أي دعم الدولة لأسعار مواد كالغاز، إلى 17,7 مليار درهم.",
-    "انخفض دعم الدولة لكل قنينة بوتان بنسبة 14%، لأنها تقلص هذا الدعم تدريجيا."
-   ]
-  },
-  "https://fr.le360.ma/societe/belgique-le-baron-marocain-nadori-extrade-des-emirats-arabes-unis-apres-sa-condamnation-pour-trafic_5FPWXL73AVFWXF47BLBY5PLB4U/": {
-   "h": "Cocaïne : le baron « Nadori » remis par Dubaï à la Belgique",
-   "pts": [
-    "Les Émirats ont remis à la Belgique Nacer Eddine Tarrahi, surnommé « Nadori ».",
-    "En mai 2026, il avait été condamné en son absence à 12 ans de prison pour trafic de cocaïne.",
-    "La justice belge voulait saisir 5 millions d'euros, mais n'en a trouvé que 50 000."
-   ],
-   "h_ar": "الكوكايين: الإمارات تسلم البارون «الناظوري» إلى بلجيكا",
-   "pts_ar": [
-    "سلمت الإمارات إلى بلجيكا ناصر الدين الطراحي، المعروف بلقب «الناظوري».",
-    "في ماي 2026، صدر في حقه حكم غيابي بـ12 سنة سجنا بسبب تهريب الكوكايين نحو ميناء أنتويرب.",
-    "أمر القضاء البلجيكي بحجز 5 ملايين يورو من أمواله، لكنه لم يعثر سوى على 50 ألف يورو."
-   ]
-  },
   "https://fr.hespress.com/492726-ahmed-rahhou-un-polytechnicien-en-charge-de-lia-et-du-numerique.html": {
    "h": "Ahmed Rahhou passe du Conseil de la concurrence au ministère de l'IA",
    "pts": [
@@ -656,20 +628,6 @@
     "تنطلق اليوم السبت بالرباط كأس العالم للسيدات لأقل من 17 سنة.",
     "يشارك 24 منتخبا إلى غاية 7 نونبر، ويواجه المغرب نيوزيلندا على الساعة السادسة مساء.",
     "هذه ثاني نسخة على التوالي في المغرب، بعد نسخة خسرت فيها المغربيات أول مباراتين."
-   ]
-  },
-  "https://fr.hespress.com/492590-manchester-city-enzo-maresca-sous-le-charme-dayyoub-bouaddi.html": {
-   "h": "Manchester City : Maresca prêt à faire jouer le Marocain Ayyoub Bouaddi",
-   "pts": [
-    "L'entraîneur Enzo Maresca estime qu'Ayyoub Bouaddi rend ses coéquipiers meilleurs.",
-    "Interrogé sur ses chances de jouer, il répond « 100 % » ; le milieu est arrivé de Lille cet été.",
-    "Maresca veut plus de solidité au milieu, et Bouaddi pourrait y former un trio d'avenir."
-   ],
-   "h_ar": "مانشستر سيتي: ماريسكا مستعد لإشراك المغربي أيوب بوعدي",
-   "pts_ar": [
-    "يرى المدرب إنزو ماريسكا أن أيوب بوعدي يجعل زملاءه في الفريق أفضل.",
-    "سئل عن إمكانية إشراكه فأجاب بـ«100%»، علما أن اللاعب قدم من ليل هذا الصيف.",
-    "يريد ماريسكا صلابة أكبر في الوسط، وقد يشكل بوعدي هناك ثلاثيا للمستقبل."
    ]
   },
   "https://www.eurohoops.net/en/euroleague/2021683/euroleague-roundup-strazel-shines-in-efes-win-besiktas-beats-bayern/": {
