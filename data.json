@@ -1022,603 +1022,703 @@
  ],
  "news": [
   {
+   "cat": "ux",
+   "title": "Pour NN/g, la force du nouveau Siri est l'accès aux données du téléphone",
+   "title_ar": "حسب NN/g، قوة Siri الجديد هي وصوله إلى بيانات الهاتف",
+   "summary": "Nielsen Norman Group a testé l'ancien Siri, le nouveau Siri à base d'IA et ChatGPT sur des tâches de tous les jours après un week-end à New York. Selon l'auteur, le nouveau Siri est surtout utile parce qu'il lit les messages, les photos, les contacts et l'agenda, mais il doit mieux dire où il a cherché et poser une question quand une demande est ambiguë.",
+   "summary_ar": "اختبرت Nielsen Norman Group النسخة القديمة من Siri والنسخة الجديدة المعتمدة على الذكاء الاصطناعي وChatGPT في مهام يومية بعد عطلة نهاية أسبوع في نيويورك. وحسب الكاتب، فإن Siri الجديد مفيد أساساً لأنه يطّلع على الرسائل والصور وجهات الاتصال والمواعيد، لكن عليه أن يوضح بشكل أفضل أين بحث وأن يطرح سؤالاً عندما يكون الطلب غامضاً.",
+   "source": "Nielsen Norman Group",
+   "url": "https://www.nngroup.com/articles/ai-assistant-context/",
+   "date": "2026-10-09",
+   "image": "https://media.nngroup.com/media/articles/opengraph_images/The_New_Siri-1.png",
+   "explain": {
+    "context": "Le nouveau Siri d'Apple est disponible en version d'essai en anglais depuis le 14 septembre 2026. L'auteur précise qu'il s'agit d'une exploration pratique, pas d'une comparaison contrôlée.",
+    "context_ar": "أصبح Siri الجديد من Apple متاحاً في نسخة تجريبية باللغة الإنجليزية منذ 14 شتنبر 2026. ويوضح الكاتب أن الأمر يتعلق باستكشاف عملي وليس بمقارنة علمية مضبوطة.",
+    "terms": [
+     {
+      "t": "ambiguë",
+      "t_ar": "غامض",
+      "d": "Qui peut se comprendre de plusieurs façons. Par exemple, un nom qui désigne à la fois un quartier et un restaurant.",
+      "d_ar": "ما يمكن فهمه بأكثر من طريقة، مثل اسم يدل في الوقت نفسه على حي وعلى مطعم."
+     }
+    ],
+    "figures": [
+     {
+      "n": "14 septembre 2026",
+      "n_ar": "14 شتنبر 2026",
+      "d": "Début du déploiement du nouveau Siri en version d'essai, en anglais.",
+      "d_ar": "بداية إطلاق Siri الجديد في نسخة تجريبية باللغة الإنجليزية."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "ux",
+   "title": "NN/g étudie comment les experts de l'IA organisent leurs « bibliothèques de contexte »",
+   "title_ar": "NN/g تدرس كيف ينظم خبراء الذكاء الاصطناعي «مكتبات السياق» الخاصة بهم",
+   "summary": "Une étude de Nielsen Norman Group auprès d'utilisateurs avancés de Claude montre qu'ils passent plus de temps à préparer des fichiers de contexte qu'à écrire des requêtes. L'article donne quatre conseils : mettre ces fichiers à jour, laisser l'agent les modifier, les ranger pour les retrouver et ne charger que le contexte utile à la tâche.",
+   "summary_ar": "تُظهر دراسة لـ Nielsen Norman Group شملت مستخدمين متقدمين لـ Claude أنهم يقضون وقتاً أطول في إعداد ملفات السياق مقارنة بكتابة الطلبات. ويقدم المقال أربع نصائح: تحديث هذه الملفات، وترك الوكيل يعدّلها، وترتيبها لسهولة إيجادها، وعدم تحميل إلا السياق المفيد للمهمة.",
+   "source": "Nielsen Norman Group",
+   "url": "https://www.nngroup.com/articles/context-libraries/",
+   "date": "2026-10-09",
+   "image": "https://media.nngroup.com/media/articles/opengraph_images/Context_Libraries-1.png",
+   "explain": {
+    "context": "Les participants écrivaient souvent leurs fichiers une seule fois puis les oubliaient, et ne retrouvaient plus certains d'entre eux. Des consignes d'un projet apparaissaient parfois dans un autre projet sans lien.",
+    "context_ar": "كان المشاركون غالباً يكتبون ملفاتهم مرة واحدة ثم ينسونها، ولم يعودوا يجدون بعضها. وأحياناً كانت تعليمات مشروع ما تظهر في مشروع آخر لا علاقة له به.",
+    "terms": [
+     {
+      "t": "bibliothèques de contexte",
+      "t_ar": "مكتبات السياق",
+      "d": "Ensemble de fichiers où l'on note ses connaissances et ses façons de travailler pour qu'un agent d'IA puisse les lire et les modifier.",
+      "d_ar": "مجموعة ملفات تُدوَّن فيها المعارف وطرق العمل حتى يتمكن وكيل الذكاء الاصطناعي من قراءتها وتعديلها."
+     },
+     {
+      "t": "agent",
+      "t_ar": "الوكيل",
+      "d": "Outil d'IA qui ne se contente pas de répondre : il réalise lui-même des actions, comme modifier des fichiers.",
+      "d_ar": "أداة ذكاء اصطناعي لا تكتفي بالإجابة، بل تنفذ بنفسها أفعالاً مثل تعديل الملفات."
+     }
+    ],
+    "figures": [
+     {
+      "n": "2 700",
+      "n_ar": "2700",
+      "d": "Nombre de fichiers de contexte d'un seul participant, signe qu'il faut bien les ranger.",
+      "d_ar": "عدد ملفات السياق لدى مشارك واحد، وهو ما يبيّن ضرورة ترتيبها جيداً."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "divers",
+   "sub": "enfant",
+   "title": "Lecture et jeu avec un parent : le cerveau des tout-petits plus attentif qu'avec un film",
+   "title_ar": "القراءة واللعب مع أحد الوالدين: دماغ الطفل الصغير أكثر انتباهاً منه أمام فيلم",
+   "summary": "Des chercheurs de l'université Northwestern ont mesuré par EEG l'activité du cerveau de 49 enfants de 24 à 44 mois pendant qu'ils lisaient un livre ou faisaient un puzzle avec un parent, puis pendant un film. Le jeu partagé montrait plus d'attention et d'engagement social, y compris chez les enfants autistes ou en retard de langage, dont le cerveau réagissait de la même façon pendant ces moments.",
+   "summary_ar": "قاس باحثون من جامعة Northwestern نشاط دماغ 49 طفلاً تتراوح أعمارهم بين 24 و44 شهراً أثناء قراءة كتاب أو تركيب لغز مع أحد الوالدين، ثم أثناء مشاهدة فيلم. وأظهر اللعب المشترك انتباهاً وتفاعلاً اجتماعياً أكبر، بما في ذلك لدى الأطفال المصابين بالتوحد أو بتأخر لغوي، إذ كان دماغهم يستجيب بالطريقة نفسها خلال تلك اللحظات.",
+   "source": "Mirage News (Northwestern University)",
+   "url": "https://www.miragenews.com/why-story-and-play-time-matter-1759580/",
+   "date": "2026-10-13",
+   "image": "https://cdn1.miragenews.com/tmp_cache?cdn=images.unsplash.com%2Fphoto-1517048676732-d65bc937f952%3Fixlib%3Drb-4.0.3%26amp%3Bixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26amp%3Bauto%3Dformat%26amp%3Bfit%3Dcrop%26amp%3Bw%3D1170%26amp%3Bq%3D80",
+   "explain": {
+    "context": "L'étude est parue dans la revue Brain and Language. Les enfants portaient un bonnet souple pour l'EEG ; l'équipe veut maintenant voir si le cerveau du parent et celui de l'enfant se synchronisent.",
+    "context_ar": "نُشرت الدراسة في مجلة Brain and Language. وكان الأطفال يرتدون قبعة مرنة لتخطيط الدماغ، ويريد الفريق الآن معرفة ما إذا كان دماغ الوالد ودماغ الطفل يتزامنان.",
+    "terms": [
+     {
+      "t": "EEG",
+      "t_ar": "تخطيط كهربية الدماغ",
+      "d": "Examen sans douleur qui enregistre l'activité électrique du cerveau grâce à des capteurs posés sur la tête.",
+      "d_ar": "فحص غير مؤلم يسجل النشاط الكهربائي للدماغ بواسطة مستشعرات توضع على الرأس."
+     }
+    ],
+    "figures": [
+     {
+      "n": "49",
+      "n_ar": "49",
+      "d": "Nombre de tout-petits suivis, âgés de 2 ans à un peu moins de 4 ans.",
+      "d_ar": "عدد الأطفال الصغار المشاركين، وأعمارهم بين سنتين وأقل بقليل من 4 سنوات."
+     }
+    ]
+   }
+  },
+  {
    "cat": "maroc",
-   "sub": "economie",
-   "title": "Attijariwafa bank rejoint CIPS, le réseau chinois de paiements en yuan",
-   "title_ar": "التجاري وفا بنك ينضم إلى CIPS، الشبكة الصينية للمدفوعات باليوان",
-   "summary": "La banque marocaine peut désormais régler plus vite des paiements en yuan pour les entreprises qui commercent avec la Chine. Elle veut raccourcir les circuits entre banques et offrir à ses clients d'autres monnaies que le dollar ou l'euro.",
-   "summary_ar": "أصبح بإمكان البنك المغربي تسوية المدفوعات باليوان بسرعة أكبر لفائدة الشركات التي تتعامل تجاريا مع الصين. ويسعى إلى تقصير المسارات بين البنوك وتوفير عملات أخرى لزبائنه غير الدولار واليورو.",
-   "source": "Le360",
-   "url": "https://fr.le360.ma/economie/attijariwafa-bank-rejoint-le-systeme-cips_DCCVA3HEDFAUZHM4CEMBG5TWVE/",
    "date": "2026-10-19",
-   "image": "https://fr.le360.ma/resizer/v2/KXXM6HDILNGVVH7NF4PMDC2C6M.jpg?auth=9cc4fc0973f948330bc5fb9194c10a43b678f1f69eb52ffc1a75d3c51b8711c4&smart=true&width=1200&height=630",
    "explain": {
     "context": "Les échanges entre le Maroc et la Chine grandissent. Payer directement en yuan évite de passer par le dollar et plusieurs banques intermédiaires.",
     "context_ar": "تتزايد المبادلات بين المغرب والصين. والدفع مباشرة باليوان يجنب المرور عبر الدولار وعدة بنوك وسيطة.",
+    "figures": [],
     "terms": [
      {
-      "t": "CIPS",
-      "t_ar": "CIPS",
       "d": "Système chinois qui permet aux banques du monde entier d'envoyer et de recevoir des paiements en yuan.",
-      "d_ar": "نظام صيني يتيح للبنوك عبر العالم إرسال واستقبال المدفوعات باليوان."
+      "d_ar": "نظام صيني يتيح للبنوك عبر العالم إرسال واستقبال المدفوعات باليوان.",
+      "t": "CIPS",
+      "t_ar": "CIPS"
      },
      {
-      "t": "yuan",
-      "t_ar": "اليوان",
       "d": "La monnaie de la Chine, aussi appelée renminbi.",
-      "d_ar": "عملة الصين، وتسمى أيضا الرنمينبي."
+      "d_ar": "عملة الصين، وتسمى أيضا الرنمينبي.",
+      "t": "yuan",
+      "t_ar": "اليوان"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://fr.le360.ma/resizer/v2/KXXM6HDILNGVVH7NF4PMDC2C6M.jpg?auth=9cc4fc0973f948330bc5fb9194c10a43b678f1f69eb52ffc1a75d3c51b8711c4&smart=true&width=1200&height=630",
+   "source": "Le360",
+   "sub": "economie",
+   "summary": "La banque marocaine peut désormais régler plus vite des paiements en yuan pour les entreprises qui commercent avec la Chine. Elle veut raccourcir les circuits entre banques et offrir à ses clients d'autres monnaies que le dollar ou l'euro.",
+   "summary_ar": "أصبح بإمكان البنك المغربي تسوية المدفوعات باليوان بسرعة أكبر لفائدة الشركات التي تتعامل تجاريا مع الصين. ويسعى إلى تقصير المسارات بين البنوك وتوفير عملات أخرى لزبائنه غير الدولار واليورو.",
+   "title": "Attijariwafa bank rejoint CIPS, le réseau chinois de paiements en yuan",
+   "title_ar": "التجاري وفا بنك ينضم إلى CIPS، الشبكة الصينية للمدفوعات باليوان",
+   "url": "https://fr.le360.ma/economie/attijariwafa-bank-rejoint-le-systeme-cips_DCCVA3HEDFAUZHM4CEMBG5TWVE/"
   },
   {
    "cat": "maroc",
-   "sub": "societe",
-   "title": "Alerte orange : orages et grêle ce lundi dans le nord et l'Oriental",
-   "title_ar": "نشرة إنذارية برتقالية: زخات رعدية وبرد اليوم الاثنين في الشمال والشرق",
-   "summary": "La Météo nationale prévoit des averses orageuses parfois fortes, avec risque de grêle, de 11h à 20h ce lundi. Jusqu'à 45 mm de pluie sont attendus à Tétouan, Chefchaouen, Al Hoceïma ou Nador.",
-   "summary_ar": "تتوقع المديرية العامة للأرصاد الجوية زخات رعدية قوية أحيانا مع خطر تساقط البرد من الساعة 11 إلى 20 اليوم الاثنين. وينتظر تساقط ما يصل إلى 45 ملم من الأمطار في تطوان وشفشاون والحسيمة والناظور.",
-   "source": "Le360 (MAP)",
-   "url": "https://fr.le360.ma/societe/alerte-meteo-averses-orageuses-localement-fortes-avec-risque-de-grele-dans-plusieurs-provinces_3VOWPGES65GHBF6K4QM6X356KA/",
    "date": "2026-10-19",
-   "image": "https://fr.le360.ma/resizer/v2/KDBNP7JICRGH5GQEQ3IAZGFZLQ.jpg?auth=fcce164bd05fab50be35947a1964598734f01e4368b272bd52537318d18ba3cf&smart=true&width=1200&height=630",
    "explain": {
     "context": "La Direction générale de la météorologie classe les risques par couleur. L'orange demande de rester prudent et de suivre les consignes.",
     "context_ar": "تصنف المديرية العامة للأرصاد الجوية المخاطر حسب الألوان. واللون البرتقالي يدعو إلى الحذر واتباع التعليمات.",
-    "terms": [
-     {
-      "t": "Alerte orange",
-      "t_ar": "نشرة إنذارية برتقالية",
-      "d": "Deuxième niveau d'alerte le plus haut : le temps peut être dangereux.",
-      "d_ar": "ثاني أعلى مستوى للإنذار: قد يكون الطقس خطيرا."
-     }
-    ],
     "figures": [
      {
-      "n": "45 mm",
-      "n_ar": "45 ملم",
       "d": "45 mm de pluie, c'est 45 litres d'eau sur chaque mètre carré.",
-      "d_ar": "45 ملم من المطر تعني 45 لترا من الماء على كل متر مربع."
+      "d_ar": "45 ملم من المطر تعني 45 لترا من الماء على كل متر مربع.",
+      "n": "45 mm",
+      "n_ar": "45 ملم"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Deuxième niveau d'alerte le plus haut : le temps peut être dangereux.",
+      "d_ar": "ثاني أعلى مستوى للإنذار: قد يكون الطقس خطيرا.",
+      "t": "Alerte orange",
+      "t_ar": "نشرة إنذارية برتقالية"
      }
     ]
-   }
+   },
+   "image": "https://fr.le360.ma/resizer/v2/KDBNP7JICRGH5GQEQ3IAZGFZLQ.jpg?auth=fcce164bd05fab50be35947a1964598734f01e4368b272bd52537318d18ba3cf&smart=true&width=1200&height=630",
+   "source": "Le360 (MAP)",
+   "sub": "societe",
+   "summary": "La Météo nationale prévoit des averses orageuses parfois fortes, avec risque de grêle, de 11h à 20h ce lundi. Jusqu'à 45 mm de pluie sont attendus à Tétouan, Chefchaouen, Al Hoceïma ou Nador.",
+   "summary_ar": "تتوقع المديرية العامة للأرصاد الجوية زخات رعدية قوية أحيانا مع خطر تساقط البرد من الساعة 11 إلى 20 اليوم الاثنين. وينتظر تساقط ما يصل إلى 45 ملم من الأمطار في تطوان وشفشاون والحسيمة والناظور.",
+   "title": "Alerte orange : orages et grêle ce lundi dans le nord et l'Oriental",
+   "title_ar": "نشرة إنذارية برتقالية: زخات رعدية وبرد اليوم الاثنين في الشمال والشرق",
+   "url": "https://fr.le360.ma/societe/alerte-meteo-averses-orageuses-localement-fortes-avec-risque-de-grele-dans-plusieurs-provinces_3VOWPGES65GHBF6K4QM6X356KA/"
   },
   {
    "cat": "maroc",
-   "sub": "politique",
-   "title": "Parité : un collectif demande à El Mansouri une loi-cadre sur l'égalité",
-   "title_ar": "المناصفة: تحالف يطالب المنصوري بقانون إطار حول المساواة",
-   "summary": "Le collectif « Parité maintenant » demande à la cheffe du gouvernement d'adopter une loi pour appliquer l'article 19 de la Constitution. Les femmes ont 28 % des sièges à la Chambre des représentants et 21,9 % des postes au gouvernement.",
-   "summary_ar": "يطالب تحالف «المناصفة دابا» رئيسة الحكومة باعتماد قانون لتفعيل الفصل 19 من الدستور. وتشغل النساء 28 في المائة من مقاعد مجلس النواب و21,9 في المائة من المناصب في الحكومة.",
-   "source": "Le360",
-   "url": "https://fr.le360.ma/societe/le-collectif-parite-maintenant-renouvelle-son-appel-a-fatima-ezzahra-el-mansouri-pour-ladoption-dune_5J5KNCL75NAJTMWNH7EM2U7NTI/",
    "date": "2026-10-19",
-   "image": "https://fr.le360.ma/resizer/v2/SDYIJBWF4JBIDOY3HE2XEXGNZ4.jpg?auth=192f68ce465fcd81c5681105351c02960487e9bb7a93f486e70c8c68c6032dd7&smart=true&width=1200&height=630",
    "explain": {
     "context": "Le collectif avait déposé une pétition au Parlement fin 2020. Il réclame aussi l'autorité de lutte contre les discriminations et la réforme du Code de la famille.",
     "context_ar": "سبق للتحالف أن قدم عريضة إلى البرلمان نهاية 2020. ويطالب أيضا بهيئة محاربة التمييز وبإصلاح مدونة الأسرة.",
-    "terms": [
-     {
-      "t": "loi-cadre",
-      "t_ar": "قانون إطار",
-      "d": "Loi qui fixe les grands principes et objectifs ; d'autres textes précisent ensuite les détails.",
-      "d_ar": "قانون يحدد المبادئ والأهداف الكبرى، ثم تأتي نصوص أخرى لتفصيلها."
-     },
-     {
-      "t": "article 19",
-      "t_ar": "الفصل 19",
-      "d": "Article de la Constitution de 2011 qui prévoit l'égalité entre hommes et femmes et la recherche de la parité.",
-      "d_ar": "فصل من دستور 2011 ينص على المساواة بين الرجال والنساء والسعي إلى المناصفة."
-     }
-    ],
     "figures": [
      {
-      "n": "21,9 %",
-      "n_ar": "21,9 في المائة",
       "d": "Un peu plus d'un poste sur cinq au gouvernement est occupé par une femme.",
-      "d_ar": "أكثر بقليل من منصب واحد من كل خمسة في الحكومة تشغله امرأة."
+      "d_ar": "أكثر بقليل من منصب واحد من كل خمسة في الحكومة تشغله امرأة.",
+      "n": "21,9 %",
+      "n_ar": "21,9 في المائة"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Loi qui fixe les grands principes et objectifs ; d'autres textes précisent ensuite les détails.",
+      "d_ar": "قانون يحدد المبادئ والأهداف الكبرى، ثم تأتي نصوص أخرى لتفصيلها.",
+      "t": "loi-cadre",
+      "t_ar": "قانون إطار"
+     },
+     {
+      "d": "Article de la Constitution de 2011 qui prévoit l'égalité entre hommes et femmes et la recherche de la parité.",
+      "d_ar": "فصل من دستور 2011 ينص على المساواة بين الرجال والنساء والسعي إلى المناصفة.",
+      "t": "article 19",
+      "t_ar": "الفصل 19"
      }
     ]
-   }
+   },
+   "image": "https://fr.le360.ma/resizer/v2/SDYIJBWF4JBIDOY3HE2XEXGNZ4.jpg?auth=192f68ce465fcd81c5681105351c02960487e9bb7a93f486e70c8c68c6032dd7&smart=true&width=1200&height=630",
+   "source": "Le360",
+   "sub": "politique",
+   "summary": "Le collectif « Parité maintenant » demande à la cheffe du gouvernement d'adopter une loi pour appliquer l'article 19 de la Constitution. Les femmes ont 28 % des sièges à la Chambre des représentants et 21,9 % des postes au gouvernement.",
+   "summary_ar": "يطالب تحالف «المناصفة دابا» رئيسة الحكومة باعتماد قانون لتفعيل الفصل 19 من الدستور. وتشغل النساء 28 في المائة من مقاعد مجلس النواب و21,9 في المائة من المناصب في الحكومة.",
+   "title": "Parité : un collectif demande à El Mansouri une loi-cadre sur l'égalité",
+   "title_ar": "المناصفة: تحالف يطالب المنصوري بقانون إطار حول المساواة",
+   "url": "https://fr.le360.ma/societe/le-collectif-parite-maintenant-renouvelle-son-appel-a-fatima-ezzahra-el-mansouri-pour-ladoption-dune_5J5KNCL75NAJTMWNH7EM2U7NTI/"
   },
   {
    "cat": "maroc",
-   "sub": "economie",
-   "title": "Pêche : les débarquements au port de Larache augmentent de 23 %",
-   "title_ar": "الصيد: ارتفاع المفرغات بميناء العرائش بنسبة 23 في المائة",
-   "summary": "Fin septembre, 13 856 tonnes de poisson ont été débarquées à Larache, mais leur valeur baisse de 1 %, à 254 millions de dirhams. Au niveau national, les débarquements montent de 19 %.",
-   "summary_ar": "إلى غاية نهاية شتنبر، تم تفريغ 13 ألفا و856 طنا من الأسماك في العرائش، لكن قيمتها تراجعت بنسبة 1 في المائة إلى 254 مليون درهم. وعلى الصعيد الوطني ارتفعت المفرغات بنسبة 19 في المائة.",
-   "source": "Hespress FR (MAP)",
-   "url": "https://fr.hespress.com/492084-peche-cotiere-et-artisanale-hausse-de-23-des-debarquements-au-port-de-larache.html",
    "date": "2026-10-19",
-   "image": "https://f2.hespress.com/wp-content/uploads/2026/04/PECHE.jpg",
    "explain": {
     "context": "Les chiffres viennent de l'Office national des pêches. Plus de poisson ne veut pas dire plus d'argent : les prix de certaines espèces ont baissé.",
     "context_ar": "الأرقام صادرة عن المكتب الوطني للصيد. وكمية أكبر من السمك لا تعني بالضرورة مداخيل أكبر، لأن أسعار بعض الأنواع تراجعت.",
-    "terms": [
-     {
-      "t": "débarquements",
-      "t_ar": "المفرغات",
-      "d": "Quantité de poisson déchargée des bateaux au port, puis vendue.",
-      "d_ar": "كمية السمك التي يتم إنزالها من القوارب في الميناء ثم بيعها."
-     },
-     {
-      "t": "Pêche",
-      "t_ar": "الصيد",
-      "d": "Ici, la pêche côtière et artisanale : petits et moyens bateaux près des côtes.",
-      "d_ar": "المقصود هنا الصيد الساحلي والتقليدي: قوارب صغيرة ومتوسطة قرب السواحل."
-     }
-    ],
     "figures": [
      {
-      "n": "13 856 tonnes",
-      "n_ar": "13 ألفا و856 طنا",
       "d": "Volume débarqué à Larache à fin septembre, dont plus de 11 000 tonnes de petits poissons comme la sardine.",
-      "d_ar": "الكمية المفرغة في العرائش إلى نهاية شتنبر، منها أكثر من 11 ألف طن من الأسماك السطحية مثل السردين."
+      "d_ar": "الكمية المفرغة في العرائش إلى نهاية شتنبر، منها أكثر من 11 ألف طن من الأسماك السطحية مثل السردين.",
+      "n": "13 856 tonnes",
+      "n_ar": "13 ألفا و856 طنا"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Quantité de poisson déchargée des bateaux au port, puis vendue.",
+      "d_ar": "كمية السمك التي يتم إنزالها من القوارب في الميناء ثم بيعها.",
+      "t": "débarquements",
+      "t_ar": "المفرغات"
+     },
+     {
+      "d": "Ici, la pêche côtière et artisanale : petits et moyens bateaux près des côtes.",
+      "d_ar": "المقصود هنا الصيد الساحلي والتقليدي: قوارب صغيرة ومتوسطة قرب السواحل.",
+      "t": "Pêche",
+      "t_ar": "الصيد"
      }
     ]
-   }
+   },
+   "image": "https://f2.hespress.com/wp-content/uploads/2026/04/PECHE.jpg",
+   "source": "Hespress FR (MAP)",
+   "sub": "economie",
+   "summary": "Fin septembre, 13 856 tonnes de poisson ont été débarquées à Larache, mais leur valeur baisse de 1 %, à 254 millions de dirhams. Au niveau national, les débarquements montent de 19 %.",
+   "summary_ar": "إلى غاية نهاية شتنبر، تم تفريغ 13 ألفا و856 طنا من الأسماك في العرائش، لكن قيمتها تراجعت بنسبة 1 في المائة إلى 254 مليون درهم. وعلى الصعيد الوطني ارتفعت المفرغات بنسبة 19 في المائة.",
+   "title": "Pêche : les débarquements au port de Larache augmentent de 23 %",
+   "title_ar": "الصيد: ارتفاع المفرغات بميناء العرائش بنسبة 23 في المائة",
+   "url": "https://fr.hespress.com/492084-peche-cotiere-et-artisanale-hausse-de-23-des-debarquements-au-port-de-larache.html"
   },
   {
    "cat": "maroc",
-   "sub": "politique",
-   "title": "Sebta : l'Italie prolonge les contrôles aux frontières avec l'Espagne",
-   "title_ar": "سبتة: إيطاليا تمدد المراقبة على حدودها مع إسبانيا",
-   "summary": "Rome garde une semaine de plus les contrôles mis en place fin juillet, après la tentative de plus de 72 000 migrants d'entrer à Sebta depuis le Maroc. Madrid a fait de même jusqu'au 22 octobre.",
-   "summary_ar": "تبقي روما أسبوعا إضافيا على المراقبة التي فرضتها نهاية يوليوز، بعد محاولة أكثر من 72 ألف مهاجر دخول سبتة انطلاقا من المغرب. وقامت مدريد بالمثل إلى غاية 22 أكتوبر.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/492935-crise-migratoire-a-sebta-rome-prolonge-la-suspension-de-schengen-avec-madrid.html",
    "date": "2026-10-18",
-   "image": "https://f2.hespress.com/wp-content/uploads/2026/08/espagne_controle_frontieres.jpg",
    "explain": {
     "context": "Dans l'espace Schengen, on passe normalement d'un pays à l'autre sans contrôle. Un pays peut rétablir des contrôles pour un temps limité en cas de crise.",
     "context_ar": "في فضاء شنغن يتم عادة التنقل بين الدول دون مراقبة. ويمكن لأي دولة إعادة المراقبة لمدة محدودة في حالة أزمة.",
-    "terms": [
-     {
-      "t": "contrôles aux frontières",
-      "t_ar": "المراقبة على حدودها",
-      "d": "Vérification des papiers des voyageurs à l'entrée d'un pays.",
-      "d_ar": "التحقق من وثائق المسافرين عند دخول بلد ما."
-     }
-    ],
     "figures": [
      {
-      "n": "72 000",
-      "n_ar": "72 ألف",
       "d": "Nombre de migrants qui ont tenté de rejoindre Sebta depuis le Maroc cet été, selon l'article.",
-      "d_ar": "عدد المهاجرين الذين حاولوا الوصول إلى سبتة من المغرب هذا الصيف حسب المقال."
+      "d_ar": "عدد المهاجرين الذين حاولوا الوصول إلى سبتة من المغرب هذا الصيف حسب المقال.",
+      "n": "72 000",
+      "n_ar": "72 ألف"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Vérification des papiers des voyageurs à l'entrée d'un pays.",
+      "d_ar": "التحقق من وثائق المسافرين عند دخول بلد ما.",
+      "t": "contrôles aux frontières",
+      "t_ar": "المراقبة على حدودها"
      }
     ]
-   }
+   },
+   "image": "https://f2.hespress.com/wp-content/uploads/2026/08/espagne_controle_frontieres.jpg",
+   "source": "Hespress FR",
+   "sub": "politique",
+   "summary": "Rome garde une semaine de plus les contrôles mis en place fin juillet, après la tentative de plus de 72 000 migrants d'entrer à Sebta depuis le Maroc. Madrid a fait de même jusqu'au 22 octobre.",
+   "summary_ar": "تبقي روما أسبوعا إضافيا على المراقبة التي فرضتها نهاية يوليوز، بعد محاولة أكثر من 72 ألف مهاجر دخول سبتة انطلاقا من المغرب. وقامت مدريد بالمثل إلى غاية 22 أكتوبر.",
+   "title": "Sebta : l'Italie prolonge les contrôles aux frontières avec l'Espagne",
+   "title_ar": "سبتة: إيطاليا تمدد المراقبة على حدودها مع إسبانيا",
+   "url": "https://fr.hespress.com/492935-crise-migratoire-a-sebta-rome-prolonge-la-suspension-de-schengen-avec-madrid.html"
   },
   {
    "cat": "sport",
-   "sport": "basket",
-   "title": "NBA : Ben Simmons se rompt le tendon d'Achille, sa saison est finie",
-   "title_ar": "الدوري الأمريكي لكرة السلة: بن سيمونز يصاب بتمزق في وتر أخيل وينهي موسمه",
-   "summary": "Le meneur des Sacramento Kings, 30 ans, s'est blessé à l'entraînement dimanche et va être opéré. Il faisait son retour après une saison sans jouer, avec un contrat d'un an de 3,5 millions de dollars.",
-   "summary_ar": "أصيب صانع ألعاب ساكرامنتو كينغز، البالغ 30 عاما، خلال التدريب يوم الأحد وسيخضع لعملية جراحية. وكان يعود إلى الملاعب بعد موسم كامل دون لعب، بعقد لموسم واحد قيمته 3,5 ملايين دولار.",
-   "source": "ABC30 / ESPN",
-   "url": "https://abc30.com/post/sources-kings-guard-ben-simmons-believed-have-torn-achilles-tendon/19952523/",
    "date": "2026-10-18",
-   "image": "https://a.espncdn.com/photo/2026/1018/r1732677_1296x729_16-9.jpg?w=1600",
    "explain": {
     "context": "Simmons avait signé en septembre pour un an avec les Kings, comme remplaçant du jeune Darius Acuff Jr. Il avait marqué 10,5 points en moyenne en présaison.",
     "context_ar": "وقع سيمونز في شتنبر لموسم واحد مع كينغز كبديل للشاب داريوس أكوف جونيور. وسجل 10,5 نقاط في المتوسط خلال فترة الإعداد.",
-    "terms": [
-     {
-      "t": "tendon d'Achille",
-      "t_ar": "وتر أخيل",
-      "d": "Gros tendon derrière la cheville. Sa rupture demande souvent près d'un an de soins.",
-      "d_ar": "وتر كبير خلف الكاحل. وتمزقه يتطلب غالبا قرابة سنة من العلاج."
-     }
-    ],
     "figures": [
      {
-      "n": "3,5 millions",
-      "n_ar": "3,5 ملايين",
       "d": "Son contrat d'un an valait 3,5 millions de dollars, une petite somme en NBA.",
-      "d_ar": "كانت قيمة عقده لموسم واحد 3,5 ملايين دولار، وهو مبلغ صغير في الدوري الأمريكي."
+      "d_ar": "كانت قيمة عقده لموسم واحد 3,5 ملايين دولار، وهو مبلغ صغير في الدوري الأمريكي.",
+      "n": "3,5 millions",
+      "n_ar": "3,5 ملايين"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Gros tendon derrière la cheville. Sa rupture demande souvent près d'un an de soins.",
+      "d_ar": "وتر كبير خلف الكاحل. وتمزقه يتطلب غالبا قرابة سنة من العلاج.",
+      "t": "tendon d'Achille",
+      "t_ar": "وتر أخيل"
      }
     ]
-   }
+   },
+   "image": "https://a.espncdn.com/photo/2026/1018/r1732677_1296x729_16-9.jpg?w=1600",
+   "source": "ABC30 / ESPN",
+   "sport": "basket",
+   "summary": "Le meneur des Sacramento Kings, 30 ans, s'est blessé à l'entraînement dimanche et va être opéré. Il faisait son retour après une saison sans jouer, avec un contrat d'un an de 3,5 millions de dollars.",
+   "summary_ar": "أصيب صانع ألعاب ساكرامنتو كينغز، البالغ 30 عاما، خلال التدريب يوم الأحد وسيخضع لعملية جراحية. وكان يعود إلى الملاعب بعد موسم كامل دون لعب، بعقد لموسم واحد قيمته 3,5 ملايين دولار.",
+   "title": "NBA : Ben Simmons se rompt le tendon d'Achille, sa saison est finie",
+   "title_ar": "الدوري الأمريكي لكرة السلة: بن سيمونز يصاب بتمزق في وتر أخيل وينهي موسمه",
+   "url": "https://abc30.com/post/sources-kings-guard-ben-simmons-believed-have-torn-achilles-tendon/19952523/"
   },
   {
    "cat": "sport",
-   "sport": "f1",
-   "title": "F1 : Antonelli peut être sacré champion dès dimanche à Austin",
-   "title_ar": "الفورمولا 1: أنتونيلي قد يتوج بطلا للعالم يوم الأحد في أوستن",
-   "summary": "Le pilote Mercedes doit gagner le Grand Prix des États-Unis, avec Russell 9e ou moins et Hamilton 5e ou moins. Verstappen, 4e à 119 points, a gagné les deux dernières courses.",
-   "summary_ar": "يجب على سائق مرسيدس الفوز بسباق الجائزة الكبرى للولايات المتحدة، مع حلول راسل تاسعا أو أقل وهاميلتون خامسا أو أقل. أما فيرستابن، الرابع بفارق 119 نقطة، فقد فاز بالسباقين الأخيرين.",
-   "source": "Formula1.com",
-   "url": "https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-united-states-grand-prix.4utgT1kLqHM2HAM98YP4TW",
    "date": "2026-10-19",
-   "image": "https://media.formula1.com/image/upload/c_lfill,w_2048/q_auto/v1740000001/fom-website/2026/United%20States/GettyImages-2242055817.webp",
    "explain": {
     "context": "Kimi Antonelli, jeune Italien de Mercedes, domine la saison. Austin est la 18e manche du championnat 2026.",
     "context_ar": "يهيمن الإيطالي الشاب كيمي أنتونيلي من فريق مرسيدس على الموسم. وأوستن هي الجولة 18 من بطولة 2026.",
-    "terms": [
-     {
-      "t": "Grand Prix",
-      "t_ar": "الجائزة الكبرى",
-      "d": "Nom donné à chaque course du championnat du monde de F1.",
-      "d_ar": "الاسم الذي يطلق على كل سباق من بطولة العالم للفورمولا 1."
-     }
-    ],
     "figures": [
      {
-      "n": "119 points",
-      "n_ar": "119 نقطة",
       "d": "Écart entre Antonelli et Verstappen ; une victoire rapporte 25 points.",
-      "d_ar": "الفارق بين أنتونيلي وفيرستابن، علما أن الفوز يمنح 25 نقطة."
+      "d_ar": "الفارق بين أنتونيلي وفيرستابن، علما أن الفوز يمنح 25 نقطة.",
+      "n": "119 points",
+      "n_ar": "119 نقطة"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Nom donné à chaque course du championnat du monde de F1.",
+      "d_ar": "الاسم الذي يطلق على كل سباق من بطولة العالم للفورمولا 1.",
+      "t": "Grand Prix",
+      "t_ar": "الجائزة الكبرى"
      }
     ]
-   }
+   },
+   "image": "https://media.formula1.com/image/upload/c_lfill,w_2048/q_auto/v1740000001/fom-website/2026/United%20States/GettyImages-2242055817.webp",
+   "source": "Formula1.com",
+   "sport": "f1",
+   "summary": "Le pilote Mercedes doit gagner le Grand Prix des États-Unis, avec Russell 9e ou moins et Hamilton 5e ou moins. Verstappen, 4e à 119 points, a gagné les deux dernières courses.",
+   "summary_ar": "يجب على سائق مرسيدس الفوز بسباق الجائزة الكبرى للولايات المتحدة، مع حلول راسل تاسعا أو أقل وهاميلتون خامسا أو أقل. أما فيرستابن، الرابع بفارق 119 نقطة، فقد فاز بالسباقين الأخيرين.",
+   "title": "F1 : Antonelli peut être sacré champion dès dimanche à Austin",
+   "title_ar": "الفورمولا 1: أنتونيلي قد يتوج بطلا للعالم يوم الأحد في أوستن",
+   "url": "https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-united-states-grand-prix.4utgT1kLqHM2HAM98YP4TW"
   },
   {
    "cat": "sport",
-   "sport": "boxe",
-   "title": "Boxe : Fundora garde sa ceinture WBC par KO à la dernière seconde",
-   "title_ar": "الملاكمة: فوندورا يحتفظ بحزام WBC بالضربة القاضية في الثانية الأخيرة",
-   "summary": "À Las Vegas, Sebastian Fundora a battu l'invaincu Ermal Hadribeaj par KO au 12e et dernier round, à 2 min 59. C'était la 4e défense de son titre des super-welters.",
-   "summary_ar": "في لاس فيغاس، هزم سيباستيان فوندورا منافسه إرمال حدريبياي، الذي لم يكن قد خسر من قبل، بالضربة القاضية في الجولة 12 والأخيرة عند الدقيقة 2 والثانية 59. وكان ذلك رابع دفاع عن لقبه في وزن فوق المتوسط الخفيف.",
-   "source": "Fightnews",
-   "url": "https://fightnews.com/fundora-stops-hadribeaj-in-12th/198593",
    "date": "2026-10-18",
-   "image": "https://fightnews.com/wp-content/uploads/IMG_8318.jpg",
    "explain": {
     "context": "Hadribeaj était le challenger officiel désigné par le WBC. L'arbitre lui avait retiré des points pour avoir trop retenu son adversaire.",
     "context_ar": "كان حدريبياي المنافس الرسمي الذي عينه مجلس WBC. وقد خصم منه الحكم نقاطا بسبب الإمساك المتكرر بخصمه.",
-    "terms": [
-     {
-      "t": "WBC",
-      "t_ar": "WBC",
-      "d": "World Boxing Council, l'une des quatre grandes organisations qui délivrent des titres mondiaux.",
-      "d_ar": "المجلس العالمي للملاكمة، إحدى الهيئات الأربع الكبرى التي تمنح الألقاب العالمية."
-     },
-     {
-      "t": "super-welters",
-      "t_ar": "وزن فوق المتوسط الخفيف",
-      "d": "Catégorie de poids jusqu'à 69,9 kg (154 livres).",
-      "d_ar": "فئة وزن تصل إلى 69,9 كلغ (154 رطلا)."
-     }
-    ],
     "figures": [
      {
-      "n": "2 min 59",
-      "n_ar": "الدقيقة 2 والثانية 59",
       "d": "Un round dure 3 minutes : le KO est arrivé une seconde avant la fin du combat.",
-      "d_ar": "تدوم الجولة 3 دقائق، أي أن الضربة القاضية جاءت قبل ثانية واحدة من نهاية النزال."
+      "d_ar": "تدوم الجولة 3 دقائق، أي أن الضربة القاضية جاءت قبل ثانية واحدة من نهاية النزال.",
+      "n": "2 min 59",
+      "n_ar": "الدقيقة 2 والثانية 59"
+     }
+    ],
+    "terms": [
+     {
+      "d": "World Boxing Council, l'une des quatre grandes organisations qui délivrent des titres mondiaux.",
+      "d_ar": "المجلس العالمي للملاكمة، إحدى الهيئات الأربع الكبرى التي تمنح الألقاب العالمية.",
+      "t": "WBC",
+      "t_ar": "WBC"
+     },
+     {
+      "d": "Catégorie de poids jusqu'à 69,9 kg (154 livres).",
+      "d_ar": "فئة وزن تصل إلى 69,9 كلغ (154 رطلا).",
+      "t": "super-welters",
+      "t_ar": "وزن فوق المتوسط الخفيف"
      }
     ]
-   }
+   },
+   "image": "https://fightnews.com/wp-content/uploads/IMG_8318.jpg",
+   "source": "Fightnews",
+   "sport": "boxe",
+   "summary": "À Las Vegas, Sebastian Fundora a battu l'invaincu Ermal Hadribeaj par KO au 12e et dernier round, à 2 min 59. C'était la 4e défense de son titre des super-welters.",
+   "summary_ar": "في لاس فيغاس، هزم سيباستيان فوندورا منافسه إرمال حدريبياي، الذي لم يكن قد خسر من قبل، بالضربة القاضية في الجولة 12 والأخيرة عند الدقيقة 2 والثانية 59. وكان ذلك رابع دفاع عن لقبه في وزن فوق المتوسط الخفيف.",
+   "title": "Boxe : Fundora garde sa ceinture WBC par KO à la dernière seconde",
+   "title_ar": "الملاكمة: فوندورا يحتفظ بحزام WBC بالضربة القاضية في الثانية الأخيرة",
+   "url": "https://fightnews.com/fundora-stops-hadribeaj-in-12th/198593"
   },
   {
    "cat": "sport",
-   "sport": "football",
-   "title": "Serie A : l'Inter bat Bologne 3-1 et prend la tête, Naples chute à Venise",
-   "title_ar": "الدوري الإيطالي: إنتر يهزم بولونيا 3-1 ويتصدر، ونابولي يسقط في البندقية",
-   "summary": "Menée dès la 10e minute, l'Inter s'impose grâce notamment à Thuram et Carlos Augusto, et compte 19 points. Naples perd 1-0 contre Venise, dernier, et n'est que 9e.",
-   "summary_ar": "بعدما كان متأخرا منذ الدقيقة العاشرة، فاز إنتر بفضل تورام وكارلوس أوغوستو خصوصا، ورفع رصيده إلى 19 نقطة. وخسر نابولي 1-0 أمام البندقية، صاحب المركز الأخير، ويحتل المركز التاسع فقط.",
-   "source": "The Express Tribune (AFP)",
-   "url": "https://tribune.com.pk/story/2635503/inter-pull-clear-as-napoli-endure-another-setback",
    "date": "2026-10-18",
-   "image": "https://i.tribune.com.pk/media/images/img-48411792304592-0/img-48411792304592-0-640x480.webp",
    "explain": {
     "context": "L'Inter et Naples sortaient de défaites en Ligue des champions en milieu de semaine. La Roma, victorieuse 2-0 contre le Genoa, est 2e.",
     "context_ar": "كان إنتر ونابولي قد خسرا في دوري أبطال أوروبا وسط الأسبوع. وروما، الفائز 2-0 على جنوى، يحتل المركز الثاني.",
-    "terms": [],
     "figures": [
      {
-      "n": "19 points",
-      "n_ar": "19 نقطة",
       "d": "Total de l'Inter, deux points devant la Roma ; Naples est à neuf points.",
-      "d_ar": "رصيد إنتر، بفارق نقطتين عن روما، بينما يبتعد نابولي بتسع نقاط."
+      "d_ar": "رصيد إنتر، بفارق نقطتين عن روما، بينما يبتعد نابولي بتسع نقاط.",
+      "n": "19 points",
+      "n_ar": "19 نقطة"
      }
-    ]
-   }
+    ],
+    "terms": []
+   },
+   "image": "https://i.tribune.com.pk/media/images/img-48411792304592-0/img-48411792304592-0-640x480.webp",
+   "source": "The Express Tribune (AFP)",
+   "sport": "football",
+   "summary": "Menée dès la 10e minute, l'Inter s'impose grâce notamment à Thuram et Carlos Augusto, et compte 19 points. Naples perd 1-0 contre Venise, dernier, et n'est que 9e.",
+   "summary_ar": "بعدما كان متأخرا منذ الدقيقة العاشرة، فاز إنتر بفضل تورام وكارلوس أوغوستو خصوصا، ورفع رصيده إلى 19 نقطة. وخسر نابولي 1-0 أمام البندقية، صاحب المركز الأخير، ويحتل المركز التاسع فقط.",
+   "title": "Serie A : l'Inter bat Bologne 3-1 et prend la tête, Naples chute à Venise",
+   "title_ar": "الدوري الإيطالي: إنتر يهزم بولونيا 3-1 ويتصدر، ونابولي يسقط في البندقية",
+   "url": "https://tribune.com.pk/story/2635503/inter-pull-clear-as-napoli-endure-another-setback"
   },
   {
    "cat": "ia",
-   "title": "Anthropic : moins de profils débutants et plus de réunions avec l'IA",
-   "title_ar": "أنثروبيك: عدد أقل من المبتدئين واجتماعات أكثر مع الذكاء الاصطناعي",
-   "summary": "Dans un rapport sur ses propres équipes, l'entreprise de Claude indique que les débutants ne font plus que 9 % des embauches techniques, contre 27 % avant. Le temps passé en réunion par salarié a augmenté de 20 % en un an.",
-   "summary_ar": "في تقرير حول فرقها، تشير الشركة المطورة لـClaude إلى أن المبتدئين لم يعودوا يمثلون سوى 9 في المائة من التوظيفات التقنية، مقابل 27 في المائة من قبل. وارتفع الوقت الذي يقضيه كل موظف في الاجتماعات بنسبة 20 في المائة خلال سنة.",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
    "date": "2026-10-17",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
    "explain": {
     "context": "Anthropic utilise beaucoup ses propres outils d'IA. Le rapport note plus de code produit par personne, mais rappelle que plus de code ne veut pas dire meilleur travail.",
     "context_ar": "تستخدم أنثروبيك أدواتها للذكاء الاصطناعي بكثافة. ويسجل التقرير إنتاج شيفرة أكثر لكل شخص، لكنه يذكر أن كثرة الشيفرة لا تعني عملا أفضل.",
-    "terms": [
-     {
-      "t": "débutants",
-      "t_ar": "المبتدئين",
-      "d": "Salariés en début de carrière, avec peu d'expérience.",
-      "d_ar": "موظفون في بداية مسارهم المهني بخبرة قليلة."
-     }
-    ],
     "figures": [
      {
-      "n": "9 %",
-      "n_ar": "9 في المائة",
       "d": "Moins d'une embauche technique sur dix concerne un débutant, contre plus d'une sur quatre avant 2025.",
-      "d_ar": "أقل من توظيف تقني واحد من كل عشرة يخص مبتدئا، مقابل أكثر من واحد من كل أربعة قبل 2025."
+      "d_ar": "أقل من توظيف تقني واحد من كل عشرة يخص مبتدئا، مقابل أكثر من واحد من كل أربعة قبل 2025.",
+      "n": "9 %",
+      "n_ar": "9 في المائة"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Salariés en début de carrière, avec peu d'expérience.",
+      "d_ar": "موظفون في بداية مسارهم المهني بخبرة قليلة.",
+      "t": "débutants",
+      "t_ar": "المبتدئين"
      }
     ]
-   }
+   },
+   "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
+   "source": "TechCrunch",
+   "summary": "Dans un rapport sur ses propres équipes, l'entreprise de Claude indique que les débutants ne font plus que 9 % des embauches techniques, contre 27 % avant. Le temps passé en réunion par salarié a augmenté de 20 % en un an.",
+   "summary_ar": "في تقرير حول فرقها، تشير الشركة المطورة لـClaude إلى أن المبتدئين لم يعودوا يمثلون سوى 9 في المائة من التوظيفات التقنية، مقابل 27 في المائة من قبل. وارتفع الوقت الذي يقضيه كل موظف في الاجتماعات بنسبة 20 في المائة خلال سنة.",
+   "title": "Anthropic : moins de profils débutants et plus de réunions avec l'IA",
+   "title_ar": "أنثروبيك: عدد أقل من المبتدئين واجتماعات أكثر مع الذكاء الاصطناعي",
+   "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
   },
   {
    "cat": "ia",
-   "title": "Accenture et Google lancent des « Gemini launchpads » pour l'État américain",
-   "title_ar": "أكسنتشر وغوغل تطلقان «منصات Gemini» لفائدة الإدارة الأمريكية",
-   "summary": "Le cabinet de conseil et Google veulent aider les agences fédérales à utiliser des agents d'IA au quotidien, pour les ressources humaines, la finance ou les achats. Accenture forme pour cela 1 000 ingénieurs.",
-   "summary_ar": "يريد مكتب الاستشارات وغوغل مساعدة الوكالات الفيدرالية على استعمال وكلاء الذكاء الاصطناعي في العمل اليومي، في الموارد البشرية والمالية والمشتريات. ولهذا الغرض تكون أكسنتشر 1000 مهندس.",
-   "source": "Yahoo Finance (Stocktwits)",
-   "url": "https://finance.yahoo.com/technology/ai/articles/accenture-expands-federal-ai-push-124140285.html",
    "date": "2026-10-19",
-   "image": "https://s.yimg.com/lo/mysterio/api/3fcadbf303a22c12f38ca1508e5e17121d352474c3c3a59f54a983c7c74b18ed/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2F887f9f7e43140515ae0de06f3048dea5",
    "explain": {
     "context": "En mai, Accenture avait déjà signé avec OpenAI pour le même marché public. Aucun client ni montant n'a été annoncé.",
     "context_ar": "في ماي، كانت أكسنتشر قد وقعت مع أوبن إيه آي من أجل السوق العمومية نفسها. ولم يعلن عن أي زبون أو مبلغ.",
-    "terms": [
-     {
-      "t": "agents d'IA",
-      "t_ar": "وكلاء الذكاء الاصطناعي",
-      "d": "Programmes d'IA qui réalisent seuls une suite de tâches, pas seulement répondre à une question.",
-      "d_ar": "برامج ذكاء اصطناعي تنجز بمفردها سلسلة من المهام، وليس فقط الإجابة عن سؤال."
-     }
-    ],
     "figures": [
      {
-      "n": "1 000",
-      "n_ar": "1000",
       "d": "Nombre d'ingénieurs formés aux outils de Google Cloud dans ce programme.",
-      "d_ar": "عدد المهندسين الذين يتم تكوينهم على أدوات غوغل كلاود في هذا البرنامج."
+      "d_ar": "عدد المهندسين الذين يتم تكوينهم على أدوات غوغل كلاود في هذا البرنامج.",
+      "n": "1 000",
+      "n_ar": "1000"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Programmes d'IA qui réalisent seuls une suite de tâches, pas seulement répondre à une question.",
+      "d_ar": "برامج ذكاء اصطناعي تنجز بمفردها سلسلة من المهام، وليس فقط الإجابة عن سؤال.",
+      "t": "agents d'IA",
+      "t_ar": "وكلاء الذكاء الاصطناعي"
      }
     ]
-   }
+   },
+   "image": "https://s.yimg.com/lo/mysterio/api/3fcadbf303a22c12f38ca1508e5e17121d352474c3c3a59f54a983c7c74b18ed/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fstocktwits_383%2F887f9f7e43140515ae0de06f3048dea5",
+   "source": "Yahoo Finance (Stocktwits)",
+   "summary": "Le cabinet de conseil et Google veulent aider les agences fédérales à utiliser des agents d'IA au quotidien, pour les ressources humaines, la finance ou les achats. Accenture forme pour cela 1 000 ingénieurs.",
+   "summary_ar": "يريد مكتب الاستشارات وغوغل مساعدة الوكالات الفيدرالية على استعمال وكلاء الذكاء الاصطناعي في العمل اليومي، في الموارد البشرية والمالية والمشتريات. ولهذا الغرض تكون أكسنتشر 1000 مهندس.",
+   "title": "Accenture et Google lancent des « Gemini launchpads » pour l'État américain",
+   "title_ar": "أكسنتشر وغوغل تطلقان «منصات Gemini» لفائدة الإدارة الأمريكية",
+   "url": "https://finance.yahoo.com/technology/ai/articles/accenture-expands-federal-ai-push-124140285.html"
   },
   {
    "cat": "eco",
-   "title": "Bourse : la tech rebondit à Wall Street, le pétrole recule",
-   "title_ar": "البورصة: انتعاش أسهم التكنولوجيا في وول ستريت وتراجع النفط",
-   "summary": "Le Nasdaq gagnait environ 1 % lundi matin, après la chute des valeurs de l'IA vendredi. Le baril de Brent baissait à 108 dollars, après l'assouplissement de sanctions contre le pétrole russe.",
-   "summary_ar": "ارتفع مؤشر ناسداك بنحو 1 في المائة صباح الاثنين، بعد تراجع أسهم الذكاء الاصطناعي يوم الجمعة. وانخفض سعر برميل برنت إلى 108 دولارات بعد تخفيف عقوبات على النفط الروسي.",
-   "source": "TheStreet",
-   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-oct-19-2026-nasdaq-futures-climb-as-tech-rebound-from-sell-off",
    "date": "2026-10-19",
-   "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMjEzMjc3/stock-market-reacts-to-consumer-price-index-numbers.jpg?profile=share16-9",
    "explain": {
     "context": "Les marchés doutent du retour sur les énormes dépenses en IA. Cette semaine, Meta, Tesla, Netflix et IBM publient leurs résultats.",
     "context_ar": "تشكك الأسواق في مردودية النفقات الضخمة على الذكاء الاصطناعي. وهذا الأسبوع تنشر ميتا وتسلا ونتفليكس وآي بي إم نتائجها.",
-    "terms": [
-     {
-      "t": "Nasdaq",
-      "t_ar": "ناسداك",
-      "d": "Indice de la Bourse de New York où pèsent surtout les grandes entreprises de technologie.",
-      "d_ar": "مؤشر في بورصة نيويورك تهيمن عليه أساسا كبريات شركات التكنولوجيا."
-     },
-     {
-      "t": "Brent",
-      "t_ar": "برنت",
-      "d": "Pétrole de référence en Europe, qui sert à fixer le prix de nombreux barils dans le monde.",
-      "d_ar": "نفط مرجعي في أوروبا يستعمل لتحديد سعر الكثير من البراميل في العالم."
-     },
-     {
-      "t": "sanctions",
-      "t_ar": "عقوبات",
-      "d": "Mesures qui limitent le commerce avec un pays pour faire pression sur lui.",
-      "d_ar": "إجراءات تحد من التجارة مع بلد ما للضغط عليه."
-     }
-    ],
     "figures": [
      {
-      "n": "108 dollars",
-      "n_ar": "108 دولارات",
       "d": "Prix du baril de Brent lundi ; il avait atteint son plus haut niveau depuis cinq mois.",
-      "d_ar": "سعر برميل برنت يوم الاثنين، بعدما بلغ أعلى مستوى له منذ خمسة أشهر."
+      "d_ar": "سعر برميل برنت يوم الاثنين، بعدما بلغ أعلى مستوى له منذ خمسة أشهر.",
+      "n": "108 dollars",
+      "n_ar": "108 دولارات"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Indice de la Bourse de New York où pèsent surtout les grandes entreprises de technologie.",
+      "d_ar": "مؤشر في بورصة نيويورك تهيمن عليه أساسا كبريات شركات التكنولوجيا.",
+      "t": "Nasdaq",
+      "t_ar": "ناسداك"
+     },
+     {
+      "d": "Pétrole de référence en Europe, qui sert à fixer le prix de nombreux barils dans le monde.",
+      "d_ar": "نفط مرجعي في أوروبا يستعمل لتحديد سعر الكثير من البراميل في العالم.",
+      "t": "Brent",
+      "t_ar": "برنت"
+     },
+     {
+      "d": "Mesures qui limitent le commerce avec un pays pour faire pression sur lui.",
+      "d_ar": "إجراءات تحد من التجارة مع بلد ما للضغط عليه.",
+      "t": "sanctions",
+      "t_ar": "عقوبات"
      }
     ]
-   }
+   },
+   "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMjEzMjc3/stock-market-reacts-to-consumer-price-index-numbers.jpg?profile=share16-9",
+   "source": "TheStreet",
+   "summary": "Le Nasdaq gagnait environ 1 % lundi matin, après la chute des valeurs de l'IA vendredi. Le baril de Brent baissait à 108 dollars, après l'assouplissement de sanctions contre le pétrole russe.",
+   "summary_ar": "ارتفع مؤشر ناسداك بنحو 1 في المائة صباح الاثنين، بعد تراجع أسهم الذكاء الاصطناعي يوم الجمعة. وانخفض سعر برميل برنت إلى 108 دولارات بعد تخفيف عقوبات على النفط الروسي.",
+   "title": "Bourse : la tech rebondit à Wall Street, le pétrole recule",
+   "title_ar": "البورصة: انتعاش أسهم التكنولوجيا في وول ستريت وتراجع النفط",
+   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-oct-19-2026-nasdaq-futures-climb-as-tech-rebound-from-sell-off"
   },
   {
    "cat": "tech",
-   "title": "iPhone Duo : Apple dévoile la batterie de son premier iPhone pliable",
-   "title_ar": "آيفون ديو: آبل تكشف بطارية أول آيفون قابل للطي",
-   "summary": "Une étiquette énergie publiée par Apple en Europe indique une batterie de 4 883 mAh, en deux parties. Le téléphone, avec un écran extérieur de 5,4 pouces et intérieur de 7,6 pouces, sort le 23 octobre.",
-   "summary_ar": "يكشف ملصق للطاقة نشرته آبل في أوروبا عن بطارية بسعة 4883 ميلي أمبير ساعة مقسمة إلى جزأين. ويصدر الهاتف، بشاشة خارجية من 5,4 بوصات وداخلية من 7,6 بوصات، يوم 23 أكتوبر.",
-   "source": "MacRumors",
-   "url": "https://www.macrumors.com/2026/10/18/iphone-duo-battery-capacity/",
    "date": "2026-10-18",
-   "image": "https://images.macrumors.com/t/HyAEO6I-nDaqTyyr4AZQMr7GPdQ=/1600x/article-new/2026/09/iphone-duo-closed-1.jpg",
    "explain": {
     "context": "L'iPhone Duo s'ouvre comme un livre. Il fonctionne uniquement avec une carte SIM numérique (eSIM) et a quatre appareils photo.",
     "context_ar": "ينفتح آيفون ديو مثل الكتاب. ويعمل فقط ببطاقة SIM رقمية (eSIM) ويضم أربع كاميرات.",
-    "terms": [
-     {
-      "t": "mAh",
-      "t_ar": "ميلي أمبير ساعة",
-      "d": "Unité qui mesure la quantité d'énergie qu'une batterie peut stocker.",
-      "d_ar": "وحدة تقيس كمية الطاقة التي يمكن للبطارية تخزينها."
-     }
-    ],
     "figures": [
      {
-      "n": "4 883 mAh",
-      "n_ar": "4883 ميلي أمبير ساعة",
       "d": "Capacité totale, répartie entre une batterie de 2 962 mAh et une de 1 921 mAh.",
-      "d_ar": "السعة الإجمالية موزعة بين بطارية من 2962 وأخرى من 1921 ميلي أمبير ساعة."
+      "d_ar": "السعة الإجمالية موزعة بين بطارية من 2962 وأخرى من 1921 ميلي أمبير ساعة.",
+      "n": "4 883 mAh",
+      "n_ar": "4883 ميلي أمبير ساعة"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Unité qui mesure la quantité d'énergie qu'une batterie peut stocker.",
+      "d_ar": "وحدة تقيس كمية الطاقة التي يمكن للبطارية تخزينها.",
+      "t": "mAh",
+      "t_ar": "ميلي أمبير ساعة"
      }
     ]
-   }
+   },
+   "image": "https://images.macrumors.com/t/HyAEO6I-nDaqTyyr4AZQMr7GPdQ=/1600x/article-new/2026/09/iphone-duo-closed-1.jpg",
+   "source": "MacRumors",
+   "summary": "Une étiquette énergie publiée par Apple en Europe indique une batterie de 4 883 mAh, en deux parties. Le téléphone, avec un écran extérieur de 5,4 pouces et intérieur de 7,6 pouces, sort le 23 octobre.",
+   "summary_ar": "يكشف ملصق للطاقة نشرته آبل في أوروبا عن بطارية بسعة 4883 ميلي أمبير ساعة مقسمة إلى جزأين. ويصدر الهاتف، بشاشة خارجية من 5,4 بوصات وداخلية من 7,6 بوصات، يوم 23 أكتوبر.",
+   "title": "iPhone Duo : Apple dévoile la batterie de son premier iPhone pliable",
+   "title_ar": "آيفون ديو: آبل تكشف بطارية أول آيفون قابل للطي",
+   "url": "https://www.macrumors.com/2026/10/18/iphone-duo-battery-capacity/"
   },
   {
    "cat": "gaming",
-   "title": "GTA 6 : l'argent et la précarité au cœur de l'histoire, selon Rockstar",
-   "title_ar": "GTA 6: المال والهشاشة في قلب القصة حسب روكستار",
-   "summary": "Le responsable de la narration de Rockstar explique que le « rêve américain » de Jason et Lucia est aujourd'hui plus modeste. Les deux héros sont des criminels en fuite, poussés par leurs difficultés d'argent.",
-   "summary_ar": "يوضح المسؤول عن السرد في روكستار أن «الحلم الأمريكي» لجيسون ولوسيا أصبح اليوم أكثر تواضعا. والبطلان مجرمان فاران تدفعهما صعوباتهما المالية.",
-   "source": "Jeuxvideo.com",
-   "url": "https://www.jeuxvideo.com/news/2109320/l-argent-sera-au-coeur-de-gta-6-le-directeur-de-la-narration-leve-le-voile-sur-la-dure-realite-du-prochain-jeu-de-rockstar.htm",
    "date": "2026-10-19",
-   "image": "https://image.jeuxvideo.com/medias-crop-1200-675/179208/1792076502-8779-card.jpg",
    "explain": {
     "context": "Le jeu se passe dans l'État imaginaire de Leonida et à Vice City, inspirée de Miami. Une scénariste s'est inspirée de sa mère immigrée pour Lucia.",
     "context_ar": "تدور أحداث اللعبة في ولاية ليونيدا الخيالية وفي فايس سيتي المستوحاة من ميامي. واستلهمت إحدى كاتبات السيناريو شخصية لوسيا من والدتها المهاجرة.",
+    "figures": [],
     "terms": [
      {
-      "t": "narration",
-      "t_ar": "السرد",
       "d": "Façon de raconter l'histoire d'un jeu : scénario, personnages, dialogues.",
-      "d_ar": "طريقة رواية قصة اللعبة: السيناريو والشخصيات والحوارات."
+      "d_ar": "طريقة رواية قصة اللعبة: السيناريو والشخصيات والحوارات.",
+      "t": "narration",
+      "t_ar": "السرد"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://image.jeuxvideo.com/medias-crop-1200-675/179208/1792076502-8779-card.jpg",
+   "source": "Jeuxvideo.com",
+   "summary": "Le responsable de la narration de Rockstar explique que le « rêve américain » de Jason et Lucia est aujourd'hui plus modeste. Les deux héros sont des criminels en fuite, poussés par leurs difficultés d'argent.",
+   "summary_ar": "يوضح المسؤول عن السرد في روكستار أن «الحلم الأمريكي» لجيسون ولوسيا أصبح اليوم أكثر تواضعا. والبطلان مجرمان فاران تدفعهما صعوباتهما المالية.",
+   "title": "GTA 6 : l'argent et la précarité au cœur de l'histoire, selon Rockstar",
+   "title_ar": "GTA 6: المال والهشاشة في قلب القصة حسب روكستار",
+   "url": "https://www.jeuxvideo.com/news/2109320/l-argent-sera-au-coeur-de-gta-6-le-directeur-de-la-narration-leve-le-voile-sur-la-dure-realite-du-prochain-jeu-de-rockstar.htm"
   },
   {
    "cat": "gaming",
-   "title": "Steam Next Fest : plus de 8 000 démos, et des clones faits avec l'IA",
-   "title_ar": "مهرجان Steam Next Fest: أكثر من 8000 نسخة تجريبية ونسخ مقلدة بالذكاء الاصطناعي",
-   "summary": "Le festival des démos de Steam en propose 8 011, deux fois plus qu'en juin. Des petits studios se plaignent de copies rapides de leurs jeux, et l'un a retiré sa démo par peur d'être copié.",
-   "summary_ar": "يقترح مهرجان النسخ التجريبية على Steam ما مجموعه 8011 نسخة، أي ضعف عددها في يونيو. ويشتكي استوديوهات صغيرة من نسخ سريعة لألعابها، وسحب أحدها نسخته التجريبية خوفا من التقليد.",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/gaming-industry/steam-week-in-review-steam-next-fest-has-over-8-000-demos-as-worthless-vibe-coded-slop-levels-up/",
    "date": "2026-10-19",
-   "image": "",
    "explain": {
     "context": "Avec l'IA, créer un jeu simple devient très rapide. Steam est donc envahi de titres de faible qualité, parfois copiés sur d'autres.",
     "context_ar": "مع الذكاء الاصطناعي أصبح إنشاء لعبة بسيطة سريعا جدا. لذلك تغمر Steam ألعاب ضعيفة الجودة، ومنها ما هو منسوخ من ألعاب أخرى.",
-    "terms": [
-     {
-      "t": "démos",
-      "t_ar": "نسخة تجريبية",
-      "d": "Version gratuite et courte d'un jeu pour l'essayer avant sa sortie.",
-      "d_ar": "نسخة مجانية وقصيرة من لعبة لتجربتها قبل صدورها."
-     }
-    ],
     "figures": [
      {
-      "n": "8 011",
-      "n_ar": "8011",
       "d": "Nombre de démos du festival ; elles étaient un peu plus de 1 000 en juin 2022.",
-      "d_ar": "عدد النسخ التجريبية في المهرجان، وكانت تتجاوز 1000 بقليل في يونيو 2022."
+      "d_ar": "عدد النسخ التجريبية في المهرجان، وكانت تتجاوز 1000 بقليل في يونيو 2022.",
+      "n": "8 011",
+      "n_ar": "8011"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Version gratuite et courte d'un jeu pour l'essayer avant sa sortie.",
+      "d_ar": "نسخة مجانية وقصيرة من لعبة لتجربتها قبل صدورها.",
+      "t": "démos",
+      "t_ar": "نسخة تجريبية"
      }
     ]
-   }
+   },
+   "image": "",
+   "source": "PC Gamer",
+   "summary": "Le festival des démos de Steam en propose 8 011, deux fois plus qu'en juin. Des petits studios se plaignent de copies rapides de leurs jeux, et l'un a retiré sa démo par peur d'être copié.",
+   "summary_ar": "يقترح مهرجان النسخ التجريبية على Steam ما مجموعه 8011 نسخة، أي ضعف عددها في يونيو. ويشتكي استوديوهات صغيرة من نسخ سريعة لألعابها، وسحب أحدها نسخته التجريبية خوفا من التقليد.",
+   "title": "Steam Next Fest : plus de 8 000 démos, et des clones faits avec l'IA",
+   "title_ar": "مهرجان Steam Next Fest: أكثر من 8000 نسخة تجريبية ونسخ مقلدة بالذكاء الاصطناعي",
+   "url": "https://www.pcgamer.com/gaming-industry/steam-week-in-review-steam-next-fest-has-over-8-000-demos-as-worthless-vibe-coded-slop-levels-up/"
   },
   {
    "cat": "geo",
-   "title": "Yémen : au moins 53 morts dans une attaque houthie contre un camp militaire",
-   "title_ar": "اليمن: 53 قتيلا على الأقل في هجوم حوثي على معسكر للجيش",
-   "summary": "Selon les autorités locales, trois missiles ont frappé un camp de nouvelles recrues dans la province de Chabwa, faisant aussi 200 blessés. Le chef du Conseil présidentiel promet une réponse ferme.",
-   "summary_ar": "حسب السلطات المحلية، أصابت ثلاثة صواريخ معسكرا لمجندين جدد في محافظة شبوة، مخلفة أيضا 200 جريح. ويتوعد رئيس مجلس القيادة الرئاسي برد حازم.",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/19/at-least-18-killed-in-houthi-attack-on-military-camp-in-yemens-shabwa",
    "date": "2026-10-19",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-19T124334Z_1198234747_RC2C6OA9HU0Z_RTRMADP_3_IRAN-CRISIS-SAUDI-YEMEN-SHABWA-1792414144.jpg?resize=1200%2C675",
    "explain": {
     "context": "La guerre entre le gouvernement soutenu par l'Arabie saoudite et les Houthis a repris avec la guerre contre l'Iran. Les Houthis visent aussi l'Arabie saoudite.",
     "context_ar": "استؤنفت الحرب بين الحكومة المدعومة من السعودية والحوثيين مع اندلاع الحرب على إيران. ويستهدف الحوثيون السعودية أيضا.",
-    "terms": [
-     {
-      "t": "houthie",
-      "t_ar": "حوثي",
-      "d": "Mouvement armé du nord du Yémen, soutenu par l'Iran, qui contrôle Sanaa.",
-      "d_ar": "حركة مسلحة في شمال اليمن تدعمها إيران وتسيطر على صنعاء."
-     }
-    ],
     "figures": [
      {
-      "n": "53 morts",
-      "n_ar": "53 قتيلا",
       "d": "Bilan donné par les autorités locales ; un premier bilan parlait de 18 morts.",
-      "d_ar": "حصيلة أعلنتها السلطات المحلية، بعدما تحدثت حصيلة أولى عن 18 قتيلا."
+      "d_ar": "حصيلة أعلنتها السلطات المحلية، بعدما تحدثت حصيلة أولى عن 18 قتيلا.",
+      "n": "53 morts",
+      "n_ar": "53 قتيلا"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Mouvement armé du nord du Yémen, soutenu par l'Iran, qui contrôle Sanaa.",
+      "d_ar": "حركة مسلحة في شمال اليمن تدعمها إيران وتسيطر على صنعاء.",
+      "t": "houthie",
+      "t_ar": "حوثي"
      }
     ]
-   }
+   },
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-19T124334Z_1198234747_RC2C6OA9HU0Z_RTRMADP_3_IRAN-CRISIS-SAUDI-YEMEN-SHABWA-1792414144.jpg?resize=1200%2C675",
+   "source": "Al Jazeera",
+   "summary": "Selon les autorités locales, trois missiles ont frappé un camp de nouvelles recrues dans la province de Chabwa, faisant aussi 200 blessés. Le chef du Conseil présidentiel promet une réponse ferme.",
+   "summary_ar": "حسب السلطات المحلية، أصابت ثلاثة صواريخ معسكرا لمجندين جدد في محافظة شبوة، مخلفة أيضا 200 جريح. ويتوعد رئيس مجلس القيادة الرئاسي برد حازم.",
+   "title": "Yémen : au moins 53 morts dans une attaque houthie contre un camp militaire",
+   "title_ar": "اليمن: 53 قتيلا على الأقل في هجوم حوثي على معسكر للجيش",
+   "url": "https://www.aljazeera.com/news/2026/10/19/at-least-18-killed-in-houthi-attack-on-military-camp-in-yemens-shabwa"
   },
   {
    "cat": "geo",
-   "title": "Qatar : le choc énergétique de la guerre contre l'Iran n'a pas atteint son pic",
-   "title_ar": "قطر: الصدمة الطاقية للحرب على إيران لم تبلغ ذروتها بعد",
-   "summary": "Le vice-Premier ministre qatari prévient que d'autres effets sur l'énergie sont à venir dans les mois qui viennent. Il refuse des frais de passage dans le détroit d'Ormuz et annonce un nouveau partenariat de défense régional.",
-   "summary_ar": "حذر نائب رئيس الوزراء القطري من آثار أخرى على الطاقة خلال الأشهر المقبلة. ورفض فرض رسوم عبور في مضيق هرمز، وأعلن عن شراكة دفاعية إقليمية جديدة.",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/19/qatar-warns-global-energy-shockwaves-from-iran-war-have-yet-to-peak",
    "date": "2026-10-19",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/Screenshot-2026-10-19-at-11.39.31-AM-copy-1792399284.jpg?resize=1920%2C1440",
    "explain": {
     "context": "En mars, des frappes iraniennes ont endommagé le site gazier de Ras Laffan au Qatar. Doha reste en contact avec Téhéran et joue les médiateurs avec Oman et le Pakistan.",
     "context_ar": "في مارس، ألحقت ضربات إيرانية أضرارا بموقع راس لفان للغاز في قطر. وتبقى الدوحة على تواصل مع طهران وتلعب دور الوسيط مع عمان وباكستان.",
+    "figures": [],
     "terms": [
      {
-      "t": "détroit d'Ormuz",
-      "t_ar": "مضيق هرمز",
       "d": "Passage maritime étroit entre l'Iran et Oman, où passe une grande partie du pétrole mondial.",
-      "d_ar": "ممر بحري ضيق بين إيران وعمان تمر منه نسبة كبيرة من نفط العالم."
+      "d_ar": "ممر بحري ضيق بين إيران وعمان تمر منه نسبة كبيرة من نفط العالم.",
+      "t": "détroit d'Ormuz",
+      "t_ar": "مضيق هرمز"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/Screenshot-2026-10-19-at-11.39.31-AM-copy-1792399284.jpg?resize=1920%2C1440",
+   "source": "Al Jazeera",
+   "summary": "Le vice-Premier ministre qatari prévient que d'autres effets sur l'énergie sont à venir dans les mois qui viennent. Il refuse des frais de passage dans le détroit d'Ormuz et annonce un nouveau partenariat de défense régional.",
+   "summary_ar": "حذر نائب رئيس الوزراء القطري من آثار أخرى على الطاقة خلال الأشهر المقبلة. ورفض فرض رسوم عبور في مضيق هرمز، وأعلن عن شراكة دفاعية إقليمية جديدة.",
+   "title": "Qatar : le choc énergétique de la guerre contre l'Iran n'a pas atteint son pic",
+   "title_ar": "قطر: الصدمة الطاقية للحرب على إيران لم تبلغ ذروتها بعد",
+   "url": "https://www.aljazeera.com/news/2026/10/19/qatar-warns-global-energy-shockwaves-from-iran-war-have-yet-to-peak"
   },
   {
    "cat": "geo",
-   "title": "Liban : les aides du Hezbollah aux sinistrés défient le gouvernement",
-   "title_ar": "لبنان: مساعدات حزب الله للمتضررين تتحدى الحكومة",
-   "summary": "Le Hezbollah verse jusqu'à 14 000 dollars aux familles dont la maison a été détruite par la guerre avec Israël. Beyrouth, sous pression américaine, veut désarmer le mouvement.",
-   "summary_ar": "يصرف حزب الله ما يصل إلى 14 ألف دولار للأسر التي دمرت منازلها في الحرب مع إسرائيل. وتسعى بيروت، تحت ضغط أمريكي، إلى نزع سلاح الحزب.",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/19/hezbollah-funding-plan-indicates-a-new-challenge-to-lebanons-government",
    "date": "2026-10-19",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/06/afp_6a3f0773d5e2-1782515571.jpg?resize=1920%2C1440",
    "explain": {
     "context": "Depuis mars 2026, l'escalade israélienne a fait environ 4 300 morts au Liban. Plus de 50 villages du sud ont été totalement détruits.",
     "context_ar": "منذ مارس 2026، خلف التصعيد الإسرائيلي حوالي 4300 قتيل في لبنان. ودمرت أكثر من 50 قرية في الجنوب بالكامل.",
-    "terms": [
-     {
-      "t": "désarmer",
-      "t_ar": "نزع سلاح",
-      "d": "Retirer les armes à un groupe pour que seule l'armée de l'État en garde.",
-      "d_ar": "سحب السلاح من جماعة حتى يبقى السلاح بيد جيش الدولة وحده."
-     }
-    ],
     "figures": [
      {
-      "n": "14 000 dollars",
-      "n_ar": "14 ألف دولار",
       "d": "Aide pour une maison détruite à Beyrouth et sa banlieue ; 12 000 dollars ailleurs.",
-      "d_ar": "مساعدة عن منزل مدمر في بيروت وضواحيها، و12 ألف دولار في المناطق الأخرى."
+      "d_ar": "مساعدة عن منزل مدمر في بيروت وضواحيها، و12 ألف دولار في المناطق الأخرى.",
+      "n": "14 000 dollars",
+      "n_ar": "14 ألف دولار"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Retirer les armes à un groupe pour que seule l'armée de l'État en garde.",
+      "d_ar": "سحب السلاح من جماعة حتى يبقى السلاح بيد جيش الدولة وحده.",
+      "t": "désarmer",
+      "t_ar": "نزع سلاح"
      }
     ]
-   }
+   },
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/06/afp_6a3f0773d5e2-1782515571.jpg?resize=1920%2C1440",
+   "source": "Al Jazeera",
+   "summary": "Le Hezbollah verse jusqu'à 14 000 dollars aux familles dont la maison a été détruite par la guerre avec Israël. Beyrouth, sous pression américaine, veut désarmer le mouvement.",
+   "summary_ar": "يصرف حزب الله ما يصل إلى 14 ألف دولار للأسر التي دمرت منازلها في الحرب مع إسرائيل. وتسعى بيروت، تحت ضغط أمريكي، إلى نزع سلاح الحزب.",
+   "title": "Liban : les aides du Hezbollah aux sinistrés défient le gouvernement",
+   "title_ar": "لبنان: مساعدات حزب الله للمتضررين تتحدى الحكومة",
+   "url": "https://www.aljazeera.com/news/2026/10/19/hezbollah-funding-plan-indicates-a-new-challenge-to-lebanons-government"
   },
   {
    "cat": "cinema",
-   "title": "Star Wars : Taika Waititi met son film « au congélateur »",
-   "title_ar": "حرب النجوم: تايكا وايتيتي يجمد فيلمه",
-   "summary": "Le réalisateur explique que son film Star Wars est en pause et qu'il a environ quatre autres projets en cours. Il n'exclut pas d'y revenir un jour.",
-   "summary_ar": "أوضح المخرج أن فيلمه من سلسلة حرب النجوم متوقف مؤقتا وأن لديه نحو أربعة مشاريع أخرى قيد الإعداد. ولم يستبعد العودة إليه يوما ما.",
-   "source": "ComingSoon",
-   "url": "https://www.comingsoon.net/movies/news/2209381-taiki-waititi-star-wars-film-gets-disappointing-update",
    "date": "2026-10-19",
-   "image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/10/MixCollage-19-Oct-2026-07-11-PM-7297.jpg",
    "explain": {
     "context": "Le film avait été annoncé il y a environ six ans. Waititi parlait pendant la promotion de « Klara and the Sun », en salles le 23 octobre.",
     "context_ar": "أعلن عن الفيلم قبل نحو ست سنوات. وكان وايتيتي يتحدث خلال الترويج لفيلم «Klara and the Sun» الذي يعرض في القاعات يوم 23 أكتوبر.",
-    "terms": [],
     "figures": [
      {
-      "n": "quatre",
-      "n_ar": "أربعة",
       "d": "Nombre de films sur lesquels il travaille, dont une adaptation de « Charlie et la chocolaterie ».",
-      "d_ar": "عدد الأفلام التي يشتغل عليها، ومنها اقتباس لـ«تشارلي ومصنع الشوكولاتة»."
+      "d_ar": "عدد الأفلام التي يشتغل عليها، ومنها اقتباس لـ«تشارلي ومصنع الشوكولاتة».",
+      "n": "quatre",
+      "n_ar": "أربعة"
      }
-    ]
-   }
+    ],
+    "terms": []
+   },
+   "image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/10/MixCollage-19-Oct-2026-07-11-PM-7297.jpg",
+   "source": "ComingSoon",
+   "summary": "Le réalisateur explique que son film Star Wars est en pause et qu'il a environ quatre autres projets en cours. Il n'exclut pas d'y revenir un jour.",
+   "summary_ar": "أوضح المخرج أن فيلمه من سلسلة حرب النجوم متوقف مؤقتا وأن لديه نحو أربعة مشاريع أخرى قيد الإعداد. ولم يستبعد العودة إليه يوما ما.",
+   "title": "Star Wars : Taika Waititi met son film « au congélateur »",
+   "title_ar": "حرب النجوم: تايكا وايتيتي يجمد فيلمه",
+   "url": "https://www.comingsoon.net/movies/news/2209381-taiki-waititi-star-wars-film-gets-disappointing-update"
   },
   {
    "cat": "maroc",
@@ -2158,44 +2258,6 @@
    "title": "Google Home : favoris plus stables et Gemini plus facile à arrêter",
    "title_ar": "Google Home: مفضلات أكثر ثباتاً وGemini أسهل في الإيقاف",
    "url": "https://9to5google.com/2026/10/14/google-home-update-rolling-out-improved-favorites-gemini-fixes/"
-  },
-  {
-   "cat": "divers",
-   "date": "2026-10-12",
-   "explain": {
-    "context": "L'étude, menée par Kaylin Hill (université Notre Dame), a commencé en 2004 à l'université Stony Brook, à New York. Elle suit les mêmes familles de la petite enfance à l'âge adulte.",
-    "context_ar": "الدراسة، التي تقودها كايلين هيل من جامعة نوتردام، بدأت سنة 2004 في جامعة ستوني بروك بنيويورك، وتتابع نفس الأسر من الطفولة المبكرة حتى سن الرشد.",
-    "figures": [
-     {
-      "d": "Enfants suivis avec leurs parents depuis l'âge de 3 ans.",
-      "d_ar": "عدد الأطفال الذين تمت متابعتهم مع آبائهم منذ سن الثالثة.",
-      "n": "465",
-      "n_ar": "465"
-     },
-     {
-      "d": "Âges entre lesquels l'activité du cerveau a été mesurée à plusieurs reprises.",
-      "d_ar": "الفترة العمرية التي قيس خلالها نشاط الدماغ عدة مرات.",
-      "n": "9 et 18 ans",
-      "n_ar": "9 و18 سنة"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Zones du cerveau qui s'activent quand on gagne ou reçoit quelque chose d'agréable ; elles jouent sur la motivation.",
-      "d_ar": "مناطق في الدماغ تنشط عندما نربح أو نحصل على شيء ممتع، ولها دور في التحفيز.",
-      "t": "circuit de la récompense",
-      "t_ar": "دائرة المكافأة"
-     }
-    ]
-   },
-   "image": "https://www.earth.com/img/16x9/1920/media-2026/2026/10/12091129/Early-parenting2.jpg",
-   "source": "Earth.com",
-   "sub": "enfant",
-   "summary": "Une étude sur 465 enfants, publiée dans Communications Psychology, a observé les parents quand l'enfant avait 3 ans, puis mesuré l'activité de son cerveau entre 9 et 18 ans. Les enfants élevés avec plus de chaleur et moins de réactions négatives montraient une réponse plus forte du circuit de la récompense ; l'étude montre un lien, pas une cause.",
-   "summary_ar": "دراسة شملت 465 طفلاً، نُشرت في مجلة Communications Psychology، لاحظت تعامل الآباء مع أطفالهم في سن الثالثة، ثم قاست نشاط أدمغتهم بين 9 و18 سنة. وأظهر الأطفال الذين نشأوا مع دفء أكبر وسلبية أقل استجابة أقوى في دائرة المكافأة، والدراسة تُبيّن ارتباطاً وليس علاقة سببية.",
-   "title": "Une éducation chaleureuse à 3 ans liée à un cerveau plus réceptif à l'adolescence",
-   "title_ar": "تربية دافئة في سن الثالثة مرتبطة بدماغ أكثر تجاوباً في المراهقة",
-   "url": "https://www.earth.com/lifestyle/how-parents-treat-toddlers-may-shape-their-brains-for-years-to-come/"
   },
   {
    "cat": "divers",
