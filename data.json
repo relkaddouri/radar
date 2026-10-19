@@ -5251,7 +5251,51 @@
    "title_ar": "خالد حفتر في الرباط: تعاون عسكري وصراع عائلي في ليبيا",
    "url": "https://medias24.com/2026/10/14/maroc-libye-entre-diplomatie-militaire-et-rivalites-dynastiques-les-dessous-de-la-visite-de-khaled-haftar-a-rabat-1779111/",
    "why": "Un bon exemple pour comprendre comment le Maroc avance ses pions au Maghreb sans le dire tout haut.",
-   "why_ar": "مثال جيد لتفهم كيف يحرّك المغرب أوراقه في المنطقة المغاربية دون إعلان ذلك صراحة."
+   "why_ar": "مثال جيد لتفهم كيف يحرّك المغرب أوراقه في المنطقة المغاربية دون إعلان ذلك صراحة.",
+   "explain": {
+    "context": "La Libye est coupée en deux : un gouvernement à Tripoli (Ouest) et les forces du maréchal Haftar à l'Est. Le Maroc s'est rapproché de l'Est.",
+    "context_ar": "ليبيا منقسمة: حكومة في طرابلس غرباً، وقوات المشير حفتر في الشرق. وقد اقترب المغرب من الشرق.",
+    "terms": [
+     {
+      "t": "état-major",
+      "t_ar": "أركان",
+      "d": "Le groupe d'officiers supérieurs qui dirige une armée et prépare ses opérations.",
+      "d_ar": "مجموعة كبار الضباط الذين يقودون الجيش ويخططون لعملياته."
+     },
+     {
+      "t": "FAR",
+      "t_ar": "القوات المسلحة الملكية",
+      "d": "Les Forces Armées Royales : l'armée du Maroc.",
+      "d_ar": "القوات المسلحة الملكية: جيش المغرب."
+     },
+     {
+      "t": "Conseil de sécurité",
+      "t_ar": "مجلس الأمن",
+      "d": "L'organe de l'ONU qui traite de la paix et de la guerre. Ses membres non permanents sont élus pour deux ans.",
+      "d_ar": "هيئة في الأمم المتحدة تعالج قضايا السلم والحرب، وأعضاؤها غير الدائمين ينتخبون لسنتين."
+     },
+     {
+      "t": "maréchal",
+      "t_ar": "المشير",
+      "d": "Le plus haut grade d'officier dans une armée.",
+      "d_ar": "أعلى رتبة لضابط في الجيش."
+     }
+    ],
+    "figures": [
+     {
+      "n": "11 au 15 octobre",
+      "n_ar": "من 11 إلى 15 أكتوبر",
+      "d": "Les dates de la visite : cinq jours, ce qui est long pour une visite militaire officielle.",
+      "d_ar": "تواريخ الزيارة: خمسة أيام، وهي مدة طويلة لزيارة عسكرية رسمية."
+     },
+     {
+      "n": "2028-2029",
+      "n_ar": "2028-2029",
+      "d": "La période du siège au Conseil de sécurité que la Libye et le Maroc visent tous les deux : un siège de deux ans.",
+      "d_ar": "فترة المقعد في مجلس الأمن التي تتنافس عليها ليبيا والمغرب: مقعد لمدة سنتين."
+     }
+    ]
+   }
   },
   {
    "cat": "maroc",
@@ -5285,7 +5329,57 @@
    "title_ar": "السكك الحديدية: المال العام لم يعد كافياً والمكتب الوطني يبحث عن تمويلات أخرى",
    "url": "https://medias24.com/2026/10/14/infrastructures-ferroviaires-le-financement-public-ne-suffit-plus-loncf-explore-de-nouvelles-pistes-1779103/",
    "why": "Un cas concret de stratégie : comment financer un gros projet quand les recettes ne couvrent pas les coûts.",
-   "why_ar": "حالة ملموسة في الاستراتيجية: كيف تموّل مشروعاً ضخماً حين لا تغطي المداخيل التكاليف."
+   "why_ar": "حالة ملموسة في الاستراتيجية: كيف تموّل مشروعاً ضخماً حين لا تغطي المداخيل التكاليف.",
+   "explain": {
+    "context": "L'ONCF, la compagnie ferroviaire du Maroc, construit la grande vitesse et de nouveaux trains. Il lui faut des milliards, et l'État ne peut pas tout payer.",
+    "context_ar": "المكتب الوطني للسكك الحديدية ينجز القطار فائق السرعة وقطارات جديدة. ويحتاج مليارات، والدولة لا تستطيع تمويل كل شيء.",
+    "terms": [
+     {
+      "t": "partenariat public-privé",
+      "t_ar": "الشراكة بين العام والخاص",
+      "d": "Un contrat où l'État et une entreprise privée réalisent un projet ensemble et se partagent les risques.",
+      "d_ar": "عقد تنجز فيه الدولة وشركة خاصة مشروعاً معاً وتتقاسمان المخاطر."
+     },
+     {
+      "t": "obligations vertes",
+      "t_ar": "السندات الخضراء",
+      "d": "Un prêt demandé aux investisseurs, utilisé pour des projets bons pour le climat, comme le train. On le rembourse avec intérêts.",
+      "d_ar": "قرض يأخذه المصدر من المستثمرين لتمويل مشاريع صديقة للمناخ مثل القطار، ويُسدَّد مع فوائد."
+     },
+     {
+      "t": "caisses de retraite",
+      "t_ar": "صناديق التقاعد",
+      "d": "Des organismes qui gèrent les cotisations des salariés pour payer leurs pensions plus tard. Ils ont beaucoup d'argent à placer longtemps.",
+      "d_ar": "هيئات تدير اشتراكات الأجراء لتدفع معاشاتهم لاحقاً، ولديها أموال كبيرة تستثمرها لمدة طويلة."
+     },
+     {
+      "t": "banques de développement",
+      "t_ar": "بنوك التنمية",
+      "d": "Des banques qui prêtent à long terme et à bas coût pour de grands projets utiles au pays.",
+      "d_ar": "بنوك تقرض على المدى الطويل وبكلفة منخفضة لمشاريع كبرى مفيدة للبلد."
+     }
+    ],
+    "figures": [
+     {
+      "n": "96 milliards de dirhams",
+      "n_ar": "96 مليار درهم",
+      "d": "Le coût du programme d'ici 2030. C'est très élevé : plusieurs fois le budget annuel d'un grand ministère.",
+      "d_ar": "كلفة البرنامج في أفق 2030. مبلغ ضخم جداً مقارنة بميزانية وزارة كبرى."
+     },
+     {
+      "n": "5 milliards de dirhams",
+      "n_ar": "5 مليارات درهم",
+      "d": "Le montant d'obligations vertes émis depuis 2022, soit environ 5 % de ce qu'il faut pour le programme.",
+      "d_ar": "مبلغ السندات الخضراء المصدرة منذ 2022، أي نحو 5% مما يحتاجه البرنامج."
+     },
+     {
+      "n": "deux points par an",
+      "n_ar": "نقطتين سنوياً",
+      "d": "Le frein à la croissance en Afrique dû au manque d'infrastructures : 2 points de croissance en moins chaque année, ce qui est beaucoup.",
+      "d_ar": "أثر نقص البنيات التحتية على نمو أفريقيا: نقطتان أقل كل سنة، وهو أثر كبير."
+     }
+    ]
+   }
   },
   {
    "cat": "sport",
