@@ -9,14 +9,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:liga-clasico@radar
-DTSTAMP:20261021T124909Z
+DTSTAMP:20261021T130907Z
 DTSTART:20261025T200000Z
 DTEND:20261025T220000Z
 SUMMARY:FC Barcelone – Real Madrid (El Clásico) (Football)
 LOCATION:Camp Nou\, Barcelone
-DESCRIPTION:Liga — Clásico dimanche 25 oct. à 21h (heure d'Espagne) a
- u Camp Nou \; capacité réduite (~60 000) à cause des travaux. Source 
- : FC Barcelone et LaLiga.
+DESCRIPTION:Liga — Premier Clásico de la saison\, dimanche 21h au Camp
+  Nou (capacité réduite). Dani Olmo\, blessé à Paris\, devrait manque
+ r le match.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:FC Barcelone – Real Madrid (El Clásico) (Football)
