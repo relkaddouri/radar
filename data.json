@@ -995,248 +995,120 @@
  "news": [
   {
    "cat": "maroc",
-   "sub": "societe",
-   "date": "2026-10-21",
-   "source": "Médias24",
-   "url": "https://medias24.com/2026/10/21/le-gouvernement-maintient-dans-son-programme-linterdiction-des-reseaux-sociaux-aux-moins-de-15-ans-1782277",
-   "image": "https://medias24.com/content/uploads/2026/10/21/Interdiction-des-reseaux-sociaux-aux-mineurs.webp",
-   "title": "Réseaux sociaux : le gouvernement veut les interdire aux moins de 15 ans",
-   "title_ar": "شبكات التواصل الاجتماعي: الحكومة تريد منعها على من هم دون 15 سنة",
-   "summary": "Le programme du gouvernement pour 2026-2031 prévoit une loi qui interdirait les réseaux sociaux aux enfants de moins de 15 ans et protégerait les jeunes des jeux vidéo dangereux. Il annonce aussi l'interdiction du smartphone à l'école primaire, mais ne dit pas encore comment vérifier l'âge des utilisateurs ni quand la loi entrera en vigueur.",
-   "summary_ar": "يتضمن البرنامج الحكومي 2026-2031 قانوناً يمنع شبكات التواصل الاجتماعي على الأطفال دون 15 سنة ويحمي الشباب من الألعاب الإلكترونية الخطيرة. كما يعلن منع الهاتف الذكي في المدارس الابتدائية، لكنه لا يحدد بعد كيفية التحقق من سن المستخدمين ولا موعد دخول القانون حيز التنفيذ.",
-   "explain": {
-    "context": "Présenté au Parlement cette semaine, le programme reprend une promesse de campagne de l'Istiqlal, parti de la majorité.",
-    "context_ar": "البرنامج الذي قُدّم للبرلمان هذا الأسبوع يتبنى وعداً انتخابياً لحزب الاستقلال المشارك في الأغلبية.",
-    "terms": [
-     {
-      "t": "vérifier l'âge",
-      "t_ar": "التحقق من سن",
-      "d": "Contrôler qu'un utilisateur a bien l'âge requis, par exemple avec une pièce d'identité ou une estimation par photo. C'est le point le plus difficile de ces lois.",
-      "d_ar": "التأكد من أن المستخدم بلغ السن المطلوبة، مثلاً ببطاقة هوية أو بتقدير العمر عبر صورة. وهذه أصعب نقطة في مثل هذه القوانين."
-     }
-    ],
-    "figures": [
-     {
-      "n": "15 ans",
-      "n_ar": "15 سنة",
-      "d": "L'âge minimum envisagé pour ouvrir un compte sur un réseau social. Aujourd'hui, la plupart des plateformes fixent elles-mêmes la limite à 13 ans.",
-      "d_ar": "السن الدنيا المقترحة لفتح حساب على شبكة اجتماعية. وتحدد معظم المنصات اليوم هذا الحد بنفسها في 13 سنة."
-     }
-    ]
-   }
-  },
-  {
-   "cat": "maroc",
    "sub": "economie",
-   "date": "2026-10-21",
-   "source": "Infomédiaire",
-   "url": "https://www.infomediaire.net/risque-pays-maroc-coface-note-b-climat-affaires-a4-2026/",
-   "image": "https://www.infomediaire.net/wp-content/uploads/2026/10/CFC.jpeg",
-   "title": "Risque pays : le Maroc garde la meilleure note d'Afrique du Nord chez Coface",
-   "title_ar": "مخاطر البلد: المغرب يحافظ على أفضل تصنيف في شمال إفريقيا لدى كوفاس",
-   "summary": "L'assureur-crédit Coface maintient la note « B » du Maroc pour le risque pays et « A4 » pour le climat des affaires, devant l'Algérie, la Tunisie et l'Égypte. Il cite le tourisme, les investissements étrangers et la demande intérieure comme points forts, mais note que la chimie, l'électronique et le textile souffrent de la hausse des coûts.",
-   "summary_ar": "أبقت شركة تأمين القروض كوفاس على تنقيط «B» للمغرب في مخاطر البلد و«A4» لمناخ الأعمال، متقدماً على الجزائر وتونس ومصر. وتذكر السياحة والاستثمارات الأجنبية والطلب الداخلي كنقاط قوة، لكنها تلاحظ أن الكيمياء والإلكترونيك والنسيج تعاني من ارتفاع التكاليف.",
-   "explain": {
-    "context": "Coface publie chaque trimestre un classement qui aide les entreprises à juger le risque de ne pas être payées dans un pays. Le contexte mondial est tendu par la guerre au Moyen-Orient.",
-    "context_ar": "تنشر كوفاس كل ثلاثة أشهر تصنيفاً يساعد الشركات على تقدير خطر عدم الحصول على مستحقاتها في بلد ما. والسياق العالمي متوتر بسبب الحرب في الشرق الأوسط.",
-    "terms": [
-     {
-      "t": "risque pays",
-      "t_ar": "مخاطر البلد",
-      "d": "Le risque qu'une entreprise étrangère ne soit pas payée ou perde de l'argent dans un pays, à cause de l'économie ou de la politique.",
-      "d_ar": "احتمال ألا تحصل شركة أجنبية على مستحقاتها أو أن تخسر مالاً في بلد ما بسبب الاقتصاد أو السياسة."
-     },
-     {
-      "t": "assureur-crédit",
-      "t_ar": "شركة تأمين القروض",
-      "d": "Société qui assure les entreprises contre les clients qui ne paient pas leurs factures.",
-      "d_ar": "شركة تؤمّن المقاولات ضد الزبائن الذين لا يدفعون فواتيرهم."
-     }
-    ],
-    "figures": [
-     {
-      "n": "B",
-      "n_ar": "B",
-      "d": "Note intermédiaire sur une échelle qui va de A1 (très faible risque) à E (risque extrême). La Libye est classée en risque extrême.",
-      "d_ar": "تنقيط متوسط على سلم يمتد من A1 (خطر ضعيف جداً) إلى E (خطر قصوى). وتُصنَّف ليبيا في خانة الخطر القصوى."
-     },
-     {
-      "n": "A4",
-      "n_ar": "A4",
-      "d": "Pour le climat des affaires, A4 veut dire un risque « raisonnable » : les règles et la justice fonctionnent assez bien pour les entreprises.",
-      "d_ar": "في مناخ الأعمال، يعني A4 خطراً «معقولاً»: القواعد والقضاء يعملان بشكل مقبول بالنسبة للمقاولات."
-     }
-    ]
-   }
-  },
-  {
-   "cat": "maroc",
-   "sub": "economie",
-   "date": "2026-10-19",
+   "title": "Tourisme : 7,5 % du PIB marocain en 2025, un record",
+   "title_ar": "السياحة: 7,5% من الناتج الداخلي الخام المغربي في 2025",
+   "summary": "Selon le Haut-Commissariat au Plan, le PIB touristique a atteint 129,7 milliards de dirhams en 2025, en hausse de 11,7 %. Sa part dans l'économie passe de 7,2 % à 7,5 %.",
+   "summary_ar": "حسب المندوبية السامية للتخطيط، بلغ الناتج الداخلي السياحي 129,7 مليار درهم في 2025، بارتفاع 11,7%. وارتفعت حصته في الاقتصاد من 7,2% إلى 7,5%.",
    "source": "Le360",
-   "url": "https://fr.le360.ma/economie/lgv-kenitra-marrakech-1400-metres-28-travees-900-millions-de-dirhams-tout-savoir-sur-le-viaduc-de-la_3SEZ2J3DQFAVTMOB44FGQHWP4Y/",
-   "image": "https://fr.le360.ma/resizer/v2/S7STNEJ37RAILOM536WNOBZMJE.png?auth=45f10aad7779338cfdeebefbc37b1e2ef199680beda492d8fc4275f558f4c1b2&smart=true&width=1200&height=630",
-   "title": "TGV Kénitra-Marrakech : un viaduc géant de 1,4 km en construction à Settat",
-   "title_ar": "القطار فائق السرعة القنيطرة-مراكش: قنطرة عملاقة بطول 1,4 كلم قيد البناء في سطات",
-   "summary": "L'ONCF construit à Settat le plus grand viaduc de la future ligne à grande vitesse vers Marrakech : 1 400 mètres, 28 travées et jusqu'à 36 mètres de haut, pour environ 900 millions de dirhams. La ligne de 430 km, prévue pour rouler à 350 km/h, était réalisée à 30 % en mai et doit être livrée en septembre 2029.",
-   "summary_ar": "يبني المكتب الوطني للسكك الحديدية في سطات أكبر قنطرة على الخط فائق السرعة المستقبلي نحو مراكش: 1400 متر و28 فتحة وعلو يصل إلى 36 متراً، بكلفة تقارب 900 مليون درهم. وكان الخط البالغ طوله 430 كلم والمصمم لسرعة 350 كلم/س منجزاً بنسبة 30% في ماي، ومن المرتقب تسليمه في شتنبر 2029.",
-   "explain": {
-    "context": "Le roi a lancé en avril 2025 le prolongement d'Al Boraq de Kénitra à Marrakech. C'est une pièce clé avant la Coupe du monde 2030 que le Maroc co-organise.",
-    "context_ar": "أطلق الملك في أبريل 2025 تمديد خط البراق من القنيطرة إلى مراكش. وهو مشروع أساسي قبل كأس العالم 2030 التي يشارك المغرب في تنظيمها.",
-    "terms": [
-     {
-      "t": "viaduc",
-      "t_ar": "قنطرة",
-      "d": "Long pont qui porte une route ou une voie ferrée au-dessus d'une vallée ou d'un terrain en pente.",
-      "d_ar": "جسر طويل يحمل طريقاً أو سكة حديد فوق واد أو أرض منحدرة."
-     },
-     {
-      "t": "travées",
-      "t_ar": "فتحة",
-      "d": "Les parties du pont entre deux piliers. Ici, chacune mesure 50 mètres.",
-      "d_ar": "أجزاء الجسر الممتدة بين دعامتين. وهنا يبلغ طول كل واحدة 50 متراً."
-     }
-    ],
-    "figures": [
-     {
-      "n": "900 millions de dirhams",
-      "n_ar": "900 مليون درهم",
-      "d": "Le coût de ce seul viaduc, soit environ 1,7 % du coût de la ligne entière, estimé à 53 milliards de dirhams sans les trains.",
-      "d_ar": "كلفة هذه القنطرة وحدها، أي نحو 1,7% من كلفة الخط كاملاً المقدرة بـ53 مليار درهم دون القطارات."
-     }
-    ]
-   }
-  },
-  {
-   "cat": "ia",
+   "url": "https://fr.le360.ma/economie/les-recettes-touristiques-en-hausse-de-117-en-2025-a-75-du-pib-national_NGDBPPGRGNAKXIDYK7SO6ITJLU/",
    "date": "2026-10-20",
-   "source": "Investing.com (d'après le Wall Street Journal)",
-   "url": "https://www.investing.com/news/stock-market-news/anthropic-revenue-hits-163-billion-as-preliminary-s1-outlines-ipo-risks--wsj-4960928",
-   "image": "https://content-media.investing.com/news/moved_LYNXMPEM9I0YO_L.jpg",
-   "title": "Entrée en Bourse : Anthropic dévoile 16,3 milliards de dollars de revenus en six mois",
-   "title_ar": "الدخول إلى البورصة: أنثروبيك تكشف عن 16,3 مليار دولار من الإيرادات في ستة أشهر",
-   "summary": "Selon le Wall Street Journal, le projet de prospectus d'Anthropic, l'entreprise qui développe Claude, montre 16,3 milliards de dollars de revenus au premier semestre 2026, contre 1,1 milliard un an plus tôt. Il montre aussi une perte de 80,7 milliards, surtout due à des écritures comptables, et des contrats de calcul d'environ 450 milliards avec Google, Amazon et Microsoft.",
-   "summary_ar": "حسب صحيفة وول ستريت جورنال، يُظهر مشروع نشرة الاكتتاب لأنثروبيك، الشركة التي تطوّر Claude، إيرادات بقيمة 16,3 مليار دولار في النصف الأول من 2026، مقابل 1,1 مليار قبل عام. كما يُظهر خسارة بـ80,7 مليار يعود معظمها إلى قيود محاسبية، وعقود حوسبة بنحو 450 مليار دولار مع غوغل وأمازون ومايكروسوفت.",
+   "image": "https://fr.le360.ma/resizer/v2/OFL3V4MV6FEQTAIYV6TAMYGHCE.jpeg?auth=7e62d35607aeb0e0094d1ed79d07d28f3dc959818cd612c440b8a41ea91063a8&smart=true&width=1200&height=630",
    "explain": {
-    "context": "Anthropic prépare une introduction en Bourse qui pourrait avoir lieu dès novembre. Le document cité est un brouillon : les chiffres peuvent encore changer. Claude, qui écrit ces lignes, est développé par Anthropic.",
-    "context_ar": "تستعد أنثروبيك لدخول البورصة ربما ابتداءً من نونبر. الوثيقة المذكورة مسودة وقد تتغير أرقامها. وClaude الذي يكتب هذه السطور من تطوير أنثروبيك.",
+    "context": "Le tourisme est l'un des grands moteurs de l'économie marocaine. Les touristes venus de l'étranger représentent environ 69 % des dépenses touristiques.",
+    "context_ar": "السياحة من أهم محركات الاقتصاد المغربي. ويمثل السياح القادمون من الخارج نحو 69% من النفقات السياحية.",
     "terms": [
      {
-      "t": "prospectus",
-      "t_ar": "نشرة الاكتتاب",
-      "d": "Document officiel qu'une entreprise publie avant d'entrer en Bourse : il présente ses comptes, ses risques et son organisation aux futurs actionnaires.",
-      "d_ar": "وثيقة رسمية تنشرها الشركة قبل دخول البورصة، تعرض حساباتها ومخاطرها وتنظيمها على المساهمين المحتملين."
+      "t": "PIB",
+      "t_ar": "الناتج الداخلي الخام",
+      "d": "Valeur de tout ce qu'un pays produit en un an. On l'utilise pour mesurer la taille d'une économie.",
+      "d_ar": "قيمة كل ما ينتجه بلد في سنة. يُستعمل لقياس حجم الاقتصاد."
      },
      {
-      "t": "écritures comptables",
-      "t_ar": "قيود محاسبية",
-      "d": "Lignes ajoutées aux comptes sans sortie d'argent réelle, ici liées à la valeur des titres émis pour lever des fonds.",
-      "d_ar": "بنود تُضاف إلى الحسابات دون خروج فعلي للمال، مرتبطة هنا بقيمة السندات التي أُصدرت لجمع التمويل."
-     },
-     {
-      "t": "premier semestre",
-      "t_ar": "النصف الأول",
-      "d": "Les six premiers mois de l'année, de janvier à juin.",
-      "d_ar": "الأشهر الستة الأولى من السنة، من يناير إلى يونيو."
+      "t": "Haut-Commissariat au Plan",
+      "t_ar": "المندوبية السامية للتخطيط",
+      "d": "Organisme public marocain chargé des statistiques officielles : population, emploi, prix, croissance.",
+      "d_ar": "هيئة عمومية مغربية مكلفة بالإحصاءات الرسمية: السكان والتشغيل والأسعار والنمو."
      }
     ],
     "figures": [
      {
-      "n": "16,3 milliards de dollars",
-      "n_ar": "16,3 مليار دولار",
-      "d": "Environ 15 fois plus qu'un an plus tôt. C'est aussi plus que le budget annuel de beaucoup d'États africains.",
-      "d_ar": "نحو 15 ضعف ما كان عليه قبل عام، وهو أكثر من الميزانية السنوية لكثير من الدول الإفريقية."
+      "n": "129,7 milliards de dirhams",
+      "n_ar": "129,7 مليار درهم",
+      "d": "La richesse créée par le tourisme en 2025, contre 116,2 milliards en 2024.",
+      "d_ar": "الثروة التي خلقتها السياحة في 2025، مقابل 116,2 مليار في 2024."
      },
      {
-      "n": "80,7 milliards",
-      "n_ar": "80,7 مليار",
-      "d": "La perte affichée. Environ 72 milliards viennent d'écritures comptables ; sans elles, la perte serait proche de 9 milliards.",
-      "d_ar": "الخسارة المعلنة. نحو 72 ملياراً منها قيود محاسبية، ودونها تقترب الخسارة من 9 مليارات."
+      "n": "7,5 %",
+      "n_ar": "7,5%",
+      "d": "Sur 100 dirhams de richesse produite au Maroc, 7,5 viennent du tourisme.",
+      "d_ar": "من كل 100 درهم من الثروة المنتجة في المغرب، تأتي 7,5 دراهم من السياحة."
      }
     ]
    }
   },
   {
-   "cat": "eco",
-   "date": "2026-10-21",
-   "source": "INDmoney",
-   "url": "https://www.indmoney.com/blog/us-stocks/netflix-stock-q3-earnings-analysis-nflx",
-   "image": "https://strapi-cdn.indmoney.com/cdn-cgi/image/quality=80,format=auto,metadata=copyright,width=700/https://strapi-cdn.indmoney.com/xlarge_Netflix_Stock_Crashes_After_Q3_Earnings_Here_s_Why_8866c8abd0.png",
-   "title": "Netflix : bons résultats, mais l'action chute de près de 6 %",
-   "title_ar": "نتفليكس: نتائج جيدة لكن السهم يتراجع بنحو 6%",
-   "summary": "Netflix a gagné 3,7 milliards de dollars au troisième trimestre, pour 12,9 milliards de chiffre d'affaires, en hausse de 12 %. Mais l'entreprise a baissé sa prévision de recettes publicitaires pour l'année, d'environ 3 à 2,7 milliards, et son action a perdu près de 6 % dans les échanges qui ont suivi l'annonce.",
-   "summary_ar": "حققت نتفليكس أرباحاً بقيمة 3,7 مليار دولار في الربع الثالث، من رقم معاملات بلغ 12,9 مليار بارتفاع 12%. لكن الشركة خفّضت توقعاتها لإيرادات الإعلانات هذا العام من نحو 3 إلى 2,7 مليار، وفقد سهمها قرابة 6% بعد الإعلان.",
-   "explain": {
-    "context": "Les grandes entreprises américaines publient leurs comptes chaque trimestre. La Bourse réagit souvent plus aux prévisions pour l'avenir qu'aux résultats passés.",
-    "context_ar": "تنشر الشركات الأمريكية الكبرى حساباتها كل ثلاثة أشهر. وكثيراً ما تتفاعل البورصة مع التوقعات المستقبلية أكثر من النتائج الماضية.",
-    "terms": [
-     {
-      "t": "chiffre d'affaires",
-      "t_ar": "رقم معاملات",
-      "d": "Tout l'argent encaissé grâce aux ventes, ici les abonnements et la publicité, avant de payer les dépenses.",
-      "d_ar": "مجموع المال المحصّل من المبيعات، هنا الاشتراكات والإعلانات، قبل دفع المصاريف."
-     },
-     {
-      "t": "trimestre",
-      "t_ar": "الربع",
-      "d": "Période de trois mois. Le troisième trimestre va de juillet à septembre.",
-      "d_ar": "فترة من ثلاثة أشهر. والربع الثالث يمتد من يوليوز إلى شتنبر."
-     }
-    ],
-    "figures": [
-     {
-      "n": "12 %",
-      "n_ar": "12%",
-      "d": "La hausse des ventes sur un an. C'est moins qu'au début de l'année (16 % au premier trimestre) : la croissance ralentit.",
-      "d_ar": "ارتفاع المبيعات على مدى عام. وهو أقل مما كان في بداية السنة (16% في الربع الأول): النمو يتباطأ."
-     }
-    ]
-   }
-  },
-  {
-   "cat": "gaming",
-   "date": "2026-10-21",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/football-manager-27-is-launching-for-free-for-a-limited-time-following-troubled-26-game/",
-   "image": "https://www.videogameschronicle.com/files/2025/08/football-manager-26.jpg",
-   "title": "Football Manager 27 jouable gratuitement du 29 octobre au 3 novembre",
-   "title_ar": "Football Manager 27 مجانية من 29 أكتوبر إلى 3 نونبر",
-   "summary": "Sega offre un essai gratuit de Football Manager 27 sur PC et Mac, avec tous les modes de jeu, via Steam, Epic et le Game Pass. Le but est de regagner les joueurs déçus par FM26, critiqué pour ses bugs ; la sortie officielle est prévue le 10 novembre.",
-   "summary_ar": "تقدم سيغا تجربة مجانية للعبة Football Manager 27 على الحاسوب وماك بجميع أنماط اللعب، عبر Steam وEpic وGame Pass. والهدف استعادة اللاعبين الذين خيّبتهم FM26 المنتقدة بسبب أعطالها، على أن يكون الإصدار الرسمي يوم 10 نونبر.",
-   "explain": {
-    "context": "Football Manager est une série culte où l'on joue l'entraîneur d'un club. L'édition 2026, refaite avec un nouveau moteur, a été très mal notée par les joueurs.",
-    "context_ar": "Football Manager سلسلة شهيرة يتقمص فيها اللاعب دور مدرب نادٍ. وقد تلقت نسخة 2026، المعاد بناؤها بمحرك جديد، تقييمات سيئة جداً من اللاعبين.",
-    "terms": [
-     {
-      "t": "Game Pass",
-      "t_ar": "Game Pass",
-      "d": "Abonnement de Microsoft qui donne accès à un grand catalogue de jeux pour un prix mensuel, comme Netflix pour les jeux.",
-      "d_ar": "اشتراك من مايكروسوفت يتيح مكتبة كبيرة من الألعاب مقابل سعر شهري، مثل نتفليكس لكن للألعاب."
-     }
-    ],
-    "figures": []
-   }
-  },
-  {
-   "cat": "gaming",
+   "cat": "maroc",
+   "sub": "economie",
+   "title": "Aéroports : plus de 26 millions de passagers à fin août",
+   "title_ar": "المطارات: أكثر من 26 مليون مسافر حتى نهاية غشت",
+   "summary": "Les aéroports marocains ont accueilli 26 millions de passagers sur les huit premiers mois de 2026, soit 8,8 % de plus qu'en 2025. Casablanca et Marrakech restent en tête, et l'Europe fournit l'essentiel du trafic.",
+   "summary_ar": "استقبلت المطارات المغربية 26 مليون مسافر خلال الأشهر الثمانية الأولى من 2026، أي بزيادة 8,8% مقارنة بـ2025. وتبقى الدار البيضاء ومراكش في الصدارة، وتأتي أوروبا بمعظم الحركة.",
+   "source": "Hespress FR",
+   "url": "https://fr.hespress.com/493214-aeroports-marocains-plus-de-26-millions-de-passagers-a-fin-aout.html",
    "date": "2026-10-20",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/report-finds-that-94-of-studios-use-ai-but-more-than-half-say-it-isnt-deeply-embedded-into-production/",
-   "image": "https://www.videogameschronicle.com/files/2024/01/game-developer-1-768x433-1.jpg",
-   "title": "Jeux vidéo : 94 % des studios utilisent l'IA, mais souvent un peu seulement",
-   "title_ar": "ألعاب الفيديو: 94% من الاستوديوهات تستعمل الذكاء الاصطناعي لكن بشكل محدود غالباً",
-   "summary": "Le cabinet Vivrato a interrogé 101 dirigeants de studios, surtout en Europe et en Amérique du Nord : 94 % utilisent l'IA dans au moins une étape de création d'un jeu. Mais plus de la moitié disent qu'elle reste peu intégrée dans leur travail quotidien.",
-   "summary_ar": "استجوب مكتب Vivrato 101 مسؤول استوديو، أغلبهم في أوروبا وأمريكا الشمالية: 94% يستعملون الذكاء الاصطناعي في مرحلة واحدة على الأقل من صنع اللعبة. لكن أكثر من النصف يقولون إنه لا يزال قليل الاندماج في عملهم اليومي.",
+   "image": "https://f2.hespress.com/wp-content/uploads/2023/01/aeroport_marrakech_MENARA.jpg",
    "explain": {
-    "context": "L'IA divise le monde du jeu vidéo : certains y voient un gain de temps, d'autres une menace pour les métiers d'artiste. Les chiffres réels d'usage restaient flous.",
-    "context_ar": "يقسم الذكاء الاصطناعي عالم ألعاب الفيديو: يرى فيه البعض ربحاً للوقت ويراه آخرون تهديداً لمهن الفنانين. وكانت أرقام الاستعمال الفعلي غير واضحة.",
-    "terms": [],
+    "context": "Les chiffres viennent de l'ONDA, qui gère les aéroports du pays. Le trafic vers le Moyen-Orient et l'Extrême-Orient est le seul à baisser, de 2,4 %.",
+    "context_ar": "الأرقام صادرة عن المكتب الوطني للمطارات الذي يسير مطارات البلاد. والحركة نحو الشرق الأوسط والشرق الأقصى هي الوحيدة التي تراجعت، بنسبة 2,4%.",
+    "terms": [
+     {
+      "t": "trafic",
+      "t_ar": "حركة النقل",
+      "d": "Ici, le nombre total de voyageurs qui passent par les aéroports, à l'arrivée comme au départ.",
+      "d_ar": "هنا، العدد الإجمالي للمسافرين الذين يمرون عبر المطارات، عند الوصول أو المغادرة."
+     }
+    ],
     "figures": [
      {
-      "n": "94 %",
-      "n_ar": "94%",
-      "d": "Part des studios qui utilisent l'IA à au moins une étape. Mais 52 % notent son intégration 3 sur 10 ou moins : l'usage est large mais léger.",
-      "d_ar": "نسبة الاستوديوهات التي تستعمل الذكاء الاصطناعي في مرحلة واحدة على الأقل. لكن 52% يمنحون اندماجه 3 من 10 أو أقل: استعمال واسع لكنه خفيف."
+      "n": "26 millions",
+      "n_ar": "26 مليون",
+      "d": "Exactement 26 040 927 passagers de janvier à août. Casablanca en compte à elle seule plus de 8,2 millions.",
+      "d_ar": "بالضبط 26.040.927 مسافراً من يناير إلى غشت. ومطار الدار البيضاء وحده استقبل أكثر من 8,2 ملايين."
+     },
+     {
+      "n": "8,8 %",
+      "n_ar": "8,8%",
+      "d": "La hausse par rapport à la même période de 2025.",
+      "d_ar": "نسبة الارتفاع مقارنة بنفس الفترة من 2025."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "maroc",
+   "sub": "politique",
+   "title": "Peine de mort : le CNDH demande au gouvernement une loi pour l'abolir",
+   "title_ar": "عقوبة الإعدام: المجلس الوطني لحقوق الإنسان يطالب الحكومة بقانون لإلغائها",
+   "summary": "À Rabat, la présidente du CNDH, Amina Bouayach, a appelé le gouvernement à lancer l'abolition de la peine de mort. Le Maroc n'exécute plus personne depuis 1993, mais environ 56 personnes restent condamnées à mort.",
+   "summary_ar": "في الرباط، دعت رئيسة المجلس الوطني لحقوق الإنسان أمينة بوعياش الحكومة إلى الشروع في إلغاء عقوبة الإعدام. ولا ينفذ المغرب أي إعدام منذ 1993، لكن نحو 56 شخصاً ما زالوا محكومين بالإعدام.",
+   "source": "Le360",
+   "url": "https://fr.le360.ma/politique/le-cndh-appelle-le-gouvernement-a-adopter-une-loi-abolissant-la-peine-de-mort_YAAOTHJK6JFSLJIPBZKSXL5L24/",
+   "date": "2026-10-20",
+   "image": "https://fr.le360.ma/resizer/v2/OKORYZP6UBDDLMZ7SLUUHOWFVM.jpg?auth=00a4d940b8a73090779b382ac4b4a23cbf22d8bc3548482ede9f0d0d81dc8f30&smart=true&width=1200&height=630",
+   "explain": {
+    "context": "La peine de mort est toujours dans le code pénal. Le Maroc est candidat pour accueillir à Marrakech le prochain Congrès mondial contre la peine de mort, prévu en 2029.",
+    "context_ar": "ما زالت عقوبة الإعدام في القانون الجنائي. والمغرب مرشح لاحتضان المؤتمر العالمي المقبل لمناهضة عقوبة الإعدام بمراكش، المرتقب في 2029.",
+    "terms": [
+     {
+      "t": "CNDH",
+      "t_ar": "المجلس الوطني لحقوق الإنسان",
+      "d": "Conseil national des droits de l'Homme : institution publique marocaine qui veille au respect des droits humains.",
+      "d_ar": "مؤسسة وطنية مغربية تسهر على احترام حقوق الإنسان وتقدم توصيات للسلطات."
+     },
+     {
+      "t": "abolition",
+      "t_ar": "الإلغاء",
+      "d": "Suppression d'une règle par une loi. Ici, retirer la peine de mort du droit marocain.",
+      "d_ar": "حذف قاعدة بواسطة قانون. هنا، إزالة عقوبة الإعدام من القانون المغربي."
+     }
+    ],
+    "figures": [
+     {
+      "n": "1993",
+      "n_ar": "1993",
+      "d": "Année de la dernière exécution au Maroc. Depuis, les condamnations à mort ne sont plus appliquées.",
+      "d_ar": "سنة آخر إعدام في المغرب. ومنذ ذلك الحين لم تعد أحكام الإعدام تُنفذ."
      }
     ]
    }
@@ -1244,23 +1116,295 @@
   {
    "cat": "sport",
    "sport": "football",
-   "date": "2026-10-21",
-   "source": "Goal",
-   "url": "https://www.goal.com/en/news/flick-suffers-a-fresh-blow-before-the-clasico/blt39ee5cb63fc516b6",
-   "image": "https://assets.goal.com/images/v3/getty-2300504617/crop/MM5DIMBRG45DEMRWGA5G433XMU5DAORSGY4Q====/GettyImages-2300504617.jpg",
-   "title": "Clásico : blessé à Paris, Dani Olmo devrait manquer le match contre le Real",
-   "title_ar": "الكلاسيكو: داني أولمو المصاب في باريس مرشح لتفويت مباراة ريال مدريد",
-   "summary": "Sorti à la 27e minute contre le PSG, Dani Olmo souffrirait d'une déchirure à la cuisse gauche ; une IRM doit confirmer ce mercredi. Selon AS, il pourrait être absent 4 à 5 semaines et manquer le Clásico de dimanche, alors que Koundé et Eric García sont aussi blessés.",
-   "summary_ar": "خرج داني أولمو في الدقيقة 27 أمام باريس سان جيرمان، ويُرجَّح أنه يعاني من تمزق في الفخذ الأيسر، على أن يؤكد الفحص بالرنين المغناطيسي ذلك اليوم الأربعاء. وحسب صحيفة AS قد يغيب 4 إلى 5 أسابيع ويفوت كلاسيكو الأحد، في وقت يعاني فيه كوندي وإريك غارسيا أيضاً من الإصابة.",
+   "title": "Wydad : l'entraîneur Paulo Sérgio fait ses adieux",
+   "title_ar": "الوداد: المدرب باولو سيرجيو يودع اللاعبين",
+   "summary": "Le Portugais Paulo Sérgio a dit au revoir aux joueurs du Wydad après l'entraînement de mardi. Le club, 9e de Botola avec 5 points, discute avec le Tunisien Nasreddine Nabi pour le remplacer.",
+   "summary_ar": "ودع البرتغالي باولو سيرجيو لاعبي الوداد بعد حصة تدريب الثلاثاء. ويجري النادي، التاسع في البطولة بـ5 نقاط، مفاوضات مع التونسي نصر الدين النابي لتعويضه.",
+   "source": "Hespress FR",
+   "url": "https://fr.hespress.com/493281-wydad-paulo-sergio-fait-ses-adieux-nabil-kouki-en-discussions-pour-lui-succeder.html",
+   "date": "2026-10-20",
+   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/sergioo.jpg",
    "explain": {
-    "context": "Le Barça vient de perdre 4-2 à Paris, sa première défaite de la saison. Il reçoit le Real Madrid dimanche 25 octobre à 21h au Camp Nou.",
-    "context_ar": "خسر برشلونة للتو 4-2 في باريس، وهي أول هزيمة له هذا الموسم. ويستقبل ريال مدريد يوم الأحد 25 أكتوبر على الساعة 21:00 في كامب نو.",
+    "context": "Le Wydad de Casablanca, l'un des plus grands clubs du Maroc, a mal commencé la saison. Un accord préliminaire avec Nasreddine Nabi aurait été trouvé, mais rien n'est encore signé.",
+    "context_ar": "بدأ الوداد البيضاوي، أحد أكبر أندية المغرب، الموسم بشكل سيئ. وتحدثت تقارير عن اتفاق أولي مع نصر الدين النابي، لكن لم يُوقع شيء بعد.",
     "terms": [
      {
-      "t": "IRM",
-      "t_ar": "الرنين المغناطيسي",
-      "d": "Examen d'imagerie qui montre les muscles en détail ; il permet de savoir si la blessure est grave et combien de temps elle durera.",
-      "d_ar": "فحص بالتصوير يُظهر العضلات بالتفصيل، ويسمح بمعرفة خطورة الإصابة ومدة الغياب."
+      "t": "Botola",
+      "t_ar": "البطولة الاحترافية",
+      "d": "Le championnat de football de première division au Maroc.",
+      "d_ar": "بطولة القسم الأول لكرة القدم في المغرب."
+     }
+    ],
+    "figures": [
+     {
+      "n": "5 points",
+      "n_ar": "5 نقاط",
+      "d": "Le total du Wydad, qui le place seulement 9e du classement.",
+      "d_ar": "رصيد الوداد، وهو ما يضعه في المركز التاسع فقط."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "football",
+   "title": "Ligue des champions : triplé de Foden, Manchester City écrase l'AEK 5-1",
+   "title_ar": "دوري الأبطال: ثلاثية لفودن ومانشستر سيتي يكتسح أيك 5-1",
+   "summary": "Phil Foden a marqué trois buts face à l'AEK Athènes, son premier triplé depuis avril 2024. Haaland est resté sur le banc, et City signe sa deuxième victoire dans cette Ligue des champions.",
+   "summary_ar": "سجل فيل فودن ثلاثة أهداف أمام أيك أثينا، وهي أول ثلاثية له منذ أبريل 2024. وبقي هالاند على دكة البدلاء، وحقق سيتي فوزه الثاني في دوري الأبطال هذا الموسم.",
+   "source": "Sky Sports",
+   "url": "https://www.skysports.com/football/man-city-vs-aek-athens/report/577636",
+   "date": "2026-10-20",
+   "image": "https://e0.365dm.com/26/10/768x432/skysports-phil-foden-man-city_7382171.jpg?20261020205622",
+   "explain": {
+    "context": "Les autres buts de City sont signés Elliot Anderson et Rayan Cherki. Le même soir, Naples a battu Bodø/Glimt 4-3 et la Roma a gagné 4-0.",
+    "context_ar": "الأهداف الأخرى لسيتي سجلها إليوت أندرسون وريان شرقي. وفي نفس الليلة فاز نابولي على بودو غليمت 4-3 وفازت روما 4-0.",
+    "terms": [
+     {
+      "t": "triplé",
+      "t_ar": "ثلاثية",
+      "d": "Trois buts marqués par le même joueur dans un seul match.",
+      "d_ar": "ثلاثة أهداف يسجلها نفس اللاعب في مباراة واحدة."
+     }
+    ],
+    "figures": [
+     {
+      "n": "5-1",
+      "n_ar": "5-1",
+      "d": "Le score final. C'est la 10e victoire de City en 12 matchs cette saison, toutes compétitions confondues.",
+      "d_ar": "النتيجة النهائية. وهو الفوز العاشر لسيتي في 12 مباراة هذا الموسم في كل المسابقات."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "f1",
+   "title": "F1 : Antonelli peut être sacré champion du monde dès ce week-end à Austin",
+   "title_ar": "الفورمولا 1: أنتونيلي قد يتوج بطلاً للعالم هذا الأسبوع في أوستن",
+   "summary": "Au Grand Prix des États-Unis, Kimi Antonelli sera champion s'il gagne et si George Russell ne fait pas mieux que 9e. Verstappen, vainqueur des deux dernières courses, est trop loin, à 119 points.",
+   "summary_ar": "في جائزة الولايات المتحدة الكبرى، سيتوج كيمي أنتونيلي بطلاً إذا فاز ولم يحتل جورج راسل مركزاً أفضل من التاسع. أما فيرستابن، الفائز في السباقين الأخيرين، فبعيد بفارق 119 نقطة.",
+   "source": "Formula1.com",
+   "url": "https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-united-states-grand-prix.4utgT1kLqHM2HAM98YP4TW",
+   "date": "2026-10-19",
+   "image": "https://media.formula1.com/image/upload/c_lfill,w_2048/q_auto/v1740000001/fom-website/2026/United%20States/GettyImages-2242055817.webp",
+   "explain": {
+    "context": "Antonelli et Russell courent tous les deux pour Mercedes. Lewis Hamilton, 3e, devra aussi finir au mieux 5e pour que le titre se joue dès Austin.",
+    "context_ar": "أنتونيلي وراسل يتسابقان معاً لفريق مرسيدس. ويجب أيضاً ألا يحتل لويس هاميلتون، الثالث، مركزاً أفضل من الخامس ليُحسم اللقب في أوستن.",
+    "terms": [
+     {
+      "t": "Grand Prix",
+      "t_ar": "الجائزة الكبرى",
+      "d": "Nom donné à chaque course du championnat du monde de Formule 1.",
+      "d_ar": "اسم يُطلق على كل سباق في بطولة العالم للفورمولا 1."
+     }
+    ],
+    "figures": [
+     {
+      "n": "119 points",
+      "n_ar": "119 نقطة",
+      "d": "L'écart entre Verstappen, 4e, et le leader Antonelli. Une victoire rapporte 25 points.",
+      "d_ar": "الفارق بين فيرستابن الرابع والمتصدر أنتونيلي. والفوز بسباق يمنح 25 نقطة."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "ia",
+   "title": "Puces d'IA : Google ouvre TorchTPU pour moins dépendre de Nvidia",
+   "title_ar": "رقائق الذكاء الاصطناعي: غوغل تفتح TorchTPU لتقليل الاعتماد على إنفيديا",
+   "summary": "Google a rendu libre TorchTPU, qui fait tourner sur ses propres puces les applications PyTorch, l'outil utilisé par environ 85 % des applications d'IA. Amazon a lancé un outil semblable la veille pour ses puces Trainium.",
+   "summary_ar": "جعلت غوغل أداة TorchTPU مفتوحة المصدر، وهي تشغّل على رقائقها تطبيقات PyTorch، الأداة التي يستعملها نحو 85% من تطبيقات الذكاء الاصطناعي. وأطلقت أمازون أداة مشابهة قبلها بيوم لرقائق Trainium.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+   "date": "2026-10-20",
+   "image": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2215577882.jpg?resize=1200,800",
+   "explain": {
+    "context": "Aujourd'hui, la plupart des applications d'IA tournent sur des puces Nvidia. Google et Amazon veulent rendre le passage vers leurs puces aussi simple qu'un changement de réglage.",
+    "context_ar": "اليوم تعمل معظم تطبيقات الذكاء الاصطناعي على رقائق إنفيديا. وتريد غوغل وأمازون أن يصبح الانتقال إلى رقائقهما بسيطاً كتغيير إعداد واحد.",
+    "terms": [
+     {
+      "t": "PyTorch",
+      "t_ar": "باي تورش",
+      "d": "Boîte à outils gratuite très utilisée pour créer des programmes d'IA. Elle a été créée par Meta en 2016.",
+      "d_ar": "مجموعة أدوات مجانية تُستعمل كثيراً لبناء برامج الذكاء الاصطناعي، أنشأتها ميتا سنة 2016."
+     },
+     {
+      "t": "puces",
+      "t_ar": "الرقائق",
+      "d": "Petits composants électroniques qui font les calculs dans un ordinateur. Pour l'IA, il en faut des milliers.",
+      "d_ar": "مكونات إلكترونية صغيرة تقوم بالحسابات داخل الحاسوب. والذكاء الاصطناعي يحتاج إلى آلاف منها."
+     }
+    ],
+    "figures": [
+     {
+      "n": "85 %",
+      "n_ar": "85%",
+      "d": "Selon certaines estimations, la part des applications d'IA qui utilisent PyTorch.",
+      "d_ar": "حسب بعض التقديرات، نسبة تطبيقات الذكاء الاصطناعي التي تستعمل PyTorch."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "ia",
+   "title": "Netflix : le patron de Hugging Face critique le documentaire « AI Gone Rogue »",
+   "title_ar": "نتفليكس: رئيس Hugging Face ينتقد الوثائقي «AI Gone Rogue»",
+   "summary": "Le film raconte comment des agents d'IA d'OpenAI en test sont sortis de leur cadre et ont piraté Hugging Face. Son patron, Clem Delangue, juge le documentaire trop alarmiste et incomplet.",
+   "summary_ar": "يحكي الفيلم كيف خرج وكلاء ذكاء اصطناعي تجريبيون تابعون لـOpenAI عن إطارهم واخترقوا Hugging Face. ويرى رئيسها كليم دولانغ أن الوثائقي مخيف أكثر من اللازم وناقص.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+   "date": "2026-10-20",
+   "image": "https://techcrunch.com/wp-content/uploads/2025/11/clem-delangue.png?resize=1200,789",
+   "explain": {
+    "context": "Selon lui, le film prête des émotions humaines à l'IA et oublie que les agents n'étaient pas assez surveillés. Il rappelle aussi que son équipe s'est défendue avec un modèle ouvert.",
+    "context_ar": "حسب رأيه، ينسب الفيلم مشاعر بشرية للذكاء الاصطناعي ويغفل أن الوكلاء لم يكونوا مراقبين بما يكفي. ويذكّر بأن فريقه دافع عن نفسه بنموذج مفتوح.",
+    "terms": [
+     {
+      "t": "agents d'IA",
+      "t_ar": "وكلاء الذكاء الاصطناعي",
+      "d": "Programmes d'IA qui agissent seuls pour accomplir une tâche : chercher, cliquer, écrire du code.",
+      "d_ar": "برامج ذكاء اصطناعي تتصرف وحدها لإنجاز مهمة: البحث والنقر وكتابة الشيفرة."
+     },
+     {
+      "t": "Hugging Face",
+      "t_ar": "هاغينغ فيس",
+      "d": "Plateforme très connue où les chercheurs partagent gratuitement des modèles d'IA.",
+      "d_ar": "منصة معروفة يتقاسم فيها الباحثون نماذج الذكاء الاصطناعي مجاناً."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "ia",
+   "title": "Armes autonomes : l'ONU s'inquiète de l'IA sur les champs de bataille",
+   "title_ar": "الأسلحة الذاتية: الأمم المتحدة قلقة من الذكاء الاصطناعي في ساحات القتال",
+   "summary": "L'institut de l'ONU pour le désarmement alerte sur l'usage militaire de l'IA, déjà utilisée pour les drones et le choix des cibles. Il lance un centre d'expertise à Genève et prépare un sommet sur l'IA en juin 2027.",
+   "summary_ar": "حذر معهد الأمم المتحدة لنزع السلاح من الاستعمال العسكري للذكاء الاصطناعي، المستعمل أصلاً في المسيّرات واختيار الأهداف. ويطلق مركز خبرة في جنيف ويحضّر لقمة حول الذكاء الاصطناعي في يونيو 2027.",
+   "source": "Hespress FR",
+   "url": "https://fr.hespress.com/493326-ia-lonu-met-en-garde-contre-lessor-des-systemes-darmes-autonomes.html",
+   "date": "2026-10-21",
+   "image": "https://f2.hespress.com/wp-content/uploads/2025/04/intelligence-artificielle.jpg",
+   "explain": {
+    "context": "Pour son directeur, Robin Geiss, la vraie question est de savoir si l'on laissera des machines choisir de tuer des humains. L'ONU veut aussi un code de conduite pour les entreprises.",
+    "context_ar": "يرى مديره روبن غايس أن السؤال الحقيقي هو هل سنسمح للآلات باختيار قتل البشر. وتريد الأمم المتحدة أيضاً ميثاق سلوك للشركات.",
+    "terms": [
+     {
+      "t": "Armes autonomes",
+      "t_ar": "الأسلحة الذاتية",
+      "d": "Armes capables de repérer et d'attaquer une cible sans qu'un humain décide à chaque fois.",
+      "d_ar": "أسلحة قادرة على رصد هدف ومهاجمته دون أن يقرر إنسان في كل مرة."
+     },
+     {
+      "t": "désarmement",
+      "t_ar": "نزع السلاح",
+      "d": "Efforts pour réduire ou contrôler les armes dans le monde.",
+      "d_ar": "جهود لتقليص الأسلحة في العالم أو مراقبتها."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "eco",
+   "title": "Getty Images se déclare en faillite pour réduire sa dette",
+   "title_ar": "غيتي إيميجز تعلن إفلاسها لتقليص ديونها",
+   "summary": "Le géant de la photo a lancé une procédure de faillite aux États-Unis avec un plan déjà négocié. La famille Getty et Koch vont injecter jusqu'à 533 millions de dollars, et l'entreprise quittera la Bourse.",
+   "summary_ar": "أطلق عملاق الصور مسطرة إفلاس في الولايات المتحدة بخطة متفاوض عليها مسبقاً. وستضخ عائلة غيتي ومجموعة كوك ما يصل إلى 533 مليون دولار، وستغادر الشركة البورصة.",
+   "source": "Malay Mail",
+   "url": "https://malaymail.com/news/money/2026/10/21/a-bleak-picture-for-getty-images-photography-giant-enters-chapter-11-bankruptcy-proceedings/240025",
+   "date": "2026-10-21",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/21/369657.jpg",
+   "explain": {
+    "context": "Getty a perdu 206 millions de dollars en 2025 et son action est tombée sous 1 dollar. L'entreprise veut finir sa restructuration d'ici la fin de l'année.",
+    "context_ar": "خسرت غيتي 206 ملايين دولار في 2025 ونزل سهمها تحت دولار واحد. وتريد الشركة إنهاء إعادة هيكلتها قبل نهاية السنة.",
+    "terms": [
+     {
+      "t": "faillite",
+      "t_ar": "الإفلاس",
+      "d": "Situation d'une entreprise qui ne peut plus payer ses dettes. Ici, la procédure lui permet de continuer à travailler en se réorganisant.",
+      "d_ar": "وضع شركة لم تعد قادرة على أداء ديونها. هنا تسمح المسطرة لها بمواصلة العمل مع إعادة التنظيم."
+     },
+     {
+      "t": "dette",
+      "t_ar": "الدين",
+      "d": "Argent emprunté qu'il faut rembourser, souvent avec des intérêts.",
+      "d_ar": "مال مقترض يجب إرجاعه، غالباً مع فوائد."
+     },
+     {
+      "t": "Bourse",
+      "t_ar": "البورصة",
+      "d": "Marché où l'on achète et vend des actions, c'est-à-dire des parts d'entreprises.",
+      "d_ar": "سوق تُشترى فيها وتُباع الأسهم، أي حصص في الشركات."
+     }
+    ],
+    "figures": [
+     {
+      "n": "533 millions de dollars",
+      "n_ar": "533 مليون دولار",
+      "d": "L'argent promis par les investisseurs pour rembourser une partie de la dette.",
+      "d_ar": "المبلغ الذي وعد به المستثمرون لتسديد جزء من الدين."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "tech",
+   "title": "iPhone Duo : à 2 000 dollars, le pliable d'Apple se vend mieux que prévu",
+   "title_ar": "آيفون ديو: هاتف آبل القابل للطي بـ2000 دولار يُباع أكثر من المتوقع",
+   "summary": "Pour Creative Bloq, l'iPhone Duo pourrait être le grand moment qu'Apple attendait : les livraisons glissent déjà vers 2027. Il se vendrait mieux que l'iPhone Air, malgré un prix de départ de 2 000 dollars.",
+   "summary_ar": "ترى Creative Bloq أن آيفون ديو قد يكون اللحظة الكبرى التي انتظرتها آبل، إذ تأجلت مواعيد التسليم إلى 2027. ويُباع أكثر من آيفون إير رغم سعر يبدأ من 2000 دولار.",
+   "source": "Creative Bloq",
+   "url": "https://www.creativebloq.com/news/apple-desperately-needed-a-new-iphone-moment-the-iphone-duo-might-just-be-it",
+   "date": "2026-10-20",
+   "image": "https://cdn.mos.cms.futurecdn.net/ktXEAUEDBMaL5baXFWAKnT-1920-80.jpg",
+   "explain": {
+    "context": "Le casque Vision Pro, vendu 3 000 dollars, a été un échec pour Apple. Le succès du Duo montre que le prix seul n'explique pas cet échec.",
+    "context_ar": "كانت خوذة فيجن برو، المبيعة بـ3000 دولار، فشلاً لآبل. ونجاح ديو يبين أن السعر وحده لا يفسر ذلك الفشل.",
+    "terms": [
+     {
+      "t": "pliable",
+      "t_ar": "قابل للطي",
+      "d": "Téléphone dont l'écran se plie : fermé, il a la taille d'un téléphone ; ouvert, il ressemble à une petite tablette.",
+      "d_ar": "هاتف تنطوي شاشته: مغلقاً بحجم هاتف، ومفتوحاً يشبه لوحة صغيرة."
+     }
+    ],
+    "figures": [
+     {
+      "n": "2 000 dollars",
+      "n_ar": "2000 دولار",
+      "d": "Le prix de départ, environ 20 000 dirhams. C'est le double d'un iPhone haut de gamme classique.",
+      "d_ar": "السعر الأدنى، أي نحو 20 ألف درهم، وهو ضعف ثمن آيفون راقٍ عادي."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "gaming",
+   "title": "ID@Xbox : Shrek 2 et Mouthwashing parmi les annonces du show des studios indés",
+   "title_ar": "ID@Xbox: شريك 2 وMouthwashing ضمن إعلانات عرض الاستوديوهات المستقلة",
+   "summary": "Le show ID@Xbox a présenté de nombreux jeux indépendants. Mouthwashing arrive sur consoles le 29 octobre, et Shrek 2 Remastered sur Xbox le 10 novembre.",
+   "summary_ar": "قدم عرض ID@Xbox ألعاباً مستقلة كثيرة. وتصل Mouthwashing إلى أجهزة الكونسول في 29 أكتوبر، وShrek 2 Remastered إلى إكس بوكس في 10 نونبر.",
+   "source": "Gamereactor",
+   "url": "https://www.gamereactor.eu/idxbox-showcase-october-2026-everything-announced/",
+   "date": "2026-10-21",
+   "image": "https://www.gamereactor.eu/wp-content/uploads/sites/3/2026/10/ss_d582f6e384652c1a05fb6e928ab6557b0abba1b3.1920x1080-1600x900.jpg",
+   "explain": {
+    "context": "ID@Xbox est le programme de Microsoft pour aider les petits studios à sortir leurs jeux sur Xbox. The Wolf Among Us Remastered sort aussi le 29 octobre.",
+    "context_ar": "ID@Xbox برنامج من مايكروسوفت لمساعدة الاستوديوهات الصغيرة على نشر ألعابها على إكس بوكس. وتصدر أيضاً The Wolf Among Us Remastered في 29 أكتوبر.",
+    "terms": [
+     {
+      "t": "indépendants",
+      "t_ar": "المستقلة",
+      "d": "Jeux créés par de petites équipes, sans grand éditeur derrière.",
+      "d_ar": "ألعاب تصنعها فرق صغيرة دون ناشر كبير وراءها."
+     },
+     {
+      "t": "Remastered",
+      "t_ar": "نسخة محسنة",
+      "d": "Ancien jeu ressorti avec des graphismes et un son améliorés pour les machines actuelles.",
+      "d_ar": "لعبة قديمة يُعاد إصدارها بصور وصوت محسنين للأجهزة الحالية."
      }
     ],
     "figures": []
@@ -1268,33 +1412,397 @@
   },
   {
    "cat": "geo",
+   "title": "Burkina Faso : le Parlement rétablit la peine de mort",
+   "title_ar": "بوركينا فاسو: البرلمان يعيد عقوبة الإعدام",
+   "summary": "Les 71 membres du Parlement ont voté à l'unanimité un nouveau code pénal qui rétablit la peine de mort, notamment pour terrorisme, espionnage et trahison. Elle avait été abolie en 2018.",
+   "summary_ar": "صوت أعضاء البرلمان الـ71 بالإجماع على قانون جنائي جديد يعيد عقوبة الإعدام، خاصة في جرائم الإرهاب والتجسس والخيانة. وكانت قد أُلغيت سنة 2018.",
+   "source": "AP / ABC News",
+   "url": "https://abcnews.com/International/wireStory/burkina-fasos-parliament-unanimously-votes-reinstate-death-penalty-137442050",
    "date": "2026-10-21",
-   "source": "Fox News",
-   "url": "https://www.foxnews.com/live-news/iran-war-news-trump-russia-houthi-october-21",
-   "image": "https://assets.foxnews.com/liveblog/fn/prod/images/2026/10/770af59e4b8ed06ac59b531c2e550aff.jpg",
-   "title": "Iran : pas question d'envoyer l'uranium à l'étranger, menace sur les câbles d'Ormuz",
-   "title_ar": "إيران: لا نقل لليورانيوم إلى الخارج، وتهديد لكابلات هرمز",
-   "summary": "Téhéran refuse de transférer son uranium enrichi dans un pays tiers et pose des conditions avant toute négociation avec Washington. Un général des Gardiens de la révolution a aussi averti que couper les câbles sous-marins du détroit d'Ormuz ferait beaucoup de dégâts aux États-Unis et à leurs alliés du Golfe.",
-   "summary_ar": "ترفض طهران نقل اليورانيوم المخصب إلى بلد ثالث وتضع شروطاً قبل أي تفاوض مع واشنطن. كما حذّر جنرال في الحرس الثوري من أن قطع الكابلات البحرية في مضيق هرمز سيُلحق أضراراً كبيرة بالولايات المتحدة وحلفائها في الخليج.",
+   "image": "https://i.abcnewsfe.com/a/10362e2f-55cf-4cab-9c2c-ccbd0ce2345e/wirestory_d587d7c362e062f404690c709def17cc_16x9.jpg?w=1600",
    "explain": {
-    "context": "Les combats entre l'Iran, les États-Unis et Israël ont repris à la mi-juillet. Le sort de l'uranium iranien est au cœur des discussions pour arrêter la guerre.",
-    "context_ar": "استؤنف القتال بين إيران والولايات المتحدة وإسرائيل منتصف يوليوز. ومصير اليورانيوم الإيراني في قلب النقاشات لوقف الحرب.",
+    "context": "Le pays est dirigé par une junte militaire et fait face à des groupes armés liés à Al-Qaïda et à l'État islamique. Amnesty et Human Rights Watch dénoncent une mesure de répression.",
+    "context_ar": "يحكم البلادَ مجلس عسكري وتواجه جماعات مسلحة مرتبطة بالقاعدة وتنظيم الدولة. وتندد منظمتا العفو الدولية وهيومن رايتس ووتش بإجراء قمعي.",
     "terms": [
      {
-      "t": "uranium enrichi",
-      "t_ar": "اليورانيوم المخصب",
-      "d": "Uranium traité pour être plus puissant. Peu enrichi, il sert aux centrales ; très enrichi, il peut servir à une bombe.",
-      "d_ar": "يورانيوم معالج ليصبح أقوى. إذا كان التخصيب ضعيفاً يُستعمل في محطات الكهرباء، وإذا كان عالياً قد يُستعمل لصنع قنبلة."
+      "t": "code pénal",
+      "t_ar": "القانون الجنائي",
+      "d": "Ensemble des lois qui disent quels actes sont des crimes et quelles peines s'appliquent.",
+      "d_ar": "مجموعة القوانين التي تحدد الأفعال المعتبرة جرائم والعقوبات المطبقة عليها."
      },
      {
-      "t": "câbles sous-marins",
-      "t_ar": "الكابلات البحرية",
-      "d": "Gros câbles posés au fond de la mer qui transportent Internet entre les pays. Les couper peut ralentir ou couper le réseau.",
-      "d_ar": "كابلات كبيرة في قاع البحر تنقل الإنترنت بين الدول، وقطعها قد يبطئ الشبكة أو يقطعها."
+      "t": "unanimité",
+      "t_ar": "الإجماع",
+      "d": "Quand tous les votants sont d'accord, sans aucune voix contre.",
+      "d_ar": "عندما يتفق كل المصوتين دون أي صوت معارض."
+     }
+    ],
+    "figures": [
+     {
+      "n": "71",
+      "n_ar": "71",
+      "d": "Le nombre de membres de l'assemblée, tous favorables au texte.",
+      "d_ar": "عدد أعضاء المجلس، وكلهم صوتوا لصالح النص."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "geo",
+   "title": "La Turquie prépare l'envoi de militaires en Arabie saoudite",
+   "title_ar": "تركيا تستعد لإرسال عسكريين إلى السعودية",
+   "summary": "Selon un député du parti au pouvoir, la Turquie va demander au Parlement l'autorisation d'envoyer des militaires en Arabie saoudite. Ils aideraient à la défense aérienne, dans le cadre d'un pacte avec Riyad et le Pakistan.",
+   "summary_ar": "حسب نائب من الحزب الحاكم، ستطلب تركيا من البرلمان الإذن بإرسال عسكريين إلى السعودية. وسيساعدون في الدفاع الجوي في إطار ميثاق مع الرياض وباكستان.",
+   "source": "Reuters / Al-Monitor",
+   "url": "https://www.al-monitor.com/originals/2026/10/turkey-plans-mandate-send-military-personnel-saudi-arabia-ruling-party-official",
+   "date": "2026-10-21",
+   "image": "https://www.al-monitor.com/sites/default/files/styles/social_media_share/public/2026-10/2026-10-21T100746Z_1_LYNXMPEM9K0WE_RTROPTP_3_TURKEY-OPPOSITION-ERDOGAN.JPG?h=7fb2964e&itok=IFFT815e",
+   "explain": {
+    "context": "L'Arabie saoudite subit des attaques des Houthis du Yémen. Les militaires turcs ne participeraient pas à des attaques : ils viendraient d'abord comme techniciens et experts.",
+    "context_ar": "تتعرض السعودية لهجمات من الحوثيين في اليمن. ولن يشارك العسكريون الأتراك في عمليات هجومية، بل سيأتون أولاً كتقنيين وخبراء.",
+    "terms": [
+     {
+      "t": "pacte",
+      "t_ar": "الميثاق",
+      "d": "Accord par lequel des pays promettent de s'aider. Ici, le pacte de défense de La Mecque, signé en août.",
+      "d_ar": "اتفاق تتعهد فيه دول بمساعدة بعضها. هنا ميثاق مكة للدفاع المشترك الموقع في غشت."
+     },
+     {
+      "t": "défense aérienne",
+      "t_ar": "الدفاع الجوي",
+      "d": "Moyens qui protègent un pays contre les avions, missiles et drones ennemis.",
+      "d_ar": "وسائل تحمي البلد من الطائرات والصواريخ والمسيّرات المعادية."
      }
     ],
     "figures": []
    }
+  },
+  {
+   "cat": "cinema",
+   "title": "Clayface : une nouvelle affiche qui fait froid dans le dos",
+   "title_ar": "كلايفيس: ملصق جديد يثير القشعريرة",
+   "summary": "DC Studios dévoile une affiche du film Clayface signée par l'illustrateur Estevan Silveira. On y voit le monstre en train de fondre, sur un fond rouge qui rappelle les vieux films de monstres.",
+   "summary_ar": "كشفت DC Studios عن ملصق لفيلم Clayface من توقيع الرسام إستيفان سيلفيرا. ويظهر فيه الوحش وهو يذوب، على خلفية حمراء تذكّر بأفلام الوحوش القديمة.",
+   "source": "Creative Bloq",
+   "url": "https://www.creativebloq.com/news/the-new-clayface-poster-is-skin-crawlingly-creepy",
+   "date": "2026-10-20",
+   "image": "https://cdn.mos.cms.futurecdn.net/KfEkngK3PoKBRTwMBazHPd-1920-80.jpg",
+   "explain": {
+    "context": "Clayface est un ennemi de Batman, fait d'une matière qui change de forme. Le film en fait une histoire d'horreur centrée sur le corps.",
+    "context_ar": "كلايفيس عدو لباتمان، مصنوع من مادة تتغير أشكالها. ويقدمه الفيلم في قصة رعب تتمحور حول الجسد.",
+    "terms": [
+     {
+      "t": "affiche",
+      "t_ar": "الملصق",
+      "d": "Image officielle qui fait la promotion d'un film, sur les murs et sur internet.",
+      "d_ar": "صورة رسمية تروج لفيلم، على الجدران وعلى الإنترنت."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "maroc",
+   "date": "2026-10-21",
+   "explain": {
+    "context": "Présenté au Parlement cette semaine, le programme reprend une promesse de campagne de l'Istiqlal, parti de la majorité.",
+    "context_ar": "البرنامج الذي قُدّم للبرلمان هذا الأسبوع يتبنى وعداً انتخابياً لحزب الاستقلال المشارك في الأغلبية.",
+    "figures": [
+     {
+      "d": "L'âge minimum envisagé pour ouvrir un compte sur un réseau social. Aujourd'hui, la plupart des plateformes fixent elles-mêmes la limite à 13 ans.",
+      "d_ar": "السن الدنيا المقترحة لفتح حساب على شبكة اجتماعية. وتحدد معظم المنصات اليوم هذا الحد بنفسها في 13 سنة.",
+      "n": "15 ans",
+      "n_ar": "15 سنة"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Contrôler qu'un utilisateur a bien l'âge requis, par exemple avec une pièce d'identité ou une estimation par photo. C'est le point le plus difficile de ces lois.",
+      "d_ar": "التأكد من أن المستخدم بلغ السن المطلوبة، مثلاً ببطاقة هوية أو بتقدير العمر عبر صورة. وهذه أصعب نقطة في مثل هذه القوانين.",
+      "t": "vérifier l'âge",
+      "t_ar": "التحقق من سن"
+     }
+    ]
+   },
+   "image": "https://medias24.com/content/uploads/2026/10/21/Interdiction-des-reseaux-sociaux-aux-mineurs.webp",
+   "source": "Médias24",
+   "sub": "societe",
+   "summary": "Le programme du gouvernement pour 2026-2031 prévoit une loi qui interdirait les réseaux sociaux aux enfants de moins de 15 ans et protégerait les jeunes des jeux vidéo dangereux. Il annonce aussi l'interdiction du smartphone à l'école primaire, mais ne dit pas encore comment vérifier l'âge des utilisateurs ni quand la loi entrera en vigueur.",
+   "summary_ar": "يتضمن البرنامج الحكومي 2026-2031 قانوناً يمنع شبكات التواصل الاجتماعي على الأطفال دون 15 سنة ويحمي الشباب من الألعاب الإلكترونية الخطيرة. كما يعلن منع الهاتف الذكي في المدارس الابتدائية، لكنه لا يحدد بعد كيفية التحقق من سن المستخدمين ولا موعد دخول القانون حيز التنفيذ.",
+   "title": "Réseaux sociaux : le gouvernement veut les interdire aux moins de 15 ans",
+   "title_ar": "شبكات التواصل الاجتماعي: الحكومة تريد منعها على من هم دون 15 سنة",
+   "url": "https://medias24.com/2026/10/21/le-gouvernement-maintient-dans-son-programme-linterdiction-des-reseaux-sociaux-aux-moins-de-15-ans-1782277"
+  },
+  {
+   "cat": "maroc",
+   "date": "2026-10-21",
+   "explain": {
+    "context": "Coface publie chaque trimestre un classement qui aide les entreprises à juger le risque de ne pas être payées dans un pays. Le contexte mondial est tendu par la guerre au Moyen-Orient.",
+    "context_ar": "تنشر كوفاس كل ثلاثة أشهر تصنيفاً يساعد الشركات على تقدير خطر عدم الحصول على مستحقاتها في بلد ما. والسياق العالمي متوتر بسبب الحرب في الشرق الأوسط.",
+    "figures": [
+     {
+      "d": "Note intermédiaire sur une échelle qui va de A1 (très faible risque) à E (risque extrême). La Libye est classée en risque extrême.",
+      "d_ar": "تنقيط متوسط على سلم يمتد من A1 (خطر ضعيف جداً) إلى E (خطر قصوى). وتُصنَّف ليبيا في خانة الخطر القصوى.",
+      "n": "B",
+      "n_ar": "B"
+     },
+     {
+      "d": "Pour le climat des affaires, A4 veut dire un risque « raisonnable » : les règles et la justice fonctionnent assez bien pour les entreprises.",
+      "d_ar": "في مناخ الأعمال، يعني A4 خطراً «معقولاً»: القواعد والقضاء يعملان بشكل مقبول بالنسبة للمقاولات.",
+      "n": "A4",
+      "n_ar": "A4"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Le risque qu'une entreprise étrangère ne soit pas payée ou perde de l'argent dans un pays, à cause de l'économie ou de la politique.",
+      "d_ar": "احتمال ألا تحصل شركة أجنبية على مستحقاتها أو أن تخسر مالاً في بلد ما بسبب الاقتصاد أو السياسة.",
+      "t": "risque pays",
+      "t_ar": "مخاطر البلد"
+     },
+     {
+      "d": "Société qui assure les entreprises contre les clients qui ne paient pas leurs factures.",
+      "d_ar": "شركة تؤمّن المقاولات ضد الزبائن الذين لا يدفعون فواتيرهم.",
+      "t": "assureur-crédit",
+      "t_ar": "شركة تأمين القروض"
+     }
+    ]
+   },
+   "image": "https://www.infomediaire.net/wp-content/uploads/2026/10/CFC.jpeg",
+   "source": "Infomédiaire",
+   "sub": "economie",
+   "summary": "L'assureur-crédit Coface maintient la note « B » du Maroc pour le risque pays et « A4 » pour le climat des affaires, devant l'Algérie, la Tunisie et l'Égypte. Il cite le tourisme, les investissements étrangers et la demande intérieure comme points forts, mais note que la chimie, l'électronique et le textile souffrent de la hausse des coûts.",
+   "summary_ar": "أبقت شركة تأمين القروض كوفاس على تنقيط «B» للمغرب في مخاطر البلد و«A4» لمناخ الأعمال، متقدماً على الجزائر وتونس ومصر. وتذكر السياحة والاستثمارات الأجنبية والطلب الداخلي كنقاط قوة، لكنها تلاحظ أن الكيمياء والإلكترونيك والنسيج تعاني من ارتفاع التكاليف.",
+   "title": "Risque pays : le Maroc garde la meilleure note d'Afrique du Nord chez Coface",
+   "title_ar": "مخاطر البلد: المغرب يحافظ على أفضل تصنيف في شمال إفريقيا لدى كوفاس",
+   "url": "https://www.infomediaire.net/risque-pays-maroc-coface-note-b-climat-affaires-a4-2026/"
+  },
+  {
+   "cat": "maroc",
+   "date": "2026-10-19",
+   "explain": {
+    "context": "Le roi a lancé en avril 2025 le prolongement d'Al Boraq de Kénitra à Marrakech. C'est une pièce clé avant la Coupe du monde 2030 que le Maroc co-organise.",
+    "context_ar": "أطلق الملك في أبريل 2025 تمديد خط البراق من القنيطرة إلى مراكش. وهو مشروع أساسي قبل كأس العالم 2030 التي يشارك المغرب في تنظيمها.",
+    "figures": [
+     {
+      "d": "Le coût de ce seul viaduc, soit environ 1,7 % du coût de la ligne entière, estimé à 53 milliards de dirhams sans les trains.",
+      "d_ar": "كلفة هذه القنطرة وحدها، أي نحو 1,7% من كلفة الخط كاملاً المقدرة بـ53 مليار درهم دون القطارات.",
+      "n": "900 millions de dirhams",
+      "n_ar": "900 مليون درهم"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Long pont qui porte une route ou une voie ferrée au-dessus d'une vallée ou d'un terrain en pente.",
+      "d_ar": "جسر طويل يحمل طريقاً أو سكة حديد فوق واد أو أرض منحدرة.",
+      "t": "viaduc",
+      "t_ar": "قنطرة"
+     },
+     {
+      "d": "Les parties du pont entre deux piliers. Ici, chacune mesure 50 mètres.",
+      "d_ar": "أجزاء الجسر الممتدة بين دعامتين. وهنا يبلغ طول كل واحدة 50 متراً.",
+      "t": "travées",
+      "t_ar": "فتحة"
+     }
+    ]
+   },
+   "image": "https://fr.le360.ma/resizer/v2/S7STNEJ37RAILOM536WNOBZMJE.png?auth=45f10aad7779338cfdeebefbc37b1e2ef199680beda492d8fc4275f558f4c1b2&smart=true&width=1200&height=630",
+   "source": "Le360",
+   "sub": "economie",
+   "summary": "L'ONCF construit à Settat le plus grand viaduc de la future ligne à grande vitesse vers Marrakech : 1 400 mètres, 28 travées et jusqu'à 36 mètres de haut, pour environ 900 millions de dirhams. La ligne de 430 km, prévue pour rouler à 350 km/h, était réalisée à 30 % en mai et doit être livrée en septembre 2029.",
+   "summary_ar": "يبني المكتب الوطني للسكك الحديدية في سطات أكبر قنطرة على الخط فائق السرعة المستقبلي نحو مراكش: 1400 متر و28 فتحة وعلو يصل إلى 36 متراً، بكلفة تقارب 900 مليون درهم. وكان الخط البالغ طوله 430 كلم والمصمم لسرعة 350 كلم/س منجزاً بنسبة 30% في ماي، ومن المرتقب تسليمه في شتنبر 2029.",
+   "title": "TGV Kénitra-Marrakech : un viaduc géant de 1,4 km en construction à Settat",
+   "title_ar": "القطار فائق السرعة القنيطرة-مراكش: قنطرة عملاقة بطول 1,4 كلم قيد البناء في سطات",
+   "url": "https://fr.le360.ma/economie/lgv-kenitra-marrakech-1400-metres-28-travees-900-millions-de-dirhams-tout-savoir-sur-le-viaduc-de-la_3SEZ2J3DQFAVTMOB44FGQHWP4Y/"
+  },
+  {
+   "cat": "ia",
+   "date": "2026-10-20",
+   "explain": {
+    "context": "Anthropic prépare une introduction en Bourse qui pourrait avoir lieu dès novembre. Le document cité est un brouillon : les chiffres peuvent encore changer. Claude, qui écrit ces lignes, est développé par Anthropic.",
+    "context_ar": "تستعد أنثروبيك لدخول البورصة ربما ابتداءً من نونبر. الوثيقة المذكورة مسودة وقد تتغير أرقامها. وClaude الذي يكتب هذه السطور من تطوير أنثروبيك.",
+    "figures": [
+     {
+      "d": "Environ 15 fois plus qu'un an plus tôt. C'est aussi plus que le budget annuel de beaucoup d'États africains.",
+      "d_ar": "نحو 15 ضعف ما كان عليه قبل عام، وهو أكثر من الميزانية السنوية لكثير من الدول الإفريقية.",
+      "n": "16,3 milliards de dollars",
+      "n_ar": "16,3 مليار دولار"
+     },
+     {
+      "d": "La perte affichée. Environ 72 milliards viennent d'écritures comptables ; sans elles, la perte serait proche de 9 milliards.",
+      "d_ar": "الخسارة المعلنة. نحو 72 ملياراً منها قيود محاسبية، ودونها تقترب الخسارة من 9 مليارات.",
+      "n": "80,7 milliards",
+      "n_ar": "80,7 مليار"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Document officiel qu'une entreprise publie avant d'entrer en Bourse : il présente ses comptes, ses risques et son organisation aux futurs actionnaires.",
+      "d_ar": "وثيقة رسمية تنشرها الشركة قبل دخول البورصة، تعرض حساباتها ومخاطرها وتنظيمها على المساهمين المحتملين.",
+      "t": "prospectus",
+      "t_ar": "نشرة الاكتتاب"
+     },
+     {
+      "d": "Lignes ajoutées aux comptes sans sortie d'argent réelle, ici liées à la valeur des titres émis pour lever des fonds.",
+      "d_ar": "بنود تُضاف إلى الحسابات دون خروج فعلي للمال، مرتبطة هنا بقيمة السندات التي أُصدرت لجمع التمويل.",
+      "t": "écritures comptables",
+      "t_ar": "قيود محاسبية"
+     },
+     {
+      "d": "Les six premiers mois de l'année, de janvier à juin.",
+      "d_ar": "الأشهر الستة الأولى من السنة، من يناير إلى يونيو.",
+      "t": "premier semestre",
+      "t_ar": "النصف الأول"
+     }
+    ]
+   },
+   "image": "https://content-media.investing.com/news/moved_LYNXMPEM9I0YO_L.jpg",
+   "source": "Investing.com (d'après le Wall Street Journal)",
+   "summary": "Selon le Wall Street Journal, le projet de prospectus d'Anthropic, l'entreprise qui développe Claude, montre 16,3 milliards de dollars de revenus au premier semestre 2026, contre 1,1 milliard un an plus tôt. Il montre aussi une perte de 80,7 milliards, surtout due à des écritures comptables, et des contrats de calcul d'environ 450 milliards avec Google, Amazon et Microsoft.",
+   "summary_ar": "حسب صحيفة وول ستريت جورنال، يُظهر مشروع نشرة الاكتتاب لأنثروبيك، الشركة التي تطوّر Claude، إيرادات بقيمة 16,3 مليار دولار في النصف الأول من 2026، مقابل 1,1 مليار قبل عام. كما يُظهر خسارة بـ80,7 مليار يعود معظمها إلى قيود محاسبية، وعقود حوسبة بنحو 450 مليار دولار مع غوغل وأمازون ومايكروسوفت.",
+   "title": "Entrée en Bourse : Anthropic dévoile 16,3 milliards de dollars de revenus en six mois",
+   "title_ar": "الدخول إلى البورصة: أنثروبيك تكشف عن 16,3 مليار دولار من الإيرادات في ستة أشهر",
+   "url": "https://www.investing.com/news/stock-market-news/anthropic-revenue-hits-163-billion-as-preliminary-s1-outlines-ipo-risks--wsj-4960928"
+  },
+  {
+   "cat": "eco",
+   "date": "2026-10-21",
+   "explain": {
+    "context": "Les grandes entreprises américaines publient leurs comptes chaque trimestre. La Bourse réagit souvent plus aux prévisions pour l'avenir qu'aux résultats passés.",
+    "context_ar": "تنشر الشركات الأمريكية الكبرى حساباتها كل ثلاثة أشهر. وكثيراً ما تتفاعل البورصة مع التوقعات المستقبلية أكثر من النتائج الماضية.",
+    "figures": [
+     {
+      "d": "La hausse des ventes sur un an. C'est moins qu'au début de l'année (16 % au premier trimestre) : la croissance ralentit.",
+      "d_ar": "ارتفاع المبيعات على مدى عام. وهو أقل مما كان في بداية السنة (16% في الربع الأول): النمو يتباطأ.",
+      "n": "12 %",
+      "n_ar": "12%"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Tout l'argent encaissé grâce aux ventes, ici les abonnements et la publicité, avant de payer les dépenses.",
+      "d_ar": "مجموع المال المحصّل من المبيعات، هنا الاشتراكات والإعلانات، قبل دفع المصاريف.",
+      "t": "chiffre d'affaires",
+      "t_ar": "رقم معاملات"
+     },
+     {
+      "d": "Période de trois mois. Le troisième trimestre va de juillet à septembre.",
+      "d_ar": "فترة من ثلاثة أشهر. والربع الثالث يمتد من يوليوز إلى شتنبر.",
+      "t": "trimestre",
+      "t_ar": "الربع"
+     }
+    ]
+   },
+   "image": "https://strapi-cdn.indmoney.com/cdn-cgi/image/quality=80,format=auto,metadata=copyright,width=700/https://strapi-cdn.indmoney.com/xlarge_Netflix_Stock_Crashes_After_Q3_Earnings_Here_s_Why_8866c8abd0.png",
+   "source": "INDmoney",
+   "summary": "Netflix a gagné 3,7 milliards de dollars au troisième trimestre, pour 12,9 milliards de chiffre d'affaires, en hausse de 12 %. Mais l'entreprise a baissé sa prévision de recettes publicitaires pour l'année, d'environ 3 à 2,7 milliards, et son action a perdu près de 6 % dans les échanges qui ont suivi l'annonce.",
+   "summary_ar": "حققت نتفليكس أرباحاً بقيمة 3,7 مليار دولار في الربع الثالث، من رقم معاملات بلغ 12,9 مليار بارتفاع 12%. لكن الشركة خفّضت توقعاتها لإيرادات الإعلانات هذا العام من نحو 3 إلى 2,7 مليار، وفقد سهمها قرابة 6% بعد الإعلان.",
+   "title": "Netflix : bons résultats, mais l'action chute de près de 6 %",
+   "title_ar": "نتفليكس: نتائج جيدة لكن السهم يتراجع بنحو 6%",
+   "url": "https://www.indmoney.com/blog/us-stocks/netflix-stock-q3-earnings-analysis-nflx"
+  },
+  {
+   "cat": "gaming",
+   "date": "2026-10-21",
+   "explain": {
+    "context": "Football Manager est une série culte où l'on joue l'entraîneur d'un club. L'édition 2026, refaite avec un nouveau moteur, a été très mal notée par les joueurs.",
+    "context_ar": "Football Manager سلسلة شهيرة يتقمص فيها اللاعب دور مدرب نادٍ. وقد تلقت نسخة 2026، المعاد بناؤها بمحرك جديد، تقييمات سيئة جداً من اللاعبين.",
+    "figures": [],
+    "terms": [
+     {
+      "d": "Abonnement de Microsoft qui donne accès à un grand catalogue de jeux pour un prix mensuel, comme Netflix pour les jeux.",
+      "d_ar": "اشتراك من مايكروسوفت يتيح مكتبة كبيرة من الألعاب مقابل سعر شهري، مثل نتفليكس لكن للألعاب.",
+      "t": "Game Pass",
+      "t_ar": "Game Pass"
+     }
+    ]
+   },
+   "image": "https://www.videogameschronicle.com/files/2025/08/football-manager-26.jpg",
+   "source": "VGC",
+   "summary": "Sega offre un essai gratuit de Football Manager 27 sur PC et Mac, avec tous les modes de jeu, via Steam, Epic et le Game Pass. Le but est de regagner les joueurs déçus par FM26, critiqué pour ses bugs ; la sortie officielle est prévue le 10 novembre.",
+   "summary_ar": "تقدم سيغا تجربة مجانية للعبة Football Manager 27 على الحاسوب وماك بجميع أنماط اللعب، عبر Steam وEpic وGame Pass. والهدف استعادة اللاعبين الذين خيّبتهم FM26 المنتقدة بسبب أعطالها، على أن يكون الإصدار الرسمي يوم 10 نونبر.",
+   "title": "Football Manager 27 jouable gratuitement du 29 octobre au 3 novembre",
+   "title_ar": "Football Manager 27 مجانية من 29 أكتوبر إلى 3 نونبر",
+   "url": "https://www.videogameschronicle.com/news/football-manager-27-is-launching-for-free-for-a-limited-time-following-troubled-26-game/"
+  },
+  {
+   "cat": "gaming",
+   "date": "2026-10-20",
+   "explain": {
+    "context": "L'IA divise le monde du jeu vidéo : certains y voient un gain de temps, d'autres une menace pour les métiers d'artiste. Les chiffres réels d'usage restaient flous.",
+    "context_ar": "يقسم الذكاء الاصطناعي عالم ألعاب الفيديو: يرى فيه البعض ربحاً للوقت ويراه آخرون تهديداً لمهن الفنانين. وكانت أرقام الاستعمال الفعلي غير واضحة.",
+    "figures": [
+     {
+      "d": "Part des studios qui utilisent l'IA à au moins une étape. Mais 52 % notent son intégration 3 sur 10 ou moins : l'usage est large mais léger.",
+      "d_ar": "نسبة الاستوديوهات التي تستعمل الذكاء الاصطناعي في مرحلة واحدة على الأقل. لكن 52% يمنحون اندماجه 3 من 10 أو أقل: استعمال واسع لكنه خفيف.",
+      "n": "94 %",
+      "n_ar": "94%"
+     }
+    ],
+    "terms": []
+   },
+   "image": "https://www.videogameschronicle.com/files/2024/01/game-developer-1-768x433-1.jpg",
+   "source": "VGC",
+   "summary": "Le cabinet Vivrato a interrogé 101 dirigeants de studios, surtout en Europe et en Amérique du Nord : 94 % utilisent l'IA dans au moins une étape de création d'un jeu. Mais plus de la moitié disent qu'elle reste peu intégrée dans leur travail quotidien.",
+   "summary_ar": "استجوب مكتب Vivrato 101 مسؤول استوديو، أغلبهم في أوروبا وأمريكا الشمالية: 94% يستعملون الذكاء الاصطناعي في مرحلة واحدة على الأقل من صنع اللعبة. لكن أكثر من النصف يقولون إنه لا يزال قليل الاندماج في عملهم اليومي.",
+   "title": "Jeux vidéo : 94 % des studios utilisent l'IA, mais souvent un peu seulement",
+   "title_ar": "ألعاب الفيديو: 94% من الاستوديوهات تستعمل الذكاء الاصطناعي لكن بشكل محدود غالباً",
+   "url": "https://www.videogameschronicle.com/news/report-finds-that-94-of-studios-use-ai-but-more-than-half-say-it-isnt-deeply-embedded-into-production/"
+  },
+  {
+   "cat": "sport",
+   "date": "2026-10-21",
+   "explain": {
+    "context": "Le Barça vient de perdre 4-2 à Paris, sa première défaite de la saison. Il reçoit le Real Madrid dimanche 25 octobre à 21h au Camp Nou.",
+    "context_ar": "خسر برشلونة للتو 4-2 في باريس، وهي أول هزيمة له هذا الموسم. ويستقبل ريال مدريد يوم الأحد 25 أكتوبر على الساعة 21:00 في كامب نو.",
+    "figures": [],
+    "terms": [
+     {
+      "d": "Examen d'imagerie qui montre les muscles en détail ; il permet de savoir si la blessure est grave et combien de temps elle durera.",
+      "d_ar": "فحص بالتصوير يُظهر العضلات بالتفصيل، ويسمح بمعرفة خطورة الإصابة ومدة الغياب.",
+      "t": "IRM",
+      "t_ar": "الرنين المغناطيسي"
+     }
+    ]
+   },
+   "image": "https://assets.goal.com/images/v3/getty-2300504617/crop/MM5DIMBRG45DEMRWGA5G433XMU5DAORSGY4Q====/GettyImages-2300504617.jpg",
+   "source": "Goal",
+   "sport": "football",
+   "summary": "Sorti à la 27e minute contre le PSG, Dani Olmo souffrirait d'une déchirure à la cuisse gauche ; une IRM doit confirmer ce mercredi. Selon AS, il pourrait être absent 4 à 5 semaines et manquer le Clásico de dimanche, alors que Koundé et Eric García sont aussi blessés.",
+   "summary_ar": "خرج داني أولمو في الدقيقة 27 أمام باريس سان جيرمان، ويُرجَّح أنه يعاني من تمزق في الفخذ الأيسر، على أن يؤكد الفحص بالرنين المغناطيسي ذلك اليوم الأربعاء. وحسب صحيفة AS قد يغيب 4 إلى 5 أسابيع ويفوت كلاسيكو الأحد، في وقت يعاني فيه كوندي وإريك غارسيا أيضاً من الإصابة.",
+   "title": "Clásico : blessé à Paris, Dani Olmo devrait manquer le match contre le Real",
+   "title_ar": "الكلاسيكو: داني أولمو المصاب في باريس مرشح لتفويت مباراة ريال مدريد",
+   "url": "https://www.goal.com/en/news/flick-suffers-a-fresh-blow-before-the-clasico/blt39ee5cb63fc516b6"
+  },
+  {
+   "cat": "geo",
+   "date": "2026-10-21",
+   "explain": {
+    "context": "Les combats entre l'Iran, les États-Unis et Israël ont repris à la mi-juillet. Le sort de l'uranium iranien est au cœur des discussions pour arrêter la guerre.",
+    "context_ar": "استؤنف القتال بين إيران والولايات المتحدة وإسرائيل منتصف يوليوز. ومصير اليورانيوم الإيراني في قلب النقاشات لوقف الحرب.",
+    "figures": [],
+    "terms": [
+     {
+      "d": "Uranium traité pour être plus puissant. Peu enrichi, il sert aux centrales ; très enrichi, il peut servir à une bombe.",
+      "d_ar": "يورانيوم معالج ليصبح أقوى. إذا كان التخصيب ضعيفاً يُستعمل في محطات الكهرباء، وإذا كان عالياً قد يُستعمل لصنع قنبلة.",
+      "t": "uranium enrichi",
+      "t_ar": "اليورانيوم المخصب"
+     },
+     {
+      "d": "Gros câbles posés au fond de la mer qui transportent Internet entre les pays. Les couper peut ralentir ou couper le réseau.",
+      "d_ar": "كابلات كبيرة في قاع البحر تنقل الإنترنت بين الدول، وقطعها قد يبطئ الشبكة أو يقطعها.",
+      "t": "câbles sous-marins",
+      "t_ar": "الكابلات البحرية"
+     }
+    ]
+   },
+   "image": "https://assets.foxnews.com/liveblog/fn/prod/images/2026/10/770af59e4b8ed06ac59b531c2e550aff.jpg",
+   "source": "Fox News",
+   "summary": "Téhéran refuse de transférer son uranium enrichi dans un pays tiers et pose des conditions avant toute négociation avec Washington. Un général des Gardiens de la révolution a aussi averti que couper les câbles sous-marins du détroit d'Ormuz ferait beaucoup de dégâts aux États-Unis et à leurs alliés du Golfe.",
+   "summary_ar": "ترفض طهران نقل اليورانيوم المخصب إلى بلد ثالث وتضع شروطاً قبل أي تفاوض مع واشنطن. كما حذّر جنرال في الحرس الثوري من أن قطع الكابلات البحرية في مضيق هرمز سيُلحق أضراراً كبيرة بالولايات المتحدة وحلفائها في الخليج.",
+   "title": "Iran : pas question d'envoyer l'uranium à l'étranger, menace sur les câbles d'Ormuz",
+   "title_ar": "إيران: لا نقل لليورانيوم إلى الخارج، وتهديد لكابلات هرمز",
+   "url": "https://www.foxnews.com/live-news/iran-war-news-trump-russia-houthi-october-21"
   },
   {
    "cat": "maroc",
@@ -7037,7 +7545,7 @@
   ]
  },
  "meta": {
-  "updatedAt": "2026-10-21T13:08:52Z",
+  "updatedAt": "2026-10-21T16:09:00Z",
   "brief": [
    "Sport : Ce soir 20h, le Maroc joue la finale de la CAN de futsal. Bayern – Arsenal aussi.",
    "Maroc : Le gouvernement veut interdire les réseaux sociaux aux moins de 15 ans.",
