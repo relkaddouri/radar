@@ -9,15 +9,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:atp-alm-medvedev-shimabukuro@radar
-DTSTAMP:20261022T065132Z
+DTSTAMP:20261022T071914Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 TRANSP:TRANSPARENT
 SUMMARY:Medvedev (5) – Shimabukuro (109) (Tennis)
 LOCATION:Almaty Open\, Almaty (Kazakhstan)
 DESCRIPTION:ATP 250 d'Almaty · 8e de finale — premier match du tenant 
- du titre\, 6e de la course pour les ATP Finals de Turin \; heure pas enc
- ore confirmée par l'ATP
+ du titre\, 6e de la course pour les ATP Finals \; sur le court central\,
+  heure pas encore publiée
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Medvedev (5) – Shimabukuro (109) (Tennis)
