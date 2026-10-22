@@ -756,34 +756,6 @@
     "فيلم قاسٍ لكنه مفيد للآباء: يُظهر كيف يحاول الطفل أن يفهم وحده ما يفوق قدرته."
    ]
   },
-  "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/": {
-   "h": "IA ouverte ou fermée : les avantages valent-ils les risques ?",
-   "pts": [
-    "Un modèle d'IA ouvert se télécharge et tourne sur sa propre machine, un modèle fermé reste en ligne.",
-    "Les modèles ouverts coûtent moins cher et protègent les données, mais leurs protections s'enlèvent facilement.",
-    "Ce n'est pas un choix moral simple : il faut peser le coût, le contrôle des données et les risques."
-   ],
-   "h_ar": "الذكاء الاصطناعي المفتوح أو المغلق: هل تستحق الفوائد هذه المخاطر؟",
-   "pts_ar": [
-    "النموذج المفتوح يمكن تنزيله وتشغيله على جهازك، أما النموذج المغلق فيُستعمل عبر الإنترنت فقط.",
-    "النماذج المفتوحة أرخص وتحمي البيانات الحساسة، لكن يمكن إزالة أنظمة الحماية منها بسهولة.",
-    "الاختيار ليس أخلاقيًا بسيطًا: يجب الموازنة بين الكلفة والتحكم في البيانات وخطر سوء الاستعمال."
-   ]
-  },
-  "https://investing.com/news/economy-news/imf-flags-risks-to-global-economy-from-ai-market-correction-war-and-debt-4946017": {
-   "h": "FMI : l'IA soutient la croissance mondiale, mais pour combien de temps ?",
-   "pts": [
-    "Le FMI prévoit 3,1 % de croissance mondiale en 2026, grâce aux énormes dépenses dans l'IA.",
-    "Si l'IA déçoit, la chute des investissements ferait perdre 1,1 % au PIB mondial d'ici 2028.",
-    "La croissance tient surtout grâce à l'IA : c'est une force, mais aussi une fragilité."
-   ],
-   "h_ar": "صندوق النقد الدولي: الذكاء الاصطناعي يدعم النمو العالمي، لكن إلى متى؟",
-   "pts_ar": [
-    "يتوقع صندوق النقد نموًا عالميًا بنسبة 3,1% في 2026، بفضل الإنفاق الضخم على الذكاء الاصطناعي.",
-    "إذا خيب الذكاء الاصطناعي الآمال، قد يخسر الناتج العالمي 1,1% بحلول 2028 بسبب تراجع الاستثمار.",
-    "النمو قائم أساسًا على هذا الرهان: إنه نقطة قوة، لكنه أيضًا نقطة ضعف."
-   ]
-  },
   "a:an-anthropic-prospectus-bourse": {
    "h": "Anthropic en Bourse : ce que montre le premier document",
    "pts": [
@@ -1190,34 +1162,6 @@
     "في الوزن الثقيل، قد يقترب فولكوف من نزال على اللقب."
    ]
   },
-  "https://fr.le360.ma/economie/secteur-de-la-minoterie-vers-la-fin-du-modele-actuel-de-subventions_YXSUJAZJL5AIXK6D2DNB2H47PA/": {
-   "h": "Farine aidée par l'État : le Conseil de la concurrence veut tout revoir",
-   "pts": [
-    "Le Conseil de la concurrence propose de changer la façon dont l'État aide le prix de la farine.",
-    "Son rapport 2025 montre que les moulins produisent bien plus que les besoins du pays.",
-    "L'idée : donner l'argent directement aux familles modestes plutôt que baisser le prix pour tous."
-   ],
-   "h_ar": "دعم الدقيق: مجلس المنافسة يدعو إلى مراجعة النموذج بالكامل",
-   "pts_ar": [
-    "يقترح مجلس المنافسة تغيير طريقة دعم الدولة لثمن الدقيق.",
-    "يبيّن تقريره لسنة 2025 أن المطاحن تنتج أكثر بكثير من حاجة البلاد.",
-    "الفكرة: منح المال مباشرة للأسر الفقيرة بدل خفض الثمن للجميع، بمن فيهم الميسورون."
-   ]
-  },
-  "https://fr.le360.ma/economie/a-kheng-grou-le-cinquieme-plus-grand-barrage-du-maroc-bientot-operationnel_7OLK37CQ6BHINED6RGOVKQ5VZY/": {
-   "h": "Kheng Grou, 5e plus grand barrage du Maroc, presque terminé",
-   "pts": [
-    "Le barrage de Kheng Grou, dans la région de Figuig, est terminé à 91 %.",
-    "Il pourra garder 1,07 milliard de m³ d'eau et doit ouvrir fin décembre 2026.",
-    "Après des années de sécheresse, il doit multiplier par dix les terres arrosées en aval."
-   ],
-   "h_ar": "سد خنك كرو، خامس أكبر سد في المغرب، على وشك الاكتمال",
-   "pts_ar": [
-    "اكتملت أشغال سد خنك كرو بإقليم فكيك بنسبة 91٪.",
-    "سيخزن 1,07 مليار متر مكعب من الماء، ومن المنتظر تشغيله نهاية دجنبر 2026.",
-    "بعد سنوات الجفاف، سيضاعف الأراضي المسقية بعد السد عشر مرات."
-   ]
-  },
   "https://fr.le360.ma/politique/apres-le-gouvernement-madiha-khayr-quitte-la-chambre-des-representants_LKWCPC4LE5GLFODKM333UALPPQ/": {
    "h": "Madiha Khayr quitte le Parlement après son départ du gouvernement",
    "pts": [
@@ -1300,34 +1244,6 @@
     "فاز مينيسوتا بفارق كبير على ميامي 131-106 في أمسية الأربعاء الكبيرة.",
     "سجل أنتوني إدواردز 45 نقطة، منها 9 رميات بعيدة تساوي كل واحدة 3 نقاط.",
     "وتغلب هيوستن على دالاس 128-110 رغم 32 نقطة للشاب كوبر فلاغ."
-   ]
-  },
-  "https://www.ufc.com/news/fight-fight-preview-ufc-333-volkanovski-vs-evloev": {
-   "h": "UFC 333 : Volkanovski vise un record face à Evloev",
-   "pts": [
-    "Samedi à Abou Dhabi, Volkanovski défend sa ceinture des plumes, la catégorie des 66 kg.",
-    "Une 9e défense du titre serait un record, face à Evloev, invaincu en 20 combats.",
-    "Petr Yan et Merab Dvalishvili se retrouvent aussi pour un 3e combat, à 1-1."
-   ],
-   "h_ar": "UFC 333: فولكانوفسكي يطمح إلى رقم قياسي أمام إيفلوييف",
-   "pts_ar": [
-    "يدافع فولكانوفسكي يوم السبت في أبوظبي عن حزام وزن الريشة، أي فئة 66 كلغ.",
-    "سيكون الدفاع التاسع عن اللقب رقماً قياسياً، أمام إيفلوييف الذي لم يُهزم في 20 نزالاً.",
-    "كما يلتقي بيتر يان وميراب دفاليشفيلي للمرة الثالثة بعد فوز لكل منهما."
-   ]
-  },
-  "https://fr.le360.ma/sports/caf-patrice-motsepe-reunit-son-comite-executif-lorganisation-des-prochaines-can-a-lordre-du-jour_IEUMKQ6F5BD5DNDGQ3N4HJ6NWY/": {
-   "h": "CAF : réunion ce jeudi sur l'organisation des prochaines CAN",
-   "pts": [
-    "Le comité exécutif de la CAF, qui dirige le football africain, se réunit ce jeudi.",
-    "La réunion, présidée par Patrice Motsepe, se tient à 14h, heure du Maroc, en visio.",
-    "Au programme : l'organisation des prochaines Coupes d'Afrique des nations."
-   ],
-   "h_ar": "الكاف: اجتماع اليوم الخميس حول تنظيم كؤوس إفريقيا المقبلة",
-   "pts_ar": [
-    "تجتمع اليوم الخميس اللجنة التنفيذية للكاف، الهيئة التي تسيّر كرة القدم الإفريقية.",
-    "يُعقد الاجتماع برئاسة باتريس موتسيبي على الساعة 14:00 بتوقيت المغرب عن بعد.",
-    "وعلى جدول الأعمال تنظيم النسخ المقبلة من كأس إفريقيا للأمم."
    ]
   },
   "https://www.securities.io/openai-frontier-models-and-codex-head-to-google-cloud-model-garden/": {
@@ -1454,48 +1370,6 @@
     "سيطر ليكرز على غولدن ستايت في أولى مباريات الموسم.",
     "سجل لوكا دونتشيتش 28 نقطة ووكر كيسلر 26 نقطة دون أن يضيّع أي تسديدة.",
     "وبفارق 22 نقطة، تبدأ تشكيلة ليكرز الجديدة موسمها بقوة."
-   ]
-  },
-  "https://fr.le360.ma/sports/can-de-futsal-2026-le-maroc-roi-dafrique-pour-la-quatrieme-fois-consecutive_Q5F3OAH6MZALBNKMVWNVR6ULZ4/": {
-   "h": "Futsal : le Maroc gagne sa 4e Coupe d'Afrique de suite",
-   "pts": [
-    "Les Lions de l'Atlas ont battu l'Angola en finale de la CAN de futsal, mercredi à Rabat.",
-    "Le futsal, c'est le football en salle, à cinq contre cinq sur un petit terrain.",
-    "Titré en 2016, 2020, 2024 et 2026, le Maroc réussit ce qu'aucun pays africain n'a fait."
-   ],
-   "h_ar": "كرة القدم داخل القاعة: المغرب يتوج بكأس إفريقيا للمرة الرابعة توالياً",
-   "pts_ar": [
-    "تغلب أسود الأطلس على أنغولا في نهائي كأس إفريقيا لكرة القدم داخل القاعة، مساء الأربعاء بالرباط.",
-    "تُلعب هذه الكرة في قاعة بخمسة لاعبين لكل فريق فوق ملعب صغير.",
-    "بألقاب 2016 و2020 و2024 و2026، يحقق المغرب ما لم يحققه أي منتخب إفريقي."
-   ]
-  },
-  "https://sports.yahoo.com/articles/bayern-munich-2-2-arsenal-205643081.html": {
-   "h": "Ligue des champions : Arsenal arrache le nul 2-2 au Bayern",
-   "pts": [
-    "Arsenal a fait 2-2 à Munich grâce à Eze puis à un but tardif de Declan Rice.",
-    "Le Bayern avait marqué par Davies et par Kane, sur penalty après une main de Timber.",
-    "La série de 14 victoires d'Arsenal s'arrête, et Saka est sorti blessé dès la 10e minute."
-   ],
-   "h_ar": "دوري الأبطال: أرسنال ينتزع التعادل 2-2 أمام بايرن",
-   "pts_ar": [
-    "تعادل أرسنال 2-2 في ميونيخ بفضل إيزي ثم هدف متأخر لديكلان رايس.",
-    "وكان بايرن قد سجل عبر ديفيز ثم كين من ضربة جزاء بعد لمسة يد من تيمبر.",
-    "توقفت سلسلة أرسنال من 14 فوزاً متتالياً، وغادر ساكا مصاباً منذ الدقيقة العاشرة."
-   ]
-  },
-  "https://www.eurosport.fr/football/ligue-des-champions/2026-2027/ligue-des-champions-i-kylian-mbappe-buteur-le-real-madrid-deroule-face-a-leipzig-avant-le-clasico_sto23347983/story.shtml": {
-   "h": "Ligue des champions : le Real bat Leipzig 4-1 avant le Clásico",
-   "pts": [
-    "Le Real Madrid a battu Leipzig 4-1 après une première période sifflée par son public.",
-    "Bernardo Silva, Güler, Mbappé et Yan Diomandé ont marqué ; le Real a 9 points sur 9.",
-    "Il partage la tête avec le PSG avant d'affronter le Barça ce week-end."
-   ],
-   "h_ar": "دوري الأبطال: ريال مدريد يهزم لايبزيغ 4-1 قبل الكلاسيكو",
-   "pts_ar": [
-    "فاز ريال مدريد على لايبزيغ 4-1 بعد شوط أول قوبل بصفير جماهيره.",
-    "سجل برناردو سيلفا وغولر ومبابي ويان ديوماندي، وجمع الريال 9 نقاط من 9.",
-    "ويتقاسم الصدارة مع باريس سان جيرمان قبل مواجهة برشلونة نهاية الأسبوع."
    ]
   },
   "https://fr.hespress.com/493315-le-gouvernement-vise-la-creation-dun-million-demplois-dici-2031.html": {
@@ -1750,20 +1624,6 @@
     "سرقة بيانات الضمان الاجتماعي والمحافظة العقارية تُظهر هشاشة المعطيات العمومية."
    ]
   },
-  "https://fr.le360.ma/economie/textile-face-a-la-concurrence-lamith-plaide-pour-un-choc-de-competitivite_5YEISGA7TBGTZMYMYAAL335TRA/": {
-   "h": "Textile marocain : les industriels veulent être plus compétitifs",
-   "pts": [
-    "Les industriels du textile (AMITH) estiment qu'être proche de l'Europe ne suffit plus pour vendre.",
-    "La Turquie, l'Égypte et la Tunisie gagnent du terrain auprès des marques européennes.",
-    "Ils veulent fabriquer plus de tissus au Maroc, faire des produits plus élaborés et miser sur l'écologie."
-   ],
-   "h_ar": "النسيج المغربي: المصنعون يريدون قدرة أكبر على المنافسة",
-   "pts_ar": [
-    "ترى جمعية مصنعي النسيج أن القرب من أوروبا لم يعد كافيا للفوز بالطلبيات.",
-    "تتقدم تركيا ومصر وتونس في كسب زبائن العلامات الأوروبية.",
-    "يريد المصنعون إنتاج مزيد من الأقمشة محليا وصنع منتجات أرقى وجعل احترام البيئة ميزة للبيع."
-   ]
-  },
   "https://fr.hespress.com/493515-ldc-achraf-hakimi-a-une-passe-decisive-du-record-de-samuel-etoo.html": {
    "h": "Ligue des champions : Hakimi à une passe du record africain d'Eto'o",
    "pts": [
@@ -1916,34 +1776,6 @@
     "زار سفيان قراب، الذي يؤدي دور المفتش قديرة في «لوبين»، المغرب قبل صدور الجزء الرابع.",
     "وُلد في فرنسا لأب ينحدر من فجيج، وتحدث عن دوره وعن الشهرة وعن سرقة متحف اللوفر الحقيقية.",
     "يصدر الجزء الرابع من «لوبين»، بطولة عمر سي، على نتفليكس في 23 أكتوبر."
-   ]
-  },
-  "https://fr.le360.ma/politique/exclusif-une-reforme-historique-de-limpot-sur-le-revenu-ce-qui-va-changer-pour-les-salaries-des-2027_UBLXPQPXLNEUZLLXYXQQXJ3GE4/": {
-   "h": "Impôt sur le revenu : moins d'impôts pour les salariés dès 2027",
-   "pts": [
-    "Selon Le360, le gouvernement prépare une grande réforme de l'impôt prélevé sur les salaires.",
-    "Dès 2027, on ne paierait rien jusqu'à 60 000 DH par an (5 000 DH par mois), contre 40 000 DH aujourd'hui.",
-    "Le taux le plus haut passerait de 37 % à 30 % d'ici 2031 : plus d'argent restera sur la fiche de paie."
-   ],
-   "h_ar": "الضريبة على الدخل: ضرائب أقل على الأجراء ابتداء من 2027",
-   "pts_ar": [
-    "حسب موقع Le360، تحضّر الحكومة إصلاحا كبيرا للضريبة التي تُقتطع من الأجور.",
-    "ابتداء من 2027 لن تُدفع ضريبة على أول 60 ألف درهم سنويا (5000 درهم شهريا)، مقابل 40 ألفا اليوم.",
-    "وسينخفض أعلى سعر من 37% إلى 30% في أفق 2031، ما يعني مالا أكثر في الأجر الصافي."
-   ]
-  },
-  "https://medias24.com/2026/10/21/lgv-vers-agadir-raccordement-dessaouira-le-gouvernement-annonce-un-nouveau-programme-ferroviaire-2030-2035-1782500/": {
-   "h": "Train : une ligne à grande vitesse vers Agadir après 2030",
-   "pts": [
-    "Le programme du gouvernement prévoit un nouveau plan ferroviaire pour 2030-2035.",
-    "Il inclut un TGV jusqu'à Agadir et un raccordement d'Essaouira au réseau.",
-    "Les lignes Benguerir-Safi, Fès-Oujda et Casablanca-Khouribga-Oued Zem seraient aussi modernisées."
-   ],
-   "h_ar": "القطار: خط فائق السرعة نحو أكادير بعد 2030",
-   "pts_ar": [
-    "يتضمن برنامج الحكومة مخططا سككيا جديدا للفترة 2030-2035.",
-    "ويشمل قطارا فائق السرعة إلى أكادير وربط الصويرة بالشبكة السككية.",
-    "كما ستُحدَّث خطوط ابن جرير-آسفي وفاس-وجدة والدار البيضاء-خريبكة-واد زم."
    ]
   },
   "https://sports.inquirer.net/702822/nba-scores-today-wizards-timberwolves-raptors-lakers-win-openers": {
@@ -2154,6 +1986,230 @@
     "يوم الأحد في أوستن (الساعة 21 بتوقيت المغرب)، يمكن لكيمي أنتونيلي أن يُتوَّج بطلا للعالم لأول مرة.",
     "برصيد 340 نقطة مقابل 238 لراسل، عليه الفوز مع حلول راسل تاسعا أو أبعد وهاميلتون خامسا أو أبعد.",
     "فيرستابن، الفائز بالسباقين الأخيرين، أكبر عقبة، وإن فشل تبقى أمامه خمس فرص أخرى."
+   ]
+  },
+  "https://fr.hespress.com/493514-hcp-hausse-de-01-de-lipc-en-septembre-2026.html": {
+   "h": "Prix au Maroc : presque stables en septembre, mais l'essence monte",
+   "pts": [
+    "Selon le HCP, l'organisme des statistiques, les prix n'ont monté que de 0,1 % en septembre.",
+    "Viandes et légumes ont pris 4,3 % en un mois, et les carburants 2 %.",
+    "L'alimentation reste moins chère qu'il y a un an, mais le pétrole cher pèse sur le transport."
+   ],
+   "h_ar": "الأسعار في المغرب: شبه مستقرة في شتنبر لكن المحروقات ترتفع",
+   "pts_ar": [
+    "حسب المندوبية السامية للتخطيط، لم ترتفع الأسعار سوى بـ0,1% خلال شهر شتنبر.",
+    "ارتفعت اللحوم والخضر بـ4,3% في شهر واحد، والمحروقات بـ2%.",
+    "تبقى المواد الغذائية أرخص مما كانت عليه قبل سنة، لكن غلاء النفط يثقل كلفة النقل."
+   ]
+  },
+  "https://fr.hespress.com/493611-bourse-de-casablanca-cloture-sur-une-note-positive-32.html": {
+   "h": "Bourse de Casablanca : une journée en hausse, portée par les assurances",
+   "pts": [
+    "Jeudi, le MASI, l'indice qui résume toute la Bourse, a gagné 0,74 % à 17 134 points.",
+    "Assurances et pétrole ont le plus monté, avec Maghreb Oxygène et Sanlam Maroc en tête.",
+    "Casablanca a fini dans le vert alors que les grandes Bourses mondiales reculaient."
+   ],
+   "h_ar": "بورصة الدار البيضاء: يوم إيجابي بقيادة شركات التأمين",
+   "pts_ar": [
+    "يوم الخميس، ربح مؤشر مازي، الذي يلخص البورصة كلها، 0,74% ليصل إلى 17134 نقطة.",
+    "كان التأمين والنفط الأكثر ارتفاعا، مع المغرب أوكسجين وسانلام المغرب في المقدمة.",
+    "أنهت الدار البيضاء اليوم على ارتفاع بينما كانت كبرى البورصات العالمية تتراجع."
+   ]
+  },
+  "https://fr.hespress.com/493605-programme-gouvernemental-lalliance-de-la-gauche-annonce-son-vote-contre.html": {
+   "h": "Programme du gouvernement : l'Alliance de la gauche dit non",
+   "pts": [
+    "À la Chambre des représentants, la députée Nabila Jalal a annoncé le vote contre de son groupe.",
+    "Elle reproche au programme 2026-2031 l'absence de chiffres précis sur l'emploi et le pouvoir d'achat.",
+    "Le gouvernement El Mansouri a besoin de ce vote pour gouverner ; sa majorité a 207 sièges sur 395."
+   ],
+   "h_ar": "برنامج الحكومة: تحالف اليسار يقول لا",
+   "pts_ar": [
+    "في مجلس النواب، أعلنت النائبة نبيلة جلال أن مجموعتها ستصوت ضد برنامج الحكومة.",
+    "تعيب على برنامج 2026-2031 غياب أرقام دقيقة حول الشغل والقدرة الشرائية والعدالة الضريبية.",
+    "تحتاج حكومة المنصوري إلى هذا التصويت لتبدأ عملها، وأغلبيتها تضم 207 مقاعد من 395."
+   ]
+  },
+  "https://ianslive.in/la-liga-barcelona-seek-to-extend-lead-by-winning-clasico-showdown-with-real-madrid--20261022235255": {
+   "h": "Clásico dimanche : le Barça invaincu reçoit le Real de Mourinho",
+   "pts": [
+    "Barcelone a gagné ses neuf matchs de Liga et compte six points d'avance sur le Real.",
+    "Mais le Barça a perdu 4-2 à Paris et sera privé d'Olmo, Eric García et Christensen.",
+    "En cas de victoire au Camp Nou, l'écart passerait à neuf points en tête du championnat."
+   ],
+   "h_ar": "كلاسيكو الأحد: برشلونة المتصدر يستقبل ريال مورينيو",
+   "pts_ar": [
+    "فاز برشلونة في مبارياته التسع في الليغا ويتقدم بست نقاط على ريال مدريد.",
+    "لكن البارسا خسر 4-2 في باريس وسيغيب عنه أولمو وإريك غارسيا وكريستنسن.",
+    "إذا فاز في كامب نو، سيرتفع الفارق إلى تسع نقاط في صدارة الدوري."
+   ]
+  },
+  "https://www.atptour.com/en/news/almaty-2026-report-thursday": {
+   "h": "Almaty : Medvedev écrase Shimabukuro et file en quarts de finale",
+   "pts": [
+    "Daniil Medvedev, favori n°1 du tournoi, a battu le Japonais Shimabukuro 6-2 6-1.",
+    "Il n'a laissé que trois jeux et affrontera le Français Terence Atmane vendredi.",
+    "Il reste 6e de la course aux ATP Finals, le tournoi des 8 meilleurs de la saison."
+   ],
+   "h_ar": "ألماتي: ميدفيديف يكتسح شيمابوكورو ويبلغ ربع النهائي",
+   "pts_ar": [
+    "تغلّب دانييل ميدفيديف، المرشح الأول في الدورة، على الياباني شيمابوكورو 6-2 و6-1.",
+    "لم يترك له سوى ثلاثة أشواط، وسيواجه الفرنسي تيرينس أتمان يوم الجمعة.",
+    "يبقى سادسا في السباق نحو البطولة الختامية التي تجمع أفضل 8 لاعبين في الموسم."
+   ]
+  },
+  "https://fr.tennistemple.com/actu/atp-lyon-elimine-par-cobolli-wawrinka-a-tire-sa/WuRS": {
+   "h": "Lyon : Wawrinka joue son dernier match en France, battu par Cobolli",
+   "pts": [
+    "Stan Wawrinka, qui arrête sa carrière cette saison, a perdu 6-2 6-4 contre Flavio Cobolli.",
+    "Le Suisse, 41 ans et trois titres du Grand Chelem, a salué le public français.",
+    "L'Italien, 6e mondial, joue les quarts vendredi et vise une place aux ATP Finals."
+   ],
+   "h_ar": "ليون: فافرينكا يلعب آخر مباراة له في فرنسا ويخسر أمام كوبولي",
+   "pts_ar": [
+    "خسر ستان فافرينكا، الذي يعتزل هذا الموسم، أمام فلافيو كوبولي بنتيجة 6-2 و6-4.",
+    "حيّا السويسري، صاحب ثلاثة ألقاب في البطولات الكبرى، الجمهور الفرنسي بعد المباراة.",
+    "يلعب الإيطالي، السادس عالميا، ربع النهائي الجمعة ويسعى لمكان في البطولة الختامية."
+   ]
+  },
+  "https://www.lalibre.be/dernieres-depeches/2026/10/22/european-open-david-goffin-tire-sa-reverence-en-simple-a-bruxelles-sur-une-defaite-au-2e-tour-VLYPOEA3ZRFWHLQCRRHQFDD2OQ/": {
+   "h": "Bruxelles : David Goffin fait ses adieux en simple devant son public",
+   "pts": [
+    "Le Belge David Goffin a joué son dernier match en simple au tournoi de Bruxelles.",
+    "L'ancien 7e mondial a perdu 6-3 6-4 contre l'Américain Alex Michelsen.",
+    "Une figure du tennis belge depuis dix ans s'en va ; Michelsen affrontera Arthur Fils."
+   ],
+   "h_ar": "بروكسل: دافيد غوفان يودّع منافسات الفردي أمام جمهوره",
+   "pts_ar": [
+    "لعب البلجيكي دافيد غوفان آخر مباراة له في الفردي خلال دورة بروكسل.",
+    "خسر المصنف السابع عالميا سابقا بنتيجة 6-3 و6-4 أمام الأمريكي أليكس ميكلسن.",
+    "يرحل أحد رموز التنس البلجيكي منذ عشر سنوات، وسيواجه ميكلسن آرثر فيس."
+   ]
+  },
+  "https://combatpress.com/2026/10/ufc-333-volkanovski-vs-evloev-preview-and-predictions/": {
+   "h": "UFC 333 : Volkanovski, 38 ans, face à l'invaincu Evloev samedi",
+   "pts": [
+    "L'Australien défend sa ceinture des poids plumes (environ 66 kg) samedi à Abou Dhabi.",
+    "En face, Movsar Evloev n'a jamais perdu : 20 combats, 20 victoires.",
+    "Une victoire lui ferait battre le record d'Aldo ; début vers 19 h, heure du Maroc."
+   ],
+   "h_ar": "UFC 333: فولكانوفسكي ابن الـ38 أمام إفلوييف الذي لم يُهزم",
+   "pts_ar": [
+    "يدافع الأسترالي عن حزام وزن الريشة (حوالي 66 كلغ) يوم السبت في أبوظبي.",
+    "في المقابل، لم يخسر موفسار إفلوييف أبدا: 20 نزالا و20 انتصارا.",
+    "الفوز سيجعله يتجاوز رقم ألدو، والبداية حوالي الساعة 19:00 بتوقيت المغرب."
+   ]
+  },
+  "https://www.thestar.com.my/tech/tech-news/2026/10/19/anthropic-proposes-law-regulating-ai-to-us-lawmakers": {
+   "h": "Anthropic propose une loi pour pouvoir bloquer une IA dangereuse",
+   "pts": [
+    "Anthropic présente au Congrès américain un projet de loi sur les risques de l'IA.",
+    "L'État pourrait bloquer un modèle risquant plus de 50 morts ou un milliard de dollars de dégâts.",
+    "Il faudrait l'accord d'un juge, et les grandes entreprises devraient publier leurs tests."
+   ],
+   "h_ar": "أنثروبيك تقترح قانونا يسمح بإيقاف ذكاء اصطناعي خطير",
+   "pts_ar": [
+    "تقدّم أنثروبيك للكونغرس الأمريكي مشروع قانون حول مخاطر الذكاء الاصطناعي.",
+    "يمكن للدولة منع نموذج يهدد بأكثر من 50 قتيلا أو بأضرار تفوق مليار دولار.",
+    "سيلزم ذلك موافقة قاض، وعلى الشركات الكبرى نشر نتائج اختبار نماذجها."
+   ]
+  },
+  "https://www.abc.net.au/news/2026-10-22/israel-redraws-the-map-in-gaza-lebanon-syria-and-the-west-bank/107180346": {
+   "h": "Gaza, Liban, Syrie : Israël contrôle 2 490 km² hors de ses frontières",
+   "pts": [
+    "Selon une enquête de la chaîne australienne ABC, Israël tient plus de 64 % de Gaza.",
+    "C'était 51 % au début de la trêve d'octobre 2025 ; s'y ajoutent 600 km² au Liban et 1 450 en Syrie.",
+    "Malgré les cessez-le-feu, la zone contrôlée par l'armée israélienne continue d'avancer."
+   ],
+   "h_ar": "غزة ولبنان وسوريا: إسرائيل تسيطر على 2490 كلم² خارج حدودها",
+   "pts_ar": [
+    "حسب تحقيق لقناة ABC الأسترالية، تسيطر إسرائيل على أكثر من 64% من قطاع غزة.",
+    "كانت النسبة 51% عند بداية هدنة أكتوبر 2025، إضافة إلى 600 كلم² في لبنان و1450 في سوريا.",
+    "رغم وقف إطلاق النار، تواصل المنطقة التي يسيطر عليها الجيش الإسرائيلي التوسع."
+   ]
+  },
+  "https://www.timesofisrael.com/liveblog-october-22-2026/": {
+   "h": "Élections en Israël : Netanyahu et ses rivaux au coude-à-coude",
+   "pts": [
+    "Les Israéliens votent le 27 octobre pour élire les 120 députés de leur Parlement.",
+    "Selon un sondage, ni le camp de Netanyahu ni ses adversaires n'atteignent 61 sièges.",
+    "Son principal rival est Gadi Eisenkot, chef du parti Yashar : le résultat reste ouvert."
+   ],
+   "h_ar": "انتخابات إسرائيل: تقارب كبير بين معسكر نتنياهو وخصومه",
+   "pts_ar": [
+    "يصوّت الإسرائيليون يوم 27 أكتوبر لانتخاب 120 نائبا في الكنيست.",
+    "حسب استطلاع للرأي، لا يبلغ معسكر نتنياهو ولا خصومه عتبة 61 مقعدا.",
+    "منافسه الرئيسي هو غادي آيزنكوت، زعيم حزب «ياشار»، والنتيجة تبقى مفتوحة."
+   ]
+  },
+  "https://www.masculin.com/culture/924297-lupin-revient-cette-semaine-sur-netflix-ce-quil-faut-absolument-retenir-avant-la-partie-4": {
+   "h": "Lupin revient vendredi sur Netflix avec un faux Lupin face à Assane",
+   "pts": [
+    "La partie 4 de Lupin sort le 23 octobre, avec ses huit épisodes d'un coup.",
+    "Omar Sy retrouve Assane Diop en prison, pendant qu'un imposteur vole des musées.",
+    "Le Marocain d'origine Soufiane Guerrab y joue toujours l'inspecteur Guédira."
+   ],
+   "h_ar": "«لوبين» يعود الجمعة على نتفليكس مع لوبين مزيف يتحدى أسان",
+   "pts_ar": [
+    "يصدر الجزء الرابع من «لوبين» يوم 23 أكتوبر بثماني حلقات دفعة واحدة.",
+    "يعود عمر سي في دور أسان ديوب داخل السجن، بينما يسرق محتال عدة متاحف.",
+    "ويؤدي الممثل ذو الأصول المغربية سفيان غراب دور المفتش كديرة."
+   ]
+  },
+  "https://www.callofduty.com/blog/2026/10/call-of-duty-intel-modern-warfare-4-launch-xbox-game-pass": {
+   "h": "Call of Duty Modern Warfare 4 sort ce vendredi, aussi sur Switch 2",
+   "pts": [
+    "Le nouveau Call of Duty sort le 23 octobre sur PC, PS5 et Xbox Series.",
+    "Il arrive aussi sur Switch 2, une première pour la série depuis longtemps.",
+    "Il ne sera pas dans le Game Pass, l'abonnement Xbox : il faudra l'acheter."
+   ],
+   "h_ar": "كول أوف ديوتي مودرن وورفير 4 تصدر الجمعة وعلى سويتش 2 أيضا",
+   "pts_ar": [
+    "تصدر لعبة كول أوف ديوتي الجديدة في 23 أكتوبر على الكمبيوتر وبلايستيشن 5 وإكس بوكس.",
+    "وتصل أيضا إلى سويتش 2، وهي سابقة للسلسلة منذ مدة طويلة.",
+    "لن تكون ضمن Game Pass، اشتراك إكس بوكس، بل يجب شراؤها."
+   ]
+  },
+  "https://www.espn.com/soccer/story/_/id/50245408/jose-mourinho-el-clasico-unmissable-real-madrid-barcelona-guardiola-messi-ronaldo": {
+   "h": "Mourinho retrouve le Clásico, treize ans après ses duels avec le Barça",
+   "pts": [
+    "Entre 2010 et 2013, Mourinho a joué 17 Clásicos : 5 victoires, 6 nuls et 6 défaites.",
+    "Après un 5-0 au départ, il a pris le titre 2012 à un très grand Barça.",
+    "Aujourd'hui, Flick a gagné six des sept derniers Clásicos et le Real se reconstruit."
+   ],
+   "h_ar": "مورينيو يعود إلى الكلاسيكو بعد ثلاث عشرة سنة من مواجهاته مع برشلونة",
+   "pts_ar": [
+    "بين 2010 و2013 خاض مورينيو 17 كلاسيكو: 5 انتصارات و6 تعادلات و6 هزائم.",
+    "بعد خسارة 5-0 في البداية، انتزع لقب 2012 من برشلونة قوي جدا.",
+    "اليوم فاز فليك في ستة من آخر سبعة كلاسيكو، والريال ما زال في طور البناء."
+   ]
+  },
+  "https://www.lawcommentary.com/articles/anthropic-ai-safety-bill-government-powers": {
+   "h": "Loi d'Anthropic sur l'IA : qui pourra arrêter un modèle dangereux ?",
+   "pts": [
+    "Anthropic propose que l'État puisse suspendre une IA seulement en cas de risque grave et proche.",
+    "Trois domaines visés : armes biologiques, cyberattaques et IA qui échappe au contrôle humain.",
+    "Un juge déciderait ; un projet concurrent des démocrates au Sénat est plus strict."
+   ],
+   "h_ar": "قانون أنثروبيك للذكاء الاصطناعي: من سيوقف نموذجا خطيرا؟",
+   "pts_ar": [
+    "تقترح أنثروبيك ألا تعلّق الدولة ذكاء اصطناعيا إلا عند خطر جسيم وقريب.",
+    "ثلاثة مجالات معنية: الأسلحة البيولوجية والهجمات الإلكترونية وذكاء يفلت من السيطرة.",
+    "القرار لقاض، بينما يقترح شيوخ ديمقراطيون مشروعا منافسا أكثر صرامة."
+   ]
+  },
+  "a:an-ufc-333-volkanovski-evloev": {
+   "h": "UFC 333 : Volkanovski contre Evloev, un record en jeu samedi",
+   "pts": [
+    "À 38 ans, Volkanovski défend sa ceinture contre Evloev, 20 victoires et aucune défaite.",
+    "Evloev gagne par la lutte au sol ; le champion devra garder le combat debout.",
+    "Une victoire donnerait à l'Australien le record de José Aldo dans la catégorie."
+   ],
+   "h_ar": "UFC 333: فولكانوفسكي ضد إفلوييف ورقم قياسي على المحك",
+   "pts_ar": [
+    "في سن 38، يدافع فولكانوفسكي عن حزامه أمام إفلوييف صاحب 20 انتصارا دون هزيمة.",
+    "يعتمد إفلوييف على المصارعة الأرضية، وعلى البطل أن يُبقي النزال واقفا.",
+    "الفوز سيمنح الأسترالي رقم خوسيه ألدو القياسي في هذه الفئة."
    ]
   }
  }
