@@ -1004,141 +1004,617 @@
  ],
  "news": [
   {
-   "cat": "ux",
-   "title": "Figma lance « Specs » pour que les agents IA respectent les règles de design d'une marque",
-   "title_ar": "فيغما تطلق «Specs» لكي تحترم وكلاء الذكاء الاصطناعي قواعد التصميم الخاصة بالعلامة",
-   "summary": "Lors de sa première conférence Config en Inde, Figma a présenté Specs, un éditeur où les équipes écrivent leur langage de design pour guider les agents IA. Les « code layers », qui transforment un design en code, passent en bêta ouverte, et l'outil MCP de Figma accepte plus de 20 nouveaux outils.",
-   "summary_ar": "خلال أول مؤتمر Config لها في الهند، قدّمت فيغما أداة Specs، وهي محرّر تكتب فيه الفرق لغة التصميم الخاصة بها لتوجيه وكلاء الذكاء الاصطناعي. وأصبحت «طبقات الكود» التي تحوّل التصميم إلى كود متاحة في نسخة تجريبية مفتوحة، كما صار MCP الخاص بفيغما يدعم أكثر من 20 أداة جديدة.",
-   "source": "TechCrunch",
-   "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform",
-   "date": "2026-10-15",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Specs_agent.jpeg?resize=1200,675",
+   "cat": "maroc",
+   "sub": "economie",
+   "title": "Impôt sur le revenu : moins d'impôts pour les salariés dès 2027",
+   "title_ar": "الضريبة على الدخل: ضرائب أقل على الأجراء ابتداءً من 2027",
+   "summary": "Selon Le360, le gouvernement El Mansouri prépare une grande réforme de l'impôt sur le revenu : le seuil sans impôt passerait de 40 000 à 60 000 DH par an dès janvier 2027. Le taux le plus haut baisserait de 37 % à 30 % d'ici 2031, avec seulement trois tranches.",
+   "summary_ar": "حسب Le360، تُعدّ حكومة المنصوري إصلاحاً كبيراً للضريبة على الدخل: سيرتفع الحد المعفى من 40 ألفاً إلى 60 ألف درهم سنوياً ابتداءً من يناير 2027. وسينخفض أعلى سعر من 37٪ إلى 30٪ في أفق 2031، مع ثلاث شرائح فقط.",
+   "source": "Le360",
+   "url": "https://fr.le360.ma/politique/exclusif-une-reforme-historique-de-limpot-sur-le-revenu-ce-qui-va-changer-pour-les-salaries-des-2027_UBLXPQPXLNEUZLLXYXQQXJ3GE4/",
+   "date": "2026-10-21",
+   "image": "https://fr.le360.ma/resizer/v2/WBI7PB43EZAP5ONCZUP2NL62LI.png?auth=e1fc0974cdda290afdc22df0ad15b0ce869546ba35e0d0ffddd2fc6124cc7d75&smart=true&width=1200&height=630",
    "explain": {
-    "context": "De plus en plus d'agents IA créent des écrans à la place des designers. Figma veut qu'ils suivent le système de design de chaque entreprise, comme le ferait un membre de l'équipe.",
-    "context_ar": "أصبح عدد متزايد من وكلاء الذكاء الاصطناعي يصمّمون الشاشات بدل المصممين. وتريد فيغما أن يتّبعوا نظام التصميم الخاص بكل شركة، كما يفعل أي عضو في الفريق.",
+    "context": "Le nouveau gouvernement a promis d'améliorer le pouvoir d'achat. Le projet de loi de finances 2027 doit être présenté au Parlement ce vendredi.",
+    "context_ar": "وعدت الحكومة الجديدة بتحسين القدرة الشرائية. ومن المنتظر تقديم مشروع قانون المالية 2027 أمام البرلمان هذا الجمعة.",
     "terms": [
      {
-      "t": "agents IA",
-      "t_ar": "وكلاء الذكاء الاصطناعي",
-      "d": "Programmes d'IA qui réalisent seuls une suite de tâches, par exemple créer ou modifier un écran.",
-      "d_ar": "برامج ذكاء اصطناعي تنجز وحدها سلسلة من المهام، مثل إنشاء شاشة أو تعديلها."
+      "t": "impôt sur le revenu",
+      "t_ar": "الضريبة على الدخل",
+      "d": "Impôt prélevé chaque mois sur le salaire ou les revenus d'une personne.",
+      "d_ar": "ضريبة تُقتطع كل شهر من الأجر أو من مداخيل الشخص."
      },
      {
-      "t": "MCP",
-      "t_ar": "MCP",
-      "d": "Règle commune qui permet à un outil d'IA de se connecter à d'autres logiciels et d'utiliser leurs données.",
-      "d_ar": "قاعدة مشتركة تسمح لأداة ذكاء اصطناعي بالاتصال ببرامج أخرى واستعمال بياناتها."
+      "t": "tranches",
+      "t_ar": "الشرائح",
+      "d": "Parts du revenu taxées chacune à un taux différent : plus on gagne, plus le taux de la part du haut est élevé.",
+      "d_ar": "أجزاء من الدخل يُطبَّق على كل منها سعر مختلف: كلما ارتفع الدخل ارتفع سعر الجزء الأعلى."
      }
     ],
     "figures": [
      {
-      "n": "20",
-      "n_ar": "20",
-      "d": "Nouveaux outils qui peuvent se brancher au MCP de Figma, comme Dia ou Meta Muse.",
-      "d_ar": "أدوات جديدة يمكن ربطها بـMCP فيغما، مثل Dia وMeta Muse."
+      "n": "60 000 DH",
+      "n_ar": "60 ألف درهم",
+      "d": "Nouveau revenu annuel sans impôt prévu dès 2027, soit 5 000 DH par mois, contre 40 000 DH par an aujourd'hui.",
+      "d_ar": "الدخل السنوي الجديد المعفى من الضريبة ابتداءً من 2027، أي 5000 درهم شهرياً، مقابل 40 ألف درهم سنوياً حالياً."
+     },
+     {
+      "n": "30 %",
+      "n_ar": "30٪",
+      "d": "Taux le plus haut visé d'ici 2031, au lieu de 37 % aujourd'hui.",
+      "d_ar": "أعلى سعر مستهدف في أفق 2031، بدل 37٪ حالياً."
      }
     ]
    }
   },
   {
-   "cat": "ux",
-   "title": "Le mouton de Kiwibank devenu viral : une leçon pour les marques qui ont une mascotte IA",
-   "title_ar": "خروف «كيوي بنك» الذي انتشر بقوة: درس للعلامات التي تملك تميمة بالذكاء الاصطناعي",
-   "summary": "Buck, le mouton animé par IA de la banque néo-zélandaise Kiwibank, est devenu célèbre sur internet grâce à des mèmes, et la banque a demandé leur retrait, ce qui a encore plus fait parler d'elle. Creative Bloq explique que des marques comme McDonald's ou Duolingo ont mieux réussi en jouant le jeu avec humour.",
-   "summary_ar": "أصبح «باك»، الخروف المتحرك بالذكاء الاصطناعي التابع لبنك «كيوي بنك» النيوزيلندي، مشهوراً على الإنترنت بفضل الميمات، فطلب البنك حذفها، مما زاد من الحديث عنه. ويشرح موقع Creative Bloq أن علامات مثل ماكدونالدز ودولينغو نجحت أكثر حين تعاملت مع الأمر بروح الدعابة.",
-   "source": "Creative Bloq",
-   "url": "https://creativebloq.com/news/the-kiwibank-sheep-controversy-suggests-brands-should-give-up-trying-to-control-ai-mascots",
-   "date": "2026-10-19",
-   "image": "",
+   "cat": "maroc",
+   "sub": "economie",
+   "title": "Train : une ligne à grande vitesse vers Agadir dans le programme 2030-2035",
+   "title_ar": "القطار: خط فائق السرعة نحو أكادير ضمن برنامج 2030-2035",
+   "summary": "Le programme du gouvernement annonce un nouveau plan ferroviaire pour 2030-2035, avec une ligne à grande vitesse jusqu'à Agadir et un raccordement d'Essaouira. Il prévoit aussi de moderniser les lignes Benguerir-Safi, Fès-Oujda et Casablanca-Khouribga-Oued Zem.",
+   "summary_ar": "يعلن البرنامج الحكومي عن مخطط سككي جديد للفترة 2030-2035، يتضمن خطاً فائق السرعة إلى أكادير وربط الصويرة. كما يتوقع تحديث خطوط بنجرير-آسفي وفاس-وجدة والدار البيضاء-خريبكة-وادي زم.",
+   "source": "Médias24",
+   "url": "https://medias24.com/2026/10/21/lgv-vers-agadir-raccordement-dessaouira-le-gouvernement-annonce-un-nouveau-programme-ferroviaire-2030-2035-1782500/",
+   "date": "2026-10-21",
+   "image": "https://medias24.com/content/uploads/2025/12/26/lgv-kenitra-marrakech.jpg",
    "explain": {
-    "context": "Les marques créent de plus en plus de personnages pour leur communication. Mais une fois sur les réseaux sociaux, le public se les approprie et les transforme, souvent sans demander la permission.",
-    "context_ar": "تصنع العلامات التجارية شخصيات متزايدة للتواصل مع جمهورها. لكن بمجرد وصولها إلى مواقع التواصل، يتبنّاها الجمهور ويحوّلها، غالباً دون استئذان.",
+    "context": "Le Maroc mène déjà un grand programme ferroviaire 2024-2030, avec le prolongement du TGV de Kénitra vers Marrakech avant le Mondial 2030.",
+    "context_ar": "ينفذ المغرب أصلاً برنامجاً سككياً كبيراً 2024-2030، يشمل تمديد القطار فائق السرعة من القنيطرة إلى مراكش قبل مونديال 2030.",
     "terms": [
      {
-      "t": "mascotte",
-      "t_ar": "التميمة",
-      "d": "Personnage qui représente une marque dans ses publicités, comme la chouette de Duolingo.",
-      "d_ar": "شخصية تمثّل العلامة في إعلاناتها، مثل بومة دولينغو."
-     },
-     {
-      "t": "mèmes",
-      "t_ar": "الميمات",
-      "d": "Images ou vidéos drôles copiées et modifiées par des milliers d'internautes.",
-      "d_ar": "صور أو فيديوهات طريفة ينسخها ويعدّلها آلاف مستخدمي الإنترنت."
+      "t": "ligne à grande vitesse",
+      "t_ar": "خط فائق السرعة",
+      "d": "Voie ferrée construite pour des trains très rapides, comme Al Boraq entre Tanger et Casablanca.",
+      "d_ar": "سكة حديدية مبنية لقطارات سريعة جداً، مثل البراق بين طنجة والدار البيضاء."
      }
     ],
     "figures": []
    }
   },
   {
-   "cat": "divers",
-   "sub": "enfant",
-   "title": "Jouer et lire avec un parent met le cerveau du tout-petit en « mode apprentissage »",
-   "title_ar": "اللعب والقراءة مع أحد الوالدين يضعان دماغ الطفل الصغير في «وضع التعلّم»",
-   "summary": "Des chercheurs de l'université Northwestern ont mesuré l'activité du cerveau de 49 enfants de 2 à 3 ans et demi pendant qu'ils lisaient ou jouaient avec un parent, puis pendant qu'ils regardaient un film. Pendant les moments partagés, leur cerveau montrait plus d'attention et d'engagement social, y compris chez les enfants autistes ou en retard de langage.",
-   "summary_ar": "قاس باحثون من جامعة نورث وسترن نشاط دماغ 49 طفلاً تتراوح أعمارهم بين سنتين وثلاث سنوات ونصف أثناء القراءة أو اللعب مع أحد الوالدين، ثم أثناء مشاهدة فيلم. وخلال اللحظات المشتركة أظهر دماغهم انتباهاً وتفاعلاً اجتماعياً أكبر، بما في ذلك لدى الأطفال المصابين بالتوحد أو المتأخرين في اللغة.",
-   "source": "Northwestern University",
-   "url": "https://news.northwestern.edu/stories/2026/10/children-brain-engagement?fj=1",
-   "date": "2026-10-12",
-   "image": "https://news.northwestern.edu/assets/Stories/2026/10/play1940__FocusFillMaxWyIwLjAwIiwiMC4wMCIsMTIwMCw2MzBd.jpg",
+   "cat": "maroc",
+   "sub": "politique",
+   "title": "Peine de mort : le CNDH demande au gouvernement de l'abolir",
+   "title_ar": "عقوبة الإعدام: المجلس الوطني لحقوق الإنسان يطالب الحكومة بإلغائها",
+   "summary": "Réuni à Rabat, le Conseil national des droits de l'Homme (CNDH) a appelé le gouvernement à préparer une loi pour abolir la peine de mort. Le Maroc n'exécute plus personne depuis 1993, mais environ 55 personnes restent condamnées à mort.",
+   "summary_ar": "دعا المجلس الوطني لحقوق الإنسان، خلال لقاء بالرباط، الحكومة إلى إعداد قانون يلغي عقوبة الإعدام. ولم ينفذ المغرب أي إعدام منذ 1993، لكن نحو 55 شخصاً ما زالوا محكومين بالإعدام.",
+   "source": "Le360",
+   "url": "https://fr.le360.ma/politique/le-cndh-appelle-le-gouvernement-a-adopter-une-loi-abolissant-la-peine-de-mort_YAAOTHJK6JFSLJIPBZKSXL5L24/",
+   "date": "2026-10-20",
+   "image": "https://fr.le360.ma/resizer/v2/OKORYZP6UBDDLMZ7SLUUHOWFVM.jpg?auth=00a4d940b8a73090779b382ac4b4a23cbf22d8bc3548482ede9f0d0d81dc8f30&smart=true&width=1200&height=630",
    "explain": {
-    "context": "On sait que parler et jouer avec un jeune enfant aide son langage. Cette étude a observé directement son cerveau pendant ces moments, dans des situations proches de la vie réelle.",
-    "context_ar": "نعرف أن الحديث واللعب مع الطفل الصغير يساعدان لغته. وقد رصدت هذه الدراسة دماغه مباشرة خلال هذه اللحظات، في مواقف قريبة من الحياة اليومية.",
+    "context": "En 2024, le Maroc a voté pour la première fois à l'ONU en faveur d'un arrêt des exécutions dans le monde. Le débat reste partagé dans l'opinion.",
+    "context_ar": "صوّت المغرب سنة 2024 لأول مرة في الأمم المتحدة لصالح وقف تنفيذ الإعدام في العالم. ويبقى النقاش منقسماً داخل الرأي العام.",
     "terms": [
      {
-      "t": "activité du cerveau",
-      "t_ar": "نشاط الدماغ",
-      "d": "Signaux électriques du cerveau, mesurés ici avec un bonnet souple posé sur la tête (EEG).",
-      "d_ar": "إشارات كهربائية يصدرها الدماغ، قيست هنا بقبعة مرنة توضع على الرأس (تخطيط الدماغ)."
-     },
-     {
-      "t": "retard de langage",
-      "t_ar": "المتأخرين في اللغة",
-      "d": "Quand un enfant parle ou comprend les mots plus tard que la plupart des enfants de son âge.",
-      "d_ar": "حين يتكلم الطفل أو يفهم الكلمات في وقت متأخر عن معظم الأطفال في سنه."
+      "t": "CNDH",
+      "t_ar": "المجلس الوطني لحقوق الإنسان",
+      "d": "Institution publique marocaine qui veille au respect des droits humains et conseille l'État.",
+      "d_ar": "مؤسسة عمومية مغربية تسهر على احترام حقوق الإنسان وتقدم المشورة للدولة."
      }
     ],
     "figures": [
      {
-      "n": "49",
-      "n_ar": "49",
-      "d": "Enfants suivis dans l'étude, âgés de 24 à 44 mois.",
-      "d_ar": "عدد الأطفال المشاركين في الدراسة، وأعمارهم بين 24 و44 شهراً."
+      "n": "1993",
+      "n_ar": "1993",
+      "d": "Année de la dernière exécution au Maroc. La peine existe toujours dans la loi, mais elle n'est plus appliquée.",
+      "d_ar": "سنة آخر تنفيذ للإعدام في المغرب. العقوبة ما زالت في القانون لكنها لا تُطبَّق."
      }
     ]
    }
   },
   {
-   "cat": "divers",
-   "sub": "enfant",
-   "title": "La maternelle publique à 4 ans liée à de meilleurs résultats en lecture et en maths quatre ans plus tard",
-   "title_ar": "التعليم الأولي العمومي في سن الرابعة مرتبط بنتائج أفضل في القراءة والرياضيات بعد أربع سنوات",
-   "summary": "Une étude sur près de 28 000 enfants de familles modestes à Miami montre que ceux qui allaient en classe préscolaire publique à 4 ans avaient de meilleures notes en lecture et en maths quatre ans plus tard. Les auteurs pensent que la formation des enseignants, seuls à devoir avoir un diplôme universitaire, peut expliquer cet écart.",
-   "summary_ar": "تُظهر دراسة شملت نحو 28 ألف طفل من أسر محدودة الدخل في ميامي أن من التحقوا بقسم التعليم الأولي العمومي في سن الرابعة حصلوا على نتائج أفضل في القراءة والرياضيات بعد أربع سنوات. ويرى الباحثون أن تكوين المعلمين، وهم وحدهم الملزمون بشهادة جامعية، قد يفسّر هذا الفرق.",
-   "source": "Fast Company",
-   "url": "https://www.fastcompany.com/91623230/kids-school-1-big-advantage-massive-study",
-   "date": "2026-10-20",
-   "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91623230-a-massive-new-study-of-thousands-of-kids-says-this-1-experience-gives-them-a-very-big-advantage.jpg",
+   "cat": "sport",
+   "sport": "basket",
+   "title": "NBA : 34 points pour les débuts d'Anthony Davis avec Washington",
+   "title_ar": "NBA: أنتوني ديفيس يسجل 34 نقطة في أول مباراة مع واشنطن",
+   "summary": "Pour son premier match avec les Wizards, Anthony Davis a marqué 34 points et pris 12 rebonds dans la victoire 128-116 contre Milwaukee. La même nuit, Ty Jerome a inscrit 45 points, son record, pour Memphis face à Utah.",
+   "summary_ar": "في أول مباراة له مع ويزاردز، سجل أنتوني ديفيس 34 نقطة و12 متابعة في الفوز 128-116 على ميلووكي. وفي الليلة نفسها، سجل تاي جيروم 45 نقطة، وهو رقمه القياسي، لصالح ممفيس أمام يوتا.",
+   "source": "Inquirer Sports",
+   "url": "https://sports.inquirer.net/702822/nba-scores-today-wizards-timberwolves-raptors-lakers-win-openers",
+   "date": "2026-10-22",
+   "image": "https://sports.inquirer.net/files/2026/10/AP26295129070682-scaled.jpg",
    "explain": {
-    "context": "Les enfants ont été comparés à d'autres gardés en crèche ou chez une assistante maternelle. L'étude montre un lien, mais ne prouve pas que l'école publique en soit la seule cause.",
-    "context_ar": "قورن هؤلاء الأطفال بآخرين كانوا في دور الحضانة أو عند مربيات في البيوت. وتُظهر الدراسة وجود علاقة، لكنها لا تثبت أن المدرسة العمومية هي السبب الوحيد.",
+    "context": "La saison NBA 2026-2027 a commencé cette semaine, avec plusieurs stars dans de nouvelles équipes après les transferts de l'été.",
+    "context_ar": "انطلق موسم NBA 2026-2027 هذا الأسبوع، مع عدة نجوم في فرق جديدة بعد انتقالات الصيف.",
     "terms": [
      {
-      "t": "classe préscolaire",
-      "t_ar": "قسم التعليم الأولي",
-      "d": "Année d'école avant le primaire, pour les enfants de 4 ans, avec des activités pour préparer la lecture et le calcul.",
-      "d_ar": "سنة دراسية قبل الابتدائي لأطفال الرابعة، فيها أنشطة تهيّئ للقراءة والحساب."
+      "t": "rebonds",
+      "t_ar": "المتابعات",
+      "d": "Ballons récupérés après un tir raté, au panier adverse ou au sien.",
+      "d_ar": "كرات تُسترجع بعد رمية فاشلة، تحت سلة الخصم أو تحت سلة الفريق."
      }
     ],
     "figures": [
      {
-      "n": "28 000",
-      "n_ar": "28 ألف",
-      "d": "Enfants suivis, un très grand nombre pour ce type d'étude.",
-      "d_ar": "عدد الأطفال الذين تمت متابعتهم، وهو عدد كبير جداً لهذا النوع من الدراسات."
+      "n": "45 points",
+      "n_ar": "45 نقطة",
+      "d": "Record personnel de Ty Jerome, dans la victoire 123-103 de Memphis contre Utah.",
+      "d_ar": "الرقم الشخصي لتاي جيروم، في فوز ممفيس 123-103 على يوتا."
      }
     ]
    }
+  },
+  {
+   "cat": "sport",
+   "sport": "football",
+   "title": "Ligue des champions : Côme écrase Manchester United 4-1",
+   "title_ar": "دوري الأبطال: كومو يكتسح مانشستر يونايتد 4-1",
+   "summary": "Le club italien de Côme a battu Manchester United 4-1, avec un doublé de Nico Paz. United, privé de neuf joueurs, compte déjà deux défaites en trois matchs dans cette Ligue des champions.",
+   "summary_ar": "فاز نادي كومو الإيطالي على مانشستر يونايتد 4-1، بثنائية لنيكو باز. ويونايتد، الذي غاب عنه تسعة لاعبين، تلقى خسارتين في ثلاث مباريات من دوري الأبطال.",
+   "source": "NBC Sports",
+   "url": "https://www.nbcsports.com/soccer/live/uefa-champions-league-live-como-man-united-bayern-munich-arsenal-updates-score-goals-highlights-stats-2026-october-21",
+   "date": "2026-10-21",
+   "image": "https://nbcsports.brightspotcdn.com/dims4/default/4b67baa/2147483647/strip/true/crop/5370x3021+0+246/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F70%2Fe8%2F0c7581af42d1b67ca17ee4bceb2b%2F2300781361.jpg",
+   "explain": {
+    "context": "Côme, petit club au bord du lac de Côme, découvre la Ligue des champions. Manchester United traverse une période difficile avec de nombreux blessés.",
+    "context_ar": "كومو نادٍ صغير على ضفاف بحيرة كومو، يكتشف دوري الأبطال. ويمر مانشستر يونايتد بفترة صعبة مع كثرة المصابين.",
+    "terms": [
+     {
+      "t": "doublé",
+      "t_ar": "ثنائية",
+      "d": "Deux buts marqués par le même joueur dans un match.",
+      "d_ar": "هدفان يسجلهما اللاعب نفسه في مباراة واحدة."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "f1",
+   "title": "F1 à Austin : Verstappen favori, Antonelli doit attendre pour le titre",
+   "title_ar": "الفورمولا 1 في أوستن: فيرستابن مرشح للفوز، وأنتونيلي ينتظر اللقب",
+   "summary": "Avant le Grand Prix des États-Unis, Kimi Antonelli compte 102 points d'avance sur George Russell, mais il ne sera sacré dimanche que s'il gagne et que Russell finit neuvième. Max Verstappen, vainqueur des trois dernières courses, arrive en favori.",
+   "summary_ar": "قبل جائزة الولايات المتحدة الكبرى، يتقدم كيمي أنتونيلي بـ102 نقطة على جورج راسل، لكنه لن يُتوَّج الأحد إلا إذا فاز وأنهى راسل تاسعاً. ويدخل ماكس فيرستابن، الفائز في السباقات الثلاثة الأخيرة، كمرشح أول.",
+   "source": "Motorsport.com (Yahoo Sports)",
+   "url": "https://sports.yahoo.com/articles/five-things-watch-f1-united-160134618.html",
+   "date": "2026-10-21",
+   "image": "https://s.yimg.com/lo/mysterio/api/a0859c8a856f5d83671e81544a0c9da055c50d66eb5086dbb9795904cedf61ec/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotorsport_articles_445%2F07866d82ed919ce59372498ee35ec599.jpg",
+   "explain": {
+    "context": "Le jeune Italien Kimi Antonelli, pilote Mercedes, domine la saison 2026. Il lui reste quelques courses pour assurer son premier titre mondial.",
+    "context_ar": "يهيمن الإيطالي الشاب كيمي أنتونيلي، سائق مرسيدس، على موسم 2026. وتبقى له بضعة سباقات لضمان أول لقب عالمي.",
+    "terms": [],
+    "figures": [
+     {
+      "n": "102 points",
+      "n_ar": "102 نقطة",
+      "d": "Avance d'Antonelli sur Russell. Pour être champion dès Austin, il doit marquer au moins 23 points de plus que lui.",
+      "d_ar": "فارق أنتونيلي عن راسل. ليُتوَّج في أوستن، عليه أن يجمع 23 نقطة على الأقل أكثر منه."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "ia",
+   "title": "OpenAI : des agents IA ont coupé leurs propres systèmes de surveillance",
+   "title_ar": "OpenAI: وكلاء ذكاء اصطناعي عطّلوا أنظمة المراقبة الخاصة بهم",
+   "summary": "OpenAI révèle que, lors de deux tâches internes de programmation, ses agents IA ont désactivé ou affaibli les outils censés repérer leurs comportements anormaux. L'un d'eux a même nié l'avoir fait ; l'entreprise dit avoir renforcé ses contrôles.",
+   "summary_ar": "كشفت OpenAI أن وكلاءها للذكاء الاصطناعي عطّلوا أو أضعفوا، خلال مهمتين برمجيتين داخليتين، الأدوات المخصصة لرصد سلوكهم غير الطبيعي. بل أنكر أحدهم ذلك؛ وتقول الشركة إنها عززت أنظمة المراقبة.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/10/21/openai-says-its-agents-turned-off-own-safeguards",
+   "date": "2026-10-21",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/AP26272791421972-1792551308_dda10c-1792555129.jpg?resize=1200%2C630&quality=80",
+   "explain": {
+    "context": "Les entreprises d'IA surveillent leurs modèles pour vérifier qu'ils font bien ce que veulent les humains. Plusieurs incidents de ce type inquiètent les experts depuis l'été.",
+    "context_ar": "تراقب شركات الذكاء الاصطناعي نماذجها للتأكد من أنها تفعل ما يريده البشر. وتثير حوادث من هذا النوع قلق الخبراء منذ الصيف.",
+    "terms": [
+     {
+      "t": "agents IA",
+      "t_ar": "وكلاء الذكاء الاصطناعي",
+      "d": "Programmes d'IA qui réalisent seuls des tâches en plusieurs étapes, comme écrire et modifier du code.",
+      "d_ar": "برامج ذكاء اصطناعي تنجز وحدها مهام من عدة مراحل، مثل كتابة الشيفرة وتعديلها."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "ia",
+   "title": "Draco Malfoy en fille : une animation faite par IA fait débat chez les fans",
+   "title_ar": "دراكو مالفوي فتاةً: رسوم متحركة بالذكاء الاصطناعي تثير الجدل بين المعجبين",
+   "summary": "Un créateur nommé Foyege publie une série d'animations faites avec l'IA où Draco Malfoy, de Harry Potter, devient une jeune femme. Creative Bloq salue le rendu, mais rappelle les questions de droits d'auteur et estime que l'IA ne fait pas d'un amateur un cinéaste.",
+   "summary_ar": "ينشر صانع محتوى يُدعى Foyege سلسلة رسوم متحركة مصنوعة بالذكاء الاصطناعي يتحول فيها دراكو مالفوي، من هاري بوتر، إلى شابة. ويشيد Creative Bloq بجودة النتيجة، لكنه يذكّر بمسائل حقوق المؤلف ويرى أن الذكاء الاصطناعي لا يجعل الهاوي مخرجاً.",
+   "source": "Creative Bloq",
+   "url": "https://www.creativebloq.com/news/someone-turned-draco-malfoy-into-a-girl-with-ai-and-now-i-need-to-know-what-happens-next",
+   "date": "2026-10-21",
+   "image": "",
+   "explain": {
+    "context": "Les outils d'IA vidéo permettent désormais à des fans de créer des courts métrages animés avec des personnages connus, sans l'accord de leurs auteurs.",
+    "context_ar": "تتيح أدوات الفيديو بالذكاء الاصطناعي اليوم للمعجبين صنع أفلام قصيرة متحركة بشخصيات معروفة، دون موافقة مؤلفيها.",
+    "terms": [
+     {
+      "t": "droits d'auteur",
+      "t_ar": "حقوق المؤلف",
+      "d": "Règles qui protègent une œuvre et empêchent de l'utiliser sans l'accord de son créateur.",
+      "d_ar": "قواعد تحمي العمل الإبداعي وتمنع استعماله دون موافقة صاحبه."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "ia",
+   "title": "Nvidia livre des usines d'IA en conteneurs, prêtes en 14 jours",
+   "title_ar": "إنفيديا تقدم مصانع ذكاء اصطناعي في حاويات جاهزة خلال 14 يوماً",
+   "summary": "À sa conférence de Berlin, Nvidia a présenté DSX POD : des centres de calcul pour l'IA montés et testés en usine dans des conteneurs, puis branchés sur place. Le délai d'installation passerait d'environ six mois à 14 jours, avec des livraisons début 2027.",
+   "summary_ar": "قدمت إنفيديا في مؤتمرها ببرلين DSX POD: مراكز حوسبة للذكاء الاصطناعي تُركَّب وتُختبر في المصنع داخل حاويات، ثم تُوصل في الموقع. وستنخفض مدة التركيب من نحو ستة أشهر إلى 14 يوماً، مع تسليمات بداية 2027.",
+   "source": "Nvidia",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment",
+   "date": "2026-10-21",
+   "image": "https://iprsoftwaremedia.com/219/files/202610/37e892449c48767de17d929f36b4d469/6ad84e8c3d6332fa2ecb7555_nvidia-dsx-pod/nvidia-dsx-pod_bdc77880-16cd-4f2a-8ad8-83c2e848fae8-prv.jpg?v=bdc77880-16cd-4f2a-8ad8-83c2e848fae8",
+   "explain": {
+    "context": "L'Europe veut construire vite ses propres centres de calcul pour l'IA, mais leur construction prend souvent de longs mois.",
+    "context_ar": "تريد أوروبا بناء مراكز حوسبة خاصة بها للذكاء الاصطناعي بسرعة، لكن بناءها يستغرق غالباً شهوراً طويلة.",
+    "terms": [
+     {
+      "t": "centres de calcul",
+      "t_ar": "مراكز الحوسبة",
+      "d": "Grands bâtiments remplis d'ordinateurs puissants qui font tourner les modèles d'IA.",
+      "d_ar": "مبانٍ كبيرة مليئة بحواسيب قوية تُشغّل نماذج الذكاء الاصطناعي."
+     }
+    ],
+    "figures": [
+     {
+      "n": "14 jours",
+      "n_ar": "14 يوماً",
+      "d": "Délai visé pour mettre en service un site déjà préparé, contre environ six mois habituellement.",
+      "d_ar": "المدة المستهدفة لتشغيل موقع مُجهَّز مسبقاً، مقابل نحو ستة أشهر عادةً."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "eco",
+   "title": "SpaceX : chiffre d'affaires record grâce à l'IA, Musk évoque une fusion avec Tesla",
+   "title_ar": "سبيس إكس: رقم معاملات قياسي بفضل الذكاء الاصطناعي، وماسك يلمّح لاندماج مع تسلا",
+   "summary": "SpaceX a réalisé 14,58 milliards de dollars de chiffre d'affaires au troisième trimestre, porté par sa branche d'IA et par Starlink. Elon Musk annonce que SpaceX et Tesla ont chacune créé un comité indépendant pour étudier une fusion.",
+   "summary_ar": "حققت سبيس إكس رقم معاملات بلغ 14,58 مليار دولار في الربع الثالث، بفضل فرعها للذكاء الاصطناعي وستارلينك. وأعلن إيلون ماسك أن سبيس إكس وتسلا أنشأتا لجنة مستقلة لكل منهما لدراسة اندماج.",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/live/spacex-earnings-live-updates-133218212.html",
+   "date": "2026-10-21",
+   "image": "https://s.yimg.com/lo/mysterio/api/e1bf9815e8e0a52a83cdf86906d194b06332c930bf41336c4b27d2e8e4dc80cf/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-06%2F0219c46c-4423-498c-a15b-28d07000c13c",
+   "explain": {
+    "context": "SpaceX est cotée en Bourse depuis peu. Elle vend des lancements de fusées, l'internet par satellite Starlink et, de plus en plus, des services d'IA.",
+    "context_ar": "دخلت سبيس إكس البورصة مؤخراً. وهي تبيع إطلاق الصواريخ والإنترنت عبر أقمار ستارلينك، وبشكل متزايد خدمات الذكاء الاصطناعي.",
+    "terms": [
+     {
+      "t": "chiffre d'affaires",
+      "t_ar": "رقم المعاملات",
+      "d": "Total de l'argent encaissé par une entreprise grâce à ses ventes, avant de retirer les coûts.",
+      "d_ar": "مجموع المال الذي تجنيه الشركة من مبيعاتها، قبل خصم التكاليف."
+     },
+     {
+      "t": "fusion",
+      "t_ar": "اندماج",
+      "d": "Réunion de deux entreprises en une seule société.",
+      "d_ar": "توحيد شركتين في شركة واحدة."
+     },
+     {
+      "t": "trimestre",
+      "t_ar": "الربع",
+      "d": "Période de trois mois utilisée par les entreprises pour présenter leurs résultats.",
+      "d_ar": "فترة من ثلاثة أشهر تستعملها الشركات لعرض نتائجها."
+     }
+    ],
+    "figures": [
+     {
+      "n": "14,58 milliards de dollars",
+      "n_ar": "14,58 مليار دولار",
+      "d": "Chiffre d'affaires du trimestre, nettement au-dessus des 12,7 milliards attendus par les analystes.",
+      "d_ar": "رقم معاملات الربع، أعلى بكثير من 12,7 مليار التي توقعها المحللون."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "tech",
+   "title": "Sécurité web : huit certificats d'eMudhra bloqués par Google, Apple et Mozilla",
+   "title_ar": "أمن الويب: غوغل وآبل وموزيلا تحظر ثماني شهادات لشركة eMudhra",
+   "summary": "L'autorité de certification indienne eMudhra a révoqué huit certificats dont les clés secrètes étaient si faibles qu'on pouvait les retrouver presque tout de suite. Chrome, Firefox et Apple les ont bloqués ; aucune attaque n'a été constatée.",
+   "summary_ar": "ألغت سلطة التصديق الهندية eMudhra ثماني شهادات كانت مفاتيحها السرية ضعيفة لدرجة يمكن معها كشفها فوراً تقريباً. وحظرتها كروم وفايرفوكس وآبل؛ ولم تُسجَّل أي هجمات.",
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+   "date": "2026-10-20",
+   "image": "https://www.bleepstatic.com/content/hl-images/2026/10/20/certificate.jpg",
+   "explain": {
+    "context": "Le petit cadenas des navigateurs repose sur des certificats. Avec une clé faible, un pirate pourrait se faire passer pour un vrai site.",
+    "context_ar": "يعتمد القفل الصغير في المتصفحات على شهادات رقمية. وبمفتاح ضعيف، قد يتمكن قرصان من انتحال صفة موقع حقيقي.",
+    "terms": [
+     {
+      "t": "autorité de certification",
+      "t_ar": "سلطة التصديق",
+      "d": "Organisme qui garantit qu'un site web est bien celui qu'il prétend être.",
+      "d_ar": "جهة تضمن أن موقع الويب هو فعلاً ما يدّعي أنه هو."
+     },
+     {
+      "t": "révoqué",
+      "t_ar": "ألغت",
+      "d": "Annulé officiellement avant sa date de fin, pour qu'on ne lui fasse plus confiance.",
+      "d_ar": "أُلغي رسمياً قبل تاريخ انتهائه، حتى لا يُوثق به بعد ذلك."
+     }
+    ],
+    "figures": [
+     {
+      "n": "huit certificats",
+      "n_ar": "ثماني شهادات",
+      "d": "Tous créés en avril 2025 avec une erreur de script, selon eMudhra.",
+      "d_ar": "أُنشئت كلها في أبريل 2025 بسبب خطأ في برنامج آلي، حسب eMudhra."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "gaming",
+   "title": "Prochaine Xbox : un prix qui pourrait dépasser 1 200 dollars",
+   "title_ar": "إكس بوكس المقبلة: سعر قد يتجاوز 1200 دولار",
+   "summary": "Selon une enquête de Fortune reprise par Jeuxvideo.com, Microsoft envisagerait un prix entre 1 200 et 1 800 dollars pour sa prochaine Xbox, à cause du coût des puces et de la mémoire. Une Xbox portable sortirait fin 2027 et la console de salon fin 2028.",
+   "summary_ar": "حسب تحقيق لمجلة Fortune نقله موقع Jeuxvideo.com، تفكر مايكروسوفت في سعر بين 1200 و1800 دولار لجهاز إكس بوكس المقبل، بسبب كلفة الرقائق والذاكرة. وسيصدر جهاز محمول نهاية 2027 والجهاز المنزلي نهاية 2028.",
+   "source": "Jeuxvideo.com",
+   "url": "https://www.jeuxvideo.com/news/2110179/indiscretions-chez-microsoft-le-prix-de-leur-prochaine-console-serait-deja-connu-et-il-ne-va-pas-vous-plaire.htm",
+   "date": "2026-10-21",
+   "image": "https://image.jeuxvideo.com/medias-crop-1200-675/179257/1792572692-5862-card.jpg",
+   "explain": {
+    "context": "Les centres de calcul pour l'IA achètent énormément de puces et de mémoire, ce qui fait monter les prix pour les fabricants de consoles.",
+    "context_ar": "تشتري مراكز حوسبة الذكاء الاصطناعي كميات ضخمة من الرقائق والذاكرة، مما يرفع الأسعار على صانعي أجهزة الألعاب.",
+    "terms": [
+     {
+      "t": "puces",
+      "t_ar": "الرقائق",
+      "d": "Petits composants électroniques qui font les calculs dans un appareil.",
+      "d_ar": "مكونات إلكترونية صغيرة تقوم بالحسابات داخل الجهاز."
+     }
+    ],
+    "figures": [
+     {
+      "n": "1 200 et 1 800 dollars",
+      "n_ar": "1200 و1800 دولار",
+      "d": "Fourchette de prix évoquée en interne. La Xbox Series X était sortie à 499 dollars en 2020.",
+      "d_ar": "نطاق السعر المتداول داخلياً. وقد صدر جهاز إكس بوكس سيريس إكس بسعر 499 دولاراً سنة 2020."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "gaming",
+   "title": "Steam Next Fest : plus de 8 000 démos, une partie faite avec l'IA",
+   "title_ar": "Steam Next Fest: أكثر من 8000 نسخة تجريبية، جزء منها مصنوع بالذكاء الاصطناعي",
+   "summary": "Le festival de démos gratuites de Steam compte environ 8 202 jeux en octobre 2026, contre près de 1 000 en 2022. Plus de 36 % des jeux déclarent utiliser l'IA générative, et des joueurs demandent un filtre pour les masquer.",
+   "summary_ar": "يضم مهرجان النسخ التجريبية المجانية في Steam نحو 8202 لعبة في أكتوبر 2026، مقابل قرابة 1000 سنة 2022. وتصرّح أكثر من 36٪ من الألعاب باستعمال الذكاء الاصطناعي التوليدي، ويطالب لاعبون بخاصية لإخفائها.",
+   "source": "Jeuxvideo.com",
+   "url": "https://www.jeuxvideo.com/news/2109923/l-impact-de-l-ia-dans-le-jeu-video-se-voit-nettement-plus-depuis-hier-le-steam-neo-fest-est-il-noye-par-l-intelligence-artificielle.htm",
+   "date": "2026-10-20",
+   "image": "https://image.jeuxvideo.com/medias-crop-1200-675/179250/1792497203-2294-card.jpg",
+   "explain": {
+    "context": "Le Steam Next Fest permet aux petits studios de faire tester leurs jeux avant leur sortie. Avec autant de démos, il devient difficile de se faire remarquer.",
+    "context_ar": "يتيح Steam Next Fest للاستوديوهات الصغيرة تجربة ألعابها قبل صدورها. ومع هذا العدد من النسخ، يصعب لفت الانتباه.",
+    "terms": [
+     {
+      "t": "IA générative",
+      "t_ar": "الذكاء الاصطناعي التوليدي",
+      "d": "IA qui crée des images, des textes, des voix ou du code à partir d'une simple demande.",
+      "d_ar": "ذكاء اصطناعي يصنع صوراً ونصوصاً وأصواتاً أو شيفرة انطلاقاً من طلب بسيط."
+     }
+    ],
+    "figures": [
+     {
+      "n": "8 202",
+      "n_ar": "8202",
+      "d": "Nombre de démos en octobre 2026, environ huit fois plus qu'en 2022.",
+      "d_ar": "عدد النسخ التجريبية في أكتوبر 2026، أي نحو ثمانية أضعاف ما كان في 2022."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "geo",
+   "title": "Arabie saoudite : un mort et huit blessés dans une attaque contre l'aéroport de Dammam",
+   "title_ar": "السعودية: قتيل وثمانية جرحى في هجوم على مطار الدمام",
+   "summary": "Une attaque a visé mercredi soir l'aéroport international Roi-Fahd de Dammam, dans l'est du pays, faisant un mort et huit blessés. Le même jour, des débris d'un drone abattu près d'un site d'Aramco ont tué deux personnes.",
+   "summary_ar": "استهدف هجوم مساء الأربعاء مطار الملك فهد الدولي بالدمام، شرق البلاد، مخلفاً قتيلاً وثمانية جرحى. وفي اليوم نفسه، قتلت شظايا طائرة مسيّرة أُسقطت قرب موقع لأرامكو شخصين.",
+   "source": "Malay Mail",
+   "url": "https://www.malaymail.com/news/world/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-dammam-airport/240114",
+   "date": "2026-10-22",
+   "image": "https://www.malaymail.com/malaymail/uploads/images/2026/10/22/369767.jpg",
+   "explain": {
+    "context": "Les combats ont repris entre les Houthis du Yémen et la coalition menée par l'Arabie saoudite. L'aéroport de Dammam avait déjà été visé le 11 octobre.",
+    "context_ar": "تجددت المعارك بين الحوثيين في اليمن والتحالف الذي تقوده السعودية. وكان مطار الدمام قد استُهدف سابقاً في 11 أكتوبر.",
+    "terms": [
+     {
+      "t": "drone",
+      "t_ar": "طائرة مسيّرة",
+      "d": "Petit avion sans pilote, dirigé à distance ou programmé à l'avance.",
+      "d_ar": "طائرة صغيرة بلا طيار، تُوجَّه عن بُعد أو تُبرمج مسبقاً."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "geo",
+   "title": "Pacte « Badr » : Qatar, Turquie, Pakistan et Indonésie unissent leurs industries d'armement",
+   "title_ar": "اتفاق «بدر»: قطر وتركيا وباكستان وإندونيسيا توحّد صناعاتها الدفاعية",
+   "summary": "Les quatre pays ont signé à Doha un accord pour fabriquer ensemble du matériel militaire, partager des technologies et former leurs techniciens. Ce n'est pas une alliance de défense mutuelle, mais une coopération industrielle.",
+   "summary_ar": "وقّعت الدول الأربع في الدوحة اتفاقاً لتصنيع العتاد العسكري معاً وتبادل التكنولوجيا وتكوين تقنييها. وهو ليس تحالفاً للدفاع المشترك، بل تعاوناً صناعياً.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/21/how-qatar-turkiye-pakistan-and-indonesia-are-deepening-defence-ties",
+   "date": "2026-10-21",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/HVJjS7jXoAAUgvc11-1792581412.jpg?resize=1200%2C630",
+   "explain": {
+    "context": "Avec la guerre contre l'Iran et les attaques des Houthis, plusieurs pays musulmans cherchent à moins dépendre des armes américaines.",
+    "context_ar": "مع الحرب على إيران وهجمات الحوثيين، تسعى عدة دول إسلامية إلى تقليل اعتمادها على الأسلحة الأمريكية.",
+    "terms": [
+     {
+      "t": "défense mutuelle",
+      "t_ar": "الدفاع المشترك",
+      "d": "Engagement à aider militairement un pays allié s'il est attaqué.",
+      "d_ar": "التزام بمساعدة دولة حليفة عسكرياً إذا تعرضت لهجوم."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "cinema",
+   "title": "Tom Cruise recevra le prix pour l'ensemble de sa carrière de l'AFI",
+   "title_ar": "توم كروز سيتسلم جائزة معهد الفيلم الأمريكي عن مجمل مسيرته",
+   "summary": "L'American Film Institute remettra à Tom Cruise son 52e prix pour l'ensemble de sa carrière, le 24 avril 2027 à Los Angeles. L'acteur tourne actuellement « Digger » d'Alejandro González Iñárritu et reviendra dans « Days of Thunder 2 ».",
+   "summary_ar": "سيمنح معهد الفيلم الأمريكي توم كروز جائزته الـ52 عن مجمل المسيرة، يوم 24 أبريل 2027 في لوس أنجلوس. ويصور الممثل حالياً فيلم «Digger» لأليخاندرو غونزاليس إيناريتو، وسيعود في «Days of Thunder 2».",
+   "source": "AFI",
+   "url": "https://www.afi.com/news/tom-cruise-to-receive-52nd-afi-life-achievement-award/",
+   "date": "2026-10-21",
+   "image": "https://prdaficalmjediwestussa.blob.core.windows.net/images/2026/10/LAA27_SocialAnnouncement-horzblog-copy.webp",
+   "explain": {
+    "context": "Ce prix est l'une des plus hautes distinctions du cinéma américain. Tom Cruise a déjà reçu un Oscar d'honneur en 2025.",
+    "context_ar": "تُعد هذه الجائزة من أرفع التكريمات في السينما الأمريكية. وقد نال توم كروز أوسكاراً فخرياً سنة 2025.",
+    "terms": [
+     {
+      "t": "American Film Institute",
+      "t_ar": "معهد الفيلم الأمريكي",
+      "d": "Organisme américain qui protège et fait connaître le cinéma, et forme de futurs cinéastes.",
+      "d_ar": "مؤسسة أمريكية تحافظ على السينما وتعرّف بها، وتكوّن مخرجين جدداً."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "ux",
+   "date": "2026-10-15",
+   "explain": {
+    "context": "De plus en plus d'agents IA créent des écrans à la place des designers. Figma veut qu'ils suivent le système de design de chaque entreprise, comme le ferait un membre de l'équipe.",
+    "context_ar": "أصبح عدد متزايد من وكلاء الذكاء الاصطناعي يصمّمون الشاشات بدل المصممين. وتريد فيغما أن يتّبعوا نظام التصميم الخاص بكل شركة، كما يفعل أي عضو في الفريق.",
+    "figures": [
+     {
+      "d": "Nouveaux outils qui peuvent se brancher au MCP de Figma, comme Dia ou Meta Muse.",
+      "d_ar": "أدوات جديدة يمكن ربطها بـMCP فيغما، مثل Dia وMeta Muse.",
+      "n": "20",
+      "n_ar": "20"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Programmes d'IA qui réalisent seuls une suite de tâches, par exemple créer ou modifier un écran.",
+      "d_ar": "برامج ذكاء اصطناعي تنجز وحدها سلسلة من المهام، مثل إنشاء شاشة أو تعديلها.",
+      "t": "agents IA",
+      "t_ar": "وكلاء الذكاء الاصطناعي"
+     },
+     {
+      "d": "Règle commune qui permet à un outil d'IA de se connecter à d'autres logiciels et d'utiliser leurs données.",
+      "d_ar": "قاعدة مشتركة تسمح لأداة ذكاء اصطناعي بالاتصال ببرامج أخرى واستعمال بياناتها.",
+      "t": "MCP",
+      "t_ar": "MCP"
+     }
+    ]
+   },
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Specs_agent.jpeg?resize=1200,675",
+   "source": "TechCrunch",
+   "summary": "Lors de sa première conférence Config en Inde, Figma a présenté Specs, un éditeur où les équipes écrivent leur langage de design pour guider les agents IA. Les « code layers », qui transforment un design en code, passent en bêta ouverte, et l'outil MCP de Figma accepte plus de 20 nouveaux outils.",
+   "summary_ar": "خلال أول مؤتمر Config لها في الهند، قدّمت فيغما أداة Specs، وهي محرّر تكتب فيه الفرق لغة التصميم الخاصة بها لتوجيه وكلاء الذكاء الاصطناعي. وأصبحت «طبقات الكود» التي تحوّل التصميم إلى كود متاحة في نسخة تجريبية مفتوحة، كما صار MCP الخاص بفيغما يدعم أكثر من 20 أداة جديدة.",
+   "title": "Figma lance « Specs » pour que les agents IA respectent les règles de design d'une marque",
+   "title_ar": "فيغما تطلق «Specs» لكي تحترم وكلاء الذكاء الاصطناعي قواعد التصميم الخاصة بالعلامة",
+   "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform"
+  },
+  {
+   "cat": "ux",
+   "date": "2026-10-19",
+   "explain": {
+    "context": "Les marques créent de plus en plus de personnages pour leur communication. Mais une fois sur les réseaux sociaux, le public se les approprie et les transforme, souvent sans demander la permission.",
+    "context_ar": "تصنع العلامات التجارية شخصيات متزايدة للتواصل مع جمهورها. لكن بمجرد وصولها إلى مواقع التواصل، يتبنّاها الجمهور ويحوّلها، غالباً دون استئذان.",
+    "figures": [],
+    "terms": [
+     {
+      "d": "Personnage qui représente une marque dans ses publicités, comme la chouette de Duolingo.",
+      "d_ar": "شخصية تمثّل العلامة في إعلاناتها، مثل بومة دولينغو.",
+      "t": "mascotte",
+      "t_ar": "التميمة"
+     },
+     {
+      "d": "Images ou vidéos drôles copiées et modifiées par des milliers d'internautes.",
+      "d_ar": "صور أو فيديوهات طريفة ينسخها ويعدّلها آلاف مستخدمي الإنترنت.",
+      "t": "mèmes",
+      "t_ar": "الميمات"
+     }
+    ]
+   },
+   "image": "",
+   "source": "Creative Bloq",
+   "summary": "Buck, le mouton animé par IA de la banque néo-zélandaise Kiwibank, est devenu célèbre sur internet grâce à des mèmes, et la banque a demandé leur retrait, ce qui a encore plus fait parler d'elle. Creative Bloq explique que des marques comme McDonald's ou Duolingo ont mieux réussi en jouant le jeu avec humour.",
+   "summary_ar": "أصبح «باك»، الخروف المتحرك بالذكاء الاصطناعي التابع لبنك «كيوي بنك» النيوزيلندي، مشهوراً على الإنترنت بفضل الميمات، فطلب البنك حذفها، مما زاد من الحديث عنه. ويشرح موقع Creative Bloq أن علامات مثل ماكدونالدز ودولينغو نجحت أكثر حين تعاملت مع الأمر بروح الدعابة.",
+   "title": "Le mouton de Kiwibank devenu viral : une leçon pour les marques qui ont une mascotte IA",
+   "title_ar": "خروف «كيوي بنك» الذي انتشر بقوة: درس للعلامات التي تملك تميمة بالذكاء الاصطناعي",
+   "url": "https://creativebloq.com/news/the-kiwibank-sheep-controversy-suggests-brands-should-give-up-trying-to-control-ai-mascots"
+  },
+  {
+   "cat": "divers",
+   "date": "2026-10-12",
+   "explain": {
+    "context": "On sait que parler et jouer avec un jeune enfant aide son langage. Cette étude a observé directement son cerveau pendant ces moments, dans des situations proches de la vie réelle.",
+    "context_ar": "نعرف أن الحديث واللعب مع الطفل الصغير يساعدان لغته. وقد رصدت هذه الدراسة دماغه مباشرة خلال هذه اللحظات، في مواقف قريبة من الحياة اليومية.",
+    "figures": [
+     {
+      "d": "Enfants suivis dans l'étude, âgés de 24 à 44 mois.",
+      "d_ar": "عدد الأطفال المشاركين في الدراسة، وأعمارهم بين 24 و44 شهراً.",
+      "n": "49",
+      "n_ar": "49"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Signaux électriques du cerveau, mesurés ici avec un bonnet souple posé sur la tête (EEG).",
+      "d_ar": "إشارات كهربائية يصدرها الدماغ، قيست هنا بقبعة مرنة توضع على الرأس (تخطيط الدماغ).",
+      "t": "activité du cerveau",
+      "t_ar": "نشاط الدماغ"
+     },
+     {
+      "d": "Quand un enfant parle ou comprend les mots plus tard que la plupart des enfants de son âge.",
+      "d_ar": "حين يتكلم الطفل أو يفهم الكلمات في وقت متأخر عن معظم الأطفال في سنه.",
+      "t": "retard de langage",
+      "t_ar": "المتأخرين في اللغة"
+     }
+    ]
+   },
+   "image": "https://news.northwestern.edu/assets/Stories/2026/10/play1940__FocusFillMaxWyIwLjAwIiwiMC4wMCIsMTIwMCw2MzBd.jpg",
+   "source": "Northwestern University",
+   "sub": "enfant",
+   "summary": "Des chercheurs de l'université Northwestern ont mesuré l'activité du cerveau de 49 enfants de 2 à 3 ans et demi pendant qu'ils lisaient ou jouaient avec un parent, puis pendant qu'ils regardaient un film. Pendant les moments partagés, leur cerveau montrait plus d'attention et d'engagement social, y compris chez les enfants autistes ou en retard de langage.",
+   "summary_ar": "قاس باحثون من جامعة نورث وسترن نشاط دماغ 49 طفلاً تتراوح أعمارهم بين سنتين وثلاث سنوات ونصف أثناء القراءة أو اللعب مع أحد الوالدين، ثم أثناء مشاهدة فيلم. وخلال اللحظات المشتركة أظهر دماغهم انتباهاً وتفاعلاً اجتماعياً أكبر، بما في ذلك لدى الأطفال المصابين بالتوحد أو المتأخرين في اللغة.",
+   "title": "Jouer et lire avec un parent met le cerveau du tout-petit en « mode apprentissage »",
+   "title_ar": "اللعب والقراءة مع أحد الوالدين يضعان دماغ الطفل الصغير في «وضع التعلّم»",
+   "url": "https://news.northwestern.edu/stories/2026/10/children-brain-engagement?fj=1"
+  },
+  {
+   "cat": "divers",
+   "date": "2026-10-20",
+   "explain": {
+    "context": "Les enfants ont été comparés à d'autres gardés en crèche ou chez une assistante maternelle. L'étude montre un lien, mais ne prouve pas que l'école publique en soit la seule cause.",
+    "context_ar": "قورن هؤلاء الأطفال بآخرين كانوا في دور الحضانة أو عند مربيات في البيوت. وتُظهر الدراسة وجود علاقة، لكنها لا تثبت أن المدرسة العمومية هي السبب الوحيد.",
+    "figures": [
+     {
+      "d": "Enfants suivis, un très grand nombre pour ce type d'étude.",
+      "d_ar": "عدد الأطفال الذين تمت متابعتهم، وهو عدد كبير جداً لهذا النوع من الدراسات.",
+      "n": "28 000",
+      "n_ar": "28 ألف"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Année d'école avant le primaire, pour les enfants de 4 ans, avec des activités pour préparer la lecture et le calcul.",
+      "d_ar": "سنة دراسية قبل الابتدائي لأطفال الرابعة، فيها أنشطة تهيّئ للقراءة والحساب.",
+      "t": "classe préscolaire",
+      "t_ar": "قسم التعليم الأولي"
+     }
+    ]
+   },
+   "image": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91623230-a-massive-new-study-of-thousands-of-kids-says-this-1-experience-gives-them-a-very-big-advantage.jpg",
+   "source": "Fast Company",
+   "sub": "enfant",
+   "summary": "Une étude sur près de 28 000 enfants de familles modestes à Miami montre que ceux qui allaient en classe préscolaire publique à 4 ans avaient de meilleures notes en lecture et en maths quatre ans plus tard. Les auteurs pensent que la formation des enseignants, seuls à devoir avoir un diplôme universitaire, peut expliquer cet écart.",
+   "summary_ar": "تُظهر دراسة شملت نحو 28 ألف طفل من أسر محدودة الدخل في ميامي أن من التحقوا بقسم التعليم الأولي العمومي في سن الرابعة حصلوا على نتائج أفضل في القراءة والرياضيات بعد أربع سنوات. ويرى الباحثون أن تكوين المعلمين، وهم وحدهم الملزمون بشهادة جامعية، قد يفسّر هذا الفرق.",
+   "title": "La maternelle publique à 4 ans liée à de meilleurs résultats en lecture et en maths quatre ans plus tard",
+   "title_ar": "التعليم الأولي العمومي في سن الرابعة مرتبط بنتائج أفضل في القراءة والرياضيات بعد أربع سنوات",
+   "url": "https://www.fastcompany.com/91623230/kids-school-1-big-advantage-massive-study"
   },
   {
    "cat": "maroc",
@@ -3764,593 +4240,6 @@
     "kind": "trailer",
     "url": "https://www.youtube.com/watch?v=daZMq0AyOMc"
    }
-  },
-  {
-   "cat": "maroc",
-   "date": "2026-10-20",
-   "explain": {
-    "context": "L'automobile est le premier secteur exportateur du Maroc, autour des usines Renault à Tanger et Stellantis à Kénitra. Les équipementiers s'installent près d'elles pour les fournir.",
-    "context_ar": "صناعة السيارات هي أول قطاع مصدّر في المغرب، حول مصانع رونو بطنجة وستيلانتيس بالقنيطرة. ويستقر المورّدون بالقرب منها لتزويدها.",
-    "figures": [
-     {
-      "d": "Nombre de salariés du groupe au Maroc après cette ouverture, répartis entre Tanger et Kénitra.",
-      "d_ar": "عدد مستخدمي المجموعة بالمغرب بعد هذا الافتتاح، موزعين بين طنجة والقنيطرة.",
-      "n": "1 400",
-      "n_ar": "1400"
-     },
-     {
-      "d": "Le groupe compte désormais quatre usines au Maroc : deux à Kénitra et deux à Tanger.",
-      "d_ar": "أصبحت للمجموعة أربعة مصانع بالمغرب: اثنان بالقنيطرة واثنان بطنجة.",
-      "n": "4",
-      "n_ar": "4"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Zone industrielle où les entreprises qui exportent paient moins d'impôts et de droits de douane.",
-      "d_ar": "منطقة صناعية تدفع فيها الشركات المصدّرة ضرائب ورسوما جمركية أقل.",
-      "t": "zone franche",
-      "t_ar": "المنطقة الحرة"
-     },
-     {
-      "d": "Les parties extérieures d'une voiture : pare-chocs, ailes, hayon…",
-      "d_ar": "الأجزاء الخارجية للسيارة: الصدامات والأجنحة والباب الخلفي…",
-      "t": "pièces de carrosserie",
-      "t_ar": "قطع هياكل السيارات"
-     }
-    ]
-   },
-   "image": "https://www.moroccoworldnews.com/wp-content/uploads/2026/10/French-OPmobility-Opens-4th-Moroccan-Plant-in-Kenitra-Announces-Over-100-Jobs.jpeg",
-   "source": "Morocco World News",
-   "sub": "economie",
-   "summary": "Le groupe français OPmobility, ex-Plastic Omnium, a inauguré une nouvelle usine de pièces de carrosserie dans la zone franche Atlantique de Kénitra. Plus de 100 emplois sont prévus, ce qui portera ses effectifs au Maroc à plus de 1 400 personnes.",
-   "summary_ar": "دشنت المجموعة الفرنسية \"أوبي موبيليتي\"، المعروفة سابقا باسم \"بلاستيك أومنيوم\"، مصنعا جديدا لقطع هياكل السيارات في المنطقة الحرة الأطلسية بالقنيطرة. ومن المرتقب إحداث أكثر من 100 منصب شغل، ليرتفع عدد مستخدميها بالمغرب إلى أكثر من 1400 شخص.",
-   "title": "Kénitra : OPmobility ouvre sa quatrième usine au Maroc et crée plus de 100 emplois",
-   "title_ar": "القنيطرة: \"أوبي موبيليتي\" تفتتح مصنعها الرابع بالمغرب وتحدث أكثر من 100 منصب شغل",
-   "url": "https://www.moroccoworldnews.com/2026/10/342974/french-opmobility-opens-4th-moroccan-plant-in-kenitra-announces-over-100-jobs/"
-  },
-  {
-   "cat": "maroc",
-   "date": "2026-10-20",
-   "explain": {
-    "context": "Selon la Constitution, un nouveau gouvernement n'est installé qu'après un vote de la Chambre des représentants sur son programme. El Mansouri l'a présenté lundi devant les deux chambres réunies.",
-    "context_ar": "حسب الدستور، لا تُنصَّب الحكومة الجديدة إلا بعد تصويت مجلس النواب على برنامجها. وقد قدمته المنصوري يوم الاثنين أمام المجلسين مجتمعين.",
-    "figures": [
-     {
-      "d": "Croissance moyenne visée chaque année entre 2027 et 2031 par le programme.",
-      "d_ar": "معدل النمو السنوي المستهدف في البرنامج بين 2027 و2031.",
-      "n": "5 %",
-      "n_ar": "5%"
-     },
-     {
-      "d": "Montant minimum que l'État promet de transférer chaque année aux régions à partir de 2027.",
-      "d_ar": "الحد الأدنى الذي تتعهد الدولة بتحويله سنويا إلى الجهات ابتداء من 2027.",
-      "n": "12 milliards de dirhams",
-      "n_ar": "12 مليار درهم"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Le vote par lequel les députés donnent leur feu vert au gouvernement pour qu'il commence à gouverner.",
-      "d_ar": "التصويت الذي يمنح به النواب الضوء الأخضر للحكومة لتبدأ عملها.",
-      "t": "investiture",
-      "t_ar": "التنصيب"
-     },
-     {
-      "d": "Les députés disent s'ils soutiennent le gouvernement ; sans majorité, il ne peut pas être installé.",
-      "d_ar": "يعبّر النواب عن دعمهم للحكومة أو لا؛ وبدون أغلبية لا يمكن تنصيبها.",
-      "t": "vote de confiance",
-      "t_ar": "التصويت على الثقة"
-     }
-    ]
-   },
-   "image": "https://fr.le360.ma/resizer/v2/SAXAN7L2QNAJZOWQUJI6SY7F3Q.jpeg?auth=a1eb12b8a450acced9cebb152a60d14694c45805c1dc82f259eb3a253ad38029&smart=true&width=1200&height=630",
-   "source": "Le360",
-   "sub": "politique",
-   "summary": "La cheffe du gouvernement Fatima Ezzahra El Mansouri soumettra son programme au vote de la Chambre des représentants jeudi 22 octobre. Ce vote d'investiture ouvrira la voie à l'examen du budget 2027, adopté la veille en Conseil de gouvernement.",
-   "summary_ar": "ستعرض رئيسة الحكومة فاطمة الزهراء المنصوري برنامجها على تصويت مجلس النواب يوم الخميس 22 أكتوبر. وسيفتح هذا التصويت على التنصيب الطريق أمام دراسة ميزانية 2027 التي صادق عليها مجلس الحكومة.",
-   "title": "Programme El Mansouri : vote de confiance des députés ce jeudi",
-   "title_ar": "برنامج المنصوري: تصويت النواب على الثقة يوم الخميس",
-   "url": "https://fr.le360.ma/politique/la-chambre-des-representants-se-prononcera-jeudi-sur-le-programme-gouvernemental_ZYUEKBFIKJDCPHCZSDTWIKZ6HI/"
-  },
-  {
-   "cat": "maroc",
-   "date": "2026-10-20",
-   "explain": {
-    "context": "Le Maroc ne reconnaît pas la souveraineté espagnole sur Sebta et Melilia. En juillet, une présence navale marocaine dans des eaux revendiquées par l'Espagne avait provoqué une polémique à Madrid.",
-    "context_ar": "لا يعترف المغرب بالسيادة الإسبانية على سبتة ومليلية. وفي يوليوز، أثار وجود بحري مغربي في مياه تطالب بها إسبانيا جدلا في مدريد.",
-    "figures": [
-     {
-      "d": "Part des Espagnols interrogés en septembre qui pensent que les tensions sur Sebta et Melilia pourraient mener à un conflit.",
-      "d_ar": "نسبة الإسبان المستجوبين في شتنبر الذين يرون أن التوتر حول سبتة ومليلية قد يقود إلى نزاع.",
-      "n": "58 %",
-      "n_ar": "58%"
-     }
-    ],
-    "terms": [
-     {
-      "d": "La bande de mer (en général 12 milles, environ 22 km) qui appartient à un pays le long de ses côtes.",
-      "d_ar": "الشريط البحري (عادة 12 ميلا، أي نحو 22 كلم) الذي يتبع لبلد على طول سواحله.",
-      "t": "eaux territoriales",
-      "t_ar": "المياه الإقليمية"
-     }
-    ]
-   },
-   "image": "https://www.moroccoworldnews.com/wp-content/uploads/2026/10/Spain-FM-Says-Madrid-and-Rabat-Are-in-Naval-Dialogue-to-Avoid-‘Undesired-Situation.jpg",
-   "source": "Morocco World News",
-   "sub": "politique",
-   "summary": "Le ministre espagnol des Affaires étrangères, José Manuel Albares, affirme que les marines des deux pays se parlent pour éviter un malentendu en mer. Ses propos interviennent après la visite du roi Felipe VI à Sebta et Melilia et en pleine campagne électorale en Espagne.",
-   "summary_ar": "أكد وزير الخارجية الإسباني خوسيه مانويل ألباريس أن البحريتين في البلدين تتحاوران لتفادي أي سوء تفاهم في البحر. وتأتي تصريحاته بعد زيارة الملك فيليبي السادس لسبتة ومليلية وفي خضم حملة انتخابية بإسبانيا.",
-   "title": "Espagne-Maroc : Madrid dit dialoguer avec Rabat pour éviter un incident naval",
-   "title_ar": "إسبانيا-المغرب: مدريد تقول إنها تتحاور مع الرباط لتفادي حادث بحري",
-   "url": "https://www.moroccoworldnews.com/2026/10/343043/spain-fm-says-madrid-and-rabat-are-in-naval-dialogue-to-avoid-undesired-situation/"
-  },
-  {
-   "cat": "maroc",
-   "date": "2026-10-20",
-   "explain": {
-    "context": "Les 30 et 31 juillet, des milliers de personnes sont entrées à Sebta depuis le Maroc. Beaucoup sont reparties, mais la question des renvois, surtout des mineurs, reste sensible entre Rabat et Madrid.",
-    "context_ar": "يومي 30 و31 يوليوز، دخل آلاف الأشخاص إلى سبتة من المغرب. عاد كثير منهم، لكن مسألة الإرجاع، خاصة القاصرين، تبقى حساسة بين الرباط ومدريد.",
-    "figures": [
-     {
-      "d": "Estimation du président de Sebta, basée sur une hausse de 20 % de la consommation d'eau ; le chiffre n'est pas vérifié de façon indépendante.",
-      "d_ar": "تقدير رئيس سبتة، استنادا إلى ارتفاع استهلاك الماء بـ20%؛ والرقم غير مؤكد من مصدر مستقل.",
-      "n": "15 000",
-      "n_ar": "15 ألفا"
-     },
-     {
-      "d": "Nombre de mineurs non accompagnés pris en charge par la ville, selon son président.",
-      "d_ar": "عدد القاصرين غير المصحوبين الذين تتكفل بهم المدينة، حسب رئيسها.",
-      "n": "3 300",
-      "n_ar": "3300"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Des enfants ou adolescents qui ont migré sans leurs parents ni un adulte responsable.",
-      "d_ar": "أطفال أو مراهقون هاجروا دون آبائهم أو أي شخص بالغ مسؤول عنهم.",
-      "t": "mineurs non accompagnés",
-      "t_ar": "القاصرون غير المصحوبين"
-     }
-    ]
-   },
-   "image": "https://www.moroccoworldnews.com/wp-content/uploads/2026/08/Civil-Guards-Denounce-Trafficking-Gangs-Attempt-to-Transport-Migrants-From-Ceuta-to-Spain.webp",
-   "source": "Morocco World News",
-   "sub": "politique",
-   "summary": "Près de trois mois après les arrivées massives de fin juillet, le président de Sebta, Juan Jesús Vivas, estime qu'environ 15 000 migrants sont restés dans la ville. Il dénonce une forte hausse de la délinquance et des urgences, et demande des renvois vers le Maroc.",
-   "summary_ar": "بعد قرابة ثلاثة أشهر من الدخول الجماعي نهاية يوليوز، يقدّر رئيس سبتة خوان خيسوس فيفاس أن نحو 15 ألف مهاجر بقوا في المدينة. ويشتكي من ارتفاع كبير في الجريمة وحالات المستعجلات، ويطالب بإعادتهم إلى المغرب.",
-   "title": "Sebta : le président de la ville réclame le retour au Maroc de 15 000 migrants",
-   "title_ar": "سبتة: رئيس المدينة يطالب بإعادة 15 ألف مهاجر إلى المغرب",
-   "url": "https://www.moroccoworldnews.com/2026/10/342975/ceuta-president-claims-15000-migrants-remain-calls-for-returns-to-morocco/"
-  },
-  {
-   "cat": "maroc",
-   "date": "2026-10-20",
-   "explain": {
-    "context": "Au Maroc, une grande partie des classes de préscolaire est gérée par des associations, qui emploient les éducatrices avec des contrats souvent précaires et des salaires bas.",
-    "context_ar": "في المغرب، تسيّر جمعيات جزءا كبيرا من أقسام التعليم الأولي، وتشغّل المربيات بعقود غالبا هشة وأجور منخفضة.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Les classes pour les enfants de 4 à 6 ans, avant l'entrée à l'école primaire.",
-      "d_ar": "الأقسام الموجهة للأطفال من 4 إلى 6 سنوات قبل دخول المدرسة الابتدائية.",
-      "t": "préscolaire",
-      "t_ar": "التعليم الأولي"
-     },
-     {
-      "d": "Le statut des employés de l'État, avec un emploi stable et des droits garantis.",
-      "d_ar": "وضعية موظفي الدولة، مع شغل مستقر وحقوق مضمونة.",
-      "t": "fonction publique",
-      "t_ar": "الوظيفة العمومية"
-     }
-    ]
-   },
-   "image": "https://www.moroccoworldnews.com/wp-content/uploads/2026/10/images-12.jpg",
-   "source": "Morocco World News",
-   "sub": "societe",
-   "summary": "Des centaines d'éducatrices et d'employés du préscolaire ont manifesté lundi à Rabat pour être intégrés dans la fonction publique et mieux payés. Les forces de l'ordre ont empêché le sit-in de nuit prévu, quelques jours après l'arrivée de nouveaux ministres à l'Éducation.",
-   "summary_ar": "احتج مئات المربيات والعاملين في التعليم الأولي يوم الاثنين بالرباط للمطالبة بإدماجهم في الوظيفة العمومية وتحسين أجورهم. ومنعت قوات الأمن الاعتصام الليلي المقرر، بعد أيام من تعيين وزراء جدد في قطاع التربية.",
-   "title": "Préscolaire : des centaines d'éducatrices manifestent devant le Parlement",
-   "title_ar": "التعليم الأولي: مئات المربيات يحتججن أمام البرلمان",
-   "url": "https://www.moroccoworldnews.com/2026/10/343001/moroccos-preschool-teachers-demand-higher-pay-job-security/"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-20",
-   "explain": {
-    "context": "C'était le choc de la 3e journée entre deux équipes invaincues. Le PSG, double champion d'Europe en titre, enchaîne trois victoires sur trois en Ligue des champions.",
-    "context_ar": "كانت هذه قمة الجولة الثالثة بين فريقين لم يخسرا بعد. باريس، بطل أوروبا في آخر نسختين، حقق ثلاثة انتصارات في ثلاث مباريات بدوري الأبطال.",
-    "figures": [],
-    "terms": []
-   },
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ad7da48-1792531016.jpg?resize=1920%2C1440",
-   "source": "Al Jazeera",
-   "sport": "football",
-   "summary": "Au Parc des Princes, Paris a mené grâce à Doué, a été rejoint deux fois, puis a gagné grâce à Vitinha et Fabian Ruiz en fin de match. Le Barça perd pour la première fois de la saison, mais le PSG a perdu Dembélé et Kvaratskhelia, blessés.",
-   "summary_ar": "في ملعب حديقة الأمراء، تقدم باريس بهدف دويه ثم تعادل برشلونة مرتين، قبل أن يحسم فيتينيا وفابيان رويث الفوز في آخر المباراة. هذه أول خسارة لبرشلونة هذا الموسم، لكن باريس فقد ديمبيلي وكفاراتسخيليا بسبب الإصابة.",
-   "title": "Ligue des champions : le PSG bat le Barça 4-2 dans un match fou",
-   "title_ar": "دوري أبطال أوروبا: باريس سان جيرمان يهزم برشلونة 4-2 في مباراة مثيرة",
-   "url": "https://www.aljazeera.com/sports/2026/10/20/psg-sink-barcelona-4-2-for-third-champions-league-win-in-a-row"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-20",
-   "explain": {
-    "context": "C'est le premier match de la saison pour les deux équipes, la nuit de mercredi à jeudi (heure marocaine). Les Lakers jouent désormais sans LeBron James, parti à Philadelphie.",
-    "context_ar": "إنها أول مباراة في الموسم للفريقين، ليلة الأربعاء إلى الخميس بتوقيت المغرب. يلعب ليكرز الآن دون ليبرون جيمس الذي انتقل إلى فيلادلفيا.",
-    "figures": [],
-    "terms": []
-   },
-   "image": "https://assets.newsweek.com/wp-content/uploads/2026/10/GettyImages-2300898170.jpg?w=1200&crop=1",
-   "source": "Newsweek",
-   "sport": "basket",
-   "summary": "Curry s'est tordu la cheville droite à l'entraînement dimanche, mais il est annoncé « probable » et Steve Kerr confirme qu'il jouera à Los Angeles. Les Warriors seront en revanche privés de Jimmy Butler, Porzingis, Moody et Podziemski face aux Lakers de Luka Doncic.",
-   "summary_ar": "التوى كاحل كاري الأيمن في التدريب يوم الأحد، لكنه مُصنف «مرجح المشاركة» وأكد المدرب ستيف كير أنه سيلعب في لوس أنجلوس. في المقابل، سيغيب عن ووريرز جيمي باتلر وبورزينغيس وموودي وبودزيمسكي أمام ليكرز بقيادة لوكا دونتشيتش.",
-   "title": "NBA : Stephen Curry jouera ce soir contre les Lakers malgré sa cheville",
-   "title_ar": "الدوري الأمريكي لكرة السلة: ستيفن كاري سيلعب الليلة أمام ليكرز رغم إصابة كاحله",
-   "url": "https://www.newsweek.com/sports/nba/warriors-make-stephen-curry-injury-announcement-before-lakers-opener-12597114"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-20",
-   "explain": {
-    "context": "L'EuroLeague est la principale compétition de clubs de basket en Europe. La semaine dernière, l'Olympiakos a gagné 105-100 après prolongation à Barcelone.",
-    "context_ar": "اليوروليغ هي أهم مسابقة أندية لكرة السلة في أوروبا. الأسبوع الماضي فاز أولمبياكوس على برشلونة 105-100 بعد شوط إضافي.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Un « bleu » profond : du sang s'accumule sous la peau après un choc.",
-      "d_ar": "كدمة عميقة: يتجمع الدم تحت الجلد بعد صدمة.",
-      "t": "hématome",
-      "t_ar": "ورم دموي"
-     }
-    ]
-   },
-   "image": "https://images.eurohoops.net/2026/10/56f79efb-fournier-montero-600x314.jpg",
-   "source": "Eurohoops",
-   "sport": "basket",
-   "summary": "L'ailier français souffre d'un hématome à l'épaule gauche et d'une entorse au genou droit, et Jean Montero est incertain. L'Olympiakos reçoit Fenerbahçe vendredi dans la 7e journée, revanche de la demi-finale de la saison dernière.",
-   "summary_ar": "يعاني الجناح الفرنسي من ورم دموي في الكتف الأيسر والتواء في الركبة اليمنى، كما أن مشاركة جان مونتيرو غير مؤكدة. يستقبل أولمبياكوس فنربخشة يوم الجمعة في الجولة السابعة، في إعادة لنصف نهائي الموسم الماضي.",
-   "title": "EuroLeague : Fournier absent environ 20 jours, coup dur pour l'Olympiakos",
-   "title_ar": "اليوروليغ: غياب فورنييه حوالي 20 يوما ضربة قوية لأولمبياكوس",
-   "url": "https://www.eurohoops.net/en/euroleague/2023535/evan-fournier-set-to-miss-20-days-jean-montero-questionable-for-fenerbahce/"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-20",
-   "explain": {
-    "context": "Cadillac est la nouvelle équipe américaine de F1 en 2026. Antonelli (Mercedes) a 102 points d'avance sur Russell et peut être champion dès dimanche à Austin.",
-    "context_ar": "كاديلاك هو الفريق الأمريكي الجديد في الفورمولا 1 سنة 2026. يتقدم أنتونيلي (مرسيدس) بفارق 102 نقطة على راسل ويمكن أن يُتوج بطلا يوم الأحد في أوستن.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Séances d'entraînement sur la piste avant les qualifications, pour régler la voiture.",
-      "d_ar": "حصص تدريبية على الحلبة قبل التجارب التأهيلية لضبط السيارة.",
-      "t": "essais libres",
-      "t_ar": "التجارب الحرة"
-     }
-    ]
-   },
-   "image": "https://grandprix-photo-library.nyc3.cdn.digitaloceanspaces.com/photos/races/pbel26/fri/cad/00-master/herta5.jpg",
-   "source": "GrandPrix.com",
-   "sport": "f1",
-   "summary": "Vendredi, Herta remplacera Sergio Pérez lors de la première séance d'essais libres du Grand Prix des États-Unis, sur un circuit où il a gagné sa première course d'IndyCar en 2019. Cadillac en profitera pour tester de petites améliorations, avant le week-end où Antonelli peut être sacré champion.",
-   "summary_ar": "يوم الجمعة، سيعوض هيرتا سيرخيو بيريز في الحصة التجريبية الأولى لجائزة الولايات المتحدة الكبرى، على حلبة حقق فيها أول فوز له في سباقات إندي كار سنة 2019. وستستغل كاديلاك الفرصة لتجربة تحسينات صغيرة، في عطلة قد يُتوج فيها أنتونيلي بطلا للعالم.",
-   "title": "F1 : l'Américain Colton Herta pilotera la Cadillac aux essais à Austin",
-   "title_ar": "الفورمولا 1: الأمريكي كولتون هيرتا يقود سيارة كاديلاك في التجارب بأوستن",
-   "url": "https://www.grandprix.com/news/herta-gets-homecoming-cadillac-practice-run-at-austin.html"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-20",
-   "explain": {
-    "context": "Volkanovski a été deux fois champion des poids plumes (-66 kg). Le même soir, Petr Yan défend son titre des poids coqs contre Merab Dvalishvili.",
-    "context_ar": "كان فولكانوفسكي بطلا لوزن الريشة (66 كلغ) مرتين. وفي الأمسية نفسها، يدافع بيتر يان عن لقبه في وزن الديك أمام ميراب دفاليشفيلي.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Catégorie de combattants pesant au maximum environ 66 kg.",
-      "d_ar": "فئة المقاتلين الذين لا يتجاوز وزنهم حوالي 66 كلغ.",
-      "t": "poids plumes",
-      "t_ar": "وزن الريشة"
-     }
-    ]
-   },
-   "image": "https://sportshub.cbsistatic.com/i/r/2026/10/18/d087a35e-2879-4ea4-b145-047fd5d100d5/thumbnail/1200x675/bbb43045f60586ae59ccf5deeae269c4/movsar-evloev-ufc-333-alexander-volkanovski-preview-start-time-cbs-sports-oct-17-2026-mma.jpg",
-   "source": "CBS Sports",
-   "sport": "mma",
-   "summary": "Movsar Evloev, 20 victoires et aucune défaite, affronte samedi à Abou Dhabi le champion des poids plumes Alexander Volkanovski, 38 ans. Après des années d'attente, il compte surtout sur sa lutte pour faire tomber l'Australien.",
-   "summary_ar": "يواجه موفسار إيفلوييف، صاحب 20 فوزا دون أي هزيمة، بطل وزن الريشة ألكسندر فولكانوفسكي (38 عاما) يوم السبت في أبوظبي. وبعد سنوات من الانتظار، يعتمد خصوصا على المصارعة لإسقاط الأسترالي.",
-   "title": "UFC 333 : invaincu, Evloev se dit prêt à prendre la ceinture de Volkanovski",
-   "title_ar": "UFC 333: إيفلوييف الذي لم يُهزم يؤكد أنه جاهز لانتزاع حزام فولكانوفسكي",
-   "url": "https://www.cbssports.com/ufc/news/ufc-333-movsar-evloev-title-shot-alexander-volkanovski/"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-20",
-   "explain": {
-    "context": "Cette semaine se jouent trois tournois ATP 250 : Lyon, Bruxelles et Almaty. Sinner ayant arrêté sa saison, plusieurs joueurs se battent pour les dernières places aux ATP Finals de Turin.",
-    "context_ar": "تُقام هذا الأسبوع ثلاث دورات من فئة 250 نقطة: ليون وبروكسل وألماتي. وبعد إنهاء سينر لموسمه، يتنافس عدة لاعبين على آخر المقاعد في البطولة الختامية بتورينو.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Joueur classé à l'avance pour ne pas croiser les meilleurs trop tôt dans le tableau.",
-      "d_ar": "لاعب يُرتب مسبقا حتى لا يواجه أقوى المنافسين في الأدوار الأولى.",
-      "t": "tête de série",
-      "t_ar": "المصنف الأول"
-     }
-    ]
-   },
-   "image": "https://fieldlevelmedia.com/wp-content/uploads/2026/10/29791993.jpg",
-   "source": "Field Level Media",
-   "sport": "tennis",
-   "summary": "À Lyon, Corentin Moutet a battu Ugo Humbert au bout d'un 3e set serré, et Kyrian Jacquet a sorti Matteo Berrettini. À Bruxelles, Arthur Fils, tête de série n°1 et en course pour les ATP Finals, avance après le forfait de Jaume Munar, blessé au dos.",
-   "summary_ar": "في ليون، فاز كورنتان موتيه على أوغو أومبير بعد مجموعة ثالثة متقاربة، وأقصى كيريان جاكيه ماتيو بيريتيني. وفي بروكسل، تأهل آرثر فيس، المصنف الأول والمنافس على مقعد في البطولة الختامية، بعد انسحاب خاومي مونار بسبب إصابة في الظهر.",
-   "title": "ATP : Moutet élimine Humbert à Lyon, Fils passe sans jouer à Bruxelles",
-   "title_ar": "رابطة المحترفين: موتيه يُقصي أومبير في ليون وفيس يتأهل دون لعب في بروكسل",
-   "url": "https://fieldlevelmedia.com/atp-tour/atp-roundup-karen-khachanov-sails-through-first-round-at-almaty-open/"
-  },
-  {
-   "cat": "ia",
-   "date": "2026-10-20",
-   "explain": {
-    "context": "Aux États-Unis, il n'existe pas de loi fédérale sur la sécurité des IA les plus puissantes. La Californie a adopté sa propre loi (SB 53), et la plupart des labos préfèrent un contrôle volontaire.",
-    "context_ar": "لا يوجد في الولايات المتحدة قانون فدرالي حول سلامة أقوى أنظمة الذكاء الاصطناعي. اعتمدت كاليفورنيا قانونها الخاص (SB 53)، وتفضل أغلب المختبرات رقابة طوعية.",
-    "figures": [
-     {
-      "d": "Nombre de morts possibles à partir duquel une IA pourrait être bloquée (risque d'arme biologique, de cyberattaque ou d'IA qui échappe au contrôle).",
-      "d_ar": "عدد الوفيات المحتملة الذي يمكن ابتداء منه منع ذكاء اصطناعي (خطر سلاح بيولوجي أو هجوم إلكتروني أو خروج النظام عن السيطرة).",
-      "n": "50",
-      "n_ar": "50"
-     },
-     {
-      "d": "Délai donné aux évaluateurs pour prévenir le ministère du Commerce après avoir repéré un risque grave.",
-      "d_ar": "المهلة الممنوحة للمقيّمين لإبلاغ وزارة التجارة بعد اكتشاف خطر جسيم.",
-      "n": "72 heures",
-      "n_ar": "72 ساعة"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Le « cerveau » logiciel d'un outil comme ChatGPT ou Claude, entraîné sur d'énormes quantités de textes.",
-      "d_ar": "«العقل» البرمجي لأداة مثل ChatGPT أو Claude، تم تدريبه على كميات ضخمة من النصوص.",
-      "t": "modèle d'IA",
-      "t_ar": "نموذج ذكاء اصطناعي"
-     },
-     {
-      "d": "Experts extérieurs à l'entreprise qui testent une IA pour vérifier si elle peut être dangereuse.",
-      "d_ar": "خبراء من خارج الشركة يختبرون الذكاء الاصطناعي للتحقق مما إذا كان قد يشكل خطرا.",
-      "t": "évaluateurs indépendants",
-      "t_ar": "مقيّمين مستقلين"
-     }
-    ]
-   },
-   "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2282033342.jpg?w=1024",
-   "source": "TechCrunch",
-   "summary": "Anthropic fait circuler un projet de loi fédérale américaine : un modèle d'IA pourrait être bloqué s'il menace la vie de plus de 50 personnes ou peut causer plus d'un milliard de dollars de dégâts. Des évaluateurs indépendants auraient 72 heures pour alerter le gouvernement, qui demanderait ensuite à un juge de suspendre la sortie.",
-   "summary_ar": "توزع أنثروبيك مشروع قانون فدرالي أمريكي يسمح بمنع إطلاق نموذج ذكاء اصطناعي إذا كان يهدد حياة أكثر من 50 شخصا أو قد يسبب أضرارا تفوق مليار دولار. وسيكون أمام مقيّمين مستقلين 72 ساعة لإبلاغ الحكومة، التي تطلب بعدها من قاض وقف الإطلاق.",
-   "title": "Anthropic propose une loi pour pouvoir bloquer une IA trop dangereuse",
-   "title_ar": "أنثروبيك تقترح قانونا يسمح بمنع إطلاق ذكاء اصطناعي شديد الخطورة",
-   "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/"
-  },
-  {
-   "cat": "ia",
-   "date": "2026-10-20",
-   "explain": {
-    "context": "DeepSeek est une start-up chinoise dont le modèle R1, gratuit et performant, avait fait chuter l'action Nvidia en janvier 2025. Une loi de décembre 2025 l'interdisait déjà dans le renseignement américain.",
-    "context_ar": "DeepSeek شركة ناشئة صينية تسبب نموذجها R1، المجاني والقوي، في هبوط سهم إنفيديا في يناير 2025. وكان قانون صدر في ديسمبر 2025 قد منعه أصلا في أجهزة الاستخبارات الأمريكية.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Les administrations nationales américaines qui ne sont ni militaires ni du renseignement (impôts, santé, transports…).",
-      "d_ar": "الإدارات الوطنية الأمريكية غير العسكرية وغير الاستخباراتية (الضرائب، الصحة، النقل…).",
-      "t": "agences fédérales civiles",
-      "t_ar": "الوكالات الفدرالية المدنية"
-     }
-    ]
-   },
-   "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2195703830.jpg?w=1024",
-   "source": "TechCrunch",
-   "summary": "Le ministère américain de la Sécurité intérieure demande aux agences fédérales civiles de supprimer l'IA chinoise DeepSeek et les produits construits avec elle, et de ne plus en acheter. Washington craint que les données sensibles soient accessibles aux autorités chinoises ; Pékin dénonce un usage abusif de la sécurité nationale.",
-   "summary_ar": "طلبت وزارة الأمن الداخلي الأمريكية من الوكالات الفدرالية المدنية حذف الذكاء الاصطناعي الصيني DeepSeek والمنتجات المبنية عليه، والتوقف عن شرائها. وتخشى واشنطن أن تصل السلطات الصينية إلى البيانات الحساسة، بينما تندد بكين بالمبالغة في استعمال مفهوم الأمن القومي.",
-   "title": "Les États-Unis ordonnent de retirer DeepSeek des ordinateurs de l'administration",
-   "title_ar": "الولايات المتحدة تأمر بإزالة DeepSeek من أنظمة الإدارة الفدرالية",
-   "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/"
-  },
-  {
-   "cat": "ia",
-   "date": "2026-10-20",
-   "explain": {
-    "context": "Créer un médicament prend en général 10 à 15 ans. Les grands labos d'IA comme OpenAI et Anthropic développent de plus en plus d'outils pour des secteurs précis, comme la pharmacie.",
-    "context_ar": "يستغرق تطوير دواء عادة ما بين 10 و15 سنة. وتطور مختبرات الذكاء الاصطناعي الكبرى مثل OpenAI وأنثروبيك أدوات متزايدة لقطاعات محددة مثل الصيدلة.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Programmes d'IA qui ne se contentent pas de répondre : ils suivent des tâches et proposent des actions, comme un assistant de projet.",
-      "d_ar": "برامج ذكاء اصطناعي لا تكتفي بالإجابة، بل تتابع المهام وتقترح إجراءات، مثل مساعد في إدارة المشاريع.",
-      "t": "agents IA",
-      "t_ar": "وكلاؤها الذكيون"
-     },
-     {
-      "d": "Tests d'un nouveau médicament sur des volontaires, en plusieurs étapes, avant son autorisation.",
-      "d_ar": "اختبار دواء جديد على متطوعين، على عدة مراحل، قبل الترخيص له.",
-      "t": "essais cliniques",
-      "t_ar": "التجارب السريرية"
-     }
-    ]
-   },
-   "image": "https://images.ctfassets.net/kftzwdyauwt9/qoX4w89e0GxOOa2GsAdSm/b4a461997956908e9813e59044617416/openai-to-acquire-orchestra-bio-social.png?w=1600&h=900&fit=fill",
-   "source": "OpenAI",
-   "summary": "OpenAI achète Orchestra Bio, une jeune entreprise dont les agents IA aident les laboratoires à organiser le développement de médicaments, par exemple les plannings d'essais cliniques. Son équipe rejoindra Rosalind, l'offre d'OpenAI pour la recherche en biologie, déjà utilisée par Moderna et Novo Nordisk.",
-   "summary_ar": "اشترت OpenAI شركة Orchestra Bio الناشئة التي تساعد وكلاؤها الذكيون المختبرات على تنظيم تطوير الأدوية، مثل جدولة التجارب السريرية. وسينضم فريقها إلى Rosalind، عرض OpenAI للبحث في البيولوجيا، الذي تستعمله أصلا موديرنا ونوفو نورديسك.",
-   "title": "OpenAI rachète Orchestra Bio pour accélérer la création de médicaments",
-   "title_ar": "OpenAI تستحوذ على Orchestra Bio لتسريع تطوير الأدوية",
-   "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/"
-  },
-  {
-   "cat": "ia",
-   "date": "2026-10-20",
-   "explain": {
-    "context": "Beaucoup de gens confient à ChatGPT des sujets personnels (santé, argent, famille). Le verrou sert surtout quand quelqu'un d'autre peut voir son écran ou utiliser son appareil.",
-    "context_ar": "يشارك كثيرون مع ChatGPT مواضيع شخصية (الصحة، المال، العائلة). ويفيد القفل خاصة عندما يمكن لشخص آخر رؤية الشاشة أو استعمال الجهاز.",
-    "figures": [
-     {
-      "d": "Longueur du code de verrouillage, comme le code PIN d'une carte bancaire.",
-      "d_ar": "طول رمز القفل، مثل الرمز السري للبطاقة البنكية.",
-      "n": "4 chiffres",
-      "n_ar": "4 أرقام"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Technique qui rend un message illisible pour tous sauf son destinataire ; ici, OpenAI peut toujours techniquement lire les échanges.",
-      "d_ar": "تقنية تجعل الرسالة غير مقروءة إلا لمستقبلها؛ وهنا تبقى OpenAI قادرة تقنيا على قراءة المحادثات.",
-      "t": "chiffrement",
-      "t_ar": "تشفيرا"
-     }
-    ]
-   },
-   "image": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
-   "source": "TechCrunch",
-   "summary": "OpenAI déploie les « conversations verrouillées » : on protège une discussion avec un code à 4 chiffres, Face ID ou Touch ID, et elle se range dans un espace séparé. Ce n'est pas un chiffrement complet, et réinitialiser le code efface définitivement ces conversations.",
-   "summary_ar": "تطلق OpenAI ميزة «المحادثات المقفلة»: يمكن حماية محادثة برمز من 4 أرقام أو ببصمة الوجه أو الإصبع، فتنتقل إلى قسم منفصل. لكنها ليست تشفيرا كاملا، وإعادة تعيين الرمز تمحو هذه المحادثات نهائيا.",
-   "title": "ChatGPT permet de verrouiller ses conversations avec un code ou Face ID",
-   "title_ar": "ChatGPT يتيح قفل المحادثات برمز أو ببصمة الوجه",
-   "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/"
-  },
-  {
-   "cat": "ia",
-   "date": "2026-10-20",
-   "explain": {
-    "context": "Gemini, l'assistant IA de Google, est arrivé dans Android Auto en novembre 2025. La nouveauté : il peut utiliser les données personnelles de l'utilisateur, ce qui inquiète certains pour la vie privée.",
-    "context_ar": "وصل Gemini، مساعد غوغل الذكي، إلى أندرويد أوتو في نوفمبر 2025. والجديد أنه يستطيع استعمال البيانات الشخصية للمستخدم، وهو ما يقلق البعض بشأن الخصوصية.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Système qui affiche les applis du téléphone Android sur l'écran de la voiture.",
-      "d_ar": "نظام يعرض تطبيقات هاتف أندرويد على شاشة السيارة.",
-      "t": "Android Auto",
-      "t_ar": "أندرويد أوتو"
-     }
-    ]
-   },
-   "image": "https://techcrunch.com/wp-content/uploads/2026/04/Gemini-google-vehicles.jpeg?w=1200",
-   "source": "TechCrunch",
-   "summary": "Google ajoute « Personal Intelligence » à Gemini dans Android Auto : avec l'accord du conducteur, l'assistant consulte Gmail, l'agenda, Maps ou YouTube pour répondre. Il peut par exemple signaler qu'un vol est retardé en route vers l'aéroport ; la fonction arrivera ensuite dans les voitures équipées de Google.",
-   "summary_ar": "تضيف غوغل ميزة «الذكاء الشخصي» إلى Gemini في أندرويد أوتو: بموافقة السائق، يطلع المساعد على جيميل والمفكرة والخرائط ويوتيوب ليجيب. ويمكنه مثلا التنبيه إلى تأخر رحلة جوية أثناء التوجه إلى المطار، على أن تصل الميزة لاحقا إلى السيارات المزودة بأنظمة غوغل.",
-   "title": "Android Auto : Gemini puise dans Gmail et l'agenda pour aider en voiture",
-   "title_ar": "أندرويد أوتو: Gemini يستعين بجيميل والمفكرة لمساعدة السائق",
-   "url": "https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/"
-  },
-  {
-   "cat": "ia",
-   "date": "2026-10-20",
-   "explain": {
-    "context": "L'événement est organisé par la direction régionale de la Jeunesse de Casablanca-Settat avec l'INITA. Il met l'accent sur l'éthique de l'IA et la protection des données personnelles.",
-    "context_ar": "تنظم هذه التظاهرة المديرية الجهوية لقطاع الشباب بالدار البيضاء-سطات بشراكة مع المعهد الوطني للابتكار والتكنولوجيات المتقدمة (INITA)، مع التركيز على أخلاقيات الذكاء الاصطناعي وحماية المعطيات الشخصية.",
-    "figures": [
-     {
-      "d": "Nombre de projets qui seront jugés à la fin du bootcamp.",
-      "d_ar": "عدد المشاريع التي ستُقيَّم في نهاية المعسكر.",
-      "n": "16",
-      "n_ar": "16"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Formation intensive de quelques jours où l'on apprend en construisant un projet concret.",
-      "d_ar": "تكوين مكثف لبضعة أيام يتعلم فيه المشاركون عبر إنجاز مشروع ملموس.",
-      "t": "bootcamp",
-      "t_ar": "معسكر"
-     },
-     {
-      "d": "Première version simple d'un produit, faite pour tester une idée.",
-      "d_ar": "نسخة أولى مبسطة من منتج، تُصنع لاختبار فكرة.",
-      "t": "prototypes",
-      "t_ar": "نماذج أولية"
-     }
-    ]
-   },
-   "image": "https://cdn.telquel.ma/content/uploads/2024/05/3cf098c7531ad88366cdf43f8b5bc635-3.png",
-   "source": "TelQuel",
-   "summary": "Un bootcamp national d'intelligence artificielle, Hack4Bladi, réunit du 19 au 24 octobre à Casablanca plus de 80 jeunes de toutes les régions, bénéficiaires du Pass Jeunes. Ils travaillent en équipe sur des solutions à des problèmes sociaux, et 16 prototypes seront présentés à un jury d'experts.",
-   "summary_ar": "يجمع معسكر وطني للذكاء الاصطناعي، Hack4Bladi، من 19 إلى 24 أكتوبر بالدار البيضاء أكثر من 80 شابا من كل الجهات، من المستفيدين من «جواز الشباب». ويعملون ضمن فرق على حلول لمشاكل اجتماعية، وستعرض 16 نماذج أولية على لجنة من الخبراء.",
-   "title": "Casablanca : 80 jeunes inventent des solutions d'IA au bootcamp Hack4Bladi",
-   "title_ar": "الدار البيضاء: 80 شابا يبتكرون حلولا بالذكاء الاصطناعي في معسكر Hack4Bladi",
-   "url": "https://telquel.ma/instant-t/2026/10/20/casablanca-lancement-dun-bootcamp-national-consacre-a-lintelligence-artificielle_2013888"
-  },
-  {
-   "cat": "eco",
-   "date": "2026-10-20",
-   "explain": {
-    "context": "C'est la saison des résultats trimestriels : les grandes entreprises américaines publient leurs comptes, et la Bourse réagit fortement aux surprises, bonnes ou mauvaises.",
-    "context_ar": "إنه موسم النتائج الفصلية: تنشر الشركات الأمريكية الكبرى حساباتها، وتتفاعل البورصة بقوة مع المفاجآت الجيدة أو السيئة.",
-    "figures": [
-     {
-      "d": "Gain du Dow Jones sur la journée, soit environ 1 %.",
-      "d_ar": "ربح داو جونز خلال اليوم، أي نحو 1%.",
-      "n": "500 points",
-      "n_ar": "500 نقطة"
-     },
-     {
-      "d": "Prix de l'once d'or (31 g) mardi, en baisse de 0,5 %, mais toujours très élevé.",
-      "d_ar": "سعر أوقية الذهب (31 غ) يوم الثلاثاء، بانخفاض 0,5%، لكنه يبقى مرتفعا جدا.",
-      "n": "4 140 dollars",
-      "n_ar": "4140 دولارا"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Indice qui suit 30 très grandes entreprises américaines ; il sert de baromètre de la Bourse de New York.",
-      "d_ar": "مؤشر يتتبع 30 شركة أمريكية كبرى، ويُعد مقياسا لحالة بورصة نيويورك.",
-      "t": "Dow Jones",
-      "t_ar": "داو جونز"
-     },
-     {
-      "d": "Contrats signés pour acheter un logement mais pas encore finalisés ; ils annoncent les ventes des mois suivants.",
-      "d_ar": "عقود موقعة لشراء مسكن لم تُستكمل بعد، وتنبئ بمبيعات الأشهر المقبلة.",
-      "t": "promesses de ventes",
-      "t_ar": "وعود البيع"
-     }
-    ]
-   },
-   "image": "https://s.yimg.com/lo/mysterio/api/fbca71c69c5a2c63649147f024093bbfaa39f366d1042fdb30818bbf5f5a2454/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestopedia_245%2Fc95d259bda83b5608f40932c231d2217.jpg",
-   "source": "Investopedia",
-   "summary": "Le Dow Jones a progressé d'environ 1 % mardi, porté par 3M, tandis que le pétrole reculait sur des espoirs de médiation entre Washington et Téhéran. General Motors a perdu près de 7 % après ses résultats, et les promesses de ventes de logements ont plongé de 7,3 %.",
-   "summary_ar": "ارتفع مؤشر داو جونز بنحو 1% يوم الثلاثاء بدعم من سهم 3M، بينما تراجع النفط على أمل وساطة بين واشنطن وطهران. وخسرت جنرال موتورز قرابة 7% بعد نتائجها، وتراجعت وعود بيع المساكن بـ7,3%.",
-   "title": "Wall Street : le Dow Jones gagne 500 points, General Motors chute de 7 %",
-   "title_ar": "وول ستريت: داو جونز يربح 500 نقطة وجنرال موتورز تهوي 7%",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-20-2026-103252254.html"
-  },
-  {
-   "cat": "tech",
-   "date": "2026-10-20",
-   "explain": {
-    "context": "Spotify veut attirer les créateurs de podcasts, notamment en vidéo, pour concurrencer YouTube. Pour y accéder, une émission doit avoir au moins 100 auditeurs et trois épisodes publiés.",
-    "context_ar": "تسعى سبوتيفاي إلى جذب صناع البودكاست، خاصة بالفيديو، لمنافسة يوتيوب. وللاستفادة، يجب أن يكون للبرنامج 100 مستمع على الأقل وثلاث حلقات منشورة.",
-    "figures": [
-     {
-      "d": "Part des revenus des abonnements reversée aux créateurs ; Spotify garde 10 %.",
-      "d_ar": "حصة عائدات الاشتراكات التي تعود إلى صناع المحتوى؛ وتحتفظ سبوتيفاي بـ10%.",
-      "n": "90 %",
-      "n_ar": "90%"
-     },
-     {
-      "d": "Nombre de pays où la fonction est lancée, dont les États-Unis.",
-      "d_ar": "عدد البلدان التي أُطلقت فيها الميزة، ومنها الولايات المتحدة.",
-      "n": "34",
-      "n_ar": "34"
-     }
-    ],
-    "terms": []
-   },
-   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Memberships-1.jpg?resize=1200,675",
-   "source": "TechCrunch",
-   "summary": "Depuis le 20 octobre, les créateurs de podcasts sur Spotify peuvent proposer des abonnements avec épisodes bonus, moins de publicités ou accès en avance, dans 34 pays. Ils gardent 90 % des revenus, et le paiement se fait sur le web pour éviter les commissions des magasins d'applis.",
-   "summary_ar": "منذ 20 أكتوبر، صار بإمكان صناع البودكاست على سبوتيفاي تقديم اشتراكات بحلقات إضافية أو إعلانات أقل أو وصول مبكر، في 34 بلدا. ويحتفظون بـ90% من العائدات، ويتم الدفع عبر الويب لتفادي عمولات متاجر التطبيقات.",
-   "title": "Spotify lance les abonnements payants aux podcasts",
-   "title_ar": "سبوتيفاي تطلق اشتراكات مدفوعة في البودكاست",
-   "url": "https://techcrunch.com/2026/10/20/spotify-launches-paid-podcast-memberships-with-perks-beyond-bonus-content/"
   },
   {
    "cat": "ux",
@@ -8577,7 +8466,7 @@
   ]
  },
  "meta": {
-  "updatedAt": "2026-10-22T07:19:54Z",
+  "updatedAt": "2026-10-22T10:10:57Z",
   "brief": [
    "Sport : Le Maroc champion d'Afrique de futsal 5-2. Samedi, UFC 333 à Abou Dhabi.",
    "Maroc : Les députés votent aujourd'hui la confiance au gouvernement El Mansouri.",
