@@ -3,24 +3,24 @@ VERSION:2.0
 PRODID:-//Radar//FR
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Fils (10) – Michelsen ou Goffin
+X-WR-CALNAME:Fils (10) – Michelsen (37)
 X-WR-TIMEZONE:Africa/Casablanca
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:atp-bru-fils-qf@radar
-DTSTAMP:20261022T185047Z
+DTSTAMP:20261022T190407Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 TRANSP:TRANSPARENT
-SUMMARY:Fils (10) – Michelsen ou Goffin (Tennis)
+SUMMARY:Fils (10) – Michelsen (37) (Tennis)
 LOCATION:European Open\, Bruxelles
-DESCRIPTION:ATP 250 de Bruxelles · Quart de finale — qualifié sans jo
- uer\, Fils est 8e de la course pour Turin \; son adversaire sort de Mich
- elsen – Goffin\, qui retarde sa retraite
+DESCRIPTION:ATP 250 de Bruxelles · Quart de finale — Fils est 8e de la
+  course pour Turin \; Michelsen vient de mettre fin à la carrière de G
+ offin
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Fils (10) – Michelsen ou Goffin (Tennis)
+DESCRIPTION:Fils (10) – Michelsen (37) (Tennis)
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
