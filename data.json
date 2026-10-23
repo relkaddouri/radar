@@ -955,122 +955,790 @@
  ],
  "news": [
   {
-   "cat": "ux",
-   "title": "EA Sports FC 27 : une nouvelle identité pensée comme un système qui bouge",
-   "title_ar": "إي إيه سبورتس إف سي 27: هوية جديدة مصممة كنظام متحرك",
-   "summary": "Le studio DixonBaxi a conçu la nouvelle identité du jeu EA Sports FC 27, qui mélange culture du sport et culture du jeu vidéo. Il garde le triangle du logo, inspiré du curseur qui suit le joueur contrôlé, mais le rend libre pour qu'il change de forme selon chaque usage.",
-   "summary_ar": "صمم استوديو ديكسون باكسي الهوية الجديدة للعبة إي إيه سبورتس إف سي 27، وهي تمزج بين ثقافة الرياضة وثقافة ألعاب الفيديو. وقد احتفظ بمثلث الشعار المستوحى من المؤشر الذي يتبع اللاعب المتحكَّم فيه، لكنه جعله حرا ليتغير شكله حسب كل استعمال.",
-   "source": "Creative Bloq",
-   "url": "https://www.creativebloq.com/news/the-ambitious-ea-sports-rebrand-looks-great-from-every-angle",
+   "cat": "maroc",
+   "sub": "economie",
+   "title": "Entreprises publiques : 22,6 milliards de dirhams de bénéfice net en 2024",
+   "title_ar": "المؤسسات والمقاولات العمومية: 22,6 مليار درهم أرباحا صافية في 2024",
+   "summary": "Les 57 entreprises et établissements suivis par l'ANGSPE ont dégagé un bénéfice net de 22,6 milliards de dirhams en 2024, contre 6,8 milliards en 2023. L'OCP et la baisse du déficit de l'ONEE expliquent une grande partie de cette hausse.",
+   "summary_ar": "حققت 57 مؤسسة ومقاولة عمومية تتابعها الوكالة الوطنية للتدبير الاستراتيجي للمساهمات (ANGSPE) ربحا صافيا بلغ 22,6 مليار درهم في 2024، مقابل 6,8 مليارات في 2023. ويعود جزء كبير من هذا الارتفاع إلى المكتب الشريف للفوسفاط وتراجع عجز المكتب الوطني للكهرباء والماء.",
+   "source": "Hespress FR",
+   "url": "https://fr.hespress.com/493646-entreprises-publiques-226-mds-dh-de-benefice-net-en-2024.html",
    "date": "2026-10-23",
-   "image": "",
+   "image": "https://f2.hespress.com/wp-content/uploads/2026/04/ANGSPE.jpg",
+   "explain": {
+    "context": "L'État possède de grandes entreprises comme l'OCP ou l'ONEE. L'ANGSPE gère ses participations et publie chaque année leurs résultats.",
+    "context_ar": "تملك الدولة مقاولات كبرى مثل المكتب الشريف للفوسفاط والمكتب الوطني للكهرباء والماء. وتدبر الوكالة الوطنية مساهماتها وتنشر نتائجها كل سنة.",
+    "terms": [
+     {
+      "t": "bénéfice net",
+      "t_ar": "الربح الصافي",
+      "d": "Ce qui reste à une entreprise une fois toutes ses dépenses et impôts payés.",
+      "d_ar": "ما يتبقى للمقاولة بعد دفع كل مصاريفها وضرائبها."
+     },
+     {
+      "t": "déficit",
+      "t_ar": "العجز",
+      "d": "Situation où les dépenses sont plus élevées que les recettes.",
+      "d_ar": "وضعية تكون فيها المصاريف أكبر من المداخيل."
+     }
+    ],
+    "figures": [
+     {
+      "n": "22,6 milliards de dirhams",
+      "n_ar": "22,6 مليار درهم",
+      "d": "Plus du triple du bénéfice de 2023 (6,8 milliards).",
+      "d_ar": "أكثر من ثلاثة أضعاف ربح 2023 الذي بلغ 6,8 مليارات."
+     },
+     {
+      "n": "57",
+      "n_ar": "57",
+      "d": "Nombre d'entreprises et établissements publics suivis par l'ANGSPE.",
+      "d_ar": "عدد المؤسسات والمقاولات العمومية التي تتابعها الوكالة."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "maroc",
+   "sub": "politique",
+   "title": "El Mansouri promet la rupture et durcit le ton contre la corruption",
+   "title_ar": "المنصوري تعد بالقطيعة وتشدد لهجتها ضد الفساد",
+   "summary": "Devant les députés, la cheffe du gouvernement El Mansouri a promis une rupture et un discours plus ferme contre la corruption. Son programme a été adopté par 204 voix contre 127.",
+   "summary_ar": "أمام النواب، وعدت رئيسة الحكومة المنصوري بالقطيعة وبخطاب أكثر حزما ضد الفساد. وقد صودق على برنامجها بـ204 أصوات مقابل 127.",
+   "source": "Hespress FR",
+   "url": "https://fr.hespress.com/493637-el-mansouri-promet-la-rupture-et-durcit-le-ton-sur-la-corruption.html",
+   "date": "2026-10-23",
+   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/El-Mansouri-reponseII.jpg",
+   "explain": {
+    "context": "Le nouveau gouvernement devait obtenir la confiance de la Chambre des représentants. El Mansouri a aussi défendu le ministre de la Santé, visé par des accusations.",
+    "context_ar": "كان على الحكومة الجديدة نيل ثقة مجلس النواب. ودافعت المنصوري أيضا عن وزير الصحة الذي وُجهت إليه اتهامات.",
+    "terms": [
+     {
+      "t": "rupture",
+      "t_ar": "القطيعة",
+      "d": "Changement net par rapport à la manière de faire d'avant.",
+      "d_ar": "تغيير واضح مقارنة بطريقة العمل السابقة."
+     }
+    ],
+    "figures": [
+     {
+      "n": "204 voix contre 127",
+      "n_ar": "204 أصوات مقابل 127",
+      "d": "Résultat du vote des députés sur le programme du gouvernement.",
+      "d_ar": "نتيجة تصويت النواب على البرنامج الحكومي."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "maroc",
+   "sub": "economie",
+   "title": "Plus de 66 000 entreprises créées au Maroc en huit mois",
+   "title_ar": "أكثر من 66 ألف مقاولة أُحدثت في المغرب خلال ثمانية أشهر",
+   "summary": "Selon l'OMPIC, 66 277 entreprises ont été créées au Maroc entre janvier et août 2026, dont 49 897 sociétés. La région Casablanca-Settat concentre 39,3 % des nouvelles sociétés, et le commerce reste le premier secteur.",
+   "summary_ar": "حسب المكتب المغربي للملكية الصناعية والتجارية، أُحدثت 66 ألفا و277 مقاولة في المغرب بين يناير وغشت 2026، منها 49 ألفا و897 شركة. وتستحوذ جهة الدار البيضاء-سطات على 39,3 في المائة من الشركات الجديدة، وتبقى التجارة القطاع الأول.",
+   "source": "Hespress FR",
+   "url": "https://fr.hespress.com/493461-ompic-plus-de-66-277-entreprises-creees-en-huit-mois.html",
+   "date": "2026-10-22",
+   "image": "https://f2.hespress.com/wp-content/uploads/2022/02/maroc_creation_entreprise-e1644862278816.jpg",
+   "explain": {
+    "context": "L'OMPIC enregistre les entreprises et les marques au Maroc. Ses chiffres montrent le rythme de création d'activités dans le pays.",
+    "context_ar": "يسجل المكتب المغربي للملكية الصناعية والتجارية المقاولات والعلامات في المغرب. وتُظهر أرقامه وتيرة إنشاء الأنشطة في البلاد.",
+    "terms": [
+     {
+      "t": "OMPIC",
+      "t_ar": "المكتب المغربي للملكية الصناعية والتجارية",
+      "d": "Office public qui enregistre les entreprises, les marques et les brevets au Maroc.",
+      "d_ar": "مكتب عمومي يسجل المقاولات والعلامات وبراءات الاختراع في المغرب."
+     },
+     {
+      "t": "sociétés",
+      "t_ar": "الشركات",
+      "d": "Entreprises créées sous une forme juridique (SARL…), séparées de la personne de leur patron.",
+      "d_ar": "مقاولات بشكل قانوني (مثل ش.م.م) منفصلة عن شخص صاحبها."
+     }
+    ],
+    "figures": [
+     {
+      "n": "66 277",
+      "n_ar": "66 ألفا و277",
+      "d": "Entreprises créées de janvier à août 2026.",
+      "d_ar": "مقاولة أُحدثت من يناير إلى غشت 2026."
+     },
+     {
+      "n": "39,3 %",
+      "n_ar": "39,3 في المائة",
+      "d": "Part de Casablanca-Settat dans les nouvelles sociétés.",
+      "d_ar": "حصة جهة الدار البيضاء-سطات من الشركات الجديدة."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "maroc",
+   "sub": "economie",
+   "title": "Médicaments : pourquoi le Maroc attire les laboratoires allemands",
+   "title_ar": "الأدوية: لماذا يجذب المغرب المختبرات الألمانية",
+   "summary": "Selon l'agence allemande GTAI, le marché marocain du médicament pesait 25,9 milliards de dirhams en 2024, avec 10,6 milliards d'importations pour 1,6 milliard d'exportations. L'Allemagne est le premier fournisseur, avec près de 18 % des importations.",
+   "summary_ar": "حسب الوكالة الألمانية GTAI، بلغ حجم سوق الأدوية في المغرب 25,9 مليار درهم في 2024، مع واردات بقيمة 10,6 مليارات مقابل صادرات بـ1,6 مليار. وتُعد ألمانيا المورد الأول بحوالي 18 في المائة من الواردات.",
+   "source": "Hespress FR",
+   "url": "https://fr.hespress.com/493310-pharma-pourquoi-le-royaume-seduit-les-laboratoires-allemands.html",
+   "date": "2026-10-22",
+   "image": "https://f2.hespress.com/wp-content/uploads/2026/04/industrie_pharmaceutique.jpg",
+   "explain": {
+    "context": "Le Maroc fabrique une partie de ses médicaments mais en importe beaucoup, surtout des vaccins et des produits sanguins. Les laboratoires étrangers y voient un marché en croissance.",
+    "context_ar": "يصنع المغرب جزءا من أدويته لكنه يستورد الكثير، خاصة اللقاحات ومشتقات الدم. وترى المختبرات الأجنبية فيه سوقا في نمو.",
+    "terms": [
+     {
+      "t": "importations",
+      "t_ar": "الواردات",
+      "d": "Produits achetés à l'étranger et entrés dans le pays.",
+      "d_ar": "سلع تُشترى من الخارج وتدخل البلاد."
+     },
+     {
+      "t": "exportations",
+      "t_ar": "الصادرات",
+      "d": "Produits fabriqués dans le pays et vendus à l'étranger.",
+      "d_ar": "سلع تُصنع في البلاد وتُباع في الخارج."
+     }
+    ],
+    "figures": [
+     {
+      "n": "25,9 milliards de dirhams",
+      "n_ar": "25,9 مليار درهم",
+      "d": "Taille du marché marocain du médicament en 2024, environ 2,4 milliards d'euros.",
+      "d_ar": "حجم سوق الأدوية المغربي في 2024، أي حوالي 2,4 مليار يورو."
+     },
+     {
+      "n": "18 %",
+      "n_ar": "18 في المائة",
+      "d": "Part de l'Allemagne dans les importations de médicaments.",
+      "d_ar": "حصة ألمانيا من واردات الأدوية."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "football",
+   "title": "Wydad : l'entraîneur Paulo Sérgio quitte le club",
+   "title_ar": "الوداد: المدرب باولو سيرجيو يغادر النادي",
+   "summary": "Le Wydad de Casablanca a mis fin, d'un commun accord, au contrat de son entraîneur portugais Paulo Sérgio. Le club n'est que 9e de la Botola Pro avec 5 points.",
+   "summary_ar": "أنهى الوداد البيضاوي بالتراضي عقد مدربه البرتغالي باولو سيرجيو. ويحتل الفريق المركز التاسع فقط في البطولة الاحترافية برصيد 5 نقاط.",
+   "source": "Hespress FR",
+   "url": "https://fr.hespress.com/493593-paulo-sergio-quitte-officiellement-le-wydad-de-casablanca.html",
+   "date": "2026-10-22",
+   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/sergioo.jpg",
+   "explain": {
+    "context": "Le Wydad, l'un des plus grands clubs du Maroc, démarre mal la saison. Selon la presse sportive, le Tunisien Nassereddine Nabi serait proche de le remplacer.",
+    "context_ar": "يعيش الوداد، أحد أكبر الأندية المغربية، بداية موسم صعبة. وحسب الصحافة الرياضية، يقترب التونسي ناصر الدين نابي من خلافته.",
+    "terms": [
+     {
+      "t": "d'un commun accord",
+      "t_ar": "بالتراضي",
+      "d": "Les deux parties acceptent ensemble d'arrêter le contrat.",
+      "d_ar": "الطرفان يتفقان معا على إنهاء العقد."
+     }
+    ],
+    "figures": [
+     {
+      "n": "5 points",
+      "n_ar": "5 نقاط",
+      "d": "Total du Wydad, 9e du championnat marocain.",
+      "d_ar": "رصيد الوداد، صاحب المركز التاسع في البطولة."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "football",
+   "title": "Ligue Europa : Bournemouth écrase Milan 3-0, Amine Adli marque",
+   "title_ar": "الدوري الأوروبي: بورنموث يكتسح ميلان بثلاثية ويسجل أمين عدلي",
+   "summary": "Bournemouth a battu l'AC Milan 3-0 lors de la 3e journée de la Ligue Europa, avec un but du Marocain Amine Adli à la 84e minute. Le gardien milanais Mike Maignan a été expulsé dès la 27e minute.",
+   "summary_ar": "فاز بورنموث على ميلان بثلاثة أهداف دون رد في الجولة الثالثة من الدوري الأوروبي، مع هدف للمغربي أمين عدلي في الدقيقة 84. وطُرد حارس ميلان مايك مينيان منذ الدقيقة 27.",
+   "source": "The Sports Encounter",
+   "url": "https://thesportsencounter.com/2026/10/22/europa-league-october-22-2026-bournemouth-milan-sociedad-benfica/",
+   "date": "2026-10-22",
+   "image": "https://thesportsencounter.com/wp-content/uploads/2026/10/europa_league_matchday_drama.webp",
+   "explain": {
+    "context": "Ce jeudi, la Real Sociedad a aussi gagné 6-0 à Lillestrøm et Hoffenheim a battu Lyon 3-0. Kluivert et Tavernier ont marqué sur penalty pour Bournemouth.",
+    "context_ar": "في هذا الخميس، فاز ريال سوسييداد أيضا 6-0 على ليلستروم، وهزم هوفنهايم ليون 3-0. وسجل كلويفرت وتافيرنييه من ضربتي جزاء لبورنموث.",
+    "terms": [
+     {
+      "t": "expulsé",
+      "t_ar": "طُرد",
+      "d": "Joueur renvoyé du terrain par l'arbitre (carton rouge) ; son équipe joue à dix.",
+      "d_ar": "لاعب يُخرجه الحكم من الملعب ببطاقة حمراء فيلعب فريقه بعشرة."
+     }
+    ],
+    "figures": [
+     {
+      "n": "3-0",
+      "n_ar": "3-0",
+      "d": "Score final de Bournemouth contre l'AC Milan.",
+      "d_ar": "النتيجة النهائية لبورنموث أمام ميلان."
+     },
+     {
+      "n": "84e minute",
+      "n_ar": "الدقيقة 84",
+      "d": "Moment du but d'Amine Adli, le troisième.",
+      "d_ar": "توقيت هدف أمين عدلي، وهو الهدف الثالث."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "basket",
+   "title": "Trump traite LeBron James de « honte » après l'hymne américain",
+   "title_ar": "ترامب يصف ليبرون جيمس بـ\"العار\" بسبب النشيد الأمريكي",
+   "summary": "Donald Trump a demandé à LeBron James de s'excuser, après que le joueur a semblé continuer son échauffement pendant l'hymne avant le premier match des 76ers. À 41 ans, James joue sa 24e saison, la première à Philadelphie.",
+   "summary_ar": "طالب دونالد ترامب ليبرون جيمس بالاعتذار، بعدما بدا أن اللاعب واصل الإحماء أثناء النشيد الوطني قبل أول مباراة لفيلادلفيا. ويخوض جيمس، البالغ 41 عاما، موسمه الـ24، وهو الأول مع فيلادلفيا.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/sports/2026/10/22/what-led-to-the-trump-lebron-feud-over-us-national-anthem",
+   "date": "2026-10-22",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261016__2300024110__v1__MidRes__BostonCelticsVPhiladelphia76ers-1792703565.jpg?resize=1200%2C630",
+   "explain": {
+    "context": "Trump et LeBron James s'opposent depuis 2017. Le joueur prend souvent position sur les questions sociales et n'avait pas encore répondu jeudi soir.",
+    "context_ar": "يتواجه ترامب وليبرون جيمس منذ 2017. وكثيرا ما يعبّر اللاعب عن مواقفه في القضايا الاجتماعية، ولم يكن قد ردّ إلى غاية مساء الخميس.",
+    "terms": [
+     {
+      "t": "hymne",
+      "t_ar": "النشيد الوطني",
+      "d": "Chant officiel d'un pays, joué avant les matchs aux États-Unis.",
+      "d_ar": "الأغنية الرسمية للبلد، تُعزف قبل المباريات في الولايات المتحدة."
+     }
+    ],
+    "figures": [
+     {
+      "n": "24e saison",
+      "n_ar": "الموسم الـ24",
+      "d": "Nombre de saisons NBA de LeBron James, un record de longévité.",
+      "d_ar": "عدد مواسم ليبرون جيمس في الدوري الأمريكي، وهو رقم قياسي في طول المسيرة."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "f1",
+   "title": "F1 : Jak Crawford remplacera Lance Stroll lors des premiers essais au Mexique",
+   "title_ar": "الفورمولا 1: جاك كروفورد يعوض لانس سترول في التجارب الأولى بالمكسيك",
+   "summary": "Aston Martin confie la voiture de Lance Stroll à son pilote de réserve Jak Crawford, 21 ans, pour les premiers essais libres du Grand Prix du Mexique. Ce sera sa 4e séance de ce type en 2026.",
+   "summary_ar": "أسندت أستون مارتن سيارة لانس سترول إلى سائقها الاحتياطي جاك كروفورد، 21 عاما، في التجارب الحرة الأولى لجائزة المكسيك الكبرى. وستكون هذه رابع حصة له من هذا النوع في 2026.",
+   "source": "PlanetF1",
+   "url": "https://www.planetf1.com/news/lance-stroll-mexican-grand-prix-2026-fp1",
+   "date": "2026-10-22",
+   "image": "https://images.ps-aws.com/c?url=https%3A%2F%2Fd3cm515ijfiu6w.cloudfront.net%2Fwp-content%2Fuploads%2F2026%2F10%2F11164048%2Flance-stroll-aston-martin-singapore-2026-planetf1.jpg",
+   "explain": {
+    "context": "Chaque équipe doit faire rouler des jeunes pilotes lors de quatre séances d'essais par saison. Aston Martin et son moteur Honda vivent une saison difficile.",
+    "context_ar": "على كل فريق إشراك سائقين شبان في أربع حصص تجارب كل موسم. وتعيش أستون مارتن ومحركها هوندا موسما صعبا.",
+    "terms": [
+     {
+      "t": "pilote de réserve",
+      "t_ar": "السائق الاحتياطي",
+      "d": "Pilote prêt à remplacer un titulaire absent ou à rouler en essais.",
+      "d_ar": "سائق جاهز لتعويض سائق أساسي غائب أو للمشاركة في التجارب."
+     },
+     {
+      "t": "essais libres",
+      "t_ar": "التجارب الحرة",
+      "d": "Séances d'entraînement avant les qualifications d'un Grand Prix.",
+      "d_ar": "حصص تدريبية تسبق التجارب التأهيلية للسباق."
+     }
+    ],
+    "figures": [
+     {
+      "n": "4e séance",
+      "n_ar": "الحصة الرابعة",
+      "d": "Crawford a déjà roulé à Suzuka, au Red Bull Ring et à Spa cette saison.",
+      "d_ar": "سبق لكروفورد أن قاد في سوزوكا وحلبة ريد بُل وسبا هذا الموسم."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "sport",
+   "sport": "tennis",
+   "title": "Almaty : Atmane se qualifie en trois tie-breaks et retrouve Medvedev",
+   "title_ar": "ألماتي: أتمان يتأهل بعد ثلاثة أشواط فاصلة ويلاقي ميدفيديف",
+   "summary": "Le Français Terence Atmane a battu l'Italien Mattia Bellucci 6-7, 7-6, 7-6 pour atteindre les quarts de finale à Almaty. Il affrontera la tête de série n°1 Daniil Medvedev.",
+   "summary_ar": "فاز الفرنسي تيرانس أتمان على الإيطالي ماتيا بيلوتشي 6-7 و7-6 و7-6 ليبلغ ربع نهائي دورة ألماتي. وسيواجه المصنف الأول في الدورة دانييل ميدفيديف.",
+   "source": "Tennis Majors",
+   "url": "https://www.tennismajors.com/atp/atmane-outlasts-bellucci-in-three-tiebreaks-to-reach-almaty-quarterfinals-863729.html",
+   "date": "2026-10-22",
+   "image": "https://www.tennismajors.com/app/uploads/2026/10/Atmane-almaty.jpg",
+   "explain": {
+    "context": "C'est le troisième quart de finale ATP de la carrière d'Atmane, 98e mondial. Bellucci restait sur 13 victoires en 15 matchs.",
+    "context_ar": "هذا ثالث ربع نهائي في مسيرة أتمان، المصنف 98 عالميا. وكان بيلوتشي قد فاز في 13 مباراة من آخر 15.",
+    "terms": [
+     {
+      "t": "tie-breaks",
+      "t_ar": "الأشواط الفاصلة",
+      "d": "Jeu décisif joué à 6-6 dans un set pour désigner le gagnant.",
+      "d_ar": "شوط حاسم يُلعب عند التعادل 6-6 لتحديد الفائز بالمجموعة."
+     },
+     {
+      "t": "tête de série",
+      "t_ar": "المصنف الأول",
+      "d": "Joueur classé en haut du tableau grâce à son rang mondial.",
+      "d_ar": "لاعب يوضع في مقدمة القرعة بفضل ترتيبه العالمي."
+     }
+    ],
+    "figures": [
+     {
+      "n": "98e",
+      "n_ar": "98",
+      "d": "Classement mondial d'Atmane ; Bellucci est 68e.",
+      "d_ar": "ترتيب أتمان العالمي، بينما بيلوتشي في المركز 68."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "ia",
+   "title": "Canva lance Craft, son premier modèle pour créer des images",
+   "title_ar": "كانفا تطلق «كرافت»، أول نموذج لها لتوليد الصور",
+   "summary": "Canva a sorti Canva Craft, un modèle maison qui crée des images jusqu'en 2K et dans 30 formats, pour rivaliser avec Google, OpenAI ou Meta. Il est ouvert à tous les utilisateurs dans l'onglet Dream Lab et le sera aussi via l'API.",
+   "summary_ar": "أطلقت كانفا «كانفا كرافت»، وهو نموذج طورته بنفسها ينتج صورا بدقة تصل إلى 2K وبـ30 مقاسا، لمنافسة غوغل وOpenAI وميتا. وهو متاح لجميع المستخدمين في تبويب Dream Lab، وسيتاح أيضا عبر واجهة البرمجة.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+   "date": "2026-10-22",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Sample-Outputs.jpeg?resize=1200,675",
+   "explain": {
+    "context": "Canva, outil de design très utilisé par les créatifs, avait racheté Leonardo.ai en 2024. Ses chercheurs ont aidé à créer ce modèle ; deux versions plus rapides arrivent bientôt.",
+    "context_ar": "اشترت كانفا، أداة التصميم المستعملة بكثرة من قبل المبدعين، شركة Leonardo.ai في 2024. وساعد باحثوها في تطوير هذا النموذج، وستصل قريبا نسختان أسرع.",
+    "terms": [
+     {
+      "t": "modèle",
+      "t_ar": "النموذج",
+      "d": "Programme d'IA entraîné sur beaucoup de données pour produire du texte ou des images.",
+      "d_ar": "برنامج ذكاء اصطناعي مدرَّب على بيانات كثيرة لإنتاج نصوص أو صور."
+     },
+     {
+      "t": "API",
+      "t_ar": "واجهة البرمجة",
+      "d": "Porte d'accès qui permet à d'autres logiciels d'utiliser un service.",
+      "d_ar": "مدخل يسمح لبرامج أخرى باستعمال خدمة ما."
+     }
+    ],
+    "figures": [
+     {
+      "n": "30 formats",
+      "n_ar": "30 مقاسا",
+      "d": "Nombre de proportions d'image proposées par Craft.",
+      "d_ar": "عدد مقاسات الصور التي يقترحها كرافت."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "ia",
+   "title": "Microsoft : son IA trouve 83 % des diagnostics difficiles, contre 36 % pour des médecins seuls",
+   "title_ar": "مايكروسوفت: ذكاؤها الاصطناعي يصيب في 83% من التشخيصات الصعبة مقابل 36% لأطباء بمفردهم",
+   "summary": "Dans une étude publiée dans Science, le système MAI-DxO de Microsoft a trouvé le bon diagnostic dans 83 % de cas médicaux complexes. Des médecins généralistes seuls n'en ont trouvé que 36 %, mais les spécialistes n'ont pas été testés.",
+   "summary_ar": "في دراسة نشرتها مجلة Science، وجد نظام MAI-DxO من مايكروسوفت التشخيص الصحيح في 83% من الحالات الطبية المعقدة. ولم يجد الأطباء العامون بمفردهم سوى 36%، لكن الأطباء المتخصصين لم يشاركوا في الاختبار.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+   "date": "2026-10-22",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1935915215.jpg",
+   "explain": {
+    "context": "Mustafa Suleyman, patron de l'IA chez Microsoft, vise une « superintelligence médicale ». Un test en conditions réelles est prévu avec un hôpital de Boston.",
+    "context_ar": "يسعى مصطفى سليمان، مسؤول الذكاء الاصطناعي في مايكروسوفت، إلى «ذكاء طبي فائق». ومن المرتقب إجراء اختبار في ظروف حقيقية مع مستشفى في بوسطن.",
+    "terms": [
+     {
+      "t": "diagnostic",
+      "t_ar": "التشخيص",
+      "d": "Identification de la maladie dont souffre un patient.",
+      "d_ar": "تحديد المرض الذي يعاني منه المريض."
+     }
+    ],
+    "figures": [
+     {
+      "n": "83 %",
+      "n_ar": "83%",
+      "d": "Taux de bonnes réponses de MAI-DxO sur des cas tirés du New England Journal of Medicine.",
+      "d_ar": "نسبة الإجابات الصحيحة لـMAI-DxO في حالات من مجلة New England Journal of Medicine."
+     },
+     {
+      "n": "36 %",
+      "n_ar": "36%",
+      "d": "Score des généralistes travaillant seuls avec des ouvrages de référence.",
+      "d_ar": "نتيجة الأطباء العامين الذين عملوا بمفردهم مع مراجع."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "eco",
+   "title": "Bourses : Wall Street et l'Europe chutent, le Brent dépasse 113 dollars",
+   "title_ar": "البورصات: تراجع وول ستريت وأوروبا وبرنت يتجاوز 113 دولارا",
+   "summary": "Jeudi, le Nasdaq a perdu 2,6 % et Paris 1,42 %, plombés par les craintes sur l'IA et la hausse du pétrole. Le Brent a pris 4 % à 113,17 dollars, et le taux d'emprunt de la France à 10 ans a fini à 5,07 %.",
+   "summary_ar": "يوم الخميس، خسر مؤشر ناسداك 2,6% وبورصة باريس 1,42%، تحت ضغط المخاوف بشأن الذكاء الاصطناعي وارتفاع النفط. وارتفع برنت 4% إلى 113,17 دولارا، وأغلق سعر فائدة اقتراض فرنسا لعشر سنوات عند 5,07%.",
+   "source": "Seneweb (AFP)",
+   "url": "https://www.seneweb.com/en/news/Economie/les-bourses-mondiales-chutent-entre-inquietudes-sur-lia-et-envolee-du-petrole_n_999001471.html",
+   "date": "2026-10-22",
+   "image": "https://image.seneweb.com/content/news/2026-43-22//thumb_1260x800_6ada9515985b3_xpV2SSgXRK.jfif",
+   "explain": {
+    "context": "Meta a chuté de près de 7 % après avoir annoncé 135 à 145 milliards de dollars d'investissements dans l'IA. Le pétrole monte avec les tensions autour du détroit d'Ormuz.",
+    "context_ar": "تراجع سهم ميتا بنحو 7% بعد إعلانها استثمارات في الذكاء الاصطناعي بين 135 و145 مليار دولار. ويرتفع النفط مع التوتر حول مضيق هرمز.",
+    "terms": [
+     {
+      "t": "Brent",
+      "t_ar": "برنت",
+      "d": "Pétrole de référence en Europe, son prix sert de repère mondial.",
+      "d_ar": "نفط مرجعي في أوروبا، يُعتمد سعره مؤشرا عالميا."
+     },
+     {
+      "t": "taux d'emprunt",
+      "t_ar": "سعر فائدة اقتراض",
+      "d": "Intérêt qu'un État paie pour emprunter de l'argent sur les marchés.",
+      "d_ar": "الفائدة التي تدفعها الدولة لاقتراض المال من الأسواق."
+     },
+     {
+      "t": "Nasdaq",
+      "t_ar": "ناسداك",
+      "d": "Indice de la Bourse de New York qui suit surtout les valeurs technologiques.",
+      "d_ar": "مؤشر في بورصة نيويورك يتتبع أساسا أسهم التكنولوجيا."
+     }
+    ],
+    "figures": [
+     {
+      "n": "113,17 dollars",
+      "n_ar": "113,17 دولارا",
+      "d": "Prix du baril de Brent, au plus haut depuis mai.",
+      "d_ar": "سعر برميل برنت، الأعلى منذ ماي."
+     },
+     {
+      "n": "5,07 %",
+      "n_ar": "5,07%",
+      "d": "Taux français à 10 ans, désormais au-dessus du taux américain (4,96 %).",
+      "d_ar": "سعر الفائدة الفرنسي لعشر سنوات، صار أعلى من الأمريكي (4,96%)."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "tech",
+   "title": "Le navigateur Arc s'arrêtera le 22 décembre au profit de Dia",
+   "title_ar": "متصفح «آرك» سيتوقف في 22 دجنبر لصالح «ديا»",
+   "summary": "The Browser Company arrêtera son navigateur Arc sur Mac et Windows le 22 décembre et invite ses utilisateurs à passer à Dia, son navigateur centré sur l'IA. Les mots de passe, favoris, extensions et historique peuvent être transférés.",
+   "summary_ar": "ستوقف شركة The Browser Company متصفحها «آرك» على ماك وويندوز في 22 دجنبر، وتدعو مستخدميه إلى الانتقال إلى «ديا»، متصفحها القائم على الذكاء الاصطناعي. ويمكن نقل كلمات المرور والمفضلة والإضافات وسجل التصفح.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/22/arc-browser-sunsets-december-22-as-the-browser-company-doubles-down-on-dia/",
+   "date": "2026-10-22",
+   "image": "https://techcrunch.com/wp-content/uploads/2024/05/arc-search-call.png?resize=1200,675",
+   "explain": {
+    "context": "Arc était apprécié des designers pour son interface originale. Atlassian a racheté son éditeur en 2025 pour 610 millions de dollars.",
+    "context_ar": "كان «آرك» محبوبا لدى المصممين بفضل واجهته المبتكرة. واشترت Atlassian الشركة المطورة له في 2025 مقابل 610 ملايين دولار.",
+    "terms": [
+     {
+      "t": "navigateur",
+      "t_ar": "المتصفح",
+      "d": "Logiciel qui sert à visiter des sites web, comme Chrome ou Safari.",
+      "d_ar": "برنامج لتصفح مواقع الإنترنت، مثل كروم أو سفاري."
+     },
+     {
+      "t": "extensions",
+      "t_ar": "الإضافات",
+      "d": "Petits modules ajoutés au navigateur pour lui donner de nouvelles fonctions.",
+      "d_ar": "وحدات صغيرة تُضاف إلى المتصفح لمنحه وظائف جديدة."
+     }
+    ],
+    "figures": [
+     {
+      "n": "22 décembre",
+      "n_ar": "22 دجنبر",
+      "d": "Date d'arrêt d'Arc ; les données seront effacées sous 30 jours.",
+      "d_ar": "تاريخ توقف آرك، وستُحذف البيانات خلال 30 يوما."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "gaming",
+   "title": "PS6 : un brevet de Sony décrit une IA qui prédit l'image suivante",
+   "title_ar": "بلايستيشن 6: براءة اختراع لسوني تصف ذكاء اصطناعيا يتنبأ بالصورة التالية",
+   "summary": "Un brevet publié le 15 octobre décrit la technologie « Generation Super Sampling » de Sony, qui utilise deux réseaux de neurones pour compresser une image puis prédire la suivante. L'objectif théorique serait la 4K à 120 images par seconde sur PS6.",
+   "summary_ar": "تصف براءة اختراع نُشرت في 15 أكتوبر تقنية «Generation Super Sampling» من سوني، التي تستعمل شبكتين عصبيتين لضغط الصورة ثم التنبؤ بالصورة الموالية. ويبقى الهدف النظري هو دقة 4K بـ120 صورة في الثانية على بلايستيشن 6.",
+   "source": "Jeuxvideo.com",
+   "url": "https://www.jeuxvideo.com/news/2109926/oui-sony-prepare-bien-une-technologie-revolutionnaire-pour-les-jeux-ps6-ce-qu-on-sait-deja.htm",
+   "date": "2026-10-23",
+   "image": "https://image.jeuxvideo.com/medias-crop-1200-675/179250/1792498167-7814-card.jpg",
+   "explain": {
+    "context": "La PS5 Pro utilise déjà une IA pour améliorer l'image. Un brevet ne garantit pas que la technologie sera bien présente dans la future console.",
+    "context_ar": "يستعمل جهاز بلايستيشن 5 برو أصلا ذكاء اصطناعيا لتحسين الصورة. ولا تضمن براءة الاختراع وجود هذه التقنية فعلا في الجهاز المقبل.",
+    "terms": [
+     {
+      "t": "brevet",
+      "t_ar": "براءة اختراع",
+      "d": "Document officiel qui protège une invention et empêche les autres de la copier.",
+      "d_ar": "وثيقة رسمية تحمي اختراعا وتمنع الآخرين من نسخه."
+     },
+     {
+      "t": "réseaux de neurones",
+      "t_ar": "الشبكات العصبية",
+      "d": "Programmes d'IA inspirés du cerveau, qui apprennent à partir d'exemples.",
+      "d_ar": "برامج ذكاء اصطناعي مستوحاة من الدماغ، تتعلم من الأمثلة."
+     }
+    ],
+    "figures": [
+     {
+      "n": "120 images par seconde",
+      "n_ar": "120 صورة في الثانية",
+      "d": "Fluidité visée ; la plupart des jeux tournent aujourd'hui à 30 ou 60.",
+      "d_ar": "السلاسة المستهدفة، بينما تعمل أغلب الألعاب اليوم بـ30 أو 60."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "geo",
+   "title": "Tibet : un séisme de magnitude 7 fait au moins 16 morts",
+   "title_ar": "التبت: زلزال بقوة 7 درجات يخلف 16 قتيلا على الأقل",
+   "summary": "Un tremblement de terre de magnitude 7 a frappé jeudi soir la région de Nagqu, au Tibet, tuant au moins 16 personnes et en blessant jusqu'à 65. Pékin a envoyé 1 600 secouristes, mais des routes sont bloquées par des chutes de pierres.",
+   "summary_ar": "ضرب زلزال بقوة 7 درجات مساء الخميس منطقة ناغتشو في التبت، مخلفا 16 قتيلا على الأقل وما يصل إلى 65 جريحا. وأرسلت بكين 1600 مسعف، لكن طرقا أُغلقت بسبب تساقط الصخور.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/22/magnitude-7-earthquake-kills-16-people-in-chinas-tibet-xinhua-reports",
+   "date": "2026-10-22",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6adaf7eb-1792735211.jpg?resize=1200%2C675",
+   "explain": {
+    "context": "C'est le séisme le plus fort en Chine depuis janvier 2024. La zone se trouve à environ 4 800 mètres d'altitude, ce qui complique les secours.",
+    "context_ar": "إنه أقوى زلزال يضرب الصين منذ يناير 2024. وتقع المنطقة على ارتفاع حوالي 4800 متر، ما يصعّب عمليات الإنقاذ.",
+    "terms": [
+     {
+      "t": "magnitude",
+      "t_ar": "قوة الزلزال",
+      "d": "Mesure de l'énergie libérée par un séisme ; 7 est un séisme majeur.",
+      "d_ar": "مقياس للطاقة التي يطلقها الزلزال، والدرجة 7 تعني زلزالا قويا."
+     }
+    ],
+    "figures": [
+     {
+      "n": "16 morts",
+      "n_ar": "16 قتيلا",
+      "d": "Bilan provisoire ; les autorités s'attendent à une hausse.",
+      "d_ar": "حصيلة مؤقتة، وتتوقع السلطات ارتفاعها."
+     },
+     {
+      "n": "1 600",
+      "n_ar": "1600",
+      "d": "Nombre de secouristes envoyés par Pékin.",
+      "d_ar": "عدد المسعفين الذين أرسلتهم بكين."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "geo",
+   "title": "L'UE décerne le prix Sakharov à la Cour pénale internationale",
+   "title_ar": "الاتحاد الأوروبي يمنح جائزة ساخاروف للمحكمة الجنائية الدولية",
+   "summary": "L'Union européenne a remis son prix Sakharov pour les droits humains à la Cour pénale internationale, deux semaines après de nouvelles sanctions américaines contre elle. L'UE se dit prête à prendre des mesures pour protéger la Cour.",
+   "summary_ar": "منح الاتحاد الأوروبي جائزة ساخاروف لحقوق الإنسان للمحكمة الجنائية الدولية، بعد أسبوعين من عقوبات أمريكية جديدة ضدها. وأكد الاتحاد استعداده لاتخاذ إجراءات لحماية المحكمة.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/22/us-sanctioned-icc-wins-sakharov-prize-eus-top-human-rights-award",
+   "date": "2026-10-22",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/2018-10-08T115900Z_55817062_RC19ABB9EF90_RTRMADP_3_NETHERLANDS-COURT-1792705359.jpg?resize=1920%2C1440",
+   "explain": {
+    "context": "Les États-Unis s'opposent à la Cour depuis ses mandats d'arrêt de 2024 contre Benjamin Netanyahu et Yoav Gallant. Les sanctions doivent entrer en vigueur dans six mois.",
+    "context_ar": "تعارض الولايات المتحدة المحكمة منذ مذكرات التوقيف التي أصدرتها في 2024 ضد بنيامين نتنياهو ويوآف غالانت. ومن المقرر أن تدخل العقوبات حيز التنفيذ بعد ستة أشهر.",
+    "terms": [
+     {
+      "t": "Cour pénale internationale",
+      "t_ar": "المحكمة الجنائية الدولية",
+      "d": "Tribunal de La Haye qui juge les crimes de guerre et contre l'humanité.",
+      "d_ar": "محكمة في لاهاي تحاكم جرائم الحرب والجرائم ضد الإنسانية."
+     },
+     {
+      "t": "sanctions",
+      "t_ar": "عقوبات",
+      "d": "Mesures de punition, comme bloquer des avoirs ou interdire des voyages.",
+      "d_ar": "إجراءات عقابية، مثل تجميد الأموال أو منع السفر."
+     }
+    ],
+    "figures": []
+   }
+  },
+  {
+   "cat": "geo",
+   "title": "Iran : les Gardiens de la révolution adoptent une doctrine « offensive »",
+   "title_ar": "إيران: الحرس الثوري يتبنى عقيدة «هجومية»",
+   "summary": "L'Iran a présenté une nouvelle doctrine militaire plus offensive, tandis que les États-Unis ont lancé une alerte, après près de huit mois de guerre. Sept navires ont été touchés dans le Golfe et près d'Ormuz, et le Brent a dépassé 110 dollars.",
+   "summary_ar": "قدمت إيران عقيدة عسكرية جديدة أكثر هجومية، بينما أصدرت الولايات المتحدة تحذيرا، بعد قرابة ثمانية أشهر من الحرب. وأُصيبت سبع سفن في الخليج وقرب هرمز، وتجاوز سعر برنت 110 دولارات.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/22/iran-reveals-offensive-doctrine-us-issues-alert-is-war-imminent",
+   "date": "2026-10-22",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ad9ba969981-1792653974.jpg?resize=1920%2C1440",
+   "explain": {
+    "context": "Avant la guerre, environ un cinquième du pétrole et du gaz mondiaux passait par Ormuz. L'Iran propose un plan de sept jours pour rouvrir le passage contre la fin du blocus américain.",
+    "context_ar": "قبل الحرب، كان نحو خُمس النفط والغاز العالميين يمر عبر هرمز. وتقترح إيران خطة من سبعة أيام لإعادة فتح الممر مقابل إنهاء الحصار الأمريكي.",
+    "terms": [
+     {
+      "t": "doctrine",
+      "t_ar": "العقيدة",
+      "d": "Ensemble de règles qui guident la façon dont une armée agit.",
+      "d_ar": "مجموعة قواعد توجه طريقة عمل الجيش."
+     }
+    ],
+    "figures": [
+     {
+      "n": "Sept navires",
+      "n_ar": "سبع سفن",
+      "d": "Bateaux touchés selon la marine des Gardiens de la révolution.",
+      "d_ar": "سفن أُصيبت حسب بحرية الحرس الثوري."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "cinema",
+   "title": "Cyberpunk Edgerunners : la saison 2 sur Netflix déçoit",
+   "title_ar": "سايبربانك إيدج رانرز: الموسم الثاني على نتفليكس مخيب",
+   "summary": "Quatre ans après la première, la saison 2 de l'anime Cyberpunk Edgerunners est sortie sur Netflix avec de nouveaux héros. Elle obtient 78 % des critiques sur Rotten Tomatoes, contre 89 % pour la saison 1, et 60 % du public.",
+   "summary_ar": "بعد أربع سنوات من الموسم الأول، صدر الموسم الثاني من أنمي «سايبربانك إيدج رانرز» على نتفليكس بأبطال جدد. وحصل على 78% من النقاد في موقع Rotten Tomatoes مقابل 89% للموسم الأول، و60% من الجمهور.",
+   "source": "Jeuxvideo.com",
+   "url": "https://www.jeuxvideo.com/news/2110418/la-saison-2-de-cyberpunk-edgerunners-sur-netflix-decoit-elle-ne-reussit-pas-a-faire-aussi-bien-que-la-masterclass-de-la-saison-1.htm",
+   "date": "2026-10-23",
+   "image": "https://image.jeuxvideo.com/medias-crop-1200-675/179268/1792681486-6888-card.jpg",
+   "explain": {
+    "context": "La série, tirée du jeu Cyberpunk 2077, est animée par le studio japonais Trigger. La saison 1, sortie en 2022, avait été un grand succès.",
+    "context_ar": "المسلسل مقتبس من لعبة Cyberpunk 2077، وينتجه استوديو التحريك الياباني Trigger. وقد حقق الموسم الأول، الصادر في 2022، نجاحا كبيرا.",
+    "terms": [
+     {
+      "t": "anime",
+      "t_ar": "الأنمي",
+      "d": "Série ou film d'animation de style japonais.",
+      "d_ar": "مسلسل أو فيلم رسوم متحركة بالأسلوب الياباني."
+     }
+    ],
+    "figures": [
+     {
+      "n": "78 %",
+      "n_ar": "78%",
+      "d": "Avis positifs des critiques pour la saison 2 ; 89 % pour la saison 1.",
+      "d_ar": "نسبة الآراء الإيجابية للنقاد عن الموسم الثاني، مقابل 89% للأول."
+     }
+    ]
+   }
+  },
+  {
+   "cat": "ux",
+   "date": "2026-10-23",
    "explain": {
     "context": "En 2023, la fin du partenariat avec la FIFA a obligé EA à renommer son jeu de foot. Cette nouvelle identité prolonge le logo créé à ce moment-là.",
     "context_ar": "في 2023، أجبرت نهاية الشراكة مع الفيفا شركة إي إيه على تغيير اسم لعبة كرة القدم. وهذه الهوية الجديدة تطوّر الشعار الذي صُمم في ذلك الوقت.",
+    "figures": [],
     "terms": [
      {
-      "t": "identité",
-      "t_ar": "الهوية",
       "d": "L'ensemble des signes d'une marque : logo, couleurs, typographie, images.",
-      "d_ar": "مجموع العلامات البصرية للماركة: الشعار والألوان والخط والصور."
+      "d_ar": "مجموع العلامات البصرية للماركة: الشعار والألوان والخط والصور.",
+      "t": "identité",
+      "t_ar": "الهوية"
      },
      {
-      "t": "curseur",
-      "t_ar": "المؤشر",
       "d": "Le petit signe à l'écran qui montre quel joueur on dirige dans le jeu.",
-      "d_ar": "العلامة الصغيرة على الشاشة التي تبيّن اللاعب الذي نتحكم فيه داخل اللعبة."
+      "d_ar": "العلامة الصغيرة على الشاشة التي تبيّن اللاعب الذي نتحكم فيه داخل اللعبة.",
+      "t": "curseur",
+      "t_ar": "المؤشر"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "",
+   "source": "Creative Bloq",
+   "summary": "Le studio DixonBaxi a conçu la nouvelle identité du jeu EA Sports FC 27, qui mélange culture du sport et culture du jeu vidéo. Il garde le triangle du logo, inspiré du curseur qui suit le joueur contrôlé, mais le rend libre pour qu'il change de forme selon chaque usage.",
+   "summary_ar": "صمم استوديو ديكسون باكسي الهوية الجديدة للعبة إي إيه سبورتس إف سي 27، وهي تمزج بين ثقافة الرياضة وثقافة ألعاب الفيديو. وقد احتفظ بمثلث الشعار المستوحى من المؤشر الذي يتبع اللاعب المتحكَّم فيه، لكنه جعله حرا ليتغير شكله حسب كل استعمال.",
+   "title": "EA Sports FC 27 : une nouvelle identité pensée comme un système qui bouge",
+   "title_ar": "إي إيه سبورتس إف سي 27: هوية جديدة مصممة كنظام متحرك",
+   "url": "https://www.creativebloq.com/news/the-ambitious-ea-sports-rebrand-looks-great-from-every-angle"
   },
   {
    "cat": "ux",
-   "title": "Utilisateurs synthétiques : même conclusion que les humains, mais moins de nuances",
-   "title_ar": "المستخدمون الاصطناعيون: نفس الخلاصة التي يصل إليها البشر لكن بفروق أقل",
-   "summary": "Nielsen Norman Group a posé la même question ouverte à 604 professionnels et à 120 répondants créés par une IA. La conclusion générale est la même, mais les réponses de l'IA se limitent à une douzaine de termes, contre plus de 50 chez les humains.",
-   "summary_ar": "طرحت مجموعة نيلسن نورمان نفس السؤال المفتوح على 604 مهنيين وعلى 120 مشاركا أنشأهم الذكاء الاصطناعي. الخلاصة العامة واحدة، لكن أجوبة الذكاء الاصطناعي اقتصرت على نحو اثني عشر مصطلحا، مقابل أكثر من 50 لدى البشر.",
-   "source": "Nielsen Norman Group",
-   "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/",
    "date": "2026-10-16",
-   "image": "https://media.nngroup.com/media/articles/opengraph_images/Synthetic_Users_vs._Human_Respondents__Same_Conclusion_Less_Variation.png",
    "explain": {
     "context": "Des outils proposent de remplacer les participants d'une enquête par des profils simulés par l'IA. L'étude teste si ces réponses ressemblent vraiment à celles des humains.",
     "context_ar": "تقترح بعض الأدوات تعويض المشاركين في الاستطلاعات بملفات يحاكيها الذكاء الاصطناعي. وتختبر الدراسة هل تشبه هذه الأجوبة فعلا أجوبة البشر.",
-    "terms": [
-     {
-      "t": "Utilisateurs synthétiques",
-      "t_ar": "المستخدمون الاصطناعيون",
-      "d": "Faux participants créés par une IA pour répondre à la place de vraies personnes.",
-      "d_ar": "مشاركون غير حقيقيين يصنعهم الذكاء الاصطناعي ليجيبوا بدل أشخاص حقيقيين."
-     }
-    ],
     "figures": [
      {
-      "n": "84 %",
-      "n_ar": "84%",
       "d": "Part des répondants IA qui parlent d'UX, contre environ 70 % chez les humains.",
-      "d_ar": "نسبة المشاركين الاصطناعيين الذين ذكروا تجربة المستخدم، مقابل نحو 70% لدى البشر."
+      "d_ar": "نسبة المشاركين الاصطناعيين الذين ذكروا تجربة المستخدم، مقابل نحو 70% لدى البشر.",
+      "n": "84 %",
+      "n_ar": "84%"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Faux participants créés par une IA pour répondre à la place de vraies personnes.",
+      "d_ar": "مشاركون غير حقيقيين يصنعهم الذكاء الاصطناعي ليجيبوا بدل أشخاص حقيقيين.",
+      "t": "Utilisateurs synthétiques",
+      "t_ar": "المستخدمون الاصطناعيون"
      }
     ]
-   }
+   },
+   "image": "https://media.nngroup.com/media/articles/opengraph_images/Synthetic_Users_vs._Human_Respondents__Same_Conclusion_Less_Variation.png",
+   "source": "Nielsen Norman Group",
+   "summary": "Nielsen Norman Group a posé la même question ouverte à 604 professionnels et à 120 répondants créés par une IA. La conclusion générale est la même, mais les réponses de l'IA se limitent à une douzaine de termes, contre plus de 50 chez les humains.",
+   "summary_ar": "طرحت مجموعة نيلسن نورمان نفس السؤال المفتوح على 604 مهنيين وعلى 120 مشاركا أنشأهم الذكاء الاصطناعي. الخلاصة العامة واحدة، لكن أجوبة الذكاء الاصطناعي اقتصرت على نحو اثني عشر مصطلحا، مقابل أكثر من 50 لدى البشر.",
+   "title": "Utilisateurs synthétiques : même conclusion que les humains, mais moins de nuances",
+   "title_ar": "المستخدمون الاصطناعيون: نفس الخلاصة التي يصل إليها البشر لكن بفروق أقل",
+   "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/"
   },
   {
    "cat": "divers",
-   "sub": "enfant",
-   "title": "Les enfants de maternelle ne sont pas plus créatifs que les adultes, mais plus confiants",
-   "title_ar": "أطفال الروض ليسوا أكثر إبداعا من الكبار، لكنهم أكثر ثقة بأنفسهم",
-   "summary": "Une équipe de l'université de Graz, en Autriche, a comparé 92 enfants d'âge préscolaire et 70 adultes sur trois tâches créatives, comme dessiner un animal imaginaire. Les créations des adultes ont été jugées plus originales, mais les enfants ont pris plus de plaisir et ressenti moins d'anxiété.",
-   "summary_ar": "قارن فريق من جامعة غراتس في النمسا بين 92 طفلا في سن ما قبل المدرسة و70 بالغا في ثلاث مهام إبداعية، مثل رسم حيوان خيالي. واعتُبرت أعمال الكبار أكثر أصالة، لكن الأطفال استمتعوا أكثر وشعروا بقلق أقل.",
-   "source": "Scimex",
-   "url": "https://scimex.org/newsfeed/your-toddler-isnt-more-creative-than-you-theyre-just-more-confident",
    "date": "2026-10-22",
-   "image": "https://www.scimex.org/__data/assets/image/0012/1266699/tho-ge-child-8347081.jpg",
    "explain": {
     "context": "Beaucoup pensent que les petits sont naturellement plus créatifs. L'étude, publiée dans la revue PLOS One, a fait noter les œuvres par des juges qui ne savaient pas qui les avait faites.",
     "context_ar": "يعتقد كثيرون أن الصغار أكثر إبداعا بطبيعتهم. وقد نُشرت الدراسة في مجلة بلوس وان، وقيّم الأعمالَ حكامٌ لا يعرفون من أنجزها.",
-    "terms": [
-     {
-      "t": "préscolaire",
-      "t_ar": "ما قبل المدرسة",
-      "d": "La période avant l'école primaire, en général entre 3 et 6 ans.",
-      "d_ar": "المرحلة التي تسبق المدرسة الابتدائية، عادة بين 3 و6 سنوات."
-     }
-    ],
     "figures": [
      {
-      "n": "3 adultes sur 4",
-      "n_ar": "3 من كل 4 بالغين",
       "d": "Plus des trois quarts des adultes pensaient que les petits étaient plus créatifs.",
-      "d_ar": "أكثر من ثلاثة أرباع البالغين كانوا يظنون أن الصغار أكثر إبداعا."
+      "d_ar": "أكثر من ثلاثة أرباع البالغين كانوا يظنون أن الصغار أكثر إبداعا.",
+      "n": "3 adultes sur 4",
+      "n_ar": "3 من كل 4 بالغين"
+     }
+    ],
+    "terms": [
+     {
+      "d": "La période avant l'école primaire, en général entre 3 et 6 ans.",
+      "d_ar": "المرحلة التي تسبق المدرسة الابتدائية، عادة بين 3 و6 سنوات.",
+      "t": "préscolaire",
+      "t_ar": "ما قبل المدرسة"
      }
     ]
-   }
+   },
+   "image": "https://www.scimex.org/__data/assets/image/0012/1266699/tho-ge-child-8347081.jpg",
+   "source": "Scimex",
+   "sub": "enfant",
+   "summary": "Une équipe de l'université de Graz, en Autriche, a comparé 92 enfants d'âge préscolaire et 70 adultes sur trois tâches créatives, comme dessiner un animal imaginaire. Les créations des adultes ont été jugées plus originales, mais les enfants ont pris plus de plaisir et ressenti moins d'anxiété.",
+   "summary_ar": "قارن فريق من جامعة غراتس في النمسا بين 92 طفلا في سن ما قبل المدرسة و70 بالغا في ثلاث مهام إبداعية، مثل رسم حيوان خيالي. واعتُبرت أعمال الكبار أكثر أصالة، لكن الأطفال استمتعوا أكثر وشعروا بقلق أقل.",
+   "title": "Les enfants de maternelle ne sont pas plus créatifs que les adultes, mais plus confiants",
+   "title_ar": "أطفال الروض ليسوا أكثر إبداعا من الكبار، لكنهم أكثر ثقة بأنفسهم",
+   "url": "https://scimex.org/newsfeed/your-toddler-isnt-more-creative-than-you-theyre-just-more-confident"
   },
   {
    "cat": "divers",
-   "sub": "montessori",
-   "title": "Réunion parents-professeur : parler aussi de concentration et d'autonomie",
-   "title_ar": "لقاء الآباء والمعلم: الحديث أيضا عن التركيز والاستقلالية",
-   "summary": "La Montessori Foundation conseille aux parents de ne pas limiter la réunion d'automne aux résultats scolaires, mais de parler aussi de concentration, d'autonomie, d'amitiés et de confiance. Elle propose de venir avec ses observations de la maison, d'éviter les comparaisons et de repartir avec un petit plan commun.",
-   "summary_ar": "تنصح مؤسسة مونتيسوري الآباء بألا يقتصر لقاء الخريف على النتائج الدراسية، بل أن يشمل أيضا التركيز والاستقلالية والصداقات والثقة بالنفس. وتقترح أن يحضروا ملاحظاتهم من البيت، وأن يتجنبوا المقارنات، وأن يخرجوا بخطة صغيرة مشتركة.",
-   "source": "Montessori Foundation",
-   "url": "https://www.montessori.org/your-childs-fall-conference-the-conversation-that-matters-most/",
    "date": "2026-10-21",
-   "image": "https://www.montessori.org/wp-content/uploads/2026/10/conference.webp",
    "explain": {
     "context": "À l'automne, beaucoup d'écoles organisent un premier rendez-vous entre parents et enseignant. La pédagogie Montessori y voit l'occasion de suivre tout le développement de l'enfant.",
     "context_ar": "في الخريف، تنظم مدارس كثيرة أول لقاء بين الآباء والمعلم. وترى بيداغوجيا مونتيسوري فيه فرصة لتتبع نمو الطفل بكل جوانبه.",
+    "figures": [],
     "terms": [
      {
-      "t": "autonomie",
-      "t_ar": "الاستقلالية",
       "d": "La capacité de l'enfant à faire seul des choses adaptées à son âge.",
-      "d_ar": "قدرة الطفل على القيام وحده بأشياء تناسب سنه."
+      "d_ar": "قدرة الطفل على القيام وحده بأشياء تناسب سنه.",
+      "t": "autonomie",
+      "t_ar": "الاستقلالية"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://www.montessori.org/wp-content/uploads/2026/10/conference.webp",
+   "source": "Montessori Foundation",
+   "sub": "montessori",
+   "summary": "La Montessori Foundation conseille aux parents de ne pas limiter la réunion d'automne aux résultats scolaires, mais de parler aussi de concentration, d'autonomie, d'amitiés et de confiance. Elle propose de venir avec ses observations de la maison, d'éviter les comparaisons et de repartir avec un petit plan commun.",
+   "summary_ar": "تنصح مؤسسة مونتيسوري الآباء بألا يقتصر لقاء الخريف على النتائج الدراسية، بل أن يشمل أيضا التركيز والاستقلالية والصداقات والثقة بالنفس. وتقترح أن يحضروا ملاحظاتهم من البيت، وأن يتجنبوا المقارنات، وأن يخرجوا بخطة صغيرة مشتركة.",
+   "title": "Réunion parents-professeur : parler aussi de concentration et d'autonomie",
+   "title_ar": "لقاء الآباء والمعلم: الحديث أيضا عن التركيز والاستقلالية",
+   "url": "https://www.montessori.org/your-childs-fall-conference-the-conversation-that-matters-most/"
   },
   {
    "cat": "maroc",
@@ -3601,174 +4269,6 @@
    "url": "https://www.silverscreenandroll.com/lakers-scores-results/127638/lakers-vs-warriors-recap-box-score-stats-final-austin-reaves-walker-kessler-luka-doncic"
   },
   {
-   "cat": "ia",
-   "date": "2026-10-21",
-   "explain": {
-    "context": "Le droit est l'un des métiers où l'IA avance vite. Legora veut utiliser cet argent pour se développer en Amérique du Nord.",
-    "context_ar": "القانون من المهن التي يتقدم فيها الذكاء الاصطناعي بسرعة. وتريد Legora استعمال هذا المال للتوسع في أمريكا الشمالية.",
-    "figures": [
-     {
-      "d": "Valeur de Legora, soit environ 44 fois ses revenus annuels.",
-      "d_ar": "قيمة Legora، أي نحو 44 مرة إيراداتها السنوية.",
-      "n": "8,8 milliards de dollars",
-      "n_ar": "8,8 مليار دولار"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Valeur totale donnée à l'entreprise par les investisseurs au moment où ils achètent des parts.",
-      "d_ar": "القيمة الإجمالية التي يمنحها المستثمرون للشركة عند شرائهم حصصاً فيها.",
-      "t": "valorisée",
-      "t_ar": "مقيّمة"
-     }
-    ]
-   },
-   "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2296593553.jpg?w=1024",
-   "source": "TechCrunch",
-   "summary": "La jeune pousse Legora, qui aide les juristes à automatiser leurs tâches, est désormais valorisée 8,8 milliards de dollars. Ses revenus annuels dépassent 200 millions de dollars, le double d'avril.",
-   "summary_ar": "أصبحت الشركة الناشئة Legora، التي تساعد القانونيين على أتمتة مهامهم، مقيّمة بـ8,8 مليار دولار. وتتجاوز إيراداتها السنوية 200 مليون دولار، أي ضعف ما كانت عليه في أبريل.",
-   "title": "IA pour les avocats : Legora lève 550 millions de dollars",
-   "title_ar": "الذكاء الاصطناعي للمحامين: Legora تجمع 550 مليون دولار",
-   "url": "https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/"
-  },
-  {
-   "cat": "eco",
-   "date": "2026-10-21",
-   "explain": {
-    "context": "Ce plan, appelé « Vision 2040 », fait partie du Pacte européen pour les océans de 2025. Le secteur fait vivre plus de 200 000 personnes dans l'UE.",
-    "context_ar": "تندرج هذه الخطة، المسماة «رؤية 2040»، ضمن الميثاق الأوروبي للمحيطات لسنة 2025. ويشغّل القطاع أكثر من 200 ألف شخص في الاتحاد الأوروبي.",
-    "figures": [
-     {
-      "d": "Somme prévue sur sept ans (2028-2034), soit environ 285 millions par an.",
-      "d_ar": "المبلغ المرتقب على سبع سنوات (2028-2034)، أي نحو 285 مليون يورو سنوياً.",
-      "n": "2 milliards d'euros",
-      "n_ar": "ملياري يورو"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Élevage de poissons, de coquillages ou d'algues dans des bassins ou en mer.",
-      "d_ar": "تربية الأسماك أو المحار أو الطحالب في أحواض أو في البحر.",
-      "t": "aquaculture",
-      "t_ar": "تربية الأحياء المائية"
-     },
-     {
-      "d": "Somme d'argent réservée à l'avance pour un usage précis.",
-      "d_ar": "مبلغ مالي يُخصص مسبقاً لاستعمال محدد.",
-      "t": "enveloppe",
-      "t_ar": "غلاف مالي"
-     },
-     {
-      "d": "Gaz polluants rejetés dans l'air, surtout par les moteurs qui brûlent du carburant.",
-      "d_ar": "غازات ملوثة تُطلق في الهواء، خاصة من المحركات التي تحرق الوقود.",
-      "t": "émissions",
-      "t_ar": "الانبعاثات"
-     }
-    ]
-   },
-   "image": "https://f2.hespress.com/wp-content/uploads/2026/01/maroc_ue_peche.jpg",
-   "source": "Hespress FR",
-   "summary": "La Commission européenne propose une enveloppe de 2 milliards d'euros dans son budget 2028-2034 pour aider la pêche et l'aquaculture à se financer. Elle vise des bateaux à faibles ou zéro émissions après 2030.",
-   "summary_ar": "تقترح المفوضية الأوروبية غلافاً بقيمة ملياري يورو في ميزانية 2028-2034 لمساعدة الصيد البحري وتربية الأحياء المائية على التمويل. وتستهدف سفناً قليلة أو منعدمة الانبعاثات بعد 2030.",
-   "title": "Pêche : l'UE prévoit 2 milliards d'euros pour moderniser le secteur",
-   "title_ar": "الصيد البحري: الاتحاد الأوروبي يخصص ملياري يورو لتحديث القطاع",
-   "url": "https://fr.hespress.com/493324-lue-prevoit-2-milliards-deuros-pour-moderniser-la-peche-et-laquaculture.html"
-  },
-  {
-   "cat": "tech",
-   "date": "2026-10-21",
-   "explain": {
-    "context": "Pac-Man est un jeu vidéo culte des années 1980. Les marques utilisent souvent ce genre de personnage pour rendre un objet technique plus sympathique.",
-    "context_ar": "باك مان لعبة فيديو شهيرة من ثمانينيات القرن الماضي. وكثيراً ما تستعمل العلامات التجارية مثل هذه الشخصيات لجعل منتج تقني أكثر جاذبية.",
-    "figures": [
-     {
-      "d": "Prix du système complet, soit environ 60 000 dirhams.",
-      "d_ar": "سعر النظام الكامل، أي نحو 60 ألف درهم.",
-      "n": "6 399 dollars",
-      "n_ar": "6399 دولاراً"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Version d'un produit fabriquée en petit nombre, souvent avec un décor spécial.",
-      "d_ar": "نسخة من منتج تُصنع بعدد قليل، غالباً بتصميم خاص.",
-      "t": "édition limitée",
-      "t_ar": "نسخة محدودة"
-     }
-    ]
-   },
-   "image": "",
-   "source": "Creative Bloq",
-   "summary": "Yarbo sort une édition limitée de son robot chasse-neige décorée avec Pac-Man, en accord avec Bandai Namco. Il se guide par GPS, trace seul son chemin et retourne se recharger.",
-   "summary_ar": "تطرح Yarbo نسخة محدودة من روبوتها لإزالة الثلوج مزينة بشخصية باك مان، باتفاق مع Bandai Namco. ويهتدي بنظام GPS ويرسم مساره وحده ويعود لإعادة الشحن.",
-   "title": "Un robot chasse-neige aux couleurs de Pac-Man, à 6 399 dollars",
-   "title_ar": "روبوت لإزالة الثلوج بألوان باك مان بسعر 6399 دولاراً",
-   "url": "https://www.creativebloq.com/news/this-pac-man-snow-blower-makes-me-want-a-robot-i-dont-need"
-  },
-  {
-   "cat": "gaming",
-   "date": "2026-10-21",
-   "explain": {
-    "context": "Le studio TiMi, filiale de Tencent, développait ce jeu en monde ouvert. Les vidéos viennent surtout d'un prototype de février 2025.",
-    "context_ar": "كان استوديو TiMi، التابع لـTencent، يطور هذه اللعبة ذات العالم المفتوح. وتعود الفيديوهات أساساً إلى نموذج أولي من فبراير 2025.",
-    "figures": [
-     {
-      "d": "Époque du jeu : la chute de la dynastie Qin et l'arrivée des Han en Chine.",
-      "d_ar": "زمن أحداث اللعبة: سقوط سلالة تشين وصعود سلالة هان في الصين.",
-      "n": "206 avant J.-C.",
-      "n_ar": "206 قبل الميلاد"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Décision de dépenser moins d'argent, souvent en arrêtant des projets.",
-      "d_ar": "قرار إنفاق مال أقل، غالباً عبر إيقاف مشاريع.",
-      "t": "coupes budgétaires",
-      "t_ar": "تقليص الميزانيات"
-     }
-    ]
-   },
-   "image": "https://image.jeuxvideo.com/medias-crop-1200-675/179249/1792489987-1032-card.jpg",
-   "source": "Jeuxvideo.com",
-   "summary": "Des images montrent ce projet de Tencent et Ubisoft situé en 206 avant J.-C., avec un combat contre Xiang Yu. Le jeu a été annulé à cause de coupes budgétaires des deux côtés.",
-   "summary_ar": "تُظهر لقطات هذا المشروع المشترك بين Tencent وUbisoft، الذي تدور أحداثه سنة 206 قبل الميلاد، مع مواجهة ضد شيانغ يو. وقد أُلغيت اللعبة بسبب تقليص الميزانيات لدى الطرفين.",
-   "title": "Assassin's Creed Destiny : le jeu annulé en Chine antique se dévoile en vidéo",
-   "title_ar": "Assassin's Creed Destiny: اللعبة الملغاة في الصين القديمة تظهر في فيديو",
-   "url": "https://www.jeuxvideo.com/news/2109625/cet-assassin-s-creed-en-chine-se-devoile-en-videos-et-il-etait-tres-prometteur-dommage.htm"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-21",
-   "explain": {
-    "context": "Volkanovski, 38 ans, a repris son titre après deux défaites par KO. Evloev attend sa chance depuis des années, retardé par des blessures et des combats annulés.",
-    "context_ar": "استعاد فولكانوفسكي (38 عاماً) لقبه بعد هزيمتين بالضربة القاضية. أما إيفلوييف فينتظر فرصته منذ سنوات بسبب الإصابات وإلغاء النزالات.",
-    "figures": [
-     {
-      "d": "Nombre de victoires d'Evloev sans aucune défaite, dont 10 à l'UFC : un bilan parfait rare à ce niveau.",
-      "d_ar": "عدد انتصارات إيفلوييف دون أي هزيمة، منها 10 في UFC، وهو سجل مثالي نادر في هذا المستوى.",
-      "n": "20",
-      "n_ar": "20"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Catégorie de combattants qui pèsent au plus 66 kg (145 livres) le jour de la pesée.",
-      "d_ar": "فئة المقاتلين الذين لا يتجاوز وزنهم 66 كلغ (145 رطلاً) يوم الميزان.",
-      "t": "poids plumes",
-      "t_ar": "وزن الريشة"
-     }
-    ]
-   },
-   "image": "https://www.thenationalnews.com/resizer/v2/2C6LGEFUJJC4THGOAJT5KTPVO4.jpg?auth=6686101d1a5f493a9fe72d93f76fd73a197c026014c1ab9cded621f8743a1741&focal=2465%2C1245&width=1200&height=630",
-   "source": "The National",
-   "sport": "mma",
-   "summary": "Samedi, le champion des poids plumes défend sa ceinture face au Russe Movsar Evloev, invaincu en 20 combats. Une victoire lui donnerait neuf succès en combat pour le titre dans cette catégorie, un de plus qu'Aldo.",
-   "summary_ar": "يدافع بطل وزن الريشة يوم السبت عن حزامه أمام الروسي موفسار إيفلوييف الذي لم يُهزم في 20 نزالاً. والفوز سيمنحه تسعة انتصارات في نزالات اللقب بهذه الفئة، أي بواحد أكثر من ألدو.",
-   "title": "UFC 333 : à Abou Dhabi, Volkanovski peut battre un record de José Aldo",
-   "title_ar": "UFC 333: في أبوظبي، يمكن لفولكانوفسكي تحطيم رقم جوزيه ألدو",
-   "url": "https://www.thenationalnews.com/sport/combat-sports/2026/10/21/ufc-333-volkanovski-targets-quick-finish-as-he-bids-to-make-history-against-evloev-in-abu-dhabi/"
-  },
-  {
    "cat": "ux",
    "date": "2026-10-21",
    "explain": {
@@ -3791,31 +4291,6 @@
    "title": "Sunlife : un nouveau logo très minimal, « pensé pour le numérique », divise",
    "title_ar": "صن لايف: شعار جديد شديد البساطة «مصمم للعالم الرقمي» يقسم الآراء",
    "url": "https://www.creativebloq.com/news/sunlifes-new-logo-design-is-optimised-for-a-digital-world-but-does-it-take-minimalism-too-far"
-  },
-  {
-   "cat": "sport",
-   "date": "2026-10-21",
-   "explain": {
-    "context": "Le PSG a battu Barcelone mardi en Ligue des champions, mais perd un joueur clé pour une grande partie de la saison.",
-    "context_ar": "فاز باريس على برشلونة الثلاثاء في دوري الأبطال، لكنه يفقد لاعبًا مهمًا لجزء كبير من الموسم.",
-    "figures": [],
-    "terms": [
-     {
-      "d": "Ligament qui tient le genou stable. Une déchirure demande une opération et environ six à neuf mois de repos.",
-      "d_ar": "رباط يثبّت الركبة. تمزقه يتطلب عملية وراحة نحو ستة إلى تسعة أشهر.",
-      "t": "ligament croisé",
-      "t_ar": "الرباط الصليبي"
-     }
-    ]
-   },
-   "image": "https://f2.hespress.com/wp-content/overlay/2026/10/kvara_blessure.jpg?v2",
-   "source": "Hespress FR",
-   "sport": "football",
-   "summary": "L'ailier du PSG s'est déchiré le ligament croisé du genou droit contre Barcelone (4-2). Dembélé et Marquinhos souffrent aussi de la cuisse et seront soignés plusieurs semaines.",
-   "summary_ar": "تمزق الرباط الصليبي في ركبة جناح باريس اليمنى أمام برشلونة (4-2). ويعاني ديمبيلي وماركينيوس أيضًا من إصابة في الفخذ وسيخضعان للعلاج أسابيع.",
-   "title": "PSG : Kvaratskhelia gravement blessé au genou, absent plusieurs mois",
-   "title_ar": "باريس سان جيرمان: كفاراتسخيليا مصاب بشدة في الركبة وغائب لأشهر",
-   "url": "https://fr.hespress.com/493348-psg-kvaratskhelia-gravement-blesse-au-genou-droit-absent-plusieurs-mois.html"
   },
   {
    "cat": "ux",
@@ -3922,43 +4397,6 @@
    "title": "Pourquoi les routines rassurent les jeunes enfants, selon l'approche Montessori",
    "title_ar": "لماذا تطمئن العادات اليومية الأطفال الصغار حسب منهج مونتيسوري",
    "url": "https://www.montessori.org/the-comfort-of-knowing-what-comes-next/"
-  },
-  {
-   "cat": "eco",
-   "date": "2026-10-21",
-   "explain": {
-    "context": "Les grandes entreprises américaines publient leurs comptes chaque trimestre. La Bourse réagit souvent plus aux prévisions pour l'avenir qu'aux résultats passés.",
-    "context_ar": "تنشر الشركات الأمريكية الكبرى حساباتها كل ثلاثة أشهر. وكثيراً ما تتفاعل البورصة مع التوقعات المستقبلية أكثر من النتائج الماضية.",
-    "figures": [
-     {
-      "d": "La hausse des ventes sur un an. C'est moins qu'au début de l'année (16 % au premier trimestre) : la croissance ralentit.",
-      "d_ar": "ارتفاع المبيعات على مدى عام. وهو أقل مما كان في بداية السنة (16% في الربع الأول): النمو يتباطأ.",
-      "n": "12 %",
-      "n_ar": "12%"
-     }
-    ],
-    "terms": [
-     {
-      "d": "Tout l'argent encaissé grâce aux ventes, ici les abonnements et la publicité, avant de payer les dépenses.",
-      "d_ar": "مجموع المال المحصّل من المبيعات، هنا الاشتراكات والإعلانات، قبل دفع المصاريف.",
-      "t": "chiffre d'affaires",
-      "t_ar": "رقم معاملات"
-     },
-     {
-      "d": "Période de trois mois. Le troisième trimestre va de juillet à septembre.",
-      "d_ar": "فترة من ثلاثة أشهر. والربع الثالث يمتد من يوليوز إلى شتنبر.",
-      "t": "trimestre",
-      "t_ar": "الربع"
-     }
-    ]
-   },
-   "image": "https://strapi-cdn.indmoney.com/cdn-cgi/image/quality=80,format=auto,metadata=copyright,width=700/https://strapi-cdn.indmoney.com/xlarge_Netflix_Stock_Crashes_After_Q3_Earnings_Here_s_Why_8866c8abd0.png",
-   "source": "INDmoney",
-   "summary": "Netflix a gagné 3,7 milliards de dollars au troisième trimestre, pour 12,9 milliards de chiffre d'affaires, en hausse de 12 %. Mais l'entreprise a baissé sa prévision de recettes publicitaires pour l'année, d'environ 3 à 2,7 milliards, et son action a perdu près de 6 % dans les échanges qui ont suivi l'annonce.",
-   "summary_ar": "حققت نتفليكس أرباحاً بقيمة 3,7 مليار دولار في الربع الثالث، من رقم معاملات بلغ 12,9 مليار بارتفاع 12%. لكن الشركة خفّضت توقعاتها لإيرادات الإعلانات هذا العام من نحو 3 إلى 2,7 مليار، وفقد سهمها قرابة 6% بعد الإعلان.",
-   "title": "Netflix : bons résultats, mais l'action chute de près de 6 %",
-   "title_ar": "نتفليكس: نتائج جيدة لكن السهم يتراجع بنحو 6%",
-   "url": "https://www.indmoney.com/blog/us-stocks/netflix-stock-q3-earnings-analysis-nflx"
   },
   {
    "cat": "ux",
@@ -8113,6 +8551,6 @@
    "العالم: هرمز: برنت يتجاوز 112 دولارا. وإسرائيل تصوت الثلاثاء دون أغلبية واضحة.",
    "الاقتصاد: ناسداك يخسر 2,6٪. ومخاوف الذكاء الاصطناعي والنفط ترعب البورصات."
   ],
-  "updatedAt": "2026-10-23T07:06:47Z"
+  "updatedAt": "2026-10-23T10:24:05Z"
  }
 }
