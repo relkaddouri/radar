@@ -142,15 +142,15 @@
    "level": 2,
    "place": "Almaty Open, Almaty (Kazakhstan)",
    "place_ar": "دورة ألماتي المفتوحة، ألماتي (كازاخستان)",
+   "recap": "https://www.eurosport.fr/tennis/atp-almaty-2026/2026/atp-almaty-terence-atmane-est-tombe-sur-un-os-nomme-daniil-medvedev_sto23348455/story.shtml",
+   "result": "Medvedev bat Atmane 6-4 6-4",
+   "result_ar": "ميدفيديف يهزم أتمان 6-4 و6-4",
    "sport": "tennis",
    "start": "2026-10-23",
    "title": "Medvedev (5) – Atmane (89)",
    "title_ar": "ميدفيديف (5) – أتمان (89)",
    "why": "le tenant du titre face au Français",
-   "why_ar": "حامل اللقب أمام الفرنسي",
-   "result": "Medvedev bat Atmane 6-4 6-4",
-   "result_ar": "ميدفيديف يهزم أتمان 6-4 و6-4",
-   "recap": "https://www.eurosport.fr/tennis/atp-almaty-2026/2026/atp-almaty-terence-atmane-est-tombe-sur-un-os-nomme-daniil-medvedev_sto23348455/story.shtml"
+   "why_ar": "حامل اللقب أمام الفرنسي"
   },
   {
    "allDay": true,
@@ -196,17 +196,17 @@
    "why_ar": "كيفن دورانت في مواجهة ويمبانياما، في مدينة أوستن."
   },
   {
-   "id": "atp-alm-medvedev-sf",
-   "sport": "tennis",
+   "allDay": true,
    "comp": "ATP 250 d'Almaty · Demi-finale",
    "comp_ar": "دورة ألماتي (ATP 250) · نصف النهائي",
-   "title": "Medvedev (5) – Bublik ou Khachanov",
-   "title_ar": "ميدفيديف (5) – بوبليك أو خاتشانوف",
-   "start": "2026-10-24",
-   "allDay": true,
+   "id": "atp-alm-medvedev-sf",
+   "level": 3,
    "place": "Almaty Open, Almaty (Kazakhstan)",
    "place_ar": "دورة ألماتي المفتوحة، ألماتي (كازاخستان)",
-   "level": 3,
+   "sport": "tennis",
+   "start": "2026-10-24",
+   "title": "Medvedev (5) – Bublik ou Khachanov",
+   "title_ar": "ميدفيديف (5) – بوبليك أو خاتشانوف",
    "why": "le tenant du titre vise une nouvelle finale ; adversaire connu ce soir, heure pas encore publiée",
    "why_ar": "حامل اللقب يطمح إلى نهائي جديد؛ المنافس يُعرف هذا المساء والتوقيت لم يُنشر بعد"
   },
@@ -973,595 +973,626 @@
  ],
  "news": [
   {
+   "cat": "ia",
+   "title": "Uber donne ChatGPT Work à ses 30 000 employés",
+   "title_ar": "أوبر تمنح جميع موظفيها الثلاثين ألفا أداة ChatGPT Work",
+   "summary": "Uber et OpenAI étendent leur partenariat : tous les employés du groupe utilisent désormais ChatGPT Work, un agent IA pour l'entreprise. Un test auprès de 1 000 personnes, dont 80 % ne sont pas ingénieurs, a précédé le déploiement.",
+   "summary_ar": "توسّع أوبر وOpenAI شراكتهما: جميع موظفي المجموعة يستخدمون الآن ChatGPT Work، وهو وكيل ذكاء اصطناعي للشركات. سبقت ذلك تجربة على 1000 شخص، 80% منهم ليسوا مهندسين.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+   "date": "2026-10-22",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/06/wayve-uber-uk.jpg?w=1024",
+   "explain": {
+    "context": "OpenAI vend des outils IA aux entreprises. Uber est un gros client qui veut voir si l'IA change vraiment le travail de tous les jours.",
+    "context_ar": "تبيع OpenAI أدوات ذكاء اصطناعي للشركات. أوبر زبون كبير يريد معرفة هل يغيّر الذكاء الاصطناعي العمل اليومي فعلا.",
+    "terms": [
+     {
+      "t": "agent IA",
+      "t_ar": "وكيل ذكاء اصطناعي",
+      "d": "Un programme qui fait seul des tâches pour toi, comme analyser des données ou préparer un tableau de bord.",
+      "d_ar": "برنامج ينجز مهام بمفرده مثل تحليل البيانات أو إعداد لوحة متابعة."
+     }
+    ],
+    "figures": [
+     {
+      "n": "30 000 employés",
+      "n_ar": "30 ألف موظف",
+      "d": "Toute l'entreprise. C'est un déploiement très large, bien plus que le test de départ avec 1 000 personnes.",
+      "d_ar": "كل الشركة. إنه نشر واسع جدا مقارنة بالتجربة الأولى مع 1000 شخص."
+     }
+    ]
+   }
+  },
+  {
    "cat": "maroc",
-   "sub": "politique",
-   "title": "Programme El Mansouri : 130 milliards de dirhams contre le « Maroc à deux vitesses »",
-   "title_ar": "برنامج المنصوري: 130 مليار درهم لإنهاء «مغرب السرعتين»",
-   "summary": "Le programme du nouveau gouvernement prévoit 130 milliards de dirhams sur cinq ans pour réduire les écarts entre les régions. Routes rurales, électrification et petits centres reliant villages et villes font partie des mesures annoncées.",
-   "summary_ar": "يخصص برنامج الحكومة الجديدة 130 مليار درهم على مدى خمس سنوات لتقليص الفوارق بين الجهات. ومن بين التدابير المعلنة الطرق القروية والكهربة ومراكز صغيرة تربط القرى بالمدن.",
-   "source": "TelQuel",
-   "url": "https://telquel.ma/2026/10/23/programme-el-mansouri-130-milliards-pour-en-finir-avec-le-maroc-a-deux-vitesses_2014676",
    "date": "2026-10-23",
-   "image": "https://cdn.telquel.ma/content/uploads/2026/10/2d28e7269477e39d8c58d95c5537a212.jpg",
    "explain": {
     "context": "L'expression « Maroc à deux vitesses » vient d'un discours du roi Mohammed VI, qui refusait un pays où certaines régions avancent et d'autres restent en retard.",
     "context_ar": "عبارة «مغرب السرعتين» مأخوذة من خطاب للملك محمد السادس رفض فيه بلدا تتقدم فيه بعض الجهات وتتأخر أخرى.",
-    "terms": [
-     {
-      "t": "écarts entre les régions",
-      "t_ar": "الفوارق بين الجهات",
-      "d": "Les différences de routes, d'écoles, d'emplois et de services entre les zones riches et les zones pauvres.",
-      "d_ar": "الاختلافات في الطرق والمدارس والشغل والخدمات بين المناطق الغنية والمناطق الفقيرة."
-     },
-     {
-      "t": "électrification",
-      "t_ar": "الكهربة",
-      "d": "Le fait d'amener le courant électrique dans des zones qui n'en ont pas encore.",
-      "d_ar": "إيصال الكهرباء إلى مناطق لا تتوفر عليها بعد."
-     }
-    ],
     "figures": [
      {
-      "n": "130 milliards de dirhams",
-      "n_ar": "130 مليار درهم",
       "d": "Montant prévu sur cinq ans, soit environ 26 milliards par an.",
-      "d_ar": "المبلغ المرصود على خمس سنوات، أي حوالي 26 مليارا في السنة."
+      "d_ar": "المبلغ المرصود على خمس سنوات، أي حوالي 26 مليارا في السنة.",
+      "n": "130 milliards de dirhams",
+      "n_ar": "130 مليار درهم"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Les différences de routes, d'écoles, d'emplois et de services entre les zones riches et les zones pauvres.",
+      "d_ar": "الاختلافات في الطرق والمدارس والشغل والخدمات بين المناطق الغنية والمناطق الفقيرة.",
+      "t": "écarts entre les régions",
+      "t_ar": "الفوارق بين الجهات"
+     },
+     {
+      "d": "Le fait d'amener le courant électrique dans des zones qui n'en ont pas encore.",
+      "d_ar": "إيصال الكهرباء إلى مناطق لا تتوفر عليها بعد.",
+      "t": "électrification",
+      "t_ar": "الكهربة"
      }
     ]
-   }
+   },
+   "image": "https://cdn.telquel.ma/content/uploads/2026/10/2d28e7269477e39d8c58d95c5537a212.jpg",
+   "source": "TelQuel",
+   "sub": "politique",
+   "summary": "Le programme du nouveau gouvernement prévoit 130 milliards de dirhams sur cinq ans pour réduire les écarts entre les régions. Routes rurales, électrification et petits centres reliant villages et villes font partie des mesures annoncées.",
+   "summary_ar": "يخصص برنامج الحكومة الجديدة 130 مليار درهم على مدى خمس سنوات لتقليص الفوارق بين الجهات. ومن بين التدابير المعلنة الطرق القروية والكهربة ومراكز صغيرة تربط القرى بالمدن.",
+   "title": "Programme El Mansouri : 130 milliards de dirhams contre le « Maroc à deux vitesses »",
+   "title_ar": "برنامج المنصوري: 130 مليار درهم لإنهاء «مغرب السرعتين»",
+   "url": "https://telquel.ma/2026/10/23/programme-el-mansouri-130-milliards-pour-en-finir-avec-le-maroc-a-deux-vitesses_2014676"
   },
   {
    "cat": "maroc",
-   "sub": "economie",
-   "title": "Mondial 2030 : comment financer TGV, autoroutes et aéroports sans peser sur le budget",
-   "title_ar": "مونديال 2030: كيف تمول القطارات السريعة والطرق السيارة والمطارات دون إثقال الميزانية",
-   "summary": "Selon l'agence qui gère les participations de l'État, l'ONCF, ADM et l'ONDA ont besoin de 105,5 milliards de dirhams pour leurs chantiers. Grâce à des prêts, des obligations et la titrisation, l'État pourrait éviter d'en payer environ 100 milliards sur son budget.",
-   "summary_ar": "حسب الوكالة التي تدبر مساهمات الدولة، تحتاج ONCF وADM وONDA إلى 105,5 مليار درهم لأوراشها. وبفضل القروض والسندات والتسنيد، يمكن للدولة تفادي أداء نحو 100 مليار منها من ميزانيتها.",
-   "source": "Le360",
-   "url": "https://fr.le360.ma/economie/lgv-autoroutes-aeroports-comment-le-maroc-entend-financer-les-chantiers-du-mondial-sans-peser-sur-le_FAIUB74JTVAQ7IOEOMU2EE4MOE/",
    "date": "2026-10-22",
-   "image": "https://fr.le360.ma/resizer/v2/5VZFIT4OXFHUHCE2BE3DXXRCSE.png?auth=b6f2edf8338da49a846423d57c95d75b85445b4b977ea0c6b71ba39600801b97&smart=true&width=1200&height=630",
    "explain": {
     "context": "Le Maroc coorganise la Coupe du monde 2030. Il doit prolonger la ligne à grande vitesse vers Marrakech, élargir des autoroutes et agrandir ses aéroports.",
     "context_ar": "يشارك المغرب في تنظيم كأس العالم 2030، وعليه تمديد خط القطار فائق السرعة نحو مراكش وتوسيع الطرق السيارة والمطارات.",
-    "terms": [
-     {
-      "t": "obligations",
-      "t_ar": "السندات",
-      "d": "Des titres de dette : une entreprise emprunte à des investisseurs et les rembourse avec des intérêts.",
-      "d_ar": "سندات دين: تقترض شركة من مستثمرين وتعيد لهم المال مع فوائد."
-     },
-     {
-      "t": "titrisation",
-      "t_ar": "التسنيد",
-      "d": "Vendre aujourd'hui à des investisseurs des revenus futurs, pour obtenir l'argent tout de suite.",
-      "d_ar": "بيع مداخيل مستقبلية لمستثمرين اليوم للحصول على المال فورا."
-     }
-    ],
     "figures": [
      {
-      "n": "105,5 milliards de dirhams",
-      "n_ar": "105,5 مليار درهم",
       "d": "Total des besoins : 53 milliards pour le train, 38 pour les aéroports et 14,5 pour les autoroutes.",
-      "d_ar": "مجموع الحاجيات: 53 مليارا للقطار و38 للمطارات و14,5 للطرق السيارة."
+      "d_ar": "مجموع الحاجيات: 53 مليارا للقطار و38 للمطارات و14,5 للطرق السيارة.",
+      "n": "105,5 milliards de dirhams",
+      "n_ar": "105,5 مليار درهم"
      },
      {
-      "n": "100 milliards",
-      "n_ar": "100 مليار",
       "d": "Somme que l'État espère ne pas sortir directement de son budget.",
-      "d_ar": "المبلغ الذي تأمل الدولة ألا تؤديه مباشرة من ميزانيتها."
+      "d_ar": "المبلغ الذي تأمل الدولة ألا تؤديه مباشرة من ميزانيتها.",
+      "n": "100 milliards",
+      "n_ar": "100 مليار"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Des titres de dette : une entreprise emprunte à des investisseurs et les rembourse avec des intérêts.",
+      "d_ar": "سندات دين: تقترض شركة من مستثمرين وتعيد لهم المال مع فوائد.",
+      "t": "obligations",
+      "t_ar": "السندات"
+     },
+     {
+      "d": "Vendre aujourd'hui à des investisseurs des revenus futurs, pour obtenir l'argent tout de suite.",
+      "d_ar": "بيع مداخيل مستقبلية لمستثمرين اليوم للحصول على المال فورا.",
+      "t": "titrisation",
+      "t_ar": "التسنيد"
      }
     ]
-   }
+   },
+   "image": "https://fr.le360.ma/resizer/v2/5VZFIT4OXFHUHCE2BE3DXXRCSE.png?auth=b6f2edf8338da49a846423d57c95d75b85445b4b977ea0c6b71ba39600801b97&smart=true&width=1200&height=630",
+   "source": "Le360",
+   "sub": "economie",
+   "summary": "Selon l'agence qui gère les participations de l'État, l'ONCF, ADM et l'ONDA ont besoin de 105,5 milliards de dirhams pour leurs chantiers. Grâce à des prêts, des obligations et la titrisation, l'État pourrait éviter d'en payer environ 100 milliards sur son budget.",
+   "summary_ar": "حسب الوكالة التي تدبر مساهمات الدولة، تحتاج ONCF وADM وONDA إلى 105,5 مليار درهم لأوراشها. وبفضل القروض والسندات والتسنيد، يمكن للدولة تفادي أداء نحو 100 مليار منها من ميزانيتها.",
+   "title": "Mondial 2030 : comment financer TGV, autoroutes et aéroports sans peser sur le budget",
+   "title_ar": "مونديال 2030: كيف تمول القطارات السريعة والطرق السيارة والمطارات دون إثقال الميزانية",
+   "url": "https://fr.le360.ma/economie/lgv-autoroutes-aeroports-comment-le-maroc-entend-financer-les-chantiers-du-mondial-sans-peser-sur-le_FAIUB74JTVAQ7IOEOMU2EE4MOE/"
   },
   {
    "cat": "maroc",
-   "sub": "economie",
-   "title": "Entreprises cotées : 42 % mesurent désormais leurs émissions de gaz à effet de serre",
-   "title_ar": "الشركات المدرجة: 42٪ منها تقيس الآن انبعاثاتها من الغازات الدفيئة",
-   "summary": "Un rapport de l'Institut marocain des administrateurs montre un progrès, contre 32 % en 2024, avec de grandes différences selon les secteurs. Les femmes occupent aussi 31 % des sièges dans les conseils d'administration, contre 29 % l'an dernier.",
-   "summary_ar": "يكشف تقرير للمعهد المغربي للمتصرفين عن تقدم مقارنة بـ32٪ في 2024، مع فوارق كبيرة بين القطاعات. كما تشغل النساء 31٪ من المقاعد في مجالس الإدارة مقابل 29٪ العام الماضي.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/493538-entreprises-cotees-42-mesurent-leurs-emissions-de-gaz-a-effet-de-serre-au-maroc-contre-32-en-2024.html",
    "date": "2026-10-23",
-   "image": "https://f2.hespress.com/wp-content/uploads/2025/03/entreprise.jpg",
    "explain": {
     "context": "Les grandes entreprises sont de plus en plus jugées sur leur impact sur le climat et sur leur gouvernance. Une loi impose aussi plus de femmes dans les conseils d'ici 2027.",
     "context_ar": "تقيم الشركات الكبرى أكثر فأكثر حسب أثرها على المناخ وطريقة حكامتها. ويفرض قانون أيضا حضورا أكبر للنساء في المجالس قبل 2027.",
-    "terms": [
-     {
-      "t": "gaz à effet de serre",
-      "t_ar": "الغازات الدفيئة",
-      "d": "Des gaz, comme le CO2, qui retiennent la chaleur et réchauffent la planète.",
-      "d_ar": "غازات مثل ثاني أكسيد الكربون تحبس الحرارة وتسبب احترار الأرض."
-     },
-     {
-      "t": "conseils d'administration",
-      "t_ar": "مجالس الإدارة",
-      "d": "Le groupe de personnes qui contrôle la direction d'une entreprise et prend les grandes décisions.",
-      "d_ar": "مجموعة الأشخاص التي تراقب إدارة الشركة وتتخذ القرارات الكبرى."
-     }
-    ],
     "figures": [
      {
-      "n": "42 %",
-      "n_ar": "42٪",
       "d": "Part des grandes sociétés cotées qui mesurent leurs émissions, contre 32 % en 2024.",
-      "d_ar": "نسبة الشركات الكبرى المدرجة التي تقيس انبعاثاتها، مقابل 32٪ في 2024."
+      "d_ar": "نسبة الشركات الكبرى المدرجة التي تقيس انبعاثاتها، مقابل 32٪ في 2024.",
+      "n": "42 %",
+      "n_ar": "42٪"
      },
      {
-      "n": "31 %",
-      "n_ar": "31٪",
       "d": "Part moyenne des sièges tenus par des femmes ; la loi vise 40 % en janvier 2027.",
-      "d_ar": "متوسط حصة المقاعد التي تشغلها النساء؛ والقانون يستهدف 40٪ في يناير 2027."
+      "d_ar": "متوسط حصة المقاعد التي تشغلها النساء؛ والقانون يستهدف 40٪ في يناير 2027.",
+      "n": "31 %",
+      "n_ar": "31٪"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Des gaz, comme le CO2, qui retiennent la chaleur et réchauffent la planète.",
+      "d_ar": "غازات مثل ثاني أكسيد الكربون تحبس الحرارة وتسبب احترار الأرض.",
+      "t": "gaz à effet de serre",
+      "t_ar": "الغازات الدفيئة"
+     },
+     {
+      "d": "Le groupe de personnes qui contrôle la direction d'une entreprise et prend les grandes décisions.",
+      "d_ar": "مجموعة الأشخاص التي تراقب إدارة الشركة وتتخذ القرارات الكبرى.",
+      "t": "conseils d'administration",
+      "t_ar": "مجالس الإدارة"
      }
     ]
-   }
+   },
+   "image": "https://f2.hespress.com/wp-content/uploads/2025/03/entreprise.jpg",
+   "source": "Hespress FR",
+   "sub": "economie",
+   "summary": "Un rapport de l'Institut marocain des administrateurs montre un progrès, contre 32 % en 2024, avec de grandes différences selon les secteurs. Les femmes occupent aussi 31 % des sièges dans les conseils d'administration, contre 29 % l'an dernier.",
+   "summary_ar": "يكشف تقرير للمعهد المغربي للمتصرفين عن تقدم مقارنة بـ32٪ في 2024، مع فوارق كبيرة بين القطاعات. كما تشغل النساء 31٪ من المقاعد في مجالس الإدارة مقابل 29٪ العام الماضي.",
+   "title": "Entreprises cotées : 42 % mesurent désormais leurs émissions de gaz à effet de serre",
+   "title_ar": "الشركات المدرجة: 42٪ منها تقيس الآن انبعاثاتها من الغازات الدفيئة",
+   "url": "https://fr.hespress.com/493538-entreprises-cotees-42-mesurent-leurs-emissions-de-gaz-a-effet-de-serre-au-maroc-contre-32-en-2024.html"
   },
   {
    "cat": "maroc",
-   "sub": "economie",
-   "title": "Myrtilles : le Maroc entre dans le top 5 des fournisseurs de la Suisse",
-   "title_ar": "التوت الأزرق: المغرب ضمن أكبر خمسة موردين لسويسرا",
-   "summary": "Entre juillet 2025 et juin 2026, la Suisse a acheté 655 tonnes de myrtilles marocaines, pour plus de 7,6 millions d'euros, soit 75 % de plus que la saison d'avant. Le Maroc pèse désormais 5,5 % de ses achats, loin derrière l'Espagne.",
-   "summary_ar": "بين يوليوز 2025 ويونيو 2026، اشترت سويسرا 655 طنا من التوت الأزرق المغربي بأكثر من 7,6 ملايين يورو، أي بزيادة 75٪ عن الموسم السابق. ويمثل المغرب الآن 5,5٪ من مشترياتها، بعيدا خلف إسبانيا.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/493231-myrtilles-le-maroc-integre-le-top-5-des-fournisseurs-de-la-suisse.html",
    "date": "2026-10-22",
-   "image": "https://f2.hespress.com/wp-content/uploads/2023/09/myrtilles.jpeg",
    "explain": {
     "context": "Le Maroc est devenu un grand exportateur de fruits rouges. Ses myrtilles arrivent en Europe de novembre à juin, quand la demande y est forte.",
     "context_ar": "أصبح المغرب مصدرا كبيرا للفواكه الحمراء، ويصل توته الأزرق إلى أوروبا من نونبر إلى يونيو حين يكون الطلب مرتفعا.",
-    "terms": [
-     {
-      "t": "fournisseurs",
-      "t_ar": "الموردون",
-      "d": "Les pays ou entreprises qui vendent un produit à un autre pays.",
-      "d_ar": "البلدان أو الشركات التي تبيع منتوجا لبلد آخر."
-     },
-     {
-      "t": "top 5",
-      "t_ar": "أكبر خمسة",
-      "d": "Les cinq pays qui vendent le plus de ce produit à la Suisse.",
-      "d_ar": "البلدان الخمسة التي تبيع أكبر كمية من هذا المنتوج لسويسرا."
-     }
-    ],
     "figures": [
      {
-      "n": "655 tonnes",
-      "n_ar": "655 طنا",
       "d": "Volume record de myrtilles marocaines achetées par la Suisse en une saison.",
-      "d_ar": "كمية قياسية من التوت الأزرق المغربي اشترتها سويسرا في موسم واحد."
+      "d_ar": "كمية قياسية من التوت الأزرق المغربي اشترتها سويسرا في موسم واحد.",
+      "n": "655 tonnes",
+      "n_ar": "655 طنا"
      },
      {
-      "n": "75 %",
-      "n_ar": "75٪",
       "d": "Hausse sur un an, la plus forte parmi les grands fournisseurs de la Suisse.",
-      "d_ar": "الارتفاع خلال سنة، وهو الأقوى بين كبار موردي سويسرا."
+      "d_ar": "الارتفاع خلال سنة، وهو الأقوى بين كبار موردي سويسرا.",
+      "n": "75 %",
+      "n_ar": "75٪"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Les pays ou entreprises qui vendent un produit à un autre pays.",
+      "d_ar": "البلدان أو الشركات التي تبيع منتوجا لبلد آخر.",
+      "t": "fournisseurs",
+      "t_ar": "الموردون"
+     },
+     {
+      "d": "Les cinq pays qui vendent le plus de ce produit à la Suisse.",
+      "d_ar": "البلدان الخمسة التي تبيع أكبر كمية من هذا المنتوج لسويسرا.",
+      "t": "top 5",
+      "t_ar": "أكبر خمسة"
      }
     ]
-   }
+   },
+   "image": "https://f2.hespress.com/wp-content/uploads/2023/09/myrtilles.jpeg",
+   "source": "Hespress FR",
+   "sub": "economie",
+   "summary": "Entre juillet 2025 et juin 2026, la Suisse a acheté 655 tonnes de myrtilles marocaines, pour plus de 7,6 millions d'euros, soit 75 % de plus que la saison d'avant. Le Maroc pèse désormais 5,5 % de ses achats, loin derrière l'Espagne.",
+   "summary_ar": "بين يوليوز 2025 ويونيو 2026، اشترت سويسرا 655 طنا من التوت الأزرق المغربي بأكثر من 7,6 ملايين يورو، أي بزيادة 75٪ عن الموسم السابق. ويمثل المغرب الآن 5,5٪ من مشترياتها، بعيدا خلف إسبانيا.",
+   "title": "Myrtilles : le Maroc entre dans le top 5 des fournisseurs de la Suisse",
+   "title_ar": "التوت الأزرق: المغرب ضمن أكبر خمسة موردين لسويسرا",
+   "url": "https://fr.hespress.com/493231-myrtilles-le-maroc-integre-le-top-5-des-fournisseurs-de-la-suisse.html"
   },
   {
    "cat": "maroc",
-   "sub": "societe",
-   "title": "Mahmoud Archane au Parlement : cinq ONG dénoncent ses propos",
-   "title_ar": "محمود عرشان في البرلمان: خمس جمعيات حقوقية تندد بتصريحاته",
-   "summary": "Au Parlement, le fondateur du MDS a traité ses critiques de « cinquième colonne ». Cinq associations de défense des droits humains y voient une tentative d'effacer les violations des « années de plomb » et demandent une réaction des autorités.",
-   "summary_ar": "وصف مؤسس الحركة الديمقراطية الاجتماعية منتقديه في البرلمان بـ«الطابور الخامس». وترى خمس جمعيات حقوقية في ذلك محاولة لطمس انتهاكات «سنوات الرصاص» وتطالب السلطات بالتحرك.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/493696-mahmoud-archane-au-parlement-indigne-un-collectif-dong-denonce-une-tentative-de-blanchiment-des-violations-passees.html",
    "date": "2026-10-23",
-   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/archane.jpg",
    "explain": {
     "context": "Des victimes accusent Mahmoud Archane d'avoir participé à des tortures pendant les années de plomb. L'Instance Équité et Réconciliation a enquêté sur cette période.",
     "context_ar": "يتهم ضحايا محمود عرشان بالمشاركة في التعذيب خلال سنوات الرصاص، وهي فترة حققت فيها هيئة الإنصاف والمصالحة.",
+    "figures": [],
     "terms": [
      {
-      "t": "années de plomb",
-      "t_ar": "سنوات الرصاص",
       "d": "Période, surtout des années 1960 aux années 1990, marquée au Maroc par la répression des opposants.",
-      "d_ar": "فترة امتدت أساسا من الستينيات إلى التسعينيات، عرفت في المغرب قمع المعارضين."
+      "d_ar": "فترة امتدت أساسا من الستينيات إلى التسعينيات، عرفت في المغرب قمع المعارضين.",
+      "t": "années de plomb",
+      "t_ar": "سنوات الرصاص"
      },
      {
-      "t": "cinquième colonne",
-      "t_ar": "الطابور الخامس",
       "d": "Expression qui désigne des personnes accusées de travailler en secret contre leur propre pays.",
-      "d_ar": "عبارة تطلق على أشخاص يتهمون بالعمل سرا ضد بلدهم."
+      "d_ar": "عبارة تطلق على أشخاص يتهمون بالعمل سرا ضد بلدهم.",
+      "t": "cinquième colonne",
+      "t_ar": "الطابور الخامس"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://f2.hespress.com/wp-content/uploads/2026/10/archane.jpg",
+   "source": "Hespress FR",
+   "sub": "societe",
+   "summary": "Au Parlement, le fondateur du MDS a traité ses critiques de « cinquième colonne ». Cinq associations de défense des droits humains y voient une tentative d'effacer les violations des « années de plomb » et demandent une réaction des autorités.",
+   "summary_ar": "وصف مؤسس الحركة الديمقراطية الاجتماعية منتقديه في البرلمان بـ«الطابور الخامس». وترى خمس جمعيات حقوقية في ذلك محاولة لطمس انتهاكات «سنوات الرصاص» وتطالب السلطات بالتحرك.",
+   "title": "Mahmoud Archane au Parlement : cinq ONG dénoncent ses propos",
+   "title_ar": "محمود عرشان في البرلمان: خمس جمعيات حقوقية تندد بتصريحاته",
+   "url": "https://fr.hespress.com/493696-mahmoud-archane-au-parlement-indigne-un-collectif-dong-denonce-une-tentative-de-blanchiment-des-violations-passees.html"
   },
   {
    "cat": "sport",
-   "sport": "football",
-   "title": "Abdellah Ouazane, 17 ans, offre la victoire à l'Ajax contre l'Atalanta",
-   "title_ar": "عبد الله وزان، 17 سنة، يمنح أياكس الفوز على أتالانتا",
-   "summary": "Entré en cours de match, le milieu offensif marocain a marqué à la 93e minute pour la victoire 2-0 de l'Ajax en Ligue Europa Conférence. Ce but relance le débat sur son temps de jeu avec les Lions de l'Atlas.",
-   "summary_ar": "سجل لاعب الوسط الهجومي المغربي، بعد دخوله بديلا، في الدقيقة 93 ليفوز أياكس 2-0 في دوري المؤتمر الأوروبي. ويعيد هذا الهدف النقاش حول وقت لعبه مع أسود الأطلس.",
-   "source": "Hespress FR",
-   "url": "https://fr.hespress.com/493684-abdellah-ouazane-brille-avec-lajax-et-relance-le-debat-sur-son-temps-de-jeu-avec-les-lions-de-latlas.html",
    "date": "2026-10-23",
-   "image": "https://f2.hespress.com/wp-content/uploads/2026/07/Abdellah-Ouazane.jpg",
    "explain": {
     "context": "Ouazane a été appelé pour la première fois en équipe A en octobre. Il a joué 15 minutes contre le Gabon, puis est resté sur le banc.",
     "context_ar": "استدعي وزان لأول مرة إلى المنتخب الأول في أكتوبر، ولعب 15 دقيقة أمام الغابون ثم بقي في دكة الاحتياط.",
-    "terms": [
-     {
-      "t": "Ligue Europa Conférence",
-      "t_ar": "دوري المؤتمر الأوروبي",
-      "d": "La troisième coupe d'Europe des clubs, après la Ligue des champions et la Ligue Europa.",
-      "d_ar": "ثالث مسابقة أوروبية للأندية بعد دوري الأبطال والدوري الأوروبي."
-     }
-    ],
     "figures": [
      {
-      "n": "17 ans",
-      "n_ar": "17 سنة",
       "d": "L'âge du joueur, qui compte neuf matchs de championnat cette saison avec l'Ajax.",
-      "d_ar": "عمر اللاعب الذي خاض تسع مباريات في الدوري هذا الموسم مع أياكس."
+      "d_ar": "عمر اللاعب الذي خاض تسع مباريات في الدوري هذا الموسم مع أياكس.",
+      "n": "17 ans",
+      "n_ar": "17 سنة"
+     }
+    ],
+    "terms": [
+     {
+      "d": "La troisième coupe d'Europe des clubs, après la Ligue des champions et la Ligue Europa.",
+      "d_ar": "ثالث مسابقة أوروبية للأندية بعد دوري الأبطال والدوري الأوروبي.",
+      "t": "Ligue Europa Conférence",
+      "t_ar": "دوري المؤتمر الأوروبي"
      }
     ]
-   }
+   },
+   "image": "https://f2.hespress.com/wp-content/uploads/2026/07/Abdellah-Ouazane.jpg",
+   "source": "Hespress FR",
+   "sport": "football",
+   "summary": "Entré en cours de match, le milieu offensif marocain a marqué à la 93e minute pour la victoire 2-0 de l'Ajax en Ligue Europa Conférence. Ce but relance le débat sur son temps de jeu avec les Lions de l'Atlas.",
+   "summary_ar": "سجل لاعب الوسط الهجومي المغربي، بعد دخوله بديلا، في الدقيقة 93 ليفوز أياكس 2-0 في دوري المؤتمر الأوروبي. ويعيد هذا الهدف النقاش حول وقت لعبه مع أسود الأطلس.",
+   "title": "Abdellah Ouazane, 17 ans, offre la victoire à l'Ajax contre l'Atalanta",
+   "title_ar": "عبد الله وزان، 17 سنة، يمنح أياكس الفوز على أتالانتا",
+   "url": "https://fr.hespress.com/493684-abdellah-ouazane-brille-avec-lajax-et-relance-le-debat-sur-son-temps-de-jeu-avec-les-lions-de-latlas.html"
   },
   {
    "cat": "sport",
-   "sport": "f1",
-   "title": "F1 : Lewis Hamilton rêve de courir au futur Grand Prix du Rwanda",
-   "title_ar": "الفورمولا 1: لويس هاميلتون يحلم بالسباق في جائزة رواندا الكبرى المقبلة",
-   "summary": "À Austin, le septuple champion du monde a dit que la course prévue au Rwanda lui donne envie de rester plus longtemps en F1. Le circuit, près de Kigali, ne sera pas prêt avant le début des années 2030.",
-   "summary_ar": "قال بطل العالم سبع مرات في أوستن إن السباق المرتقب في رواندا يدفعه إلى البقاء مدة أطول في الفورمولا 1. ولن تكون الحلبة القريبة من كيغالي جاهزة قبل بداية الثلاثينيات.",
-   "source": "Hespress FR (AFP)",
-   "url": "https://fr.hespress.com/493650-f1-au-rwanda-lewis-hamilton-reve-de-courir-a-nouveau-sur-le-continent-africain.html",
    "date": "2026-10-23",
-   "image": "https://f2.hespress.com/wp-content/uploads/2020/11/Lewis-Hamilton-champion.jpg",
    "explain": {
     "context": "La F1 a signé un contrat de dix ans avec le Rwanda. La dernière course en Afrique a eu lieu en 1993 à Kyalami, en Afrique du Sud.",
     "context_ar": "وقعت الفورمولا 1 عقدا لعشر سنوات مع رواندا. وآخر سباق في إفريقيا جرى سنة 1993 في كيالامي بجنوب إفريقيا.",
-    "terms": [],
     "figures": [
      {
-      "n": "septuple",
-      "n_ar": "سبع مرات",
       "d": "Hamilton a gagné sept titres de champion du monde, un record partagé avec Michael Schumacher.",
-      "d_ar": "فاز هاميلتون بسبعة ألقاب عالمية، وهو رقم قياسي يتقاسمه مع مايكل شوماخر."
+      "d_ar": "فاز هاميلتون بسبعة ألقاب عالمية، وهو رقم قياسي يتقاسمه مع مايكل شوماخر.",
+      "n": "septuple",
+      "n_ar": "سبع مرات"
      }
-    ]
-   }
+    ],
+    "terms": []
+   },
+   "image": "https://f2.hespress.com/wp-content/uploads/2020/11/Lewis-Hamilton-champion.jpg",
+   "source": "Hespress FR (AFP)",
+   "sport": "f1",
+   "summary": "À Austin, le septuple champion du monde a dit que la course prévue au Rwanda lui donne envie de rester plus longtemps en F1. Le circuit, près de Kigali, ne sera pas prêt avant le début des années 2030.",
+   "summary_ar": "قال بطل العالم سبع مرات في أوستن إن السباق المرتقب في رواندا يدفعه إلى البقاء مدة أطول في الفورمولا 1. ولن تكون الحلبة القريبة من كيغالي جاهزة قبل بداية الثلاثينيات.",
+   "title": "F1 : Lewis Hamilton rêve de courir au futur Grand Prix du Rwanda",
+   "title_ar": "الفورمولا 1: لويس هاميلتون يحلم بالسباق في جائزة رواندا الكبرى المقبلة",
+   "url": "https://fr.hespress.com/493650-f1-au-rwanda-lewis-hamilton-reve-de-courir-a-nouveau-sur-le-continent-africain.html"
   },
   {
    "cat": "sport",
-   "sport": "tennis",
-   "title": "Almaty : Tsitsipas et Basilashvili en demi-finale",
-   "title_ar": "ألماتي: تسيتسيباس وباسيلاشفيلي في نصف النهائي",
-   "summary": "Tsitsipas a battu James Duckworth 6-3 6-4 et Nikoloz Basilashvili, sorti des qualifications, a dominé Adrian Mannarino 6-3 6-1. Les deux hommes s'affrontent en demi-finale, tandis que Medvedev attend Bublik ou Khachanov.",
-   "summary_ar": "فاز تسيتسيباس على جيمس داكوورث 6-3 و6-4، وتغلب نيكولوز باسيلاشفيلي القادم من التصفيات على أدريان مانارينو 6-3 و6-1. ويلتقي الاثنان في نصف النهائي، بينما ينتظر ميدفيديف بوبليك أو خاتشانوف.",
-   "source": "ATPTour.com",
-   "url": "https://www.atptour.com/en/news/medvedev-almaty-2026-report-friday",
    "date": "2026-10-23",
-   "image": "https://www.atptour.com/-/media/images/news/2026/10/23/11/06/meddy-almaty-2026-friday.jpg",
    "explain": {
     "context": "Le tournoi d'Almaty, au Kazakhstan, est un ATP 250. Medvedev y défend le titre gagné l'an dernier.",
     "context_ar": "دورة ألماتي في كازاخستان من فئة 250 نقطة، ويدافع فيها ميدفيديف عن اللقب الذي فاز به العام الماضي.",
+    "figures": [],
     "terms": [
      {
-      "t": "qualifications",
-      "t_ar": "التصفيات",
       "d": "Petit tournoi joué avant le tableau principal par des joueurs moins bien classés.",
-      "d_ar": "دورة صغيرة تلعب قبل الجدول الرئيسي بين لاعبين أقل تصنيفا."
+      "d_ar": "دورة صغيرة تلعب قبل الجدول الرئيسي بين لاعبين أقل تصنيفا.",
+      "t": "qualifications",
+      "t_ar": "التصفيات"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://www.atptour.com/-/media/images/news/2026/10/23/11/06/meddy-almaty-2026-friday.jpg",
+   "source": "ATPTour.com",
+   "sport": "tennis",
+   "summary": "Tsitsipas a battu James Duckworth 6-3 6-4 et Nikoloz Basilashvili, sorti des qualifications, a dominé Adrian Mannarino 6-3 6-1. Les deux hommes s'affrontent en demi-finale, tandis que Medvedev attend Bublik ou Khachanov.",
+   "summary_ar": "فاز تسيتسيباس على جيمس داكوورث 6-3 و6-4، وتغلب نيكولوز باسيلاشفيلي القادم من التصفيات على أدريان مانارينو 6-3 و6-1. ويلتقي الاثنان في نصف النهائي، بينما ينتظر ميدفيديف بوبليك أو خاتشانوف.",
+   "title": "Almaty : Tsitsipas et Basilashvili en demi-finale",
+   "title_ar": "ألماتي: تسيتسيباس وباسيلاشفيلي في نصف النهائي",
+   "url": "https://www.atptour.com/en/news/medvedev-almaty-2026-report-friday"
   },
   {
    "cat": "sport",
-   "sport": "basket",
-   "title": "NBA : Philadelphie efface 29 points de retard et bat Cleveland",
-   "title_ar": "NBA: فيلادلفيا تمحو تأخرا بـ29 نقطة وتهزم كليفلاند",
-   "summary": "Menés de 29 points, les 76ers ont gagné 114-106 grâce aux 32 points de Tyrese Maxey et aux 24 de Joel Embiid. C'est la plus grande remontée gagnante de la carrière de LeBron James, auteur de 17 points et 10 rebonds.",
-   "summary_ar": "بعد تأخرهم بـ29 نقطة، فاز لاعبو سيكسرز 114-106 بفضل 32 نقطة لتايريز ماكسي و24 لجويل إمبيد. وهي أكبر عودة رابحة في مسيرة ليبرون جيمس الذي سجل 17 نقطة و10 متابعات.",
-   "source": "ESPN",
-   "url": "https://www.espn.com/nba/recap?gameId=401909093",
    "date": "2026-10-23",
-   "image": "",
    "explain": {
     "context": "LeBron James joue désormais à Philadelphie. L'équipe a gagné ses deux premiers matchs, contre New York puis Cleveland.",
     "context_ar": "يلعب ليبرون جيمس الآن في فيلادلفيا، وفاز الفريق في أول مباراتين أمام نيويورك ثم كليفلاند.",
-    "terms": [
-     {
-      "t": "rebonds",
-      "t_ar": "المتابعات",
-      "d": "Ballons récupérés après un tir raté.",
-      "d_ar": "الكرات المسترجعة بعد تسديدة ضائعة."
-     }
-    ],
     "figures": [
      {
-      "n": "29 points",
-      "n_ar": "29 نقطة",
       "d": "Retard maximal comblé par Philadelphie, avec une série de 15-0 dans le dernier quart-temps.",
-      "d_ar": "أكبر تأخر عوضته فيلادلفيا، مع سلسلة 15-0 في الربع الأخير."
+      "d_ar": "أكبر تأخر عوضته فيلادلفيا، مع سلسلة 15-0 في الربع الأخير.",
+      "n": "29 points",
+      "n_ar": "29 نقطة"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Ballons récupérés après un tir raté.",
+      "d_ar": "الكرات المسترجعة بعد تسديدة ضائعة.",
+      "t": "rebonds",
+      "t_ar": "المتابعات"
      }
     ]
-   }
+   },
+   "image": "",
+   "source": "ESPN",
+   "sport": "basket",
+   "summary": "Menés de 29 points, les 76ers ont gagné 114-106 grâce aux 32 points de Tyrese Maxey et aux 24 de Joel Embiid. C'est la plus grande remontée gagnante de la carrière de LeBron James, auteur de 17 points et 10 rebonds.",
+   "summary_ar": "بعد تأخرهم بـ29 نقطة، فاز لاعبو سيكسرز 114-106 بفضل 32 نقطة لتايريز ماكسي و24 لجويل إمبيد. وهي أكبر عودة رابحة في مسيرة ليبرون جيمس الذي سجل 17 نقطة و10 متابعات.",
+   "title": "NBA : Philadelphie efface 29 points de retard et bat Cleveland",
+   "title_ar": "NBA: فيلادلفيا تمحو تأخرا بـ29 نقطة وتهزم كليفلاند",
+   "url": "https://www.espn.com/nba/recap?gameId=401909093"
   },
   {
    "cat": "ia",
-   "title": "Anthropic : Claude prouve que 123 logiciels libres ne plantent pas",
-   "title_ar": "أنثروبيك: Claude يثبت رياضيا أن 123 برنامجا مفتوحا لا تتعطل",
-   "summary": "Claude a produit des preuves mathématiques montrant que 239 points d'entrée de ces bibliothèques ne plantent pas, sous certaines conditions. En chemin, il a trouvé et corrigé des centaines de bugs, dont certains passés inaperçus pendant des années.",
-   "summary_ar": "أنتج Claude براهين رياضية تبين أن 239 نقطة دخول في هذه المكتبات لا تتعطل وفق شروط معينة. وفي الطريق، اكتشف وأصلح مئات الأخطاء، بعضها ظل مخفيا لسنوات.",
-   "source": "Anthropic",
-   "url": "https://www.anthropic.com/research/formal-verification",
    "date": "2026-10-22",
-   "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/80cf520cb540989c3643907f004b2514ec4d01f1-1200x630.jpg",
    "explain": {
     "context": "Tester un logiciel ne couvre jamais tous les cas. Une preuve formelle montre par le calcul qu'un problème ne peut pas arriver, mais elle coûte d'habitude très cher.",
     "context_ar": "اختبار البرنامج لا يغطي كل الحالات أبدا. أما البرهان الصوري فيثبت بالحساب أن الخطأ لا يمكن أن يقع، لكنه مكلف عادة.",
-    "terms": [
-     {
-      "t": "bibliothèques",
-      "t_ar": "المكتبات",
-      "d": "Des morceaux de code prêts à l'emploi, réutilisés par de nombreux logiciels.",
-      "d_ar": "أجزاء من الشيفرة جاهزة للاستعمال تعيد برامج كثيرة استخدامها."
-     },
-     {
-      "t": "bugs",
-      "t_ar": "الأخطاء",
-      "d": "Des erreurs dans un programme qui peuvent le faire planter ou créer des failles de sécurité.",
-      "d_ar": "أخطاء في برنامج قد تؤدي إلى تعطله أو إلى ثغرات أمنية."
-     }
-    ],
     "figures": [
      {
-      "n": "123",
-      "n_ar": "123",
       "d": "Nombre de bibliothèques open source vérifiées, pour environ 180 millions de lignes de preuves.",
-      "d_ar": "عدد المكتبات المفتوحة المصدر التي تم التحقق منها، بنحو 180 مليون سطر من البراهين."
+      "d_ar": "عدد المكتبات المفتوحة المصدر التي تم التحقق منها، بنحو 180 مليون سطر من البراهين.",
+      "n": "123",
+      "n_ar": "123"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Des morceaux de code prêts à l'emploi, réutilisés par de nombreux logiciels.",
+      "d_ar": "أجزاء من الشيفرة جاهزة للاستعمال تعيد برامج كثيرة استخدامها.",
+      "t": "bibliothèques",
+      "t_ar": "المكتبات"
+     },
+     {
+      "d": "Des erreurs dans un programme qui peuvent le faire planter ou créer des failles de sécurité.",
+      "d_ar": "أخطاء في برنامج قد تؤدي إلى تعطله أو إلى ثغرات أمنية.",
+      "t": "bugs",
+      "t_ar": "الأخطاء"
      }
     ]
-   }
+   },
+   "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/80cf520cb540989c3643907f004b2514ec4d01f1-1200x630.jpg",
+   "source": "Anthropic",
+   "summary": "Claude a produit des preuves mathématiques montrant que 239 points d'entrée de ces bibliothèques ne plantent pas, sous certaines conditions. En chemin, il a trouvé et corrigé des centaines de bugs, dont certains passés inaperçus pendant des années.",
+   "summary_ar": "أنتج Claude براهين رياضية تبين أن 239 نقطة دخول في هذه المكتبات لا تتعطل وفق شروط معينة. وفي الطريق، اكتشف وأصلح مئات الأخطاء، بعضها ظل مخفيا لسنوات.",
+   "title": "Anthropic : Claude prouve que 123 logiciels libres ne plantent pas",
+   "title_ar": "أنثروبيك: Claude يثبت رياضيا أن 123 برنامجا مفتوحا لا تتعطل",
+   "url": "https://www.anthropic.com/research/formal-verification"
   },
   {
    "cat": "ia",
-   "title": "Des pirates liés à la Chine ont utilisé une IA autonome pour attaquer des centaines d'organisations",
-   "title_ar": "قراصنة مرتبطون بالصين استخدموا ذكاء اصطناعيا مستقلا لمهاجمة مئات المؤسسات",
-   "summary": "Selon Microsoft, le groupe Storm-0940 a piloté ses attaques avec ARTEX, un outil d'IA qui agit seul, après avoir volé des accès liés à ConnectWise. Il a tenté d'entrer dans plus de 2 250 comptes Microsoft 365 d'entreprises, parfois en moins de trois heures.",
-   "summary_ar": "حسب مايكروسوفت، قادت مجموعة Storm-0940 هجماتها بأداة ARTEX للذكاء الاصطناعي التي تعمل وحدها، بعد سرقة وصول مرتبط بـConnectWise. وحاولت الدخول إلى أكثر من 2250 حسابا مؤسساتيا في Microsoft 365، أحيانا في أقل من ثلاث ساعات.",
-   "source": "Microsoft Security",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
    "date": "2026-10-21",
-   "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/05/MS_Actional-Insights_Storm.jpg",
    "explain": {
     "context": "ARTEX est un outil libre conçu pour tester la sécurité. Microsoft dit que la plupart des attaques ont échoué et que ses propres systèmes n'ont pas été piratés.",
     "context_ar": "ARTEX أداة مفتوحة صممت لاختبار الأمن. وتقول مايكروسوفت إن معظم الهجمات فشلت وإن أنظمتها لم تخترق.",
-    "terms": [
-     {
-      "t": "IA",
-      "t_ar": "الذكاء الاصطناعي",
-      "d": "Ici, un programme capable d'enchaîner seul des actions sans qu'un humain valide chaque étape.",
-      "d_ar": "هنا برنامج قادر على تنفيذ سلسلة من الأفعال وحده دون موافقة إنسان على كل خطوة."
-     }
-    ],
     "figures": [
      {
-      "n": "2 250",
-      "n_ar": "2250",
       "d": "Nombre d'espaces d'entreprises visés ; la plupart des tentatives n'ont pas réussi.",
-      "d_ar": "عدد فضاءات الشركات المستهدفة؛ ومعظم المحاولات لم تنجح."
+      "d_ar": "عدد فضاءات الشركات المستهدفة؛ ومعظم المحاولات لم تنجح.",
+      "n": "2 250",
+      "n_ar": "2250"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Ici, un programme capable d'enchaîner seul des actions sans qu'un humain valide chaque étape.",
+      "d_ar": "هنا برنامج قادر على تنفيذ سلسلة من الأفعال وحده دون موافقة إنسان على كل خطوة.",
+      "t": "IA",
+      "t_ar": "الذكاء الاصطناعي"
      }
     ]
-   }
+   },
+   "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/05/MS_Actional-Insights_Storm.jpg",
+   "source": "Microsoft Security",
+   "summary": "Selon Microsoft, le groupe Storm-0940 a piloté ses attaques avec ARTEX, un outil d'IA qui agit seul, après avoir volé des accès liés à ConnectWise. Il a tenté d'entrer dans plus de 2 250 comptes Microsoft 365 d'entreprises, parfois en moins de trois heures.",
+   "summary_ar": "حسب مايكروسوفت، قادت مجموعة Storm-0940 هجماتها بأداة ARTEX للذكاء الاصطناعي التي تعمل وحدها، بعد سرقة وصول مرتبط بـConnectWise. وحاولت الدخول إلى أكثر من 2250 حسابا مؤسساتيا في Microsoft 365، أحيانا في أقل من ثلاث ساعات.",
+   "title": "Des pirates liés à la Chine ont utilisé une IA autonome pour attaquer des centaines d'organisations",
+   "title_ar": "قراصنة مرتبطون بالصين استخدموا ذكاء اصطناعيا مستقلا لمهاجمة مئات المؤسسات",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/"
   },
   {
    "cat": "eco",
-   "title": "Pétrole : +85 % depuis janvier, le Brent pourrait atteindre 120 dollars",
-   "title_ar": "النفط: ارتفاع بـ85٪ منذ يناير، وقد يبلغ برنت 120 دولارا",
-   "summary": "Le prix du pétrole reste au-dessus de 100 dollars depuis deux mois, faute d'accord pour rouvrir le détroit d'Ormuz. Un analyste estime que le Brent testerait 120 dollars en cas d'escalade, tandis que l'essence coûte 4,29 dollars le gallon aux États-Unis.",
-   "summary_ar": "يبقى سعر النفط فوق 100 دولار منذ شهرين في غياب اتفاق لإعادة فتح مضيق هرمز. ويرى محلل أن برنت قد يختبر 120 دولارا في حال التصعيد، بينما يكلف البنزين 4,29 دولارات للغالون في الولايات المتحدة.",
-   "source": "Business Standard",
-   "url": "https://business-standard.com/markets/news/crude-oil-up-85-in-2026-poses-threat-to-global-economy-brent-may-hit-120-126102300498_1.html",
    "date": "2026-10-23",
-   "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-07/15/thumb/fitandfill/1200X628/1752561789-0485.jpg",
    "explain": {
     "context": "La guerre avec l'Iran perturbe le détroit d'Ormuz, par où passe une grande partie du pétrole mondial. Les attaques contre l'Arabie saoudite inquiètent aussi.",
     "context_ar": "تعرقل الحرب مع إيران مضيق هرمز الذي يمر منه جزء كبير من نفط العالم، كما تثير الهجمات على السعودية القلق.",
-    "terms": [
-     {
-      "t": "Brent",
-      "t_ar": "برنت",
-      "d": "Le pétrole de la mer du Nord qui sert de prix de référence dans le monde.",
-      "d_ar": "نفط بحر الشمال الذي يستعمل كسعر مرجعي في العالم."
-     },
-     {
-      "t": "gallon",
-      "t_ar": "الغالون",
-      "d": "Unité de volume américaine, égale à environ 3,8 litres.",
-      "d_ar": "وحدة حجم أمريكية تساوي حوالي 3,8 لترات."
-     }
-    ],
     "figures": [
      {
-      "n": "85 %",
-      "n_ar": "85٪",
       "d": "Hausse du pétrole depuis le début de 2026, dont environ 10 % en octobre.",
-      "d_ar": "ارتفاع النفط منذ بداية 2026، منه حوالي 10٪ في أكتوبر."
+      "d_ar": "ارتفاع النفط منذ بداية 2026، منه حوالي 10٪ في أكتوبر.",
+      "n": "85 %",
+      "n_ar": "85٪"
      },
      {
-      "n": "120 dollars",
-      "n_ar": "120 دولارا",
       "d": "Niveau possible du baril en cas d'escalade, contre environ 114 aujourd'hui.",
-      "d_ar": "مستوى ممكن للبرميل في حال التصعيد، مقابل حوالي 114 اليوم."
+      "d_ar": "مستوى ممكن للبرميل في حال التصعيد، مقابل حوالي 114 اليوم.",
+      "n": "120 dollars",
+      "n_ar": "120 دولارا"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Le pétrole de la mer du Nord qui sert de prix de référence dans le monde.",
+      "d_ar": "نفط بحر الشمال الذي يستعمل كسعر مرجعي في العالم.",
+      "t": "Brent",
+      "t_ar": "برنت"
+     },
+     {
+      "d": "Unité de volume américaine, égale à environ 3,8 litres.",
+      "d_ar": "وحدة حجم أمريكية تساوي حوالي 3,8 لترات.",
+      "t": "gallon",
+      "t_ar": "الغالون"
      }
     ]
-   }
+   },
+   "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-07/15/thumb/fitandfill/1200X628/1752561789-0485.jpg",
+   "source": "Business Standard",
+   "summary": "Le prix du pétrole reste au-dessus de 100 dollars depuis deux mois, faute d'accord pour rouvrir le détroit d'Ormuz. Un analyste estime que le Brent testerait 120 dollars en cas d'escalade, tandis que l'essence coûte 4,29 dollars le gallon aux États-Unis.",
+   "summary_ar": "يبقى سعر النفط فوق 100 دولار منذ شهرين في غياب اتفاق لإعادة فتح مضيق هرمز. ويرى محلل أن برنت قد يختبر 120 دولارا في حال التصعيد، بينما يكلف البنزين 4,29 دولارات للغالون في الولايات المتحدة.",
+   "title": "Pétrole : +85 % depuis janvier, le Brent pourrait atteindre 120 dollars",
+   "title_ar": "النفط: ارتفاع بـ85٪ منذ يناير، وقد يبلغ برنت 120 دولارا",
+   "url": "https://business-standard.com/markets/news/crude-oil-up-85-in-2026-poses-threat-to-global-economy-brent-may-hit-120-126102300498_1.html"
   },
   {
    "cat": "tech",
-   "title": "Creality Sermoon P1S : un scanner 3D qui fonctionne sans ordinateur",
-   "title_ar": "Creality Sermoon P1S: ماسح ثلاثي الأبعاد يعمل دون حاسوب",
-   "summary": "Ce scanner 3D a son propre écran de 6 pouces, deux batteries et traite les images lui-même. Creative Bloq le juge précis dans la plupart des cas, mais cher pour les amateurs et moins à l'aise avec les objets brillants.",
-   "summary_ar": "يتوفر هذا الماسح ثلاثي الأبعاد على شاشته الخاصة بقياس 6 بوصات وبطاريتين، ويعالج الصور بنفسه. ويراه Creative Bloq دقيقا في معظم الحالات، لكنه مكلف للهواة وأقل نجاعة مع الأشياء اللامعة.",
-   "source": "Creative Bloq",
-   "url": "https://www.creativebloq.com/reviews/the-creality-sermoon-p1s-is-one-of-the-most-affordable-hybrid-scanners-around-but-dont-throw-your-scanning-spray-away-just-yet",
    "date": "2026-10-21",
-   "image": "",
    "explain": {
     "context": "Les scanners 3D transforment un objet réel en modèle numérique, utile pour l'impression 3D, le design produit ou les effets visuels.",
     "context_ar": "تحول الماسحات ثلاثية الأبعاد شيئا حقيقيا إلى نموذج رقمي، وهو مفيد للطباعة ثلاثية الأبعاد وتصميم المنتجات والمؤثرات البصرية.",
-    "terms": [
-     {
-      "t": "scanner 3D",
-      "t_ar": "ماسح ثلاثي الأبعاد",
-      "d": "Appareil qui mesure la forme d'un objet pour en créer une copie en trois dimensions sur ordinateur.",
-      "d_ar": "جهاز يقيس شكل شيء لصنع نسخة ثلاثية الأبعاد منه على الحاسوب."
-     }
-    ],
     "figures": [
      {
-      "n": "6 pouces",
-      "n_ar": "6 بوصات",
       "d": "Taille de l'écran intégré, environ 15 cm : de quoi régler le scan sans brancher d'ordinateur.",
-      "d_ar": "حجم الشاشة المدمجة، حوالي 15 سم: تكفي لضبط المسح دون ربط حاسوب."
+      "d_ar": "حجم الشاشة المدمجة، حوالي 15 سم: تكفي لضبط المسح دون ربط حاسوب.",
+      "n": "6 pouces",
+      "n_ar": "6 بوصات"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Appareil qui mesure la forme d'un objet pour en créer une copie en trois dimensions sur ordinateur.",
+      "d_ar": "جهاز يقيس شكل شيء لصنع نسخة ثلاثية الأبعاد منه على الحاسوب.",
+      "t": "scanner 3D",
+      "t_ar": "ماسح ثلاثي الأبعاد"
      }
     ]
-   }
+   },
+   "image": "",
+   "source": "Creative Bloq",
+   "summary": "Ce scanner 3D a son propre écran de 6 pouces, deux batteries et traite les images lui-même. Creative Bloq le juge précis dans la plupart des cas, mais cher pour les amateurs et moins à l'aise avec les objets brillants.",
+   "summary_ar": "يتوفر هذا الماسح ثلاثي الأبعاد على شاشته الخاصة بقياس 6 بوصات وبطاريتين، ويعالج الصور بنفسه. ويراه Creative Bloq دقيقا في معظم الحالات، لكنه مكلف للهواة وأقل نجاعة مع الأشياء اللامعة.",
+   "title": "Creality Sermoon P1S : un scanner 3D qui fonctionne sans ordinateur",
+   "title_ar": "Creality Sermoon P1S: ماسح ثلاثي الأبعاد يعمل دون حاسوب",
+   "url": "https://www.creativebloq.com/reviews/the-creality-sermoon-p1s-is-one-of-the-most-affordable-hybrid-scanners-around-but-dont-throw-your-scanning-spray-away-just-yet"
   },
   {
    "cat": "gaming",
-   "title": "Capcom : une fuite de données touche plus de 11 millions de comptes",
-   "title_ar": "كابكوم: تسريب بيانات يطال أكثر من 11 مليون حساب",
-   "summary": "Des adresses e-mail et des informations de connexion de 11,7 millions de comptes Capcom ID ont été consultées par un tiers. Les mots de passe et les cartes bancaires ne sont pas touchés, mais Capcom conseille de se méfier des faux messages.",
-   "summary_ar": "اطلعت جهة خارجية على عناوين بريد إلكتروني ومعلومات دخول لـ11,7 مليون حساب Capcom ID. ولم تتأثر كلمات المرور ولا البطاقات البنكية، لكن كابكوم تنصح بالحذر من الرسائل المزيفة.",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/capcom-says-a-data-breach-affected-more-than-11-million-capcom-id-accounts-credit-card-details-unaffected/",
    "date": "2026-10-22",
-   "image": "https://www.videogameschronicle.com/files/2026/10/capcom-id.jpg",
    "explain": {
     "context": "Capcom, éditeur de Resident Evil et Street Fighter, utilise le Capcom ID pour relier les joueurs à ses jeux et services en ligne.",
     "context_ar": "تستعمل كابكوم، ناشرة Resident Evil وStreet Fighter، حساب Capcom ID لربط اللاعبين بألعابها وخدماتها على الإنترنت.",
-    "terms": [
-     {
-      "t": "fuite de données",
-      "t_ar": "تسريب بيانات",
-      "d": "Quand des informations privées sortent d'un système et tombent entre de mauvaises mains.",
-      "d_ar": "عندما تخرج معلومات خاصة من نظام وتقع في أيد غير مرخص لها."
-     }
-    ],
     "figures": [
      {
-      "n": "11,7 millions",
-      "n_ar": "11,7 مليون",
       "d": "Comptes touchés ; 196 mots de passe modifiés sans accord ont déjà été réinitialisés.",
-      "d_ar": "عدد الحسابات المعنية؛ وأعيد ضبط 196 كلمة مرور غيرت دون إذن."
+      "d_ar": "عدد الحسابات المعنية؛ وأعيد ضبط 196 كلمة مرور غيرت دون إذن.",
+      "n": "11,7 millions",
+      "n_ar": "11,7 مليون"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Quand des informations privées sortent d'un système et tombent entre de mauvaises mains.",
+      "d_ar": "عندما تخرج معلومات خاصة من نظام وتقع في أيد غير مرخص لها.",
+      "t": "fuite de données",
+      "t_ar": "تسريب بيانات"
      }
     ]
-   }
+   },
+   "image": "https://www.videogameschronicle.com/files/2026/10/capcom-id.jpg",
+   "source": "VGC",
+   "summary": "Des adresses e-mail et des informations de connexion de 11,7 millions de comptes Capcom ID ont été consultées par un tiers. Les mots de passe et les cartes bancaires ne sont pas touchés, mais Capcom conseille de se méfier des faux messages.",
+   "summary_ar": "اطلعت جهة خارجية على عناوين بريد إلكتروني ومعلومات دخول لـ11,7 مليون حساب Capcom ID. ولم تتأثر كلمات المرور ولا البطاقات البنكية، لكن كابكوم تنصح بالحذر من الرسائل المزيفة.",
+   "title": "Capcom : une fuite de données touche plus de 11 millions de comptes",
+   "title_ar": "كابكوم: تسريب بيانات يطال أكثر من 11 مليون حساب",
+   "url": "https://www.videogameschronicle.com/news/capcom-says-a-data-breach-affected-more-than-11-million-capcom-id-accounts-credit-card-details-unaffected/"
   },
   {
    "cat": "gaming",
-   "title": "Mass Effect : le trailer du jeu annulé de BioWare fuite en ligne",
-   "title_ar": "Mass Effect: تسريب إعلان لعبة بايوير الملغاة على الإنترنت",
-   "summary": "Une vidéo du prochain Mass Effect, préparée par une petite équipe de BioWare, est apparue sur Reddit juste après la fermeture du studio par EA. Elle montrait une histoire d'espionnage avec Liara, après la guerre contre les Moissonneurs.",
-   "summary_ar": "ظهر على Reddit فيديو للعبة Mass Effect المقبلة، أعده فريق صغير من بايوير، مباشرة بعد إغلاق EA للاستوديو. وكان يعرض قصة تجسس مع ليارا بعد الحرب ضد الحاصدين.",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/mass-effect-universe-trailer-leaks-online-showcases-what-bioware-was-working-on-before-being-shut-down/",
    "date": "2026-10-22",
-   "image": "https://www.videogameschronicle.com/files/2026/10/Mass-Effect_-Universe-Trailer-2-7-screenshot.jpg",
    "explain": {
     "context": "EA a fermé BioWare cette semaine et annulé le jeu, alors que le studio promettait en 2025 que Mass Effect 5 restait prévu. Une série télé reste en préparation.",
     "context_ar": "أغلقت EA بايوير هذا الأسبوع وألغت اللعبة، رغم أن الاستوديو وعد في 2025 بأن Mass Effect 5 ما زالت مبرمجة. ولا يزال مسلسل تلفزيوني قيد الإعداد.",
+    "figures": [],
     "terms": [
      {
-      "t": "trailer",
-      "t_ar": "إعلان ترويجي",
       "d": "Courte vidéo qui présente un jeu ou un film pour donner envie de le découvrir.",
-      "d_ar": "فيديو قصير يقدم لعبة أو فيلما لإثارة الرغبة في اكتشافه."
+      "d_ar": "فيديو قصير يقدم لعبة أو فيلما لإثارة الرغبة في اكتشافه.",
+      "t": "trailer",
+      "t_ar": "إعلان ترويجي"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://www.videogameschronicle.com/files/2026/10/Mass-Effect_-Universe-Trailer-2-7-screenshot.jpg",
+   "source": "VGC",
+   "summary": "Une vidéo du prochain Mass Effect, préparée par une petite équipe de BioWare, est apparue sur Reddit juste après la fermeture du studio par EA. Elle montrait une histoire d'espionnage avec Liara, après la guerre contre les Moissonneurs.",
+   "summary_ar": "ظهر على Reddit فيديو للعبة Mass Effect المقبلة، أعده فريق صغير من بايوير، مباشرة بعد إغلاق EA للاستوديو. وكان يعرض قصة تجسس مع ليارا بعد الحرب ضد الحاصدين.",
+   "title": "Mass Effect : le trailer du jeu annulé de BioWare fuite en ligne",
+   "title_ar": "Mass Effect: تسريب إعلان لعبة بايوير الملغاة على الإنترنت",
+   "url": "https://www.videogameschronicle.com/news/mass-effect-universe-trailer-leaks-online-showcases-what-bioware-was-working-on-before-being-shut-down/"
   },
   {
    "cat": "geo",
-   "title": "Tunisie : heurts rares à Tunis après des morts liées à la police",
-   "title_ar": "تونس: مواجهات نادرة في العاصمة بعد وفيات مرتبطة بالشرطة",
-   "summary": "La police a tiré des gaz lacrymogènes dans la banlieue de Tunis et à Jebiniana, où des habitants protestaient contre la mort de deux hommes. Le pays traverse une crise économique, sociale et politique profonde.",
-   "summary_ar": "أطلقت الشرطة الغاز المسيل للدموع في ضاحية تونس وفي جبنيانة، حيث احتج سكان على وفاة رجلين. وتمر البلاد بأزمة اقتصادية واجتماعية وسياسية عميقة.",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/23/rare-unrest-flares-in-tunisian-capital-as-police-clash-with-protesters",
    "date": "2026-10-23",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ada9cfd-1792711933.jpg?resize=1920%2C1440",
    "explain": {
     "context": "Samedi dernier, des milliers de personnes ont manifesté à Tunis contre le président Kaïs Saïed. Mercredi, l'opposante Olfa Hamdi a été condamnée à quatre ans de prison.",
     "context_ar": "تظاهر الآلاف يوم السبت الماضي في تونس ضد الرئيس قيس سعيد، وصدر يوم الأربعاء حكم بالسجن أربع سنوات على المعارضة ألفة الحامدي.",
+    "figures": [],
     "terms": [
      {
-      "t": "gaz lacrymogènes",
-      "t_ar": "الغاز المسيل للدموع",
       "d": "Gaz qui pique les yeux et la gorge, utilisé par la police pour disperser une foule.",
-      "d_ar": "غاز يهيج العينين والحلق تستعمله الشرطة لتفريق الحشود."
+      "d_ar": "غاز يهيج العينين والحلق تستعمله الشرطة لتفريق الحشود.",
+      "t": "gaz lacrymogènes",
+      "t_ar": "الغاز المسيل للدموع"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ada9cfd-1792711933.jpg?resize=1920%2C1440",
+   "source": "Al Jazeera",
+   "summary": "La police a tiré des gaz lacrymogènes dans la banlieue de Tunis et à Jebiniana, où des habitants protestaient contre la mort de deux hommes. Le pays traverse une crise économique, sociale et politique profonde.",
+   "summary_ar": "أطلقت الشرطة الغاز المسيل للدموع في ضاحية تونس وفي جبنيانة، حيث احتج سكان على وفاة رجلين. وتمر البلاد بأزمة اقتصادية واجتماعية وسياسية عميقة.",
+   "title": "Tunisie : heurts rares à Tunis après des morts liées à la police",
+   "title_ar": "تونس: مواجهات نادرة في العاصمة بعد وفيات مرتبطة بالشرطة",
+   "url": "https://www.aljazeera.com/news/2026/10/23/rare-unrest-flares-in-tunisian-capital-as-police-clash-with-protesters"
   },
   {
    "cat": "geo",
-   "title": "Cisjordanie : Netanyahu annonce une vaste opération après la mort de deux soldats",
-   "title_ar": "الضفة الغربية: نتنياهو يعلن عملية واسعة بعد مقتل جنديين",
-   "summary": "Deux Palestiniens et deux soldats israéliens ont été tués lors d'une fusillade à Hébron. Benjamin Netanyahu dit que l'armée est prête à une opération de grande ampleur et à un bouclage complet de la Cisjordanie.",
-   "summary_ar": "قتل فلسطينيان وجنديان إسرائيليان في تبادل لإطلاق النار في الخليل. ويقول بنيامين نتنياهو إن الجيش مستعد لعملية واسعة ولإغلاق كامل للضفة الغربية.",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/10/23/trump-hints-new-strikes-says-us-knocked-hell-out-of-iran",
    "date": "2026-10-23",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/AP26247475131838-1788858560.jpg?resize=1920%2C1440",
    "explain": {
     "context": "La tension monte en Cisjordanie occupée, avec des arrestations et des attaques de colons.",
     "context_ar": "يتصاعد التوتر في الضفة الغربية المحتلة مع الاعتقالات وهجمات المستوطنين.",
+    "figures": [],
     "terms": [
      {
-      "t": "bouclage",
-      "t_ar": "إغلاق",
       "d": "Fermeture d'une zone par l'armée : on ne peut plus y entrer ni en sortir librement.",
-      "d_ar": "إغلاق الجيش لمنطقة بحيث لا يمكن الدخول إليها أو الخروج منها بحرية."
+      "d_ar": "إغلاق الجيش لمنطقة بحيث لا يمكن الدخول إليها أو الخروج منها بحرية.",
+      "t": "bouclage",
+      "t_ar": "إغلاق"
      }
-    ],
-    "figures": []
-   }
+    ]
+   },
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/AP26247475131838-1788858560.jpg?resize=1920%2C1440",
+   "source": "Al Jazeera",
+   "summary": "Deux Palestiniens et deux soldats israéliens ont été tués lors d'une fusillade à Hébron. Benjamin Netanyahu dit que l'armée est prête à une opération de grande ampleur et à un bouclage complet de la Cisjordanie.",
+   "summary_ar": "قتل فلسطينيان وجنديان إسرائيليان في تبادل لإطلاق النار في الخليل. ويقول بنيامين نتنياهو إن الجيش مستعد لعملية واسعة ولإغلاق كامل للضفة الغربية.",
+   "title": "Cisjordanie : Netanyahu annonce une vaste opération après la mort de deux soldats",
+   "title_ar": "الضفة الغربية: نتنياهو يعلن عملية واسعة بعد مقتل جنديين",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/10/23/trump-hints-new-strikes-says-us-knocked-hell-out-of-iran"
   },
   {
    "cat": "cinema",
-   "title": "« Clayface » démarre bien : 3,5 millions de dollars dès jeudi soir",
-   "title_ar": "«كلايفيس» يبدأ بقوة: 3,5 ملايين دولار منذ مساء الخميس",
-   "summary": "Le film d'horreur de DC a récolté au moins 3,5 millions de dollars lors des avant-premières aux États-Unis, plus que Kraven. Il pourrait faire 20 à 25 millions ce week-end, pour un budget de 44 millions.",
-   "summary_ar": "حصد فيلم الرعب من DC ما لا يقل عن 3,5 ملايين دولار في العروض الأولى بالولايات المتحدة، أكثر من Kraven. وقد يحقق بين 20 و25 مليونا هذا الأسبوع، بميزانية 44 مليونا.",
-   "source": "ComingSoon",
-   "url": "https://www.comingsoon.net/movies/news/2211551-clayface-box-office-numbers-budget-previews",
    "date": "2026-10-23",
-   "image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/10/MixCollage-23-Oct-2026-12-31-PM-810.jpg?resize=1200,630",
    "explain": {
     "context": "Réalisé par James Watkins sur un scénario de Mike Flanagan, « Clayface » raconte la naissance d'un ennemi de Batman. Il obtient 76 % de critiques positives.",
     "context_ar": "يحكي «كلايفيس» من إخراج جيمس واتكينز وسيناريو مايك فلاناغان ولادة أحد أعداء باتمان، وحصل على 76٪ من النقد الإيجابي.",
-    "terms": [
-     {
-      "t": "avant-premières",
-      "t_ar": "العروض الأولى",
-      "d": "Séances organisées la veille de la sortie officielle d'un film.",
-      "d_ar": "عروض تنظم عشية الخروج الرسمي للفيلم."
-     }
-    ],
     "figures": [
      {
-      "n": "44 millions",
-      "n_ar": "44 مليونا",
       "d": "Coût de production en dollars, hors publicité.",
-      "d_ar": "كلفة الإنتاج بالدولار دون احتساب الإشهار."
+      "d_ar": "كلفة الإنتاج بالدولار دون احتساب الإشهار.",
+      "n": "44 millions",
+      "n_ar": "44 مليونا"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Séances organisées la veille de la sortie officielle d'un film.",
+      "d_ar": "عروض تنظم عشية الخروج الرسمي للفيلم.",
+      "t": "avant-premières",
+      "t_ar": "العروض الأولى"
      }
     ]
-   }
+   },
+   "image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/10/MixCollage-23-Oct-2026-12-31-PM-810.jpg?resize=1200,630",
+   "source": "ComingSoon",
+   "summary": "Le film d'horreur de DC a récolté au moins 3,5 millions de dollars lors des avant-premières aux États-Unis, plus que Kraven. Il pourrait faire 20 à 25 millions ce week-end, pour un budget de 44 millions.",
+   "summary_ar": "حصد فيلم الرعب من DC ما لا يقل عن 3,5 ملايين دولار في العروض الأولى بالولايات المتحدة، أكثر من Kraven. وقد يحقق بين 20 و25 مليونا هذا الأسبوع، بميزانية 44 مليونا.",
+   "title": "« Clayface » démarre bien : 3,5 millions de dollars dès jeudi soir",
+   "title_ar": "«كلايفيس» يبدأ بقوة: 3,5 ملايين دولار منذ مساء الخميس",
+   "url": "https://www.comingsoon.net/movies/news/2211551-clayface-box-office-numbers-budget-previews"
   },
   {
    "cat": "maroc",
@@ -6037,20 +6068,54 @@
   {
    "cat": "maroc",
    "date": "2026-10-17",
-   "source": "Médias24",
-   "url": "https://medias24.com/2026/10/17/plf-2027-letat-priorise-le-pouvoir-dachat-et-revalorise-laide-sociale-directe-1781186/",
+   "explain": {
+    "context": "Chaque automne, le gouvernement prépare le budget de l'année suivante. Le texte passe d'abord en Conseil des ministres, puis il est débattu et voté au Parlement.",
+    "context_ar": "كل خريف، تعد الحكومة ميزانية السنة الموالية. ويمر النص أولا على المجلس الوزاري، ثم يناقش ويصوت عليه في البرلمان.",
+    "figures": [
+     {
+      "d": "Un déficit de 3 % du PIB est souvent vu comme un seuil raisonnable ; c'est aussi la règle de l'Union européenne.",
+      "d_ar": "عجز بـ3٪ من الناتج يُعتبر غالبا عتبة معقولة، وهي أيضا قاعدة الاتحاد الأوروبي.",
+      "n": "3 %",
+      "n_ar": "3٪"
+     },
+     {
+      "d": "Crédits prévus pour les programmes de développement des territoires.",
+      "d_ar": "اعتمادات مخصصة لبرامج التنمية الترابية.",
+      "n": "25 milliards de dirhams",
+      "n_ar": "25 مليار درهم"
+     }
+    ],
+    "terms": [
+     {
+      "d": "Le texte qui fixe les recettes et les dépenses de l'État pour une année.",
+      "d_ar": "النص الذي يحدد مداخيل الدولة ونفقاتها لسنة واحدة.",
+      "t": "projet de loi de finances",
+      "t_ar": "مشروع قانون المالية"
+     },
+     {
+      "d": "Quand l'État dépense plus qu'il ne gagne ; il emprunte pour combler la différence.",
+      "d_ar": "حين تنفق الدولة أكثر مما تجني، فتقترض لتغطية الفرق.",
+      "t": "déficit budgétaire",
+      "t_ar": "عجز الميزانية"
+     },
+     {
+      "d": "La valeur de tout ce que le pays produit en un an ; on s'en sert pour comparer la dette ou le déficit.",
+      "d_ar": "قيمة كل ما ينتجه البلد في سنة، ويستعمل لمقارنة الدين أو العجز.",
+      "t": "PIB",
+      "t_ar": "الناتج الداخلي الخام"
+     },
+     {
+      "d": "La hausse générale des prix sur un an.",
+      "d_ar": "الارتفاع العام للأسعار خلال سنة.",
+      "t": "inflation",
+      "t_ar": "التضخم"
+     }
+    ]
+   },
    "image": "https://medias24.com/content/uploads/2026/10/17/Le-Roi-Moahmmed-VI-preside-un-conseil-des-ministres-consacre-au-PLF-2027-PH-MAP.webp",
-   "minutes": 4,
    "lang": "fr",
+   "minutes": 4,
    "paywall": false,
-   "title": "Budget 2027 : le pouvoir d'achat et l'aide sociale d'abord",
-   "title_ar": "ميزانية 2027: القدرة الشرائية والدعم الاجتماعي أولا",
-   "summary": "Le Conseil des ministres a fixé les grandes lignes du projet de loi de finances 2027 : déficit ramené à 3 % du PIB et cinq priorités. En tête, le pouvoir d'achat, la hausse de l'aide sociale directe et un nouveau programme pour l'emploi des jeunes.",
-   "summary_ar": "حدد المجلس الوزاري التوجهات الكبرى لمشروع قانون المالية 2027: عجز في حدود 3٪ من الناتج الداخلي الخام وخمس أولويات، في مقدمتها القدرة الشرائية والرفع من الدعم الاجتماعي المباشر وبرنامج جديد لتشغيل الشباب.",
-   "why": "Le budget présenté ce vendredi au Parlement va toucher les prix, les aides et les projets publics : utile pour comprendre l'année qui vient.",
-   "why_ar": "الميزانية المقدمة هذه الجمعة في البرلمان ستمس الأسعار والدعم والمشاريع العمومية: مفيدة لفهم السنة المقبلة.",
-   "resume": "Le 17 octobre, le Conseil des ministres présidé par le Roi a adopté les orientations du projet de loi de finances 2027. Le cadre chiffré : une croissance attendue de 4,7 % pour 2026, une inflation très basse autour de 0,7 % et un déficit budgétaire ramené à 3 % du PIB. Le texte s'organise autour de cinq priorités. La première est le pouvoir d'achat et un « État social » durable : réforme des marchés et des prix dès 2027, hausse de l'aide sociale directe, meilleure couverture santé et renforcement des aides au logement, sans montants précisés à ce stade.\nViennent ensuite l'insertion des jeunes, avec un programme national 2027-2031 (formation, financement, garanties, accès aux marchés), puis la régionalisation, avec 25 milliards de dirhams pour de nouveaux programmes de développement territorial. Le budget insiste aussi sur la souveraineté de l'eau, de l'énergie, de l'alimentation et du numérique, et sur l'investissement privé, surtout celui des petites entreprises. Les détails chiffrés arrivent avec le texte complet au Parlement.",
-   "resume_ar": "في 17 أكتوبر، صادق المجلس الوزاري برئاسة الملك على توجهات مشروع قانون المالية 2027. والإطار المرقم: نمو منتظر بـ4,7٪ في 2026، وتضخم منخفض جدا في حدود 0,7٪، وعجز في الميزانية ينزل إلى 3٪ من الناتج الداخلي الخام. ويقوم النص على خمس أولويات، أولاها القدرة الشرائية و«دولة اجتماعية» مستدامة: إصلاح الأسواق والأسعار ابتداء من 2027، والرفع من الدعم الاجتماعي المباشر، وتحسين التغطية الصحية، وتعزيز دعم السكن، دون تحديد المبالغ في هذه المرحلة.\nثم يأتي إدماج الشباب عبر برنامج وطني 2027-2031 (تكوين وتمويل وضمانات وولوج إلى الأسواق)، ثم الجهوية مع 25 مليار درهم لبرامج تنمية ترابية جديدة. وتركز الميزانية أيضا على السيادة المائية والطاقية والغذائية والرقمية، وعلى الاستثمار الخاص، خاصة لدى المقاولات الصغيرة. أما التفاصيل المرقمة فتأتي مع النص الكامل في البرلمان.",
    "points": [
     "Déficit visé : 3 % du PIB.",
     "Croissance attendue de 4,7 % en 2026, inflation vers 0,7 %.",
@@ -6065,52 +6130,18 @@
     "برنامج للشباب 2027-2031.",
     "25 مليار درهم للجهات."
    ],
+   "resume": "Le 17 octobre, le Conseil des ministres présidé par le Roi a adopté les orientations du projet de loi de finances 2027. Le cadre chiffré : une croissance attendue de 4,7 % pour 2026, une inflation très basse autour de 0,7 % et un déficit budgétaire ramené à 3 % du PIB. Le texte s'organise autour de cinq priorités. La première est le pouvoir d'achat et un « État social » durable : réforme des marchés et des prix dès 2027, hausse de l'aide sociale directe, meilleure couverture santé et renforcement des aides au logement, sans montants précisés à ce stade.\nViennent ensuite l'insertion des jeunes, avec un programme national 2027-2031 (formation, financement, garanties, accès aux marchés), puis la régionalisation, avec 25 milliards de dirhams pour de nouveaux programmes de développement territorial. Le budget insiste aussi sur la souveraineté de l'eau, de l'énergie, de l'alimentation et du numérique, et sur l'investissement privé, surtout celui des petites entreprises. Les détails chiffrés arrivent avec le texte complet au Parlement.",
+   "resume_ar": "في 17 أكتوبر، صادق المجلس الوزاري برئاسة الملك على توجهات مشروع قانون المالية 2027. والإطار المرقم: نمو منتظر بـ4,7٪ في 2026، وتضخم منخفض جدا في حدود 0,7٪، وعجز في الميزانية ينزل إلى 3٪ من الناتج الداخلي الخام. ويقوم النص على خمس أولويات، أولاها القدرة الشرائية و«دولة اجتماعية» مستدامة: إصلاح الأسواق والأسعار ابتداء من 2027، والرفع من الدعم الاجتماعي المباشر، وتحسين التغطية الصحية، وتعزيز دعم السكن، دون تحديد المبالغ في هذه المرحلة.\nثم يأتي إدماج الشباب عبر برنامج وطني 2027-2031 (تكوين وتمويل وضمانات وولوج إلى الأسواق)، ثم الجهوية مع 25 مليار درهم لبرامج تنمية ترابية جديدة. وتركز الميزانية أيضا على السيادة المائية والطاقية والغذائية والرقمية، وعلى الاستثمار الخاص، خاصة لدى المقاولات الصغيرة. أما التفاصيل المرقمة فتأتي مع النص الكامل في البرلمان.",
+   "source": "Médias24",
+   "summary": "Le Conseil des ministres a fixé les grandes lignes du projet de loi de finances 2027 : déficit ramené à 3 % du PIB et cinq priorités. En tête, le pouvoir d'achat, la hausse de l'aide sociale directe et un nouveau programme pour l'emploi des jeunes.",
+   "summary_ar": "حدد المجلس الوزاري التوجهات الكبرى لمشروع قانون المالية 2027: عجز في حدود 3٪ من الناتج الداخلي الخام وخمس أولويات، في مقدمتها القدرة الشرائية والرفع من الدعم الاجتماعي المباشر وبرنامج جديد لتشغيل الشباب.",
    "takeaway": "Le budget 2027 promet plus de social tout en réduisant le déficit : les chiffres détaillés diront si l'équation tient.",
    "takeaway_ar": "ميزانية 2027 تعد بمزيد من الاجتماعي مع خفض العجز، والأرقام المفصلة ستكشف هل تصمد المعادلة.",
-   "explain": {
-    "context": "Chaque automne, le gouvernement prépare le budget de l'année suivante. Le texte passe d'abord en Conseil des ministres, puis il est débattu et voté au Parlement.",
-    "context_ar": "كل خريف، تعد الحكومة ميزانية السنة الموالية. ويمر النص أولا على المجلس الوزاري، ثم يناقش ويصوت عليه في البرلمان.",
-    "terms": [
-     {
-      "t": "projet de loi de finances",
-      "t_ar": "مشروع قانون المالية",
-      "d": "Le texte qui fixe les recettes et les dépenses de l'État pour une année.",
-      "d_ar": "النص الذي يحدد مداخيل الدولة ونفقاتها لسنة واحدة."
-     },
-     {
-      "t": "déficit budgétaire",
-      "t_ar": "عجز الميزانية",
-      "d": "Quand l'État dépense plus qu'il ne gagne ; il emprunte pour combler la différence.",
-      "d_ar": "حين تنفق الدولة أكثر مما تجني، فتقترض لتغطية الفرق."
-     },
-     {
-      "t": "PIB",
-      "t_ar": "الناتج الداخلي الخام",
-      "d": "La valeur de tout ce que le pays produit en un an ; on s'en sert pour comparer la dette ou le déficit.",
-      "d_ar": "قيمة كل ما ينتجه البلد في سنة، ويستعمل لمقارنة الدين أو العجز."
-     },
-     {
-      "t": "inflation",
-      "t_ar": "التضخم",
-      "d": "La hausse générale des prix sur un an.",
-      "d_ar": "الارتفاع العام للأسعار خلال سنة."
-     }
-    ],
-    "figures": [
-     {
-      "n": "3 %",
-      "n_ar": "3٪",
-      "d": "Un déficit de 3 % du PIB est souvent vu comme un seuil raisonnable ; c'est aussi la règle de l'Union européenne.",
-      "d_ar": "عجز بـ3٪ من الناتج يُعتبر غالبا عتبة معقولة، وهي أيضا قاعدة الاتحاد الأوروبي."
-     },
-     {
-      "n": "25 milliards de dirhams",
-      "n_ar": "25 مليار درهم",
-      "d": "Crédits prévus pour les programmes de développement des territoires.",
-      "d_ar": "اعتمادات مخصصة لبرامج التنمية الترابية."
-     }
-    ]
-   }
+   "title": "Budget 2027 : le pouvoir d'achat et l'aide sociale d'abord",
+   "title_ar": "ميزانية 2027: القدرة الشرائية والدعم الاجتماعي أولا",
+   "url": "https://medias24.com/2026/10/17/plf-2027-letat-priorise-le-pouvoir-dachat-et-revalorise-laide-sociale-directe-1781186/",
+   "why": "Le budget présenté ce vendredi au Parlement va toucher les prix, les aides et les projets publics : utile pour comprendre l'année qui vient.",
+   "why_ar": "الميزانية المقدمة هذه الجمعة في البرلمان ستمس الأسعار والدعم والمشاريع العمومية: مفيدة لفهم السنة المقبلة."
   },
   {
    "cat": "ia",
@@ -6804,20 +6835,41 @@
   {
    "cat": "ux",
    "date": "2026-10-09",
-   "source": "Nielsen Norman Group",
-   "url": "https://www.nngroup.com/articles/context-libraries/",
+   "explain": {
+    "context": "Les agents d'IA comme Claude peuvent lire des dossiers entiers. Les utilisateurs avancés y rangent leurs règles pour ne pas tout réexpliquer à chaque fois.",
+    "context_ar": "يمكن لوكلاء الذكاء الاصطناعي مثل Claude قراءة مجلدات كاملة. ويرتب المستخدمون المتقدمون فيها قواعدهم حتى لا يعيدوا الشرح في كل مرة.",
+    "figures": [],
+    "terms": [
+     {
+      "d": "Les informations que l'IA a sous les yeux au moment de répondre : consignes, documents, historique.",
+      "d_ar": "المعلومات التي يراها الذكاء الاصطناعي لحظة الإجابة: تعليمات ووثائق وسجل سابق.",
+      "t": "contexte",
+      "t_ar": "السياق"
+     },
+     {
+      "d": "Les demandes écrites ou dictées qu'on adresse à l'IA.",
+      "d_ar": "الطلبات المكتوبة أو المملاة التي نوجهها للذكاء الاصطناعي.",
+      "t": "prompts",
+      "t_ar": "الأوامر"
+     },
+     {
+      "d": "Un format de texte simple, avec des titres et des listes, facile à lire pour un humain comme pour une IA.",
+      "d_ar": "صيغة نص بسيطة بعناوين وقوائم، سهلة القراءة للإنسان وللذكاء الاصطناعي.",
+      "t": "markdown",
+      "t_ar": "ماركداون"
+     },
+     {
+      "d": "Une IA qui ne fait pas que répondre : elle agit, par exemple en créant ou modifiant des fichiers.",
+      "d_ar": "ذكاء اصطناعي لا يكتفي بالإجابة بل يتصرف، كأن ينشئ ملفات أو يعدلها.",
+      "t": "agent",
+      "t_ar": "وكيل"
+     }
+    ]
+   },
    "image": "https://media.nngroup.com/media/articles/opengraph_images/Context_Libraries-1.png",
-   "minutes": 10,
    "lang": "en",
+   "minutes": 10,
    "paywall": false,
-   "title": "Bibliothèques de contexte : comment les experts de l'IA organisent ce que l'agent doit savoir",
-   "title_ar": "مكتبات السياق: كيف ينظم الخبراء ما يجب أن يعرفه وكيل الذكاء الاصطناعي",
-   "summary": "NN/g a observé des utilisateurs avancés de Claude qui stockent leurs méthodes et leurs connaissances dans des fichiers lus par l'IA. L'étude montre qu'ils passent plus de temps à soigner ce contexte qu'à écrire des prompts, et tire quatre leçons pour l'organiser.",
-   "summary_ar": "راقبت مجموعة نيلسن نورمان مستخدمين متقدمين لـClaude يخزنون مناهجهم ومعارفهم في ملفات يقرؤها الذكاء الاصطناعي. وتبين الدراسة أنهم يقضون وقتا في العناية بهذا السياق أكثر من كتابة الأوامر، وتستخلص أربعة دروس لتنظيمه.",
-   "why": "Tu travailles déjà avec l'IA et tu formes des équipes : c'est un vrai sujet de design d'expérience, et une matière pour conseiller des clients.",
-   "why_ar": "أنت تعمل أصلا مع الذكاء الاصطناعي وتكوّن فرقا: هذا موضوع حقيقي في تصميم التجربة، ومادة لتقديم الاستشارة للعملاء.",
-   "resume": "Une « bibliothèque de contexte » est un ensemble de fichiers (souvent en markdown) qui contient les règles, les méthodes et les connaissances qu'un agent d'IA peut lire et modifier. NN/g distingue trois niveaux : le contexte global, qui change peu et guide l'agent partout ; le contexte local, propre à un projet ; et le contexte « ambiant », brut, comme les e-mails ou les comptes rendus de réunion. L'étude qualitative suit des utilisateurs experts de Claude : ils dictent leurs demandes sans effort mais investissent beaucoup dans ce contexte, avec des méthodes improvisées apprises sur les réseaux.\nLes problèmes sont concrets : fichiers oubliés ou périmés, connexions qui cassent, informations qui « débordent » d'un projet à l'autre. Les conseils : laisser l'agent entretenir lui-même la bibliothèque et lui demander des audits réguliers, placer un fichier index dans chaque dossier, ne charger que ce qui sert à la tâche et garder des fichiers courts. Pour les équipes de design, tout reste à inventer : ces pratiques sont pensées pour des individus, pas pour des bibliothèques partagées.",
-   "resume_ar": "«مكتبة السياق» مجموعة ملفات (غالبا بصيغة ماركداون) تضم القواعد والمناهج والمعارف التي يمكن لوكيل الذكاء الاصطناعي قراءتها وتعديلها. وتميز المجموعة بين ثلاثة مستويات: السياق العام الذي نادرا ما يتغير ويوجه الوكيل في كل مكان، والسياق المحلي الخاص بمشروع، والسياق «المحيط» الخام مثل الرسائل ومحاضر الاجتماعات. وتتابع الدراسة النوعية مستخدمين خبراء لـClaude: يملون طلباتهم دون عناء، لكنهم يستثمرون كثيرا في هذا السياق بطرق مرتجلة تعلموها من الشبكات الاجتماعية.\nوالمشاكل ملموسة: ملفات منسية أو متجاوزة، وروابط تتعطل، ومعلومات «تتسرب» من مشروع إلى آخر. والنصائح: ترك الوكيل يصون المكتبة بنفسه وطلب مراجعات منتظمة منه، ووضع ملف فهرس في كل مجلد، وعدم تحميل إلا ما تحتاجه المهمة، والإبقاء على ملفات قصيرة. أما فرق التصميم فكل شيء ما زال يحتاج إلى ابتكار، لأن هذه الممارسات موجهة للأفراد لا للمكتبات المشتركة.",
    "points": [
     "Le contexte compte plus que le prompt pour ces experts.",
     "Trois niveaux : global, local et ambiant.",
@@ -6832,88 +6884,63 @@
     "فهرس في كل مجلد يساعد الإنسان والوكيل.",
     "تحميل القليل في المكان المناسب يمنع الخلط."
    ],
+   "resume": "Une « bibliothèque de contexte » est un ensemble de fichiers (souvent en markdown) qui contient les règles, les méthodes et les connaissances qu'un agent d'IA peut lire et modifier. NN/g distingue trois niveaux : le contexte global, qui change peu et guide l'agent partout ; le contexte local, propre à un projet ; et le contexte « ambiant », brut, comme les e-mails ou les comptes rendus de réunion. L'étude qualitative suit des utilisateurs experts de Claude : ils dictent leurs demandes sans effort mais investissent beaucoup dans ce contexte, avec des méthodes improvisées apprises sur les réseaux.\nLes problèmes sont concrets : fichiers oubliés ou périmés, connexions qui cassent, informations qui « débordent » d'un projet à l'autre. Les conseils : laisser l'agent entretenir lui-même la bibliothèque et lui demander des audits réguliers, placer un fichier index dans chaque dossier, ne charger que ce qui sert à la tâche et garder des fichiers courts. Pour les équipes de design, tout reste à inventer : ces pratiques sont pensées pour des individus, pas pour des bibliothèques partagées.",
+   "resume_ar": "«مكتبة السياق» مجموعة ملفات (غالبا بصيغة ماركداون) تضم القواعد والمناهج والمعارف التي يمكن لوكيل الذكاء الاصطناعي قراءتها وتعديلها. وتميز المجموعة بين ثلاثة مستويات: السياق العام الذي نادرا ما يتغير ويوجه الوكيل في كل مكان، والسياق المحلي الخاص بمشروع، والسياق «المحيط» الخام مثل الرسائل ومحاضر الاجتماعات. وتتابع الدراسة النوعية مستخدمين خبراء لـClaude: يملون طلباتهم دون عناء، لكنهم يستثمرون كثيرا في هذا السياق بطرق مرتجلة تعلموها من الشبكات الاجتماعية.\nوالمشاكل ملموسة: ملفات منسية أو متجاوزة، وروابط تتعطل، ومعلومات «تتسرب» من مشروع إلى آخر. والنصائح: ترك الوكيل يصون المكتبة بنفسه وطلب مراجعات منتظمة منه، ووضع ملف فهرس في كل مجلد، وعدم تحميل إلا ما تحتاجه المهمة، والإبقاء على ملفات قصيرة. أما فرق التصميم فكل شيء ما زال يحتاج إلى ابتكار، لأن هذه الممارسات موجهة للأفراد لا للمكتبات المشتركة.",
+   "source": "Nielsen Norman Group",
+   "summary": "NN/g a observé des utilisateurs avancés de Claude qui stockent leurs méthodes et leurs connaissances dans des fichiers lus par l'IA. L'étude montre qu'ils passent plus de temps à soigner ce contexte qu'à écrire des prompts, et tire quatre leçons pour l'organiser.",
+   "summary_ar": "راقبت مجموعة نيلسن نورمان مستخدمين متقدمين لـClaude يخزنون مناهجهم ومعارفهم في ملفات يقرؤها الذكاء الاصطناعي. وتبين الدراسة أنهم يقضون وقتا في العناية بهذا السياق أكثر من كتابة الأوامر، وتستخلص أربعة دروس لتنظيمه.",
    "takeaway": "Avec l'IA, le vrai travail de conception se déplace du prompt vers l'architecture de l'information qu'on lui donne.",
    "takeaway_ar": "مع الذكاء الاصطناعي، ينتقل عمل التصميم الحقيقي من الأمر إلى هندسة المعلومات التي نقدمها له.",
-   "explain": {
-    "context": "Les agents d'IA comme Claude peuvent lire des dossiers entiers. Les utilisateurs avancés y rangent leurs règles pour ne pas tout réexpliquer à chaque fois.",
-    "context_ar": "يمكن لوكلاء الذكاء الاصطناعي مثل Claude قراءة مجلدات كاملة. ويرتب المستخدمون المتقدمون فيها قواعدهم حتى لا يعيدوا الشرح في كل مرة.",
-    "terms": [
-     {
-      "t": "contexte",
-      "t_ar": "السياق",
-      "d": "Les informations que l'IA a sous les yeux au moment de répondre : consignes, documents, historique.",
-      "d_ar": "المعلومات التي يراها الذكاء الاصطناعي لحظة الإجابة: تعليمات ووثائق وسجل سابق."
-     },
-     {
-      "t": "prompts",
-      "t_ar": "الأوامر",
-      "d": "Les demandes écrites ou dictées qu'on adresse à l'IA.",
-      "d_ar": "الطلبات المكتوبة أو المملاة التي نوجهها للذكاء الاصطناعي."
-     },
-     {
-      "t": "markdown",
-      "t_ar": "ماركداون",
-      "d": "Un format de texte simple, avec des titres et des listes, facile à lire pour un humain comme pour une IA.",
-      "d_ar": "صيغة نص بسيطة بعناوين وقوائم، سهلة القراءة للإنسان وللذكاء الاصطناعي."
-     },
-     {
-      "t": "agent",
-      "t_ar": "وكيل",
-      "d": "Une IA qui ne fait pas que répondre : elle agit, par exemple en créant ou modifiant des fichiers.",
-      "d_ar": "ذكاء اصطناعي لا يكتفي بالإجابة بل يتصرف، كأن ينشئ ملفات أو يعدلها."
-     }
-    ],
-    "figures": []
-   }
+   "title": "Bibliothèques de contexte : comment les experts de l'IA organisent ce que l'agent doit savoir",
+   "title_ar": "مكتبات السياق: كيف ينظم الخبراء ما يجب أن يعرفه وكيل الذكاء الاصطناعي",
+   "url": "https://www.nngroup.com/articles/context-libraries/",
+   "why": "Tu travailles déjà avec l'IA et tu formes des équipes : c'est un vrai sujet de design d'expérience, et une matière pour conseiller des clients.",
+   "why_ar": "أنت تعمل أصلا مع الذكاء الاصطناعي وتكوّن فرقا: هذا موضوع حقيقي في تصميم التجربة، ومادة لتقديم الاستشارة للعملاء."
   }
  ],
  "analyses": [
   {
-   "id": "an-petrole-ormuz-octobre",
    "cat": "eco",
-   "event": null,
    "date": "2026-10-23",
-   "minutes": 4,
-   "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMjE1MzI2/stock-markets-open-after-best-quarter-since-2020.jpg?profile=share16-9",
-   "image_credit": "TheStreet",
-   "title": "Pétrole à 114 dollars : pourquoi Ormuz fait encore flamber les prix",
-   "title_ar": "النفط بـ114 دولارا: لماذا يواصل هرمز إشعال الأسعار",
    "dek": "Le Brent a atteint vendredi son plus haut niveau depuis plus de cinq mois. Les exportations du Golfe avaient pourtant repris, mais les attaques contre les navires et en Arabie saoudite ravivent la peur de manquer.",
    "dek_ar": "بلغ برنت يوم الجمعة أعلى مستوى له منذ أكثر من خمسة أشهر. ورغم أن صادرات الخليج استأنفت تدفقها، فإن الهجمات على السفن وفي السعودية تعيد الخوف من النقص.",
+   "event": null,
+   "id": "an-petrole-ormuz-octobre",
+   "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMjE1MzI2/stock-markets-open-after-best-quarter-since-2020.jpg?profile=share16-9",
+   "image_credit": "TheStreet",
+   "minutes": 4,
    "sections": [
     {
-     "h": "Un nouveau pic",
-     "h_ar": "ذروة جديدة",
      "body": "Vendredi 23 octobre au matin, le baril de Brent, la référence pour l'Europe et l'Afrique, s'échangeait autour de 114,5 dollars, en hausse de plus de 1 % sur la journée. Selon TheStreet, c'est son plus haut niveau depuis plus de cinq mois. Le pétrole américain WTI dépassait 101 dollars. Deux jours plus tôt, le Brent avait déjà franchi 110 dollars après des informations sur un superpétrolier touché par une mine dans le détroit d'Ormuz. Depuis le début de l'année, le prix a progressé d'environ 80 %, selon Voice of Emirates.",
-     "body_ar": "صباح الجمعة 23 أكتوبر، كان برميل برنت، المرجع لأوروبا وإفريقيا، يتداول حول 114,5 دولارا، بارتفاع يفوق 1٪ في اليوم. وحسب موقع ذا ستريت، فهذا أعلى مستوى له منذ أكثر من خمسة أشهر. وتجاوز النفط الأمريكي (WTI) عتبة 101 دولار. وقبل يومين، كان برنت قد تخطى 110 دولارات بعد أنباء عن ناقلة عملاقة أصابها لغم في مضيق هرمز. ومنذ بداية السنة، ارتفع السعر بنحو 80٪ حسب موقع فويس أوف إمارات."
+     "body_ar": "صباح الجمعة 23 أكتوبر، كان برميل برنت، المرجع لأوروبا وإفريقيا، يتداول حول 114,5 دولارا، بارتفاع يفوق 1٪ في اليوم. وحسب موقع ذا ستريت، فهذا أعلى مستوى له منذ أكثر من خمسة أشهر. وتجاوز النفط الأمريكي (WTI) عتبة 101 دولار. وقبل يومين، كان برنت قد تخطى 110 دولارات بعد أنباء عن ناقلة عملاقة أصابها لغم في مضيق هرمز. ومنذ بداية السنة، ارتفع السعر بنحو 80٪ حسب موقع فويس أوف إمارات.",
+     "h": "Un nouveau pic",
+     "h_ar": "ذروة جديدة"
     },
     {
-     "h": "Un détroit vital",
-     "h_ar": "مضيق حيوي",
      "body": "Avant la guerre déclenchée le 28 février, environ 125 grands navires traversaient chaque jour Ormuz, avec près d'un cinquième du pétrole et du gaz liquéfié mondiaux, rappelle Al Jazeera. Le Brent valait alors autour de 72 dollars. L'Iran a ensuite quasiment fermé le passage, tandis que les États-Unis bloquent ses ports. Chaque incident dans cette zone a donc un effet direct sur les prix, car les acheteurs craignent de ne pas recevoir leurs cargaisons.",
-     "body_ar": "قبل الحرب التي اندلعت في 28 فبراير، كانت نحو 125 سفينة كبيرة تعبر هرمز يوميا، حاملة قرابة خُمس النفط والغاز المسال في العالم، كما تذكّر الجزيرة. وكان برنت حينها في حدود 72 دولارا. ثم أغلقت إيران الممر تقريبا، بينما تحاصر الولايات المتحدة موانئها. لذلك فإن كل حادث في هذه المنطقة يؤثر مباشرة في الأسعار، لأن المشترين يخشون ألا تصلهم شحناتهم."
+     "body_ar": "قبل الحرب التي اندلعت في 28 فبراير، كانت نحو 125 سفينة كبيرة تعبر هرمز يوميا، حاملة قرابة خُمس النفط والغاز المسال في العالم، كما تذكّر الجزيرة. وكان برنت حينها في حدود 72 دولارا. ثم أغلقت إيران الممر تقريبا، بينما تحاصر الولايات المتحدة موانئها. لذلك فإن كل حادث في هذه المنطقة يؤثر مباشرة في الأسعار، لأن المشترين يخشون ألا تصلهم شحناتهم.",
+     "h": "Un détroit vital",
+     "h_ar": "مضيق حيوي"
     },
     {
-     "h": "Une reprise fragile",
-     "h_ar": "تعاف هش",
      "body": "En septembre, les exportations du Golfe hors Iran avaient pourtant retrouvé plus de 81 % de leur niveau d'avant-guerre, selon le cabinet Kpler. Environ 40 % du pétrole contourne désormais Ormuz, notamment par l'oléoduc saoudien qui rejoint la mer Rouge. Mais depuis début octobre, les attaques de navires se sont multipliées, et les Houthis visent les intérêts saoudiens. Vendredi, ce sont justement leurs attaques en Arabie saoudite qui ont relancé la hausse, d'après TheStreet. Les données de suivi des navires citées par Voice of Emirates montrent aussi un ralentissement des flux sortant du Golfe en octobre.",
-     "body_ar": "في سبتمبر، كانت صادرات الخليج دون إيران قد استعادت أكثر من 81٪ من مستواها قبل الحرب حسب شركة كبلر. وأصبح نحو 40٪ من النفط يتجنب هرمز، خاصة عبر الأنبوب السعودي المتجه إلى البحر الأحمر. لكن منذ مطلع أكتوبر تكاثرت الهجمات على السفن، والحوثيون يستهدفون المصالح السعودية. ويوم الجمعة، كانت هجماتهم في السعودية بالضبط هي ما أعاد إشعال الارتفاع حسب ذا ستريت. كما تُظهر بيانات تتبع السفن التي أوردها موقع فويس أوف إمارات تباطؤا في التدفقات الخارجة من الخليج خلال أكتوبر."
+     "body_ar": "في سبتمبر، كانت صادرات الخليج دون إيران قد استعادت أكثر من 81٪ من مستواها قبل الحرب حسب شركة كبلر. وأصبح نحو 40٪ من النفط يتجنب هرمز، خاصة عبر الأنبوب السعودي المتجه إلى البحر الأحمر. لكن منذ مطلع أكتوبر تكاثرت الهجمات على السفن، والحوثيون يستهدفون المصالح السعودية. ويوم الجمعة، كانت هجماتهم في السعودية بالضبط هي ما أعاد إشعال الارتفاع حسب ذا ستريت. كما تُظهر بيانات تتبع السفن التي أوردها موقع فويس أوف إمارات تباطؤا في التدفقات الخارجة من الخليج خلال أكتوبر.",
+     "h": "Une reprise fragile",
+     "h_ar": "تعاف هش"
     },
     {
-     "h": "Des Bourses nerveuses",
-     "h_ar": "بورصات متوترة",
      "body": "Le pétrole cher s'ajoute à une autre inquiétude sur les marchés. Jeudi, les valeurs technologiques ont reculé, et vendredi les contrats sur le S&P 500 restaient en baisse. Tesla a réduit de 20 % ses investissements prévus pour l'année, ce qui fait craindre un ralentissement des dépenses dans l'IA, moteur de la Bourse depuis deux ans. L'or, valeur refuge habituelle, baissait lui aussi légèrement. On peut penser que les investisseurs cherchent surtout à réduire leurs risques en attendant plus de clarté.",
-     "body_ar": "يضاف النفط الغالي إلى قلق آخر في الأسواق. فيوم الخميس تراجعت أسهم التكنولوجيا، ويوم الجمعة ظلت العقود على مؤشر S&P 500 في انخفاض. وقد خفضت تسلا استثماراتها المتوقعة للسنة بـ20٪، ما يثير المخاوف من تباطؤ الإنفاق على الذكاء الاصطناعي، محرك البورصة منذ سنتين. وتراجع الذهب، الملاذ الآمن المعتاد، بدوره قليلا. ويمكن الاعتقاد أن المستثمرين يسعون أساسا إلى تقليص مخاطرهم في انتظار وضوح أكبر."
+     "body_ar": "يضاف النفط الغالي إلى قلق آخر في الأسواق. فيوم الخميس تراجعت أسهم التكنولوجيا، ويوم الجمعة ظلت العقود على مؤشر S&P 500 في انخفاض. وقد خفضت تسلا استثماراتها المتوقعة للسنة بـ20٪، ما يثير المخاوف من تباطؤ الإنفاق على الذكاء الاصطناعي، محرك البورصة منذ سنتين. وتراجع الذهب، الملاذ الآمن المعتاد، بدوره قليلا. ويمكن الاعتقاد أن المستثمرين يسعون أساسا إلى تقليص مخاطرهم في انتظار وضوح أكبر.",
+     "h": "Des Bourses nerveuses",
+     "h_ar": "بورصات متوترة"
     },
     {
-     "h": "Ce qu'il faut surveiller",
-     "h_ar": "ما يجب متابعته",
      "body": "Trois éléments seront décisifs. D'abord la sécurité des routes et de l'oléoduc saoudien, déjà coupé un temps par des drones en septembre. Ensuite les discussions diplomatiques : selon des sources citées par Voice of Emirates, un accord n'est pas encore proche. Enfin les stocks : le G7 a promis jusqu'à 100 millions de barils de ses réserves, et le patron d'Aramco estime qu'il faudra jusqu'à deux ans pour reconstituer les stocks mondiaux. Pour un pays importateur comme le Maroc, la durée de ces prix élevés pèsera sur le coût des carburants et sur la facture énergétique.",
-     "body_ar": "ثلاثة عناصر ستكون حاسمة. أولا أمن الطرق والأنبوب السعودي، الذي عطلته طائرات مسيّرة لفترة في سبتمبر. ثانيا المحادثات الدبلوماسية: فحسب مصادر أوردها موقع فويس أوف إمارات، لا يبدو الاتفاق قريبا بعد. ثالثا المخزونات: فقد وعدت مجموعة السبع بما يصل إلى 100 مليون برميل من احتياطاتها، ويقدر رئيس أرامكو أن إعادة بناء المخزونات العالمية قد تستغرق عامين. وبالنسبة لبلد مستورد مثل المغرب، فإن مدة هذه الأسعار المرتفعة ستثقل كلفة المحروقات والفاتورة الطاقية."
+     "body_ar": "ثلاثة عناصر ستكون حاسمة. أولا أمن الطرق والأنبوب السعودي، الذي عطلته طائرات مسيّرة لفترة في سبتمبر. ثانيا المحادثات الدبلوماسية: فحسب مصادر أوردها موقع فويس أوف إمارات، لا يبدو الاتفاق قريبا بعد. ثالثا المخزونات: فقد وعدت مجموعة السبع بما يصل إلى 100 مليون برميل من احتياطاتها، ويقدر رئيس أرامكو أن إعادة بناء المخزونات العالمية قد تستغرق عامين. وبالنسبة لبلد مستورد مثل المغرب، فإن مدة هذه الأسعار المرتفعة ستثقل كلفة المحروقات والفاتورة الطاقية.",
+     "h": "Ce qu'il faut surveiller",
+     "h_ar": "ما يجب متابعته"
     }
    ],
-   "takeaway": "Le pétrole circule à nouveau, mais par des routes exposées : tant que les attaques continuent, les prix resteront très sensibles à la moindre nouvelle.",
-   "takeaway_ar": "النفط يتدفق من جديد لكن عبر طرق مكشوفة، وما دامت الهجمات مستمرة ستبقى الأسعار شديدة التأثر بأدنى خبر.",
    "sources": [
     {
      "name": "TheStreet",
@@ -6927,7 +6954,11 @@
      "name": "Voice of Emirates",
      "url": "https://www.voiceofemirates.com/en/business/2026/10/21/a-new-surge-oil-climbs-above-110-amid-threats-in-the-strait-of-hormuz/"
     }
-   ]
+   ],
+   "takeaway": "Le pétrole circule à nouveau, mais par des routes exposées : tant que les attaques continuent, les prix resteront très sensibles à la moindre nouvelle.",
+   "takeaway_ar": "النفط يتدفق من جديد لكن عبر طرق مكشوفة، وما دامت الهجمات مستمرة ستبقى الأسعار شديدة التأثر بأدنى خبر.",
+   "title": "Pétrole à 114 dollars : pourquoi Ormuz fait encore flamber les prix",
+   "title_ar": "النفط بـ114 دولارا: لماذا يواصل هرمز إشعال الأسعار"
   },
   {
    "cat": "maroc",
@@ -7542,21 +7573,21 @@
  ],
  "podcasts": [
   {
-   "id": "petroli-besoins-familiaux",
-   "lang": "ar",
-   "show": "بترولي",
-   "publisher": "إذاعة مختلف (Mukhtalif)",
-   "title": "Ce qui construit ou détruit un foyer : gérer les besoins de la famille",
-   "title_ar": "معمرات ومدمرات البيوت: كيف تدير حاجاتك الأسرية",
    "cat": "divers",
    "date": "2026-10-23",
+   "id": "petroli-besoins-familiaux",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b9/d6/a2/b9d6a23b-3569-63d8-2dbe-8ab1c15cc8c4/mza_6572163246502545132.jpg/600x600bb.jpg",
+   "lang": "ar",
    "minutes": 51,
+   "publisher": "إذاعة مختلف (Mukhtalif)",
+   "show": "بترولي",
    "summary": "Le conseiller éducatif Mohammed Al-Zahrani décrit cinq besoins essentiels qui expliquent les comportements dans une famille. Il montre comment des attentes différentes créent des conflits, et pourquoi écouter et accepter marche mieux que donner des ordres.",
    "summary_ar": "يشرح المستشار التربوي محمد الزهراني خمس حاجات أساسية تفسر السلوك داخل الأسرة. ويبين كيف تخلق التوقعات المختلفة النزاعات، ولماذا ينجح الإصغاء والتقبل أكثر من إعطاء الأوامر.",
-   "why": "Tu es papa d'un jeune enfant : des clés simples pour une maison plus calme, en arabe.",
-   "why_ar": "أنت أب لطفل صغير: مفاتيح بسيطة لبيت أكثر هدوءا، بالعربية.",
+   "title": "Ce qui construit ou détruit un foyer : gérer les besoins de la famille",
+   "title_ar": "معمرات ومدمرات البيوت: كيف تدير حاجاتك الأسرية",
    "url": "https://podcasts.apple.com/us/podcast/%D9%85%D8%B9%D9%85%D8%B1%D8%A7%D8%AA-%D9%88%D9%85%D8%AF%D9%85%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D9%8A%D9%88%D8%AA-%D9%83%D9%8A%D9%81-%D8%AA%D8%AF%D9%8A%D8%B1-%D8%AD%D8%A7%D8%AC%D8%A7%D8%AA%D9%83-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D9%8A%D8%A9-%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA/id1532674246?i=1000797778585&uo=4",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b9/d6/a2/b9d6a23b-3569-63d8-2dbe-8ab1c15cc8c4/mza_6572163246502545132.jpg/600x600bb.jpg"
+   "why": "Tu es papa d'un jeune enfant : des clés simples pour une maison plus calme, en arabe.",
+   "why_ar": "أنت أب لطفل صغير: مفاتيح بسيطة لبيت أكثر هدوءا، بالعربية."
   },
   {
    "cat": "cinema",
@@ -7644,21 +7675,21 @@
    "why_ar": "حوار طويل وغني عن ريادة الأعمال والأمن المعلوماتي؛ ابدأ بالمقطع المختصر من 11 دقيقة."
   },
   {
-   "id": "buzzinga-apple-5000-milliards-1610",
-   "lang": "ar",
-   "show": "Buzzinga أخبار الذكاء الاصطناعي",
-   "publisher": "Buzzinga",
-   "title": "Apple dépasse 5 000 milliards de dollars, nouveautés d'OpenAI et une puce qui rend la vue",
-   "title_ar": "إغلاق تاريخي لشركة أبل وتحديثات أوبن إيه آي وشريحة تعيد البصر",
    "cat": "ia",
    "date": "2026-10-16",
+   "id": "buzzinga-apple-5000-milliards-1610",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0c/e5/23/0ce52340-47d9-f573-32c9-04a95ea1d4c8/mza_11537965039084139341.png/600x600bb.jpg",
+   "lang": "ar",
    "minutes": 18,
+   "publisher": "Buzzinga",
+   "show": "Buzzinga أخبار الذكاء الاصطناعي",
    "summary": "Le résumé de l'actualité IA et tech de la semaine : la valeur d'Apple qui passe 5 000 milliards de dollars, OpenAI qui retire un ancien modèle GPT et un fonds de 50 millions pour l'IA dans les villes. L'épisode parle aussi d'une puce qui aide à retrouver la vue.",
    "summary_ar": "ملخص أخبار الذكاء الاصطناعي والتكنولوجيا للأسبوع: قيمة أبل تتجاوز 5 آلاف مليار دولار، وأوبن إيه آي تسحب نموذجا قديما من GPT، وصندوق بـ50 مليون دولار للذكاء الاصطناعي في المدن، إضافة إلى شريحة تساعد على استعادة البصر.",
-   "why": "Un quart d'heure en arabe pour rester à jour sur l'IA sans lire dix articles.",
-   "why_ar": "ربع ساعة بالعربية لتبقى على اطلاع بالذكاء الاصطناعي دون قراءة عشرة مقالات.",
+   "title": "Apple dépasse 5 000 milliards de dollars, nouveautés d'OpenAI et une puce qui rend la vue",
+   "title_ar": "إغلاق تاريخي لشركة أبل وتحديثات أوبن إيه آي وشريحة تعيد البصر",
    "url": "https://podcasts.apple.com/us/podcast/%D8%A5%D8%BA%D9%84%D8%A7%D9%82-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A-%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%A3%D8%A8%D9%84-%D9%88%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB%D8%A7%D8%AA-%D8%A3%D9%88%D8%A8%D9%86-%D8%A5%D9%8A%D9%87-%D8%A2%D9%8A-%D9%88%D8%B4%D8%B1%D9%8A%D8%AD%D8%A9/id1772300534?i=1000796656620&uo=4",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0c/e5/23/0ce52340-47d9-f573-32c9-04a95ea1d4c8/mza_11537965039084139341.png/600x600bb.jpg"
+   "why": "Un quart d'heure en arabe pour rester à jour sur l'IA sans lire dix articles.",
+   "why_ar": "ربع ساعة بالعربية لتبقى على اطلاع بالذكاء الاصطناعي دون قراءة عشرة مقالات."
   },
   {
    "cat": "tech",
@@ -7780,38 +7811,38 @@
    "why_ar": "نظرة من الداخل على إدارة الماء والغذاء في بلد جاف، وهو تحدٍّ يعرفه المغرب جيدًا."
   },
   {
-   "id": "underscore-quentin-adam-developpeurs",
-   "lang": "fr",
-   "show": "Underscore_",
-   "publisher": "Underscore_",
-   "title": "On ne paie plus les développeurs pour écrire du code ? | Quentin Adam",
-   "title_ar": "هل لم نعد ندفع للمطورين مقابل كتابة الشيفرة؟ | كونتان آدم",
    "cat": "ia",
    "date": "2026-10-08",
+   "id": "underscore-quentin-adam-developpeurs",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/95/dd/83/95dd8336-6a51-c93b-2f4a-658d8c8b1dbf/mza_8103606600476781229.jpg/600x600bb.jpg",
+   "lang": "fr",
    "minutes": 38,
+   "publisher": "Underscore_",
+   "show": "Underscore_",
    "summary": "Quentin Adam dirige une entreprise tech de 70 développeurs. Il raconte comment il est passé du scepticisme à la reconstruction complète de son entreprise autour des outils de code par IA.",
    "summary_ar": "يدير كونتان آدم شركة تقنية تضم 70 مطورا، ويحكي كيف انتقل من التشكيك إلى إعادة بناء شركته بالكامل حول أدوات البرمجة بالذكاء الاصطناعي.",
-   "why": "Ce qui arrive aux développeurs arrive aussi aux designers : un témoignage concret pour penser ton propre métier.",
-   "why_ar": "ما يحدث للمطورين يحدث للمصممين أيضا: شهادة ملموسة لتفكر في مهنتك.",
+   "title": "On ne paie plus les développeurs pour écrire du code ? | Quentin Adam",
+   "title_ar": "هل لم نعد ندفع للمطورين مقابل كتابة الشيفرة؟ | كونتان آدم",
    "url": "https://podcasts.apple.com/us/podcast/on-ne-paie-plus-les-d%C3%A9veloppeurs-pour-%C3%A9crire-du-code/id1556250107?i=1000793801348&uo=4",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/95/dd/83/95dd8336-6a51-c93b-2f4a-658d8c8b1dbf/mza_8103606600476781229.jpg/600x600bb.jpg"
+   "why": "Ce qui arrive aux développeurs arrive aussi aux designers : un témoignage concret pour penser ton propre métier.",
+   "why_ar": "ما يحدث للمطورين يحدث للمصممين أيضا: شهادة ملموسة لتفكر في مهنتك."
   },
   {
-   "id": "heure-du-monde-ceuta-crise",
-   "lang": "fr",
-   "show": "L'Heure du Monde",
-   "publisher": "Le Monde",
-   "title": "Crise migratoire à Ceuta : l'Espagne dans l'impasse",
-   "title_ar": "أزمة الهجرة في سبتة: إسبانيا في مأزق",
    "cat": "geo",
    "date": "2026-10-08",
+   "id": "heure-du-monde-ceuta-crise",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/94/95/ef/9495efec-1e1f-8f8a-a4e0-5601a2658913/mza_11562495173060156197.jpeg/600x600bb.jpg",
+   "lang": "fr",
    "minutes": 24,
+   "publisher": "Le Monde",
+   "show": "L'Heure du Monde",
    "summary": "L'épisode revient sur l'arrivée massive de migrants à la nage à Ceuta fin juillet et sur la crise humanitaire qui a suivi. Il analyse les conséquences politiques en Espagne et en Europe, et les tensions avec le Maroc.",
    "summary_ar": "تعود الحلقة إلى وصول أعداد كبيرة من المهاجرين سباحة إلى سبتة نهاية يوليوز، وإلى الأزمة الإنسانية التي تلت ذلك. وتحلل التداعيات السياسية في إسبانيا وأوروبا والتوترات مع المغرب.",
-   "why": "Un regard européen sur un dossier qui touche directement le Maroc, utile pour comparer avec la presse marocaine.",
-   "why_ar": "نظرة أوروبية إلى ملف يمس المغرب مباشرة، مفيدة للمقارنة مع الصحافة المغربية.",
+   "title": "Crise migratoire à Ceuta : l'Espagne dans l'impasse",
+   "title_ar": "أزمة الهجرة في سبتة: إسبانيا في مأزق",
    "url": "https://podcasts.apple.com/us/podcast/crise-migratoire-%C3%A0-ceuta-lespagne-dans-limpasse/id1704984604?i=1000793784813&uo=4",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/94/95/ef/9495efec-1e1f-8f8a-a4e0-5601a2658913/mza_11562495173060156197.jpeg/600x600bb.jpg"
+   "why": "Un regard européen sur un dossier qui touche directement le Maroc, utile pour comparer avec la presse marocaine.",
+   "why_ar": "نظرة أوروبية إلى ملف يمس المغرب مباشرة، مفيدة للمقارنة مع الصحافة المغربية."
   }
  ],
  "pause": [
@@ -8637,56 +8668,56 @@
     }
    },
    {
-    "id": "godzilla-minus-zero",
-    "kind": "film",
-    "title": "Godzilla Minus Zero",
-    "title_ar": "غودزيلا ناقص صفر",
-    "original": "",
-    "platform": "Cinéma",
-    "date": "2026-11-04",
-    "status": "soon",
-    "genre": "Science-fiction, catastrophe",
-    "genre_ar": "خيال علمي، كوارث",
     "creators": "Takashi Yamazaki · Masami Nagasawa, Jun Kunimura",
-    "summary": "Dans le Japon d'après-guerre, un ancien pilote kamikaze, déjà marqué par une rencontre avec Godzilla, doit de nouveau faire face au monstre. C'est la suite de Godzilla Minus One, du même réalisateur.",
-    "summary_ar": "في يابان ما بعد الحرب، يجد طيار انتحاري سابق، سبق أن طبعته مواجهة مع غودزيلا، نفسه من جديد أمام الوحش. وهو تتمة لفيلم «غودزيلا ناقص واحد» للمخرج نفسه.",
     "critics": "Très bon accueil : 94 % de critiques positives sur Rotten Tomatoes aux premières projections.",
     "critics_ar": "استقبال جيد جدا: 94٪ من المراجعات إيجابية على روتن توميتوز في العروض الأولى.",
+    "date": "2026-11-04",
+    "family": false,
     "for_you": "Pour toi si tu as aimé Minus One : du grand spectacle avec une vraie émotion humaine, à voir en IMAX ; trop intense pour un jeune enfant.",
     "for_you_ar": "مناسب لك إن أحببت «ناقص واحد»: عرض ضخم بعاطفة إنسانية حقيقية، يستحق المشاهدة في آيماكس؛ لكنه مكثف جدا لطفل صغير.",
+    "genre": "Science-fiction, catastrophe",
+    "genre_ar": "خيال علمي، كوارث",
+    "id": "godzilla-minus-zero",
+    "image": "https://i.ytimg.com/vi/kw0YhiqOPFg/hqdefault.jpg",
+    "kind": "film",
+    "original": "",
     "pick": false,
-    "family": false,
+    "platform": "Cinéma",
+    "status": "soon",
+    "summary": "Dans le Japon d'après-guerre, un ancien pilote kamikaze, déjà marqué par une rencontre avec Godzilla, doit de nouveau faire face au monstre. C'est la suite de Godzilla Minus One, du même réalisateur.",
+    "summary_ar": "في يابان ما بعد الحرب، يجد طيار انتحاري سابق، سبق أن طبعته مواجهة مع غودزيلا، نفسه من جديد أمام الوحش. وهو تتمة لفيلم «غودزيلا ناقص واحد» للمخرج نفسه.",
+    "title": "Godzilla Minus Zero",
+    "title_ar": "غودزيلا ناقص صفر",
     "url": "https://awardsradar.com/2026/09/08/official-trailer-released-for-godzilla-minus-zero/",
     "video": {
-     "url": "https://www.youtube.com/watch?v=kw0YhiqOPFg",
+     "channel": "GODZILLA OFFICIAL by TOHO",
      "id": "kw0YhiqOPFg",
      "kind": "trailer",
-     "channel": "GODZILLA OFFICIAL by TOHO"
-    },
-    "image": "https://i.ytimg.com/vi/kw0YhiqOPFg/hqdefault.jpg"
+     "url": "https://www.youtube.com/watch?v=kw0YhiqOPFg"
+    }
    },
    {
-    "id": "wild-horse-nine",
-    "kind": "film",
-    "title": "Wild Horse Nine",
-    "title_ar": "وايلد هورس ناين",
-    "original": "",
-    "platform": "Cinéma",
-    "date": "2026-11-04",
-    "status": "soon",
-    "genre": "Comédie noire, espionnage",
-    "genre_ar": "كوميديا سوداء، تجسس",
     "creators": "Martin McDonagh · John Malkovich, Sam Rockwell, Steve Buscemi",
-    "summary": "En 1973, deux agents de la CIA sont envoyés sur l'île de Pâques peu avant le coup d'État au Chili. Le nouveau film du réalisateur de Bons baisers de Bruges et des Banshees d'Inisherin.",
-    "summary_ar": "سنة 1973، يُرسَل عميلان من وكالة المخابرات الأمريكية إلى جزيرة الفصح قبيل الانقلاب في الشيلي. وهو الفيلم الجديد لمخرج «في بروج» و«جنيات إينيشيرين».",
     "critics": "Bon accueil depuis Venise : Metacritic à 79, la performance de Malkovich est très saluée.",
     "critics_ar": "استقبال جيد منذ البندقية: 79 على ميتاكريتيك، وأداء مالكوفيتش لقي إشادة كبيرة.",
+    "date": "2026-11-04",
+    "family": false,
     "for_you": "Pour toi si tu aimes l'humour noir et les dialogues ciselés de McDonagh ; un film d'auteur pour adultes.",
     "for_you_ar": "مناسب لك إن كنت تحب الفكاهة السوداء والحوارات المتقنة لماكدونا؛ فيلم مؤلف للكبار.",
+    "genre": "Comédie noire, espionnage",
+    "genre_ar": "كوميديا سوداء، تجسس",
+    "id": "wild-horse-nine",
+    "image": "",
+    "kind": "film",
+    "original": "",
     "pick": false,
-    "family": false,
-    "url": "https://www.screendaily.com/reviews/wild-horse-nine-review-john-malkovich-and-sam-rockwell-command-martin-mcdonaghs-potent-1970s-character-study/5219987.article",
-    "image": ""
+    "platform": "Cinéma",
+    "status": "soon",
+    "summary": "En 1973, deux agents de la CIA sont envoyés sur l'île de Pâques peu avant le coup d'État au Chili. Le nouveau film du réalisateur de Bons baisers de Bruges et des Banshees d'Inisherin.",
+    "summary_ar": "سنة 1973، يُرسَل عميلان من وكالة المخابرات الأمريكية إلى جزيرة الفصح قبيل الانقلاب في الشيلي. وهو الفيلم الجديد لمخرج «في بروج» و«جنيات إينيشيرين».",
+    "title": "Wild Horse Nine",
+    "title_ar": "وايلد هورس ناين",
+    "url": "https://www.screendaily.com/reviews/wild-horse-nine-review-john-malkovich-and-sam-rockwell-command-martin-mcdonaghs-potent-1970s-character-study/5219987.article"
    },
    {
     "creators": "Joe Barton (créateur) · Keira Knightley, Ben Whishaw, Sarah Lancashire",
@@ -8790,6 +8821,6 @@
    "العالم: هرمز: برنت يصعد إلى 114,5 دولارا، أعلى مستوى منذ أكثر من خمسة أشهر.",
    "الاقتصاد: وول ستريت تواصل التراجع، والمخاوف من تراجع الإنفاق على الذكاء الاصطناعي."
   ],
-  "updatedAt": "2026-10-23T16:00:39Z"
+  "updatedAt": "2026-10-23T18:49:17Z"
  }
 }
